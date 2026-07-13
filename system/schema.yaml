@@ -1,0 +1,159 @@
+schema_version: 1
+frontmatter_format: constrained_yaml
+common_required:
+  - id
+  - type
+  - title
+  - status
+  - created_at
+  - updated_at
+  - tags
+  - relationships
+date_fields:
+  - created_at
+  - updated_at
+types:
+  evidence:
+    directory: evidence/sources
+    id_prefix: evi-
+    required:
+      - raw_file
+      - raw_sha256
+      - raw_entry_index
+      - raw_line_start
+      - raw_line_end
+      - ingested_at
+      - source_title
+      - source_url
+      - canonical_url
+      - author
+      - publisher
+      - published_at
+      - date_status
+      - date_source
+      - date_precision
+      - curated_path
+      - collection_position
+      - global_position
+    date_fields:
+      - ingested_at
+    statuses:
+      - active
+      - superseded
+      - archived
+  hub:
+    directory: wiki/hubs
+    id_prefix: hub-
+    required:
+      - description
+    statuses:
+      - draft
+      - active
+      - archived
+  signal:
+    directory: wiki/signals
+    id_prefix: sig-
+    required:
+      - description
+      - evidence
+    statuses:
+      - candidate
+      - active
+      - contested
+      - superseded
+      - archived
+  trend:
+    directory: wiki/trends
+    id_prefix: trd-
+    required:
+      - description
+      - scope
+      - period_start
+      - period_end
+      - evidence
+    statuses:
+      - candidate
+      - active
+      - contested
+      - mature
+      - reversing
+      - superseded
+      - archived
+  concept:
+    directory: wiki/concepts
+    id_prefix: con-
+    required:
+      - description
+      - evidence
+    statuses:
+      - candidate
+      - active
+      - contested
+      - deprecated
+      - archived
+  framework:
+    directory: wiki/frameworks
+    id_prefix: frm-
+    required:
+      - description
+      - evidence
+    statuses:
+      - candidate
+      - active
+      - contested
+      - deprecated
+      - archived
+  debate:
+    directory: wiki/debates
+    id_prefix: deb-
+    required:
+      - description
+      - evidence
+    statuses:
+      - open
+      - active
+      - resolved
+      - archived
+  question:
+    directory: wiki/questions
+    id_prefix: qst-
+    required:
+      - description
+      - origin
+    statuses:
+      - open
+      - investigating
+      - answered
+      - deferred
+      - closed
+evidence_required_for:
+  - signal
+  - trend
+  - concept
+  - framework
+  - debate
+claim_classes:
+  - observation
+  - interpretation
+  - prediction
+  - normative_position
+  - conceptual_claim
+relationships:
+  supports: supported_by
+  supported_by: supports
+  contradicts: contradicted_by
+  contradicted_by: contradicts
+  qualifies: qualified_by
+  qualified_by: qualifies
+  exemplifies: exemplified_by
+  exemplified_by: exemplifies
+  refines: refined_by
+  refined_by: refines
+  operationalizes: operationalized_by
+  operationalized_by: operationalizes
+  supersedes: superseded_by
+  superseded_by: supersedes
+  raises_question: raised_by
+  raised_by: raises_question
+  evidenced_by: evidence_for
+  evidence_for: evidenced_by
