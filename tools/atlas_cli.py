@@ -459,6 +459,98 @@ def _validate_evidence_provenance(
     return issues
 
 
+def _validate_evidence_source_metadata(page: Page, schema: Dict[str, Any]) -> List[Issue]:
+    issues: List[Issue] = []
+    metadata = page.metadata
+    allowed_statuses = set(schema.get("evidence_source_metadata_statuses", []))
+    recovered = False
+    for value_field, status_field in (
+        ("canonical_url", "canonical_url_status"),
+        ("author", "author_status"),
+        ("publisher", "publisher_status"),
+    ):
+        value = metadata.get(value_field)
+        status = metadata.get(status_field)
+        if status not in allowed_statuses:
+            issues.append(
+                Issue("source_metadata.status_invalid", page.path, f"{status_field} {status!r} is invalid")
+            )
+            continue
+        if status == "unresolved" and value is not None:
+            issues.append(
+                Issue("source_metadata.status_conflict", page.path, f"{value_field} must be null when unresolved")
+            )
+        elif status in {"verified", "inferred"}:
+            recovered = True
+            if not isinstance(value, str) or not value.strip():
+                issues.append(
+                    Issue("source_metadata.value_missing", page.path, f"{value_field} requires a value when {status}")
+                )
+        if value_field == "canonical_url" and isinstance(value, str) and not re.match(r"^https?://", value):
+            issues.append(
+                Issue("source_metadata.url_invalid", page.path, "canonical_url must be an HTTP(S) URL")
+            )
+
+    date_status = metadata.get("date_status")
+    date_precision = metadata.get("date_precision")
+    published_at = metadata.get("published_at")
+    date_source = metadata.get("date_source")
+    if date_status not in set(schema.get("evidence_date_statuses", [])):
+        issues.append(Issue("source_date.status_invalid", page.path, f"date_status {date_status!r} is invalid"))
+    elif date_status == "unresolved":
+        if published_at is not None or date_source is not None or date_precision != "unknown":
+            issues.append(
+                Issue(
+                    "source_date.status_conflict",
+                    page.path,
+                    "unresolved publication dates require null value/source and unknown precision",
+                )
+            )
+    else:
+        recovered = True
+        if date_precision not in set(schema.get("evidence_date_precisions", [])) - {"unknown"}:
+            issues.append(
+                Issue("source_date.precision_invalid", page.path, f"date_precision {date_precision!r} is invalid")
+            )
+        if not isinstance(date_source, str) or not date_source:
+            issues.append(Issue("source_date.source_missing", page.path, "recovered date requires date_source"))
+        valid_date = False
+        if isinstance(published_at, str):
+            try:
+                if date_precision == "day" and ISO_DATE_RE.fullmatch(published_at):
+                    dt.date.fromisoformat(published_at)
+                    valid_date = True
+                elif date_precision == "month" and re.fullmatch(r"\d{4}-\d{2}", published_at):
+                    dt.date.fromisoformat(published_at + "-01")
+                    valid_date = True
+                elif date_precision == "year" and re.fullmatch(r"\d{4}", published_at):
+                    valid_date = int(published_at) >= 1
+            except ValueError:
+                valid_date = False
+        if not valid_date:
+            issues.append(
+                Issue("source_date.value_invalid", page.path, "published_at does not match date_precision")
+            )
+
+    checked_at = metadata.get("metadata_checked_at")
+    valid_checked_at = False
+    if isinstance(checked_at, str) and ISO_DATE_RE.fullmatch(checked_at):
+        try:
+            dt.date.fromisoformat(checked_at)
+            valid_checked_at = True
+        except ValueError:
+            pass
+    if checked_at is not None and not valid_checked_at:
+        issues.append(
+            Issue("source_metadata.checked_at_invalid", page.path, "metadata_checked_at must be null or ISO date")
+        )
+    if recovered and not valid_checked_at:
+        issues.append(
+            Issue("source_metadata.checked_at_missing", page.path, "recovered metadata requires metadata_checked_at")
+        )
+    return issues
+
+
 def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[Page], List[Issue]]:
     paths = content_markdown_files(content_root)
     pages: List[Page] = []
@@ -575,10 +667,89 @@ def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[P
 
         if page_type == "evidence":
             issues.extend(_validate_evidence_provenance(page, content_root, raw_cache))
+            issues.extend(_validate_evidence_source_metadata(page, schema))
             claim_anchors = [anchor for anchor in page.anchors if re.fullmatch(r"claim-[1-9][0-9]*", anchor)]
-            if metadata.get("status") == "active" and not claim_anchors:
+            claim_status = metadata.get("claim_extraction_status")
+            allowed_claim_statuses = schema.get("evidence_claim_extraction_statuses", [])
+            if claim_status not in allowed_claim_statuses:
                 issues.append(
-                    Issue("evidence.claim_missing", page.path, "active Evidence requires at least one claim anchor")
+                    Issue(
+                        "evidence.claim_status_invalid",
+                        page.path,
+                        f"claim_extraction_status {claim_status!r} is invalid",
+                    )
+                )
+            elif claim_status == "complete_with_claims" and not claim_anchors:
+                issues.append(
+                    Issue("evidence.claim_missing", page.path, "completed claim extraction requires a claim anchor")
+                )
+            elif claim_status == "complete_no_claims" and claim_anchors:
+                issues.append(
+                    Issue("evidence.claim_status_conflict", page.path, "complete_no_claims cannot contain claim anchors")
+                )
+            if metadata.get("status") == "active" and claim_status == "pending":
+                issues.append(
+                    Issue("evidence.claim_pending", page.path, "active Evidence cannot have pending claim extraction")
+                )
+            classifications = re.findall(r"(?m)^- Classification: `([^`]+)`\s*$", page.body)
+            if len(classifications) != len(claim_anchors):
+                issues.append(
+                    Issue(
+                        "evidence.claim_classification_count",
+                        page.path,
+                        "each claim anchor requires exactly one Classification field",
+                    )
+                )
+            claim_headings = re.findall(r"(?m)^### Claim ([1-9][0-9]*) — (.+)$", page.body)
+            if len(claim_headings) != len(claim_anchors):
+                issues.append(
+                    Issue(
+                        "evidence.claim_heading_count",
+                        page.path,
+                        "each claim anchor requires exactly one numbered claim heading",
+                    )
+                )
+            else:
+                for index, ((heading_number, heading_class), classification) in enumerate(
+                    zip(claim_headings, classifications), 1
+                ):
+                    normalized_heading_class = heading_class.strip().lower().replace(" ", "_")
+                    if int(heading_number) != index or normalized_heading_class != classification:
+                        issues.append(
+                            Issue(
+                                "evidence.claim_heading_mismatch",
+                                page.path,
+                                f"claim {index} heading must match its classification",
+                            )
+                        )
+            for field in ("Scope", "Date relevance", "Qualification"):
+                field_count = len(re.findall(rf"(?m)^- {re.escape(field)}: .+$", page.body))
+                if field_count != len(claim_anchors):
+                    issues.append(
+                        Issue(
+                            "evidence.claim_field_count",
+                            page.path,
+                            f"each claim requires exactly one {field} field",
+                        )
+                    )
+            allowed_classes = set(schema.get("claim_classes", []))
+            for classification in classifications:
+                if classification not in allowed_classes:
+                    issues.append(
+                        Issue(
+                            "evidence.claim_class_invalid",
+                            page.path,
+                            f"unsupported claim classification {classification!r}",
+                        )
+                    )
+            expected_anchors = [f"claim-{index}" for index in range(1, len(claim_anchors) + 1)]
+            if claim_anchors != expected_anchors:
+                issues.append(
+                    Issue(
+                        "evidence.claim_anchor_sequence",
+                        page.path,
+                        "claim anchors must be unique and sequential from claim-1",
+                    )
                 )
 
     # Resolve body links, evidence citations, relationships, and inverses after all pages exist.
@@ -816,13 +987,46 @@ def command_status(root: Path, as_json: bool = False) -> int:
         manifest = {"files": {}}
     manifest_files = manifest.get("files", {}) if isinstance(manifest, dict) else {}
     raw_names = [path.relative_to(root).as_posix() for path in raw_files]
-    processed = [name for name in raw_names if name in manifest_files]
+    processed = [
+        name
+        for name in raw_names
+        if name in manifest_files
+        and (
+            not isinstance(manifest_files[name], dict)
+            or manifest_files[name].get("status", "complete") == "complete"
+        )
+    ]
+    partial = [
+        name
+        for name in raw_names
+        if isinstance(manifest_files.get(name), dict)
+        and manifest_files[name].get("status") == "partial"
+    ]
     counts = Counter(page.page_type for page in pages)
+    evidence = [page for page in pages if page.page_type == "evidence"]
     data = {
         "raw_files": len(raw_files),
         "processed_raw_files": len(processed),
-        "unprocessed_raw_files": len(raw_files) - len(processed),
+        "partially_processed_raw_files": len(partial),
+        "unprocessed_raw_files": len(raw_files) - len(processed) - len(partial),
         "evidence_pages": counts.get("evidence", 0),
+        "draft_evidence_pages": sum(page.metadata.get("status") == "draft" for page in evidence),
+        "active_evidence_pages": sum(page.metadata.get("status") == "active" for page in evidence),
+        "atomic_claims": sum(
+            bool(re.fullmatch(r"claim-[1-9][0-9]*", anchor))
+            for page in evidence
+            for anchor in page.anchors
+        ),
+        "claim_review_pending": sum(
+            page.metadata.get("claim_extraction_status") == "pending" for page in evidence
+        ),
+        "reviewed_without_claims": sum(
+            page.metadata.get("claim_extraction_status") == "complete_no_claims" for page in evidence
+        ),
+        "metadata_reviewed": sum(page.metadata.get("metadata_checked_at") is not None for page in evidence),
+        "verified_publication_dates": sum(page.metadata.get("date_status") == "verified" for page in evidence),
+        "inferred_publication_dates": sum(page.metadata.get("date_status") == "inferred" for page in evidence),
+        "unresolved_publication_dates": sum(page.metadata.get("date_status") == "unresolved" for page in evidence),
         "wiki_pages": sum(count for page_type, count in counts.items() if page_type != "evidence"),
         "validation_issues": len(issues),
     }
@@ -978,6 +1182,113 @@ def command_bootstrap_evidence(
     return 0
 
 
+def command_bootstrap_register(
+    root: Path,
+    raw_file: str,
+    curated_h1: str,
+    curated_h2: str,
+    completed_at: str,
+    write: bool = False,
+) -> int:
+    try:
+        dt.date.fromisoformat(completed_at)
+    except ValueError as exc:
+        raise ValueError("--date must be a real ISO YYYY-MM-DD date") from exc
+    audit, plan = _load_bootstrap(root, raw_file)
+    selected = select_collection(audit, plan, curated_h1, curated_h2)
+    schema = load_schema(root)
+    _, validation_issues = validate_content(root, schema)
+    if validation_issues:
+        raise ValueError(f"repository validation has {len(validation_issues)} issue(s)")
+
+    evidence_records: Dict[str, Dict[str, str]] = {}
+    for _, plan_entry in selected:
+        page, page_issues = parse_markdown(root / plan_entry.evidence_file)
+        if page_issues or page is None:
+            raise ValueError(f"cannot parse reviewed Evidence: {plan_entry.evidence_file}")
+        metadata = page.metadata
+        expected = {
+            "id": plan_entry.evidence_id,
+            "raw_file": audit.raw_file,
+            "raw_sha256": audit.raw_sha256,
+            "raw_entry_index": plan_entry.global_position,
+        }
+        for field, value in expected.items():
+            if metadata.get(field) != value:
+                raise ValueError(f"{plan_entry.evidence_file} has unexpected {field}")
+        if metadata.get("status") != "active":
+            raise ValueError(f"{plan_entry.evidence_file} is not active")
+        if metadata.get("claim_extraction_status") not in {"complete_with_claims", "complete_no_claims"}:
+            raise ValueError(f"{plan_entry.evidence_file} has incomplete claim review")
+        evidence_records[str(plan_entry.global_position)] = {
+            "file": plan_entry.evidence_file,
+            "id": plan_entry.evidence_id,
+        }
+
+    manifest_path = root / "system/manifest.json"
+    original_manifest_content = manifest_path.read_text(encoding="utf-8")
+    manifest = json.loads(original_manifest_content)
+    files = manifest.setdefault("files", {})
+    if not isinstance(files, dict):
+        raise ValueError("manifest files must be a mapping")
+    record = files.get(audit.raw_file)
+    if record is None:
+        record = {
+            "collections": {},
+            "evidence": {},
+            "mode": "bootstrap_anthology",
+            "raw_sha256": audit.raw_sha256,
+            "status": "partial",
+            "total_entries": len(plan.entries),
+        }
+    if not isinstance(record, dict):
+        raise ValueError("bootstrap manifest record must be a mapping")
+    if record.get("raw_sha256") != audit.raw_sha256:
+        raise ValueError("manifest raw hash differs from the audited anthology")
+    if record.get("mode") != "bootstrap_anthology" or record.get("total_entries") != len(plan.entries):
+        raise ValueError("manifest bootstrap identity differs from the ingestion plan")
+    existing_evidence = record.setdefault("evidence", {})
+    collections = record.setdefault("collections", {})
+    if not isinstance(existing_evidence, dict) or not isinstance(collections, dict):
+        raise ValueError("manifest bootstrap evidence and collections must be mappings")
+    for index, evidence_record in evidence_records.items():
+        existing = existing_evidence.get(index)
+        if existing is not None and existing != evidence_record:
+            raise ValueError(f"manifest entry {index} conflicts with reviewed Evidence")
+        existing_evidence[index] = evidence_record
+    collection_key = f"{curated_h1} → {curated_h2}"
+    collection_record = {
+        "completed_at": completed_at,
+        "entry_end": selected[-1][1].global_position,
+        "entry_start": selected[0][1].global_position,
+        "evidence_ids": [plan_entry.evidence_id for _, plan_entry in selected],
+    }
+    existing_collection = collections.get(collection_key)
+    if existing_collection is not None and existing_collection != collection_record:
+        raise ValueError(f"manifest collection conflicts with {collection_key}")
+    collections[collection_key] = collection_record
+    record["completed_entries"] = len(existing_evidence)
+    record["status"] = "complete" if len(existing_evidence) == len(plan.entries) else "partial"
+    files[audit.raw_file] = record
+
+    print(f"Collection: {collection_key}")
+    print(f"Reviewed Evidence: {len(selected)}")
+    print(f"Anthology progress: {len(existing_evidence)}/{len(plan.entries)}")
+    print(f"Manifest status: {record['status']}")
+    if not write:
+        print("Dry run only; pass --write to update the manifest.")
+        return 0
+    content = json.dumps(manifest, indent=2, ensure_ascii=False, sort_keys=True) + "\n"
+    if content == original_manifest_content:
+        print("Manifest is unchanged.")
+        return 0
+    temporary = manifest_path.with_name(manifest_path.name + ".tmp")
+    temporary.write_text(content, encoding="utf-8")
+    os.replace(temporary, manifest_path)
+    print(f"WROTE {manifest_path.relative_to(root)}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="wiki", description="Change Atlas repository control plane")
     parser.add_argument(
@@ -1027,6 +1338,15 @@ def build_parser() -> argparse.ArgumentParser:
     bootstrap_evidence.add_argument("--h2", required=True, help="exact inherited H2 heading")
     bootstrap_evidence.add_argument("--date", required=True, help="ingestion date in ISO YYYY-MM-DD form")
     bootstrap_evidence.add_argument("--write", action="store_true", help="create Evidence drafts")
+    bootstrap_register = subparsers.add_parser(
+        "bootstrap-register",
+        help="register a validated, reviewed H1/H2 Evidence collection in the manifest",
+    )
+    bootstrap_register.add_argument("raw_file", help="repository-relative Markdown file beneath raw/")
+    bootstrap_register.add_argument("--h1", required=True, help="exact inherited H1 heading")
+    bootstrap_register.add_argument("--h2", required=True, help="exact inherited H2 heading")
+    bootstrap_register.add_argument("--date", required=True, help="review completion date in ISO YYYY-MM-DD form")
+    bootstrap_register.add_argument("--write", action="store_true", help="update the manifest")
     return parser
 
 
@@ -1049,6 +1369,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             return command_bootstrap_plan(root, args.raw_file, args.write)
         if args.command == "bootstrap-evidence":
             return command_bootstrap_evidence(
+                root,
+                args.raw_file,
+                args.h1,
+                args.h2,
+                args.date,
+                args.write,
+            )
+        if args.command == "bootstrap-register":
+            return command_bootstrap_register(
                 root,
                 args.raw_file,
                 args.h1,

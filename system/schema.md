@@ -48,7 +48,9 @@ Relationships are machine-checkable edges. Page bodies should also explain impor
 
 Evidence pages represent sources or curated source entries. They preserve the original quotation, metadata, editorial placement, and atomic claim anchors.
 
-Evidence begins as `draft` when deterministic bookkeeping is complete but interpretive claim extraction has not been reviewed. Draft Evidence may preserve excerpts and provenance without claim anchors. It must not be cited from the Wiki. Change it to `active` only after it contains at least one classified atomic claim with a stable `claim-N` anchor; the validator enforces this activation gate.
+Evidence begins as `draft` with `claim_extraction_status: pending` when deterministic bookkeeping is complete but interpretive claim extraction has not been reviewed. Draft Evidence may preserve excerpts and provenance without claim anchors and must not be cited from the Wiki.
+
+After review, set `claim_extraction_status` to `complete_with_claims` or `complete_no_claims`. The latter is a meaningful outcome: an excerpt may consist only of questions, context, or rhetoric that should not be normalized into a claim. Active Evidence cannot remain `pending`; `complete_with_claims` requires at least one stable `claim-N` anchor, while `complete_no_claims` requires none.
 
 Every Evidence page must first establish repository-level provenance:
 
@@ -73,6 +75,10 @@ ingested_at: 2026-07-13
 The validator confirms that the raw file exists, its checksum matches, and the entry and line coordinates are positive and coherent. For a normal one-source-per-file ingest, the entry index is `1` and the line range covers the relevant source portion. For the initial anthology, all Evidence records share one `raw_file` and `raw_sha256` while carrying distinct entry and line coordinates.
 
 Repository provenance and publication provenance are deliberately separate. `raw_*` fields identify the exact local input; `source_*` fields identify the original publication represented by that input.
+
+Canonical URL, author, and publisher each carry a status of `verified`, `inferred`, or `unresolved`. Verified values are displayed by the original source page. Inferred values are supported indirectly by a URL, site identity, or corroborating source but are not explicitly confirmed on the accessible page. An unresolved field must remain `null`.
+
+Publication dates use the same status vocabulary. `date_source` records how the date was recovered, and `date_precision` is `day`, `month`, `year`, or `unknown`. Partial dates use `YYYY-MM` or `YYYY`; never invent a day merely to satisfy a date format.
 
 Each claim must have a stable explicit anchor:
 

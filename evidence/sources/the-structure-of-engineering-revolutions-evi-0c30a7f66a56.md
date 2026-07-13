@@ -2,7 +2,7 @@
 id: evi-0c30a7f66a56
 type: evidence
 title: "The Structure of Engineering Revolutions"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 977
 ingested_at: 2026-07-13
 source_title: "The Structure of Engineering Revolutions"
 source_url: "https://webdirections.org/blog/the-structure-of-engineering-revolutions/"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://webdirections.org/blog/the-structure-of-engineering-revolutions/"
+canonical_url_status: verified
+author: "John Allsopp"
+author_status: verified
+publisher: "Web Directions"
+publisher_status: verified
+published_at: 2026-03-02
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 13
 global_position: 240
+claim_extraction_status: complete_with_claims
 ---
 
 # The Structure of Engineering Revolutions
@@ -42,10 +47,11 @@ global_position: 240
 - Raw entry and lines: entry 240, lines 975–978
 - Quote lines: 977–977
 - Original URL: <https://webdirections.org/blog/the-structure-of-engineering-revolutions/>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://webdirections.org/blog/the-structure-of-engineering-revolutions/>
+- Author: John Allsopp
+- Publisher: Web Directions
+- Publication date: 2026-03-02
+- Metadata recovery: Verified from the original source page on 2026-07-13.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 13/240
 - Structural audit warnings: None
@@ -56,7 +62,38 @@ global_position: 240
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+<a id="claim-1"></a>
+
+### Claim 1 — observation
+
+In the engineering practice described by the source, AI-agent workflows omit human code review and substitute repeated testing for deterministic human reasoning about correctness.
+
+- Classification: `observation`
+- Scope: The agent-driven software-development workflow described in the source, not software engineering universally.
+- Date relevance: Source published 2026-03-02.
+- Qualification: The excerpt reports a practice without identifying its prevalence, organization, codebase, or measured outcomes.
+
+<a id="claim-2"></a>
+
+### Claim 2 — interpretation
+
+Agent-driven iteration shifts the developer’s role away from careful architectural craft toward orchestrating an automated execution loop.
+
+- Classification: `interpretation`
+- Scope: The engineering workflow characterized by the source.
+- Date relevance: Source published 2026-03-02.
+- Qualification: The contrast is deliberately stark and may not capture hybrid workflows that retain design and review responsibilities.
+
+<a id="claim-3"></a>
+
+### Claim 3 — observation
+
+In the described workflow, an agent that selects the next ticket replaces explicit waterfall or agile planning routines.
+
+- Classification: `observation`
+- Scope: Planning behavior in the specific agent-driven workflow described by the source.
+- Date relevance: Source published 2026-03-02.
+- Qualification: The excerpt does not establish whether strategic prioritization occurs elsewhere or whether this pattern generalizes.
 
 ## Relationships
 

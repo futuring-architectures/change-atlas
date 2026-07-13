@@ -2,7 +2,7 @@
 id: evi-8e47b847a90f
 type: evidence
 title: "Are Other AIs Possible?"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 973
 ingested_at: 2026-07-13
 source_title: "Are Other AIs Possible?"
 source_url: "https://mail.cyberneticforests.com/sp/"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://mail.cyberneticforests.com/sp/"
+canonical_url_status: verified
+author: "Eryk Salvaggio"
+author_status: verified
+publisher: "spawning"
+publisher_status: verified
+published_at: 2025-01-26
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 12
 global_position: 239
+claim_extraction_status: complete_with_claims
 ---
 
 # Are Other AIs Possible?
@@ -42,10 +47,11 @@ global_position: 239
 - Raw entry and lines: entry 239, lines 971–974
 - Quote lines: 973–973
 - Original URL: <https://mail.cyberneticforests.com/sp/>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://mail.cyberneticforests.com/sp/>
+- Author: Eryk Salvaggio
+- Publisher: spawning
+- Publication date: 2025-01-26
+- Metadata recovery: Verified from the original source page on 2026-07-13.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 12/239
 - Structural audit warnings: None
@@ -56,7 +62,38 @@ global_position: 239
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+<a id="claim-1"></a>
+
+### Claim 1 — conceptual claim
+
+Technology embeds power because its construction depends on actors who possess the power and resources to build it.
+
+- Classification: `conceptual_claim`
+- Scope: Designed technological systems and the institutions that produce them.
+- Date relevance: Source published 2025-01-26; the claim describes a general design mechanism.
+- Qualification: The excerpt treats power broadly and does not distinguish economic, political, technical, or cultural forms.
+
+<a id="claim-2"></a>
+
+### Claim 2 — conceptual claim
+
+A system’s organizing value guides how design trade-offs are resolved and thereby becomes entrenched in the resulting technology.
+
+- Classification: `conceptual_claim`
+- Scope: Design processes involving repeated trade-offs among competing values.
+- Date relevance: Source published 2025-01-26.
+- Qualification: The account foregrounds one central value, while real design processes may reflect several values and constraints.
+
+<a id="claim-3"></a>
+
+### Claim 3 — conceptual claim
+
+When power is the organizing value of a design process, design decisions tend to reproduce power in the system.
+
+- Classification: `conceptual_claim`
+- Scope: Technologies designed with power as their primary organizing principle.
+- Date relevance: Source published 2025-01-26.
+- Qualification: The claim states a directional mechanism rather than demonstrating a particular AI system’s design history.
 
 ## Relationships
 

@@ -26,8 +26,11 @@ types:
       - source_title
       - source_url
       - canonical_url
+      - canonical_url_status
       - author
+      - author_status
       - publisher
+      - publisher_status
       - published_at
       - date_status
       - date_source
@@ -35,6 +38,7 @@ types:
       - curated_path
       - collection_position
       - global_position
+      - claim_extraction_status
     date_fields:
       - ingested_at
     statuses:
@@ -139,6 +143,23 @@ claim_classes:
   - prediction
   - normative_position
   - conceptual_claim
+evidence_claim_extraction_statuses:
+  - pending
+  - complete_with_claims
+  - complete_no_claims
+evidence_source_metadata_statuses:
+  - verified
+  - inferred
+  - unresolved
+evidence_date_statuses:
+  - verified
+  - inferred
+  - unresolved
+evidence_date_precisions:
+  - day
+  - month
+  - year
+  - unknown
 relationships:
   supports: supported_by
   supported_by: supports

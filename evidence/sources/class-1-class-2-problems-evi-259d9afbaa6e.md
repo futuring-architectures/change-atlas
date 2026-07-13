@@ -2,7 +2,7 @@
 id: evi-259d9afbaa6e
 type: evidence
 title: "Class 1 / Class 2 Problems"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 953
 ingested_at: 2026-07-13
 source_title: "Class 1 / Class 2 Problems"
 source_url: "https://kk.org/thetechnium/class-1-class-2-problems/"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://kk.org/thetechnium/class-1-class-2-problems/"
+canonical_url_status: verified
+author: "Kevin Kelly"
+author_status: inferred
+publisher: "The Technium"
+publisher_status: verified
+published_at: 2021-11-05
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 7
 global_position: 234
+claim_extraction_status: complete_with_claims
 ---
 
 # Class 1 / Class 2 Problems
@@ -42,10 +47,11 @@ global_position: 234
 - Raw entry and lines: entry 234, lines 951–954
 - Quote lines: 953–953
 - Original URL: <https://kk.org/thetechnium/class-1-class-2-problems/>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://kk.org/thetechnium/class-1-class-2-problems/>
+- Author: Kevin Kelly
+- Publisher: The Technium
+- Publication date: 2021-11-05
+- Metadata recovery: Page, publication, and date verified on 2026-07-13; author inferred from the site identity.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 7/234
 - Structural audit warnings: None
@@ -56,7 +62,38 @@ global_position: 234
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+<a id="claim-1"></a>
+
+### Claim 1 — conceptual claim
+
+As a technology matures, its central problem can shift from limited access and poor performance to the systemic consequences of universal access and effective performance.
+
+- Classification: `conceptual_claim`
+- Scope: Widely adopted technologies whose primary technical and distribution problems have been substantially solved.
+- Date relevance: Source published 2021-11-05; the claim describes a general maturity transition.
+- Qualification: The two problem classes are a framing device and may coexist rather than replace one another completely.
+
+<a id="claim-2"></a>
+
+### Claim 2 — conceptual claim
+
+Systemic challenges created by mature technologies require extra-market responses such as cultural norms, regulation, education, and reframing.
+
+- Classification: `conceptual_claim`
+- Scope: Social problems arising from ubiquitous, effective technologies.
+- Date relevance: Source published 2021-11-05.
+- Qualification: The excerpt names a response portfolio but does not establish which combination works under which conditions.
+
+<a id="claim-3"></a>
+
+### Claim 3 — interpretation
+
+Soft, slow-moving extra-market responses receive less attention than their importance warrants.
+
+- Classification: `interpretation`
+- Scope: Cultural norms, smart regulation, broad education, and problem reframing.
+- Date relevance: Source published 2021-11-05.
+- Qualification: The source supplies no comparative measure of attention within the excerpt.
 
 ## Relationships
 

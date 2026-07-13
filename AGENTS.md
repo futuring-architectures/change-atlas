@@ -122,7 +122,9 @@ tools/wiki bootstrap-plan raw/thoughtforming-on-digital-transformation-2026-07-1
 
 Generate one exact H1/H2 collection at a time with `bootstrap-evidence`. This creates provenance-complete `draft` Evidence only. It must preserve the excerpt verbatim and must not overwrite a changed draft. Deterministic generation does not extract claims, activate Evidence, update the manifest, or synthesize Wiki pages.
 
-Review each draft interpretively, add stable classified claim anchors, and change its status to `active` only when the page is complete. Draft Evidence cannot be cited by the Wiki. Update the manifest and operational log only after the reviewed batch validates successfully.
+Review each draft interpretively and record `claim_extraction_status`. Use `complete_with_claims` with stable classified claim anchors, or `complete_no_claims` when forcing an assertion would misrepresent the excerpt. Change the Evidence status to `active` only when that review is complete. Draft Evidence cannot be cited by the Wiki, and no-claim Evidence cannot serve as a claim citation. Update the manifest and operational log only after the reviewed batch validates successfully.
+
+Register each completed bootstrap collection with `tools/wiki bootstrap-register`. A partially processed anthology remains `partial` in the manifest and must not be counted as a fully processed raw file.
 
 ## Query workflow
 

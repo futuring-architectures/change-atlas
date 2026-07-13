@@ -2,7 +2,7 @@
 id: evi-6c29b15157f2
 type: evidence
 title: "Is the Internet Different?"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 933
 ingested_at: 2026-07-13
 source_title: "Is the Internet Different?"
 source_url: "https://stratechery.com/2020/is-the-internet-different/"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://stratechery.com/2020/is-the-internet-different/"
+canonical_url_status: verified
+author: "Ben Thompson"
+author_status: verified
+publisher: "Stratechery"
+publisher_status: verified
+published_at: 2020-11-03
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 2
 global_position: 229
+claim_extraction_status: complete_with_claims
 ---
 
 # Is the Internet Different?
@@ -42,10 +47,11 @@ global_position: 229
 - Raw entry and lines: entry 229, lines 931–934
 - Quote lines: 933–933
 - Original URL: <https://stratechery.com/2020/is-the-internet-different/>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://stratechery.com/2020/is-the-internet-different/>
+- Author: Ben Thompson
+- Publisher: Stratechery
+- Publication date: 2020-11-03
+- Metadata recovery: Verified from the original source page on 2026-07-13.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 2/229
 - Structural audit warnings: None
@@ -56,7 +62,38 @@ global_position: 229
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+<a id="claim-1"></a>
+
+### Claim 1 — interpretation
+
+Internet aggregators weakened traditional media business models that depended on controlling distribution.
+
+- Classification: `interpretation`
+- Scope: Google, Facebook, Twitter, and traditional media businesses discussed by the source.
+- Date relevance: Source published 2020-11-03.
+- Qualification: The excerpt asserts the effect without measuring its magnitude or separating other causes.
+
+<a id="claim-2"></a>
+
+### Claim 2 — interpretation
+
+The same aggregators benefit consumers by matching them more directly with content they want.
+
+- Classification: `interpretation`
+- Scope: Consumer access to content through the named aggregators.
+- Date relevance: Source published 2020-11-03.
+- Qualification: “What consumers want” is treated as a benefit; downstream welfare, market, and societal effects are outside the excerpt.
+
+<a id="claim-3"></a>
+
+### Claim 3 — interpretation
+
+Consumer benefits from aggregation can justify an antitrust interpretation that differs from one centered on harm to incumbent media firms.
+
+- Classification: `interpretation`
+- Scope: Antitrust analysis of internet aggregators.
+- Date relevance: Source published 2020-11-03.
+- Qualification: The source presents this as a potentially heretical perspective, not as a settled legal conclusion.
 
 ## Relationships
 

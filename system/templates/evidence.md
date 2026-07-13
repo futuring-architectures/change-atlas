@@ -18,15 +18,20 @@ ingested_at: 2026-07-13
 source_title: Source title
 source_url: null
 canonical_url: null
+canonical_url_status: unresolved
 author: null
+author_status: unresolved
 publisher: null
+publisher_status: unresolved
 published_at: null
 date_status: unresolved
 date_source: null
 date_precision: unknown
+metadata_checked_at: null
 curated_path: []
 collection_position: null
 global_position: null
+claim_extraction_status: pending
 ---
 
 # Source title

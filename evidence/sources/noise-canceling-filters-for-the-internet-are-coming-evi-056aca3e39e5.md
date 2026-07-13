@@ -2,7 +2,7 @@
 id: evi-056aca3e39e5
 type: evidence
 title: "Noise-Canceling Filters for the Internet are Coming"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 961
 ingested_at: 2026-07-13
 source_title: "Noise-Canceling Filters for the Internet are Coming"
 source_url: "https://every.to/divinations/noise-canceling-filters-for-the-internet-are-coming"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://every.to/divinations/noise-canceling-filters-for-the-internet-are-coming"
+canonical_url_status: verified
+author: "Nathan Baschez"
+author_status: verified
+publisher: "Every"
+publisher_status: verified
+published_at: 2023-05-10
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 9
 global_position: 236
+claim_extraction_status: complete_no_claims
 ---
 
 # Noise-Canceling Filters for the Internet are Coming
@@ -42,10 +47,11 @@ global_position: 236
 - Raw entry and lines: entry 236, lines 959–962
 - Quote lines: 961–961
 - Original URL: <https://every.to/divinations/noise-canceling-filters-for-the-internet-are-coming>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://every.to/divinations/noise-canceling-filters-for-the-internet-are-coming>
+- Author: Nathan Baschez
+- Publisher: Every
+- Publication date: 2023-05-10
+- Metadata recovery: Verified from the original source page on 2026-07-13.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 9/236
 - Structural audit warnings: None
@@ -56,7 +62,7 @@ global_position: 236
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+_No atomic claim extracted. The excerpt consists of open research questions about the feasibility, design, experience, and societal consequences of information-filtering tools. Treating those questions as assertions would overstate the source._
 
 ## Relationships
 

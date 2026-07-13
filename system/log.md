@@ -34,3 +34,21 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Added exact quote coordinates and validation against the immutable raw excerpt, plus overwrite protection and an active-Evidence claim-anchor gate.
 - Preserved the original editorial hierarchy and ordering in the Evidence index.
 - Left all pilot records in `draft`; performed no claim extraction, manifest completion, or Wiki synthesis.
+
+## [2026-07-13] evidence | Review and activate Rules pilot
+
+- Reviewed all 13 Evidence records in `🔮 After the Internet → 👩‍⚖️ Rules` and activated the completed batch.
+- Extracted 30 atomic claims: four observations, 13 interpretations, nine conceptual claims, and four normative positions; extracted no predictions.
+- Recorded one deliberate `complete_no_claims` result for a question-only excerpt rather than converting open questions into assertions.
+- Added validation for claim-review state, classification vocabulary, sequential anchors, matching headings, and required scope, date-relevance, and qualification fields.
+- Registered entries 228–240 in the manifest; the anthology remains `partial` at 13 of 686 entries.
+- Performed no source-metadata recovery or Wiki synthesis.
+
+## [2026-07-13] evidence | Recover Rules source metadata
+
+- Checked the 13 original source pages for canonical URL, author, publisher, and publication date.
+- Verified publication dates for 12 records; recorded the Locus Magazine date as inferred because the original page blocked access.
+- Marked Kevin Kelly's authorship as inferred from site identity; verified the remaining accessible author and publisher values from their source pages.
+- Propagated recovered dates into all 30 claim date-relevance fields without changing excerpts or normalized claim meaning.
+- Added validation for verified, inferred, and unresolved source metadata, including date source and precision.
+- Performed no Wiki synthesis.

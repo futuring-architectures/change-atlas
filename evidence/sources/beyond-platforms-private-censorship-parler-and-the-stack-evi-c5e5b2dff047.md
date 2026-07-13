@@ -2,7 +2,7 @@
 id: evi-c5e5b2dff047
 type: evidence
 title: "Beyond Platforms: Private Censorship, Parler, and the Stack"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 941
 ingested_at: 2026-07-13
 source_title: "Beyond Platforms: Private Censorship, Parler, and the Stack"
 source_url: "https://www.eff.org/deeplinks/2021/01/beyond-platforms-private-censorship-parler-and-stack"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://www.eff.org/deeplinks/2021/01/beyond-platforms-private-censorship-parler-and-stack"
+canonical_url_status: verified
+author: "Jillian C. York; Corynne McSherry; Danny O'Brien"
+author_status: verified
+publisher: "Electronic Frontier Foundation"
+publisher_status: verified
+published_at: 2021-01-11
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 4
 global_position: 231
+claim_extraction_status: complete_with_claims
 ---
 
 # Beyond Platforms: Private Censorship, Parler, and the Stack
@@ -42,10 +47,11 @@ global_position: 231
 - Raw entry and lines: entry 231, lines 939–942
 - Quote lines: 941–941
 - Original URL: <https://www.eff.org/deeplinks/2021/01/beyond-platforms-private-censorship-parler-and-stack>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://www.eff.org/deeplinks/2021/01/beyond-platforms-private-censorship-parler-and-stack>
+- Author: Jillian C. York; Corynne McSherry; Danny O'Brien
+- Publisher: Electronic Frontier Foundation
+- Publication date: 2021-01-11
+- Metadata recovery: Verified from the original source page on 2026-07-13.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 4/231
 - Structural audit warnings: None
@@ -56,7 +62,27 @@ global_position: 231
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+<a id="claim-1"></a>
+
+### Claim 1 — normative position
+
+Users should decide for themselves what content they can access wherever such choice is feasible.
+
+- Classification: `normative_position`
+- Scope: Content access and moderation decisions in online systems.
+- Date relevance: Source published 2021-01-11 in the immediate aftermath of the Parler infrastructure takedowns.
+- Qualification: “Wherever possible” leaves the practical and legal limits of user choice unspecified.
+
+<a id="claim-2"></a>
+
+### Claim 2 — normative position
+
+Infrastructure-layer companies should avoid becoming content-control chokepoints and should defend a conduit role rather than act as publishers.
+
+- Classification: `normative_position`
+- Scope: Companies providing infrastructure beneath user-facing platforms.
+- Date relevance: Source published 2021-01-11.
+- Qualification: The position prioritizes infrastructural neutrality and does not address cases where law or direct operational harm may require intervention.
 
 ## Relationships
 

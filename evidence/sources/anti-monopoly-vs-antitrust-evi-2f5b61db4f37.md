@@ -2,7 +2,7 @@
 id: evi-2f5b61db4f37
 type: evidence
 title: "Anti-monopoly vs. Antitrust"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 929
 ingested_at: 2026-07-13
 source_title: "Anti-monopoly vs. Antitrust"
 source_url: "https://stratechery.com/2020/anti-monopoly-vs-antitrust/"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://stratechery.com/2020/anti-monopoly-vs-antitrust/"
+canonical_url_status: verified
+author: "Ben Thompson"
+author_status: verified
+publisher: "Stratechery"
+publisher_status: verified
+published_at: 2020-10-07
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 1
 global_position: 228
+claim_extraction_status: complete_with_claims
 ---
 
 # Anti-monopoly vs. Antitrust
@@ -42,10 +47,11 @@ global_position: 228
 - Raw entry and lines: entry 228, lines 927–930
 - Quote lines: 929–929
 - Original URL: <https://stratechery.com/2020/anti-monopoly-vs-antitrust/>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://stratechery.com/2020/anti-monopoly-vs-antitrust/>
+- Author: Ben Thompson
+- Publisher: Stratechery
+- Publication date: 2020-10-07
+- Metadata recovery: Verified from the original source page on 2026-07-13.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 1/228
 - Structural audit warnings: None
@@ -56,7 +62,27 @@ global_position: 228
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+<a id="claim-1"></a>
+
+### Claim 1 — interpretation
+
+Large consumer technology platforms derive much of their power from widespread voluntary user adoption.
+
+- Classification: `interpretation`
+- Scope: Consumer-facing technology platforms whose use is individually chosen.
+- Date relevance: Source published 2020-10-07; the excerpt describes platform power in that period.
+- Qualification: This is the source’s causal interpretation and is not independently substantiated within the excerpt.
+
+<a id="claim-2"></a>
+
+### Claim 2 — normative position
+
+Antitrust measures that counter platform power by constraining individual user choice may be both impractical and undesirable.
+
+- Classification: `normative_position`
+- Scope: Antitrust interventions directed at user adoption rather than other forms of platform conduct.
+- Date relevance: Source published 2020-10-07.
+- Qualification: The claim expresses a policy judgment and does not evaluate alternative antitrust mechanisms.
 
 ## Relationships
 

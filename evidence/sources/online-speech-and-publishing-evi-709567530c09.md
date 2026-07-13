@@ -2,7 +2,7 @@
 id: evi-709567530c09
 type: evidence
 title: "Online speech and publishing"
-status: draft
+status: active
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags:
@@ -19,18 +19,23 @@ raw_quote_line_end: 937
 ingested_at: 2026-07-13
 source_title: "Online speech and publishing"
 source_url: "https://www.ben-evans.com/benedictevans/2021/1/17/speech-and-publishing"
-canonical_url: null
-author: null
-publisher: null
-published_at: null
-date_status: unresolved
-date_source: null
-date_precision: unknown
+canonical_url: "https://www.ben-evans.com/benedictevans/2021/1/17/speech-and-publishing"
+canonical_url_status: verified
+author: "Benedict Evans"
+author_status: verified
+publisher: "Benedict Evans"
+publisher_status: verified
+published_at: 2021-01-17
+date_status: verified
+date_source: page_metadata
+date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - "🔮 After the Internet"
   - "👩‍⚖️ Rules"
 collection_position: 3
 global_position: 230
+claim_extraction_status: complete_with_claims
 ---
 
 # Online speech and publishing
@@ -42,10 +47,11 @@ global_position: 230
 - Raw entry and lines: entry 230, lines 935–938
 - Quote lines: 937–937
 - Original URL: <https://www.ben-evans.com/benedictevans/2021/1/17/speech-and-publishing>
-- Canonical URL: unresolved
-- Author: unresolved
-- Publisher: unresolved
-- Publication date: unresolved
+- Canonical URL: <https://www.ben-evans.com/benedictevans/2021/1/17/speech-and-publishing>
+- Author: Benedict Evans
+- Publisher: Benedict Evans
+- Publication date: 2021-01-17
+- Metadata recovery: Verified from the original source page on 2026-07-13.
 - Curated path: 🔮 After the Internet → 👩‍⚖️ Rules
 - Collection/global position: 3/230
 - Structural audit warnings: None
@@ -56,7 +62,27 @@ global_position: 230
 
 ## Atomic claims
 
-_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
+<a id="claim-1"></a>
+
+### Claim 1 — conceptual claim
+
+Online speech systems combine aspects of platforms and publishers but constitute a distinct institutional form that neither legacy category adequately captures.
+
+- Classification: `conceptual_claim`
+- Scope: Internet services that mediate speech and publication.
+- Date relevance: Source published 2021-01-17.
+- Qualification: The excerpt establishes categorical inadequacy but does not supply a replacement taxonomy.
+
+<a id="claim-2"></a>
+
+### Claim 2 — normative position
+
+Internet services should be subject to rules designed around how their distinct systems actually operate rather than rules imported unchanged from legacy media categories.
+
+- Classification: `normative_position`
+- Scope: Regulation of online speech and publishing systems.
+- Date relevance: Source published 2021-01-17.
+- Qualification: The excerpt argues for institution-specific regulation without specifying particular rules or enforcement mechanisms.
 
 ## Relationships
 

@@ -1,5 +1,88 @@
 {
-  "schema_version": 1,
-  "files": {}
+  "files": {
+    "raw/thoughtforming-on-digital-transformation-2026-07-10.md": {
+      "collections": {
+        "🔮 After the Internet → 👩‍⚖️ Rules": {
+          "completed_at": "2026-07-13",
+          "entry_end": 240,
+          "entry_start": 228,
+          "evidence_ids": [
+            "evi-2f5b61db4f37",
+            "evi-6c29b15157f2",
+            "evi-709567530c09",
+            "evi-c5e5b2dff047",
+            "evi-b7d6baa65d0e",
+            "evi-c8bbfe1c2ca0",
+            "evi-259d9afbaa6e",
+            "evi-21ae271cc148",
+            "evi-056aca3e39e5",
+            "evi-da73ef066f1e",
+            "evi-90ef6bd085b1",
+            "evi-8e47b847a90f",
+            "evi-0c30a7f66a56"
+          ]
+        }
+      },
+      "completed_entries": 13,
+      "evidence": {
+        "228": {
+          "file": "evidence/sources/anti-monopoly-vs-antitrust-evi-2f5b61db4f37.md",
+          "id": "evi-2f5b61db4f37"
+        },
+        "229": {
+          "file": "evidence/sources/is-the-internet-different-evi-6c29b15157f2.md",
+          "id": "evi-6c29b15157f2"
+        },
+        "230": {
+          "file": "evidence/sources/online-speech-and-publishing-evi-709567530c09.md",
+          "id": "evi-709567530c09"
+        },
+        "231": {
+          "file": "evidence/sources/beyond-platforms-private-censorship-parler-and-the-stack-evi-c5e5b2dff047.md",
+          "id": "evi-c5e5b2dff047"
+        },
+        "232": {
+          "file": "evidence/sources/regulating-technology-evi-b7d6baa65d0e.md",
+          "id": "evi-b7d6baa65d0e"
+        },
+        "233": {
+          "file": "evidence/sources/tech-monopolies-and-the-insufficient-necessity-of-interoperability-evi-c8bbfe1c2ca0.md",
+          "id": "evi-c8bbfe1c2ca0"
+        },
+        "234": {
+          "file": "evidence/sources/class-1-class-2-problems-evi-259d9afbaa6e.md",
+          "id": "evi-259d9afbaa6e"
+        },
+        "235": {
+          "file": "evidence/sources/undetectable-undefendable-back-doors-for-machine-learning-evi-21ae271cc148.md",
+          "id": "evi-21ae271cc148"
+        },
+        "236": {
+          "file": "evidence/sources/noise-canceling-filters-for-the-internet-are-coming-evi-056aca3e39e5.md",
+          "id": "evi-056aca3e39e5"
+        },
+        "237": {
+          "file": "evidence/sources/how-do-you-govern-something-that-s-part-software-and-part-people-evi-da73ef066f1e.md",
+          "id": "evi-da73ef066f1e"
+        },
+        "238": {
+          "file": "evidence/sources/chegg-chatgpt-and-the-changing-nature-of-change-evi-90ef6bd085b1.md",
+          "id": "evi-90ef6bd085b1"
+        },
+        "239": {
+          "file": "evidence/sources/are-other-ais-possible-evi-8e47b847a90f.md",
+          "id": "evi-8e47b847a90f"
+        },
+        "240": {
+          "file": "evidence/sources/the-structure-of-engineering-revolutions-evi-0c30a7f66a56.md",
+          "id": "evi-0c30a7f66a56"
+        }
+      },
+      "mode": "bootstrap_anthology",
+      "raw_sha256": "42794efb22e69cef120d7cf5812b79e06dfbeca9904fde60916de94fe2bd036a",
+      "status": "partial",
+      "total_entries": 686
+    }
+  },
+  "schema_version": 1
 }
-

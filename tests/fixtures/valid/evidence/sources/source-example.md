@@ -19,17 +19,22 @@ ingested_at: 2026-07-13
 source_title: Example source
 source_url: https://example.com/source
 canonical_url: https://example.com/source
+canonical_url_status: verified
 author: Example Author
+author_status: verified
 publisher: Example Publisher
+publisher_status: verified
 published_at: 2026-01-02
 date_status: verified
 date_source: page_metadata
 date_precision: day
+metadata_checked_at: 2026-07-13
 curated_path:
   - Example domain
   - Example theme
 collection_position: 1
 global_position: 1
+claim_extraction_status: complete_with_claims
 ---
 
 # Example source
@@ -47,6 +52,9 @@ global_position: 1
 A bounded example occurred.
 
 - Classification: `observation`
+- Scope: Miniature reference fixture.
+- Date relevance: The example is dated in source metadata.
+- Qualification: This claim exists only to test a bounded reference chain.
 
 ## Relationships
 

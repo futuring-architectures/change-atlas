@@ -77,6 +77,45 @@ class ValidationTests(unittest.TestCase):
         self.assertIn("## Trends", first)
         self.assertIn("[[wiki/trends/trend-example|Example trend]]", first)
 
+    def test_unsupported_evidence_claim_class_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "valid"
+            shutil.copytree(ROOT / "tests/fixtures/valid", root)
+            evidence = root / "evidence/sources/source-example.md"
+            content = evidence.read_text(encoding="utf-8")
+            evidence.write_text(
+                content.replace("- Classification: `observation`", "- Classification: `unsupported`"),
+                encoding="utf-8",
+            )
+            _, issues = atlas_cli.validate_content(root, self.schema)
+            self.assertIn("evidence.claim_class_invalid", {issue.code for issue in issues})
+
+    def test_source_metadata_value_and_status_must_agree(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "valid"
+            shutil.copytree(ROOT / "tests/fixtures/valid", root)
+            evidence = root / "evidence/sources/source-example.md"
+            content = evidence.read_text(encoding="utf-8")
+            evidence.write_text(
+                content.replace("author_status: verified", "author_status: unresolved"),
+                encoding="utf-8",
+            )
+            _, issues = atlas_cli.validate_content(root, self.schema)
+            self.assertIn("source_metadata.status_conflict", {issue.code for issue in issues})
+
+    def test_inferred_month_precision_date_is_valid(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "valid"
+            shutil.copytree(ROOT / "tests/fixtures/valid", root)
+            evidence = root / "evidence/sources/source-example.md"
+            content = evidence.read_text(encoding="utf-8")
+            content = content.replace("published_at: 2026-01-02", "published_at: 2026-01")
+            content = content.replace("date_status: verified", "date_status: inferred")
+            content = content.replace("date_precision: day", "date_precision: month")
+            evidence.write_text(content, encoding="utf-8")
+            _, issues = atlas_cli.validate_content(root, self.schema)
+            self.assertEqual(issues, [])
+
 
 class CommandTests(unittest.TestCase):
     def run_wiki(self, *arguments):
@@ -167,6 +206,7 @@ class BootstrapIngestionTests(unittest.TestCase):
             self.audit, source_entry, plan_entry, "2026-07-13"
         )
         self.assertIn("status: draft", rendered)
+        self.assertIn("claim_extraction_status: pending", rendered)
         self.assertIn(f"raw_entry_index: {source_entry.index}", rendered)
         self.assertIn('  - "🔮 After the Internet"', rendered)
         self.assertIn('  - "👩‍⚖️ Rules"', rendered)
@@ -190,7 +230,7 @@ class BootstrapIngestionTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 bootstrap_ingest.write_evidence_drafts(root, [(plan_entry, content)])
 
-    def test_draft_validates_but_activation_requires_a_claim_anchor(self):
+    def test_draft_validates_but_activation_requires_completed_claim_review(self):
         source_entry = self.audit.entries[227]
         plan_entry = self.plan.entries[227]
         content = bootstrap_ingest.render_evidence_draft(
@@ -208,7 +248,13 @@ class BootstrapIngestionTests(unittest.TestCase):
             target = root / plan_entry.evidence_file
             target.write_text(content.replace("status: draft", "status: active"), encoding="utf-8")
             _, issues = atlas_cli.validate_content(root, schema)
-            self.assertIn("evidence.claim_missing", {issue.code for issue in issues})
+            self.assertIn("evidence.claim_pending", {issue.code for issue in issues})
+            no_claims = content.replace("status: draft", "status: active").replace(
+                "claim_extraction_status: pending", "claim_extraction_status: complete_no_claims"
+            )
+            target.write_text(no_claims, encoding="utf-8")
+            _, issues = atlas_cli.validate_content(root, schema)
+            self.assertEqual(issues, [])
 
     def test_evidence_index_preserves_editorial_collection_order(self):
         schema = atlas_cli.load_schema(ROOT)

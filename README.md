@@ -75,4 +75,17 @@ tools/wiki bootstrap-evidence \
 
 The generated pages are drafts: they contain stable IDs, exact raw provenance, editorial placement, unresolved source metadata, and the verbatim excerpt. Claim extraction and classification are a separate interpretive review. Drafts cannot be cited by the Wiki and are not added to the manifest as completed ingestion.
 
+After every page in a collection has been reviewed and activated, register that partial progress:
+
+```bash
+tools/wiki bootstrap-register \
+  raw/thoughtforming-on-digital-transformation-2026-07-10.md \
+  --h1 "🔮 After the Internet" \
+  --h2 "👩‍⚖️ Rules" \
+  --date 2026-07-13 \
+  --write
+```
+
+The anthology remains `partial` until all 686 entries are registered; `status` reports partial raw-file progress separately from completed files.
+
 See [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [AGENTS.md](AGENTS.md), and [system/schema.md](system/schema.md) for the complete design.
