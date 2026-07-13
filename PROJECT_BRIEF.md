@@ -13,9 +13,9 @@ The public working name is **Change Atlas**, under the **Futuring Architectures*
 
 ## Source Corpus
 
-The initial raw input is:
+The initial raw input is stored at:
 
-`Thoughtforming on Digital Transformation - 10Jul2026.txt`
+`raw/thoughtforming-on-digital-transformation-2026-07-10.md`
 
 Although it has a `.txt` extension, it is structured as Markdown. The inspected corpus contains:
 
@@ -28,7 +28,7 @@ Although it has a `.txt` extension, it is structured as Markdown. The inspected 
 
 Each H3 normally contains a source title and URL, followed by a deliberately selected quotation. The quotation is often more important to this project than the source article as a whole. The hierarchy and ordering are also editorial data and must be preserved.
 
-Known input issues include one missing quote, a small number of malformed headings, tracking or tokenized URLs, fragile social-media links, and incomplete date metadata. These should be surfaced by deterministic validation rather than silently repaired during synthesis.
+The bootstrap audit originally surfaced one missing quote and one malformed heading that were corrected before Evidence generation. Remaining input issues include a small number of recoverable malformed headings, tracking or tokenized URLs, fragile social-media links, and incomplete date metadata. These should be surfaced by deterministic validation rather than silently repaired during synthesis.
 
 ## Core Epistemic Architecture
 

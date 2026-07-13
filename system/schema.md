@@ -48,6 +48,8 @@ Relationships are machine-checkable edges. Page bodies should also explain impor
 
 Evidence pages represent sources or curated source entries. They preserve the original quotation, metadata, editorial placement, and atomic claim anchors.
 
+Evidence begins as `draft` when deterministic bookkeeping is complete but interpretive claim extraction has not been reviewed. Draft Evidence may preserve excerpts and provenance without claim anchors. It must not be cited from the Wiki. Change it to `active` only after it contains at least one classified atomic claim with a stable `claim-N` anchor; the validator enforces this activation gate.
+
 Every Evidence page must first establish repository-level provenance:
 
 ```yaml
@@ -56,6 +58,8 @@ raw_sha256: 473b5c17a3d13a184a181dd55a47956c0a1b0dddb4fb8d5652e5077113cb2f6f
 raw_entry_index: 1
 raw_line_start: 13
 raw_line_end: 16
+raw_quote_line_start: 15
+raw_quote_line_end: 15
 ingested_at: 2026-07-13
 ```
 
@@ -63,6 +67,7 @@ ingested_at: 2026-07-13
 - `raw_sha256` is the lowercase SHA-256 of the complete immutable raw file.
 - `raw_entry_index` is the one-based logical entry number within that raw file.
 - `raw_line_start` and `raw_line_end` are inclusive, one-based coordinates in the raw file.
+- `raw_quote_line_start` and `raw_quote_line_end`, when present, identify the exact verbatim excerpt within that entry. The validator reconstructs the blockquoted Evidence excerpt and compares it with those raw lines.
 - `ingested_at` is the ISO date on which the Evidence record was first created.
 
 The validator confirms that the raw file exists, its checksum matches, and the entry and line coordinates are positive and coherent. For a normal one-source-per-file ingest, the entry index is `1` and the line range covers the relevant source portion. For the initial anthology, all Evidence records share one `raw_file` and `raw_sha256` while carrying distinct entry and line coordinates.

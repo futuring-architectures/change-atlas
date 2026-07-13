@@ -26,6 +26,7 @@ tools/wiki doctor
 tools/wiki status
 tools/wiki validate
 tools/wiki index
+tools/wiki bootstrap-audit raw/anthology.md
 python3 -m unittest discover -s tests -v
 ```
 
@@ -43,7 +44,35 @@ tools/wiki validate tests/fixtures/broken
 
 ## Current phase
 
-Phase 1 is the empty foundation. The initial corpus remains unchanged at the repository root. It will be normalized and moved into the managed workflow during Phase 2, after the structural contract has been verified.
+Phase 1 established the validated foundation. Phase 2 begins with a report-only structural audit of the immutable anthology now stored beneath `raw/`:
+
+```bash
+tools/wiki bootstrap-audit \
+  raw/thoughtforming-on-digital-transformation-2026-07-10.md \
+  --write
+```
+
+This command identifies logical entries, inherited H1/H2 taxonomy, exact line ranges, missing quotes, malformed headings, and URL anomalies. It does not create Evidence or Wiki content.
+
+After the audit passes, assign all Evidence identities and destinations deterministically:
+
+```bash
+tools/wiki bootstrap-plan \
+  raw/thoughtforming-on-digital-transformation-2026-07-10.md \
+  --write
+```
+
+Create a reviewable Evidence pilot one complete H1/H2 collection at a time:
+
+```bash
+tools/wiki bootstrap-evidence \
+  raw/thoughtforming-on-digital-transformation-2026-07-10.md \
+  --h1 "🔮 After the Internet" \
+  --h2 "👩‍⚖️ Rules" \
+  --date 2026-07-13 \
+  --write
+```
+
+The generated pages are drafts: they contain stable IDs, exact raw provenance, editorial placement, unresolved source metadata, and the verbatim excerpt. Claim extraction and classification are a separate interpretive review. Drafts cannot be cited by the Wiki and are not added to the manifest as completed ingestion.
 
 See [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [AGENTS.md](AGENTS.md), and [system/schema.md](system/schema.md) for the complete design.
-

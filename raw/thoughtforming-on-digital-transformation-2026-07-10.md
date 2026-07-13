@@ -2287,11 +2287,12 @@ Here's your Google Doc telling of great futures, of new shapes of prosperity, an
 
 *We spend centuries brewing, stewing, scheming, and rehearsing for an invention long before it arrives. That would be good if we also rehearsed for the benefits as well as harms. We’ve spent a century trying to imagine what might go wrong with AI. Let’s spend the next decade imagining what might go right with AI.*
 
-### T[he AI is a Vibe: A Short Manifesto for the AI Age](https://natesnewsletter.substack.com/p/the-ai-is-a-vibe-a-short-manifesto)
+### [The AI is a Vibe: A Short Manifesto for the AI Age](https://natesnewsletter.substack.com/p/the-ai-is-a-vibe-a-short-manifesto)
 
 *We need to cultivate what we might call "collaborative discernment"—the ability to work with AI while maintaining our own judgment. This isn't about resistance or acceptance; it's about developing a new kind of dance. This means using AI's performances as inputs to our thinking rather than replacements for it. It means learning to prompt not just for content but for perspective, to use AI not as an oracle but as a thinking partner whose very limitations can spark our own insight.*
 
 ### [AI and the Structure of Scientific Revolutions](https://www.oreilly.com/radar/ai-and-the-structure-of-scientific-revolutions/)
+*We need AI that can do both “normal science” and the science that creates new paradigms. We already have the former, or at least, we’re close. But what might that other kind of AI look like? That’s where it gets challenging—not just because we don’t know how to build it but because that AI might require its own new paradigm. It would behave differently from anything we have now.*
 
 ### [Epizone AI: Outside the Code Stack](https://kk.org/thetechnium/epizone-ai-outside-the-code-stack/)
 

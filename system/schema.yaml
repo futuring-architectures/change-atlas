@@ -38,6 +38,7 @@ types:
     date_fields:
       - ingested_at
     statuses:
+      - draft
       - active
       - superseded
       - archived

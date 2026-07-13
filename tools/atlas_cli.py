@@ -15,6 +15,16 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
+from bootstrap_audit import parse_anthology, render_json as render_audit_json, render_markdown as render_audit_markdown
+from bootstrap_ingest import (
+    build_ingestion_plan,
+    render_evidence_draft,
+    render_plan_json,
+    render_plan_markdown,
+    select_collection,
+    write_evidence_drafts,
+)
+
 
 MIN_PYTHON = (3, 9)
 DEFAULT_ROOT = Path(__file__).resolve().parent.parent
@@ -29,6 +39,7 @@ REQUIRED_DIRECTORIES = (
     "wiki/debates",
     "wiki/questions",
     "system/templates",
+    "system/bootstrap",
     "system/lint-reports",
     "tools",
     "tests/fixtures",
@@ -329,14 +340,14 @@ def _relationship_set(page: Page) -> set:
 def _validate_evidence_provenance(
     page: Page,
     content_root: Path,
-    raw_cache: Dict[Path, Tuple[str, int]],
+    raw_cache: Dict[Path, Tuple[str, List[str]]],
 ) -> List[Issue]:
     """Validate the immutable raw-file chain for one Evidence page."""
     issues: List[Issue] = []
     metadata = page.metadata
     raw_value = metadata.get("raw_file")
     raw_path: Optional[Path] = None
-    raw_info: Optional[Tuple[str, int]] = None
+    raw_info: Optional[Tuple[str, List[str]]] = None
 
     if not isinstance(raw_value, str) or not raw_value:
         issues.append(Issue("raw.path_invalid", page.path, "raw_file must be a repository-relative path"))
@@ -368,11 +379,11 @@ def _validate_evidence_provenance(
         if raw_path not in raw_cache:
             data = raw_path.read_bytes()
             try:
-                line_count = len(data.decode("utf-8").splitlines())
+                raw_lines = data.decode("utf-8").splitlines()
             except UnicodeDecodeError:
                 issues.append(Issue("raw.encoding", page.path, "raw Markdown must be UTF-8"))
-                line_count = 0
-            raw_cache[raw_path] = (hashlib.sha256(data).hexdigest(), line_count)
+                raw_lines = []
+            raw_cache[raw_path] = (hashlib.sha256(data).hexdigest(), raw_lines)
         raw_info = raw_cache[raw_path]
         if isinstance(supplied_hash, str) and re.fullmatch(r"[0-9a-f]{64}", supplied_hash):
             if supplied_hash != raw_info[0]:
@@ -390,14 +401,61 @@ def _validate_evidence_provenance(
         issues.append(
             Issue("raw.range_invalid", page.path, "raw line coordinates must be positive and end at or after start")
         )
-    elif raw_info is not None and line_end > raw_info[1]:
+    elif raw_info is not None and line_end > len(raw_info[1]):
         issues.append(
             Issue(
                 "raw.range_invalid",
                 page.path,
-                f"raw_line_end {line_end} exceeds the raw file's {raw_info[1]} lines",
+                f"raw_line_end {line_end} exceeds the raw file's {len(raw_info[1])} lines",
             )
         )
+
+    quote_start = metadata.get("raw_quote_line_start")
+    quote_end = metadata.get("raw_quote_line_end")
+    if quote_start is not None or quote_end is not None:
+        valid_quote_start = isinstance(quote_start, int) and not isinstance(quote_start, bool) and quote_start >= 1
+        valid_quote_end = isinstance(quote_end, int) and not isinstance(quote_end, bool) and quote_end >= 1
+        if (
+            not valid_quote_start
+            or not valid_quote_end
+            or (valid_quote_start and valid_quote_end and quote_end < quote_start)
+            or (valid_start and valid_end and valid_quote_start and valid_quote_end and not (line_start <= quote_start <= quote_end <= line_end))
+        ):
+            issues.append(
+                Issue("raw.quote_range_invalid", page.path, "raw quote coordinates must be ordered within the entry range")
+            )
+        elif raw_info is not None and quote_end > len(raw_info[1]):
+            issues.append(
+                Issue("raw.quote_range_invalid", page.path, "raw quote coordinates exceed the raw file")
+            )
+        elif raw_info is not None:
+            body_lines = page.body.splitlines()
+            try:
+                section_start = body_lines.index("## Curated excerpt") + 1
+                section_end = next(
+                    index
+                    for index in range(section_start, len(body_lines))
+                    if body_lines[index].startswith("## ")
+                )
+            except (ValueError, StopIteration):
+                issues.append(Issue("evidence.excerpt_missing", page.path, "missing Curated excerpt section"))
+            else:
+                excerpt_lines = body_lines[section_start:section_end]
+                while excerpt_lines and excerpt_lines[0] == "":
+                    excerpt_lines.pop(0)
+                while excerpt_lines and excerpt_lines[-1] == "":
+                    excerpt_lines.pop()
+                if not excerpt_lines or any(not line.startswith(">") for line in excerpt_lines):
+                    issues.append(
+                        Issue("evidence.excerpt_malformed", page.path, "Curated excerpt must contain only blockquote lines")
+                    )
+                else:
+                    excerpt = "\n".join(line[2:] if line.startswith("> ") else line[1:] for line in excerpt_lines)
+                    expected = "\n".join(raw_info[1][quote_start - 1 : quote_end])
+                    if excerpt != expected:
+                        issues.append(
+                            Issue("evidence.excerpt_mismatch", page.path, "Curated excerpt differs from its raw quote lines")
+                        )
     return issues
 
 
@@ -434,7 +492,7 @@ def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[P
     evidence_required = set(schema.get("evidence_required_for", []))
     relationship_inverses = schema.get("relationships", {})
     unique_pages = {stem: matches[0] for stem, matches in by_stem.items() if len(matches) == 1}
-    raw_cache: Dict[Path, Tuple[str, int]] = {}
+    raw_cache: Dict[Path, Tuple[str, List[str]]] = {}
 
     for page in pages:
         metadata = page.metadata
@@ -517,6 +575,11 @@ def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[P
 
         if page_type == "evidence":
             issues.extend(_validate_evidence_provenance(page, content_root, raw_cache))
+            claim_anchors = [anchor for anchor in page.anchors if re.fullmatch(r"claim-[1-9][0-9]*", anchor)]
+            if metadata.get("status") == "active" and not claim_anchors:
+                issues.append(
+                    Issue("evidence.claim_missing", page.path, "active Evidence requires at least one claim anchor")
+                )
 
     # Resolve body links, evidence citations, relationships, and inverses after all pages exist.
     for page in pages:
@@ -639,9 +702,43 @@ def render_evidence_index(pages: Sequence[Page], root: Path) -> str:
     if not evidence:
         lines.extend(["_No Evidence pages yet._", ""])
     else:
-        for page in sorted(evidence, key=lambda item: (item.title.lower(), item.stem)):
-            lines.append(f"- {_relative_wikilink(page, root)}")
-        lines.append("")
+        grouped: Dict[Tuple[str, str], List[Page]] = defaultdict(list)
+        for page in evidence:
+            curated_path = page.metadata.get("curated_path")
+            if isinstance(curated_path, list) and len(curated_path) >= 2:
+                key = (str(curated_path[0]), str(curated_path[1]))
+            else:
+                key = ("Unplaced", "Unplaced")
+            grouped[key].append(page)
+        ordered_groups = sorted(
+            grouped.items(),
+            key=lambda item: min(
+                page.metadata.get("global_position", 10**9)
+                if isinstance(page.metadata.get("global_position"), int)
+                else 10**9
+                for page in item[1]
+            ),
+        )
+        current_h1: Optional[str] = None
+        for (h1, h2), group_pages in ordered_groups:
+            if h1 != current_h1:
+                lines.extend([f"## {h1}", ""])
+                current_h1 = h1
+            lines.extend([f"### {h2}", ""])
+            for page in sorted(
+                group_pages,
+                key=lambda item: (
+                    item.metadata.get("collection_position", 10**9)
+                    if isinstance(item.metadata.get("collection_position"), int)
+                    else 10**9,
+                    item.title.lower(),
+                    item.stem,
+                ),
+            ):
+                position = page.metadata.get("collection_position")
+                prefix = f"{position}. " if isinstance(position, int) else ""
+                lines.append(f"- {prefix}{_relative_wikilink(page, root)}")
+            lines.append("")
     return "\n".join(lines)
 
 
@@ -774,6 +871,113 @@ def command_doctor(root: Path) -> int:
     return 1 if failures else 0
 
 
+def command_bootstrap_audit(root: Path, raw_file: str, write: bool = False) -> int:
+    supplied = Path(raw_file)
+    candidate = (root / supplied).resolve() if not supplied.is_absolute() else supplied.resolve()
+    raw_root = (root / "raw").resolve()
+    try:
+        candidate.relative_to(raw_root)
+    except ValueError:
+        print("ERROR: bootstrap input must be located beneath raw/", file=sys.stderr)
+        return 2
+    if not candidate.is_file():
+        print(f"ERROR: raw anthology does not exist: {candidate}", file=sys.stderr)
+        return 2
+    label = candidate.relative_to(root).as_posix()
+    audit = parse_anthology(candidate, label)
+    print(f"Raw file: {label}")
+    print(f"SHA-256: {audit.raw_sha256}")
+    print(f"H1 domains: {len(audit.h1_values)}")
+    print(f"H2 collections: {len(audit.h2_paths)}")
+    print(f"H3 entries: {len(audit.entries)}")
+    print(f"Quote bodies: {audit.quote_count}")
+    print(f"Errors: {audit.error_count}")
+    print(f"Warnings: {audit.warning_count}")
+    if write:
+        output_directory = root / "system/bootstrap"
+        output_directory.mkdir(parents=True, exist_ok=True)
+        outputs = {
+            output_directory / "anthology-audit.md": render_audit_markdown(audit),
+            output_directory / "anthology-audit.json": render_audit_json(audit),
+        }
+        for path, content in outputs.items():
+            temporary = path.with_name(path.name + ".tmp")
+            temporary.write_text(content, encoding="utf-8")
+            os.replace(temporary, path)
+            print(f"WROTE {path.relative_to(root)}")
+    return 1 if audit.error_count else 0
+
+
+def _load_bootstrap(root: Path, raw_file: str):
+    supplied = Path(raw_file)
+    candidate = (root / supplied).resolve() if not supplied.is_absolute() else supplied.resolve()
+    raw_root = (root / "raw").resolve()
+    try:
+        candidate.relative_to(raw_root)
+    except ValueError as exc:
+        raise ValueError("bootstrap input must be located beneath raw/") from exc
+    if not candidate.is_file():
+        raise ValueError(f"raw anthology does not exist: {candidate}")
+    label = candidate.relative_to(root).as_posix()
+    audit = parse_anthology(candidate, label)
+    if audit.error_count:
+        raise ValueError(f"bootstrap audit contains {audit.error_count} structural error(s)")
+    return audit, build_ingestion_plan(audit)
+
+
+def command_bootstrap_plan(root: Path, raw_file: str, write: bool = False) -> int:
+    audit, plan = _load_bootstrap(root, raw_file)
+    print(f"Raw file: {plan.raw_file}")
+    print(f"SHA-256: {plan.raw_sha256}")
+    print(f"Planned Evidence records: {len(plan.entries)}")
+    print(f"Editorial collections: {len(audit.h2_paths)}")
+    if write:
+        output_directory = root / "system/bootstrap"
+        output_directory.mkdir(parents=True, exist_ok=True)
+        outputs = {
+            output_directory / "ingestion-plan.md": render_plan_markdown(plan),
+            output_directory / "ingestion-plan.json": render_plan_json(plan),
+        }
+        for path, content in outputs.items():
+            temporary = path.with_name(path.name + ".tmp")
+            temporary.write_text(content, encoding="utf-8")
+            os.replace(temporary, path)
+            print(f"WROTE {path.relative_to(root)}")
+    return 0
+
+
+def command_bootstrap_evidence(
+    root: Path,
+    raw_file: str,
+    curated_h1: str,
+    curated_h2: str,
+    ingest_date: str,
+    write: bool = False,
+) -> int:
+    try:
+        dt.date.fromisoformat(ingest_date)
+    except ValueError as exc:
+        raise ValueError("--date must be a real ISO YYYY-MM-DD date") from exc
+    audit, plan = _load_bootstrap(root, raw_file)
+    selected = select_collection(audit, plan, curated_h1, curated_h2)
+    rendered = [
+        (plan_entry, render_evidence_draft(audit, source_entry, plan_entry, ingest_date))
+        for source_entry, plan_entry in selected
+    ]
+    print(f"Collection: {curated_h1} → {curated_h2}")
+    print(f"Evidence drafts: {len(rendered)}")
+    print(f"Raw SHA-256: {audit.raw_sha256}")
+    for plan_entry, _ in rendered:
+        print(f"PLAN {plan_entry.evidence_file}")
+    if not write:
+        print("Dry run only; pass --write to create drafts.")
+        return 0
+    written, unchanged = write_evidence_drafts(root, rendered)
+    print(f"WROTE {written} Evidence draft(s); {unchanged} unchanged.")
+    print("Manifest and operation log remain unchanged until interpretive review and activation.")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="wiki", description="Change Atlas repository control plane")
     parser.add_argument(
@@ -794,6 +998,35 @@ def build_parser() -> argparse.ArgumentParser:
     )
     index = subparsers.add_parser("index", help="regenerate deterministic indexes")
     index.add_argument("--check", action="store_true", help="fail instead of writing when indexes are stale")
+    bootstrap_audit = subparsers.add_parser(
+        "bootstrap-audit",
+        help="parse a raw anthology and report structural entries without creating Evidence",
+    )
+    bootstrap_audit.add_argument("raw_file", help="repository-relative Markdown file beneath raw/")
+    bootstrap_audit.add_argument(
+        "--write",
+        action="store_true",
+        help="write deterministic Markdown and JSON reports to system/bootstrap/",
+    )
+    bootstrap_plan = subparsers.add_parser(
+        "bootstrap-plan",
+        help="assign deterministic Evidence identities and destinations for an audited anthology",
+    )
+    bootstrap_plan.add_argument("raw_file", help="repository-relative Markdown file beneath raw/")
+    bootstrap_plan.add_argument(
+        "--write",
+        action="store_true",
+        help="write deterministic Markdown and JSON plans to system/bootstrap/",
+    )
+    bootstrap_evidence = subparsers.add_parser(
+        "bootstrap-evidence",
+        help="render a complete H1/H2 collection as provenance-complete draft Evidence",
+    )
+    bootstrap_evidence.add_argument("raw_file", help="repository-relative Markdown file beneath raw/")
+    bootstrap_evidence.add_argument("--h1", required=True, help="exact inherited H1 heading")
+    bootstrap_evidence.add_argument("--h2", required=True, help="exact inherited H2 heading")
+    bootstrap_evidence.add_argument("--date", required=True, help="ingestion date in ISO YYYY-MM-DD form")
+    bootstrap_evidence.add_argument("--write", action="store_true", help="create Evidence drafts")
     return parser
 
 
@@ -810,7 +1043,20 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             return command_validate(root, args.target)
         if args.command == "index":
             return command_index(root, args.check)
-    except (OSError, YamlSubsetError, json.JSONDecodeError) as exc:
+        if args.command == "bootstrap-audit":
+            return command_bootstrap_audit(root, args.raw_file, args.write)
+        if args.command == "bootstrap-plan":
+            return command_bootstrap_plan(root, args.raw_file, args.write)
+        if args.command == "bootstrap-evidence":
+            return command_bootstrap_evidence(
+                root,
+                args.raw_file,
+                args.h1,
+                args.h2,
+                args.date,
+                args.write,
+            )
+    except (OSError, ValueError, YamlSubsetError, json.JSONDecodeError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
     parser.error(f"unknown command {args.command!r}")

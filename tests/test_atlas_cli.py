@@ -1,6 +1,9 @@
 import subprocess
 import sys
+import shutil
+import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
 
 
@@ -9,6 +12,8 @@ TOOLS = ROOT / "tools"
 sys.path.insert(0, str(TOOLS))
 
 import atlas_cli  # noqa: E402
+import bootstrap_audit  # noqa: E402
+import bootstrap_ingest  # noqa: E402
 
 
 class YamlSubsetTests(unittest.TestCase):
@@ -91,6 +96,128 @@ class CommandTests(unittest.TestCase):
         result = self.run_wiki("validate", "tests/fixtures/broken")
         self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
         self.assertIn("relationship.inverse_missing", result.stdout)
+
+
+class BootstrapAuditTests(unittest.TestCase):
+    def test_small_anthology_preserves_taxonomy_and_exceptions(self):
+        audit = bootstrap_audit.parse_anthology(
+            ROOT / "tests/fixtures/bootstrap/anthology.md",
+            "tests/fixtures/bootstrap/anthology.md",
+        )
+        self.assertEqual(len(audit.entries), 3)
+        self.assertEqual(audit.quote_count, 2)
+        self.assertEqual(audit.h1_values, ["Domain"])
+        self.assertEqual(audit.h2_paths, [("Domain", "Theme"), ("Domain", "Other theme")])
+        self.assertEqual(audit.entries[1].source_title, "Two-part title")
+        self.assertIn("heading.noncanonical", audit.entries[1].issue_codes)
+        self.assertIn("quote.missing", audit.entries[2].issue_codes)
+
+    def test_full_corpus_regression_counts(self):
+        audit = bootstrap_audit.parse_anthology(
+            ROOT / "raw/thoughtforming-on-digital-transformation-2026-07-10.md",
+            "raw/thoughtforming-on-digital-transformation-2026-07-10.md",
+        )
+        self.assertEqual(audit.raw_sha256, "42794efb22e69cef120d7cf5812b79e06dfbeca9904fde60916de94fe2bd036a")
+        self.assertEqual(len(audit.h1_values), 4)
+        self.assertEqual(len(audit.h2_paths), 16)
+        self.assertEqual(len(audit.entries), 686)
+        self.assertEqual(audit.quote_count, 686)
+        self.assertEqual(audit.error_count, 0)
+        self.assertEqual(Counter(issue.code for issue in audit.issues)["heading.noncanonical"], 2)
+        self.assertEqual(Counter(issue.code for issue in audit.issues)["quote.multiline"], 2)
+
+    def test_audit_rendering_is_deterministic_and_omits_quote_bodies(self):
+        audit = bootstrap_audit.parse_anthology(
+            ROOT / "tests/fixtures/bootstrap/anthology.md",
+            "tests/fixtures/bootstrap/anthology.md",
+        )
+        first = bootstrap_audit.render_json(audit)
+        second = bootstrap_audit.render_json(audit)
+        self.assertEqual(first, second)
+        self.assertNotIn("A normal curated quote", first)
+        self.assertIn('"has_quote": true', first)
+
+
+class BootstrapIngestionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.raw_path = ROOT / "raw/thoughtforming-on-digital-transformation-2026-07-10.md"
+        cls.raw_label = "raw/thoughtforming-on-digital-transformation-2026-07-10.md"
+        cls.audit = bootstrap_audit.parse_anthology(cls.raw_path, cls.raw_label)
+        cls.plan = bootstrap_ingest.build_ingestion_plan(cls.audit)
+
+    def test_full_plan_has_stable_unique_identity_and_collection_positions(self):
+        self.assertEqual(len(self.plan.entries), 686)
+        self.assertEqual(len({entry.evidence_id for entry in self.plan.entries}), 686)
+        self.assertEqual(len({entry.evidence_file for entry in self.plan.entries}), 686)
+        rules = [entry for entry in self.plan.entries if entry.curated_h2 == "👩‍⚖️ Rules"]
+        self.assertEqual([entry.global_position for entry in rules], list(range(228, 241)))
+        self.assertEqual([entry.collection_position for entry in rules], list(range(1, 14)))
+
+    def test_plan_is_deterministic_and_does_not_duplicate_quotes(self):
+        first = bootstrap_ingest.render_plan_json(self.plan)
+        second = bootstrap_ingest.render_plan_json(bootstrap_ingest.build_ingestion_plan(self.audit))
+        self.assertEqual(first, second)
+        self.assertNotIn("So much modern antitrust action", first)
+
+    def test_draft_preserves_provenance_taxonomy_and_quote(self):
+        source_entry = self.audit.entries[227]
+        plan_entry = self.plan.entries[227]
+        rendered = bootstrap_ingest.render_evidence_draft(
+            self.audit, source_entry, plan_entry, "2026-07-13"
+        )
+        self.assertIn("status: draft", rendered)
+        self.assertIn(f"raw_entry_index: {source_entry.index}", rendered)
+        self.assertIn('  - "🔮 After the Internet"', rendered)
+        self.assertIn('  - "👩‍⚖️ Rules"', rendered)
+        self.assertIn("> " + source_entry.quote_text, rendered)
+        self.assertNotIn('<a id="claim-', rendered)
+
+    def test_draft_writer_is_idempotent_and_refuses_changed_output(self):
+        source_entry = self.audit.entries[227]
+        plan_entry = self.plan.entries[227]
+        content = bootstrap_ingest.render_evidence_draft(
+            self.audit, source_entry, plan_entry, "2026-07-13"
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            written, unchanged = bootstrap_ingest.write_evidence_drafts(root, [(plan_entry, content)])
+            self.assertEqual((written, unchanged), (1, 0))
+            written, unchanged = bootstrap_ingest.write_evidence_drafts(root, [(plan_entry, content)])
+            self.assertEqual((written, unchanged), (0, 1))
+            target = root / plan_entry.evidence_file
+            target.write_text(content + "user edit\n", encoding="utf-8")
+            with self.assertRaises(ValueError):
+                bootstrap_ingest.write_evidence_drafts(root, [(plan_entry, content)])
+
+    def test_draft_validates_but_activation_requires_a_claim_anchor(self):
+        source_entry = self.audit.entries[227]
+        plan_entry = self.plan.entries[227]
+        content = bootstrap_ingest.render_evidence_draft(
+            self.audit, source_entry, plan_entry, "2026-07-13"
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw_target = root / self.raw_label
+            raw_target.parent.mkdir(parents=True)
+            shutil.copyfile(self.raw_path, raw_target)
+            bootstrap_ingest.write_evidence_drafts(root, [(plan_entry, content)])
+            schema = atlas_cli.load_schema(ROOT)
+            _, issues = atlas_cli.validate_content(root, schema)
+            self.assertEqual(issues, [])
+            target = root / plan_entry.evidence_file
+            target.write_text(content.replace("status: draft", "status: active"), encoding="utf-8")
+            _, issues = atlas_cli.validate_content(root, schema)
+            self.assertIn("evidence.claim_missing", {issue.code for issue in issues})
+
+    def test_evidence_index_preserves_editorial_collection_order(self):
+        schema = atlas_cli.load_schema(ROOT)
+        pages, issues = atlas_cli.validate_content(ROOT, schema)
+        self.assertEqual(issues, [])
+        rendered = atlas_cli.render_evidence_index(pages, ROOT)
+        self.assertIn("## 🔮 After the Internet", rendered)
+        self.assertIn("### 👩‍⚖️ Rules", rendered)
+        self.assertLess(rendered.index("- 1. [["), rendered.index("- 13. [["))
 
 
 if __name__ == "__main__":

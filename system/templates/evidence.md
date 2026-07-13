@@ -2,7 +2,7 @@
 id: evi-000000
 type: evidence
 title: Source title
-status: active
+status: draft
 created_at: 2026-07-13
 updated_at: 2026-07-13
 tags: []
@@ -12,6 +12,8 @@ raw_sha256: "0000000000000000000000000000000000000000000000000000000000000000"
 raw_entry_index: 1
 raw_line_start: 1
 raw_line_end: 1
+raw_quote_line_start: 1
+raw_quote_line_end: 1
 ingested_at: 2026-07-13
 source_title: Source title
 source_url: null
@@ -47,16 +49,7 @@ global_position: null
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — observation
-
-Normalized atomic claim.
-
-- Classification: `observation`
-- Scope:
-- Date relevance:
-- Qualification:
+_Pending interpretive extraction and classification. Draft Evidence must not be cited by Wiki pages._
 
 ## Relationships
 

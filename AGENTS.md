@@ -100,6 +100,30 @@ Phase 1 contains no ingest command. When ingestion is implemented, each transact
 
 Re-running an unchanged source must not duplicate content.
 
+## Bootstrap anthology audit
+
+The initial anthology is a special raw container holding many logical sources. Before creating Evidence, run:
+
+```bash
+tools/wiki bootstrap-audit raw/thoughtforming-on-digital-transformation-2026-07-10.md --write
+```
+
+The audit is deterministic and report-only. It must preserve H1/H2 context, H3 source headings, entry order, exact stanza ranges, and quote ranges. Review every structural error before generating Evidence shells. Warnings may be accepted only when the parser's recovery is explicit and lossless.
+
+The audit reports in `system/bootstrap/` are generated records of this checkpoint. They must not contain duplicate quote bodies; the raw anthology remains the only source text at this stage.
+
+## Bootstrap Evidence planning
+
+After the structural audit passes, generate the deterministic ingestion plan before creating Evidence:
+
+```bash
+tools/wiki bootstrap-plan raw/thoughtforming-on-digital-transformation-2026-07-10.md --write
+```
+
+Generate one exact H1/H2 collection at a time with `bootstrap-evidence`. This creates provenance-complete `draft` Evidence only. It must preserve the excerpt verbatim and must not overwrite a changed draft. Deterministic generation does not extract claims, activate Evidence, update the manifest, or synthesize Wiki pages.
+
+Review each draft interpretively, add stable classified claim anchors, and change its status to `active` only when the page is complete. Draft Evidence cannot be cited by the Wiki. Update the manifest and operational log only after the reviewed batch validates successfully.
+
 ## Query workflow
 
 1. Read `system/index.md` first.
