@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: exemplifies
     target: "[[power-as-an-organizing-design-value]]"
+  - type: qualifies
+    target: "[[contextual-decentralization]]"
 description: "The distinction between access-oriented openness and the power to determine how a technology is controlled, changed, and governed."
 evidence:
   - "[[open-ai-isn-t-evi-c72f2bef72f1#Claim 1]]"
@@ -56,3 +58,4 @@ The distinction comes from Cory Doctorow's critique of “open AI.” This page 
 ## Relationships
 
 - Openness without self-determination [[power-as-an-organizing-design-value|exemplifies how control can remain an organizing feature despite technical openness]].
+- The distinction [[contextual-decentralization|qualifies contextual decentralization]] by showing that access or forkability alone may not create usable decision agency.

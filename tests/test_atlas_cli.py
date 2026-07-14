@@ -212,18 +212,33 @@ class CollectionWorkflowTests(unittest.TestCase):
             if "Nature of the Firm / 👩‍⚖️ Governance" in line
         )
         self.assertIn("| Awaiting Editorial Signoff | Required |", governance_line)
-        self.assertIn("- Tracked propositions: 4", rendered)
-        self.assertIn("- Unresolved propositions: 4", rendered)
+        backlog = atlas_cli.load_synthesis_backlog(ROOT)
+        tracked = len(backlog["propositions"])
+        unresolved = sum(
+            proposition["status"] not in {"promoted", "retired"}
+            for proposition in backlog["propositions"]
+        )
+        self.assertIn(f"- Tracked propositions: {tracked}", rendered)
+        self.assertIn(f"- Unresolved propositions: {unresolved}", rendered)
 
     def test_synthesis_backlog_tracks_governance_propositions(self):
         tracker = atlas_cli.load_collection_tracker(ROOT)
         backlog = atlas_cli.load_synthesis_backlog(ROOT)
         pages, content_issues = atlas_cli.validate_content(ROOT, atlas_cli.load_schema(ROOT))
         self.assertEqual(content_issues, [])
-        self.assertEqual(len(backlog["propositions"]), 4)
+        governance = [
+            proposition for proposition in backlog["propositions"]
+            if proposition["origin_collection"] == "nature-of-the-firm-governance"
+        ]
+        networks = [
+            proposition for proposition in backlog["propositions"]
+            if proposition["origin_collection"] == "after-the-internet-networks"
+        ]
+        self.assertEqual(len(governance), 4)
+        self.assertEqual(len(networks), 6)
         self.assertEqual(
             len({proposition["id"] for proposition in backlog["propositions"]}),
-            4,
+            len(backlog["propositions"]),
         )
         self.assertEqual(
             atlas_cli.validate_synthesis_backlog(ROOT, pages, tracker, backlog),

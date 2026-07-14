@@ -104,6 +104,164 @@
         }
       ],
       "resolution_target": null
+    },
+    {
+      "id": "prp-bce7e40744aa",
+      "statement": "Explicit subscription may be giving way to platform inference and recommendation as the primary allocator of content distribution.",
+      "status": "open",
+      "origin_collection": "after-the-internet-networks",
+      "surfaced_in": "wiki/hubs/networks",
+      "evidence": [
+        "[[tiktok-boom-evi-9e4f0ee6a2a7#Claim 1]]",
+        "[[the-end-of-social-media-and-the-rise-of-recommendation-media-evi-1f85d0fdcd02#Claim 1]]",
+        "[[end-to-end-evi-f0a80b1bc636#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "after-the-internet-paradigms",
+        "after-the-internet-culture",
+        "power-to-creators-niches",
+        "power-to-creators-vibe"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-networks",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies TikTok and multi-platform cases plus a named mechanism, but the evidence clusters in 2022–2023 and does not yet establish a durable directional Trend."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-b77689287c42",
+      "statement": "AI-driven content abundance may concentrate attention on already legible creators rather than democratize audience reach.",
+      "status": "open",
+      "origin_collection": "after-the-internet-networks",
+      "surfaced_in": "wiki/hubs/networks",
+      "evidence": [
+        "[[6-new-theories-about-ai-evi-99b1e25fa617#Claim 2]]",
+        "[[sludgefeast-evi-7805389d1647#Claim 1]]",
+        "[[sludgefeast-evi-7805389d1647#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "after-the-internet-paradigms",
+        "after-the-internet-culture",
+        "power-to-creators-niches",
+        "power-to-creators-vibe",
+        "power-to-creators-gameplay",
+        "how-we-learn-futuring"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-networks",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The mechanism is coherent but the concentration outcome is predictive; later creator and culture collections should test discovery, fandom, and new-entry cases."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-1e5c5aab325f",
+      "statement": "Media may increasingly become a feature bundled into broader non-media products and services rather than a standalone business.",
+      "status": "open",
+      "origin_collection": "after-the-internet-networks",
+      "surfaced_in": "wiki/hubs/networks",
+      "evidence": [
+        "[[send-in-the-clowns-evi-db689d47988f#Claim 1]]",
+        "[[send-in-the-clowns-evi-db689d47988f#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-ecosystems",
+        "power-to-creators-communities",
+        "power-to-creators-niches",
+        "power-to-creators-gameplay"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-networks",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Apple and Amazon are named examples, but one source and one date do not yet support a scoped Trend or distinguish bundling from cyclic conglomeration."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-11062aac8130",
+      "statement": "Employee-built internal followings may redistribute organizational influence independently of formal hierarchy and location.",
+      "status": "open",
+      "origin_collection": "after-the-internet-networks",
+      "surfaced_in": "wiki/hubs/networks",
+      "evidence": [
+        "[[organizations-and-network-swarms-evi-7574f33333fc#Claim 1]]",
+        "[[organizations-and-network-swarms-evi-7574f33333fc#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-organization",
+        "nature-of-the-firm-culture"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-networks",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The source reports early signs without a named organizational case; organization and culture evidence should test authority, reach, and countervailing hierarchy."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-148e7962f080",
+      "statement": "A new internet wave may emerge as younger participants seek digital spaces they can culturally own outside current platform logics.",
+      "status": "open",
+      "origin_collection": "after-the-internet-networks",
+      "surfaced_in": "wiki/hubs/networks",
+      "evidence": [
+        "[[llms-and-the-final-internet-engagement-evi-401f211f3952#Claim 1]]",
+        "[[llms-and-the-final-internet-engagement-evi-401f211f3952#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "after-the-internet-paradigms",
+        "after-the-internet-culture",
+        "how-we-learn-futuring",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-networks",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The proposition is explicitly conditional and predictive; later batches should look for observed cultural exit, new interaction models, and disconfirming continuity."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-8226f3fdcc0f",
+      "statement": "Meaningful participant ownership may help protocols develop from transaction venues into durable communities.",
+      "status": "open",
+      "origin_collection": "after-the-internet-networks",
+      "surfaced_in": "wiki/hubs/networks",
+      "evidence": [
+        "[[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 1]]",
+        "[[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 2]]",
+        "[[the-dao-of-daos-evi-18de9dec7dd6#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-ecosystems",
+        "nature-of-the-firm-organization",
+        "power-to-creators-communities"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-networks",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The Evidence supplies an incentive hypothesis and possible fork benefits, but not a longitudinal community case or a distinction between ownership, contribution, and governance power."
+        }
+      ],
+      "resolution_target": null
     }
   ]
 }

@@ -22,6 +22,65 @@
             "evi-0c30a7f66a56"
           ]
         },
+        "🔮 After the Internet → 🔌 Networks": {
+          "completed_at": "2026-07-14",
+          "entry_end": 52,
+          "entry_start": 1,
+          "evidence_ids": [
+            "evi-9880fc632368",
+            "evi-535e9deff6a8",
+            "evi-3008443b1aee",
+            "evi-53f47d7d35d8",
+            "evi-3ccb7960ac41",
+            "evi-612f3d76b303",
+            "evi-18de9dec7dd6",
+            "evi-61d7a22c66ed",
+            "evi-d4cf14c88599",
+            "evi-027e2385d1bd",
+            "evi-2f7499be37f7",
+            "evi-11eee20d82d2",
+            "evi-3c7829df583c",
+            "evi-17025cedd9f9",
+            "evi-a0291a84b7e2",
+            "evi-ff62765a864a",
+            "evi-355708350079",
+            "evi-ab9d2f7e9bcc",
+            "evi-106470681e21",
+            "evi-c58d3061f651",
+            "evi-0b9908ddb9d4",
+            "evi-0515d12ba7b6",
+            "evi-aef4947dd435",
+            "evi-02a7de6ae122",
+            "evi-db689d47988f",
+            "evi-34413a669a3d",
+            "evi-d74613031eb5",
+            "evi-b53412c666c7",
+            "evi-9e4f0ee6a2a7",
+            "evi-ccdaac8e8841",
+            "evi-6cfbeebb7dc9",
+            "evi-7d067bde8a5b",
+            "evi-eb22b0e22037",
+            "evi-1f85d0fdcd02",
+            "evi-2f500166697e",
+            "evi-d897611b49cd",
+            "evi-7cce3e472c6c",
+            "evi-7805389d1647",
+            "evi-5a566176813d",
+            "evi-67f7b871dfe7",
+            "evi-3b78d4dd8e8f",
+            "evi-99b1e25fa617",
+            "evi-aa821db608a5",
+            "evi-47d49f24f851",
+            "evi-f0a80b1bc636",
+            "evi-f9cb41dad43c",
+            "evi-e1cbae0fff75",
+            "evi-97ac36635ff3",
+            "evi-42e1983f54e5",
+            "evi-7574f33333fc",
+            "evi-5a664290e086",
+            "evi-401f211f3952"
+          ]
+        },
         "🧰 Nature of the Firm → 👩‍⚖️ Governance": {
           "completed_at": "2026-07-14",
           "entry_end": 332,
@@ -43,8 +102,68 @@
           ]
         }
       },
-      "completed_entries": 26,
+      "completed_entries": 78,
       "evidence": {
+        "1": {
+          "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
+          "id": "evi-9880fc632368"
+        },
+        "10": {
+          "file": "evidence/sources/raiders-of-the-lost-bank-evi-027e2385d1bd.md",
+          "id": "evi-027e2385d1bd"
+        },
+        "11": {
+          "file": "evidence/sources/when-multiplayer-went-mainstream-evi-2f7499be37f7.md",
+          "id": "evi-2f7499be37f7"
+        },
+        "12": {
+          "file": "evidence/sources/a-framework-for-the-metaverse-evi-11eee20d82d2.md",
+          "id": "evi-11eee20d82d2"
+        },
+        "13": {
+          "file": "evidence/sources/epic-games-believes-the-internet-is-broken-this-is-their-blueprint-to-fix-it-evi-3c7829df583c.md",
+          "id": "evi-3c7829df583c"
+        },
+        "14": {
+          "file": "evidence/sources/when-is-a-new-tech-ahead-of-its-time-or-just-doomed-evi-17025cedd9f9.md",
+          "id": "evi-17025cedd9f9"
+        },
+        "15": {
+          "file": "evidence/sources/stepping-out-of-the-firehose-evi-a0291a84b7e2.md",
+          "id": "evi-a0291a84b7e2"
+        },
+        "16": {
+          "file": "evidence/sources/wallets-and-eyeballs-how-ebay-turned-the-internet-into-a-marketplace-evi-ff62765a864a.md",
+          "id": "evi-ff62765a864a"
+        },
+        "17": {
+          "file": "evidence/sources/the-rise-of-the-aligned-web-evi-355708350079.md",
+          "id": "evi-355708350079"
+        },
+        "18": {
+          "file": "evidence/sources/play-to-earn-and-bullshit-jobs-evi-ab9d2f7e9bcc.md",
+          "id": "evi-ab9d2f7e9bcc"
+        },
+        "19": {
+          "file": "evidence/sources/the-seven-rules-of-the-metaverse-evi-106470681e21.md",
+          "id": "evi-106470681e21"
+        },
+        "2": {
+          "file": "evidence/sources/internet-3-0-and-the-beginning-of-tech-history-evi-535e9deff6a8.md",
+          "id": "evi-535e9deff6a8"
+        },
+        "20": {
+          "file": "evidence/sources/money-go-round-evi-c58d3061f651.md",
+          "id": "evi-c58d3061f651"
+        },
+        "21": {
+          "file": "evidence/sources/the-web3-playbook-for-brands-evi-0b9908ddb9d4.md",
+          "id": "evi-0b9908ddb9d4"
+        },
+        "22": {
+          "file": "evidence/sources/andy-warhol-clay-christensen-and-vitalik-buterin-walk-into-a-bar-evi-0515d12ba7b6.md",
+          "id": "evi-0515d12ba7b6"
+        },
         "228": {
           "file": "evidence/sources/anti-monopoly-vs-antitrust-evi-2f5b61db4f37.md",
           "id": "evi-2f5b61db4f37"
@@ -52,6 +171,10 @@
         "229": {
           "file": "evidence/sources/is-the-internet-different-evi-6c29b15157f2.md",
           "id": "evi-6c29b15157f2"
+        },
+        "23": {
+          "file": "evidence/sources/false-futurism-evi-aef4947dd435.md",
+          "id": "evi-aef4947dd435"
         },
         "230": {
           "file": "evidence/sources/online-speech-and-publishing-evi-709567530c09.md",
@@ -93,9 +216,49 @@
           "file": "evidence/sources/are-other-ais-possible-evi-8e47b847a90f.md",
           "id": "evi-8e47b847a90f"
         },
+        "24": {
+          "file": "evidence/sources/lessons-from-19-years-in-the-metaverse-evi-02a7de6ae122.md",
+          "id": "evi-02a7de6ae122"
+        },
         "240": {
           "file": "evidence/sources/the-structure-of-engineering-revolutions-evi-0c30a7f66a56.md",
           "id": "evi-0c30a7f66a56"
+        },
+        "25": {
+          "file": "evidence/sources/send-in-the-clowns-evi-db689d47988f.md",
+          "id": "evi-db689d47988f"
+        },
+        "26": {
+          "file": "evidence/sources/chimp-city-evi-34413a669a3d.md",
+          "id": "evi-34413a669a3d"
+        },
+        "27": {
+          "file": "evidence/sources/the-web3-decentralization-debate-is-focused-on-the-wrong-question-evi-d74613031eb5.md",
+          "id": "evi-d74613031eb5"
+        },
+        "28": {
+          "file": "evidence/sources/the-age-of-tokies-evi-b53412c666c7.md",
+          "id": "evi-b53412c666c7"
+        },
+        "29": {
+          "file": "evidence/sources/tiktok-boom-evi-9e4f0ee6a2a7.md",
+          "id": "evi-9e4f0ee6a2a7"
+        },
+        "3": {
+          "file": "evidence/sources/a-prosocial-social-network-evi-3008443b1aee.md",
+          "id": "evi-3008443b1aee"
+        },
+        "30": {
+          "file": "evidence/sources/the-future-of-search-is-boutique-evi-ccdaac8e8841.md",
+          "id": "evi-ccdaac8e8841"
+        },
+        "31": {
+          "file": "evidence/sources/you-can-give-people-what-they-want-or-you-can-give-them-web3-evi-6cfbeebb7dc9.md",
+          "id": "evi-6cfbeebb7dc9"
+        },
+        "32": {
+          "file": "evidence/sources/sufficient-decentralization-for-social-networks-evi-7d067bde8a5b.md",
+          "id": "evi-7d067bde8a5b"
         },
         "320": {
           "file": "evidence/sources/every-company-needs-a-narrative-evi-11a5c4229b7e.md",
@@ -137,6 +300,10 @@
           "file": "evidence/sources/ai-and-trust-evi-6f21eb38aa3b.md",
           "id": "evi-6f21eb38aa3b"
         },
+        "33": {
+          "file": "evidence/sources/atoms-institutions-blockchains-evi-eb22b0e22037.md",
+          "id": "evi-eb22b0e22037"
+        },
         "330": {
           "file": "evidence/sources/seeing-like-a-ceo-evi-bc1b8533b647.md",
           "id": "evi-bc1b8533b647"
@@ -148,6 +315,106 @@
         "332": {
           "file": "evidence/sources/the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3.md",
           "id": "evi-ce49c35011a3"
+        },
+        "34": {
+          "file": "evidence/sources/the-end-of-social-media-and-the-rise-of-recommendation-media-evi-1f85d0fdcd02.md",
+          "id": "evi-1f85d0fdcd02"
+        },
+        "35": {
+          "file": "evidence/sources/the-metaverse-is-not-a-place-evi-2f500166697e.md",
+          "id": "evi-2f500166697e"
+        },
+        "36": {
+          "file": "evidence/sources/positive-sum-worlds-remaking-public-goods-evi-d897611b49cd.md",
+          "id": "evi-d897611b49cd"
+        },
+        "37": {
+          "file": "evidence/sources/solitary-confinement-evi-7cce3e472c6c.md",
+          "id": "evi-7cce3e472c6c"
+        },
+        "38": {
+          "file": "evidence/sources/sludgefeast-evi-7805389d1647.md",
+          "id": "evi-7805389d1647"
+        },
+        "39": {
+          "file": "evidence/sources/on-elon-musks-vision-of-twitter-as-a-hive-mind-evi-5a566176813d.md",
+          "id": "evi-5a566176813d"
+        },
+        "4": {
+          "file": "evidence/sources/ecommerce-in-legoland-evi-53f47d7d35d8.md",
+          "id": "evi-53f47d7d35d8"
+        },
+        "40": {
+          "file": "evidence/sources/the-age-of-social-media-is-ending-evi-67f7b871dfe7.md",
+          "id": "evi-67f7b871dfe7"
+        },
+        "41": {
+          "file": "evidence/sources/decentralization-evi-3b78d4dd8e8f.md",
+          "id": "evi-3b78d4dd8e8f"
+        },
+        "42": {
+          "file": "evidence/sources/6-new-theories-about-ai-evi-99b1e25fa617.md",
+          "id": "evi-99b1e25fa617"
+        },
+        "43": {
+          "file": "evidence/sources/a-native-internet-protocol-for-social-media-evi-aa821db608a5.md",
+          "id": "evi-aa821db608a5"
+        },
+        "44": {
+          "file": "evidence/sources/not-this-again-evi-47d49f24f851.md",
+          "id": "evi-47d49f24f851"
+        },
+        "45": {
+          "file": "evidence/sources/end-to-end-evi-f0a80b1bc636.md",
+          "id": "evi-f0a80b1bc636"
+        },
+        "46": {
+          "file": "evidence/sources/google-vs-chatgpt-told-by-aglio-e-olio-evi-f9cb41dad43c.md",
+          "id": "evi-f9cb41dad43c"
+        },
+        "47": {
+          "file": "evidence/sources/when-the-internet-becomes-chat-evi-e1cbae0fff75.md",
+          "id": "evi-e1cbae0fff75"
+        },
+        "48": {
+          "file": "evidence/sources/why-bank-runs-happenand-what-we-can-do-to-stop-the-panic-evi-97ac36635ff3.md",
+          "id": "evi-97ac36635ff3"
+        },
+        "49": {
+          "file": "evidence/sources/i-exponential-evi-42e1983f54e5.md",
+          "id": "evi-42e1983f54e5"
+        },
+        "5": {
+          "file": "evidence/sources/road-kill-on-the-information-highway-evi-3ccb7960ac41.md",
+          "id": "evi-3ccb7960ac41"
+        },
+        "50": {
+          "file": "evidence/sources/organizations-and-network-swarms-evi-7574f33333fc.md",
+          "id": "evi-7574f33333fc"
+        },
+        "51": {
+          "file": "evidence/sources/seeing-like-a-network-evi-5a664290e086.md",
+          "id": "evi-5a664290e086"
+        },
+        "52": {
+          "file": "evidence/sources/llms-and-the-final-internet-engagement-evi-401f211f3952.md",
+          "id": "evi-401f211f3952"
+        },
+        "6": {
+          "file": "evidence/sources/american-idle-evi-612f3d76b303.md",
+          "id": "evi-612f3d76b303"
+        },
+        "7": {
+          "file": "evidence/sources/the-dao-of-daos-evi-18de9dec7dd6.md",
+          "id": "evi-18de9dec7dd6"
+        },
+        "8": {
+          "file": "evidence/sources/protocols-and-creator-daos-evi-61d7a22c66ed.md",
+          "id": "evi-61d7a22c66ed"
+        },
+        "9": {
+          "file": "evidence/sources/own-the-internet-evi-d4cf14c88599.md",
+          "id": "evi-d4cf14c88599"
         }
       },
       "mode": "bootstrap_anthology",
