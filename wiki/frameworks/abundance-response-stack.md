@@ -11,6 +11,8 @@ relationships:
     target: "[[vibe-as-contextual-judgment]]"
   - type: raises_question
     target: "[[how-is-judgment-cultivated-when-production-is-cheap]]"
+  - type: refined_by
+    target: "[[intent-to-accountability-loop]]"
 description: "A seven-layer response to cheap production: formulate, verify, select, establish trust, slow down, subtract, and assign responsibility."
 evidence:
   - "[[llms-and-information-post-scarcity-evi-fecb7a97aa8d#Claim 2]]"
@@ -19,6 +21,9 @@ evidence:
   - "[[are-we-too-impatient-to-be-intelligent-evi-3d43722d5c40#Claim 1]]"
   - "[[simplification-takes-courage-evi-cff8810d556a#Claim 2]]"
   - "[[the-human-after-automation-truth-freedom-and-responsibility-evi-262a2bf87f82#Claim 2]]"
+  - "[[abundant-intelligence-evi-1a1520adbcda#Claim 2]]"
+  - "[[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 2]]"
+  - "[[living-strategy-evi-a0acc386fff8#Claim 2]]"
 ---
 
 # Abundance response stack
@@ -56,8 +61,12 @@ Trace an artifact from request to outcome. At each layer, record who performs th
 - [[are-we-too-impatient-to-be-intelligent-evi-3d43722d5c40#Claim 1|Are We Too Impatient — claim 1]] supplies temporal design.
 - [[simplification-takes-courage-evi-cff8810d556a#Claim 2|Simplification Takes Courage — claim 2]] supplies subtraction.
 - [[the-human-after-automation-truth-freedom-and-responsibility-evi-262a2bf87f82#Claim 2|The Human After Automation — claim 2]] supplies responsibility.
+- [[abundant-intelligence-evi-1a1520adbcda#Claim 2|Abundant Intelligence — claim 2]] strengthens selection as a human function.
+- [[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 2|AI Prompting → AI Verifying — claim 2]] makes verification a first-class design problem.
+- [[living-strategy-evi-a0acc386fff8#Claim 2|Living Strategy — claim 2]] locates responsibility in commitment under stakes.
 
 ## Relationships
 
 - Operationalizes [[vibe-as-contextual-judgment|Vibe as contextual judgment]].
 - Raises [[how-is-judgment-cultivated-when-production-is-cheap|the judgment-cultivation Question]].
+- Refined by the [[intent-to-accountability-loop|Intent-to-accountability loop]].

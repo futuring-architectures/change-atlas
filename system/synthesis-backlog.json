@@ -271,6 +271,13 @@
           "outcome": "qualified",
           "note": "Mass nonprofessional image generation strengthens abundance, while status legitimacy, taste, and low-prestige AI aesthetics show competing selection mechanisms. No attention distribution resolves who benefits."
         }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Gameplay adds long-tail aggregator capture, recreated NFT gatekeeping, and cheap-content quality risks, while citizen development and user programming provide counter-mechanisms. It still supplies no comparative attention distribution between incumbents, entrants, and niches."
+        }
       ],
       "resolution_target": null
     },
@@ -312,6 +319,13 @@
         {
           "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "no_change",
           "note": "The collection addresses individual media, employer platform brands, and creator tools but adds no observation of media bundled into non-media products."
+        }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection examines media aggregation, creator monetization, and AI interfaces but adds no dated evidence that media is becoming a bundled feature of non-media products."
         }
       ],
       "resolution_target": null
@@ -477,6 +491,13 @@
           "outcome": "no_change",
           "note": "Natural-language organizational control increases abstraction between intent and execution, but the collection does not compare user agency across inference-first and direct-manipulation interfaces."
         }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Chat-interface affordance failures, editable system prompts, and user-shaped tools strengthen the agency mechanism. The collection still lacks comparative evidence about actual user control over memory, prediction, and action."
+        }
       ],
       "resolution_target": null
     },
@@ -593,6 +614,13 @@
           "outcome": "strengthened",
           "note": "SEO degradation, distraction markets, disposable feed incentives, and plausible AI output strengthen selection-for-legibility mechanisms without measuring truth, depth, or durability."
         }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Plausible sentence generation, weakened prose proxies, frictionless content, and generic feature shipping strengthen selection for legibility and volume. Truth, depth, and durable usefulness remain unmeasured."
+        }
       ],
       "resolution_target": null
     },
@@ -663,6 +691,13 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The Organization collection adds platform and external-value-creation arguments but no observed open-model complement mobilization or evidence about sponsor control."
+        }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Open protocols and local-first software offer adjacent decentralization cases, but the collection contains no open-model sponsor case showing complement mobilization around a controlled platform."
         }
       ],
       "resolution_target": null
@@ -743,6 +778,13 @@
           "outcome": "strengthened",
           "note": "The Culture collection independently argues that cheap generation shifts scarcity toward collective commitment and forecasts substitution of machine assistance for peer collaboration. It strengthens the role-shift mechanism but remains forecast-heavy and lacks representative job-transition evidence."
         }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Multiple sources move human work toward intent, architecture, curation, verification, integration, and exception handling. Most are practitioner interpretations or forecasts, so prevalence and distributional outcomes remain open."
+        }
       ],
       "resolution_target": null
     },
@@ -770,6 +812,13 @@
           "outcome": "opened",
           "note": "Two sources identify lost peer contact, developmental interaction, recognition, and meaning as plausible consequences of AI-mediated work. They provide mechanisms and forecasts, not observed longitudinal outcomes."
         }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The collection identifies crutch effects, loss of full-problem understanding, role narrowing, and disappearing entry-level practice. It strengthens the mechanism without longitudinal apprenticeship or belonging outcomes."
+        }
       ],
       "resolution_target": null
     },
@@ -795,6 +844,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies a clear scarcity-shift thesis and earlier evidence that cheap output can create downstream evaluation work. It lacks comparative observations showing commitment or judgment becoming the dominant constraint."
+        }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Abundant alternatives, weakened output proxies, contextual defensibility, and selective abduction all relocate scarcity toward judgment and commitment. The evidence remains mechanism-rich but outcome-light."
         }
       ],
       "resolution_target": null
@@ -823,6 +879,13 @@
           "outcome": "opened",
           "note": "The collection supplies the abstraction-layer forecast and an AI-native trust requirement, but no observed organization whose natural-language control surface reliably governs consequential workflows."
         }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Malleable software, prompts as requirements, editable system prompts, and intent-centered code review provide convergent mechanisms for natural language as a control surface. Reliability and organizational adoption remain uneven."
+        }
       ],
       "resolution_target": null
     },
@@ -848,6 +911,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Two open-source sources identify maintainer attention, interaction, and boundary enforcement as scarce work around non-rival code. The collection lacks comparative workload and sustainability outcomes."
+        }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "User-authored agents and bespoke tools imply new maintenance burdens, but Gameplay adds no community-level observation of maintainer attention depletion or boundary-work sustainability."
         }
       ],
       "resolution_target": null
@@ -885,6 +955,13 @@
           "outcome": "no_change",
           "note": "Vibe identifies niche communities and creator legitimacy problems but adds no cohort evidence about direct-audience income or survival."
         }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Direct-support rhetoric is counterbalanced by long-tail aggregator capture, creator best-practice traps, and platform gig extraction. The collection adds no cohort evidence for a durable creative middle class."
+        }
       ],
       "resolution_target": null
     },
@@ -899,6 +976,13 @@
       "assessments": [
         {"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "The collection supplies both the plural-taste mechanism and the persistence of steep creative power laws, but no observed distribution across niches."},
         {"collection": "power-to-creators-vibe", "date": "2026-07-14", "outcome": "qualified", "note": "Vibe adds taste as post-commoditization differentiation and platform legitimacy as a status allocator, but no distributional evidence across taste vectors."}
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "The long-tail account strengthens aggregate intermediary capture, while contextual taste and distinctive viewpoints offer niche differentiation. No observed distribution across taste categories resolves category leadership or within-niche inequality."
+        }
       ],
       "resolution_target": null
     },
@@ -910,7 +994,14 @@
       "surfaced_in": "wiki/hubs/creator-niches",
       "evidence": ["[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 1]]", "[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 2]]"],
       "relevant_collections": ["power-to-creators-gameplay", "how-we-learn-architectures"],
-      "assessments": [{"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "One 2025 source proposes the long-tail mechanism and its consolidation counter-risk; no adoption or market outcome is observed."}],
+      "assessments": [{"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "One 2025 source proposes the long-tail mechanism and its consolidation counter-risk; no adoption or market outcome is observed."},
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Cheap code, reversed build-buy choices, editable agent behavior, and agent-oriented markets strengthen the mechanism for bespoke occasional-use software. Adoption, discovery economics, and agent-layer concentration remain forecasts."
+        }
+      ],
       "resolution_target": null
     },
     {
@@ -935,6 +1026,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Three sources converge on taste, difference, and responsibility after automation, but two are forecasts and the collection contains no measured outcomes."
+        }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Human meaning, contextual judgment, verification, point of view, and responsible commitment recur across independent sources as differentiators after cheap production. Status effects and market rewards remain largely predictive."
         }
       ],
       "resolution_target": null
@@ -961,6 +1059,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies complementary slow-interaction and subtraction proposals, but no evaluated interface or judgment outcome."
+        }
+      ,
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The collection adds productive friction, deliberate constraint, fewer outputs, and resistance to one-size-fits-all interfaces. These strengthen the design rationale but do not evaluate slow or subtractive interfaces directly."
         }
       ],
       "resolution_target": null
@@ -993,6 +1098,84 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Liquid Super Teams and blurred project boundaries forecast human network coordination, but the collection adds no machine-scale mechanism or observed movement of economic activity out of firms."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-1e7cfdce9b4a",
+      "statement": "Natural-language creation may distribute capability faster than ownership, maintenance capacity, and recourse.",
+      "status": "open",
+      "origin_collection": "power-to-creators-gameplay",
+      "surfaced_in": "wiki/hubs/creator-gameplay",
+      "evidence": [
+        "[[were-all-programmers-now-evi-2ebeb42b85a0#Claim 2]]",
+        "[[ai-horseless-carriages-evi-fc941dc02559#Claim 2]]",
+        "[[systemic-co-design-with-agentic-engineers-evi-556773a54c6b#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-architectures",
+        "how-we-learn-transitions",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Citizen development and user-programmable agents establish capability-distribution mechanisms, while gatekeeping and platform cases expose control risks. Ownership, maintenance, and recourse outcomes are not compared."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-f0de8bc17322",
+      "statement": "Verification capacity may become the rate-limiting resource for AI-enabled organizations even as generation and implementation costs fall.",
+      "status": "open",
+      "origin_collection": "power-to-creators-gameplay",
+      "surfaced_in": "wiki/hubs/creator-gameplay",
+      "evidence": [
+        "[[what-can-be-done-in-59-seconds-an-opportunity-and-a-crisis-evi-1404781d687d#Claim 2]]",
+        "[[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 1]]",
+        "[[how-propublica-uses-ai-responsibly-in-its-investigations-evi-4d69c164f06d#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Cheap polished output, explicit verification bottlenecks, and a journalistic practice case converge on the mechanism. No organization-level capacity or throughput comparison establishes the rate limit."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-cd8e403699a7",
+      "statement": "Removing entry-level production work may increase short-term output while weakening the future supply of expert judgment.",
+      "status": "open",
+      "origin_collection": "power-to-creators-gameplay",
+      "surfaced_in": "wiki/hubs/creator-gameplay",
+      "evidence": [
+        "[[asset-light-software-businesses-the-new-paradigm-for-startups-evi-e141e67c6019#Claim 2]]",
+        "[[when-we-become-cogs-evi-c1da269b7217#Claim 1]]",
+        "[[brain-drain-evi-21d6d2449459#Claim 1]]",
+        "[[context-engineering-why-hayeks-knowledge-problem-survives-ai-evi-7ceee8d0914c#Claim 1]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-architectures",
+        "how-we-learn-transitions",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-gameplay",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Role forecasts, crutch effects, and the need for underlying experience identify a plausible expertise-pipeline mechanism. The corpus lacks longitudinal novice progression or labor-demand outcomes."
         }
       ],
       "resolution_target": null

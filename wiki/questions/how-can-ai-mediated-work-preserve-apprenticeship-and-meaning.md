@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raised_by
     target: "[[does-cheap-intelligence-reduce-the-need-for-human-collaboration]]"
+  - type: raised_by
+    target: "[[does-ai-expand-expertise-or-hollow-it-out]]"
 description: "If workers increasingly ask machines instead of colleagues, which practices preserve tacit learning, recognition, judgment, and belonging?"
 origin: synthesis
 ---
@@ -28,6 +30,9 @@ AI can make expert help and production cheaper while removing interactions throu
 - [[setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6#Claim 2|Setting time on fire — claim 2]] identifies lost meaning in machine-to-machine work chains.
 - [[hierarchy-as-meaning-infrastructure|Hierarchy as meaning infrastructure]] shows that information access and developmental interpretation are distinct functions.
 - [[collaboration-architecture-choice|Collaboration architecture choice]] makes social infrastructure an explicit design input.
+- [[hardcore-ai-for-history-evi-235c91d99d6a#Claim 1|Hardcore AI for History — claim 1]] forecasts model output becoming a new performance floor.
+- [[when-we-become-cogs-evi-c1da269b7217#Claim 1|When We Become Cogs — claim 1]] identifies loss of full-problem understanding under easier workflows.
+- [[brain-drain-evi-21d6d2449459#Claim 1|brAIn drAIn — claim 1]] predicts different cognitive effects for skilled and dependent users.
 
 ## Missing or discriminating evidence
 
@@ -49,3 +54,4 @@ _Open. The collection supplies plausible mechanisms but no evaluated organizatio
 ## Relationships
 
 - Raised by [[does-cheap-intelligence-reduce-the-need-for-human-collaboration|the cheap-intelligence collaboration Debate]].
+- Raised by [[does-ai-expand-expertise-or-hollow-it-out|the expertise augmentation-versus-hollowing Debate]].
