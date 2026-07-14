@@ -193,6 +193,29 @@
             "evi-401f211f3952"
           ]
         },
+        "🧰 Nature of the Firm → 🌍 Ecosystems": {
+          "completed_at": "2026-07-14",
+          "entry_end": 256,
+          "entry_start": 241,
+          "evidence_ids": [
+            "evi-8bdbc7ca9ce6",
+            "evi-3c7738eb54ad",
+            "evi-e8ce23aebea6",
+            "evi-bffdd32df955",
+            "evi-dbf9042a8b6e",
+            "evi-42c4186964e1",
+            "evi-8368069fd3ef",
+            "evi-ae1adcca14d2",
+            "evi-7724e4a7868b",
+            "evi-b08090ed1e8e",
+            "evi-724432fb60cf",
+            "evi-acaef3d02086",
+            "evi-5dc34afce3d4",
+            "evi-fad6d071856e",
+            "evi-1eb62fe74eb7",
+            "evi-c8c8ec84e77d"
+          ]
+        },
         "🧰 Nature of the Firm → 👩‍⚖️ Governance": {
           "completed_at": "2026-07-14",
           "entry_end": 332,
@@ -214,7 +237,7 @@
           ]
         }
       },
-      "completed_entries": 183,
+      "completed_entries": 199,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -568,9 +591,73 @@
           "file": "evidence/sources/the-structure-of-engineering-revolutions-evi-0c30a7f66a56.md",
           "id": "evi-0c30a7f66a56"
         },
+        "241": {
+          "file": "evidence/sources/permeable-organizations-exploring-the-boundary-of-the-firm-evi-8bdbc7ca9ce6.md",
+          "id": "evi-8bdbc7ca9ce6"
+        },
+        "242": {
+          "file": "evidence/sources/learning-from-quibi-evi-3c7738eb54ad.md",
+          "id": "evi-3c7738eb54ad"
+        },
+        "243": {
+          "file": "evidence/sources/market-definitions-and-tech-monopolies-evi-e8ce23aebea6.md",
+          "id": "evi-e8ce23aebea6"
+        },
+        "244": {
+          "file": "evidence/sources/exit-to-community-evi-bffdd32df955.md",
+          "id": "evi-bffdd32df955"
+        },
+        "245": {
+          "file": "evidence/sources/squad-wealth-evi-dbf9042a8b6e.md",
+          "id": "evi-dbf9042a8b6e"
+        },
+        "246": {
+          "file": "evidence/sources/the-professionalization-of-startups-evi-42c4186964e1.md",
+          "id": "evi-42c4186964e1"
+        },
+        "247": {
+          "file": "evidence/sources/plastic-and-payments-in-the-fantasy-supply-chain-evi-8368069fd3ef.md",
+          "id": "evi-8368069fd3ef"
+        },
+        "248": {
+          "file": "evidence/sources/fintech-hasnt-solved-financial-exclusion-but-embedded-finance-will-evi-ae1adcca14d2.md",
+          "id": "evi-ae1adcca14d2"
+        },
+        "249": {
+          "file": "evidence/sources/we-need-to-shift-our-mindsets-to-compete-in-an-ecosystem-driven-world-evi-7724e4a7868b.md",
+          "id": "evi-7724e4a7868b"
+        },
         "25": {
           "file": "evidence/sources/send-in-the-clowns-evi-db689d47988f.md",
           "id": "evi-db689d47988f"
+        },
+        "250": {
+          "file": "evidence/sources/repeating-the-mistake-of-abstracting-social-connections-in-system-design-evi-b08090ed1e8e.md",
+          "id": "evi-b08090ed1e8e"
+        },
+        "251": {
+          "file": "evidence/sources/view-a-sku-evi-724432fb60cf.md",
+          "id": "evi-724432fb60cf"
+        },
+        "252": {
+          "file": "evidence/sources/delivering-people-evi-acaef3d02086.md",
+          "id": "evi-acaef3d02086"
+        },
+        "253": {
+          "file": "evidence/sources/non-coercive-marketing-a-primer-evi-5dc34afce3d4.md",
+          "id": "evi-5dc34afce3d4"
+        },
+        "254": {
+          "file": "evidence/sources/kevin-kelly-editor-author-and-futurist-evi-fad6d071856e.md",
+          "id": "evi-fad6d071856e"
+        },
+        "255": {
+          "file": "evidence/sources/open-source-ai-is-the-path-forward-evi-1eb62fe74eb7.md",
+          "id": "evi-1eb62fe74eb7"
+        },
+        "256": {
+          "file": "evidence/sources/monetization-and-monopolies-how-the-internet-you-loved-died-evi-c8c8ec84e77d.md",
+          "id": "evi-c8c8ec84e77d"
         },
         "26": {
           "file": "evidence/sources/chimp-city-evi-34413a669a3d.md",

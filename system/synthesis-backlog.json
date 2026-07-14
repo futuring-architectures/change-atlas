@@ -4,12 +4,15 @@
     {
       "id": "prp-7c60b5f08327",
       "statement": "Distributed stewardship may counteract the concentration of decision power in conventional firms.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-governance",
       "surfaced_in": "wiki/hubs/governance",
       "evidence": [
         "[[in-this-era-openness-wins-evi-46304a0ed935#Claim 1]]",
-        "[[in-this-era-openness-wins-evi-46304a0ed935#Claim 3]]"
+        "[[in-this-era-openness-wins-evi-46304a0ed935#Claim 3]]",
+        "[[permeable-organizations-exploring-the-boundary-of-the-firm-evi-8bdbc7ca9ce6#Claim 2]]",
+        "[[exit-to-community-evi-bffdd32df955#Claim 1]]",
+        "[[exit-to-community-evi-bffdd32df955#Claim 2]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -23,6 +26,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Governance evidence supplies a plausible contrast between distributed stewardship and upward-concentrating firm structure, but no observed organizational case."
+        },
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The Ecosystems collection adds a stakeholder mechanism: permeable firms can depend on orbital contributors who lack formal access, voice, or ownership, while community-powered digital firms rarely use cooperative structures. It strengthens the stewardship case but still lacks a comparative distributed-governance outcome."
         }
       ],
       "resolution_target": null
@@ -48,6 +57,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The source advocates modularity but the excerpt does not yet provide a reusable structure, boundary conditions, or comparative outcome evidence."
+        },
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The modular fantasy-miniature supply chain shows scalable coordination across specialized firms, but it is neither a megaproject nor evidence that modularity improves megaproject governance."
         }
       ],
       "resolution_target": null
@@ -208,6 +223,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Apple and Amazon are named examples, but one source and one date do not yet support a scoped Trend or distinguish bundling from cyclic conglomeration."
+        },
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection discusses media, distribution, and platform ecosystems but adds no observation that media is increasingly bundled as a feature of non-media products."
         }
       ],
       "resolution_target": null
@@ -279,13 +300,15 @@
     {
       "id": "prp-8226f3fdcc0f",
       "statement": "Meaningful participant ownership may help protocols develop from transaction venues into durable communities.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "after-the-internet-networks",
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
         "[[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 1]]",
         "[[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 2]]",
-        "[[the-dao-of-daos-evi-18de9dec7dd6#Claim 2]]"
+        "[[the-dao-of-daos-evi-18de9dec7dd6#Claim 2]]",
+        "[[exit-to-community-evi-bffdd32df955#Claim 1]]",
+        "[[exit-to-community-evi-bffdd32df955#Claim 2]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -298,6 +321,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The Evidence supplies an incentive hypothesis and possible fork benefits, but not a longitudinal community case or a distinction between ownership, contribution, and governance power."
+        },
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Exit to Community broadens the ownership rationale from protocols to community-powered firms, while also reporting that cooperatives remain uncommon among prominent digital startups. Ownership-community fit is plausible, but adoption scarcity and absent longitudinal outcomes qualify the proposition."
         }
       ],
       "resolution_target": null
@@ -358,6 +387,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection identifies upstream model change and integration churn, but does not yet supply a longitudinal product case or reusable operating model."
+        },
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The Llama source makes an AI platform dependent on a changing complement ecosystem, but provides no product revalidation process or longitudinal case of upstream model change."
         }
       ],
       "resolution_target": null
@@ -383,6 +418,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The proposition is timely and measurable but currently rests on one reported enterprise interpretation and a forecast rather than comparative deployment data."
+        },
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection contains ecosystem and distribution arguments but no comparative enterprise evidence about useful intelligence per dollar."
         }
       ],
       "resolution_target": null
@@ -438,6 +479,58 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies an industrial-knowledge warning and a mainframe dependency case, but lacks comparative transition outcomes and methods for preserving tacit expertise."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-c97c6954e473",
+      "statement": "Open model strategy may depend on mobilizing complements around a sponsor-controlled platform.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-ecosystems",
+      "surfaced_in": "wiki/hubs/ecosystems",
+      "evidence": [
+        "[[open-source-ai-is-the-path-forward-evi-1eb62fe74eb7#Claim 1]]",
+        "[[open-source-ai-is-the-path-forward-evi-1eb62fe74eb7#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-organization",
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Meta explicitly links Llama's value to tools, silicon optimization, and integrations built by other firms. The source is a sponsor strategy statement and does not establish how open the resulting control, economics, or governance will be."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-7650797f1cdc",
+      "statement": "Distributed startup playbooks may turn formerly scarce operational knowledge into ecosystem infrastructure.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-ecosystems",
+      "surfaced_in": "wiki/hubs/ecosystems",
+      "evidence": [
+        "[[the-professionalization-of-startups-evi-42c4186964e1#Claim 1]]",
+        "[[the-professionalization-of-startups-evi-42c4186964e1#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-organization",
+        "nature-of-the-firm-culture",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-ecosystems",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection reports a larger experienced workforce and faster reuse of distributed lessons, but supplies no measured transfer outcome and does not test whether playbooks improve competence or suppress context-specific variation."
         }
       ],
       "resolution_target": null

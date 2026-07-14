@@ -270,6 +270,12 @@ class CollectionWorkflowTests(unittest.TestCase):
             if record["id"] == "nature-of-the-firm-ecosystems"
         )
         ecosystems["stage"] = "synthesis_ready"
+        for proposition in backlog["propositions"]:
+            if "nature-of-the-firm-ecosystems" in proposition["relevant_collections"]:
+                proposition["assessments"] = [
+                    assessment for assessment in proposition["assessments"]
+                    if assessment["collection"] != "nature-of-the-firm-ecosystems"
+                ]
         issues = atlas_cli.validate_synthesis_backlog(ROOT, pages, tracker, backlog)
         self.assertIn("backlog.relevant_unassessed", {issue.code for issue in issues})
 

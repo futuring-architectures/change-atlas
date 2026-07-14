@@ -93,3 +93,16 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Updated eight existing Wiki pages with reciprocal typed relationships or additional Culture Evidence where the collection refined Networks and Paradigms synthesis.
 - Promoted no Trend because the collection is dominated by interpretations, concepts, normative positions, and forecasts rather than comparable repeated observations across time.
 - Assessed four relevant synthesis-backlog propositions and opened two stable propositions for later creator, organization, and learning collections.
+
+## [2026-07-14] evidence | Review and activate Ecosystems collection
+
+- Recovered source metadata for 16 Evidence records in `🧰 Nature of the Firm → 🌍 Ecosystems`, preserving inferred metadata for migrated pages and one unresolved publication date.
+- Extracted and classified 32 atomic claims while keeping prescriptions, forecasts, observations, concepts, and interpretations distinct.
+- Registered entries 241–256 in the manifest; anthology progress reached 199 of 686 entries.
+
+## [2026-07-14] synthesis | Create Ecosystems Wiki map
+
+- Synthesized the collection into one Hub, three Signals, four Concepts, one Framework, and two Questions; promoted no Trend from heterogeneous cases.
+- Expanded Participation is infrastructure and the platform-antitrust Debate with ecosystem contribution, dynamic competition, monopoly-rent, and infrastructure-repurposing evidence.
+- Added the Ecosystem boundary audit to trace contribution, dependency, coordination, control, capture, rights, and recourse beyond the formal firm.
+- Assessed six relevant synthesis-backlog propositions and opened two stable propositions for later organization, architecture, gameplay, and transition collections.

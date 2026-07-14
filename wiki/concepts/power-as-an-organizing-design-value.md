@@ -14,6 +14,8 @@ relationships:
     target: "[[platform-power-and-antitrust]]"
   - type: exemplified_by
     target: "[[openness-is-not-self-determination]]"
+  - type: exemplified_by
+    target: "[[non-coercive-marketing]]"
 description: "The idea that repeated design trade-offs reproduce whichever value organizes a technological system, including power itself."
 evidence:
   - "[[are-other-ais-possible-evi-8e47b847a90f#Claim 1]]"
@@ -66,3 +68,4 @@ The Governance collection extends the mechanism from technical design to organiz
 
 - Design-embedded power qualifies policy accounts in [[platform-power-and-antitrust|the platform power and antitrust debate]] that locate platform power primarily in voluntary user choice or later market position.
 - [[openness-is-not-self-determination|Openness without self-determination]] exemplifies how formal access can coexist with concentrated control.
+- [[non-coercive-marketing|Non-coercive marketing]] exemplifies the inverse design move: explicitly locating decision authority with the prospective customer.

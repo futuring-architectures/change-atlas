@@ -12,6 +12,12 @@ tags:
 relationships:
   - type: exemplified_by
     target: "[[auctionweb-users-supply-unpaid-marketplace-infrastructure]]"
+  - type: supported_by
+    target: "[[instagram-supported-an-orbital-economy-with-a-13-person-core]]"
+  - type: operationalized_by
+    target: "[[ecosystem-boundary-audit]]"
+  - type: raises_question
+    target: "[[what-rights-follow-from-ecosystem-contribution]]"
 description: "Participants do not merely consume a network; their labor, signals, norms, content, and relationships can become part of the system that makes it useful."
 evidence:
   - "[[wallets-and-eyeballs-how-ebay-turned-the-internet-into-a-marketplace-evi-ff62765a864a#Claim 1]]"
@@ -19,6 +25,9 @@ evidence:
   - "[[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 1]]"
   - "[[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 2]]"
   - "[[tiktok-boom-evi-9e4f0ee6a2a7#Claim 1]]"
+  - "[[permeable-organizations-exploring-the-boundary-of-the-firm-evi-8bdbc7ca9ce6#Claim 1]]"
+  - "[[delivering-people-evi-acaef3d02086#Claim 1]]"
+  - "[[delivering-people-evi-acaef3d02086#Claim 2]]"
 ---
 
 # Participation is infrastructure
@@ -50,7 +59,12 @@ The early eBay case makes the mechanism visible: users supplied ratings, advice,
 - [[wallets-and-eyeballs-how-ebay-turned-the-internet-into-a-marketplace-evi-ff62765a864a#Claim 2|Wallets and Eyeballs — claim 2]] records participant-supplied marketplace functions; [[wallets-and-eyeballs-how-ebay-turned-the-internet-into-a-marketplace-evi-ff62765a864a#Claim 1|claim 1]] links community to financial value.
 - [[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 1|Protocols and Creator DAOs — claim 1]] describes two-way value creation; [[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 2|claim 2]] links ownership to communal incentives.
 - [[tiktok-boom-evi-9e4f0ee6a2a7#Claim 1|TikTok Boom — claim 1]] shows participant behavior becoming recommendation input.
+- [[permeable-organizations-exploring-the-boundary-of-the-firm-evi-8bdbc7ca9ce6#Claim 1|Permeable Organizations — claim 1]] shows participant economies extending beyond a small formal firm.
+- [[delivering-people-evi-acaef3d02086#Claim 1|Delivering People — claim 1]] and [[delivering-people-evi-acaef3d02086#Claim 2|claim 2]] add the political-economic account of unpaid production, capture, and platform concentration.
 
 ## Relationships
 
 - [[auctionweb-users-supply-unpaid-marketplace-infrastructure|The AuctionWeb case]] exemplifies participation becoming operational infrastructure before token ownership or formal community governance.
+- [[instagram-supported-an-orbital-economy-with-a-13-person-core|Instagram's orbital economy]] supports the Concept beyond marketplace trust functions.
+- The [[ecosystem-boundary-audit|Ecosystem boundary audit]] operationalizes participant contribution, capture, and recourse across firm boundaries.
+- The Concept raises [[what-rights-follow-from-ecosystem-contribution|the question of what rights follow from ecosystem contribution]].
