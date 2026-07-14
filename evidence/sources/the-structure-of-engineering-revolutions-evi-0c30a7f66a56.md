@@ -4,7 +4,7 @@ type: evidence
 title: "The Structure of Engineering Revolutions"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — observation
+### Claim 1
 
 In the engineering practice described by the source, AI-agent workflows omit human code review and substitute repeated testing for deterministic human reasoning about correctness.
 
@@ -73,9 +71,7 @@ In the engineering practice described by the source, AI-agent workflows omit hum
 - Date relevance: Source published 2026-03-02.
 - Qualification: The excerpt reports a practice without identifying its prevalence, organization, codebase, or measured outcomes.
 
-<a id="claim-2"></a>
-
-### Claim 2 — interpretation
+### Claim 2
 
 Agent-driven iteration shifts the developer’s role away from careful architectural craft toward orchestrating an automated execution loop.
 
@@ -84,9 +80,7 @@ Agent-driven iteration shifts the developer’s role away from careful architect
 - Date relevance: Source published 2026-03-02.
 - Qualification: The contrast is deliberately stark and may not capture hybrid workflows that retain design and review responsibilities.
 
-<a id="claim-3"></a>
-
-### Claim 3 — observation
+### Claim 3
 
 In the described workflow, an agent that selects the next ticket replaces explicit waterfall or agile planning routines.
 

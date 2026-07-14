@@ -58,6 +58,8 @@ REQUIRED_FILES = (
 )
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 ANCHOR_RE = re.compile(r'<a\s+(?:id|name)=["\']([^"\']+)["\']\s*></a>', re.I)
+HEADING_RE = re.compile(r"(?m)^#{1,6}\s+(.+?)\s*$")
+CLAIM_HEADING_RE = re.compile(r"(?m)^### Claim ([1-9][0-9]*)\s*$")
 ID_RE = re.compile(r"^[a-z]{3}-[a-z0-9]{6,}$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -282,7 +284,7 @@ def parse_markdown(path: Path) -> Tuple[Optional[Page], List[Issue]]:
         metadata = parse_yaml_subset(yaml_text)
     except YamlSubsetError as exc:
         return None, [Issue("frontmatter.malformed", path, str(exc))]
-    anchors = ANCHOR_RE.findall(body)
+    anchors = ANCHOR_RE.findall(body) + HEADING_RE.findall(body)
     links = WIKILINK_RE.findall(body)
     return Page(path, metadata, body, anchors, links), issues
 
@@ -668,7 +670,9 @@ def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[P
         if page_type == "evidence":
             issues.extend(_validate_evidence_provenance(page, content_root, raw_cache))
             issues.extend(_validate_evidence_source_metadata(page, schema))
-            claim_anchors = [anchor for anchor in page.anchors if re.fullmatch(r"claim-[1-9][0-9]*", anchor)]
+            claim_heading_numbers = CLAIM_HEADING_RE.findall(page.body)
+            claim_heading_lines = re.findall(r"(?m)^### (Claim(?:\s+.*)?)\s*$", page.body)
+            claim_anchors = [f"Claim {number}" for number in claim_heading_numbers]
             claim_status = metadata.get("claim_extraction_status")
             allowed_claim_statuses = schema.get("evidence_claim_extraction_statuses", [])
             if claim_status not in allowed_claim_statuses:
@@ -700,26 +704,22 @@ def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[P
                         "each claim anchor requires exactly one Classification field",
                     )
                 )
-            claim_headings = re.findall(r"(?m)^### Claim ([1-9][0-9]*) — (.+)$", page.body)
-            if len(claim_headings) != len(claim_anchors):
+            if len(claim_heading_lines) != len(claim_anchors):
                 issues.append(
                     Issue(
                         "evidence.claim_heading_count",
                         page.path,
-                        "each claim anchor requires exactly one numbered claim heading",
+                        "claim headings must use the exact form '### Claim N'",
                     )
                 )
             else:
-                for index, ((heading_number, heading_class), classification) in enumerate(
-                    zip(claim_headings, classifications), 1
-                ):
-                    normalized_heading_class = heading_class.strip().lower().replace(" ", "_")
-                    if int(heading_number) != index or normalized_heading_class != classification:
+                for index, heading_number in enumerate(claim_heading_numbers, 1):
+                    if int(heading_number) != index:
                         issues.append(
                             Issue(
                                 "evidence.claim_heading_mismatch",
                                 page.path,
-                                f"claim {index} heading must match its classification",
+                                f"claim heading {heading_number} must appear in sequence as Claim {index}",
                             )
                         )
             for field in ("Scope", "Date relevance", "Qualification"):
@@ -742,13 +742,13 @@ def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[P
                             f"unsupported claim classification {classification!r}",
                         )
                     )
-            expected_anchors = [f"claim-{index}" for index in range(1, len(claim_anchors) + 1)]
+            expected_anchors = [f"Claim {index}" for index in range(1, len(claim_anchors) + 1)]
             if claim_anchors != expected_anchors:
                 issues.append(
                     Issue(
                         "evidence.claim_anchor_sequence",
                         page.path,
-                        "claim anchors must be unique and sequential from claim-1",
+                        "claim headings must be unique and sequential from Claim 1",
                     )
                 )
 
@@ -1012,11 +1012,7 @@ def command_status(root: Path, as_json: bool = False) -> int:
         "evidence_pages": counts.get("evidence", 0),
         "draft_evidence_pages": sum(page.metadata.get("status") == "draft" for page in evidence),
         "active_evidence_pages": sum(page.metadata.get("status") == "active" for page in evidence),
-        "atomic_claims": sum(
-            bool(re.fullmatch(r"claim-[1-9][0-9]*", anchor))
-            for page in evidence
-            for anchor in page.anchors
-        ),
+        "atomic_claims": sum(len(CLAIM_HEADING_RE.findall(page.body)) for page in evidence),
         "claim_review_pending": sum(
             page.metadata.get("claim_extraction_status") == "pending" for page in evidence
         ),

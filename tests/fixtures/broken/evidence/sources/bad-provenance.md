@@ -31,8 +31,6 @@ global_position: 1
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — observation
+### Claim 1
 
 This fixture intentionally contains invalid provenance metadata.

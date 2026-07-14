@@ -4,7 +4,7 @@ type: evidence
 title: "Tech Monopolies and the Insufficient Necessity of Interoperability"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — interpretation
+### Claim 1
 
 Smaller companies tend to favor interoperability while it helps them reach customers or complement an established product.
 
@@ -73,9 +71,7 @@ Smaller companies tend to favor interoperability while it helps them reach custo
 - Date relevance: Publication date is inferred as 2021-07-05.
 - Qualification: The excerpt describes a recurring incentive pattern rather than a universal rule.
 
-<a id="claim-2"></a>
-
-### Claim 2 — interpretation
+### Claim 2
 
 Firms’ support for interoperability can decline as their market position strengthens and openness becomes more useful to rivals.
 
@@ -84,9 +80,7 @@ Firms’ support for interoperability can decline as their market position stren
 - Date relevance: Publication date is inferred as 2021-07-05.
 - Qualification: The inference is illustrated through Facebook; the excerpt does not establish prevalence across all firms.
 
-<a id="claim-3"></a>
-
-### Claim 3 — observation
+### Claim 3
 
 Facebook reduced interoperability tools it had previously offered and opposed rivals that attempted to interoperate with its services.
 

@@ -9,7 +9,7 @@ tags: []
 relationships: []
 description: Concise definition.
 evidence:
-  - "[[source-slug#claim-1]]"
+  - "[[source-slug#Claim 1]]"
 ---
 
 # Concept name
@@ -24,9 +24,8 @@ evidence:
 
 ## Evidence
 
-- [[source-slug#claim-1]]
+- [[source-slug#Claim 1|Source title — claim 1]]
 
 ## Relationships
 
 - Add readable relationship links here.
-

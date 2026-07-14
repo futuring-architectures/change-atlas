@@ -4,7 +4,7 @@ type: evidence
 title: "Class 1 / Class 2 Problems"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — conceptual claim
+### Claim 1
 
 As a technology matures, its central problem can shift from limited access and poor performance to the systemic consequences of universal access and effective performance.
 
@@ -73,9 +71,7 @@ As a technology matures, its central problem can shift from limited access and p
 - Date relevance: Source published 2021-11-05; the claim describes a general maturity transition.
 - Qualification: The two problem classes are a framing device and may coexist rather than replace one another completely.
 
-<a id="claim-2"></a>
-
-### Claim 2 — conceptual claim
+### Claim 2
 
 Systemic challenges created by mature technologies require extra-market responses such as cultural norms, regulation, education, and reframing.
 
@@ -84,9 +80,7 @@ Systemic challenges created by mature technologies require extra-market response
 - Date relevance: Source published 2021-11-05.
 - Qualification: The excerpt names a response portfolio but does not establish which combination works under which conditions.
 
-<a id="claim-3"></a>
-
-### Claim 3 — interpretation
+### Claim 3
 
 Soft, slow-moving extra-market responses receive less attention than their importance warrants.
 

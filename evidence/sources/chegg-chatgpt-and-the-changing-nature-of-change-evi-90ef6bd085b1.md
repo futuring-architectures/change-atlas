@@ -4,7 +4,7 @@ type: evidence
 title: "Chegg, ChatGPT, and the changing nature of change"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — conceptual claim
+### Claim 1
 
 Structural uncertainty changes the competitive playing field and the object of competition, not merely the conditions within an existing game.
 
@@ -73,9 +71,7 @@ Structural uncertainty changes the competitive playing field and the object of c
 - Date relevance: Source published 2024-11-19; the claim defines a general type of uncertainty.
 - Qualification: The excerpt does not provide criteria for distinguishing structural from severe operational uncertainty.
 
-<a id="claim-2"></a>
-
-### Claim 2 — conceptual claim
+### Claim 2
 
 Operational responses are inadequate when uncertainty has changed the underlying structure of the problem.
 

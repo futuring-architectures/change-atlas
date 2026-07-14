@@ -4,7 +4,7 @@ type: evidence
 title: "Are Other AIs Possible?"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — conceptual claim
+### Claim 1
 
 Technology embeds power because its construction depends on actors who possess the power and resources to build it.
 
@@ -73,9 +71,7 @@ Technology embeds power because its construction depends on actors who possess t
 - Date relevance: Source published 2025-01-26; the claim describes a general design mechanism.
 - Qualification: The excerpt treats power broadly and does not distinguish economic, political, technical, or cultural forms.
 
-<a id="claim-2"></a>
-
-### Claim 2 — conceptual claim
+### Claim 2
 
 A system’s organizing value guides how design trade-offs are resolved and thereby becomes entrenched in the resulting technology.
 
@@ -84,9 +80,7 @@ A system’s organizing value guides how design trade-offs are resolved and ther
 - Date relevance: Source published 2025-01-26.
 - Qualification: The account foregrounds one central value, while real design processes may reflect several values and constraints.
 
-<a id="claim-3"></a>
-
-### Claim 3 — conceptual claim
+### Claim 3
 
 When power is the organizing value of a design process, design decisions tend to reproduce power in the system.
 

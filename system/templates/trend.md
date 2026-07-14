@@ -12,7 +12,7 @@ scope: Explicit domain, geography, population, or system boundary.
 period_start: null
 period_end: null
 evidence:
-  - "[[source-slug#claim-1]]"
+  - "[[source-slug#Claim 1]]"
 ---
 
 # Trend title
@@ -27,7 +27,7 @@ Describe the direction, scope, and period.
 
 ## Direct Evidence
 
-- [[source-slug#claim-1]]
+- [[source-slug#Claim 1|Source title — claim 1]]
 
 ## Counter-signals and qualifications
 
@@ -44,4 +44,3 @@ Discuss source independence, temporal coverage, scope, and missing evidence.
 ## Relationships
 
 - Add readable relationship links here.
-

@@ -17,7 +17,7 @@ scope: Reference fixture only
 period_start: 2026-01-02
 period_end: null
 evidence:
-  - "[[source-example#claim-1]]"
+  - "[[source-example#Claim 1]]"
 ---
 
 # Example trend
@@ -32,9 +32,8 @@ Related examples may be accumulating in a direction.
 
 ## Direct Evidence
 
-- [[source-example#claim-1]]
+- [[source-example#Claim 1]]
 
 ## Relationships
 
 - Provides one position within [[debate-example]].
-

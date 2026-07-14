@@ -52,3 +52,18 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Propagated recovered dates into all 30 claim date-relevance fields without changing excerpts or normalized claim meaning.
 - Added validation for verified, inferred, and unresolved source metadata, including date source and precision.
 - Performed no Wiki synthesis.
+
+## [2026-07-14] synthesis | Create first Rules Wiki map
+
+- Synthesized the 30 reviewed claims in `🔮 After the Internet → 👩‍⚖️ Rules` into one Hub, two candidate Signals, three candidate Concepts, one candidate Framework, one open Debate, and three open Questions.
+- Preserved the distinction between observations, interpretations, conceptual claims, and normative positions in the Wiki prose and citations.
+- Added reciprocal typed relationships only where the pilot supported a specific semantic edge.
+- Promoted no Trend because the batch lacks multiple independent, defensibly dated Signals for a directional claim.
+- Marked uncertainties in event timing, source independence, category boundaries, and one-sided normative coverage for later reconciliation and linting.
+
+## [2026-07-14] system | Adopt portable claim-heading links
+
+- Replaced HTML claim anchors and classification-bearing claim headings with stable `Claim N` Markdown headings.
+- Updated canonical Evidence citations to target the exact heading text while preserving claim numbers and reader-facing aliases.
+- Extended validation to resolve Markdown headings as internal link targets and require sequential `Claim N` headings on reviewed Evidence.
+- Updated Wiki templates, fixtures, tests, and operating guidance so future synthesis uses the portable heading convention.

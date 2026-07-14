@@ -1,3 +1,4 @@
+import json
 import subprocess
 import sys
 import shutil
@@ -48,6 +49,32 @@ class ValidationTests(unittest.TestCase):
         pages, issues = atlas_cli.validate_content(ROOT / "tests/fixtures/valid", self.schema)
         self.assertEqual(len(pages), 5)
         self.assertEqual(issues, [])
+
+    def test_claim_heading_is_a_resolvable_link_target(self):
+        source = ROOT / "tests/fixtures/valid/evidence/sources/source-example.md"
+        page, issues = atlas_cli.parse_markdown(source)
+        self.assertEqual(issues, [])
+        self.assertIsNotNone(page)
+        self.assertIn("Claim 1", page.anchors)
+        self.assertEqual(
+            atlas_cli.split_wikilink("[[source-example#Claim 1|Readable citation]]"),
+            ("source-example", "Claim 1"),
+        )
+
+    def test_legacy_classification_suffix_in_claim_heading_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "valid"
+            shutil.copytree(ROOT / "tests/fixtures/valid", root)
+            evidence = root / "evidence/sources/source-example.md"
+            content = evidence.read_text(encoding="utf-8")
+            evidence.write_text(
+                content.replace("### Claim 1", "### Claim 1 — observation"),
+                encoding="utf-8",
+            )
+            _, issues = atlas_cli.validate_content(root, self.schema)
+            codes = {issue.code for issue in issues}
+            self.assertIn("evidence.claim_missing", codes)
+            self.assertIn("anchor.broken", codes)
 
     def test_broken_fixture_exercises_expected_checks(self):
         _, issues = atlas_cli.validate_content(ROOT / "tests/fixtures/broken", self.schema)
@@ -135,6 +162,11 @@ class CommandTests(unittest.TestCase):
         result = self.run_wiki("validate", "tests/fixtures/broken")
         self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
         self.assertIn("relationship.inverse_missing", result.stdout)
+
+    def test_status_counts_heading_anchored_claims(self):
+        result = self.run_wiki("status", "--json")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertEqual(json.loads(result.stdout)["atomic_claims"], 30)
 
 
 class BootstrapAuditTests(unittest.TestCase):

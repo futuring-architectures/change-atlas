@@ -45,9 +45,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — observation
+### Claim 1
 
 A bounded example occurred.
 

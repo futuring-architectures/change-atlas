@@ -4,7 +4,7 @@ type: evidence
 title: "Is the Internet Different?"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — interpretation
+### Claim 1
 
 Internet aggregators weakened traditional media business models that depended on controlling distribution.
 
@@ -73,9 +71,7 @@ Internet aggregators weakened traditional media business models that depended on
 - Date relevance: Source published 2020-11-03.
 - Qualification: The excerpt asserts the effect without measuring its magnitude or separating other causes.
 
-<a id="claim-2"></a>
-
-### Claim 2 — interpretation
+### Claim 2
 
 The same aggregators benefit consumers by matching them more directly with content they want.
 
@@ -84,9 +80,7 @@ The same aggregators benefit consumers by matching them more directly with conte
 - Date relevance: Source published 2020-11-03.
 - Qualification: “What consumers want” is treated as a benefit; downstream welfare, market, and societal effects are outside the excerpt.
 
-<a id="claim-3"></a>
-
-### Claim 3 — interpretation
+### Claim 3
 
 Consumer benefits from aggregation can justify an antitrust interpretation that differs from one centered on harm to incumbent media firms.
 

@@ -14,7 +14,7 @@ relationships:
     target: "[[question-example]]"
 description: Whether the apparent direction is durable remains unresolved.
 evidence:
-  - "[[source-example#claim-1]]"
+  - "[[source-example#Claim 1]]"
 ---
 
 # Example debate
@@ -25,7 +25,7 @@ Is the apparent direction durable?
 
 ## Evidence
 
-- [[source-example#claim-1]]
+- [[source-example#Claim 1]]
 
 ## Open questions
 
@@ -34,4 +34,3 @@ Is the apparent direction durable?
 ## Relationships
 
 - Supported by [[trend-example]].
-

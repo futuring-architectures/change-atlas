@@ -74,7 +74,9 @@ A claim may be evidence for more than one page, but every use must preserve its 
 
 ## Relationship maintenance
 
-Use only relationship types declared in `system/schema.yaml`. Targets use Obsidian-style links such as `[[recommendation-media]]` or `[[source-example#claim-1]]`.
+Use only relationship types declared in `system/schema.yaml`. Targets use Obsidian-style links such as `[[recommendation-media]]` or `[[source-example#Claim 1]]`.
+
+Keep frontmatter Evidence and relationship targets canonical and unaliased for stable machine inspection. In page bodies, add readable display aliases to Evidence claim links: use `[[source-slug#Claim 1|Source title — claim 1]]` in Evidence lists and a concise semantic label in explanatory prose. Give Wiki-to-Wiki links readable title or sentence-level aliases as well. Do not expose generated slugs as reader-facing text when an alias can state the source, page, or claim clearly.
 
 When adding a relationship:
 

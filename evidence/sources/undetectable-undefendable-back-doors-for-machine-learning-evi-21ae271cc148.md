@@ -4,7 +4,7 @@ type: evidence
 title: "Undetectable, undefendable back-doors for machine learning"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — interpretation
+### Claim 1
 
 Humans cannot reliably remain vigilant over systems that are almost always correct but occasionally fail catastrophically.
 
@@ -73,9 +71,7 @@ Humans cannot reliably remain vigilant over systems that are almost always corre
 - Date relevance: Source published 2022-10-11.
 - Qualification: “Neurologically impossible” is a strong source assertion; the excerpt provides no empirical evidence or boundary conditions.
 
-<a id="claim-2"></a>
-
-### Claim 2 — interpretation
+### Claim 2
 
 Adversarial vulnerabilities call machine-learning applications into question when an actor can benefit from inducing a model failure.
 

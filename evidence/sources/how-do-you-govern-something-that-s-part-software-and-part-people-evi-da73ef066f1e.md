@@ -4,7 +4,7 @@ type: evidence
 title: "How do you govern something that's part software and part people?"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — interpretation
+### Claim 1
 
 The difficulty of determining the full capabilities of advanced AI models makes them difficult to govern.
 
@@ -73,9 +71,7 @@ The difficulty of determining the full capabilities of advanced AI models makes 
 - Date relevance: Source published 2023-06-05.
 - Qualification: The excerpt asserts a governance difficulty but does not identify a specific governance regime or observed failure.
 
-<a id="claim-2"></a>
-
-### Claim 2 — interpretation
+### Claim 2
 
 The absence of an adequate theory of what advanced AI is impedes understanding what it can do.
 
@@ -84,9 +80,7 @@ The absence of an adequate theory of what advanced AI is impedes understanding w
 - Date relevance: Source published 2023-06-05.
 - Qualification: “Adequate theory” is not defined, and the excerpt does not compare competing theories.
 
-<a id="claim-3"></a>
-
-### Claim 3 — conceptual claim
+### Claim 3
 
 Advanced AI occupies a hybrid category: it is software-like in implementation while also displaying the versatility and unreliability associated with people.
 

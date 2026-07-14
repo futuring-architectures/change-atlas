@@ -4,7 +4,7 @@ type: evidence
 title: "Online speech and publishing"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — conceptual claim
+### Claim 1
 
 Online speech systems combine aspects of platforms and publishers but constitute a distinct institutional form that neither legacy category adequately captures.
 
@@ -73,9 +71,7 @@ Online speech systems combine aspects of platforms and publishers but constitute
 - Date relevance: Source published 2021-01-17.
 - Qualification: The excerpt establishes categorical inadequacy but does not supply a replacement taxonomy.
 
-<a id="claim-2"></a>
-
-### Claim 2 — normative position
+### Claim 2
 
 Internet services should be subject to rules designed around how their distinct systems actually operate rather than rules imported unchanged from legacy media categories.
 

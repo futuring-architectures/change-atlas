@@ -9,12 +9,12 @@ tags:
   - example
 relationships:
   - type: evidenced_by
-    target: "[[source-example#claim-1]]"
+    target: "[[source-example#Claim 1]]"
   - type: supports
     target: "[[trend-example]]"
 description: A bounded example is observable.
 evidence:
-  - "[[source-example#claim-1]]"
+  - "[[source-example#Claim 1]]"
 ---
 
 # Example signal
@@ -25,9 +25,8 @@ A bounded example is observable.
 
 ## Evidence
 
-- [[source-example#claim-1]]
+- [[source-example#Claim 1]]
 
 ## Relationships
 
 - Supports [[trend-example]].
-

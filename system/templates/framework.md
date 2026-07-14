@@ -9,7 +9,7 @@ tags: []
 relationships: []
 description: What the framework helps someone understand or do.
 evidence:
-  - "[[source-slug#claim-1]]"
+  - "[[source-slug#Claim 1]]"
 ---
 
 # Framework name
@@ -28,9 +28,8 @@ Describe the steps, axes, components, matrix, or causal relationships.
 
 ## Evidence
 
-- [[source-slug#claim-1]]
+- [[source-slug#Claim 1|Source title — claim 1]]
 
 ## Relationships
 
 - Add readable relationship links here.
-

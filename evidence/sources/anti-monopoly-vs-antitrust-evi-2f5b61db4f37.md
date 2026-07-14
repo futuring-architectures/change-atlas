@@ -4,7 +4,7 @@ type: evidence
 title: "Anti-monopoly vs. Antitrust"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — interpretation
+### Claim 1
 
 Large consumer technology platforms derive much of their power from widespread voluntary user adoption.
 
@@ -73,9 +71,7 @@ Large consumer technology platforms derive much of their power from widespread v
 - Date relevance: Source published 2020-10-07; the excerpt describes platform power in that period.
 - Qualification: This is the source’s causal interpretation and is not independently substantiated within the excerpt.
 
-<a id="claim-2"></a>
-
-### Claim 2 — normative position
+### Claim 2
 
 Antitrust measures that counter platform power by constraining individual user choice may be both impractical and undesirable.
 

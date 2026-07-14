@@ -4,7 +4,7 @@ type: evidence
 title: "Beyond Platforms: Private Censorship, Parler, and the Stack"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — normative position
+### Claim 1
 
 Users should decide for themselves what content they can access wherever such choice is feasible.
 
@@ -73,9 +71,7 @@ Users should decide for themselves what content they can access wherever such ch
 - Date relevance: Source published 2021-01-11 in the immediate aftermath of the Parler infrastructure takedowns.
 - Qualification: “Wherever possible” leaves the practical and legal limits of user choice unspecified.
 
-<a id="claim-2"></a>
-
-### Claim 2 — normative position
+### Claim 2
 
 Infrastructure-layer companies should avoid becoming content-control chokepoints and should defend a conduit role rather than act as publishers.
 

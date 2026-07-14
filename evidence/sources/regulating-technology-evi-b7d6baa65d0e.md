@@ -4,7 +4,7 @@ type: evidence
 title: "Regulating technology"
 status: active
 created_at: 2026-07-13
-updated_at: 2026-07-13
+updated_at: 2026-07-14
 tags:
   - after-the-internet
   - rules
@@ -62,9 +62,7 @@ claim_extraction_status: complete_with_claims
 
 ## Atomic claims
 
-<a id="claim-1"></a>
-
-### Claim 1 — observation
+### Claim 1
 
 Technology moved from being socially interesting to socially crucial within roughly five to ten years, according to the source.
 
@@ -73,9 +71,7 @@ Technology moved from being socially interesting to socially crucial within roug
 - Date relevance: The five-to-ten-year interval is relative to publication on 2020-07-23.
 - Qualification: This is a broad, source-reported periodization rather than a measured threshold of social importance.
 
-<a id="claim-2"></a>
-
-### Claim 2 — interpretation
+### Claim 2
 
 The speed of technology’s rise compresses the time available for society to understand it and form regulatory judgments.
 

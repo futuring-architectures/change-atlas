@@ -39,7 +39,7 @@ tags:
   - networks
 relationships:
   - type: evidenced_by
-    target: "[[source-example#claim-1]]"
+    target: "[[source-example#Claim 1]]"
 ```
 
 Relationships are machine-checkable edges. Page bodies should also explain important relationships in readable language.
@@ -80,11 +80,13 @@ Canonical URL, author, and publisher each carry a status of `verified`, `inferre
 
 Publication dates use the same status vocabulary. `date_source` records how the date was recovered, and `date_precision` is `day`, `month`, `year`, or `unknown`. Partial dates use `YYYY-MM` or `YYYY`; never invent a day merely to satisfy a date format.
 
-Each claim must have a stable explicit anchor:
+Each claim uses a stable, numbered Markdown heading as its anchor:
 
-```html
-<a id="claim-1"></a>
+```markdown
+### Claim 1
 ```
+
+Classification is recorded in the claim's `Classification` field rather than repeated in the heading. Wiki references target the exact heading text, for example `[[source-example#Claim 1]]`. Simple `Claim N` headings navigate natively in Obsidian and receive conventional `claim-n` fragment identifiers in common HTML renderers.
 
 Each claim records exactly one primary class:
 
@@ -155,6 +157,30 @@ Use only relationship types declared in `schema.yaml`. Each relationship has a r
 ```
 
 Evidence citations and relationship edges serve different purposes. The `evidence` field proves provenance; typed links describe the graph. A page may require both.
+
+### Reader-facing link text
+
+Frontmatter references remain canonical and unaliased so their targets are easy to inspect and compare mechanically:
+
+```yaml
+evidence:
+  - "[[source-example#Claim 1]]"
+```
+
+Page bodies use Obsidian display aliases so generated slugs do not become reader-facing prose. In an Evidence list, identify the source and claim:
+
+```markdown
+- [[source-example#Claim 1|Source title — claim 1]]
+```
+
+In explanatory prose, the alias may instead name the claim's role in the sentence:
+
+```markdown
+The case shows [[source-example#Claim 1|a reversal in interoperability policy]].
+```
+
+Aliases change only presentation. The target before `|` remains the stable Evidence page and claim anchor.
+Use the same principle for Wiki-to-Wiki links whenever a raw filename slug would otherwise appear in the rendered sentence.
 
 ## Page creation rule
 

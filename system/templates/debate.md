@@ -9,7 +9,7 @@ tags: []
 relationships: []
 description: The central disagreement or tension.
 evidence:
-  - "[[source-slug#claim-1]]"
+  - "[[source-slug#Claim 1]]"
 ---
 
 # Debate title
@@ -28,7 +28,7 @@ Distinguish evidence, definitions, scope, timeframe, assumptions, and values.
 
 ## Evidence
 
-- [[source-slug#claim-1]]
+- [[source-slug#Claim 1|Source title — claim 1]]
 
 ## Current assessment
 
@@ -37,4 +37,3 @@ Distinguish evidence, definitions, scope, timeframe, assumptions, and values.
 ## Relationships
 
 - Add readable relationship links here.
-

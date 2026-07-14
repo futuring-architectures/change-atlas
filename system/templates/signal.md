@@ -9,7 +9,7 @@ tags: []
 relationships: []
 description: One-sentence statement of the observation, case, or example.
 evidence:
-  - "[[source-slug#claim-1]]"
+  - "[[source-slug#Claim 1]]"
 ---
 
 # Signal title
@@ -26,7 +26,7 @@ State what was observed without prematurely generalizing it.
 
 ## Evidence
 
-- [[source-slug#claim-1]]
+- [[source-slug#Claim 1|Source title — claim 1]]
 
 ## Limitations and alternative readings
 
@@ -35,4 +35,3 @@ State what was observed without prematurely generalizing it.
 ## Relationships
 
 - Add readable relationship links here.
-
