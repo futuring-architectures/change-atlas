@@ -190,9 +190,9 @@
       "entries": 26,
       "entry_start": 661,
       "entry_end": 686,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
-      "checkpoint": null,
+      "checkpoint": "eb39c6f",
       "baseline": "ad973cb"
     }
   ]

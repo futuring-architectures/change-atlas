@@ -19,11 +19,11 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 👩🏻‍🎓 How We Learn / 🔮 Futuring | 76 | 76 | 152 | Committed | Autonomous | [[system/reviews/how-we-learn-futuring|Open report]] | `05488f6` |
 | 👩🏻‍🎓 How We Learn / 🏛 Architectures | 50 | 50 | 100 | Committed | Autonomous | [[system/reviews/how-we-learn-architectures|Open report]] | `61b6f5d` |
 | 👩🏻‍🎓 How We Learn / ☯️ Sustaining | 36 | 36 | 72 | Committed | Autonomous | [[system/reviews/how-we-learn-sustaining|Open report]] | `b09eeb2` |
-| 👩🏻‍🎓 How We Learn / 💥 Transitions | 26 | 26 | 52 | Synthesis Ready | Autonomous | [[system/reviews/how-we-learn-transitions|Open report]] | — |
+| 👩🏻‍🎓 How We Learn / 💥 Transitions | 26 | 26 | 52 | Committed | Autonomous | [[system/reviews/how-we-learn-transitions|Open report]] | `eb39c6f` |
 
 ## Progress
 
-- Collection checkpoints committed: 15/16
+- Collection checkpoints committed: 16/16
 - Planned source entries: 686
 - Preferred processing chunk: up to 25 entries
 

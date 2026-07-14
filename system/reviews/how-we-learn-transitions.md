@@ -83,5 +83,7 @@ This collection is eligible for an autonomous checkpoint after validation. Mater
 
 ## Sign-off
 
-- Decision: pending
-- Notes: —
+- Decision: autonomous checkpoint
+- Date: 2026-07-14
+- Checkpoint: `eb39c6f`
+- Notes: Completed under the Governance-calibrated autonomous workflow; no editor sign-off was requested.
