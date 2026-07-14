@@ -16,7 +16,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 🧑‍🎨 Power to Creators / ⚡️ Niches | 13 | 13 | 26 | Committed | Autonomous | [[system/reviews/power-to-creators-niches|Open report]] | `a7fe25a` |
 | 🧑‍🎨 Power to Creators / 😍 Vibe | 44 | 44 | 88 | Committed | Autonomous | [[system/reviews/power-to-creators-vibe|Open report]] | `2682978` |
 | 🧑‍🎨 Power to Creators / 🕹 Gameplay | 94 | 94 | 188 | Committed | Autonomous | [[system/reviews/power-to-creators-gameplay|Open report]] | `e7432c7` |
-| 👩🏻‍🎓 How We Learn / 🔮 Futuring | 76 | 0 | 0 | Planned | Autonomous | — | — |
+| 👩🏻‍🎓 How We Learn / 🔮 Futuring | 76 | 76 | 152 | Synthesis Ready | Autonomous | [[system/reviews/how-we-learn-futuring|Open report]] | — |
 | 👩🏻‍🎓 How We Learn / 🏛 Architectures | 50 | 0 | 0 | Planned | Autonomous | — | — |
 | 👩🏻‍🎓 How We Learn / ☯️ Sustaining | 36 | 0 | 0 | Planned | Autonomous | — | — |
 | 👩🏻‍🎓 How We Learn / 💥 Transitions | 26 | 0 | 0 | Planned | Autonomous | — | — |
@@ -29,8 +29,8 @@ This dashboard is generated from `system/collections.json` and repository conten
 
 ## Synthesis backlog
 
-- Tracked propositions: 31
-- Unresolved propositions: 31
+- Tracked propositions: 34
+- Unresolved propositions: 34
 - Promoted propositions: 0
 - Retired propositions: 0
 - Pipeline source of truth: `system/synthesis-backlog.json`

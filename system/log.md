@@ -165,3 +165,15 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Added the Intent-to-accountability loop and AI agency audit to separate capability access from context, verification, skill formation, hidden work, value capture, responsibility, and recourse.
 - Promoted no Trend because dated cases support mechanisms but the strongest directional claims remain selected practitioner accounts or forecasts rather than comparable repeated outcomes.
 - Assessed 15 inherited synthesis-backlog propositions and opened three stable propositions on distributed capability, verification capacity, and the future supply of expert judgment.
+
+## [2026-07-14] evidence | Review and activate Futuring collection
+
+- Recovered source metadata for 76 Evidence records in `👩🏻‍🎓 How We Learn → 🔮 Futuring`, preserving 14 unresolved publication dates rather than assigning chronology without evidence.
+- Extracted and classified 152 atomic claims and registered entries 499–574; anthology progress reached 504 of 686 entries.
+
+## [2026-07-14] synthesis | Create Futuring Wiki map
+
+- Synthesized one Hub, six Signals, five Concepts, two Frameworks, two Debates, and one Question; expanded the shared-reality Question with a reciprocal relational-AI link.
+- Added the Adaptive futuring cycle and Uncertainty-to-action matrix to connect signal curation, present perception, historical mechanism, plural scenarios, reversible probes, anticipatory friction, and revision.
+- Promoted no Trend because the collection supplies strong mechanisms and dated cases but no consistently measured directional outcome across time and institutions.
+- Assessed five inherited synthesis-backlog propositions and opened three stable propositions on reversible probes, deployment governance, and shared AI surfaces.

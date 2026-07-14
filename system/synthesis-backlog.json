@@ -129,6 +129,13 @@
           "outcome": "qualified",
           "note": "The Culture collection warns that chronological age is an institutional proxy and separately proposes a succession pattern from engineer to finance leadership. It sharpens the need to separate age, cohort, role, tenure, and incentives but supplies no tenure-outcome comparison."
         }
+      ,
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Futuring adds agency-onramp and long-term-thinking arguments but no evidence linking incumbent leadership tenure to technological or institutional innovation outcomes."
+        }
       ],
       "resolution_target": null
     },
@@ -169,6 +176,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Vibe adds art as technological foresight, problem formulation, curiosity, taste, and responsibility as non-instrumental design capabilities. It strengthens the rationale but still lacks evaluated participatory practice."
+        }
+      ,
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Product vision, intuition beyond existing data, design for breakage, inclusive scenario language, and shared AI surfaces strengthen imagination and meaning-making as stewardship capacities. Evaluated stewardship practice remains absent."
         }
       ],
       "resolution_target": null
@@ -277,6 +291,13 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Gameplay adds long-tail aggregator capture, recreated NFT gatekeeping, and cheap-content quality risks, while citizen development and user programming provide counter-mechanisms. It still supplies no comparative attention distribution between incumbents, entrants, and niches."
+        }
+      ,
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Algorithmic monoculture and synthetic information trash strengthen abundance and legibility mechanisms, while signal rewilding and relational access offer counter-mechanisms. No comparative attention distribution identifies who gains reach."
         }
       ],
       "resolution_target": null
@@ -402,6 +423,13 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Manifestos for a more beautiful or shared private internet show persistent demand for culturally owned spaces, but the collection does not observe a new wave or establish that the demand is specifically younger-led."
+        }
+      ,
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Young people integrating virtual and physical worlds, diminished agency onramps, and calls for culturally owned information ecologies support the motivation for a new wave. The collection does not observe younger participants building or migrating to one at scale."
         }
       ],
       "resolution_target": null
@@ -620,6 +648,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Plausible sentence generation, weakened prose proxies, frictionless content, and generic feature shipping strengthen selection for legibility and volume. Truth, depth, and durable usefulness remain unmeasured."
+        }
+      ,
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Synthetic clickbait, pattern-reproducing media models, personalized reality channels, and institutional AI rhetoric strengthen mechanisms favoring transmissibility and legibility. Truth, depth, and durable usefulness remain unmeasured."
         }
       ],
       "resolution_target": null
@@ -1176,6 +1211,83 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Role forecasts, crutch effects, and the need for underlying experience identify a plausible expertise-pipeline mechanism. The corpus lacks longitudinal novice progression or labor-demand outcomes."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-2d0c19cae51e",
+      "statement": "Organizations that practice reversible probes and explicit revision may adapt better than organizations optimized around one forecast.",
+      "status": "open",
+      "origin_collection": "how-we-learn-futuring",
+      "surfaced_in": "wiki/hubs/futuring",
+      "evidence": [
+        "[[what-i-learnt-from-complexity-evi-5dd3ae2e98a6#Claim 2]]",
+        "[[how-to-prepare-for-a-genai-future-you-cant-predict-evi-b21a43f38ba1#Claim 2]]",
+        "[[why-you-need-systems-thinking-now-evi-73f9d58124a3#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Complexity, scenario, and systems-thinking sources converge on the mechanism, but the collection contains no comparative organizational adaptation outcomes."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-6a50ba86b4e2",
+      "statement": "As model capability commoditizes, effective governance may shift from controlling access to controlling deployment conditions, interfaces, and institutional use.",
+      "status": "open",
+      "origin_collection": "how-we-learn-futuring",
+      "surfaced_in": "wiki/hubs/futuring",
+      "evidence": [
+        "[[gpt-2-five-years-later-evi-bda89603627e#Claim 1]]",
+        "[[is-ai-progress-slowing-down-evi-2c4646ded032#Claim 1]]",
+        "[[ai-isnt-replacing-radiologists-evi-39a69f377735#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Falling capability cost and institutionally mediated deployment support the shift in emphasis. The corpus does not compare access-control and deployment-governance regimes."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-a96b7e122ee3",
+      "statement": "Shared AI surfaces may preserve collective sensemaking better than one-person, one-model, one-history interaction.",
+      "status": "open",
+      "origin_collection": "how-we-learn-futuring",
+      "surfaced_in": "wiki/hubs/futuring",
+      "evidence": [
+        "[[how-hannah-arendts-table-metaphor-can-help-us-design-ai-for-shared-users-evi-eb5b205d7d43#Claim 1]]",
+        "[[how-hannah-arendts-table-metaphor-can-help-us-design-ai-for-shared-users-evi-eb5b205d7d43#Claim 2]]",
+        "[[the-grease-on-the-barbarians-axe-evi-ef4fffeb267e#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-futuring",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection identifies a single-user architectural limitation and a shared-surface design proposal, but no implemented comparative system or shared-reality outcome."
         }
       ],
       "resolution_target": null

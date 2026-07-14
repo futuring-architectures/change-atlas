@@ -9,7 +9,9 @@ tags:
   - ai
   - information
   - media
-relationships: []
+relationships:
+  - type: raised_by
+    target: "[[does-relational-ai-expand-agency-or-dissolve-shared-worlds]]"
 description: "What happens to individual agency and shared culture when people can delegate large parts of their information diet to AI filters?"
 origin: ingestion
 ---
@@ -46,4 +48,4 @@ _Open. No assertion or Trend should be inferred from the question-only source._
 
 ## Relationships
 
-- No typed relationship is asserted until the corpus contains an observed filtering system or a supported Concept it clearly instantiates.
+- Raised by [[does-relational-ai-expand-agency-or-dissolve-shared-worlds|the relational-AI Debate]], which adds anthropomorphism, attachment, personalized media, and shared-surface mechanisms while leaving outcome evidence open.
