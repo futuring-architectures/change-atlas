@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: refines
     target: "[[metaphors-steer-ai-inquiry]]"
+  - type: refined_by
+    target: "[[cultural-and-social-technology]]"
 description: "Competing AI metaphors assign different units of analysis, evaluation methods, expectations, and locations of responsibility."
 evidence:
   - "[[there-is-no-a-i-evi-1c96a7cb0ea3#Claim 1]]"
@@ -20,6 +22,9 @@ evidence:
   - "[[a-camera-not-an-engine-evi-064318484984#Claim 2]]"
   - "[[on-the-biology-of-a-large-language-model-evi-c3db139e9d1d#Claim 1]]"
   - "[[how-to-profit-off-ai-evi-5259dd7d47ab#Claim 1]]"
+  - "[[chatgpt-is-an-engine-of-cultural-transmission-evi-65ca2d2a9fbc#Claim 2]]"
+  - "[[large-ai-models-are-cultural-and-social-technologies-evi-dbc99fb58457#Claim 1]]"
+  - "[[your-ai-is-not-a-tool-evi-f725ec6bd434#Claim 1]]"
 ---
 
 # Is AI a tool, mind, organism, or infrastructure?
@@ -41,6 +46,8 @@ Which metaphor provides the most useful and least misleading account of AI for a
 - **AI is an organism-like object of study.** Simple training rules produce complex learned mechanisms that researchers must probe experimentally, much as biology investigates evolved structures.
 - **AI is a discovery instrument.** Models and compute reveal latent structure in data rather than acting primarily as engines of production.
 - **AI is infrastructure or a general-purpose platform.** The important unit is not the model as an entity but the economy-wide systems, complements, and second-order effects built around it.
+- **AI is a cultural and social technology.** The system reorganizes accumulated human information and participates in cultural transmission and social coordination.
+- **AI is an environment.** The system does not remain external to a user but can envelop attention, form habits, and shape goals.
 
 ## Sources of disagreement
 
@@ -57,6 +64,8 @@ Which metaphor provides the most useful and least misleading account of AI for a
 - [[a-camera-not-an-engine-evi-064318484984#Claim 2|A Camera, Not an Engine — claim 2]] supplies the discovery-instrument metaphor.
 - [[on-the-biology-of-a-large-language-model-evi-c3db139e9d1d#Claim 1|On the Biology of a Large Language Model — claim 1]] motivates organism-like experimental study.
 - [[how-to-profit-off-ai-evi-5259dd7d47ab#Claim 1|How to profit off AI — claim 1]] frames AI as a broad platform.
+- [[chatgpt-is-an-engine-of-cultural-transmission-evi-65ca2d2a9fbc#Claim 2|ChatGPT Is an Engine of Cultural Transmission — claim 2]] and [[large-ai-models-are-cultural-and-social-technologies-evi-dbc99fb58457#Claim 1|Large AI Models Are Cultural and Social Technologies — claim 1]] add the cultural-and-social-technology position.
+- [[your-ai-is-not-a-tool-evi-f725ec6bd434#Claim 1|Your AI Is Not a Tool — claim 1]] advances the stronger environment position.
 
 ## Current assessment
 
@@ -71,3 +80,4 @@ No single metaphor spans all levels. The strongest practice is conditional: name
 ## Relationships
 
 - The Debate refines [[metaphors-steer-ai-inquiry|the Concept that metaphors steer AI inquiry]].
+- [[cultural-and-social-technology|Cultural and social technology]] refines the Debate by adding cultural transmission, coordination, and formative environment as units of analysis.

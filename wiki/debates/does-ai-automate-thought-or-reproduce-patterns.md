@@ -20,6 +20,9 @@ evidence:
   - "[[llms-have-special-intelligence-not-general-and-that-s-plenty-evi-77f3d11aa2f8#Claim 1]]"
   - "[[motion-thought-systems-and-ai-evi-a47f83581586#Claim 1]]"
   - "[[ai-ozymandias-evi-cc0aea53891b#Claim 1]]"
+  - "[[what-llms-cannot-do-evi-e65f47afedb8#Claim 1]]"
+  - "[[large-language-models-are-small-minded-evi-f6c437b62b5d#Claim 1]]"
+  - "[[the-black-box-myth-what-the-industry-pretends-not-to-know-about-ai-evi-d2576e52c6df#Claim 1]]"
 ---
 
 # Does AI automate thought or reproduce patterns?
@@ -58,6 +61,8 @@ When a language model produces useful reasoning-like output, what process and le
 - [[llms-have-special-intelligence-not-general-and-that-s-plenty-evi-77f3d11aa2f8#Claim 1|LLMs have special intelligence — claim 1]] asserts a useful non-general intelligence.
 - [[motion-thought-systems-and-ai-evi-a47f83581586#Claim 1|Motion, Thought, Systems and AI — claim 1]] advances the cognitive-automation analogy.
 - [[ai-ozymandias-evi-cc0aea53891b#Claim 1|AI, Ozymandias — claim 1]] makes uncertainty about human cognition part of the dispute.
+- [[what-llms-cannot-do-evi-e65f47afedb8#Claim 1|What LLMs Cannot Do — claim 1]] and [[large-language-models-are-small-minded-evi-f6c437b62b5d#Claim 1|Large Language Models Are Small-Minded — claim 1]] add limits based on theory-testing and durable models of interlocutors.
+- [[the-black-box-myth-what-the-industry-pretends-not-to-know-about-ai-evi-d2576e52c6df#Claim 1|The Black Box Myth — claim 1]] contests the claim that model behavior is wholly opaque, sharpening the difference between incomplete mechanism knowledge and no knowledge.
 
 ## Current assessment
 

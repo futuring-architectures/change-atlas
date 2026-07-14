@@ -14,6 +14,8 @@ relationships:
     target: "[[the-human-in-the-loop-paradox]]"
   - type: raises_question
     target: "[[which-ai-interfaces-preserve-human-agency]]"
+  - type: qualified_by
+    target: "[[who-captures-the-gains-from-automation]]"
 description: "A two-axis matrix for choosing between automation, verified delegation, interactive copilot support, and expert augmentation according to task predictability and consequence."
 evidence:
   - "[[enough-ai-copilots-we-need-ai-huds-evi-3c09cc413bb5#Claim 2]]"
@@ -79,3 +81,4 @@ Summarizing an internal meeting for the participants may fit interactive copilot
 
 - The matrix operationalizes [[the-human-in-the-loop-paradox|the human-in-the-loop paradox]].
 - Applying it raises [[which-ai-interfaces-preserve-human-agency|the question of which interface forms preserve meaningful agency]].
+- [[who-captures-the-gains-from-automation|The automation-gains Debate]] qualifies the matrix: a sound interaction posture does not determine ownership, compensation, bargaining power, or distribution.

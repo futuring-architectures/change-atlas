@@ -14,6 +14,8 @@ relationships:
     target: "[[recommendation-media]]"
   - type: raised_by
     target: "[[attention-is-the-scarce-layer]]"
+  - type: raised_by
+    target: "[[cultural-selection-stack]]"
 description: "When publication is abundant but visibility is scarce, which rights should speakers, recipients, curators, and platforms have over distribution?"
 origin: synthesis
 ---
@@ -55,3 +57,4 @@ _Open. The current corpus supports the control problem but not a universal alloc
 ## Relationships
 
 - The Question is raised by [[recommendation-media|recommendation media]] and by the constraint that [[attention-is-the-scarce-layer|attention is the scarce layer]].
+- [[cultural-selection-stack|The cultural selection stack]] also raises it by separating publication, legibility, allocation, reinforcement, and capture.

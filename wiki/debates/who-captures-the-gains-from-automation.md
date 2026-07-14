@@ -1,0 +1,67 @@
+---
+id: deb-1db78c8d0ae4
+type: debate
+title: Who captures the gains from automation?
+status: open
+created_at: 2026-07-14
+updated_at: 2026-07-14
+tags:
+  - automation
+  - distribution
+  - labor
+relationships:
+  - type: qualifies
+    target: "[[automation-posture-matrix]]"
+description: "Automation can expand productive capability while distributing ownership, income, agency, deskilling, and hidden labor very unevenly."
+evidence:
+  - "[[science-fiction-is-a-luddite-literature-evi-6af64e37687a#Claim 1]]"
+  - "[[science-fiction-is-a-luddite-literature-evi-6af64e37687a#Claim 2]]"
+  - "[[lifes-work-wont-lead-to-dystopia-evi-3867db64c64b#Claim 1]]"
+  - "[[lifes-work-wont-lead-to-dystopia-evi-3867db64c64b#Claim 2]]"
+  - "[[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 1]]"
+  - "[[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 2]]"
+  - "[[ai-drake-just-set-an-impossible-legal-trap-for-google-evi-028bfe5b80f1#Claim 1]]"
+---
+
+# Who captures the gains from automation?
+
+## Central question
+
+When automation increases capability or reduces labor, what determines whether the gains become shared abundance, worker autonomy, cheaper access, owner returns, concentrated control, or new forms of invisible work?
+
+## Position A
+
+**Automation can democratize productive capacity and free people from unwanted work.** Cheap tools can let individuals and small groups create, learn, and operate at a scale previously reserved for organizations. The relevant opportunity is not merely substitution but expanded agency and access.
+
+## Position B
+
+**Without changes in ownership and institutions, automation gains flow toward capital and control.** Labor-saving systems can deskill workers, conceal human production behind an AI label, appropriate cultural labor, and increase the leverage of those who own models, distribution, data, and compute.
+
+## Sources of disagreement
+
+- Whether productivity gains are measured at the task, firm, worker, consumer, or societal level.
+- Whether ownership of capital and distribution is treated as fixed or designed.
+- Whether displaced labor, hidden labor, and cultural inputs are counted as automation costs.
+- Whether lower prices compensate for losses of income, agency, skill, or bargaining power.
+- Whether future abundance is evidence or a normative scenario.
+
+## Evidence
+
+- [[science-fiction-is-a-luddite-literature-evi-6af64e37687a#Claim 1|Science Fiction Is a Luddite Literature — claim 1]] and [[science-fiction-is-a-luddite-literature-evi-6af64e37687a#Claim 2|claim 2]] separate technological productivity from its distribution under capital ownership.
+- [[lifes-work-wont-lead-to-dystopia-evi-3867db64c64b#Claim 1|Life's Work Won't Lead to Dystopia — claim 1]] and [[lifes-work-wont-lead-to-dystopia-evi-3867db64c64b#Claim 2|claim 2]] present a more liberatory scenario centered on abundance and meaningful activity.
+- [[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 1|Detecting the Secret Cyborgs — claim 1]] and [[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 2|claim 2]] identify human labor hidden behind automated presentation.
+- [[ai-drake-just-set-an-impossible-legal-trap-for-google-evi-028bfe5b80f1#Claim 1|AI Drake Just Set an Impossible Legal Trap for Google — claim 1]] raises appropriation and compensation questions around cultural production.
+
+## Current assessment
+
+Automation posture and distribution are separate design problems. A technically appropriate level of delegation does not determine who owns the resulting capability, who is paid, or who can refuse. Claims about automation gains should therefore state the ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
+
+## Open questions
+
+- Which ownership and compensation structures distribute automation gains beyond model and platform owners?
+- How should hidden labor and cultural inputs be recorded and rewarded?
+- Which measures capture retained agency and skill alongside productivity and price?
+
+## Relationships
+
+- The Debate qualifies [[automation-posture-matrix|the Automation posture matrix]]: choosing how a system acts does not settle who captures its gains.

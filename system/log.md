@@ -80,3 +80,16 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Updated three existing Wiki pages with reciprocal relationships and new Evidence where the Paradigms collection refined prior Rules and Networks synthesis.
 - Scoped the candidate software-work Trend to dated 2025–2026 cases and recorded hidden human labor as a counter-signal rather than generalizing forecasts into observations.
 - Assessed three relevant existing synthesis-backlog propositions and opened three stable new propositions for later collections.
+
+## [2026-07-14] evidence | Review and activate Culture collection
+
+- Recovered source metadata for 70 Evidence records in `🔮 After the Internet → 👯 Culture`, retaining partial date precision and explicit inference where original pages had migrated or metadata remained incomplete.
+- Extracted and classified 140 atomic claims while preserving the distinction between observations, interpretations, predictions, normative positions, and conceptual claims.
+- Registered entries 158–227 in the manifest; one non-material source-author field remains unresolved and is recorded rather than invented.
+
+## [2026-07-14] synthesis | Create Culture Wiki map
+
+- Synthesized the reviewed collection into one Hub, three Signals, three Concepts, one Framework, two Debates, and two Questions.
+- Updated eight existing Wiki pages with reciprocal typed relationships or additional Culture Evidence where the collection refined Networks and Paradigms synthesis.
+- Promoted no Trend because the collection is dominated by interpretations, concepts, normative positions, and forecasts rather than comparable repeated observations across time.
+- Assessed four relevant synthesis-backlog propositions and opened two stable propositions for later creator, organization, and learning collections.

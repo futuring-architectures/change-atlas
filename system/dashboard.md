@@ -6,7 +6,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 |---|---:|---:|---:|---|---|---|---|
 | 🔮 After the Internet / 🔌 Networks | 52 | 52 | 103 | Committed | Autonomous | [[system/reviews/after-the-internet-networks|Open report]] | `458df73` |
 | 🔮 After the Internet / ⚡ Paradigms | 105 | 105 | 210 | Committed | Autonomous | [[system/reviews/after-the-internet-paradigms|Open report]] | `6d4bbb8` |
-| 🔮 After the Internet / 👯 Culture | 70 | 0 | 0 | Planned | Autonomous | — | — |
+| 🔮 After the Internet / 👯 Culture | 70 | 70 | 140 | Synthesis Ready | Autonomous | [[system/reviews/after-the-internet-culture|Open report]] | — |
 | 🔮 After the Internet / 👩‍⚖️ Rules | 13 | 13 | 30 | Committed | Completed | — | `07b8701` |
 | 🧰 Nature of the Firm / 🌍 Ecosystems | 16 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧰 Nature of the Firm / ⚡️ Organization | 33 | 0 | 0 | Planned | Autonomous | — | — |
@@ -29,8 +29,8 @@ This dashboard is generated from `system/collections.json` and repository conten
 
 ## Synthesis backlog
 
-- Tracked propositions: 13
-- Unresolved propositions: 13
+- Tracked propositions: 15
+- Unresolved propositions: 15
 - Promoted propositions: 0
 - Retired propositions: 0
 - Pipeline source of truth: `system/synthesis-backlog.json`

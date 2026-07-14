@@ -16,6 +16,10 @@ relationships:
     target: "[[network-outcome-design-stack]]"
   - type: refined_by
     target: "[[does-network-density-strengthen-collective-intelligence-or-erode-variation]]"
+  - type: refined_by
+    target: "[[variance-amplifying-institutions]]"
+  - type: supported_by
+    target: "[[collaborative-filtering-turns-taste-into-social-connection]]"
 description: "The structure and interaction rules of a network influence which information spreads, which behaviors coordinate, and which cultural differences survive."
 evidence:
   - "[[more-kuaishou-less-tiktok-evi-9880fc632368#Claim 1]]"
@@ -62,3 +66,5 @@ Pondering Durian explicitly states that topology, connection shape, monetization
 - [[network-outcome-design-stack|The network outcome design stack]] operationalizes the Concept as a diagnostic.
 - [[does-network-density-strengthen-collective-intelligence-or-erode-variation|The network-density Debate]] refines it by keeping benefits and losses visible together.
 - [[tiktok-turns-viewing-into-a-dense-behavioral-feedback-loop|TikTok’s feedback loop]] is one bounded example of interaction design changing available signals.
+- [[variance-amplifying-institutions|Variance-amplifying institutions]] refines the Concept by naming a positive-feedback selection regime.
+- [[collaborative-filtering-turns-taste-into-social-connection|Early collaborative filtering]] supports it with a case in which inferred cultural similarity created possible social connections.

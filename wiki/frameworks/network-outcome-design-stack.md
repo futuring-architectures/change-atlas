@@ -14,6 +14,8 @@ relationships:
     target: "[[network-topology-shapes-cultural-outcomes]]"
   - type: raises_question
     target: "[[what-business-model-can-support-a-prosocial-social-network]]"
+  - type: refined_by
+    target: "[[cultural-selection-stack]]"
 description: "A six-layer diagnostic for tracing network outcomes through connection structure, participation, interaction, distribution, economics, and governance."
 evidence:
   - "[[more-kuaishou-less-tiktok-evi-9880fc632368#Claim 1]]"
@@ -91,3 +93,4 @@ This example is based on a bounded 2022 report and is not a complete audit of Ti
 
 - The Framework [[network-topology-shapes-cultural-outcomes|operationalizes the claim that network design shapes cultural outcomes]].
 - Applying it exposes [[what-business-model-can-support-a-prosocial-social-network|the unresolved business-model question]] rather than treating prosocial outcomes as a feature-only problem.
+- [[cultural-selection-stack|The cultural selection stack]] refines it for the path from cultural generation and legibility through transmission, retention, and capture.

@@ -134,6 +134,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection adds arguments for direct community and publisher-controlled distribution, but no dated observation that explicit subscription is becoming less primary across platforms."
+        },
+        {
+          "collection": "after-the-internet-culture",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The Culture collection contrasts professional gatekeeping with engagement allocation and examines cultural selection, but adds no dated observation that subscription is becoming less primary across platforms."
         }
       ],
       "resolution_target": null
@@ -170,6 +176,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Machine-scale production strengthens the abundance and selection-pressure mechanism, but this collection does not observe whether attention accrues to incumbent creators, new entrants, or fragmented niches."
+        },
+        {
+          "collection": "after-the-internet-culture",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Culture evidence strengthens the mechanism: selection can reward transmissibility, legibility, and provenance. It still does not show that incumbent creators rather than new entrants or niches capture the resulting attention."
         }
       ],
       "resolution_target": null
@@ -227,7 +239,7 @@
     {
       "id": "prp-148e7962f080",
       "statement": "A new internet wave may emerge as younger participants seek digital spaces they can culturally own outside current platform logics.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "after-the-internet-networks",
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
@@ -254,6 +266,12 @@
           "date": "2026-07-14",
           "outcome": "contested",
           "note": "The collection documents a broad New Internet reform movement but reports that it fractured, lost momentum, and failed to dislodge incumbents. This contests near-term emergence without ruling out a later generation or different architecture."
+        },
+        {
+          "collection": "after-the-internet-culture",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Manifestos for a more beautiful or shared private internet show persistent demand for culturally owned spaces, but the collection does not observe a new wave or establish that the demand is specifically younger-led."
         }
       ],
       "resolution_target": null
@@ -287,7 +305,7 @@
     {
       "id": "prp-2bb29cadf400",
       "statement": "Inference-first AI interfaces may reduce interaction friction while weakening visible user agency over memory, prediction, and action.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "after-the-internet-paradigms",
       "surfaced_in": "wiki/hubs/paradigms",
       "evidence": [
@@ -308,6 +326,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies a strong interface forecast and an agency-oriented counter-position, but no comparative user evidence across predictive, conversational, copilot, or direct-manipulation interfaces."
+        },
+        {
+          "collection": "after-the-internet-culture",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "The cultural-and-social-technology and AI-as-environment positions broaden the agency risk from hidden interface state to norm and goal formation, but comparative user evidence across interface forms remains absent."
         }
       ],
       "resolution_target": null
@@ -359,6 +383,61 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The proposition is timely and measurable but currently rests on one reported enterprise interpretation and a forecast rather than comparative deployment data."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-7c767392aa8a",
+      "statement": "Cultural selection systems may increasingly reward transmissibility and legibility over truth, depth, or durable usefulness.",
+      "status": "open",
+      "origin_collection": "after-the-internet-culture",
+      "surfaced_in": "wiki/hubs/culture",
+      "evidence": [
+        "[[why-has-the-world-become-so-weird-evi-1454d0d48d92#Claim 2]]",
+        "[[welcoming-our-new-meme-lords-evi-4cfddabe2862#Claim 1]]",
+        "[[automatic-for-the-people-evi-8fcf75ff8866#Claim 1]]",
+        "[[automatic-for-the-people-evi-8fcf75ff8866#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-niches",
+        "power-to-creators-vibe",
+        "power-to-creators-gameplay",
+        "how-we-learn-futuring"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-culture",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection identifies selection for memeability, market transmissibility, provenance, and engagement, but does not establish a directional change across cultural systems or measure truth, depth, and durable usefulness as outcomes."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-6b7b24b95b33",
+      "statement": "Legacy expertise may be necessary infrastructure for long technological transitions even when dominant narratives frame old systems as obsolete.",
+      "status": "open",
+      "origin_collection": "after-the-internet-culture",
+      "surfaced_in": "wiki/hubs/culture",
+      "evidence": [
+        "[[1979-evi-d9574be8c003#Claim 1]]",
+        "[[death-of-software-nah-evi-84cd7cb167b1#Claim 1]]",
+        "[[death-of-software-nah-evi-84cd7cb167b1#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-organization",
+        "nature-of-the-firm-culture",
+        "how-we-learn-transitions",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-culture",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies an industrial-knowledge warning and a mainframe dependency case, but lacks comparative transition outcomes and methods for preserving tacit expertise."
         }
       ],
       "resolution_target": null
