@@ -57,10 +57,10 @@
       "entries": 16,
       "entry_start": 241,
       "entry_end": 256,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "27f7f21",
-      "checkpoint": null
+      "checkpoint": "c07c1d8"
     },
     {
       "id": "nature-of-the-firm-organization",
