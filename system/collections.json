@@ -34,10 +34,10 @@
       "entries": 70,
       "entry_start": 158,
       "entry_end": 227,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "f8e88cf",
-      "checkpoint": null
+      "checkpoint": "5621cbb"
     },
     {
       "id": "after-the-internet-rules",
