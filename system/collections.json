@@ -190,9 +190,10 @@
       "entries": 26,
       "entry_start": 661,
       "entry_end": 686,
-      "stage": "planned",
+      "stage": "synthesis_ready",
       "signoff_mode": "autonomous",
-      "checkpoint": null
+      "checkpoint": null,
+      "baseline": "ad973cb"
     }
   ]
 }

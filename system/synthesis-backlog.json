@@ -88,13 +88,18 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The Organization collection discusses modular firms, platforms, and coordination layers but adds no megaproject case, governance comparison, or reusable modular-delivery method."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Architectures adds modularity as an emergent property of composed systems and user adaptation, but no megaproject case, governance comparison, or reusable modular-delivery method."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Transitions adds pace-layer and integration reasoning, but no megaproject case, delivery comparison, or modular-governance method."
         }
       ],
       "resolution_target": null
@@ -135,13 +140,18 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The Culture collection warns that chronological age is an institutional proxy and separately proposes a succession pattern from engineer to finance leadership. It sharpens the need to separate age, cohort, role, tenure, and incentives but supplies no tenure-outcome comparison."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-futuring",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Futuring adds agency-onramp and long-term-thinking arguments but no evidence linking incumbent leadership tenure to technological or institutional innovation outcomes."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Institutional scale and pace are relevant, but the collection adds no evidence connecting incumbent leadership tenure, cohort, or age to innovation outcomes."
         }
       ],
       "resolution_target": null
@@ -183,22 +193,19 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Vibe adds art as technological foresight, problem formulation, curiosity, taste, and responsibility as non-instrumental design capabilities. It strengthens the rationale but still lacks evaluated participatory practice."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-futuring",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Product vision, intuition beyond existing data, design for breakage, inclusive scenario language, and shared AI surfaces strengthen imagination and meaning-making as stewardship capacities. Evaluated stewardship practice remains absent."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Design for emergence, difficult simplicity, narrative world-building, and human-centered interface constraints strengthen the operational account of imaginative stewardship. Comparative stewardship outcomes remain absent."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -245,7 +252,9 @@
           "note": "The Culture collection contrasts professional gatekeeping with engagement allocation and examines cultural selection, but adds no dated observation that subscription is becoming less primary across platforms."
         },
         {
-          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "contested",
+          "collection": "power-to-creators-niches",
+          "date": "2026-07-14",
+          "outcome": "contested",
           "note": "Niches adds a 2021 case of subscription infrastructure supporting small media and a direct-audience mechanism. This contests a simple replacement story: inferred allocation and explicit subscription can grow simultaneously."
         },
         {
@@ -297,7 +306,9 @@
           "note": "Culture evidence strengthens the mechanism: selection can reward transmissibility, legibility, and provenance. It still does not show that incumbent creators rather than new entrants or niches capture the resulting attention."
         },
         {
-          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "qualified",
+          "collection": "power-to-creators-niches",
+          "date": "2026-07-14",
+          "outcome": "qualified",
           "note": "High-resolution taste and zero-to-one creator infrastructure provide counter-mechanisms through which abundance could support new niche leaders. The collection still lacks comparative attention distributions for incumbents and entrants."
         },
         {
@@ -305,15 +316,13 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Mass nonprofessional image generation strengthens abundance, while status legitimacy, taste, and low-prestige AI aesthetics show competing selection mechanisms. No attention distribution resolves who benefits."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Gameplay adds long-tail aggregator capture, recreated NFT gatekeeping, and cheap-content quality risks, while citizen development and user programming provide counter-mechanisms. It still supplies no comparative attention distribution between incumbents, entrants, and niches."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-futuring",
           "date": "2026-07-14",
@@ -359,10 +368,11 @@
           "note": "The collection frames content as an entry to community and documents direct creator relationships, but adds no case of media becoming a feature bundled into a non-media product."
         },
         {
-          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "no_change",
+          "collection": "power-to-creators-niches",
+          "date": "2026-07-14",
+          "outcome": "no_change",
           "note": "The collection addresses individual media, employer platform brands, and creator tools but adds no observation of media bundled into non-media products."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
@@ -418,7 +428,9 @@
         "[[llms-and-the-final-internet-engagement-evi-401f211f3952#Claim 1]]",
         "[[llms-and-the-final-internet-engagement-evi-401f211f3952#Claim 2]]",
         "[[what-happened-to-the-new-internet-evi-c686be1892aa#Claim 1]]",
-        "[[what-happened-to-the-new-internet-evi-c686be1892aa#Claim 2]]"
+        "[[what-happened-to-the-new-internet-evi-c686be1892aa#Claim 2]]",
+        "[[the-new-luddites-arent-backing-down-evi-8b5c99287abc#Claim 2]]",
+        "[[red-lining-ai-evi-946f46f44c16#Claim 2]]"
       ],
       "relevant_collections": [
         "after-the-internet-paradigms",
@@ -444,13 +456,18 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Manifestos for a more beautiful or shared private internet show persistent demand for culturally owned spaces, but the collection does not observe a new wave or establish that the demand is specifically younger-led."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-futuring",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Young people integrating virtual and physical worlds, diminished agency onramps, and calls for culturally owned information ecologies support the motivation for a new wave. The collection does not observe younger participants building or migrating to one at scale."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Luddite and AI-resistance accounts strengthen the motive to seek culturally ownable alternatives, while also showing that refusal can target uses and institutions rather than produce a new internet wave."
         }
       ],
       "resolution_target": null
@@ -539,22 +556,19 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Natural-language organizational control increases abstraction between intent and execution, but the collection does not compare user agency across inference-first and direct-manipulation interfaces."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Chat-interface affordance failures, editable system prompts, and user-shaped tools strengthen the agency mechanism. The collection still lacks comparative evidence about actual user control over memory, prediction, and action."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Personal-agent, text-for-agents, and agent-experience forecasts strengthen the inference-first direction, while the oversight and database-reality evidence shows why machine friction can fall as visible human agency and recourse weaken."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -600,8 +614,7 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The AI-native organization source supplies a reusable operating requirement: data, evaluation, governance, learning loops, monitoring, and correction. It strengthens continuous revalidation as a practice, though it still lacks a longitudinal upstream-model-change case."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
@@ -645,8 +658,7 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The MIT computer-vision study shows that technical task exposure can remain economically unattractive after deployment costs are modeled. This strengthens the value-per-dollar mechanism without directly comparing enterprise model choices."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
@@ -682,7 +694,9 @@
           "note": "The collection identifies selection for memeability, market transmissibility, provenance, and engagement, but does not establish a directional change across cultural systems or measure truth, depth, and durable usefulness as outcomes."
         },
         {
-          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "qualified",
+          "collection": "power-to-creators-niches",
+          "date": "2026-07-14",
+          "outcome": "qualified",
           "note": "The niches corpus proposes plural taste allocation and reflexive demand formation, qualifying the idea of a single legibility regime. It adds no measured truth, depth, or durability outcomes."
         },
         {
@@ -690,15 +704,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "SEO degradation, distraction markets, disposable feed incentives, and plausible AI output strengthen selection-for-legibility mechanisms without measuring truth, depth, or durability."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Plausible sentence generation, weakened prose proxies, frictionless content, and generic feature shipping strengthen selection for legibility and volume. Truth, depth, and durable usefulness remain unmeasured."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-futuring",
           "date": "2026-07-14",
@@ -711,13 +723,16 @@
     {
       "id": "prp-6b7b24b95b33",
       "statement": "Legacy expertise may be necessary infrastructure for long technological transitions even when dominant narratives frame old systems as obsolete.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "after-the-internet-culture",
       "surfaced_in": "wiki/hubs/culture",
       "evidence": [
         "[[1979-evi-d9574be8c003#Claim 1]]",
         "[[death-of-software-nah-evi-84cd7cb167b1#Claim 1]]",
-        "[[death-of-software-nah-evi-84cd7cb167b1#Claim 2]]"
+        "[[death-of-software-nah-evi-84cd7cb167b1#Claim 2]]",
+        "[[why-we-keep-telling-the-myth-of-a-renaissance-golden-age-and-bad-middle-ages-evi-601634fdef10#Claim 2]]",
+        "[[tech-pace-layering-evi-ef5c67976e08#Claim 2]]",
+        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 1]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-organization",
@@ -743,13 +758,18 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The programmer-apprenticeship warning concerns future tacit learning, but the collection adds no legacy-system transition case, retention method, or outcome evidence for incumbent expertise."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Continuous semiconductor improvement by unnamed engineers, context preservation, and owned design systems strengthen legacy expertise as transition infrastructure rather than obsolete residue."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Historical myth correction, unrealized earlier ideas, pace layering, and ambiguous task-boundary work strengthen the case that transition depends on knowledge carried across old and new systems."
         }
       ],
       "resolution_target": null
@@ -782,20 +802,24 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The Organization collection adds platform and external-value-creation arguments but no observed open-model complement mobilization or evidence about sponsor control."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Open protocols and local-first software offer adjacent decentralization cases, but the collection contains no open-model sponsor case showing complement mobilization around a controlled platform."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Agent-compatible complements and shared infrastructure appear in the collection, but no open-model sponsor strategy or observed complement mobilization is added."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection discusses participation, control, and AI transition legitimacy but adds no sponsor-controlled platform case or complement-mobilization evidence."
         }
       ],
       "resolution_target": null
@@ -836,15 +860,13 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection offers collaboration and culture design heuristics but no evidence about startup-playbook diffusion, ecosystem infrastructure, or portability across contexts."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection supplies organizational and software design advice but no evidence that distributed startup playbooks became shared ecosystem infrastructure."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -889,22 +911,19 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The Culture collection independently argues that cheap generation shifts scarcity toward collective commitment and forecasts substitution of machine assistance for peer collaboration. It strengthens the role-shift mechanism but remains forecast-heavy and lacks representative job-transition evidence."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Multiple sources move human work toward intent, architecture, curation, verification, integration, and exception handling. Most are practitioner interpretations or forecasts, so prevalence and distributional outcomes remain open."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Software oversight, programmable-organization roles, capability allocation, AI auditors, and ideation bottlenecks all move human work toward orchestration, judgment, evaluation, and exceptions. Most claims remain forecasts rather than role-level outcome studies."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -917,13 +936,15 @@
     {
       "id": "prp-8a332364c8a2",
       "statement": "AI-mediated substitution for colleagues may erode apprenticeship, recognition, and shared meaning even when individual task output improves.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-culture",
       "surfaced_in": "wiki/hubs/firm-culture",
       "evidence": [
         "[[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 1]]",
         "[[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 2]]",
-        "[[setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6#Claim 2]]"
+        "[[setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6#Claim 2]]",
+        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]",
+        "[[why-disagreement-is-vital-to-advancing-human-understanding-evi-7a6c2dd00aeb#Claim 2]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -937,27 +958,30 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Two sources identify lost peer contact, developmental interaction, recognition, and meaning as plausible consequences of AI-mediated work. They provide mechanisms and forecasts, not observed longitudinal outcomes."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The collection identifies crutch effects, loss of full-problem understanding, role narrowing, and disappearing entry-level practice. It strengthens the mechanism without longitudinal apprenticeship or belonging outcomes."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Extended-mind theory and learning-style evidence show that AI-mediated performance can either extend cognition or remove needed structure. The collection sharpens boundary conditions but does not observe apprenticeship or meaning loss longitudinally."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Capacity erosion through assistance, missing practice infrastructure, and critical-chatbot design strengthen the apprenticeship and meaning-loss mechanism. Longitudinal workplace evidence remains absent."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Epistemic fluency, social disagreement, and task-boundary work strengthen the mechanism by which private AI substitution can remove relational learning and recognition; longitudinal apprenticeship outcomes remain absent."
         }
       ],
       "resolution_target": null
@@ -984,22 +1008,19 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies a clear scarcity-shift thesis and earlier evidence that cheap output can create downstream evaluation work. It lacks comparative observations showing commitment or judgment becoming the dominant constraint."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Abundant alternatives, weakened output proxies, contextual defensibility, and selective abduction all relocate scarcity toward judgment and commitment. The evidence remains mechanism-rich but outcome-light."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Strategy, difficult simplicity, cheap iteration, ideation scarcity, architectural coherence, and institutional AI constraint roles converge on judgment and commitment as post-generation bottlenecks. Comparative organizational outcomes remain missing."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -1032,22 +1053,19 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies the abstraction-layer forecast and an AI-native trust requirement, but no observed organization whose natural-language control surface reliably governs consequential workflows."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Malleable software, prompts as requirements, editable system prompts, and intent-centered code review provide convergent mechanisms for natural language as a control surface. Reliability and organizational adoption remain uneven."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The programmable-organization forecast, agent experience, and requirements-through-iteration account strengthen natural language as a prospective control surface, while ambiguity and assurance remain unresolved."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -1079,22 +1097,19 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Two open-source sources identify maintainer attention, interaction, and boundary enforcement as scarce work around non-rival code. The collection lacks comparative workload and sustainability outcomes."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "User-authored agents and bespoke tools imply new maintenance burdens, but Gameplay adds no community-level observation of maintainer attention depletion or boundary-work sustainability."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection addresses attention, coordination, and architecture but adds no creator-maintainer case or measure of depleted boundary work."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -1128,7 +1143,9 @@
           "note": "Selected creator cases demonstrate viable direct-audience careers and community retention logic, but survivorship selection prevents a distributional or temporal conclusion."
         },
         {
-          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "strengthened",
+          "collection": "power-to-creators-niches",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
           "note": "Subscription publishing, creator infrastructure, and practical-runway mechanisms strengthen the direct-audience livelihood thesis. Evidence remains selected and forecast-heavy, without cohort income or survival data."
         },
         {
@@ -1136,8 +1153,7 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Vibe identifies niche communities and creator legitimacy problems but adds no cohort evidence about direct-audience income or survival."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
@@ -1153,12 +1169,27 @@
       "status": "open",
       "origin_collection": "power-to-creators-niches",
       "surfaced_in": "wiki/hubs/creator-niches",
-      "evidence": ["[[from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4#Claim 1]]", "[[the-economics-of-creativity-who-gets-paid-and-why-evi-faded797b9a5#Claim 1]]"],
-      "relevant_collections": ["power-to-creators-vibe", "power-to-creators-gameplay"],
+      "evidence": [
+        "[[from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4#Claim 1]]",
+        "[[the-economics-of-creativity-who-gets-paid-and-why-evi-faded797b9a5#Claim 1]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-vibe",
+        "power-to-creators-gameplay"
+      ],
       "assessments": [
-        {"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "The collection supplies both the plural-taste mechanism and the persistence of steep creative power laws, but no observed distribution across niches."},
-        {"collection": "power-to-creators-vibe", "date": "2026-07-14", "outcome": "qualified", "note": "Vibe adds taste as post-commoditization differentiation and platform legitimacy as a status allocator, but no distributional evidence across taste vectors."}
-      ,
+        {
+          "collection": "power-to-creators-niches",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies both the plural-taste mechanism and the persistence of steep creative power laws, but no observed distribution across niches."
+        },
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Vibe adds taste as post-commoditization differentiation and platform legitimacy as a status allocator, but no distributional evidence across taste vectors."
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
@@ -1174,16 +1205,27 @@
       "status": "open",
       "origin_collection": "power-to-creators-niches",
       "surfaced_in": "wiki/hubs/creator-niches",
-      "evidence": ["[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 1]]", "[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 2]]"],
-      "relevant_collections": ["power-to-creators-gameplay", "how-we-learn-architectures"],
-      "assessments": [{"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "One 2025 source proposes the long-tail mechanism and its consolidation counter-risk; no adoption or market outcome is observed."},
+      "evidence": [
+        "[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 1]]",
+        "[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-niches",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "One 2025 source proposes the long-tail mechanism and its consolidation counter-risk; no adoption or market outcome is observed."
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Cheap code, reversed build-buy choices, editable agent behavior, and agent-oriented markets strengthen the mechanism for bespoke occasional-use software. Adoption, discovery economics, and agent-layer concentration remain forecasts."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
@@ -1215,22 +1257,19 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Three sources converge on taste, difference, and responsibility after automation, but two are forecasts and the collection contains no measured outcomes."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Human meaning, contextual judgment, verification, point of view, and responsible commitment recur across independent sources as differentiators after cheap production. Status effects and market rewards remain largely predictive."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Outcome accountability, distinctive judgment, difficult simplicity, and institutional challenger roles strengthen the value mechanism, but the collection does not measure status allocation or demonstrate a premium for human responsibility."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -1262,22 +1301,19 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies complementary slow-interaction and subtraction proposals, but no evaluated interface or judgment outcome."
-        }
-      ,
+        },
         {
           "collection": "power-to-creators-gameplay",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The collection adds productive friction, deliberate constraint, fewer outputs, and resistance to one-size-fits-all interfaces. These strengthen the design rationale but do not evaluate slow or subtractive interfaces directly."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The minimal sensor case and meeting-subtraction rules strengthen the claim that deliberate constraint can require judgment. They do not compare slow-interface outcomes under abundance."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -1315,13 +1351,18 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Liquid Super Teams and blurred project boundaries forecast human network coordination, but the collection adds no machine-scale mechanism or observed movement of economic activity out of firms."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Emergent hierarchy, networked supply, and programmable organizations provide mechanisms, but no observed economic activity is shown moving from firms to networks because of machine-scale coordination."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Networks shape durable change in this collection, but no observed economic activity moves from firms to machine-coordinated networks."
         }
       ],
       "resolution_target": null
@@ -1329,13 +1370,15 @@
     {
       "id": "prp-1e7cfdce9b4a",
       "statement": "Natural-language creation may distribute capability faster than ownership, maintenance capacity, and recourse.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "power-to-creators-gameplay",
       "surfaced_in": "wiki/hubs/creator-gameplay",
       "evidence": [
         "[[were-all-programmers-now-evi-2ebeb42b85a0#Claim 2]]",
         "[[ai-horseless-carriages-evi-fc941dc02559#Claim 2]]",
-        "[[systemic-co-design-with-agentic-engineers-evi-556773a54c6b#Claim 2]]"
+        "[[systemic-co-design-with-agentic-engineers-evi-556773a54c6b#Claim 2]]",
+        "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 1]]",
+        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1348,20 +1391,24 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Citizen development and user-programmable agents establish capability-distribution mechanisms, while gatekeeping and platform cases expose control risks. Ownership, maintenance, and recourse outcomes are not compared."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Disposable software, proliferating software supply, agent-mediated interfaces, and lower switching cost strengthen the gap between creation and durable ownership, integration, maintenance, and recourse."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Cognitive debt and machine-speed propagation from unowned design systems strengthen the gap between cheap creation and durable ownership, maintenance, context, and recourse."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Cheap app generation and weakened artifact signals show capability distribution outrunning reliable evaluation. Ownership, maintenance capacity, and recourse remain plausible but are not jointly observed."
         }
       ],
       "resolution_target": null
@@ -1387,15 +1434,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Cheap polished output, explicit verification bottlenecks, and a journalistic practice case converge on the mechanism. No organization-level capacity or throughput comparison establishes the rate limit."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Red teaming inside product construction, generated variants, high commit volume, stochastic behavior, and human oversight requirements all strengthen verification as a limiting organizational capacity."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -1408,14 +1453,16 @@
     {
       "id": "prp-cd8e403699a7",
       "statement": "Removing entry-level production work may increase short-term output while weakening the future supply of expert judgment.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "power-to-creators-gameplay",
       "surfaced_in": "wiki/hubs/creator-gameplay",
       "evidence": [
         "[[asset-light-software-businesses-the-new-paradigm-for-startups-evi-e141e67c6019#Claim 2]]",
         "[[when-we-become-cogs-evi-c1da269b7217#Claim 1]]",
         "[[brain-drain-evi-21d6d2449459#Claim 1]]",
-        "[[context-engineering-why-hayeks-knowledge-problem-survives-ai-evi-7ceee8d0914c#Claim 1]]"
+        "[[context-engineering-why-hayeks-knowledge-problem-survives-ai-evi-7ceee8d0914c#Claim 1]]",
+        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 1]]",
+        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1428,20 +1475,24 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Role forecasts, crutch effects, and the need for underlying experience identify a plausible expertise-pipeline mechanism. The corpus lacks longitudinal novice progression or labor-demand outcomes."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection discusses learner scaffolding and changing expert roles but supplies no case in which removal of entry-level production reduces the later supply of expert judgment."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Missing invention entry paths, late-bloomer evaluation failure, and capacity erosion strengthen the expertise-pipeline mechanism, but no AI-driven removal of entry-level production is observed."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Task-boundary work and epistemic fluency identify expert judgment that production metrics omit, but the collection does not observe entry-level work removal or later expert-supply effects."
         }
       ],
       "resolution_target": null
@@ -1449,13 +1500,16 @@
     {
       "id": "prp-2d0c19cae51e",
       "statement": "Organizations that practice reversible probes and explicit revision may adapt better than organizations optimized around one forecast.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-futuring",
       "surfaced_in": "wiki/hubs/futuring",
       "evidence": [
         "[[what-i-learnt-from-complexity-evi-5dd3ae2e98a6#Claim 2]]",
         "[[how-to-prepare-for-a-genai-future-you-cant-predict-evi-b21a43f38ba1#Claim 2]]",
-        "[[why-you-need-systems-thinking-now-evi-73f9d58124a3#Claim 2]]"
+        "[[why-you-need-systems-thinking-now-evi-73f9d58124a3#Claim 2]]",
+        "[[beer-mode-and-coffee-mode-evi-9492e1c93c4c#Claim 2]]",
+        "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 2]]",
+        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1468,20 +1522,24 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Complexity, scenario, and systems-thinking sources converge on the mechanism, but the collection contains no comparative organizational adaptation outcomes."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Requirements-through-iteration and design for emergence add concrete reversible adaptation mechanisms. The collection still lacks a comparison showing that organizations using them adapt better."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Spreadsheet what-if exploration, deliberate innovation variation, and S-curve renewal add concrete rehearsal and adaptation mechanisms without comparative organizational outcomes."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Beer-mode experimentation, software as petri dish, pace layering, and activity-alignment monitoring add concrete mechanisms for bounded probes and explicit revision. Comparative adaptation outcomes remain absent."
         }
       ],
       "resolution_target": null
@@ -1489,13 +1547,16 @@
     {
       "id": "prp-6a50ba86b4e2",
       "statement": "As model capability commoditizes, effective governance may shift from controlling access to controlling deployment conditions, interfaces, and institutional use.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-futuring",
       "surfaced_in": "wiki/hubs/futuring",
       "evidence": [
         "[[gpt-2-five-years-later-evi-bda89603627e#Claim 1]]",
         "[[is-ai-progress-slowing-down-evi-2c4646ded032#Claim 1]]",
-        "[[ai-isnt-replacing-radiologists-evi-39a69f377735#Claim 2]]"
+        "[[ai-isnt-replacing-radiologists-evi-39a69f377735#Claim 2]]",
+        "[[red-lining-ai-evi-946f46f44c16#Claim 2]]",
+        "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
+        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1508,20 +1569,24 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Falling capability cost and institutionally mediated deployment support the shift in emphasis. The corpus does not compare access-control and deployment-governance regimes."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Agent experience, capability allocation, the two institutional clocks, and work-system adoption tensions relocate governance into interfaces, workflows, assurance, and institutional architecture. Regime-level comparison remains absent."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Ingredient technology, hands-on alignment access, beneficial-system evaluation, and human-capacity effects further relocate governance into deployment architecture and institutions."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Selective AI limits, legitimacy-sensitive resistance, epistemic fluency, pace layers, and continued outcome testing strengthen the shift toward governing deployment conditions rather than capability access alone."
         }
       ],
       "resolution_target": null
@@ -1547,15 +1612,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection identifies a single-user architectural limitation and a shared-surface design proposal, but no implemented comparative system or shared-reality outcome."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-architectures",
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Private exploration and the forecast that personal agents will dominate show benefits of individual surfaces, while collective coordination evidence supports shared spaces for some dependencies. No comparative AI sensemaking outcome resolves the boundary."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
@@ -1568,13 +1631,15 @@
     {
       "id": "prp-69e1497e1057",
       "statement": "Organizations that redesign workflows and decision rights around changing capabilities may outperform organizations that insert agents into inherited roles.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-architectures",
       "surfaced_in": "wiki/hubs/architectures",
       "evidence": [
         "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 1]]",
         "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 2]]",
-        "[[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 2]]"
+        "[[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 2]]",
+        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]",
+        "[[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 2]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -1586,13 +1651,18 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Capability-centered redesign and activity-system diagnosis supply a coherent mechanism, but no comparative performance outcome."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Async replacement systems, people-centered resilience, and the sustaining-capacity loop strengthen workflow and institution redesign around capability. Comparative performance remains absent."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Radiology task boundaries, network-and-culture effects, differential institutional speeds, and the transition-integration stack further specify workflow and decision-right redesign. Performance comparison remains absent."
         }
       ],
       "resolution_target": null
@@ -1600,14 +1670,17 @@
     {
       "id": "prp-be860f298fbf",
       "statement": "Faster component generation may increase the relative value of architecture, assurance, and institutional absorption rather than eliminate them.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-architectures",
       "surfaced_in": "wiki/hubs/architectures",
       "evidence": [
         "[[the-vibes-dont-scale-evi-e058bb26186a#Claim 1]]",
         "[[the-vibes-dont-scale-evi-e058bb26186a#Claim 2]]",
         "[[the-two-clocks-evi-e5c4870ba6b1#Claim 1]]",
-        "[[google-had-a-very-bad-week-evi-5cf643c0f542#Claim 1]]"
+        "[[google-had-a-very-bad-week-evi-5cf643c0f542#Claim 1]]",
+        "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]",
+        "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 1]]",
+        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 1]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -1619,13 +1692,18 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Architecture, assurance, and institutional-clock mechanisms converge, but the collection does not measure their relative value as generation accelerates."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Cognitive debt, verification erosion, and machine-speed propagation from inaccurate design systems strengthen architecture, assurance, and institutional absorption as post-generation constraints."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Cheap implementation, collapsing artifact signals, task-boundary work, pace layering, and outcome drift strengthen the case that evaluation, architecture, and institutional absorption become relatively scarcer."
         }
       ],
       "resolution_target": null
@@ -1633,13 +1711,16 @@
     {
       "id": "prp-34559bf974bb",
       "statement": "Agent-compatible infrastructure may improve machine performance while reducing human agency unless inspection and recourse are designed as first-class interfaces.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-architectures",
       "surfaced_in": "wiki/hubs/architectures",
       "evidence": [
         "[[introducing-ax-why-agent-experience-matters-evi-effc684d312e#Claim 1]]",
         "[[automating-software-engineering-evi-7ef15bf9b270#Claim 1]]",
-        "[[the-people-do-not-yearn-for-automation-evi-49c858fbc20b#Claim 2]]"
+        "[[the-people-do-not-yearn-for-automation-evi-49c858fbc20b#Claim 2]]",
+        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]",
+        "[[red-lining-ai-evi-946f46f44c16#Claim 2]]",
+        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -1651,13 +1732,18 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection establishes opposing interface requirements for agent operability and human control, but supplies no comparative deployed interface outcome."
-        }
-      ,
+        },
         {
           "collection": "how-we-learn-sustaining",
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Read-only observability, deferential chatbot defaults, language-policing risk, and human-capacity erosion strengthen the need for inspection, challenge, provenance, and recourse in agent-compatible systems."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Epistemic fluency, selective refusal, and activity-alignment monitoring make human inspection, disagreement, recourse, and purpose revision explicit complements to machine-compatible infrastructure."
         }
       ],
       "resolution_target": null
@@ -1665,13 +1751,15 @@
     {
       "id": "prp-47dacc22a69f",
       "statement": "Organizations that measure renewal capacity alongside present throughput may preserve capability through technological transitions better than organizations optimized only for current output.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-sustaining",
       "surfaced_in": "wiki/hubs/sustaining",
       "evidence": [
         "[[surfing-the-s-curve-evi-04ae89aa50de#Claim 1]]",
         "[[we-need-a-career-path-for-invention-evi-0d32e8977be4#Claim 2]]",
-        "[[the-silicon-and-industrial-revolutions-evi-6a3a0212c5f6#Claim 2]]"
+        "[[the-silicon-and-industrial-revolutions-evi-6a3a0212c5f6#Claim 2]]",
+        "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
+        "[[too-big-to-think-why-prestigious-institutions-stopped-generating-good-ideas-evi-39a9227c4064#Claim 2]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -1682,6 +1770,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "S-curve renewal, career infrastructure, and continuous operational improvement converge on a renewal mechanism, but no throughput-versus-renewal comparison is observed."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Pace layering, legacy expertise, institutional variance, and epistemic inclusion strengthen the mechanism linking present transition design to future renewal capacity; comparative organizational outcomes remain absent."
         }
       ],
       "resolution_target": null
@@ -1689,13 +1783,16 @@
     {
       "id": "prp-661114a04536",
       "statement": "AI assistance that removes practice without preserving challenge, verification, and participation may create delayed capacity loss invisible in short-term productivity metrics.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-sustaining",
       "surfaced_in": "wiki/hubs/sustaining",
       "evidence": [
         "[[the-humanai-trifecta-eroding-persistence-verification-and-participation-at-scale-evi-d5748fe4b872#Claim 1]]",
         "[[prompting-is-managing-evi-76a66b9e9b26#Claim 2]]",
-        "[[a-treatise-on-ai-chatbots-undermining-the-enlightenment-evi-9f6031694869#Claim 2]]"
+        "[[a-treatise-on-ai-chatbots-undermining-the-enlightenment-evi-9f6031694869#Claim 2]]",
+        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]",
+        "[[why-disagreement-is-vital-to-advancing-human-understanding-evi-7a6c2dd00aeb#Claim 2]]",
+        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 1]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -1706,6 +1803,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies capacity-loss mechanisms and a managerial-attention counter-reading but no longitudinal productivity-and-capacity outcome."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Epistemic fluency, disagreement, and task-boundary work specify capacities that assistance can bypass or preserve. The delayed-loss claim still lacks longitudinal measurement."
         }
       ],
       "resolution_target": null
@@ -1730,6 +1833,85 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Context-carrying tools and design-system ownership supply the mechanism; no comparison establishes asset value or the failure threshold for documentation volume."
+        },
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Signal collapse and purpose drift reinforce the need for better evaluation, but the collection adds no direct comparison between owned, testable context and documentation volume."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-9c1cfe4448bf",
+      "statement": "Transitions that coordinate technical, institutional, social, and cultural pace layers may integrate capability more effectively than transitions governed as a single rollout.",
+      "status": "open",
+      "origin_collection": "how-we-learn-transitions",
+      "surfaced_in": "wiki/hubs/transitions",
+      "evidence": [
+        "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
+        "[[why-i-think-ai-take-off-is-relatively-slow-evi-39d89f833cb2#Claim 2]]",
+        "[[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Pace layering, slow institutional integration, and network-and-culture mechanisms support a multi-layer transition model, but no comparative rollout outcome warrants promotion."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-afcd094b4afd",
+      "statement": "Resistance that persists after factual objections are addressed may reveal a value or legitimacy conflict that technical correction cannot resolve.",
+      "status": "open",
+      "origin_collection": "how-we-learn-transitions",
+      "surfaced_in": "wiki/hubs/transitions",
+      "evidence": [
+        "[[the-new-luddites-arent-backing-down-evi-8b5c99287abc#Claim 1]]",
+        "[[the-new-luddites-arent-backing-down-evi-8b5c99287abc#Claim 2]]",
+        "[[red-lining-ai-evi-946f46f44c16#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Persistent objection and selective red lines support the legitimacy-conflict interpretation, but cases showing how governance changes resolve or preserve the conflict are missing."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-ab2741452bcb",
+      "statement": "As implementation becomes cheap, evaluators may need to replace artifact-based proxies with evidence of understanding, judgment, retention, and system outcomes.",
+      "status": "open",
+      "origin_collection": "how-we-learn-transitions",
+      "surfaced_in": "wiki/hubs/transitions",
+      "evidence": [
+        "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 1]]",
+        "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 2]]",
+        "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]",
+        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-transitions",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection documents weakening product and revenue signals and relocates scarcity toward understanding, taste, and outcomes; replacement signals remain unevaluated."
         }
       ],
       "resolution_target": null

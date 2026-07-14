@@ -11,6 +11,8 @@ relationships:
     target: "[[sustaining-capacity-loop]]"
   - type: refines
     target: "[[variance-amplifying-institutions]]"
+  - type: refines
+    target: "[[innoveracy]]"
 description: "An innovation system organized around deliberate variation, selection, diffusion, reinvestment, and renewal rather than one linear funnel or heroic inventor."
 evidence:
   - "[[the-innovation-farm-evi-8c1e83dbae3c#Claim 2]]"
@@ -56,3 +58,4 @@ The concept draws on evolutionary analogies in Modus and Harvard Business Review
 
 - Operationalized by the [[sustaining-capacity-loop|Sustaining capacity loop]].
 - Refines [[variance-amplifying-institutions|Variance-amplifying institutions]] by adding selection, diffusion, maintenance, and renewal.
+- Refines [[innoveracy|Innoveracy]] by turning a vocabulary distinction into a system of variation, selection, diffusion, and renewal.

@@ -102,6 +102,39 @@
             "evi-dadce4b3f82c"
           ]
         },
+        "👩🏻‍🎓 How We Learn → 💥 Transitions": {
+          "completed_at": "2026-07-14",
+          "entry_end": 686,
+          "entry_start": 661,
+          "evidence_ids": [
+            "evi-1ce478a7b350",
+            "evi-9492e1c93c4c",
+            "evi-67d35c2528b6",
+            "evi-601634fdef10",
+            "evi-747cd6ec945f",
+            "evi-dd688386c5a4",
+            "evi-b29d7bc541cf",
+            "evi-7a6c2dd00aeb",
+            "evi-5a08afa6b495",
+            "evi-05bf12374ad2",
+            "evi-39a9227c4064",
+            "evi-3aa620199648",
+            "evi-8b5c99287abc",
+            "evi-2c096a62c377",
+            "evi-cc63afa5809d",
+            "evi-ef5c67976e08",
+            "evi-709fe1681265",
+            "evi-5b801932134f",
+            "evi-39d89f833cb2",
+            "evi-7cd541fba7ef",
+            "evi-49b353f8c559",
+            "evi-3a9c8c5b925a",
+            "evi-aa9a966c7b1b",
+            "evi-733a74727c05",
+            "evi-7be149645e41",
+            "evi-946f46f44c16"
+          ]
+        },
         "👩🏻‍🎓 How We Learn → 🔮 Futuring": {
           "completed_at": "2026-07-14",
           "entry_end": 574,
@@ -315,6 +348,83 @@
             "evi-90ef6bd085b1",
             "evi-8e47b847a90f",
             "evi-0c30a7f66a56"
+          ]
+        },
+        "🔮 After the Internet → 👯 Culture": {
+          "completed_at": "2026-07-14",
+          "entry_end": 227,
+          "entry_start": 158,
+          "evidence_ids": [
+            "evi-52193138df88",
+            "evi-6b12b06d54c1",
+            "evi-a03729f33d5e",
+            "evi-049abc0d3e6f",
+            "evi-f3f2d3f584f8",
+            "evi-77a1d6b910b5",
+            "evi-91d3dad075b5",
+            "evi-1454d0d48d92",
+            "evi-0c373333a6bd",
+            "evi-a1dd4dd4767f",
+            "evi-27a01255299c",
+            "evi-b3abf21e4826",
+            "evi-7e3f7e45c665",
+            "evi-e6d632883a01",
+            "evi-ef59c260fbda",
+            "evi-73fd9d931e0c",
+            "evi-3e2e599a0ec2",
+            "evi-b2c8248e57d0",
+            "evi-81acfcfc125f",
+            "evi-6af64e37687a",
+            "evi-f5e6da87162e",
+            "evi-61c1289f08af",
+            "evi-a044dcbce797",
+            "evi-4cfddabe2862",
+            "evi-05b9fad52447",
+            "evi-86b04d15abf2",
+            "evi-cb08565c0009",
+            "evi-64e86c55ce45",
+            "evi-78784fbec904",
+            "evi-4a6d77328d04",
+            "evi-ff30ca0a52e7",
+            "evi-d9574be8c003",
+            "evi-2e1da4b5e1a4",
+            "evi-ebee8bc49855",
+            "evi-028bfe5b80f1",
+            "evi-82971944acda",
+            "evi-c318281c4097",
+            "evi-3867db64c64b",
+            "evi-77d140da8a02",
+            "evi-945c979b066d",
+            "evi-f6c437b62b5d",
+            "evi-0aacbf325075",
+            "evi-1bf37f4648d1",
+            "evi-709d33537e68",
+            "evi-71dd065f58f6",
+            "evi-6bd478294875",
+            "evi-3642a4c5ee56",
+            "evi-62358799744a",
+            "evi-3cbd57639d01",
+            "evi-fcae1698c20c",
+            "evi-0f05f304299c",
+            "evi-e65f47afedb8",
+            "evi-bd029229642c",
+            "evi-58d67372281c",
+            "evi-cad7f9c249f1",
+            "evi-4096ab878725",
+            "evi-65ca2d2a9fbc",
+            "evi-03e9e9034585",
+            "evi-b376a4fd2156",
+            "evi-e3bf5de3c032",
+            "evi-8fcf75ff8866",
+            "evi-b70a2a6f8279",
+            "evi-f0f2cab9c2f4",
+            "evi-73b6bb31e91a",
+            "evi-dbc99fb58457",
+            "evi-a7dfffb791e9",
+            "evi-d2576e52c6df",
+            "evi-84cd7cb167b1",
+            "evi-0d6a89054260",
+            "evi-f725ec6bd434"
           ]
         },
         "🔮 After the Internet → 🔌 Networks": {
@@ -691,7 +801,7 @@
           ]
         }
       },
-      "completed_entries": 590,
+      "completed_entries": 686,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -953,21 +1063,189 @@
           "file": "evidence/sources/the-ai-economy-the-next-chapter-evi-855e88c44057.md",
           "id": "evi-855e88c44057"
         },
+        "158": {
+          "file": "evidence/sources/managing-a-news-operation-the-netflix-way-evi-52193138df88.md",
+          "id": "evi-52193138df88"
+        },
+        "159": {
+          "file": "evidence/sources/the-social-dilemma-evi-6b12b06d54c1.md",
+          "id": "evi-6b12b06d54c1"
+        },
         "16": {
           "file": "evidence/sources/wallets-and-eyeballs-how-ebay-turned-the-internet-into-a-marketplace-evi-ff62765a864a.md",
           "id": "evi-ff62765a864a"
+        },
+        "160": {
+          "file": "evidence/sources/techno-optimism-for-the-2020s-evi-a03729f33d5e.md",
+          "id": "evi-a03729f33d5e"
+        },
+        "161": {
+          "file": "evidence/sources/avoiding-the-fate-of-empires-evi-049abc0d3e6f.md",
+          "id": "evi-049abc0d3e6f"
+        },
+        "162": {
+          "file": "evidence/sources/in-praise-of-the-gods-evi-f3f2d3f584f8.md",
+          "id": "evi-f3f2d3f584f8"
+        },
+        "163": {
+          "file": "evidence/sources/8-themes-for-the-near-future-of-tech-evi-77a1d6b910b5.md",
+          "id": "evi-77a1d6b910b5"
+        },
+        "164": {
+          "file": "evidence/sources/notes-on-technology-in-the-2020s-evi-91d3dad075b5.md",
+          "id": "evi-91d3dad075b5"
+        },
+        "165": {
+          "file": "evidence/sources/why-has-the-world-become-so-weird-evi-1454d0d48d92.md",
+          "id": "evi-1454d0d48d92"
+        },
+        "166": {
+          "file": "evidence/sources/the-great-acceleration-evi-0c373333a6bd.md",
+          "id": "evi-0c373333a6bd"
+        },
+        "167": {
+          "file": "evidence/sources/it-s-time-to-build-a-new-world-s-fair-evi-a1dd4dd4767f.md",
+          "id": "evi-a1dd4dd4767f"
+        },
+        "168": {
+          "file": "evidence/sources/the-internet-is-changing-us-profoundly-we-aren-t-sure-into-what-evi-27a01255299c.md",
+          "id": "evi-27a01255299c"
+        },
+        "169": {
+          "file": "evidence/sources/the-end-of-industrial-society-evi-b3abf21e4826.md",
+          "id": "evi-b3abf21e4826"
         },
         "17": {
           "file": "evidence/sources/the-rise-of-the-aligned-web-evi-355708350079.md",
           "id": "evi-355708350079"
         },
+        "170": {
+          "file": "evidence/sources/luxury-x-crypto-evi-7e3f7e45c665.md",
+          "id": "evi-7e3f7e45c665"
+        },
+        "171": {
+          "file": "evidence/sources/the-dubrovnik-interviews-marc-andreessen-evi-e6d632883a01.md",
+          "id": "evi-e6d632883a01"
+        },
+        "172": {
+          "file": "evidence/sources/could-gen-z-free-the-world-from-email-evi-ef59c260fbda.md",
+          "id": "evi-ef59c260fbda"
+        },
+        "173": {
+          "file": "evidence/sources/web-design-the-first-100-years-evi-73fd9d931e0c.md",
+          "id": "evi-73fd9d931e0c"
+        },
+        "174": {
+          "file": "evidence/sources/human-history-gets-a-rewrite-evi-3e2e599a0ec2.md",
+          "id": "evi-3e2e599a0ec2"
+        },
+        "175": {
+          "file": "evidence/sources/why-we-crave-software-with-style-over-branding-evi-b2c8248e57d0.md",
+          "id": "evi-b2c8248e57d0"
+        },
+        "176": {
+          "file": "evidence/sources/a-declaration-of-the-interdependence-of-cyberspace-evi-81acfcfc125f.md",
+          "id": "evi-81acfcfc125f"
+        },
+        "177": {
+          "file": "evidence/sources/science-fiction-is-a-luddite-literature-evi-6af64e37687a.md",
+          "id": "evi-6af64e37687a"
+        },
+        "178": {
+          "file": "evidence/sources/ride-hailing-is-it-sustainable-evi-f5e6da87162e.md",
+          "id": "evi-f5e6da87162e"
+        },
+        "179": {
+          "file": "evidence/sources/the-five-levels-of-hype-evi-61c1289f08af.md",
+          "id": "evi-61c1289f08af"
+        },
         "18": {
           "file": "evidence/sources/play-to-earn-and-bullshit-jobs-evi-ab9d2f7e9bcc.md",
           "id": "evi-ab9d2f7e9bcc"
         },
+        "180": {
+          "file": "evidence/sources/why-you-should-ignore-the-metagame-evi-a044dcbce797.md",
+          "id": "evi-a044dcbce797"
+        },
+        "181": {
+          "file": "evidence/sources/welcoming-our-new-meme-lords-evi-4cfddabe2862.md",
+          "id": "evi-4cfddabe2862"
+        },
+        "182": {
+          "file": "evidence/sources/twitter-and-elons-world-of-pain-evi-05b9fad52447.md",
+          "id": "evi-05b9fad52447"
+        },
+        "183": {
+          "file": "evidence/sources/how-pattie-maes-almost-invented-social-media-evi-86b04d15abf2.md",
+          "id": "evi-86b04d15abf2"
+        },
+        "184": {
+          "file": "evidence/sources/does-not-compute-how-social-media-breaks-society-evi-cb08565c0009.md",
+          "id": "evi-cb08565c0009"
+        },
+        "185": {
+          "file": "evidence/sources/why-build-in-web3-evi-64e86c55ce45.md",
+          "id": "evi-64e86c55ce45"
+        },
+        "186": {
+          "file": "evidence/sources/how-this-all-happened-evi-78784fbec904.md",
+          "id": "evi-78784fbec904"
+        },
+        "187": {
+          "file": "evidence/sources/the-more-beautiful-internet-our-hearts-know-is-possible-evi-4a6d77328d04.md",
+          "id": "evi-4a6d77328d04"
+        },
+        "188": {
+          "file": "evidence/sources/the-collective-intelligence-institute-evi-ff30ca0a52e7.md",
+          "id": "evi-ff30ca0a52e7"
+        },
+        "189": {
+          "file": "evidence/sources/1979-evi-d9574be8c003.md",
+          "id": "evi-d9574be8c003"
+        },
         "19": {
           "file": "evidence/sources/the-seven-rules-of-the-metaverse-evi-106470681e21.md",
           "id": "evi-106470681e21"
+        },
+        "190": {
+          "file": "evidence/sources/i-say-this-unironically-our-society-is-not-prepared-for-this-much-awesome-evi-2e1da4b5e1a4.md",
+          "id": "evi-2e1da4b5e1a4"
+        },
+        "191": {
+          "file": "evidence/sources/googles-evolution-from-dont-be-evil-to-win-at-all-costs-evi-ebee8bc49855.md",
+          "id": "evi-ebee8bc49855"
+        },
+        "192": {
+          "file": "evidence/sources/ai-drake-just-set-an-impossible-legal-trap-for-google-evi-028bfe5b80f1.md",
+          "id": "evi-028bfe5b80f1"
+        },
+        "193": {
+          "file": "evidence/sources/substack-ceo-chris-best-doesnt-realize-hes-just-become-the-nazi-bar-evi-82971944acda.md",
+          "id": "evi-82971944acda"
+        },
+        "194": {
+          "file": "evidence/sources/against-safetyism-evi-c318281c4097.md",
+          "id": "evi-c318281c4097"
+        },
+        "195": {
+          "file": "evidence/sources/lifes-work-wont-lead-to-dystopia-evi-3867db64c64b.md",
+          "id": "evi-3867db64c64b"
+        },
+        "196": {
+          "file": "evidence/sources/bcis-and-the-ecosystem-of-modular-minds-evi-77d140da8a02.md",
+          "id": "evi-77d140da8a02"
+        },
+        "197": {
+          "file": "evidence/sources/detecting-the-secret-cyborgs-evi-945c979b066d.md",
+          "id": "evi-945c979b066d"
+        },
+        "198": {
+          "file": "evidence/sources/large-language-models-are-small-minded-evi-f6c437b62b5d.md",
+          "id": "evi-f6c437b62b5d"
+        },
+        "199": {
+          "file": "evidence/sources/render-unto-the-machine-evi-0aacbf325075.md",
+          "id": "evi-0aacbf325075"
         },
         "2": {
           "file": "evidence/sources/internet-3-0-and-the-beginning-of-tech-history-evi-535e9deff6a8.md",
@@ -977,13 +1255,125 @@
           "file": "evidence/sources/money-go-round-evi-c58d3061f651.md",
           "id": "evi-c58d3061f651"
         },
+        "200": {
+          "file": "evidence/sources/the-llmentalist-effect-evi-1bf37f4648d1.md",
+          "id": "evi-1bf37f4648d1"
+        },
+        "201": {
+          "file": "evidence/sources/well-fed-and-unsatisfied-evi-709d33537e68.md",
+          "id": "evi-709d33537e68"
+        },
+        "202": {
+          "file": "evidence/sources/i-have-plenty-of-opinions-about-twitter-x-evi-71dd065f58f6.md",
+          "id": "evi-71dd065f58f6"
+        },
+        "203": {
+          "file": "evidence/sources/we-have-entered-the-self-loathing-stage-of-the-internet-evi-6bd478294875.md",
+          "id": "evi-6bd478294875"
+        },
+        "204": {
+          "file": "evidence/sources/why-you-are-probably-an-npc-evi-3642a4c5ee56.md",
+          "id": "evi-3642a4c5ee56"
+        },
+        "205": {
+          "file": "evidence/sources/who-and-where-are-todays-innovators-evi-62358799744a.md",
+          "id": "evi-62358799744a"
+        },
+        "206": {
+          "file": "evidence/sources/another-three-things-evi-3cbd57639d01.md",
+          "id": "evi-3cbd57639d01"
+        },
+        "207": {
+          "file": "evidence/sources/a-coder-considers-the-waning-days-of-the-craft-evi-fcae1698c20c.md",
+          "id": "evi-fcae1698c20c"
+        },
+        "208": {
+          "file": "evidence/sources/soft-power-in-tech-evi-0f05f304299c.md",
+          "id": "evi-0f05f304299c"
+        },
+        "209": {
+          "file": "evidence/sources/what-llms-cannot-do-evi-e65f47afedb8.md",
+          "id": "evi-e65f47afedb8"
+        },
         "21": {
           "file": "evidence/sources/the-web3-playbook-for-brands-evi-0b9908ddb9d4.md",
           "id": "evi-0b9908ddb9d4"
         },
+        "210": {
+          "file": "evidence/sources/are-ai-language-models-in-hells-evi-bd029229642c.md",
+          "id": "evi-bd029229642c"
+        },
+        "211": {
+          "file": "evidence/sources/seduced-by-the-machine-evi-58d67372281c.md",
+          "id": "evi-58d67372281c"
+        },
+        "212": {
+          "file": "evidence/sources/stop-worrying-about-deepfakes-evi-cad7f9c249f1.md",
+          "id": "evi-cad7f9c249f1"
+        },
+        "213": {
+          "file": "evidence/sources/its-ok-to-call-it-artificial-intelligence-evi-4096ab878725.md",
+          "id": "evi-4096ab878725"
+        },
+        "214": {
+          "file": "evidence/sources/chatgpt-is-an-engine-of-cultural-transmission-evi-65ca2d2a9fbc.md",
+          "id": "evi-65ca2d2a9fbc"
+        },
+        "215": {
+          "file": "evidence/sources/life-in-the-algorithm-evi-03e9e9034585.md",
+          "id": "evi-03e9e9034585"
+        },
+        "216": {
+          "file": "evidence/sources/how-did-human-civilization-get-off-the-ground-evi-b376a4fd2156.md",
+          "id": "evi-b376a4fd2156"
+        },
+        "217": {
+          "file": "evidence/sources/overpromising-and-stumbling-bambis-evi-e3bf5de3c032.md",
+          "id": "evi-e3bf5de3c032"
+        },
+        "218": {
+          "file": "evidence/sources/automatic-for-the-people-evi-8fcf75ff8866.md",
+          "id": "evi-8fcf75ff8866"
+        },
+        "219": {
+          "file": "evidence/sources/ai-tutors-can-t-solve-bloom-s-two-sigma-problem-evi-b70a2a6f8279.md",
+          "id": "evi-b70a2a6f8279"
+        },
         "22": {
           "file": "evidence/sources/andy-warhol-clay-christensen-and-vitalik-buterin-walk-into-a-bar-evi-0515d12ba7b6.md",
           "id": "evi-0515d12ba7b6"
+        },
+        "220": {
+          "file": "evidence/sources/anti-technology-evi-f0f2cab9c2f4.md",
+          "id": "evi-f0f2cab9c2f4"
+        },
+        "221": {
+          "file": "evidence/sources/silicon-valleys-delusion-machine-evi-73b6bb31e91a.md",
+          "id": "evi-73b6bb31e91a"
+        },
+        "222": {
+          "file": "evidence/sources/large-ai-models-are-cultural-and-social-technologies-evi-dbc99fb58457.md",
+          "id": "evi-dbc99fb58457"
+        },
+        "223": {
+          "file": "evidence/sources/working-with-llms-a-few-lessons-evi-a7dfffb791e9.md",
+          "id": "evi-a7dfffb791e9"
+        },
+        "224": {
+          "file": "evidence/sources/the-black-box-myth-what-the-industry-pretends-not-to-know-about-ai-evi-d2576e52c6df.md",
+          "id": "evi-d2576e52c6df"
+        },
+        "225": {
+          "file": "evidence/sources/death-of-software-nah-evi-84cd7cb167b1.md",
+          "id": "evi-84cd7cb167b1"
+        },
+        "226": {
+          "file": "evidence/sources/why-we-need-shared-private-internets-evi-0d6a89054260.md",
+          "id": "evi-0d6a89054260"
+        },
+        "227": {
+          "file": "evidence/sources/your-ai-is-not-a-tool-evi-f725ec6bd434.md",
+          "id": "evi-f725ec6bd434"
         },
         "228": {
           "file": "evidence/sources/anti-monopoly-vs-antitrust-evi-2f5b61db4f37.md",
@@ -2909,13 +3299,117 @@
           "file": "evidence/sources/design-systems-are-no-longer-optional-evi-f79608079d95.md",
           "id": "evi-f79608079d95"
         },
+        "661": {
+          "file": "evidence/sources/marc-andreessen-vc-and-tech-pioneer-evi-1ce478a7b350.md",
+          "id": "evi-1ce478a7b350"
+        },
+        "662": {
+          "file": "evidence/sources/beer-mode-and-coffee-mode-evi-9492e1c93c4c.md",
+          "id": "evi-9492e1c93c4c"
+        },
+        "663": {
+          "file": "evidence/sources/beware-of-tight-feedback-loops-evi-67d35c2528b6.md",
+          "id": "evi-67d35c2528b6"
+        },
+        "664": {
+          "file": "evidence/sources/why-we-keep-telling-the-myth-of-a-renaissance-golden-age-and-bad-middle-ages-evi-601634fdef10.md",
+          "id": "evi-601634fdef10"
+        },
+        "665": {
+          "file": "evidence/sources/innoveracy-misunderstanding-innovation-evi-747cd6ec945f.md",
+          "id": "evi-747cd6ec945f"
+        },
+        "666": {
+          "file": "evidence/sources/failure-theory-evi-dd688386c5a4.md",
+          "id": "evi-dd688386c5a4"
+        },
+        "667": {
+          "file": "evidence/sources/the-other-invisible-hand-evi-b29d7bc541cf.md",
+          "id": "evi-b29d7bc541cf"
+        },
+        "668": {
+          "file": "evidence/sources/why-disagreement-is-vital-to-advancing-human-understanding-evi-7a6c2dd00aeb.md",
+          "id": "evi-7a6c2dd00aeb"
+        },
+        "669": {
+          "file": "evidence/sources/95-theses-on-innovation-evi-5a08afa6b495.md",
+          "id": "evi-5a08afa6b495"
+        },
         "67": {
           "file": "evidence/sources/we-are-thinking-about-ar-vr-wrong-evi-44671d684b0f.md",
           "id": "evi-44671d684b0f"
         },
+        "670": {
+          "file": "evidence/sources/yesterday-once-more-evi-05bf12374ad2.md",
+          "id": "evi-05bf12374ad2"
+        },
+        "671": {
+          "file": "evidence/sources/too-big-to-think-why-prestigious-institutions-stopped-generating-good-ideas-evi-39a9227c4064.md",
+          "id": "evi-39a9227c4064"
+        },
+        "672": {
+          "file": "evidence/sources/strategy-in-an-age-of-uncertainty-evi-3aa620199648.md",
+          "id": "evi-3aa620199648"
+        },
+        "673": {
+          "file": "evidence/sources/the-new-luddites-arent-backing-down-evi-8b5c99287abc.md",
+          "id": "evi-8b5c99287abc"
+        },
+        "674": {
+          "file": "evidence/sources/the-real-crisis-in-humanities-isn-t-happening-at-college-evi-2c096a62c377.md",
+          "id": "evi-2c096a62c377"
+        },
+        "675": {
+          "file": "evidence/sources/five-new-thinking-styles-for-working-with-thinking-machines-evi-cc63afa5809d.md",
+          "id": "evi-cc63afa5809d"
+        },
+        "676": {
+          "file": "evidence/sources/tech-pace-layering-evi-ef5c67976e08.md",
+          "id": "evi-ef5c67976e08"
+        },
+        "677": {
+          "file": "evidence/sources/the-ai-debate-were-not-having-evi-709fe1681265.md",
+          "id": "evi-709fe1681265"
+        },
+        "678": {
+          "file": "evidence/sources/dispatch-from-the-trenches-of-the-butlerian-jihad-evi-5b801932134f.md",
+          "id": "evi-5b801932134f"
+        },
+        "679": {
+          "file": "evidence/sources/why-i-think-ai-take-off-is-relatively-slow-evi-39d89f833cb2.md",
+          "id": "evi-39d89f833cb2"
+        },
         "68": {
           "file": "evidence/sources/one-weird-trick-to-make-humans-think-an-ai-is-sentient-evi-cb2b1c6c9656.md",
           "id": "evi-cb2b1c6c9656"
+        },
+        "680": {
+          "file": "evidence/sources/i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef.md",
+          "id": "evi-7cd541fba7ef"
+        },
+        "681": {
+          "file": "evidence/sources/how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559.md",
+          "id": "evi-49b353f8c559"
+        },
+        "682": {
+          "file": "evidence/sources/ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a.md",
+          "id": "evi-3a9c8c5b925a"
+        },
+        "683": {
+          "file": "evidence/sources/petri-dishes-not-factories-evi-aa9a966c7b1b.md",
+          "id": "evi-aa9a966c7b1b"
+        },
+        "684": {
+          "file": "evidence/sources/stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05.md",
+          "id": "evi-733a74727c05"
+        },
+        "685": {
+          "file": "evidence/sources/when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41.md",
+          "id": "evi-7be149645e41"
+        },
+        "686": {
+          "file": "evidence/sources/red-lining-ai-evi-946f46f44c16.md",
+          "id": "evi-946f46f44c16"
         },
         "69": {
           "file": "evidence/sources/the-great-fiction-of-ai-evi-2e1f37d00591.md",
@@ -3056,7 +3550,7 @@
       },
       "mode": "bootstrap_anthology",
       "raw_sha256": "42794efb22e69cef120d7cf5812b79e06dfbeca9904fde60916de94fe2bd036a",
-      "status": "partial",
+      "status": "complete",
       "total_entries": 686
     }
   },

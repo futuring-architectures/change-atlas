@@ -17,6 +17,8 @@ relationships:
     target: "[[ai-adoption-failure-exposed-work-system-tensions]]"
   - type: refined_by
     target: "[[ingredient-technology]]"
+  - type: refined_by
+    target: "[[pace-layering]]"
 description: "The distance between what a model can demonstrate and what a sociotechnical system can deploy usefully, safely, legitimately, and at scale."
 evidence:
   - "[[lessons-from-historys-greatest-r-and-d-labs-evi-a9bfefd1c558#Claim 2]]"
@@ -25,6 +27,7 @@ evidence:
   - "[[the-two-clocks-evi-e5c4870ba6b1#Claim 1]]"
   - "[[the-two-clocks-evi-e5c4870ba6b1#Claim 2]]"
   - "[[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 1]]"
+  - "[[why-i-think-ai-take-off-is-relatively-slow-evi-39d89f833cb2#Claim 2]]"
 ---
 
 # Capability-deployment gap
@@ -51,3 +54,4 @@ Forecasts that move directly from benchmark capability to jobs, markets, or soci
 - Exemplified by [[radiologist-work-grew-alongside-better-models|radiology deployment]].
 - Supported by [[ai-adoption-failure-exposed-work-system-tensions|AI adoption failure exposed work-system tensions]].
 - Refined by [[ingredient-technology|Ingredient technology]], which locates domain and scenario architecture around the model capability.
+- Refined by [[pace-layering|Pace layering]], which interprets part of the gap as coordination among system layers with different rates and stabilizing functions.

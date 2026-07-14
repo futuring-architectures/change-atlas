@@ -16,6 +16,8 @@ relationships:
     target: "[[cultural-selection-stack]]"
   - type: refined_by
     target: "[[innovation-ecology]]"
+  - type: exemplified_by
+    target: "[[scale-management-suppressed-institutional-weirdos]]"
 description: "Institutions that create positive feedback and select for extremity, surprise, virality, and uncapped outcomes rather than norm adherence and predictable ranges."
 evidence:
   - "[[why-has-the-world-become-so-weird-evi-1454d0d48d92#Claim 1]]"
@@ -61,3 +63,4 @@ The term comes from Matt Clifford's account of the internet as a variance-amplif
 
 - The Concept refines [[network-topology-shapes-cultural-outcomes|network topology shapes cultural outcomes]] by naming one institutional selection regime.
 - [[cultural-selection-stack|The cultural selection stack]] operationalizes it by locating where variance is admitted, amplified, retained, and rewarded.
+- Exemplified in reverse by [[scale-management-suppressed-institutional-weirdos|Scale management suppressed institutional weirdos]], where scale-management layers dampen unconventional variation.

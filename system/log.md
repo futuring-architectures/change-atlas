@@ -201,3 +201,17 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Added the Sustaining capacity loop to connect variation, selection, diffusion, context ownership, human-capacity renewal, reinvestment, and movement to the next S-curve.
 - Promoted no Trend because the strongest claims about renewal, capacity erosion, betterment, and ecosystem competition remain mechanisms, interpretations, or forecasts rather than comparable repeated outcomes.
 - Assessed 20 inherited synthesis-backlog propositions and opened three stable propositions on renewal capacity, delayed human-capacity loss, and owned testable context at machine speed.
+
+## [2026-07-14] evidence | Review and activate Transitions collection
+
+- Recovered source metadata for 26 Evidence records in `👩🏻‍🎓 How We Learn → 💥 Transitions`, preserving unresolved and partial fields rather than inventing provenance.
+- Extracted and classified 52 atomic claims and registered entries 661–686.
+- Repaired an earlier manifest bookkeeping omission by registering the already reviewed 70-record `🔮 After the Internet → 👯 Culture` collection; no Evidence or claim content changed.
+- Completed anthology coverage at 686 of 686 entries across all 16 collections.
+
+## [2026-07-14] synthesis | Create Transitions Wiki map
+
+- Synthesized one Hub, four Signals, six Concepts, one Framework, two Debates, and two Questions; updated six existing pages with Transitions Evidence and reciprocal typed links.
+- Added the Transition integration stack to connect human outcomes, technical ingredients, task-boundary work, institutional pace layers, epistemic fluency, cultural legitimacy, and continuing activity–alignment monitoring.
+- Promoted no Trend because the collection supplies mechanisms, interpretations, and isolated cases rather than comparable repeated directional outcomes.
+- Assessed all 17 inherited synthesis-backlog propositions and opened three stable propositions on multi-layer transition integration, resistance as legitimacy evidence, and replacement signals after cheap implementation.

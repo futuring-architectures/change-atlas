@@ -22,6 +22,8 @@ relationships:
     target: "[[agentic-development-folded-requirements-into-iteration]]"
   - type: qualified_by
     target: "[[does-cheap-code-retire-technical-debt-or-amplify-architectural-debt]]"
+  - type: qualified_by
+    target: "[[does-cheap-implementation-improve-innovation-or-obscure-understanding]]"
 description: "In documented AI-assisted software practices, human effort is moving from directly producing code toward specifying loops, integrating services, evaluating results, and designing assurance mechanisms."
 scope: "Documented AI-assisted and agentic software-development practices, primarily individual and enterprise examples published from April 2025 through June 2026."
 period_start: 2025-04-27
@@ -64,6 +66,7 @@ Across bounded software-development examples published from April 2025 through J
 - MenuGen required substantial human diagnosis and integration; agentic work did not remove expertise or effort.
 - Forecasts about unread production code are not treated as observations that human review has already disappeared at scale.
 - [[the-vibes-dont-scale-evi-e058bb26186a#Claim 1|The Vibes Don’t Scale — claim 1]] argues that deciding what to build and maintaining coherence become stronger constraints as code gets cheaper.
+- [[does-cheap-implementation-improve-innovation-or-obscure-understanding|The cheap-implementation Debate]] adds that moving away from code production does not itself demonstrate stronger problem understanding or better innovation outcomes.
 
 ## Interpretation
 
@@ -79,3 +82,4 @@ Confidence is moderate that the role shift exists in the cited practices and low
 - Qualified by [[ai-production-hides-a-human-assembly-line|the hidden human assembly line behind AI production]].
 - Raises [[what-replaces-human-review-when-software-exceeds-human-attention|the question of what can replace human review as generated software exceeds attention]].
 - Supported by [[agentic-development-folded-requirements-into-iteration|the requirements-through-iteration account]] and qualified by [[does-cheap-code-retire-technical-debt-or-amplify-architectural-debt|the architectural-debt Debate]].
+- Qualified by [[does-cheap-implementation-improve-innovation-or-obscure-understanding|the cheap-implementation Debate]], which separates abundant experiments from credible learning.

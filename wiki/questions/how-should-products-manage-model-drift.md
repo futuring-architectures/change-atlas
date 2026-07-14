@@ -9,7 +9,9 @@ tags:
   - model-drift
   - ai-operations
   - product-lifecycle
-relationships: []
+relationships:
+  - type: raised_by
+    target: "[[activity-alignment-gap]]"
 description: "How should AI products be designed, budgeted, and governed when provider models, behavior, price, and performance can change beneath a stable product interface?"
 origin: ingestion
 ---
@@ -26,6 +28,7 @@ Traditional project governance often treats software as a durable artifact after
 - The same source identifies model improvement and silent degradation as continuing operational change: [[if-ai-is-so-great-why-isnt-it-working-evi-9451a32b064d#Claim 2|claim 2]].
 - The MenuGen case reports outdated API and model knowledge creating integration failures: [[vibe-coding-menugen-evi-0ce549d72b42#Claim 2|Vibe coding MenuGen — claim 2]].
 - Enterprise optimization may shift toward intelligence per dollar as deployment cost grows: [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1|The AI Economy — claim 1]] and [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2|claim 2]].
+- [[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2|When Correct Systems Produce the Wrong Outcomes — claim 2]] broadens drift from model behavior to continued alignment between activity and purpose.
 
 ## Missing or discriminating evidence
 
@@ -46,4 +49,4 @@ _Open. The current Evidence establishes the lifecycle problem but not a durable 
 
 ## Relationships
 
-No typed relationship is asserted yet; later organizational and architecture collections should connect the question to operating models and governance controls.
+- Raised by the [[activity-alignment-gap|Activity-alignment gap]], which makes continued purpose testing part of product operations.

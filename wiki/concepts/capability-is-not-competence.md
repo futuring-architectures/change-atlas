@@ -18,6 +18,8 @@ relationships:
     target: "[[ai-attribution-changes-content-evaluation]]"
   - type: qualified_by
     target: "[[extended-mind]]"
+  - type: refined_by
+    target: "[[task-boundary-work]]"
 description: "Success on an output, benchmark, or bounded task does not by itself establish reliable performance across the full workflow, context, and accountability of competent practice."
 evidence:
   - "[[the-fundamental-extrapolation-error-evi-b53afd4c787e#Claim 2]]"
@@ -25,6 +27,7 @@ evidence:
   - "[[llms-as-system-1-thinkers-evi-ef010c6137ba#Claim 1]]"
   - "[[gpt-4-doesn-t-have-gender-bias-it-s-just-bad-at-language-still-evi-e9210f379909#Claim 1]]"
   - "[[gpt-4-doesn-t-have-gender-bias-it-s-just-bad-at-language-still-evi-e9210f379909#Claim 2]]"
+  - "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]"
 ---
 
 # Capability is not competence
@@ -64,3 +67,4 @@ Jon Evans calls unsupported movement from exam performance to job performance th
 - The Debate [[does-ai-automate-thought-or-reproduce-patterns|Does AI automate thought or reproduce patterns?]] refines what different mechanisms would and would not imply about competence.
 - [[ai-attribution-changes-content-evaluation|AI attribution changes content evaluation]] qualifies output-only assessment by showing that perceived provenance also affects judged value.
 - Related to [[extended-mind|Extended mind]]: a hybrid system can perform capably without the person internalizing the same competence.
+- Refined by [[task-boundary-work|Task-boundary work]], which locates omitted competence in the ambiguous coordination between benchmarkable tasks.
