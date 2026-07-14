@@ -193,6 +193,28 @@
             "evi-401f211f3952"
           ]
         },
+        "🧑‍🎨 Power to Creators → 🤝 Communities": {
+          "completed_at": "2026-07-14",
+          "entry_end": 347,
+          "entry_start": 333,
+          "evidence_ids": [
+            "evi-1979023975fd",
+            "evi-8fe31fd07d9a",
+            "evi-38091c2af549",
+            "evi-ee1a669b2b8e",
+            "evi-cbc22d240187",
+            "evi-396ac8edfb72",
+            "evi-bccb2f813363",
+            "evi-0ac099593c78",
+            "evi-faded797b9a5",
+            "evi-07ff0d7ceb6e",
+            "evi-16aa7c678b57",
+            "evi-e9ad91f4f8a3",
+            "evi-bc3978b8ebc2",
+            "evi-f8b594b5581e",
+            "evi-b8039cdc6399"
+          ]
+        },
         "🧰 Nature of the Firm → ⚡️ Organization": {
           "completed_at": "2026-07-14",
           "entry_end": 289,
@@ -314,7 +336,7 @@
           ]
         }
       },
-      "completed_entries": 262,
+      "completed_entries": 277,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -1076,9 +1098,69 @@
           "file": "evidence/sources/the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3.md",
           "id": "evi-ce49c35011a3"
         },
+        "333": {
+          "file": "evidence/sources/making-is-show-business-now-evi-1979023975fd.md",
+          "id": "evi-1979023975fd"
+        },
+        "334": {
+          "file": "evidence/sources/coming-for-the-content-staying-for-the-community-evi-8fe31fd07d9a.md",
+          "id": "evi-8fe31fd07d9a"
+        },
+        "335": {
+          "file": "evidence/sources/quibi-leaders-1-7-billion-failure-is-a-story-of-self-sabotage-evi-38091c2af549.md",
+          "id": "evi-38091c2af549"
+        },
+        "336": {
+          "file": "evidence/sources/defi-creators-evi-ee1a669b2b8e.md",
+          "id": "evi-ee1a669b2b8e"
+        },
+        "337": {
+          "file": "evidence/sources/proof-of-passion-evi-cbc22d240187.md",
+          "id": "evi-cbc22d240187"
+        },
+        "338": {
+          "file": "evidence/sources/the-cooperation-economy-evi-396ac8edfb72.md",
+          "id": "evi-396ac8edfb72"
+        },
+        "339": {
+          "file": "evidence/sources/entrepreneurship-is-contagious-evi-bccb2f813363.md",
+          "id": "evi-bccb2f813363"
+        },
         "34": {
           "file": "evidence/sources/the-end-of-social-media-and-the-rise-of-recommendation-media-evi-1f85d0fdcd02.md",
           "id": "evi-1f85d0fdcd02"
+        },
+        "340": {
+          "file": "evidence/sources/everyday-magic-evi-0ac099593c78.md",
+          "id": "evi-0ac099593c78"
+        },
+        "341": {
+          "file": "evidence/sources/the-economics-of-creativity-who-gets-paid-and-why-evi-faded797b9a5.md",
+          "id": "evi-faded797b9a5"
+        },
+        "342": {
+          "file": "evidence/sources/my-boundaries-as-an-open-source-developer-evi-07ff0d7ceb6e.md",
+          "id": "evi-07ff0d7ceb6e"
+        },
+        "343": {
+          "file": "evidence/sources/the-rise-of-the-internets-creative-middle-class-evi-16aa7c678b57.md",
+          "id": "evi-16aa7c678b57"
+        },
+        "344": {
+          "file": "evidence/sources/how-to-be-a-hands-on-citizen-evi-e9ad91f4f8a3.md",
+          "id": "evi-e9ad91f4f8a3"
+        },
+        "345": {
+          "file": "evidence/sources/i-hereby-pardon-all-junior-engineers-evi-bc3978b8ebc2.md",
+          "id": "evi-bc3978b8ebc2"
+        },
+        "346": {
+          "file": "evidence/sources/the-artification-of-culture-evi-f8b594b5581e.md",
+          "id": "evi-f8b594b5581e"
+        },
+        "347": {
+          "file": "evidence/sources/were-entering-uncharted-territory-for-math-evi-b8039cdc6399.md",
+          "id": "evi-b8039cdc6399"
         },
         "35": {
           "file": "evidence/sources/the-metaverse-is-not-a-place-evi-2f500166697e.md",

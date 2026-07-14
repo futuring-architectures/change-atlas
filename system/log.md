@@ -119,3 +119,14 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Framed culture as an emergent operating system and made its leadership levers inspectable through the Culture influence stack.
 - Added a collaboration-architecture Framework that distinguishes focused work, asynchronous coordination, co-acting groups, and stable teams while preserving apprenticeship and meaning as explicit design needs.
 - Assessed seven relevant synthesis-backlog propositions and opened two stable propositions for later creator and learning collections.
+
+## [2026-07-14] evidence | Review and activate Creator Communities collection
+
+- Recovered source metadata for 15 Evidence records in `🧑‍🎨 Power to Creators → 🤝 Communities`, preserving one unresolved date and one year-only date.
+- Extracted and classified 30 atomic claims and registered entries 333–347; anthology progress reached 277 of 686 entries.
+
+## [2026-07-14] synthesis | Create Creator Communities Wiki map
+
+- Synthesized the collection into one Hub, three Signals, three Concepts, one Framework, one Debate, and one Question; expanded two existing Concepts with reciprocal links.
+- Added the Community sustainability audit to trace contribution, finite attention, decision rights, rewards, care, continuity, exit, and recourse.
+- Promoted no Trend from selected cases and forecasts; assessed four inherited propositions and opened two stable propositions for later creator and learning collections.

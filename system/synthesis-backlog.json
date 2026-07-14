@@ -45,6 +45,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Culture supplies indirect influence, autonomy, dissent, and narrative mechanisms but no case in which distributed stewardship changes formal decision power or produces comparative outcomes."
+        },
+        {
+          "collection": "power-to-creators-communities",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Communities adds active citizenship, local agency, maintainer boundaries, and direct-audience relationships as mechanisms for distributed action. It strengthens the stewardship rationale but still lacks a comparative transfer of formal decision power."
         }
       ],
       "resolution_target": null
@@ -270,6 +276,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection discusses media, distribution, and platform ecosystems but adds no observation that media is increasingly bundled as a feature of non-media products."
+        },
+        {
+          "collection": "power-to-creators-communities",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection frames content as an entry to community and documents direct creator relationships, but adds no case of media becoming a feature bundled into a non-media product."
         }
       ],
       "resolution_target": null
@@ -353,7 +365,7 @@
     {
       "id": "prp-8226f3fdcc0f",
       "statement": "Meaningful participant ownership may help protocols develop from transaction venues into durable communities.",
-      "status": "qualified",
+      "status": "contested",
       "origin_collection": "after-the-internet-networks",
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
@@ -361,7 +373,9 @@
         "[[protocols-and-creator-daos-evi-61d7a22c66ed#Claim 2]]",
         "[[the-dao-of-daos-evi-18de9dec7dd6#Claim 2]]",
         "[[exit-to-community-evi-bffdd32df955#Claim 1]]",
-        "[[exit-to-community-evi-bffdd32df955#Claim 2]]"
+        "[[exit-to-community-evi-bffdd32df955#Claim 2]]",
+        "[[proof-of-passion-evi-cbc22d240187#Claim 1]]",
+        "[[proof-of-passion-evi-cbc22d240187#Claim 2]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -386,6 +400,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The Organization collection addresses firm boundaries, networks, and participant coordination but adds no ownership mechanism or longitudinal community durability outcome."
+        },
+        {
+          "collection": "power-to-creators-communities",
+          "date": "2026-07-14",
+          "outcome": "contested",
+          "note": "Proof of Passion supplies both an ownership-adjacent upside thesis and an explicit backlash against financializing creativity. Ownership may support agency, but tradability can privilege speculation over contribution; no longitudinal community outcome resolves the tension."
         }
       ],
       "resolution_target": null
@@ -767,6 +787,58 @@
       "resolution_target": null
     },
     {
+      "id": "prp-e06719dfc681",
+      "statement": "In creator systems, maintainer attention and boundary work may become the depleted commons even when digital output is infinitely reproducible.",
+      "status": "open",
+      "origin_collection": "power-to-creators-communities",
+      "surfaced_in": "wiki/hubs/creator-communities",
+      "evidence": [
+        "[[making-is-show-business-now-evi-1979023975fd#Claim 1]]",
+        "[[my-boundaries-as-an-open-source-developer-evi-07ff0d7ceb6e#Claim 1]]",
+        "[[my-boundaries-as-an-open-source-developer-evi-07ff0d7ceb6e#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-communities",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Two open-source sources identify maintainer attention, interaction, and boundary enforcement as scarce work around non-rival code. The collection lacks comparative workload and sustainability outcomes."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-d6bdf0dff46f",
+      "statement": "Direct audience relationships may support a creative middle class outside algorithmically controlled feeds.",
+      "status": "open",
+      "origin_collection": "power-to-creators-communities",
+      "surfaced_in": "wiki/hubs/creator-communities",
+      "evidence": [
+        "[[the-rise-of-the-internets-creative-middle-class-evi-16aa7c678b57#Claim 1]]",
+        "[[the-rise-of-the-internets-creative-middle-class-evi-16aa7c678b57#Claim 2]]",
+        "[[coming-for-the-content-staying-for-the-community-evi-8fe31fd07d9a#Claim 1]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-niches",
+        "power-to-creators-vibe",
+        "power-to-creators-gameplay"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-communities",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Selected creator cases demonstrate viable direct-audience careers and community retention logic, but survivorship selection prevents a distributional or temporal conclusion."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
       "id": "prp-0c268d6efa3f",
       "statement": "Machine-scale coordination may move some economic activity from firms toward networks.",
       "status": "open",
@@ -788,6 +860,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Transaction-cost theory supplies the mechanism and one author forecasts machine-scale coordination infrastructure, but the collection contains no observed shift of activities or governance from firms to machine-coordinated networks."
+        },
+        {
+          "collection": "power-to-creators-communities",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Liquid Super Teams and blurred project boundaries forecast human network coordination, but the collection adds no machine-scale mechanism or observed movement of economic activity out of firms."
         }
       ],
       "resolution_target": null

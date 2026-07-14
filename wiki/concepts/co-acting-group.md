@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: operationalized_by
     target: "[[collaboration-architecture-choice]]"
+  - type: qualified_by
+    target: "[[liquid-super-team]]"
 description: "A loose confederation whose members enter and leave collaboration as work unfolds, used where a stable and highly interdependent true team is unnecessary."
 evidence:
   - "[[do-we-still-need-teams-evi-6f0561576c1e#Claim 1]]"
@@ -43,3 +45,4 @@ Constance Noonan Hadley and Mark Mortensen propose co-acting groups as an altern
 ## Relationships
 
 - Operationalized by [[collaboration-architecture-choice|Collaboration architecture choice]].
+- Qualified by [[liquid-super-team|the Liquid Super Team proposal]], which adds autonomy and creator-network claims to the looser coordination form.
