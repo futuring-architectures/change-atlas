@@ -12,7 +12,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 🧰 Nature of the Firm / ⚡️ Organization | 33 | 33 | 66 | Committed | Autonomous | [[system/reviews/nature-of-the-firm-organization|Open report]] | `95e6f4c` |
 | 🧰 Nature of the Firm / 👯 Culture | 30 | 30 | 60 | Committed | Autonomous | [[system/reviews/nature-of-the-firm-culture|Open report]] | `a7a8ffd` |
 | 🧰 Nature of the Firm / 👩‍⚖️ Governance | 13 | 13 | 31 | Committed | Completed | [[system/reviews/nature-of-the-firm-governance|Open report]] | `daa1adb` |
-| 🧑‍🎨 Power to Creators / 🤝 Communities | 15 | 15 | 30 | Synthesis Ready | Autonomous | [[system/reviews/power-to-creators-communities|Open report]] | — |
+| 🧑‍🎨 Power to Creators / 🤝 Communities | 15 | 15 | 30 | Committed | Autonomous | [[system/reviews/power-to-creators-communities|Open report]] | `bdc28e0` |
 | 🧑‍🎨 Power to Creators / ⚡️ Niches | 13 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧑‍🎨 Power to Creators / 😍 Vibe | 44 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧑‍🎨 Power to Creators / 🕹 Gameplay | 94 | 0 | 0 | Planned | Autonomous | — | — |
@@ -23,7 +23,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 
 ## Progress
 
-- Collection checkpoints committed: 8/16
+- Collection checkpoints committed: 9/16
 - Planned source entries: 686
 - Preferred processing chunk: up to 25 entries
 

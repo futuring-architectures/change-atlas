@@ -106,10 +106,10 @@
       "entries": 15,
       "entry_start": 333,
       "entry_end": 347,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "863dd6f",
-      "checkpoint": null
+      "checkpoint": "bdc28e0"
     },
     {
       "id": "power-to-creators-niches",
