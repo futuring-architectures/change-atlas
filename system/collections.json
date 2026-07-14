@@ -87,11 +87,11 @@
       "entries": 13,
       "entry_start": 320,
       "entry_end": 332,
-      "stage": "signed_off",
+      "stage": "committed",
       "signoff_mode": "completed",
       "baseline": "07b8701",
       "signed_off_at": "2026-07-14",
-      "checkpoint": null
+      "checkpoint": "daa1adb"
     },
     {
       "id": "power-to-creators-communities",

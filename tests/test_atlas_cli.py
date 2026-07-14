@@ -189,9 +189,10 @@ class CollectionWorkflowTests(unittest.TestCase):
             if record["id"] == "nature-of-the-firm-governance"
         )
         self.assertEqual(governance["signoff_mode"], "completed")
-        self.assertEqual(governance["stage"], "signed_off")
+        self.assertEqual(governance["stage"], "committed")
         self.assertEqual(governance["signed_off_at"], "2026-07-14")
         self.assertEqual(governance["baseline"], "07b8701")
+        self.assertEqual(governance["checkpoint"], "daa1adb")
 
     def test_dashboard_separates_pipeline_from_editorial_signoff(self):
         tracker = atlas_cli.load_collection_tracker(ROOT)

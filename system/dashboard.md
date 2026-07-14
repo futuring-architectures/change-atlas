@@ -11,7 +11,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 🧰 Nature of the Firm / 🌍 Ecosystems | 16 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧰 Nature of the Firm / ⚡️ Organization | 33 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧰 Nature of the Firm / 👯 Culture | 30 | 0 | 0 | Planned | Autonomous | — | — |
-| 🧰 Nature of the Firm / 👩‍⚖️ Governance | 13 | 13 | 31 | Signed Off | Completed | [[system/reviews/nature-of-the-firm-governance|Open report]] | — |
+| 🧰 Nature of the Firm / 👩‍⚖️ Governance | 13 | 13 | 31 | Committed | Completed | [[system/reviews/nature-of-the-firm-governance|Open report]] | `daa1adb` |
 | 🧑‍🎨 Power to Creators / 🤝 Communities | 15 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧑‍🎨 Power to Creators / ⚡️ Niches | 13 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧑‍🎨 Power to Creators / 😍 Vibe | 44 | 0 | 0 | Planned | Autonomous | — | — |
@@ -23,7 +23,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 
 ## Progress
 
-- Collection checkpoints committed: 1/16
+- Collection checkpoints committed: 2/16
 - Planned source entries: 686
 - Preferred processing chunk: up to 25 entries
 
