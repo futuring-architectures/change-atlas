@@ -9,7 +9,7 @@ editorial_signoff: autonomous
 
 ## Editorial decision
 
-This collection is eligible for an autonomous checkpoint after validation. Material exceptions remain listed for audit.
+This collection was checkpointed autonomously after validation. Material exceptions remain listed for audit.
 
 ## Pipeline state
 
