@@ -154,10 +154,10 @@
       "entries": 76,
       "entry_start": 499,
       "entry_end": 574,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "211673d",
-      "checkpoint": null
+      "checkpoint": "05488f6"
     },
     {
       "id": "how-we-learn-architectures",

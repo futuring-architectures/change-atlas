@@ -16,14 +16,14 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 🧑‍🎨 Power to Creators / ⚡️ Niches | 13 | 13 | 26 | Committed | Autonomous | [[system/reviews/power-to-creators-niches|Open report]] | `a7fe25a` |
 | 🧑‍🎨 Power to Creators / 😍 Vibe | 44 | 44 | 88 | Committed | Autonomous | [[system/reviews/power-to-creators-vibe|Open report]] | `2682978` |
 | 🧑‍🎨 Power to Creators / 🕹 Gameplay | 94 | 94 | 188 | Committed | Autonomous | [[system/reviews/power-to-creators-gameplay|Open report]] | `e7432c7` |
-| 👩🏻‍🎓 How We Learn / 🔮 Futuring | 76 | 76 | 152 | Synthesis Ready | Autonomous | [[system/reviews/how-we-learn-futuring|Open report]] | — |
+| 👩🏻‍🎓 How We Learn / 🔮 Futuring | 76 | 76 | 152 | Committed | Autonomous | [[system/reviews/how-we-learn-futuring|Open report]] | `05488f6` |
 | 👩🏻‍🎓 How We Learn / 🏛 Architectures | 50 | 0 | 0 | Planned | Autonomous | — | — |
 | 👩🏻‍🎓 How We Learn / ☯️ Sustaining | 36 | 0 | 0 | Planned | Autonomous | — | — |
 | 👩🏻‍🎓 How We Learn / 💥 Transitions | 26 | 0 | 0 | Planned | Autonomous | — | — |
 
 ## Progress
 
-- Collection checkpoints committed: 12/16
+- Collection checkpoints committed: 13/16
 - Planned source entries: 686
 - Preferred processing chunk: up to 25 entries
 
