@@ -118,10 +118,10 @@
       "entries": 13,
       "entry_start": 348,
       "entry_end": 360,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "408730d",
-      "checkpoint": null
+      "checkpoint": "a7fe25a"
     },
     {
       "id": "power-to-creators-vibe",

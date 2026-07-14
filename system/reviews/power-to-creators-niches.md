@@ -9,7 +9,7 @@ editorial_signoff: autonomous
 
 ## Editorial decision
 
-This collection is eligible for an autonomous checkpoint after validation. Material exceptions remain listed for audit.
+This collection was checkpointed autonomously after validation. Material exceptions remain listed for audit.
 
 ## Pipeline state
 
@@ -56,5 +56,7 @@ This collection is eligible for an autonomous checkpoint after validation. Mater
 
 ## Sign-off
 
-- Decision: pending
-- Notes: —
+- Decision: autonomous checkpoint
+- Date: 2026-07-14
+- Checkpoint: `a7fe25a`
+- Notes: Completed under the Governance-calibrated autonomous workflow; no editor sign-off was requested.
