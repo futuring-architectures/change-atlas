@@ -16,6 +16,8 @@ relationships:
     target: "[[software-work-is-shifting-from-code-production-to-orchestration-and-assurance]]"
   - type: raised_by
     target: "[[ai-native-organizational-trust-stack]]"
+  - type: raised_by
+    target: "[[cognitive-debt]]"
 description: "What evidence, controls, and accountability can establish trust when generated production code grows faster than humans can inspect it?"
 origin: another_page
 ---
@@ -53,5 +55,7 @@ The candidate software-work Trend moves people from writing and reading implemen
 _Open. The collection identifies the impending bottleneck but does not establish a replacement assurance architecture._
 
 ## Relationships
+
+- Also raised by [[cognitive-debt|Cognitive debt]], which separates code correctness from recoverable system understanding.
 
 - Raised by [[software-work-is-shifting-from-code-production-to-orchestration-and-assurance|the candidate shift toward orchestration and assurance]] and the [[ai-native-organizational-trust-stack|AI-native organizational trust stack]].

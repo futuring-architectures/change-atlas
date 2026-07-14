@@ -16,6 +16,8 @@ relationships:
     target: "[[does-cheap-intelligence-reduce-the-need-for-human-collaboration]]"
   - type: exemplified_by
     target: "[[youtube-bullpen-absorbed-cross-cutting-coordination]]"
+  - type: exemplified_by
+    target: "[[meeting-cancellation-required-an-async-replacement-system]]"
   - type: raises_question
     target: "[[how-can-private-exploration-coexist-with-collective-accountability]]"
 description: "A decision sequence for choosing focused individual work, asynchronous coordination, co-acting groups, or stable teams based on interdependence and social needs."
@@ -86,3 +88,4 @@ Name who integrates outputs, resolves conflict, verifies AI assistance, and can 
 - Operationalizes [[co-acting-group|the Co-acting group Concept]].
 - Qualified by [[does-cheap-intelligence-reduce-the-need-for-human-collaboration|the cheap-intelligence collaboration Debate]].
 - Illustrated by [[youtube-bullpen-absorbed-cross-cutting-coordination|the YouTube bullpen case]] and raises [[how-can-private-exploration-coexist-with-collective-accountability|the private-exploration Question]].
+- Also exemplified by [[meeting-cancellation-required-an-async-replacement-system|the async replacement-system case]].

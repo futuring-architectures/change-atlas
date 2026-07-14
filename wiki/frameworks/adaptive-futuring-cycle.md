@@ -13,6 +13,8 @@ relationships:
     target: "[[present-blindness]]"
   - type: raises_question
     target: "[[when-does-uncertainty-justify-limiting-scale]]"
+  - type: exemplified_by
+    target: "[[spreadsheet-users-built-phantom-businesses]]"
 description: "A seven-step cycle for evidence-based foresight under uncertainty: curate, perceive, historicize, pluralize, rehearse, probe, and revise."
 evidence:
   - "[[signal-curation-evi-7667873ac1d4#Claim 2]]"
@@ -53,4 +55,4 @@ Each cycle should produce a decision record: signals used, assumptions challenge
 
 - Operationalizes [[action-without-prediction|Action without prediction]] and [[present-blindness|Present blindness]].
 - Raises [[when-does-uncertainty-justify-limiting-scale|the Question of when uncertainty should limit scale]].
-
+- Exemplified by [[spreadsheet-users-built-phantom-businesses|spreadsheet users experimenting with phantom businesses]].

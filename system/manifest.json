@@ -2,6 +2,49 @@
   "files": {
     "raw/thoughtforming-on-digital-transformation-2026-07-10.md": {
       "collections": {
+        "👩🏻‍🎓 How We Learn → ☯️ Sustaining": {
+          "completed_at": "2026-07-14",
+          "entry_end": 660,
+          "entry_start": 625,
+          "evidence_ids": [
+            "evi-04ae89aa50de",
+            "evi-6a3a0212c5f6",
+            "evi-2a5a50d7380a",
+            "evi-0d32e8977be4",
+            "evi-8c1e83dbae3c",
+            "evi-0b429c600c34",
+            "evi-c3f92fec7f9c",
+            "evi-0ddd67f653bf",
+            "evi-f3ce54d6af11",
+            "evi-f1265c7943b2",
+            "evi-32f9082fb084",
+            "evi-3b977df295bc",
+            "evi-4fdf14b42581",
+            "evi-f5b0086d68a1",
+            "evi-29faa5f0035a",
+            "evi-d12610c8a43d",
+            "evi-91b290e526f2",
+            "evi-e8407fc75eab",
+            "evi-c87ff36c1ba2",
+            "evi-f5f5f2dda8ef",
+            "evi-3eee9f41f811",
+            "evi-6e07e50b7b3d",
+            "evi-bbdabefe6b88",
+            "evi-2386955a7a78",
+            "evi-fb21446ac16b",
+            "evi-a64d38620f38",
+            "evi-76a66b9e9b26",
+            "evi-f40ed1ad22fb",
+            "evi-9f6031694869",
+            "evi-badd8c1eeb02",
+            "evi-d47db0c3b936",
+            "evi-d5748fe4b872",
+            "evi-0980798a6ad7",
+            "evi-dd8c1003d807",
+            "evi-00cb1d5630ae",
+            "evi-f79608079d95"
+          ]
+        },
         "👩🏻‍🎓 How We Learn → 🏛 Architectures": {
           "completed_at": "2026-07-14",
           "entry_end": 624,
@@ -648,7 +691,7 @@
           ]
         }
       },
-      "completed_entries": 554,
+      "completed_entries": 590,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -2706,21 +2749,165 @@
           "file": "evidence/sources/activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c.md",
           "id": "evi-dadce4b3f82c"
         },
+        "625": {
+          "file": "evidence/sources/surfing-the-s-curve-evi-04ae89aa50de.md",
+          "id": "evi-04ae89aa50de"
+        },
+        "626": {
+          "file": "evidence/sources/the-silicon-and-industrial-revolutions-evi-6a3a0212c5f6.md",
+          "id": "evi-6a3a0212c5f6"
+        },
+        "627": {
+          "file": "evidence/sources/the-case-for-opsimaths-evi-2a5a50d7380a.md",
+          "id": "evi-2a5a50d7380a"
+        },
+        "628": {
+          "file": "evidence/sources/we-need-a-career-path-for-invention-evi-0d32e8977be4.md",
+          "id": "evi-0d32e8977be4"
+        },
+        "629": {
+          "file": "evidence/sources/the-innovation-farm-evi-8c1e83dbae3c.md",
+          "id": "evi-8c1e83dbae3c"
+        },
         "63": {
           "file": "evidence/sources/disruption-is-a-two-way-street-evi-c385a5902a20.md",
           "id": "evi-c385a5902a20"
+        },
+        "630": {
+          "file": "evidence/sources/its-time-to-consign-the-selfish-gene-to-the-history-books-evi-0b429c600c34.md",
+          "id": "evi-0b429c600c34"
+        },
+        "631": {
+          "file": "evidence/sources/a-spreadsheet-way-of-knowledge-evi-c3f92fec7f9c.md",
+          "id": "evi-c3f92fec7f9c"
+        },
+        "632": {
+          "file": "evidence/sources/weak-ties-and-strong-intros-evi-0ddd67f653bf.md",
+          "id": "evi-0ddd67f653bf"
+        },
+        "633": {
+          "file": "evidence/sources/schumpeterian-waste-evi-f3ce54d6af11.md",
+          "id": "evi-f3ce54d6af11"
+        },
+        "634": {
+          "file": "evidence/sources/a-new-look-for-innovation-less-heroes-fewer-processes-evi-f1265c7943b2.md",
+          "id": "evi-f1265c7943b2"
+        },
+        "635": {
+          "file": "evidence/sources/what-evolution-can-teach-us-about-innovation-evi-32f9082fb084.md",
+          "id": "evi-32f9082fb084"
+        },
+        "636": {
+          "file": "evidence/sources/not-normal-evi-3b977df295bc.md",
+          "id": "evi-3b977df295bc"
+        },
+        "637": {
+          "file": "evidence/sources/finding-heroes-in-a-messy-digital-world-evi-4fdf14b42581.md",
+          "id": "evi-4fdf14b42581"
+        },
+        "638": {
+          "file": "evidence/sources/you-can-t-just-cancel-76-500-hours-of-meetings-evi-f5b0086d68a1.md",
+          "id": "evi-f5b0086d68a1"
+        },
+        "639": {
+          "file": "evidence/sources/overhyped-and-never-delivered-a-brief-history-of-innovations-that-werent-evi-29faa5f0035a.md",
+          "id": "evi-29faa5f0035a"
         },
         "64": {
           "file": "evidence/sources/it-will-take-more-than-technological-innovation-to-realise-the-next-economic-transition-evi-5969cdae50ca.md",
           "id": "evi-5969cdae50ca"
         },
+        "640": {
+          "file": "evidence/sources/a-plea-for-solutionism-on-ai-safety-evi-d12610c8a43d.md",
+          "id": "evi-d12610c8a43d"
+        },
+        "641": {
+          "file": "evidence/sources/is-necessity-actually-the-mother-of-invention-evi-91b290e526f2.md",
+          "id": "evi-91b290e526f2"
+        },
+        "642": {
+          "file": "evidence/sources/open-source-ai-has-been-vital-for-alignment-evi-e8407fc75eab.md",
+          "id": "evi-e8407fc75eab"
+        },
+        "643": {
+          "file": "evidence/sources/type-2-growth-evi-c87ff36c1ba2.md",
+          "id": "evi-c87ff36c1ba2"
+        },
+        "644": {
+          "file": "evidence/sources/it-s-not-about-humanities-vs-stem-it-s-about-systematic-thinking-evi-f5f5f2dda8ef.md",
+          "id": "evi-f5f5f2dda8ef"
+        },
+        "645": {
+          "file": "evidence/sources/taking-risk-evi-3eee9f41f811.md",
+          "id": "evi-3eee9f41f811"
+        },
+        "646": {
+          "file": "evidence/sources/are-ai-expectations-too-high-or-misplaced-evi-6e07e50b7b3d.md",
+          "id": "evi-6e07e50b7b3d"
+        },
+        "647": {
+          "file": "evidence/sources/how-to-fix-ais-original-sin-evi-bbdabefe6b88.md",
+          "id": "evi-bbdabefe6b88"
+        },
+        "648": {
+          "file": "evidence/sources/unplugging-is-not-the-solution-you-want-evi-2386955a7a78.md",
+          "id": "evi-2386955a7a78"
+        },
+        "649": {
+          "file": "evidence/sources/remarks-on-ai-from-nz-evi-fb21446ac16b.md",
+          "id": "evi-fb21446ac16b"
+        },
         "65": {
           "file": "evidence/sources/revenge-of-the-chickenized-reverse-centaurs-evi-34fd83edde9a.md",
           "id": "evi-34fd83edde9a"
         },
+        "650": {
+          "file": "evidence/sources/from-truth-seeker-to-hate-amplifier-evi-a64d38620f38.md",
+          "id": "evi-a64d38620f38"
+        },
+        "651": {
+          "file": "evidence/sources/prompting-is-managing-evi-76a66b9e9b26.md",
+          "id": "evi-76a66b9e9b26"
+        },
+        "652": {
+          "file": "evidence/sources/how-the-universe-stores-information-evi-f40ed1ad22fb.md",
+          "id": "evi-f40ed1ad22fb"
+        },
+        "653": {
+          "file": "evidence/sources/a-treatise-on-ai-chatbots-undermining-the-enlightenment-evi-9f6031694869.md",
+          "id": "evi-9f6031694869"
+        },
+        "654": {
+          "file": "evidence/sources/its-time-to-work-different-evi-badd8c1eeb02.md",
+          "id": "evi-badd8c1eeb02"
+        },
+        "655": {
+          "file": "evidence/sources/cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936.md",
+          "id": "evi-d47db0c3b936"
+        },
+        "656": {
+          "file": "evidence/sources/the-humanai-trifecta-eroding-persistence-verification-and-participation-at-scale-evi-d5748fe4b872.md",
+          "id": "evi-d5748fe4b872"
+        },
+        "657": {
+          "file": "evidence/sources/gyms-for-them-mirrors-for-us-evi-0980798a6ad7.md",
+          "id": "evi-0980798a6ad7"
+        },
+        "658": {
+          "file": "evidence/sources/its-not-just-x-its-y-evi-dd8c1003d807.md",
+          "id": "evi-dd8c1003d807"
+        },
+        "659": {
+          "file": "evidence/sources/a-frontier-without-an-ecosystem-is-not-stable-evi-00cb1d5630ae.md",
+          "id": "evi-00cb1d5630ae"
+        },
         "66": {
           "file": "evidence/sources/the-great-overlap-evi-b883c35c4ebd.md",
           "id": "evi-b883c35c4ebd"
+        },
+        "660": {
+          "file": "evidence/sources/design-systems-are-no-longer-optional-evi-f79608079d95.md",
+          "id": "evi-f79608079d95"
         },
         "67": {
           "file": "evidence/sources/we-are-thinking-about-ar-vr-wrong-evi-44671d684b0f.md",

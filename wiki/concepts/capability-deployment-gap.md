@@ -15,6 +15,8 @@ relationships:
     target: "[[radiologist-work-grew-alongside-better-models]]"
   - type: supported_by
     target: "[[ai-adoption-failure-exposed-work-system-tensions]]"
+  - type: refined_by
+    target: "[[ingredient-technology]]"
 description: "The distance between what a model can demonstrate and what a sociotechnical system can deploy usefully, safely, legitimately, and at scale."
 evidence:
   - "[[lessons-from-historys-greatest-r-and-d-labs-evi-a9bfefd1c558#Claim 2]]"
@@ -48,3 +50,4 @@ Forecasts that move directly from benchmark capability to jobs, markets, or soci
 - Supported by [[gpt-2-class-training-cost-fell-over-one-hundredfold|falling capability cost]] and [[ai-applications-lagged-model-capabilities|lagging applications]].
 - Exemplified by [[radiologist-work-grew-alongside-better-models|radiology deployment]].
 - Supported by [[ai-adoption-failure-exposed-work-system-tensions|AI adoption failure exposed work-system tensions]].
+- Refined by [[ingredient-technology|Ingredient technology]], which locates domain and scenario architecture around the model capability.

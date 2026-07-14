@@ -14,6 +14,8 @@ relationships:
     target: "[[does-cheap-intelligence-reduce-the-need-for-human-collaboration]]"
   - type: raised_by
     target: "[[does-ai-expand-expertise-or-hollow-it-out]]"
+  - type: refined_by
+    target: "[[how-can-ai-assistance-preserve-persistence-verification-and-participation]]"
 description: "If workers increasingly ask machines instead of colleagues, which practices preserve tacit learning, recognition, judgment, and belonging?"
 origin: synthesis
 ---
@@ -52,6 +54,8 @@ AI can make expert help and production cheaper while removing interactions throu
 _Open. The collection supplies plausible mechanisms but no evaluated organizational design._
 
 ## Relationships
+
+- Refined by [[how-can-ai-assistance-preserve-persistence-verification-and-participation|the persistence, verification, and participation Question]].
 
 - Raised by [[does-cheap-intelligence-reduce-the-need-for-human-collaboration|the cheap-intelligence collaboration Debate]].
 - Raised by [[does-ai-expand-expertise-or-hollow-it-out|the expertise augmentation-versus-hollowing Debate]].

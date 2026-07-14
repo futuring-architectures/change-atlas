@@ -178,8 +178,9 @@
       "entries": 36,
       "entry_start": 625,
       "entry_end": 660,
-      "stage": "planned",
+      "stage": "synthesis_ready",
       "signoff_mode": "autonomous",
+      "baseline": "9f0a2c6",
       "checkpoint": null
     },
     {

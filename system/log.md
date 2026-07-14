@@ -189,3 +189,15 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Added the Capability-to-architecture loop to connect purpose, changing capability, work-system diagnosis, workflow and authority redesign, agent and human interfaces, assurance, and repeated reallocation.
 - Strengthened but did not promote the candidate software-work Trend: the collection adds newer practice accounts and counterpressure from architecture and verification, not representative industry measurement.
 - Assessed 22 inherited synthesis-backlog propositions and opened three stable propositions on capability-centered redesign, architecture and assurance under abundant generation, and agent-compatible infrastructure with human recourse.
+
+## [2026-07-14] evidence | Review and activate Sustaining collection
+
+- Recovered source metadata for 36 Evidence records in `👩🏻‍🎓 How We Learn → ☯️ Sustaining`, preserving seven unresolved and one inferred publication dates rather than inventing chronology.
+- Extracted and classified 72 atomic claims and registered entries 625–660; anthology progress reached 590 of 686 entries.
+
+## [2026-07-14] synthesis | Create Sustaining Wiki map
+
+- Synthesized one Hub, four Signals, six Concepts, one Framework, two Debates, and two Questions; updated eight existing pages with Sustaining Evidence and reciprocal typed links.
+- Added the Sustaining capacity loop to connect variation, selection, diffusion, context ownership, human-capacity renewal, reinvestment, and movement to the next S-curve.
+- Promoted no Trend because the strongest claims about renewal, capacity erosion, betterment, and ecosystem competition remain mechanisms, interpretations, or forecasts rather than comparable repeated outcomes.
+- Assessed 20 inherited synthesis-backlog propositions and opened three stable propositions on renewal capacity, delayed human-capacity loss, and owned testable context at machine speed.

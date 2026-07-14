@@ -198,6 +198,13 @@
           "outcome": "strengthened",
           "note": "Design for emergence, difficult simplicity, narrative world-building, and human-centered interface constraints strengthen the operational account of imaginative stewardship. Comparative stewardship outcomes remain absent."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Scenario experimentation, systematic thinking, deliberate horizon expansion, and critical rather than deferential AI strengthen imagination and meaning-making as design capacities. Evaluated stewardship outcomes remain absent."
+        }
       ],
       "resolution_target": null
     },
@@ -547,6 +554,13 @@
           "outcome": "qualified",
           "note": "Personal-agent, text-for-agents, and agent-experience forecasts strengthen the inference-first direction, while the oversight and database-reality evidence shows why machine friction can fall as visible human agency and recourse weaken."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "The all-purpose deferential chatbot, self-corrupting observability agent, and language-policing risk show how low-friction inference can weaken challenge, legibility, and user control."
+        }
       ],
       "resolution_target": null
     },
@@ -730,6 +744,13 @@
           "outcome": "no_change",
           "note": "The programmer-apprenticeship warning concerns future tacit learning, but the collection adds no legacy-system transition case, retention method, or outcome evidence for incumbent expertise."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Continuous semiconductor improvement by unnamed engineers, context preservation, and owned design systems strengthen legacy expertise as transition infrastructure rather than obsolete residue."
+        }
       ],
       "resolution_target": null
     },
@@ -823,6 +844,13 @@
           "outcome": "no_change",
           "note": "The collection supplies organizational and software design advice but no evidence that distributed startup playbooks became shared ecosystem infrastructure."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Startup ecosystem flywheels and missing invention career infrastructure support operational-knowledge transfer as an ecosystem mechanism, but no distributed playbook or cross-context portability is observed."
+        }
       ],
       "resolution_target": null
     },
@@ -876,6 +904,13 @@
           "outcome": "strengthened",
           "note": "Software oversight, programmable-organization roles, capability allocation, AI auditors, and ideation bottlenecks all move human work toward orchestration, judgment, evaluation, and exceptions. Most claims remain forecasts rather than role-level outcome studies."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Prompting as management, human-token complementarity, and design-system ownership further shift roles toward oversight, judgment, context, and exception handling. Role-level outcomes remain predictive."
+        }
       ],
       "resolution_target": null
     },
@@ -917,6 +952,13 @@
           "outcome": "qualified",
           "note": "Extended-mind theory and learning-style evidence show that AI-mediated performance can either extend cognition or remove needed structure. The collection sharpens boundary conditions but does not observe apprenticeship or meaning loss longitudinally."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Capacity erosion through assistance, missing practice infrastructure, and critical-chatbot design strengthen the apprenticeship and meaning-loss mechanism. Longitudinal workplace evidence remains absent."
+        }
       ],
       "resolution_target": null
     },
@@ -956,6 +998,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Strategy, difficult simplicity, cheap iteration, ideation scarcity, architectural coherence, and institutional AI constraint roles converge on judgment and commitment as post-generation bottlenecks. Comparative organizational outcomes remain missing."
+        }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Systematic thinking, human judgment, verification, beneficial-technology choices, and context ownership reinforce judgment and commitment as bottlenecks after generation becomes cheap."
         }
       ],
       "resolution_target": null
@@ -998,6 +1047,13 @@
           "outcome": "strengthened",
           "note": "The programmable-organization forecast, agent experience, and requirements-through-iteration account strengthen natural language as a prospective control surface, while ambiguity and assurance remain unresolved."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "The lowest-common-denominator system prompt shows that natural language can control broad behavior while failing across heterogeneous contexts; control surfaces require task-specific challenge and governance."
+        }
       ],
       "resolution_target": null
     },
@@ -1037,6 +1093,13 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection addresses attention, coordination, and architecture but adds no creator-maintainer case or measure of depleted boundary work."
+        }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Design-system ownership and innovation infrastructure concern maintenance, but the collection adds no creator-community observation of depleted maintainer attention or boundary work."
         }
       ],
       "resolution_target": null
@@ -1167,6 +1230,13 @@
           "outcome": "qualified",
           "note": "Outcome accountability, distinctive judgment, difficult simplicity, and institutional challenger roles strengthen the value mechanism, but the collection does not measure status allocation or demonstrate a premium for human responsibility."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Invention prestige, human-token complementarity, critical judgment, and beneficial-technology responsibility strengthen the value mechanism, but no status premium is observed."
+        }
       ],
       "resolution_target": null
     },
@@ -1206,6 +1276,13 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The minimal sensor case and meeting-subtraction rules strengthen the claim that deliberate constraint can require judgment. They do not compare slow-interface outcomes under abundance."
+        }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Acclimation and critical-chatbot arguments concern cognitive posture, not evaluated slow or subtractive interface design under abundance."
         }
       ],
       "resolution_target": null
@@ -1279,6 +1356,13 @@
           "outcome": "strengthened",
           "note": "Disposable software, proliferating software supply, agent-mediated interfaces, and lower switching cost strengthen the gap between creation and durable ownership, integration, maintenance, and recourse."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Cognitive debt and machine-speed propagation from unowned design systems strengthen the gap between cheap creation and durable ownership, maintenance, context, and recourse."
+        }
       ],
       "resolution_target": null
     },
@@ -1310,6 +1394,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Red teaming inside product construction, generated variants, high commit volume, stochastic behavior, and human oversight requirements all strengthen verification as a limiting organizational capacity."
+        }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Persistence and verification erosion, read-only observability constraints, cognitive debt, and design-system propagation all strengthen verification capacity as an organizational rate limit."
         }
       ],
       "resolution_target": null
@@ -1345,6 +1436,13 @@
           "outcome": "no_change",
           "note": "The collection discusses learner scaffolding and changing expert roles but supplies no case in which removal of entry-level production reduces the later supply of expert judgment."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Missing invention entry paths, late-bloomer evaluation failure, and capacity erosion strengthen the expertise-pipeline mechanism, but no AI-driven removal of entry-level production is observed."
+        }
       ],
       "resolution_target": null
     },
@@ -1377,6 +1475,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Requirements-through-iteration and design for emergence add concrete reversible adaptation mechanisms. The collection still lacks a comparison showing that organizations using them adapt better."
+        }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Spreadsheet what-if exploration, deliberate innovation variation, and S-curve renewal add concrete rehearsal and adaptation mechanisms without comparative organizational outcomes."
         }
       ],
       "resolution_target": null
@@ -1411,6 +1516,13 @@
           "outcome": "strengthened",
           "note": "Agent experience, capability allocation, the two institutional clocks, and work-system adoption tensions relocate governance into interfaces, workflows, assurance, and institutional architecture. Regime-level comparison remains absent."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Ingredient technology, hands-on alignment access, beneficial-system evaluation, and human-capacity effects further relocate governance into deployment architecture and institutions."
+        }
       ],
       "resolution_target": null
     },
@@ -1443,6 +1555,13 @@
           "outcome": "qualified",
           "note": "Private exploration and the forecast that personal agents will dominate show benefits of individual surfaces, while collective coordination evidence supports shared spaces for some dependencies. No comparative AI sensemaking outcome resolves the boundary."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection critiques one-size-fits-all chatbot behavior but adds no shared AI surface, comparative sensemaking practice, or collective-reality outcome."
+        }
       ],
       "resolution_target": null
     },
@@ -1467,6 +1586,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Capability-centered redesign and activity-system diagnosis supply a coherent mechanism, but no comparative performance outcome."
+        }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Async replacement systems, people-centered resilience, and the sustaining-capacity loop strengthen workflow and institution redesign around capability. Comparative performance remains absent."
         }
       ],
       "resolution_target": null
@@ -1494,6 +1620,13 @@
           "outcome": "opened",
           "note": "Architecture, assurance, and institutional-clock mechanisms converge, but the collection does not measure their relative value as generation accelerates."
         }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Cognitive debt, verification erosion, and machine-speed propagation from inaccurate design systems strengthen architecture, assurance, and institutional absorption as post-generation constraints."
+        }
       ],
       "resolution_target": null
     },
@@ -1518,6 +1651,85 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection establishes opposing interface requirements for agent operability and human control, but supplies no comparative deployed interface outcome."
+        }
+      ,
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Read-only observability, deferential chatbot defaults, language-policing risk, and human-capacity erosion strengthen the need for inspection, challenge, provenance, and recourse in agent-compatible systems."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-47dacc22a69f",
+      "statement": "Organizations that measure renewal capacity alongside present throughput may preserve capability through technological transitions better than organizations optimized only for current output.",
+      "status": "open",
+      "origin_collection": "how-we-learn-sustaining",
+      "surfaced_in": "wiki/hubs/sustaining",
+      "evidence": [
+        "[[surfing-the-s-curve-evi-04ae89aa50de#Claim 1]]",
+        "[[we-need-a-career-path-for-invention-evi-0d32e8977be4#Claim 2]]",
+        "[[the-silicon-and-industrial-revolutions-evi-6a3a0212c5f6#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "S-curve renewal, career infrastructure, and continuous operational improvement converge on a renewal mechanism, but no throughput-versus-renewal comparison is observed."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-661114a04536",
+      "statement": "AI assistance that removes practice without preserving challenge, verification, and participation may create delayed capacity loss invisible in short-term productivity metrics.",
+      "status": "open",
+      "origin_collection": "how-we-learn-sustaining",
+      "surfaced_in": "wiki/hubs/sustaining",
+      "evidence": [
+        "[[the-humanai-trifecta-eroding-persistence-verification-and-participation-at-scale-evi-d5748fe4b872#Claim 1]]",
+        "[[prompting-is-managing-evi-76a66b9e9b26#Claim 2]]",
+        "[[a-treatise-on-ai-chatbots-undermining-the-enlightenment-evi-9f6031694869#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies capacity-loss mechanisms and a managerial-attention counter-reading but no longitudinal productivity-and-capacity outcome."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-ff4a9b2f562b",
+      "statement": "Machine-speed production may make owned and testable context a more important organizational asset than documentation volume.",
+      "status": "open",
+      "origin_collection": "how-we-learn-sustaining",
+      "surfaced_in": "wiki/hubs/sustaining",
+      "evidence": [
+        "[[cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936#Claim 2]]",
+        "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 1]]",
+        "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-sustaining",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Context-carrying tools and design-system ownership supply the mechanism; no comparison establishes asset value or the failure threshold for documentation volume."
         }
       ],
       "resolution_target": null

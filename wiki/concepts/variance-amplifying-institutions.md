@@ -14,6 +14,8 @@ relationships:
     target: "[[network-topology-shapes-cultural-outcomes]]"
   - type: operationalized_by
     target: "[[cultural-selection-stack]]"
+  - type: refined_by
+    target: "[[innovation-ecology]]"
 description: "Institutions that create positive feedback and select for extremity, surprise, virality, and uncapped outcomes rather than norm adherence and predictable ranges."
 evidence:
   - "[[why-has-the-world-become-so-weird-evi-1454d0d48d92#Claim 1]]"
@@ -54,6 +56,8 @@ The term comes from Matt Clifford's account of the internet as a variance-amplif
 - [[welcoming-our-new-meme-lords-evi-4cfddabe2862#Claim 2|claim 2]] identifies a Ponzi-like feedback risk without equating every meme market with fraud.
 
 ## Relationships
+
+- Refined by [[innovation-ecology|Innovation ecology]], which adds selection, diffusion, maintenance, and renewal to variation generation.
 
 - The Concept refines [[network-topology-shapes-cultural-outcomes|network topology shapes cultural outcomes]] by naming one institutional selection regime.
 - [[cultural-selection-stack|The cultural selection stack]] operationalizes it by locating where variance is admitted, amplified, retained, and rewarded.

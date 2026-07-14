@@ -11,6 +11,8 @@ relationships:
     target: "[[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning]]"
   - type: refined_by
     target: "[[extended-mind]]"
+  - type: refined_by
+    target: "[[capacity-erosion-through-assistance]]"
 description: "The same abstraction that expands individual reach can remove the practice, feedback, and responsibility through which expertise develops."
 evidence:
   - "[[everyone-is-above-average-evi-81d2db9acff6#Claim 1]]"
@@ -18,6 +20,8 @@ evidence:
   - "[[will-llms-do-breakthrough-scientific-research-evi-8dff7fe00fb7#Claim 1]]"
   - "[[when-we-become-cogs-evi-c1da269b7217#Claim 1]]"
   - "[[brain-drain-evi-21d6d2449459#Claim 1]]"
+  - "[[the-humanai-trifecta-eroding-persistence-verification-and-participation-at-scale-evi-d5748fe4b872#Claim 1]]"
+  - "[[prompting-is-managing-evi-76a66b9e9b26#Claim 2]]"
 ---
 
 # Does AI expand expertise or hollow it out?
@@ -49,3 +53,4 @@ The contradiction is conditional rather than rhetorical. Prior competence, task 
 
 - Raises [[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning|the Question of preserving apprenticeship and shared meaning]].
 - Reframed by [[extended-mind|Extended mind]], which evaluates the human-tool system while preserving the distinction between performance and learned competence.
+- Refined by [[capacity-erosion-through-assistance|Capacity erosion through assistance]], with [[prompting-is-managing-evi-76a66b9e9b26#Claim 2|Prompting is Managing — claim 2]] supplying the managerial-attention counter-reading.

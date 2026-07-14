@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: qualifies
     target: "[[automation-posture-matrix]]"
+  - type: refined_by
+    target: "[[should-ai-creators-be-paid-for-inputs-or-outputs]]"
 description: "Automation can expand productive capability while distributing ownership, income, agency, deskilling, and hidden labor very unevenly."
 evidence:
   - "[[science-fiction-is-a-luddite-literature-evi-6af64e37687a#Claim 1]]"
@@ -78,3 +80,4 @@ Automation posture, realized productivity, and distribution are three separate q
 ## Relationships
 
 - The Debate qualifies [[automation-posture-matrix|the Automation posture matrix]]: choosing how a system acts does not settle who captures its gains.
+- Refined by [[should-ai-creators-be-paid-for-inputs-or-outputs|Should AI creators be paid for inputs or outputs?]].
