@@ -163,6 +163,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The designer blind-spots source adds a concrete design-practice rationale: designers can expose inherited frames and unserved demographics. It strengthens the imagination claim but still lacks participatory authorship and evaluated stewardship outcomes."
+        },
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Vibe adds art as technological foresight, problem formulation, curiosity, taste, and responsibility as non-instrumental design capabilities. It strengthens the rationale but still lacks evaluated participatory practice."
         }
       ],
       "resolution_target": null
@@ -206,6 +212,12 @@
         {
           "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "contested",
           "note": "Niches adds a 2021 case of subscription infrastructure supporting small media and a direct-audience mechanism. This contests a simple replacement story: inferred allocation and explicit subscription can grow simultaneously."
+        },
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Vibe adds platform extraction and thriving niche-space arguments but no dated evidence that inferred distribution is replacing explicit subscription."
         }
       ],
       "resolution_target": null
@@ -252,6 +264,12 @@
         {
           "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "qualified",
           "note": "High-resolution taste and zero-to-one creator infrastructure provide counter-mechanisms through which abundance could support new niche leaders. The collection still lacks comparative attention distributions for incumbents and entrants."
+        },
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Mass nonprofessional image generation strengthens abundance, while status legitimacy, taste, and low-prestige AI aesthetics show competing selection mechanisms. No attention distribution resolves who benefits."
         }
       ],
       "resolution_target": null
@@ -568,6 +586,12 @@
         {
           "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "qualified",
           "note": "The niches corpus proposes plural taste allocation and reflexive demand formation, qualifying the idea of a single legibility regime. It adds no measured truth, depth, or durability outcomes."
+        },
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "SEO degradation, distraction markets, disposable feed incentives, and plausible AI output strengthen selection-for-legibility mechanisms without measuring truth, depth, or durability."
         }
       ],
       "resolution_target": null
@@ -854,6 +878,12 @@
         {
           "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "strengthened",
           "note": "Subscription publishing, creator infrastructure, and practical-runway mechanisms strengthen the direct-audience livelihood thesis. Evidence remains selected and forecast-heavy, without cohort income or survival data."
+        },
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Vibe identifies niche communities and creator legitimacy problems but adds no cohort evidence about direct-audience income or survival."
         }
       ],
       "resolution_target": null
@@ -866,7 +896,10 @@
       "surfaced_in": "wiki/hubs/creator-niches",
       "evidence": ["[[from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4#Claim 1]]", "[[the-economics-of-creativity-who-gets-paid-and-why-evi-faded797b9a5#Claim 1]]"],
       "relevant_collections": ["power-to-creators-vibe", "power-to-creators-gameplay"],
-      "assessments": [{"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "The collection supplies both the plural-taste mechanism and the persistence of steep creative power laws, but no observed distribution across niches."}],
+      "assessments": [
+        {"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "The collection supplies both the plural-taste mechanism and the persistence of steep creative power laws, but no observed distribution across niches."},
+        {"collection": "power-to-creators-vibe", "date": "2026-07-14", "outcome": "qualified", "note": "Vibe adds taste as post-commoditization differentiation and platform legitimacy as a status allocator, but no distributional evidence across taste vectors."}
+      ],
       "resolution_target": null
     },
     {
@@ -878,6 +911,58 @@
       "evidence": ["[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 1]]", "[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 2]]"],
       "relevant_collections": ["power-to-creators-gameplay", "how-we-learn-architectures"],
       "assessments": [{"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "One 2025 source proposes the long-tail mechanism and its consolidation counter-risk; no adoption or market outcome is observed."}],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-41407328147f",
+      "statement": "Cheap production may increase the status value of demonstrable human responsibility, distinctive judgment, and work that resists standardized patterns.",
+      "status": "open",
+      "origin_collection": "power-to-creators-vibe",
+      "surfaced_in": "wiki/hubs/creator-vibe",
+      "evidence": [
+        "[[taste-is-eating-silicon-valley-evi-3ee48e6f5828#Claim 2]]",
+        "[[after-automation-evi-22edf2088ff4#Claim 1]]",
+        "[[the-human-after-automation-truth-freedom-and-responsibility-evi-262a2bf87f82#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Three sources converge on taste, difference, and responsibility after automation, but two are forecasts and the collection contains no measured outcomes."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-8dc1c6e4a505",
+      "statement": "Deliberately slow, subtractive interfaces may improve judgment under abundance.",
+      "status": "open",
+      "origin_collection": "power-to-creators-vibe",
+      "surfaced_in": "wiki/hubs/creator-vibe",
+      "evidence": [
+        "[[are-we-too-impatient-to-be-intelligent-evi-3d43722d5c40#Claim 1]]",
+        "[[are-we-too-impatient-to-be-intelligent-evi-3d43722d5c40#Claim 2]]",
+        "[[simplification-takes-courage-evi-cff8810d556a#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "power-to-creators-vibe",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies complementary slow-interaction and subtraction proposals, but no evaluated interface or judgment outcome."
+        }
+      ],
       "resolution_target": null
     },
     {

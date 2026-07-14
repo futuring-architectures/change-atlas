@@ -213,6 +213,57 @@
             "evi-739fb24adffd"
           ]
         },
+        "🧑‍🎨 Power to Creators → 😍 Vibe": {
+          "completed_at": "2026-07-14",
+          "entry_end": 404,
+          "entry_start": 361,
+          "evidence_ids": [
+            "evi-2f6495ae1573",
+            "evi-138450e7ad81",
+            "evi-09023b925498",
+            "evi-3974d6a07a28",
+            "evi-d98e7226039b",
+            "evi-dc96a584df0c",
+            "evi-8202e31caceb",
+            "evi-e05767262336",
+            "evi-3237efca6428",
+            "evi-7c2b15d84bb2",
+            "evi-e444778dd930",
+            "evi-2d4080a22ba5",
+            "evi-dd06dfa27ab6",
+            "evi-2e87cc97a533",
+            "evi-fecb7a97aa8d",
+            "evi-5412a4697e19",
+            "evi-daa16b01c9a9",
+            "evi-550eefad7f54",
+            "evi-e9bae80fa5c5",
+            "evi-e4af39607ca2",
+            "evi-e619aaca2cbd",
+            "evi-7276f0d2c03c",
+            "evi-25fa80a2ee4a",
+            "evi-1e977c2dadae",
+            "evi-2ef01c37bead",
+            "evi-b9d9989b6239",
+            "evi-3dbddaa952be",
+            "evi-47f51a002a6e",
+            "evi-894b6d43e16b",
+            "evi-a73a67e75d1c",
+            "evi-51acf99fceb2",
+            "evi-3ee48e6f5828",
+            "evi-5bf967de77b1",
+            "evi-bbb3e7a0bd86",
+            "evi-3d43722d5c40",
+            "evi-0b326e51c965",
+            "evi-15b4bb5100cb",
+            "evi-cff8810d556a",
+            "evi-ad383b951e1e",
+            "evi-432a8f77d933",
+            "evi-9f94b47703c7",
+            "evi-303008344a85",
+            "evi-22edf2088ff4",
+            "evi-262a2bf87f82"
+          ]
+        },
         "🧑‍🎨 Power to Creators → 🤝 Communities": {
           "completed_at": "2026-07-14",
           "entry_end": 347,
@@ -356,7 +407,7 @@
           ]
         }
       },
-      "completed_entries": 290,
+      "completed_entries": 334,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -1242,17 +1293,173 @@
           "file": "evidence/sources/the-magic-minimum-for-ai-agents-evi-739fb24adffd.md",
           "id": "evi-739fb24adffd"
         },
+        "361": {
+          "file": "evidence/sources/how-people-get-rich-now-evi-2f6495ae1573.md",
+          "id": "evi-2f6495ae1573"
+        },
+        "362": {
+          "file": "evidence/sources/the-psychology-behind-tiktoks-addictive-feed-evi-138450e7ad81.md",
+          "id": "evi-138450e7ad81"
+        },
+        "363": {
+          "file": "evidence/sources/inside-a16zs-media-operations-evi-09023b925498.md",
+          "id": "evi-09023b925498"
+        },
+        "364": {
+          "file": "evidence/sources/trends-aren-t-trendy-evi-3974d6a07a28.md",
+          "id": "evi-3974d6a07a28"
+        },
+        "365": {
+          "file": "evidence/sources/retail-rent-and-things-that-don-t-scale-evi-d98e7226039b.md",
+          "id": "evi-d98e7226039b"
+        },
+        "366": {
+          "file": "evidence/sources/the-role-of-the-non-expert-specialist-evi-dc96a584df0c.md",
+          "id": "evi-dc96a584df0c"
+        },
+        "367": {
+          "file": "evidence/sources/power-to-the-person-evi-8202e31caceb.md",
+          "id": "evi-8202e31caceb"
+        },
+        "368": {
+          "file": "evidence/sources/a-project-of-one-s-own-evi-e05767262336.md",
+          "id": "evi-e05767262336"
+        },
+        "369": {
+          "file": "evidence/sources/the-secret-to-happiness-at-work-evi-3237efca6428.md",
+          "id": "evi-3237efca6428"
+        },
         "37": {
           "file": "evidence/sources/solitary-confinement-evi-7cce3e472c6c.md",
           "id": "evi-7cce3e472c6c"
+        },
+        "370": {
+          "file": "evidence/sources/nfps-evi-7c2b15d84bb2.md",
+          "id": "evi-7c2b15d84bb2"
+        },
+        "371": {
+          "file": "evidence/sources/what-ai-can-t-write-evi-e444778dd930.md",
+          "id": "evi-e444778dd930"
+        },
+        "372": {
+          "file": "evidence/sources/legitimacy-lost-evi-2d4080a22ba5.md",
+          "id": "evi-2d4080a22ba5"
+        },
+        "373": {
+          "file": "evidence/sources/picture-limitless-creativity-at-your-fingertips-evi-dd06dfa27ab6.md",
+          "id": "evi-dd06dfa27ab6"
+        },
+        "374": {
+          "file": "evidence/sources/ai-and-i-the-age-of-artificial-creativity-evi-2e87cc97a533.md",
+          "id": "evi-2e87cc97a533"
+        },
+        "375": {
+          "file": "evidence/sources/llms-and-information-post-scarcity-evi-fecb7a97aa8d.md",
+          "id": "evi-fecb7a97aa8d"
+        },
+        "376": {
+          "file": "evidence/sources/gpt-4-is-founding-an-empire-of-imagination-evi-5412a4697e19.md",
+          "id": "evi-5412a4697e19"
+        },
+        "377": {
+          "file": "evidence/sources/the-music-matters-more-than-the-instrument-evi-daa16b01c9a9.md",
+          "id": "evi-daa16b01c9a9"
+        },
+        "378": {
+          "file": "evidence/sources/ai-prompt-engineering-isnt-the-future-evi-550eefad7f54.md",
+          "id": "evi-550eefad7f54"
+        },
+        "379": {
+          "file": "evidence/sources/i-cannot-believe-the-shit-that-morons-are-getting-up-to-with-chatgpt-evi-e9bae80fa5c5.md",
+          "id": "evi-e9bae80fa5c5"
         },
         "38": {
           "file": "evidence/sources/sludgefeast-evi-7805389d1647.md",
           "id": "evi-7805389d1647"
         },
+        "380": {
+          "file": "evidence/sources/the-last-page-of-the-internet-evi-e4af39607ca2.md",
+          "id": "evi-e4af39607ca2"
+        },
+        "381": {
+          "file": "evidence/sources/why-havent-internet-creators-become-superstars-evi-e619aaca2cbd.md",
+          "id": "evi-e619aaca2cbd"
+        },
+        "382": {
+          "file": "evidence/sources/you-are-not-destined-to-live-in-quiet-times-evi-7276f0d2c03c.md",
+          "id": "evi-7276f0d2c03c"
+        },
+        "383": {
+          "file": "evidence/sources/social-internet-is-dead-get-over-it-evi-25fa80a2ee4a.md",
+          "id": "evi-25fa80a2ee4a"
+        },
+        "384": {
+          "file": "evidence/sources/the-people-who-ruined-the-internet-evi-1e977c2dadae.md",
+          "id": "evi-1e977c2dadae"
+        },
+        "385": {
+          "file": "evidence/sources/the-techno-pragmatist-manifesto-evi-2ef01c37bead.md",
+          "id": "evi-2ef01c37bead"
+        },
+        "386": {
+          "file": "evidence/sources/to-own-the-future-read-shakespeare-evi-b9d9989b6239.md",
+          "id": "evi-b9d9989b6239"
+        },
+        "387": {
+          "file": "evidence/sources/the-map-is-eating-the-territory-the-political-economy-of-ai-evi-3dbddaa952be.md",
+          "id": "evi-3dbddaa952be"
+        },
+        "388": {
+          "file": "evidence/sources/the-state-of-the-culture-2024-evi-47f51a002a6e.md",
+          "id": "evi-47f51a002a6e"
+        },
+        "389": {
+          "file": "evidence/sources/on-curiosity-evi-894b6d43e16b.md",
+          "id": "evi-894b6d43e16b"
+        },
         "39": {
           "file": "evidence/sources/on-elon-musks-vision-of-twitter-as-a-hive-mind-evi-5a566176813d.md",
           "id": "evi-5a566176813d"
+        },
+        "390": {
+          "file": "evidence/sources/the-weird-nerd-comes-with-trade-offs-evi-a73a67e75d1c.md",
+          "id": "evi-a73a67e75d1c"
+        },
+        "391": {
+          "file": "evidence/sources/the-internet-is-not-boring-you-are-evi-51acf99fceb2.md",
+          "id": "evi-51acf99fceb2"
+        },
+        "392": {
+          "file": "evidence/sources/taste-is-eating-silicon-valley-evi-3ee48e6f5828.md",
+          "id": "evi-3ee48e6f5828"
+        },
+        "393": {
+          "file": "evidence/sources/the-power-of-radical-optimism-evi-5bf967de77b1.md",
+          "id": "evi-5bf967de77b1"
+        },
+        "394": {
+          "file": "evidence/sources/writes-and-write-nots-evi-bbb3e7a0bd86.md",
+          "id": "evi-bbb3e7a0bd86"
+        },
+        "395": {
+          "file": "evidence/sources/are-we-too-impatient-to-be-intelligent-evi-3d43722d5c40.md",
+          "id": "evi-3d43722d5c40"
+        },
+        "396": {
+          "file": "evidence/sources/water-water-everywhere-but-not-a-drop-to-drink-evi-0b326e51c965.md",
+          "id": "evi-0b326e51c965"
+        },
+        "397": {
+          "file": "evidence/sources/the-teacher-lies-sometimes-evi-15b4bb5100cb.md",
+          "id": "evi-15b4bb5100cb"
+        },
+        "398": {
+          "file": "evidence/sources/simplification-takes-courage-evi-cff8810d556a.md",
+          "id": "evi-cff8810d556a"
+        },
+        "399": {
+          "file": "evidence/sources/make-something-heavy-evi-ad383b951e1e.md",
+          "id": "evi-ad383b951e1e"
         },
         "4": {
           "file": "evidence/sources/ecommerce-in-legoland-evi-53f47d7d35d8.md",
@@ -1261,6 +1468,26 @@
         "40": {
           "file": "evidence/sources/the-age-of-social-media-is-ending-evi-67f7b871dfe7.md",
           "id": "evi-67f7b871dfe7"
+        },
+        "400": {
+          "file": "evidence/sources/genai-is-our-polyester-evi-432a8f77d933.md",
+          "id": "evi-432a8f77d933"
+        },
+        "401": {
+          "file": "evidence/sources/nobody-knows-how-to-build-with-ai-yet-evi-9f94b47703c7.md",
+          "id": "evi-9f94b47703c7"
+        },
+        "402": {
+          "file": "evidence/sources/vibing-is-not-the-way-evi-303008344a85.md",
+          "id": "evi-303008344a85"
+        },
+        "403": {
+          "file": "evidence/sources/after-automation-evi-22edf2088ff4.md",
+          "id": "evi-22edf2088ff4"
+        },
+        "404": {
+          "file": "evidence/sources/the-human-after-automation-truth-freedom-and-responsibility-evi-262a2bf87f82.md",
+          "id": "evi-262a2bf87f82"
         },
         "41": {
           "file": "evidence/sources/decentralization-evi-3b78d4dd8e8f.md",

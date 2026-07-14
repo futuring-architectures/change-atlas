@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: exemplified_by
     target: "[[attention-is-the-scarce-layer]]"
+  - type: exemplified_by
+    target: "[[seo-optimization-degraded-search-usefulness]]"
 description: "When technology makes one input radically cheaper, constraint does not disappear; it moves toward complementary resources such as attention, trust, integration, oversight, energy, or capital."
 evidence:
   - "[[is-the-business-of-ai-more-like-steel-or-vba-evi-c06cc1dd8220#Claim 2]]"
@@ -19,6 +21,7 @@ evidence:
   - "[[vibe-coding-menugen-evi-0ce549d72b42#Claim 2]]"
   - "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1]]"
   - "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2]]"
+  - "[[the-people-who-ruined-the-internet-evi-1e977c2dadae#Claim 1]]"
 ---
 
 # Abundance relocates bottlenecks
@@ -51,7 +54,9 @@ Byrne Hobart supplies the general economic rule that radically cheaper products 
 - [[ai-is-killing-the-old-web-and-the-new-web-struggles-to-be-born-evi-4366445f2b22#Claim 2|AI is killing the old web — claim 2]] describes machine-scale production overwhelming human curation.
 - [[vibe-coding-menugen-evi-0ce549d72b42#Claim 2|Vibe coding MenuGen — claim 2]] locates post-code friction in application infrastructure.
 - [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1|The AI Economy: The Next Chapter — claim 1]] and [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2|claim 2]] identify cost as a growing enterprise constraint.
+- [[the-people-who-ruined-the-internet-evi-1e977c2dadae#Claim 1|The people who ruined the internet — claim 1]] shows abundant publishing optimizing for allocator legibility while usefulness becomes scarce.
 
 ## Relationships
 
 - [[attention-is-the-scarce-layer|Attention is the scarce layer]] exemplifies bottleneck relocation in content and information systems.
+- [[seo-optimization-degraded-search-usefulness|The SEO degradation Signal]] exemplifies selection quality becoming the bottleneck.
