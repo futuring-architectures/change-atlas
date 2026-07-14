@@ -130,10 +130,10 @@
       "entries": 44,
       "entry_start": 361,
       "entry_end": 404,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "9cd9248",
-      "checkpoint": null
+      "checkpoint": "2682978"
     },
     {
       "id": "power-to-creators-gameplay",
