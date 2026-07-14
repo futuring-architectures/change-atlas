@@ -178,10 +178,10 @@
       "entries": 36,
       "entry_start": 625,
       "entry_end": 660,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "9f0a2c6",
-      "checkpoint": null
+      "checkpoint": "b09eeb2"
     },
     {
       "id": "how-we-learn-transitions",
