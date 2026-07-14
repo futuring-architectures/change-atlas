@@ -193,6 +193,26 @@
             "evi-401f211f3952"
           ]
         },
+        "🧑‍🎨 Power to Creators → ⚡️ Niches": {
+          "completed_at": "2026-07-14",
+          "entry_end": 360,
+          "entry_start": 348,
+          "evidence_ids": [
+            "evi-7b5dd044e709",
+            "evi-81cfc2cc96a2",
+            "evi-6b7abee89aac",
+            "evi-c954420af480",
+            "evi-fc99ac9aa2ab",
+            "evi-ab3177fe9943",
+            "evi-82cfc5d3acde",
+            "evi-99ff71c7a9a4",
+            "evi-39d183552a36",
+            "evi-7a7318ff7895",
+            "evi-d640b2a01877",
+            "evi-847714a86f47",
+            "evi-739fb24adffd"
+          ]
+        },
         "🧑‍🎨 Power to Creators → 🤝 Communities": {
           "completed_at": "2026-07-14",
           "entry_end": 347,
@@ -336,7 +356,7 @@
           ]
         }
       },
-      "completed_entries": 277,
+      "completed_entries": 290,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -1162,13 +1182,65 @@
           "file": "evidence/sources/were-entering-uncharted-territory-for-math-evi-b8039cdc6399.md",
           "id": "evi-b8039cdc6399"
         },
+        "348": {
+          "file": "evidence/sources/journalists-are-leaving-the-noisy-internet-for-your-email-inbox-evi-7b5dd044e709.md",
+          "id": "evi-7b5dd044e709"
+        },
+        "349": {
+          "file": "evidence/sources/the-secret-giant-in-the-passion-economy-evi-81cfc2cc96a2.md",
+          "id": "evi-81cfc2cc96a2"
+        },
         "35": {
           "file": "evidence/sources/the-metaverse-is-not-a-place-evi-2f500166697e.md",
           "id": "evi-2f500166697e"
         },
+        "350": {
+          "file": "evidence/sources/the-best-is-yet-to-come-evi-6b7abee89aac.md",
+          "id": "evi-6b7abee89aac"
+        },
+        "351": {
+          "file": "evidence/sources/unfettered-conversations-evi-c954420af480.md",
+          "id": "evi-c954420af480"
+        },
+        "352": {
+          "file": "evidence/sources/the-furry-lisa-cryptoart-and-the-new-economy-of-digital-creativity-evi-fc99ac9aa2ab.md",
+          "id": "evi-fc99ac9aa2ab"
+        },
+        "353": {
+          "file": "evidence/sources/the-rise-of-platform-brands-evi-ab3177fe9943.md",
+          "id": "evi-ab3177fe9943"
+        },
+        "354": {
+          "file": "evidence/sources/the-passion-economy-and-its-hidden-currency-evi-82cfc5d3acde.md",
+          "id": "evi-82cfc5d3acde"
+        },
+        "355": {
+          "file": "evidence/sources/from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4.md",
+          "id": "evi-99ff71c7a9a4"
+        },
+        "356": {
+          "file": "evidence/sources/why-we-need-more-omakase-creators-evi-39d183552a36.md",
+          "id": "evi-39d183552a36"
+        },
+        "357": {
+          "file": "evidence/sources/taking-stock-evi-7a7318ff7895.md",
+          "id": "evi-7a7318ff7895"
+        },
+        "358": {
+          "file": "evidence/sources/gays-jews-and-geniuses-evi-d640b2a01877.md",
+          "id": "evi-d640b2a01877"
+        },
+        "359": {
+          "file": "evidence/sources/the-arc-of-the-practical-creator-evi-847714a86f47.md",
+          "id": "evi-847714a86f47"
+        },
         "36": {
           "file": "evidence/sources/positive-sum-worlds-remaking-public-goods-evi-d897611b49cd.md",
           "id": "evi-d897611b49cd"
+        },
+        "360": {
+          "file": "evidence/sources/the-magic-minimum-for-ai-agents-evi-739fb24adffd.md",
+          "id": "evi-739fb24adffd"
         },
         "37": {
           "file": "evidence/sources/solitary-confinement-evi-7cce3e472c6c.md",

@@ -202,6 +202,10 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The Culture collection contrasts professional gatekeeping with engagement allocation and examines cultural selection, but adds no dated observation that subscription is becoming less primary across platforms."
+        },
+        {
+          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "contested",
+          "note": "Niches adds a 2021 case of subscription infrastructure supporting small media and a direct-audience mechanism. This contests a simple replacement story: inferred allocation and explicit subscription can grow simultaneously."
         }
       ],
       "resolution_target": null
@@ -244,6 +248,10 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Culture evidence strengthens the mechanism: selection can reward transmissibility, legibility, and provenance. It still does not show that incumbent creators rather than new entrants or niches capture the resulting attention."
+        },
+        {
+          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "qualified",
+          "note": "High-resolution taste and zero-to-one creator infrastructure provide counter-mechanisms through which abundance could support new niche leaders. The collection still lacks comparative attention distributions for incumbents and entrants."
         }
       ],
       "resolution_target": null
@@ -282,6 +290,10 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection frames content as an entry to community and documents direct creator relationships, but adds no case of media becoming a feature bundled into a non-media product."
+        },
+        {
+          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "no_change",
+          "note": "The collection addresses individual media, employer platform brands, and creator tools but adds no observation of media bundled into non-media products."
         }
       ],
       "resolution_target": null
@@ -552,6 +564,10 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection identifies selection for memeability, market transmissibility, provenance, and engagement, but does not establish a directional change across cultural systems or measure truth, depth, and durable usefulness as outcomes."
+        },
+        {
+          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "qualified",
+          "note": "The niches corpus proposes plural taste allocation and reflexive demand formation, qualifying the idea of a single legibility regime. It adds no measured truth, depth, or durability outcomes."
         }
       ],
       "resolution_target": null
@@ -834,8 +850,34 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Selected creator cases demonstrate viable direct-audience careers and community retention logic, but survivorship selection prevents a distributional or temporal conclusion."
+        },
+        {
+          "collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "strengthened",
+          "note": "Subscription publishing, creator infrastructure, and practical-runway mechanisms strengthen the direct-audience livelihood thesis. Evidence remains selected and forecast-heavy, without cohort income or survival data."
         }
       ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-44e473b904f1",
+      "statement": "Plural taste systems may create more category leaders without flattening power-law inequality within each niche.",
+      "status": "open",
+      "origin_collection": "power-to-creators-niches",
+      "surfaced_in": "wiki/hubs/creator-niches",
+      "evidence": ["[[from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4#Claim 1]]", "[[the-economics-of-creativity-who-gets-paid-and-why-evi-faded797b9a5#Claim 1]]"],
+      "relevant_collections": ["power-to-creators-vibe", "power-to-creators-gameplay"],
+      "assessments": [{"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "The collection supplies both the plural-taste mechanism and the persistence of steep creative power laws, but no observed distribution across niches."}],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-90d77770f624",
+      "statement": "Agent-mediated software discovery may improve the economics of occasional-use niche tools while concentrating control in the agent layer.",
+      "status": "open",
+      "origin_collection": "power-to-creators-niches",
+      "surfaced_in": "wiki/hubs/creator-niches",
+      "evidence": ["[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 1]]", "[[the-magic-minimum-for-ai-agents-evi-739fb24adffd#Claim 2]]"],
+      "relevant_collections": ["power-to-creators-gameplay", "how-we-learn-architectures"],
+      "assessments": [{"collection": "power-to-creators-niches", "date": "2026-07-14", "outcome": "opened", "note": "One 2025 source proposes the long-tail mechanism and its consolidation counter-risk; no adoption or market outcome is observed."}],
       "resolution_target": null
     },
     {

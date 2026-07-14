@@ -13,7 +13,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 🧰 Nature of the Firm / 👯 Culture | 30 | 30 | 60 | Committed | Autonomous | [[system/reviews/nature-of-the-firm-culture|Open report]] | `a7a8ffd` |
 | 🧰 Nature of the Firm / 👩‍⚖️ Governance | 13 | 13 | 31 | Committed | Completed | [[system/reviews/nature-of-the-firm-governance|Open report]] | `daa1adb` |
 | 🧑‍🎨 Power to Creators / 🤝 Communities | 15 | 15 | 30 | Committed | Autonomous | [[system/reviews/power-to-creators-communities|Open report]] | `bdc28e0` |
-| 🧑‍🎨 Power to Creators / ⚡️ Niches | 13 | 0 | 0 | Planned | Autonomous | — | — |
+| 🧑‍🎨 Power to Creators / ⚡️ Niches | 13 | 13 | 26 | Synthesis Ready | Autonomous | [[system/reviews/power-to-creators-niches|Open report]] | — |
 | 🧑‍🎨 Power to Creators / 😍 Vibe | 44 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧑‍🎨 Power to Creators / 🕹 Gameplay | 94 | 0 | 0 | Planned | Autonomous | — | — |
 | 👩🏻‍🎓 How We Learn / 🔮 Futuring | 76 | 0 | 0 | Planned | Autonomous | — | — |
@@ -29,8 +29,8 @@ This dashboard is generated from `system/collections.json` and repository conten
 
 ## Synthesis backlog
 
-- Tracked propositions: 24
-- Unresolved propositions: 24
+- Tracked propositions: 26
+- Unresolved propositions: 26
 - Promoted propositions: 0
 - Retired propositions: 0
 - Pipeline source of truth: `system/synthesis-backlog.json`

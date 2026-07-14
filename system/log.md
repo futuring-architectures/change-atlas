@@ -130,3 +130,14 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Synthesized the collection into one Hub, three Signals, three Concepts, one Framework, one Debate, and one Question; expanded two existing Concepts with reciprocal links.
 - Added the Community sustainability audit to trace contribution, finite attention, decision rights, rewards, care, continuity, exit, and recourse.
 - Promoted no Trend from selected cases and forecasts; assessed four inherited propositions and opened two stable propositions for later creator and learning collections.
+
+## [2026-07-14] evidence | Review and activate Creator Niches collection
+
+- Recovered source metadata for 13 Evidence records in `🧑‍🎨 Power to Creators → ⚡️ Niches`, preserving three unresolved dates and one unresolved placeholder source rather than inventing provenance.
+- Extracted and classified 26 atomic claims and registered entries 348–360; anthology progress reached 290 of 686 entries.
+
+## [2026-07-14] synthesis | Create Creator Niches Wiki map
+
+- Synthesized one Hub, one Signal, three Concepts, one Framework, one Debate, and one Question; promoted no Trend from selected observations and forecasts.
+- Separated allocation, infrastructure, and livelihood, and added the Practical creator arc to make runway and protected attention explicit.
+- Assessed five inherited propositions and opened two stable propositions on plural taste power laws and agent-mediated niche software.
