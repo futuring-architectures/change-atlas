@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raised_by
     target: "[[agent-workflow-displaces-review-and-planning]]"
+  - type: raised_by
+    target: "[[the-human-in-the-loop-paradox]]"
 description: "What oversight design remains effective when automated systems are usually correct, difficult to characterize, and occasionally fail severely?"
 origin: another_page
 ---
@@ -31,6 +33,7 @@ Governance often assigns a human to monitor or approve automated output. That sa
 - LLM confidence is described as an unreliable guide to truth, while inconsistent errors make complex multi-step reasoning difficult to trust: [[ai-mistakes-are-very-different-from-human-mistakes-evi-6ce1d0622be3#Claim 1|confidence without calibration]] and [[ai-mistakes-are-very-different-from-human-mistakes-evi-6ce1d0622be3#Claim 2|inconsistent multi-step failure]].
 - Demonstrated knowledge of business factors is therefore insufficient evidence of dependable performance in consequential use: [[ai-mistakes-are-very-different-from-human-mistakes-evi-6ce1d0622be3#Claim 3|the gap between apparent understanding and reliability]].
 - Automation can increase dependence and, over time, risk eroding the human skills, judgment, and adaptability needed for recovery: [[the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3#Claim 1|efficiency coupled to dependence]], [[the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3#Claim 2|dependence eroding resilience]], and [[the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3#Claim 3|capability loss through offloading]].
+- [[the-human-in-the-loop-paradox|The human-in-the-loop paradox]] adds that oversight can reduce control, responsibility, and moral agency when automation is safe only if a fallible person monitors it perfectly: [[ai-s-human-in-the-loop-isn-t-evi-734825a3f56e#Claim 1|diminished agency in oversight]] and [[ai-s-human-in-the-loop-isn-t-evi-734825a3f56e#Claim 2|the perfect-overseer contradiction]].
 
 These sources identify the problem; they do not compare oversight mechanisms or establish failure rates.
 
@@ -43,6 +46,7 @@ These sources identify the problem; they do not compare oversight mechanisms or 
 - Calibration evidence that separates fluent confidence from task reliability.
 - Designs that preserve human practice, diagnostic skill, override authority, and recovery capacity during long periods of automation.
 - Evidence distinguishing dependence that creates unacceptable brittleness from ordinary reliance on reliable infrastructure.
+- Evidence distinguishing meaningful authority over goals and constraints from ceremonial approval of individual outputs.
 
 ## Suggested next sources or actions
 
@@ -58,3 +62,4 @@ _Open. The Rules pilot supports the concern but not a preferred oversight archit
 ## Relationships
 
 - Raised by the candidate Signal [[agent-workflow-displaces-review-and-planning|An agent workflow displaces human review and planning]].
+- Also raised by [[the-human-in-the-loop-paradox|the human-in-the-loop paradox]].

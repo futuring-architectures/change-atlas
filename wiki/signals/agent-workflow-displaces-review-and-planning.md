@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raises_question
     target: "[[can-human-oversight-handle-rare-catastrophic-failures]]"
+  - type: supports
+    target: "[[software-work-is-shifting-from-code-production-to-orchestration-and-assurance]]"
 description: "A reported agent-driven software workflow replaces human code review and explicit planning routines with test iteration and ticket selection."
 evidence:
   - "[[the-structure-of-engineering-revolutions-evi-0c30a7f66a56#Claim 1]]"
@@ -44,3 +46,4 @@ In the engineering practice described by John Allsopp, an AI-agent workflow omit
 ## Relationships
 
 - The removal of familiar review mechanisms [[can-human-oversight-handle-rare-catastrophic-failures|raises a broader question about viable human oversight]].
+- The case supports the candidate Trend [[software-work-is-shifting-from-code-production-to-orchestration-and-assurance|Software work is shifting from code production to orchestration and assurance]].

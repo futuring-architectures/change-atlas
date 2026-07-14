@@ -128,6 +128,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies TikTok and multi-platform cases plus a named mechanism, but the evidence clusters in 2022–2023 and does not yet establish a durable directional Trend."
+        },
+        {
+          "collection": "after-the-internet-paradigms",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection adds arguments for direct community and publisher-controlled distribution, but no dated observation that explicit subscription is becoming less primary across platforms."
         }
       ],
       "resolution_target": null
@@ -135,13 +141,14 @@
     {
       "id": "prp-b77689287c42",
       "statement": "AI-driven content abundance may concentrate attention on already legible creators rather than democratize audience reach.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "after-the-internet-networks",
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
         "[[6-new-theories-about-ai-evi-99b1e25fa617#Claim 2]]",
         "[[sludgefeast-evi-7805389d1647#Claim 1]]",
-        "[[sludgefeast-evi-7805389d1647#Claim 2]]"
+        "[[sludgefeast-evi-7805389d1647#Claim 2]]",
+        "[[ai-is-killing-the-old-web-and-the-new-web-struggles-to-be-born-evi-4366445f2b22#Claim 2]]"
       ],
       "relevant_collections": [
         "after-the-internet-paradigms",
@@ -157,6 +164,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The mechanism is coherent but the concentration outcome is predictive; later creator and culture collections should test discovery, fandom, and new-entry cases."
+        },
+        {
+          "collection": "after-the-internet-paradigms",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Machine-scale production strengthens the abundance and selection-pressure mechanism, but this collection does not observe whether attention accrues to incumbent creators, new entrants, or fragmented niches."
         }
       ],
       "resolution_target": null
@@ -164,7 +177,7 @@
     {
       "id": "prp-1e5c5aab325f",
       "statement": "Media may increasingly become a feature bundled into broader non-media products and services rather than a standalone business.",
-      "status": "open",
+      "status": "contested",
       "origin_collection": "after-the-internet-networks",
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
@@ -219,7 +232,9 @@
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
         "[[llms-and-the-final-internet-engagement-evi-401f211f3952#Claim 1]]",
-        "[[llms-and-the-final-internet-engagement-evi-401f211f3952#Claim 2]]"
+        "[[llms-and-the-final-internet-engagement-evi-401f211f3952#Claim 2]]",
+        "[[what-happened-to-the-new-internet-evi-c686be1892aa#Claim 1]]",
+        "[[what-happened-to-the-new-internet-evi-c686be1892aa#Claim 2]]"
       ],
       "relevant_collections": [
         "after-the-internet-paradigms",
@@ -233,6 +248,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The proposition is explicitly conditional and predictive; later batches should look for observed cultural exit, new interaction models, and disconfirming continuity."
+        },
+        {
+          "collection": "after-the-internet-paradigms",
+          "date": "2026-07-14",
+          "outcome": "contested",
+          "note": "The collection documents a broad New Internet reform movement but reports that it fractured, lost momentum, and failed to dislodge incumbents. This contests near-term emergence without ruling out a later generation or different architecture."
         }
       ],
       "resolution_target": null
@@ -259,6 +280,85 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The Evidence supplies an incentive hypothesis and possible fork benefits, but not a longitudinal community case or a distinction between ownership, contribution, and governance power."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-2bb29cadf400",
+      "statement": "Inference-first AI interfaces may reduce interaction friction while weakening visible user agency over memory, prediction, and action.",
+      "status": "open",
+      "origin_collection": "after-the-internet-paradigms",
+      "surfaced_in": "wiki/hubs/paradigms",
+      "evidence": [
+        "[[our-ui-is-being-replaced-behind-your-back-evi-150f7fe2bf50#Claim 1]]",
+        "[[our-ui-is-being-replaced-behind-your-back-evi-150f7fe2bf50#Claim 2]]",
+        "[[building-agency-into-the-relationships-between-humans-and-ai-evi-43b087f1ebc2#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "after-the-internet-culture",
+        "nature-of-the-firm-organization",
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-paradigms",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies a strong interface forecast and an agency-oriented counter-position, but no comparative user evidence across predictive, conversational, copilot, or direct-manipulation interfaces."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-eb6b438dce8a",
+      "statement": "AI-dependent products may require continuous revalidation as upstream model behavior, capability, and cost change.",
+      "status": "open",
+      "origin_collection": "after-the-internet-paradigms",
+      "surfaced_in": "wiki/hubs/paradigms",
+      "evidence": [
+        "[[if-ai-is-so-great-why-isnt-it-working-evi-9451a32b064d#Claim 1]]",
+        "[[if-ai-is-so-great-why-isnt-it-working-evi-9451a32b064d#Claim 2]]",
+        "[[vibe-coding-menugen-evi-0ce549d72b42#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-ecosystems",
+        "nature-of-the-firm-organization",
+        "how-we-learn-architectures"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-paradigms",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection identifies upstream model change and integration churn, but does not yet supply a longitudinal product case or reusable operating model."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-de32f067c458",
+      "statement": "Enterprise AI optimization may shift from maximizing model capability toward maximizing useful intelligence per dollar.",
+      "status": "open",
+      "origin_collection": "after-the-internet-paradigms",
+      "surfaced_in": "wiki/hubs/paradigms",
+      "evidence": [
+        "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1]]",
+        "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-ecosystems",
+        "nature-of-the-firm-organization",
+        "how-we-learn-architectures"
+      ],
+      "assessments": [
+        {
+          "collection": "after-the-internet-paradigms",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The proposition is timely and measurable but currently rests on one reported enterprise interpretation and a forecast rather than comparative deployment data."
         }
       ],
       "resolution_target": null

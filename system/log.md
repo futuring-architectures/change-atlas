@@ -67,3 +67,16 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Updated canonical Evidence citations to target the exact heading text while preserving claim numbers and reader-facing aliases.
 - Extended validation to resolve Markdown headings as internal link targets and require sequential `Claim N` headings on reviewed Evidence.
 - Updated Wiki templates, fixtures, tests, and operating guidance so future synthesis uses the portable heading convention.
+
+## [2026-07-14] evidence | Review and activate Paradigms collection
+
+- Recovered publication provenance for 105 Evidence records in `🔮 After the Internet → ⚡ Paradigms`, preserving partial precision and explicit recovery methods where original pages had migrated or disappeared.
+- Extracted and classified 210 atomic claims while preserving the distinction between observations, interpretations, predictions, normative positions, and conceptual claims.
+- Registered entries 53–157 in the manifest; the anthology remains `partial` at 183 of 686 entries.
+
+## [2026-07-14] synthesis | Create Paradigms Wiki map
+
+- Synthesized the reviewed collection into one Hub, three candidate Signals, one candidate Trend, four candidate Concepts, two candidate Frameworks, three open Debates, and three open Questions.
+- Updated three existing Wiki pages with reciprocal relationships and new Evidence where the Paradigms collection refined prior Rules and Networks synthesis.
+- Scoped the candidate software-work Trend to dated 2025–2026 cases and recorded hidden human labor as a counter-signal rather than generalizing forecasts into observations.
+- Assessed three relevant existing synthesis-backlog propositions and opened three stable new propositions for later collections.

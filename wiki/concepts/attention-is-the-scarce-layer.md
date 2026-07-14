@@ -16,6 +16,8 @@ relationships:
     target: "[[dominant-social-platforms-substitute-ranking-for-requested-delivery]]"
   - type: raises_question
     target: "[[who-controls-the-path-between-publication-and-attention]]"
+  - type: exemplifies
+    target: "[[abundance-relocates-bottlenecks]]"
 description: "When content supply exceeds human consumption capacity, selection and allocation of attention become the binding layer of the information system."
 evidence:
   - "[[stepping-out-of-the-firehose-evi-a0291a84b7e2#Claim 1]]"
@@ -60,3 +62,4 @@ Benedict Evans uses the scale of internet participation to establish that no one
 
 - [[tiktok-turns-viewing-into-a-dense-behavioral-feedback-loop|TikTok’s feedback loop]] and [[dominant-social-platforms-substitute-ranking-for-requested-delivery|platform-ranked delivery]] exemplify competing mechanisms for allocating attention.
 - The Concept raises [[who-controls-the-path-between-publication-and-attention|the control question between publication and attention]].
+- The attention bottleneck exemplifies the broader pattern that [[abundance-relocates-bottlenecks|abundance relocates scarcity into complementary system layers]].
