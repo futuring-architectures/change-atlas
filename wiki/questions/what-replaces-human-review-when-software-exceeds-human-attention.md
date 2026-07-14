@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raised_by
     target: "[[software-work-is-shifting-from-code-production-to-orchestration-and-assurance]]"
+  - type: raised_by
+    target: "[[ai-native-organizational-trust-stack]]"
 description: "What evidence, controls, and accountability can establish trust when generated production code grows faster than humans can inspect it?"
 origin: another_page
 ---
@@ -28,6 +30,8 @@ The candidate software-work Trend moves people from writing and reading implemen
 - One 2026 source predicts that unread production code will become normal and proposes “code reading coverage” as a tracked safety signal: [[write-only-code-evi-a392d13f6115#Claim 1|Write-Only Code — claim 1]] and [[write-only-code-evi-a392d13f6115#Claim 2|claim 2]].
 - An existing Signal reports an agent workflow that replaces review with test iteration: [[agent-workflow-displaces-review-and-planning|An agent workflow displaces human review and planning]].
 - MenuGen shows that integration failures and outdated service knowledge can remain outside the code-writing bottleneck: [[vibe-coding-menugen-evi-0ce549d72b42#Claim 2|Vibe coding MenuGen — claim 2]].
+- The [[ai-native-organizational-trust-stack|AI-native organizational trust stack]] proposes data, evaluation, governance, learning, and human-judgment layers, but does not establish which assurance techniques are sufficient for generated software.
+- [[ai-workslop-shifts-cognitive-labor-to-recipients|The workslop Signal]] shows that nominal review removal can reappear as unplanned downstream verification and repair.
 
 ## Missing or discriminating evidence
 
@@ -48,4 +52,4 @@ _Open. The collection identifies the impending bottleneck but does not establish
 
 ## Relationships
 
-- Raised by [[software-work-is-shifting-from-code-production-to-orchestration-and-assurance|the candidate shift toward orchestration and assurance]].
+- Raised by [[software-work-is-shifting-from-code-production-to-orchestration-and-assurance|the candidate shift toward orchestration and assurance]] and the [[ai-native-organizational-trust-stack|AI-native organizational trust stack]].

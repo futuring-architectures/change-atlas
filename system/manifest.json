@@ -193,6 +193,46 @@
             "evi-401f211f3952"
           ]
         },
+        "🧰 Nature of the Firm → ⚡️ Organization": {
+          "completed_at": "2026-07-14",
+          "entry_end": 289,
+          "entry_start": 257,
+          "evidence_ids": [
+            "evi-0b7d2b6690fd",
+            "evi-fb0ef33c9cbd",
+            "evi-7f24267990c5",
+            "evi-42eafd947b33",
+            "evi-981586c1f60a",
+            "evi-40b85c5e6602",
+            "evi-3791f1083eeb",
+            "evi-c2437ed24fbd",
+            "evi-dffbffa78093",
+            "evi-8f11692b69b7",
+            "evi-ea0915790e6a",
+            "evi-a4f7a60f4ed2",
+            "evi-d403c7091eca",
+            "evi-18e05ccec1ce",
+            "evi-8d00ea9819b9",
+            "evi-4eddef01c131",
+            "evi-356af65ea3f4",
+            "evi-58525d83a52d",
+            "evi-e2eb10c8d25e",
+            "evi-1db89aca324b",
+            "evi-bd4309463e65",
+            "evi-52770191582a",
+            "evi-a96cd272949d",
+            "evi-d0ddd38f787a",
+            "evi-137042c99711",
+            "evi-cbb1d8ab9fed",
+            "evi-56515d5db7fb",
+            "evi-0bc67b22c4ff",
+            "evi-f80aa6e258ae",
+            "evi-1f3bfb709db5",
+            "evi-58ee7347e6af",
+            "evi-f23289a89b75",
+            "evi-8f8155afb8a1"
+          ]
+        },
         "🧰 Nature of the Firm → 🌍 Ecosystems": {
           "completed_at": "2026-07-14",
           "entry_end": 256,
@@ -237,7 +277,7 @@
           ]
         }
       },
-      "completed_entries": 199,
+      "completed_entries": 232,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -659,17 +699,149 @@
           "file": "evidence/sources/monetization-and-monopolies-how-the-internet-you-loved-died-evi-c8c8ec84e77d.md",
           "id": "evi-c8c8ec84e77d"
         },
+        "257": {
+          "file": "evidence/sources/seeing-like-an-algorithm-evi-0b7d2b6690fd.md",
+          "id": "evi-0b7d2b6690fd"
+        },
+        "258": {
+          "file": "evidence/sources/why-doesn-t-software-show-up-in-productivity-evi-fb0ef33c9cbd.md",
+          "id": "evi-fb0ef33c9cbd"
+        },
+        "259": {
+          "file": "evidence/sources/no-meetings-no-deadlines-no-full-time-employees-evi-7f24267990c5.md",
+          "id": "evi-7f24267990c5"
+        },
         "26": {
           "file": "evidence/sources/chimp-city-evi-34413a669a3d.md",
           "id": "evi-34413a669a3d"
+        },
+        "260": {
+          "file": "evidence/sources/four-refoundings-evi-42eafd947b33.md",
+          "id": "evi-42eafd947b33"
+        },
+        "261": {
+          "file": "evidence/sources/ge-toshiba-j-and-j-reorganizing-is-not-transformation-evi-981586c1f60a.md",
+          "id": "evi-981586c1f60a"
+        },
+        "262": {
+          "file": "evidence/sources/individuals-matter-evi-40b85c5e6602.md",
+          "id": "evi-40b85c5e6602"
+        },
+        "263": {
+          "file": "evidence/sources/the-toyota-production-system-a-love-letter-evi-3791f1083eeb.md",
+          "id": "evi-3791f1083eeb"
+        },
+        "264": {
+          "file": "evidence/sources/digital-transformation-changes-how-companies-create-value-evi-c2437ed24fbd.md",
+          "id": "evi-c2437ed24fbd"
+        },
+        "265": {
+          "file": "evidence/sources/funding-the-third-horizon-evi-dffbffa78093.md",
+          "id": "evi-dffbffa78093"
+        },
+        "266": {
+          "file": "evidence/sources/think-bigger-about-remote-work-evi-8f11692b69b7.md",
+          "id": "evi-8f11692b69b7"
+        },
+        "267": {
+          "file": "evidence/sources/how-to-validate-your-startup-idea-evi-ea0915790e6a.md",
+          "id": "evi-ea0915790e6a"
+        },
+        "268": {
+          "file": "evidence/sources/rocket-ships-and-tractors-evi-a4f7a60f4ed2.md",
+          "id": "evi-a4f7a60f4ed2"
+        },
+        "269": {
+          "file": "evidence/sources/remote-bureaucracy-evi-d403c7091eca.md",
+          "id": "evi-d403c7091eca"
         },
         "27": {
           "file": "evidence/sources/the-web3-decentralization-debate-is-focused-on-the-wrong-question-evi-d74613031eb5.md",
           "id": "evi-d74613031eb5"
         },
+        "270": {
+          "file": "evidence/sources/productivity-evi-18e05ccec1ce.md",
+          "id": "evi-18e05ccec1ce"
+        },
+        "271": {
+          "file": "evidence/sources/scale-skill-speed-evi-8d00ea9819b9.md",
+          "id": "evi-8d00ea9819b9"
+        },
+        "272": {
+          "file": "evidence/sources/when-will-ai-take-your-job-evi-4eddef01c131.md",
+          "id": "evi-4eddef01c131"
+        },
+        "273": {
+          "file": "evidence/sources/crossing-the-river-by-feeling-the-stones-evi-356af65ea3f4.md",
+          "id": "evi-356af65ea3f4"
+        },
+        "274": {
+          "file": "evidence/sources/effective-obfuscation-evi-58525d83a52d.md",
+          "id": "evi-58525d83a52d"
+        },
+        "275": {
+          "file": "evidence/sources/dont-fear-the-coming-trough-of-ai-disillusionment-evi-e2eb10c8d25e.md",
+          "id": "evi-e2eb10c8d25e"
+        },
+        "276": {
+          "file": "evidence/sources/ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b.md",
+          "id": "evi-1db89aca324b"
+        },
+        "277": {
+          "file": "evidence/sources/could-ai-be-a-catalyst-for-wider-organisational-change-evi-bd4309463e65.md",
+          "id": "evi-bd4309463e65"
+        },
+        "278": {
+          "file": "evidence/sources/which-ai-should-i-use-superpowers-and-the-state-of-play-evi-52770191582a.md",
+          "id": "evi-52770191582a"
+        },
+        "279": {
+          "file": "evidence/sources/the-age-of-de-bossification-evi-a96cd272949d.md",
+          "id": "evi-a96cd272949d"
+        },
         "28": {
           "file": "evidence/sources/the-age-of-tokies-evi-b53412c666c7.md",
           "id": "evi-b53412c666c7"
+        },
+        "280": {
+          "file": "evidence/sources/managing-ai-agents-teams-evi-d0ddd38f787a.md",
+          "id": "evi-d0ddd38f787a"
+        },
+        "281": {
+          "file": "evidence/sources/the-cognition-stack-for-ai-native-companies-evi-137042c99711.md",
+          "id": "evi-137042c99711"
+        },
+        "282": {
+          "file": "evidence/sources/a-vision-for-product-teams-evi-cbb1d8ab9fed.md",
+          "id": "evi-cbb1d8ab9fed"
+        },
+        "283": {
+          "file": "evidence/sources/the-death-of-product-development-as-we-know-it-evi-56515d5db7fb.md",
+          "id": "evi-56515d5db7fb"
+        },
+        "284": {
+          "file": "evidence/sources/horseless-intelligence-evi-0bc67b22c4ff.md",
+          "id": "evi-0bc67b22c4ff"
+        },
+        "285": {
+          "file": "evidence/sources/where-we-are-headed-evi-f80aa6e258ae.md",
+          "id": "evi-f80aa6e258ae"
+        },
+        "286": {
+          "file": "evidence/sources/from-firms-to-networks-how-coordination-technology-will-reorganise-everything-evi-1f3bfb709db5.md",
+          "id": "evi-1f3bfb709db5"
+        },
+        "287": {
+          "file": "evidence/sources/ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af.md",
+          "id": "evi-58ee7347e6af"
+        },
+        "288": {
+          "file": "evidence/sources/the-edge-assumes-a-self-evi-f23289a89b75.md",
+          "id": "evi-f23289a89b75"
+        },
+        "289": {
+          "file": "evidence/sources/the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1.md",
+          "id": "evi-8f8155afb8a1"
         },
         "29": {
           "file": "evidence/sources/tiktok-boom-evi-9e4f0ee6a2a7.md",

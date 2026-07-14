@@ -21,6 +21,10 @@ evidence:
   - "[[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 1]]"
   - "[[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 2]]"
   - "[[ai-drake-just-set-an-impossible-legal-trap-for-google-evi-028bfe5b80f1#Claim 1]]"
+  - "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1]]"
+  - "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 1]]"
+  - "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
+  - "[[horseless-intelligence-evi-0bc67b22c4ff#Claim 1]]"
 ---
 
 # Who captures the gains from automation?
@@ -37,6 +41,10 @@ When automation increases capability or reduces labor, what determines whether t
 
 **Without changes in ownership and institutions, automation gains flow toward capital and control.** Labor-saving systems can deskill workers, conceal human production behind an AI label, appropriate cultural labor, and increase the leverage of those who own models, distribution, data, and compute.
 
+## Position C
+
+**Some apparent automation gains are not yet real at the firm or workflow level.** Technical exposure can remain uneconomic to deploy, while low-cost generation can shift verification, context reconstruction, and repair to colleagues. Workers may still bear displacement risk when decision-makers overestimate capability.
+
 ## Sources of disagreement
 
 - Whether productivity gains are measured at the task, firm, worker, consumer, or societal level.
@@ -44,6 +52,8 @@ When automation increases capability or reduces labor, what determines whether t
 - Whether displaced labor, hidden labor, and cultural inputs are counted as automation costs.
 - Whether lower prices compensate for losses of income, agency, skill, or bargaining power.
 - Whether future abundance is evidence or a normative scenario.
+- Whether costs are measured at the producing task or across deployment, maintenance, handoffs, and recovery.
+- Whether managerial belief can cause displacement before a system demonstrates economic or operational competence.
 
 ## Evidence
 
@@ -51,10 +61,13 @@ When automation increases capability or reduces labor, what determines whether t
 - [[lifes-work-wont-lead-to-dystopia-evi-3867db64c64b#Claim 1|Life's Work Won't Lead to Dystopia — claim 1]] and [[lifes-work-wont-lead-to-dystopia-evi-3867db64c64b#Claim 2|claim 2]] present a more liberatory scenario centered on abundance and meaningful activity.
 - [[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 1|Detecting the Secret Cyborgs — claim 1]] and [[detecting-the-secret-cyborgs-evi-945c979b066d#Claim 2|claim 2]] identify human labor hidden behind automated presentation.
 - [[ai-drake-just-set-an-impossible-legal-trap-for-google-evi-028bfe5b80f1#Claim 1|AI Drake Just Set an Impossible Legal Trap for Google — claim 1]] raises appropriation and compensation questions around cultural production.
+- [[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1|AI won’t steal as many jobs as expected — claim 1]] reports that most studied visual tasks were not yet economical to automate.
+- [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 1|AI-Generated “Workslop” — claim 1]] and [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2|claim 2]] document cognitive work shifted to recipients.
+- [[horseless-intelligence-evi-0bc67b22c4ff#Claim 1|Horseless intelligence — claim 1]] identifies displacement driven by managerial overestimation as a distinct mechanism.
 
 ## Current assessment
 
-Automation posture and distribution are separate design problems. A technically appropriate level of delegation does not determine who owns the resulting capability, who is paid, or who can refuse. Claims about automation gains should therefore state the ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
+Automation posture, realized productivity, and distribution are three separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine who owns the capability, who is paid, or who can refuse. Claims about automation gains should therefore state the workflow boundary, deployment economics, ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
 
 ## Open questions
 

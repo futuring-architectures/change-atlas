@@ -31,6 +31,9 @@ Ecosystem advantage depends on actors outside central command, yet products and 
 - [[squad-wealth-evi-dbf9042a8b6e#Claim 1|Squad Wealth — claim 1]] makes collective self-recognition a prerequisite for coherent informal groups.
 - [[open-source-ai-is-the-path-forward-evi-1eb62fe74eb7#Claim 1|Open Source AI — claim 1]] shows a sponsor seeking distributed complement production around a common platform.
 - [[fantasy-miniatures-run-on-a-modular-global-supply-chain|The fantasy-miniature supply chain]] shows coordination through marketplaces, licenses, subscriptions, payments, standards, and specialist firms rather than one hierarchy.
+- [[the-age-of-de-bossification-evi-a96cd272949d#Claim 2|The Age of De-Bossification — claim 2]] proposes leadership through influence rather than monitoring, but supplies no comparative outcome.
+- [[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2|The AI-native organization — claim 2]] makes evaluation, monitoring, and correction prerequisites for flattening around agents.
+- [[hierarchy-as-meaning-infrastructure|Hierarchy as meaning infrastructure]] warns that removing an information-routing layer can also remove interpretation and development.
 
 ## Missing or discriminating evidence
 
@@ -39,6 +42,8 @@ Ecosystem advantage depends on actors outside central command, yet products and 
 - How sponsor control changes after complementors make irreversible investments.
 - Measures of responsiveness, coherence, duplicated effort, bargaining power, and participant recourse.
 - Cases where distributed control improved outcomes without making accountability diffuse.
+- Evidence about whether AI distributes decision authority or only execution while objectives and rule-setting remain centralized.
+- Mechanisms that preserve meaning, apprenticeship, and responsibility when formal layers are removed.
 
 ## Suggested next sources or actions
 
@@ -48,7 +53,7 @@ Ecosystem advantage depends on actors outside central command, yet products and 
 
 ## Resolution
 
-_Open. The collection supplies coordination mechanisms and normative positions, but no comparative architecture for distributing control._
+_Open. The Organization collection adds an AI-specific trust condition and a missing meaning function, but still supplies no comparative architecture or outcome evidence for distributing control._
 
 ## Relationships
 

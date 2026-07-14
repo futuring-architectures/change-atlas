@@ -12,7 +12,8 @@
         "[[in-this-era-openness-wins-evi-46304a0ed935#Claim 3]]",
         "[[permeable-organizations-exploring-the-boundary-of-the-firm-evi-8bdbc7ca9ce6#Claim 2]]",
         "[[exit-to-community-evi-bffdd32df955#Claim 1]]",
-        "[[exit-to-community-evi-bffdd32df955#Claim 2]]"
+        "[[exit-to-community-evi-bffdd32df955#Claim 2]]",
+        "[[the-age-of-de-bossification-evi-a96cd272949d#Claim 2]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -32,6 +33,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The Ecosystems collection adds a stakeholder mechanism: permeable firms can depend on orbital contributors who lack formal access, voice, or ownership, while community-powered digital firms rarely use cooperative structures. It strengthens the stewardship case but still lacks a comparative distributed-governance outcome."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The Organization collection adds de-bossification as an explicit alternative to monitoring and control and an AI-native requirement for earned trust before flattening. This strengthens the design rationale but still supplies no observed comparative stewardship outcome."
         }
       ],
       "resolution_target": null
@@ -63,6 +70,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The modular fantasy-miniature supply chain shows scalable coordination across specialized firms, but it is neither a megaproject nor evidence that modularity improves megaproject governance."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The Organization collection discusses modular firms, platforms, and coordination layers but adds no megaproject case, governance comparison, or reusable modular-delivery method."
         }
       ],
       "resolution_target": null
@@ -89,6 +102,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The current source offers a broad cohort interpretation without a dated succession case or evidence separating age from institutional position."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Refounding and de-bossification address leadership adaptation, but the collection contains no tenure comparison or evidence that separates generation, age, role, and institutional incentives."
         }
       ],
       "resolution_target": null
@@ -253,6 +272,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The source reports early signs without a named organizational case; organization and culture evidence should test authority, reach, and countervailing hierarchy."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection forecasts influence-based leadership and broader individual scope, but it adds no observed internal following, network reach measure, or case of influence overriding formal hierarchy."
         }
       ],
       "resolution_target": null
@@ -327,6 +352,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Exit to Community broadens the ownership rationale from protocols to community-powered firms, while also reporting that cooperatives remain uncommon among prominent digital startups. Ownership-community fit is plausible, but adoption scarcity and absent longitudinal outcomes qualify the proposition."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The Organization collection addresses firm boundaries, networks, and participant coordination but adds no ownership mechanism or longitudinal community durability outcome."
         }
       ],
       "resolution_target": null
@@ -361,6 +392,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The cultural-and-social-technology and AI-as-environment positions broaden the agency risk from hidden interface state to norm and goal formation, but comparative user evidence across interface forms remains absent."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Natural-language organizational control increases abstraction between intent and execution, but the collection does not compare user agency across inference-first and direct-manipulation interfaces."
         }
       ],
       "resolution_target": null
@@ -368,13 +405,15 @@
     {
       "id": "prp-eb6b438dce8a",
       "statement": "AI-dependent products may require continuous revalidation as upstream model behavior, capability, and cost change.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "after-the-internet-paradigms",
       "surfaced_in": "wiki/hubs/paradigms",
       "evidence": [
         "[[if-ai-is-so-great-why-isnt-it-working-evi-9451a32b064d#Claim 1]]",
         "[[if-ai-is-so-great-why-isnt-it-working-evi-9451a32b064d#Claim 2]]",
-        "[[vibe-coding-menugen-evi-0ce549d72b42#Claim 2]]"
+        "[[vibe-coding-menugen-evi-0ce549d72b42#Claim 2]]",
+        "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1]]",
+        "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -393,6 +432,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The Llama source makes an AI platform dependent on a changing complement ecosystem, but provides no product revalidation process or longitudinal case of upstream model change."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The AI-native organization source supplies a reusable operating requirement: data, evaluation, governance, learning loops, monitoring, and correction. It strengthens continuous revalidation as a practice, though it still lacks a longitudinal upstream-model-change case."
         }
       ],
       "resolution_target": null
@@ -400,12 +445,13 @@
     {
       "id": "prp-de32f067c458",
       "statement": "Enterprise AI optimization may shift from maximizing model capability toward maximizing useful intelligence per dollar.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "after-the-internet-paradigms",
       "surfaced_in": "wiki/hubs/paradigms",
       "evidence": [
         "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1]]",
-        "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2]]"
+        "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2]]",
+        "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -424,6 +470,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection contains ecosystem and distribution arguments but no comparative enterprise evidence about useful intelligence per dollar."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The MIT computer-vision study shows that technical task exposure can remain economically unattractive after deployment costs are modeled. This strengthens the value-per-dollar mechanism without directly comparing enterprise model choices."
         }
       ],
       "resolution_target": null
@@ -479,6 +531,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection supplies an industrial-knowledge warning and a mainframe dependency case, but lacks comparative transition outcomes and methods for preserving tacit expertise."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection distinguishes process from judgment and information routing from meaning scaffolding, but adds no legacy-system transition case or method for preserving incumbent expertise."
         }
       ],
       "resolution_target": null
@@ -505,6 +563,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Meta explicitly links Llama's value to tools, silicon optimization, and integrations built by other firms. The source is a sponsor strategy statement and does not establish how open the resulting control, economics, or governance will be."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The Organization collection adds platform and external-value-creation arguments but no observed open-model complement mobilization or evidence about sponsor control."
         }
       ],
       "resolution_target": null
@@ -512,12 +576,14 @@
     {
       "id": "prp-7650797f1cdc",
       "statement": "Distributed startup playbooks may turn formerly scarce operational knowledge into ecosystem infrastructure.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "nature-of-the-firm-ecosystems",
       "surfaced_in": "wiki/hubs/ecosystems",
       "evidence": [
         "[[the-professionalization-of-startups-evi-42c4186964e1#Claim 1]]",
-        "[[the-professionalization-of-startups-evi-42c4186964e1#Claim 2]]"
+        "[[the-professionalization-of-startups-evi-42c4186964e1#Claim 2]]",
+        "[[how-to-validate-your-startup-idea-evi-ea0915790e6a#Claim 1]]",
+        "[[how-to-validate-your-startup-idea-evi-ea0915790e6a#Claim 2]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-organization",
@@ -531,6 +597,96 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection reports a larger experienced workforce and faster reuse of distributed lessons, but supplies no measured transfer outcome and does not test whether playbooks improve competence or suppress context-specific variation."
+        },
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "The startup-validation source supports learning from reverse-engineered cases while explicitly rejecting a universal sequence and acknowledging timing, luck, grit, and survivorship bias. Playbooks may spread knowledge, but portability remains bounded."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-516df0a73843",
+      "statement": "Human organizational roles may shift from executing bounded processes toward orchestration, evaluation, judgment, and exception handling.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-organization",
+      "surfaced_in": "wiki/hubs/organization",
+      "evidence": [
+        "[[managing-ai-agents-teams-evi-d0ddd38f787a#Claim 1]]",
+        "[[managing-ai-agents-teams-evi-d0ddd38f787a#Claim 2]]",
+        "[[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 1]]",
+        "[[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 2]]",
+        "[[a-vision-for-product-teams-evi-cbb1d8ab9fed#Claim 1]]",
+        "[[a-vision-for-product-teams-evi-cbb1d8ab9fed#Claim 2]]",
+        "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-culture",
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Several independent authors forecast orchestration and judgment roles as process execution becomes cheaper, while the workslop case shows evaluation and repair work already moving across workflows. The corpus lacks representative role-transition and employment evidence."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-9c4f835d779b",
+      "statement": "Natural language may become an organizational control surface for describing and executing workflows.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-organization",
+      "surfaced_in": "wiki/hubs/organization",
+      "evidence": [
+        "[[dont-fear-the-coming-trough-of-ai-disillusionment-evi-e2eb10c8d25e#Claim 1]]",
+        "[[dont-fear-the-coming-trough-of-ai-disillusionment-evi-e2eb10c8d25e#Claim 2]]",
+        "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1]]",
+        "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies the abstraction-layer forecast and an AI-native trust requirement, but no observed organization whose natural-language control surface reliably governs consequential workflows."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-0c268d6efa3f",
+      "statement": "Machine-scale coordination may move some economic activity from firms toward networks.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-organization",
+      "surfaced_in": "wiki/hubs/organization",
+      "evidence": [
+        "[[why-doesn-t-software-show-up-in-productivity-evi-fb0ef33c9cbd#Claim 2]]",
+        "[[from-firms-to-networks-how-coordination-technology-will-reorganise-everything-evi-1f3bfb709db5#Claim 1]]",
+        "[[from-firms-to-networks-how-coordination-technology-will-reorganise-everything-evi-1f3bfb709db5#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-communities",
+        "how-we-learn-architectures",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-organization",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Transaction-cost theory supplies the mechanism and one author forecasts machine-scale coordination infrastructure, but the collection contains no observed shift of activities or governance from firms to machine-coordinated networks."
         }
       ],
       "resolution_target": null
