@@ -245,6 +245,21 @@ class CollectionWorkflowTests(unittest.TestCase):
             [],
         )
 
+    def test_autonomous_committed_report_is_not_editorial_signoff(self):
+        tracker = json.loads(json.dumps(atlas_cli.load_collection_tracker(ROOT)))
+        networks = next(
+            record for record in tracker["collections"]
+            if record["id"] == "after-the-internet-networks"
+        )
+        networks["stage"] = "committed"
+        networks["signoff_mode"] = "autonomous"
+        networks["checkpoint"] = "abcdef0"
+        rendered = atlas_cli.render_collection_review(ROOT, networks, networks["baseline"])
+        self.assertIn("editorial_signoff: autonomous", rendered)
+        self.assertIn("- Decision: autonomous checkpoint", rendered)
+        self.assertIn("- Checkpoint: `abcdef0`", rendered)
+        self.assertNotIn("The editor signed off", rendered)
+
     def test_relevant_collection_requires_backlog_assessment_before_synthesis(self):
         tracker = json.loads(json.dumps(atlas_cli.load_collection_tracker(ROOT)))
         backlog = atlas_cli.load_synthesis_backlog(ROOT)

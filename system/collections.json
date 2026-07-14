@@ -10,10 +10,10 @@
       "entries": 52,
       "entry_start": 1,
       "entry_end": 52,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "fbb8d91",
-      "checkpoint": null
+      "checkpoint": "458df73"
     },
     {
       "id": "after-the-internet-paradigms",

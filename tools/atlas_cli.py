@@ -1352,10 +1352,8 @@ def render_collection_review(root: Path, record: Dict[str, Any], baseline: str) 
         validation_issues.extend(current_issues)
 
     signoff_required = record.get("signoff_mode") == "required"
-    signoff_completed = record.get("signoff_mode") == "completed" or record.get("stage") in {
-        "signed_off",
-        "committed",
-    }
+    signoff_completed = record.get("signoff_mode") == "completed" or record.get("stage") == "signed_off"
+    autonomous_completed = record.get("signoff_mode") == "autonomous" and record.get("stage") == "committed"
     signoff_state = "completed" if signoff_completed else "required" if signoff_required else "autonomous"
     lines = [
         "---",
@@ -1375,6 +1373,8 @@ def render_collection_review(root: Path, record: Dict[str, Any], baseline: str) 
             else
             "Review and sign off on the synthesized Wiki delta below. Evidence metadata and claim extraction are pipeline responsibilities; drill into them only when an exception materially affects synthesis."
             if signoff_required
+            else "This collection was checkpointed autonomously after validation. Material exceptions remain listed for audit."
+            if autonomous_completed
             else "This collection is eligible for an autonomous checkpoint after validation. Material exceptions remain listed for audit."
         ),
         "",
@@ -1457,6 +1457,17 @@ def render_collection_review(root: Path, record: Dict[str, Any], baseline: str) 
             "- Decision: signed off",
             f"- Date: {record.get('signed_off_at', dt.date.today().isoformat())}",
             "- Notes: Governance calibration approved as the standard for the autonomous collection loop.",
+            "",
+        ])
+    elif autonomous_completed:
+        lines.extend([
+            "",
+            "## Sign-off",
+            "",
+            "- Decision: autonomous checkpoint",
+            f"- Date: {dt.date.today().isoformat()}",
+            f"- Checkpoint: `{record.get('checkpoint', 'unrecorded')}`",
+            "- Notes: Completed under the Governance-calibrated autonomous workflow; no editor sign-off was requested.",
             "",
         ])
     else:
