@@ -142,10 +142,10 @@
       "entries": 94,
       "entry_start": 405,
       "entry_end": 498,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "5becc18",
-      "checkpoint": null
+      "checkpoint": "e7432c7"
     },
     {
       "id": "how-we-learn-futuring",
