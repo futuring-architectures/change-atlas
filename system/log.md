@@ -106,3 +106,16 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Expanded Participation is infrastructure and the platform-antitrust Debate with ecosystem contribution, dynamic competition, monopoly-rent, and infrastructure-repurposing evidence.
 - Added the Ecosystem boundary audit to trace contribution, dependency, coordination, control, capture, rights, and recourse beyond the formal firm.
 - Assessed six relevant synthesis-backlog propositions and opened two stable propositions for later organization, architecture, gameplay, and transition collections.
+
+## [2026-07-14] evidence | Review and activate Nature of the Firm Culture collection
+
+- Recovered source metadata for 30 Evidence records in `🧰 Nature of the Firm → 👯 Culture`, including original dates for migrated sources and one explicitly unresolved publication date.
+- Extracted and classified 60 atomic claims while preserving observations, interpretations, predictions, normative positions, and conceptual claims.
+- Registered entries 290–319 in the manifest; anthology progress reached 262 of 686 entries.
+
+## [2026-07-14] synthesis | Create Nature of the Firm Culture Wiki map
+
+- Synthesized the collection into one Hub, three Signals, three Concepts, two Frameworks, one Debate, and two Questions; promoted no Trend from heterogeneous cases and forecasts.
+- Framed culture as an emergent operating system and made its leadership levers inspectable through the Culture influence stack.
+- Added a collaboration-architecture Framework that distinguishes focused work, asynchronous coordination, co-acting groups, and stable teams while preserving apprenticeship and meaning as explicit design needs.
+- Assessed seven relevant synthesis-backlog propositions and opened two stable propositions for later creator and learning collections.

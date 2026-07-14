@@ -39,6 +39,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The Organization collection adds de-bossification as an explicit alternative to monitoring and control and an AI-native requirement for earned trust before flattening. This strengthens the design rationale but still supplies no observed comparative stewardship outcome."
+        },
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Culture supplies indirect influence, autonomy, dissent, and narrative mechanisms but no case in which distributed stewardship changes formal decision power or produces comparative outcomes."
         }
       ],
       "resolution_target": null
@@ -83,12 +89,14 @@
     {
       "id": "prp-e5fc4d5c24c3",
       "statement": "Extended incumbent leadership tenure may create a generational ceiling on technological and institutional innovation.",
-      "status": "open",
+      "status": "qualified",
       "origin_collection": "nature-of-the-firm-governance",
       "surfaced_in": "wiki/hubs/governance",
       "evidence": [
         "[[a-long-delayed-golden-age-or-why-has-the-ict-installation-period-lasted-so-long-evi-5c15b17da2d9#Claim 1]]",
-        "[[a-long-delayed-golden-age-or-why-has-the-ict-installation-period-lasted-so-long-evi-5c15b17da2d9#Claim 2]]"
+        "[[a-long-delayed-golden-age-or-why-has-the-ict-installation-period-lasted-so-long-evi-5c15b17da2d9#Claim 2]]",
+        "[[age-is-malleable-evi-b801ca568acd#Claim 1]]",
+        "[[breaking-the-streaks-of-engineer-ceos-evi-52d606bd06f0#Claim 1]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-organization",
@@ -108,6 +116,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Refounding and de-bossification address leadership adaptation, but the collection contains no tenure comparison or evidence that separates generation, age, role, and institutional incentives."
+        },
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "The Culture collection warns that chronological age is an institutional proxy and separately proposes a succession pattern from engineer to finance leadership. It sharpens the need to separate age, cohort, role, tenure, and incentives but supplies no tenure-outcome comparison."
         }
       ],
       "resolution_target": null
@@ -115,12 +129,14 @@
     {
       "id": "prp-3f7dbd5fcbe7",
       "statement": "Design stewardship may require imagination and meaning-making beyond the instrumental logic of design as a business tool.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-governance",
       "surfaced_in": "wiki/hubs/governance",
       "evidence": [
         "[[designing-for-the-last-earth-evi-3d32f7b192f8#Claim 1]]",
-        "[[designing-for-the-last-earth-evi-3d32f7b192f8#Claim 2]]"
+        "[[designing-for-the-last-earth-evi-3d32f7b192f8#Claim 2]]",
+        "[[the-designer-the-surrealist-and-the-potted-plant-evi-6099f63813be#Claim 1]]",
+        "[[the-designer-the-surrealist-and-the-potted-plant-evi-6099f63813be#Claim 2]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -135,6 +151,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The proposition is normatively clear but lacks an operational account of stewardship or evidence from a design practice."
+        },
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The designer blind-spots source adds a concrete design-practice rationale: designers can expose inherited frames and unserved demographics. It strengthens the imagination claim but still lacks participatory authorship and evaluated stewardship outcomes."
         }
       ],
       "resolution_target": null
@@ -278,6 +300,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection forecasts influence-based leadership and broader individual scope, but it adds no observed internal following, network reach measure, or case of influence overriding formal hierarchy."
+        },
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection examines informal culture, disruptive talent, and narrative influence but provides no observed employee-built following or evidence that it redistributed authority independently of hierarchy."
         }
       ],
       "resolution_target": null
@@ -537,6 +565,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection distinguishes process from judgment and information routing from meaning scaffolding, but adds no legacy-system transition case or method for preserving incumbent expertise."
+        },
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The programmer-apprenticeship warning concerns future tacit learning, but the collection adds no legacy-system transition case, retention method, or outcome evidence for incumbent expertise."
         }
       ],
       "resolution_target": null
@@ -603,6 +637,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The startup-validation source supports learning from reverse-engineered cases while explicitly rejecting a universal sequence and acknowledging timing, luck, grit, and survivorship bias. Playbooks may spread knowledge, but portability remains bounded."
+        },
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection offers collaboration and culture design heuristics but no evidence about startup-playbook diffusion, ecosystem infrastructure, or portability across contexts."
         }
       ],
       "resolution_target": null
@@ -610,7 +650,7 @@
     {
       "id": "prp-516df0a73843",
       "statement": "Human organizational roles may shift from executing bounded processes toward orchestration, evaluation, judgment, and exception handling.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-organization",
       "surfaced_in": "wiki/hubs/organization",
       "evidence": [
@@ -620,7 +660,9 @@
         "[[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 2]]",
         "[[a-vision-for-product-teams-evi-cbb1d8ab9fed#Claim 1]]",
         "[[a-vision-for-product-teams-evi-cbb1d8ab9fed#Claim 2]]",
-        "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
+        "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]",
+        "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2]]",
+        "[[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 1]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -634,6 +676,65 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Several independent authors forecast orchestration and judgment roles as process execution becomes cheaper, while the workslop case shows evaluation and repair work already moving across workflows. The corpus lacks representative role-transition and employment evidence."
+        },
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The Culture collection independently argues that cheap generation shifts scarcity toward collective commitment and forecasts substitution of machine assistance for peer collaboration. It strengthens the role-shift mechanism but remains forecast-heavy and lacks representative job-transition evidence."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-8a332364c8a2",
+      "statement": "AI-mediated substitution for colleagues may erode apprenticeship, recognition, and shared meaning even when individual task output improves.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-culture",
+      "surfaced_in": "wiki/hubs/firm-culture",
+      "evidence": [
+        "[[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 1]]",
+        "[[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 2]]",
+        "[[setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Two sources identify lost peer contact, developmental interaction, recognition, and meaning as plausible consequences of AI-mediated work. They provide mechanisms and forecasts, not observed longitudinal outcomes."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-1281313cdeb5",
+      "statement": "As competent artifacts become cheaper to generate, collective commitment and judgment may become more binding constraints than ideation.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-culture",
+      "surfaced_in": "wiki/hubs/firm-culture",
+      "evidence": [
+        "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 1]]",
+        "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2]]",
+        "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "power-to-creators-gameplay",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-culture",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection supplies a clear scarcity-shift thesis and earlier evidence that cheap output can create downstream evaluation work. It lacks comparative observations showing commitment or judgment becoming the dominant constraint."
         }
       ],
       "resolution_target": null

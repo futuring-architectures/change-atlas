@@ -10,7 +10,7 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 🔮 After the Internet / 👩‍⚖️ Rules | 13 | 13 | 30 | Committed | Completed | — | `07b8701` |
 | 🧰 Nature of the Firm / 🌍 Ecosystems | 16 | 16 | 32 | Committed | Autonomous | [[system/reviews/nature-of-the-firm-ecosystems|Open report]] | `c07c1d8` |
 | 🧰 Nature of the Firm / ⚡️ Organization | 33 | 33 | 66 | Committed | Autonomous | [[system/reviews/nature-of-the-firm-organization|Open report]] | `95e6f4c` |
-| 🧰 Nature of the Firm / 👯 Culture | 30 | 0 | 0 | Planned | Autonomous | — | — |
+| 🧰 Nature of the Firm / 👯 Culture | 30 | 30 | 60 | Synthesis Ready | Autonomous | [[system/reviews/nature-of-the-firm-culture|Open report]] | — |
 | 🧰 Nature of the Firm / 👩‍⚖️ Governance | 13 | 13 | 31 | Committed | Completed | [[system/reviews/nature-of-the-firm-governance|Open report]] | `daa1adb` |
 | 🧑‍🎨 Power to Creators / 🤝 Communities | 15 | 0 | 0 | Planned | Autonomous | — | — |
 | 🧑‍🎨 Power to Creators / ⚡️ Niches | 13 | 0 | 0 | Planned | Autonomous | — | — |
@@ -29,8 +29,8 @@ This dashboard is generated from `system/collections.json` and repository conten
 
 ## Synthesis backlog
 
-- Tracked propositions: 20
-- Unresolved propositions: 20
+- Tracked propositions: 22
+- Unresolved propositions: 22
 - Promoted propositions: 0
 - Retired propositions: 0
 - Pipeline source of truth: `system/synthesis-backlog.json`

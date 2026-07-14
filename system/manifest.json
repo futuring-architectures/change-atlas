@@ -275,9 +275,46 @@
             "evi-6ce1d0622be3",
             "evi-ce49c35011a3"
           ]
+        },
+        "🧰 Nature of the Firm → 👯 Culture": {
+          "completed_at": "2026-07-14",
+          "entry_end": 319,
+          "entry_start": 290,
+          "evidence_ids": [
+            "evi-b801ca568acd",
+            "evi-897e78794bed",
+            "evi-aa3e030af1a2",
+            "evi-7f4e63b0bcc7",
+            "evi-12a69a8799f0",
+            "evi-3e9f76daedde",
+            "evi-6e991f6c6b66",
+            "evi-7e35c849f7a0",
+            "evi-c833d9cbe470",
+            "evi-9e34d38afb92",
+            "evi-9c97d8fdffa7",
+            "evi-198e87a89b6a",
+            "evi-880fc6626f19",
+            "evi-6f0561576c1e",
+            "evi-6099f63813be",
+            "evi-609dbf41c632",
+            "evi-e24400dc15b6",
+            "evi-2b1577d60850",
+            "evi-f6e14c6c3cd6",
+            "evi-65a6547ef3e9",
+            "evi-d6292d419327",
+            "evi-2f90a2156c8c",
+            "evi-c5b910e1aca4",
+            "evi-52d606bd06f0",
+            "evi-54d2c3925e07",
+            "evi-3f753ac0ec57",
+            "evi-6c031cc23008",
+            "evi-122ddfa90b55",
+            "evi-89b78bd3fa91",
+            "evi-7f770ed00298"
+          ]
         }
       },
-      "completed_entries": 232,
+      "completed_entries": 262,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -847,6 +884,46 @@
           "file": "evidence/sources/tiktok-boom-evi-9e4f0ee6a2a7.md",
           "id": "evi-9e4f0ee6a2a7"
         },
+        "290": {
+          "file": "evidence/sources/age-is-malleable-evi-b801ca568acd.md",
+          "id": "evi-b801ca568acd"
+        },
+        "291": {
+          "file": "evidence/sources/how-amazon-automated-work-and-put-its-people-to-better-use-evi-897e78794bed.md",
+          "id": "evi-897e78794bed"
+        },
+        "292": {
+          "file": "evidence/sources/bus-factor-1-evi-aa3e030af1a2.md",
+          "id": "evi-aa3e030af1a2"
+        },
+        "293": {
+          "file": "evidence/sources/how-to-manage-disruptive-talent-evi-7f4e63b0bcc7.md",
+          "id": "evi-7f4e63b0bcc7"
+        },
+        "294": {
+          "file": "evidence/sources/why-did-i-leave-google-or-why-did-i-stay-so-long-evi-12a69a8799f0.md",
+          "id": "evi-12a69a8799f0"
+        },
+        "295": {
+          "file": "evidence/sources/think-biologically-messy-management-for-a-complex-world-evi-3e9f76daedde.md",
+          "id": "evi-3e9f76daedde"
+        },
+        "296": {
+          "file": "evidence/sources/disruption-at-work-its-more-than-just-wfh-evi-6e991f6c6b66.md",
+          "id": "evi-6e991f6c6b66"
+        },
+        "297": {
+          "file": "evidence/sources/the-winners-of-remote-work-evi-7e35c849f7a0.md",
+          "id": "evi-7e35c849f7a0"
+        },
+        "298": {
+          "file": "evidence/sources/corner-stores-are-the-new-darlings-of-the-global-tech-industry-evi-c833d9cbe470.md",
+          "id": "evi-c833d9cbe470"
+        },
+        "299": {
+          "file": "evidence/sources/company-culture-and-how-it-can-be-worth-150-million-evi-9e34d38afb92.md",
+          "id": "evi-9e34d38afb92"
+        },
         "3": {
           "file": "evidence/sources/a-prosocial-social-network-evi-3008443b1aee.md",
           "id": "evi-3008443b1aee"
@@ -855,9 +932,89 @@
           "file": "evidence/sources/the-future-of-search-is-boutique-evi-ccdaac8e8841.md",
           "id": "evi-ccdaac8e8841"
         },
+        "300": {
+          "file": "evidence/sources/remote-first-async-second-evi-9c97d8fdffa7.md",
+          "id": "evi-9c97d8fdffa7"
+        },
+        "301": {
+          "file": "evidence/sources/world-building-in-hybrid-organisations-evi-198e87a89b6a.md",
+          "id": "evi-198e87a89b6a"
+        },
+        "302": {
+          "file": "evidence/sources/stop-admiring-the-problem-be-a-builder-evi-880fc6626f19.md",
+          "id": "evi-880fc6626f19"
+        },
+        "303": {
+          "file": "evidence/sources/do-we-still-need-teams-evi-6f0561576c1e.md",
+          "id": "evi-6f0561576c1e"
+        },
+        "304": {
+          "file": "evidence/sources/the-designer-the-surrealist-and-the-potted-plant-evi-6099f63813be.md",
+          "id": "evi-6099f63813be"
+        },
+        "305": {
+          "file": "evidence/sources/management-as-video-game-design-evi-609dbf41c632.md",
+          "id": "evi-609dbf41c632"
+        },
+        "306": {
+          "file": "evidence/sources/setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6.md",
+          "id": "evi-e24400dc15b6"
+        },
+        "307": {
+          "file": "evidence/sources/tragedy-of-the-uncommon-evi-2b1577d60850.md",
+          "id": "evi-2b1577d60850"
+        },
+        "308": {
+          "file": "evidence/sources/mourning-google-evi-f6e14c6c3cd6.md",
+          "id": "evi-f6e14c6c3cd6"
+        },
+        "309": {
+          "file": "evidence/sources/why-the-debate-about-the-future-of-ai-needs-less-darwin-and-more-latour-evi-65a6547ef3e9.md",
+          "id": "evi-65a6547ef3e9"
+        },
         "31": {
           "file": "evidence/sources/you-can-give-people-what-they-want-or-you-can-give-them-web3-evi-6cfbeebb7dc9.md",
           "id": "evi-6cfbeebb7dc9"
+        },
+        "310": {
+          "file": "evidence/sources/ai-companies-are-getting-the-culture-war-they-deserve-evi-d6292d419327.md",
+          "id": "evi-d6292d419327"
+        },
+        "311": {
+          "file": "evidence/sources/latent-expertise-everyone-is-in-r-and-d-evi-2f90a2156c8c.md",
+          "id": "evi-2f90a2156c8c"
+        },
+        "312": {
+          "file": "evidence/sources/twilight-of-the-hegemon-evi-c5b910e1aca4.md",
+          "id": "evi-c5b910e1aca4"
+        },
+        "313": {
+          "file": "evidence/sources/breaking-the-streaks-of-engineer-ceos-evi-52d606bd06f0.md",
+          "id": "evi-52d606bd06f0"
+        },
+        "314": {
+          "file": "evidence/sources/two-weak-spots-in-big-tech-economics-evi-54d2c3925e07.md",
+          "id": "evi-54d2c3925e07"
+        },
+        "315": {
+          "file": "evidence/sources/we-need-to-break-the-disruption-mindset-evi-3f753ac0ec57.md",
+          "id": "evi-3f753ac0ec57"
+        },
+        "316": {
+          "file": "evidence/sources/narrative-as-firmware-evi-6c031cc23008.md",
+          "id": "evi-6c031cc23008"
+        },
+        "317": {
+          "file": "evidence/sources/the-programmer-identity-crisis-evi-122ddfa90b55.md",
+          "id": "evi-122ddfa90b55"
+        },
+        "318": {
+          "file": "evidence/sources/collaboration-after-cheap-intelligence-evi-89b78bd3fa91.md",
+          "id": "evi-89b78bd3fa91"
+        },
+        "319": {
+          "file": "evidence/sources/the-copy-and-the-guru-evi-7f770ed00298.md",
+          "id": "evi-7f770ed00298"
         },
         "32": {
           "file": "evidence/sources/sufficient-decentralization-for-social-networks-evi-7d067bde8a5b.md",
