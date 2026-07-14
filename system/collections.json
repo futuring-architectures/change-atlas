@@ -22,10 +22,10 @@
       "entries": 105,
       "entry_start": 53,
       "entry_end": 157,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "ee97e6a",
-      "checkpoint": null
+      "checkpoint": "6d4bbb8"
     },
     {
       "id": "after-the-internet-culture",
