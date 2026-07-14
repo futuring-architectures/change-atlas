@@ -69,10 +69,10 @@
       "entries": 33,
       "entry_start": 257,
       "entry_end": 289,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "c98a20c",
-      "checkpoint": null
+      "checkpoint": "95e6f4c"
     },
     {
       "id": "nature-of-the-firm-culture",
