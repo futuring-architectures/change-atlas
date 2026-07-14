@@ -14,6 +14,8 @@ relationships:
     target: "[[frontier-models-are-studied-as-complex-natural-phenomena]]"
   - type: refined_by
     target: "[[is-ai-a-tool-mind-organism-or-infrastructure]]"
+  - type: refines
+    target: "[[should-ai-agents-be-designed-as-workers-or-capabilities]]"
 description: "Calling AI a mind, tool, organism, worker, database, or infrastructure changes which questions appear natural, which tests seem valid, and where responsibility is located."
 evidence:
   - "[[the-metaphors-of-artificial-intelligence-evi-27dfd8bb61d1#Claim 1]]"
@@ -59,3 +61,4 @@ Melanie Mitchell explicitly argues that the individual-mind metaphor directs sci
 
 - [[frontier-models-are-studied-as-complex-natural-phenomena|Frontier-model interpretability research]] exemplifies metaphor organizing a research method.
 - The Debate [[is-ai-a-tool-mind-organism-or-infrastructure|Is AI a tool, mind, organism, or infrastructure?]] separates the consequences of competing frames.
+- Related to [[should-ai-agents-be-designed-as-workers-or-capabilities|Should AI agents be designed as workers or capabilities?]], where metaphor changes the unit of organization design.

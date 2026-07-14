@@ -9,7 +9,9 @@ tags:
   - software-economics
   - moats
   - ai-markets
-relationships: []
+relationships:
+  - type: raises_question
+    target: "[[how-should-firms-measure-value-when-software-is-easy-to-replace]]"
 description: "Lower software-production costs may erode application margins and proprietary moats, or increase the advantage of firms that control compute, models, distribution, data, and integration."
 evidence:
   - "[[the-end-of-software-evi-9f10ffcf61a4#Claim 1]]"
@@ -18,6 +20,10 @@ evidence:
   - "[[the-new-new-moats-evi-8cd19d386e96#Claim 2]]"
   - "[[to-succeed-all-we-need-is-unimaginable-sums-of-money-evi-3d6279d590f2#Claim 2]]"
   - "[[ai-looks-like-a-bubble-evi-c49e961c15b1#Claim 1]]"
+  - "[[the-model-t-comes-to-silicon-valley-evi-5a2a7354a725#Claim 2]]"
+  - "[[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 1]]"
+  - "[[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 2]]"
+  - "[[the-vibe-coding-trap-evi-6bc4abe83e11#Claim 1]]"
 ---
 
 # Will cheaper software commoditize advantage or deepen scale moats?
@@ -39,6 +45,7 @@ When AI makes software and model output cheaper, does value disperse through com
 - Open model releases can weaken model-layer concentration while shifting advantage to integration, data, workflow, or distribution.
 - Transformative technology can create social value while producing poor or highly unequal investor returns.
 - New use cases may expand the market enough for both commodity infrastructure and differentiated systems to coexist.
+- Cheaper alternatives may erode weak SaaS while increasing the value of measurable outcomes, trust, data, and integration.
 
 ## Sources of disagreement
 
@@ -54,6 +61,9 @@ When AI makes software and model output cheaper, does value disperse through com
 - [[the-new-new-moats-evi-8cd19d386e96#Claim 1|The New New Moats — claim 1]] credits open models with dispersing value, while [[the-new-new-moats-evi-8cd19d386e96#Claim 2|claim 2]] makes scale a conditional moat.
 - [[to-succeed-all-we-need-is-unimaginable-sums-of-money-evi-3d6279d590f2#Claim 2|“To Succeed, All We Need Is Unimaginable Sums of Money” — claim 2]] predicts a commodity layer.
 - [[ai-looks-like-a-bubble-evi-c49e961c15b1#Claim 1|AI Looks Like a Bubble — claim 1]] separates world-changing utility from equal financial returns.
+- [[the-model-t-comes-to-silicon-valley-evi-5a2a7354a725#Claim 2|The Model T Comes to Silicon Valley — claim 2]] forecasts market expansion and new firms as production gets cheaper.
+- [[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 1|Easier to build, Easier to replace? — claim 1]] predicts pressure to prove outcomes; [[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 2|claim 2]] predicts a shift from access to accountability.
+- [[the-vibe-coding-trap-evi-6bc4abe83e11#Claim 1|The vibe coding trap — claim 1]] narrows near-term vulnerability to poorly differentiated SaaS.
 
 ## Current assessment
 
@@ -67,4 +77,4 @@ The dispute is not resolved at one level. Software production can commoditize wh
 
 ## Relationships
 
-No typed relationship is asserted yet; later market and ecosystem collections should connect this Debate to observed firm structures.
+- Raises [[how-should-firms-measure-value-when-software-is-easy-to-replace|How should firms measure value when software is easy to replace?]].

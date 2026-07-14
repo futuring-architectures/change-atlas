@@ -89,6 +89,13 @@
           "outcome": "no_change",
           "note": "The Organization collection discusses modular firms, platforms, and coordination layers but adds no megaproject case, governance comparison, or reusable modular-delivery method."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Architectures adds modularity as an emergent property of composed systems and user adaptation, but no megaproject case, governance comparison, or reusable modular-delivery method."
+        }
       ],
       "resolution_target": null
     },
@@ -183,6 +190,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Product vision, intuition beyond existing data, design for breakage, inclusive scenario language, and shared AI surfaces strengthen imagination and meaning-making as stewardship capacities. Evaluated stewardship practice remains absent."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Design for emergence, difficult simplicity, narrative world-building, and human-centered interface constraints strengthen the operational account of imaginative stewardship. Comparative stewardship outcomes remain absent."
         }
       ],
       "resolution_target": null
@@ -526,6 +540,13 @@
           "outcome": "strengthened",
           "note": "Chat-interface affordance failures, editable system prompts, and user-shaped tools strengthen the agency mechanism. The collection still lacks comparative evidence about actual user control over memory, prediction, and action."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Personal-agent, text-for-agents, and agent-experience forecasts strengthen the inference-first direction, while the oversight and database-reality evidence shows why machine friction can fall as visible human agency and recourse weaken."
+        }
       ],
       "resolution_target": null
     },
@@ -566,6 +587,13 @@
           "outcome": "strengthened",
           "note": "The AI-native organization source supplies a reusable operating requirement: data, evaluation, governance, learning loops, monitoring, and correction. It strengthens continuous revalidation as a practice, though it still lacks a longitudinal upstream-model-change case."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Generative-AI red teaming as part of product construction, stochastic-software ambiguity, and changing agent interfaces strengthen the case for continuous revalidation beyond conventional release testing."
+        }
       ],
       "resolution_target": null
     },
@@ -603,6 +631,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "The MIT computer-vision study shows that technical task exposure can remain economically unattractive after deployment costs are modeled. This strengthens the value-per-dollar mechanism without directly comparing enterprise model choices."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection discusses duplicated compute investment and falling software-production cost but adds no comparative useful-intelligence-per-dollar measure or optimization case."
         }
       ],
       "resolution_target": null
@@ -734,6 +769,13 @@
           "outcome": "no_change",
           "note": "Open protocols and local-first software offer adjacent decentralization cases, but the collection contains no open-model sponsor case showing complement mobilization around a controlled platform."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Agent-compatible complements and shared infrastructure appear in the collection, but no open-model sponsor strategy or observed complement mobilization is added."
+        }
       ],
       "resolution_target": null
     },
@@ -773,6 +815,13 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection offers collaboration and culture design heuristics but no evidence about startup-playbook diffusion, ecosystem infrastructure, or portability across contexts."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection supplies organizational and software design advice but no evidence that distributed startup playbooks became shared ecosystem infrastructure."
         }
       ],
       "resolution_target": null
@@ -820,6 +869,13 @@
           "outcome": "strengthened",
           "note": "Multiple sources move human work toward intent, architecture, curation, verification, integration, and exception handling. Most are practitioner interpretations or forecasts, so prevalence and distributional outcomes remain open."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Software oversight, programmable-organization roles, capability allocation, AI auditors, and ideation bottlenecks all move human work toward orchestration, judgment, evaluation, and exceptions. Most claims remain forecasts rather than role-level outcome studies."
+        }
       ],
       "resolution_target": null
     },
@@ -854,6 +910,13 @@
           "outcome": "strengthened",
           "note": "The collection identifies crutch effects, loss of full-problem understanding, role narrowing, and disappearing entry-level practice. It strengthens the mechanism without longitudinal apprenticeship or belonging outcomes."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Extended-mind theory and learning-style evidence show that AI-mediated performance can either extend cognition or remove needed structure. The collection sharpens boundary conditions but does not observe apprenticeship or meaning loss longitudinally."
+        }
       ],
       "resolution_target": null
     },
@@ -886,6 +949,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Abundant alternatives, weakened output proxies, contextual defensibility, and selective abduction all relocate scarcity toward judgment and commitment. The evidence remains mechanism-rich but outcome-light."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Strategy, difficult simplicity, cheap iteration, ideation scarcity, architectural coherence, and institutional AI constraint roles converge on judgment and commitment as post-generation bottlenecks. Comparative organizational outcomes remain missing."
         }
       ],
       "resolution_target": null
@@ -921,6 +991,13 @@
           "outcome": "strengthened",
           "note": "Malleable software, prompts as requirements, editable system prompts, and intent-centered code review provide convergent mechanisms for natural language as a control surface. Reliability and organizational adoption remain uneven."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "The programmable-organization forecast, agent experience, and requirements-through-iteration account strengthen natural language as a prospective control surface, while ambiguity and assurance remain unresolved."
+        }
       ],
       "resolution_target": null
     },
@@ -953,6 +1030,13 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "User-authored agents and bespoke tools imply new maintenance burdens, but Gameplay adds no community-level observation of maintainer attention depletion or boundary-work sustainability."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection addresses attention, coordination, and architecture but adds no creator-maintainer case or measure of depleted boundary work."
         }
       ],
       "resolution_target": null
@@ -1036,6 +1120,13 @@
           "outcome": "strengthened",
           "note": "Cheap code, reversed build-buy choices, editable agent behavior, and agent-oriented markets strengthen the mechanism for bespoke occasional-use software. Adoption, discovery economics, and agent-layer concentration remain forecasts."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Personal-agent and agent-experience forecasts support agent-mediated discovery and operation, but no occasional-use niche-tool economics are observed; control may relocate into the personal-agent layer."
+        }
       ],
       "resolution_target": null
     },
@@ -1068,6 +1159,13 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Human meaning, contextual judgment, verification, point of view, and responsible commitment recur across independent sources as differentiators after cheap production. Status effects and market rewards remain largely predictive."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Outcome accountability, distinctive judgment, difficult simplicity, and institutional challenger roles strengthen the value mechanism, but the collection does not measure status allocation or demonstrate a premium for human responsibility."
         }
       ],
       "resolution_target": null
@@ -1102,6 +1200,13 @@
           "outcome": "strengthened",
           "note": "The collection adds productive friction, deliberate constraint, fewer outputs, and resistance to one-size-fits-all interfaces. These strengthen the design rationale but do not evaluate slow or subtractive interfaces directly."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "The minimal sensor case and meeting-subtraction rules strengthen the claim that deliberate constraint can require judgment. They do not compare slow-interface outcomes under abundance."
+        }
       ],
       "resolution_target": null
     },
@@ -1134,6 +1239,13 @@
           "outcome": "no_change",
           "note": "Liquid Super Teams and blurred project boundaries forecast human network coordination, but the collection adds no machine-scale mechanism or observed movement of economic activity out of firms."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "Emergent hierarchy, networked supply, and programmable organizations provide mechanisms, but no observed economic activity is shown moving from firms to networks because of machine-scale coordination."
+        }
       ],
       "resolution_target": null
     },
@@ -1160,6 +1272,13 @@
           "outcome": "opened",
           "note": "Citizen development and user-programmable agents establish capability-distribution mechanisms, while gatekeeping and platform cases expose control risks. Ownership, maintenance, and recourse outcomes are not compared."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Disposable software, proliferating software supply, agent-mediated interfaces, and lower switching cost strengthen the gap between creation and durable ownership, integration, maintenance, and recourse."
+        }
       ],
       "resolution_target": null
     },
@@ -1184,6 +1303,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Cheap polished output, explicit verification bottlenecks, and a journalistic practice case converge on the mechanism. No organization-level capacity or throughput comparison establishes the rate limit."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Red teaming inside product construction, generated variants, high commit volume, stochastic behavior, and human oversight requirements all strengthen verification as a limiting organizational capacity."
         }
       ],
       "resolution_target": null
@@ -1212,6 +1338,13 @@
           "outcome": "opened",
           "note": "Role forecasts, crutch effects, and the need for underlying experience identify a plausible expertise-pipeline mechanism. The corpus lacks longitudinal novice progression or labor-demand outcomes."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "no_change",
+          "note": "The collection discusses learner scaffolding and changing expert roles but supplies no case in which removal of entry-level production reduces the later supply of expert judgment."
+        }
       ],
       "resolution_target": null
     },
@@ -1237,6 +1370,13 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Complexity, scenario, and systems-thinking sources converge on the mechanism, but the collection contains no comparative organizational adaptation outcomes."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Requirements-through-iteration and design for emergence add concrete reversible adaptation mechanisms. The collection still lacks a comparison showing that organizations using them adapt better."
         }
       ],
       "resolution_target": null
@@ -1264,6 +1404,13 @@
           "outcome": "opened",
           "note": "Falling capability cost and institutionally mediated deployment support the shift in emphasis. The corpus does not compare access-control and deployment-governance regimes."
         }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "strengthened",
+          "note": "Agent experience, capability allocation, the two institutional clocks, and work-system adoption tensions relocate governance into interfaces, workflows, assurance, and institutional architecture. Regime-level comparison remains absent."
+        }
       ],
       "resolution_target": null
     },
@@ -1288,6 +1435,89 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection identifies a single-user architectural limitation and a shared-surface design proposal, but no implemented comparative system or shared-reality outcome."
+        }
+      ,
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "qualified",
+          "note": "Private exploration and the forecast that personal agents will dominate show benefits of individual surfaces, while collective coordination evidence supports shared spaces for some dependencies. No comparative AI sensemaking outcome resolves the boundary."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-69e1497e1057",
+      "statement": "Organizations that redesign workflows and decision rights around changing capabilities may outperform organizations that insert agents into inherited roles.",
+      "status": "open",
+      "origin_collection": "how-we-learn-architectures",
+      "surfaced_in": "wiki/hubs/architectures",
+      "evidence": [
+        "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 1]]",
+        "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 2]]",
+        "[[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-sustaining",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Capability-centered redesign and activity-system diagnosis supply a coherent mechanism, but no comparative performance outcome."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-be860f298fbf",
+      "statement": "Faster component generation may increase the relative value of architecture, assurance, and institutional absorption rather than eliminate them.",
+      "status": "open",
+      "origin_collection": "how-we-learn-architectures",
+      "surfaced_in": "wiki/hubs/architectures",
+      "evidence": [
+        "[[the-vibes-dont-scale-evi-e058bb26186a#Claim 1]]",
+        "[[the-vibes-dont-scale-evi-e058bb26186a#Claim 2]]",
+        "[[the-two-clocks-evi-e5c4870ba6b1#Claim 1]]",
+        "[[google-had-a-very-bad-week-evi-5cf643c0f542#Claim 1]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-sustaining",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Architecture, assurance, and institutional-clock mechanisms converge, but the collection does not measure their relative value as generation accelerates."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-34559bf974bb",
+      "statement": "Agent-compatible infrastructure may improve machine performance while reducing human agency unless inspection and recourse are designed as first-class interfaces.",
+      "status": "open",
+      "origin_collection": "how-we-learn-architectures",
+      "surfaced_in": "wiki/hubs/architectures",
+      "evidence": [
+        "[[introducing-ax-why-agent-experience-matters-evi-effc684d312e#Claim 1]]",
+        "[[automating-software-engineering-evi-7ef15bf9b270#Claim 1]]",
+        "[[the-people-do-not-yearn-for-automation-evi-49c858fbc20b#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "how-we-learn-sustaining",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "how-we-learn-architectures",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The collection establishes opposing interface requirements for agent operability and human control, but supplies no comparative deployed interface outcome."
         }
       ],
       "resolution_target": null

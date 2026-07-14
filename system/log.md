@@ -177,3 +177,15 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Added the Adaptive futuring cycle and Uncertainty-to-action matrix to connect signal curation, present perception, historical mechanism, plural scenarios, reversible probes, anticipatory friction, and revision.
 - Promoted no Trend because the collection supplies strong mechanisms and dated cases but no consistently measured directional outcome across time and institutions.
 - Assessed five inherited synthesis-backlog propositions and opened three stable propositions on reversible probes, deployment governance, and shared AI surfaces.
+
+## [2026-07-14] evidence | Review and activate Architectures collection
+
+- Recovered source metadata for 50 Evidence records in `👩🏻‍🎓 How We Learn → 🏛 Architectures`, preserving two unresolved and two inferred publication dates rather than inventing precision.
+- Extracted and classified 100 atomic claims and registered entries 575–624; anthology progress reached 554 of 686 entries.
+
+## [2026-07-14] synthesis | Create Architectures Wiki map
+
+- Synthesized one Hub, four Signals, six Concepts, one Framework, two Debates, and two Questions; updated 14 existing pages with Architectures Evidence and reciprocal typed links.
+- Added the Capability-to-architecture loop to connect purpose, changing capability, work-system diagnosis, workflow and authority redesign, agent and human interfaces, assurance, and repeated reallocation.
+- Strengthened but did not promote the candidate software-work Trend: the collection adds newer practice accounts and counterpressure from architecture and verification, not representative industry measurement.
+- Assessed 22 inherited synthesis-backlog propositions and opened three stable propositions on capability-centered redesign, architecture and assurance under abundant generation, and agent-compatible infrastructure with human recourse.

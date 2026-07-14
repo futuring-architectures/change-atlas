@@ -9,7 +9,9 @@ tags:
   - governance
   - measurement
   - tacit-knowledge
-relationships: []
+relationships:
+  - type: refined_by
+    target: "[[database-reality-inversion]]"
 description: "The limit created when measurable representations omit the habits, relationships, and distributed skills through which an institution actually functions."
 evidence:
   - "[[seeing-like-a-ceo-evi-bc1b8533b647#Claim 1]]"
@@ -56,4 +58,4 @@ The name is an Atlas synthesis. Steve Randy Waldman's source supplies the underl
 
 ## Relationships
 
-- No typed relationship is asserted yet. Future Evidence should test whether legibility limits qualify particular measurement Frameworks rather than linking the concept to governance in general.
+- Related to [[database-reality-inversion|Database-reality inversion]], which describes what happens when institutions defend a partial representation against corrective reality.

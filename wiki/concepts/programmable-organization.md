@@ -18,6 +18,8 @@ evidence:
   - "[[dont-fear-the-coming-trough-of-ai-disillusionment-evi-e2eb10c8d25e#Claim 2]]"
   - "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1]]"
   - "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]"
+  - "[[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 1]]"
+  - "[[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 2]]"
 ---
 
 # Programmable organization
@@ -52,6 +54,7 @@ Lee Bryant proposes natural language as an abstraction layer capable of spinning
 - [[dont-fear-the-coming-trough-of-ai-disillusionment-evi-e2eb10c8d25e#Claim 2|Don’t Fear the Coming Trough of AI Disillusionment — claim 2]] frames it as an abstraction-layer progression.
 - [[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1|The AI-native organization — claim 1]] identifies the required supporting infrastructure.
 - [[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2|The AI-native organization — claim 2]] makes earned trust a precondition for structural flattening.
+- [[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 1|Will We See the First Programmable Organisations In 2025? — claim 1]] forecasts back-end automation paired with more human front-end work; [[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 2|claim 2]] forecasts unbundled and recombined roles.
 
 ## Relationships
 

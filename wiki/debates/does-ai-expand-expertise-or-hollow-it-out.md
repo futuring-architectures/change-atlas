@@ -9,6 +9,8 @@ tags: ["expertise", "deskilling", "augmentation"]
 relationships:
   - type: raises_question
     target: "[[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning]]"
+  - type: refined_by
+    target: "[[extended-mind]]"
 description: "The same abstraction that expands individual reach can remove the practice, feedback, and responsibility through which expertise develops."
 evidence:
   - "[[everyone-is-above-average-evi-81d2db9acff6#Claim 1]]"
@@ -46,4 +48,4 @@ The contradiction is conditional rather than rhetorical. Prior competence, task 
 ## Relationships
 
 - Raises [[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning|the Question of preserving apprenticeship and shared meaning]].
-
+- Reframed by [[extended-mind|Extended mind]], which evaluates the human-tool system while preserving the distinction between performance and learned competence.

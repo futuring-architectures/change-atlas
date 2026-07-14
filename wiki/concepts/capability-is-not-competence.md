@@ -16,6 +16,8 @@ relationships:
     target: "[[does-ai-automate-thought-or-reproduce-patterns]]"
   - type: qualified_by
     target: "[[ai-attribution-changes-content-evaluation]]"
+  - type: qualified_by
+    target: "[[extended-mind]]"
 description: "Success on an output, benchmark, or bounded task does not by itself establish reliable performance across the full workflow, context, and accountability of competent practice."
 evidence:
   - "[[the-fundamental-extrapolation-error-evi-b53afd4c787e#Claim 2]]"
@@ -61,3 +63,4 @@ Jon Evans calls unsupported movement from exam performance to job performance th
 - The [[ai-claim-ladder|AI claim ladder]] operationalizes this distinction during evaluation.
 - The Debate [[does-ai-automate-thought-or-reproduce-patterns|Does AI automate thought or reproduce patterns?]] refines what different mechanisms would and would not imply about competence.
 - [[ai-attribution-changes-content-evaluation|AI attribution changes content evaluation]] qualifies output-only assessment by showing that perceived provenance also affects judged value.
+- Related to [[extended-mind|Extended mind]]: a hybrid system can perform capably without the person internalizing the same competence.

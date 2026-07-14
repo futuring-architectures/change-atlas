@@ -14,6 +14,8 @@ relationships:
     target: "[[automation-posture-matrix]]"
   - type: raised_by
     target: "[[cultural-and-social-technology]]"
+  - type: raised_by
+    target: "[[agent-experience]]"
 description: "Which interface forms let people shape goals, understand state, correct inference, and retain responsibility instead of becoming junior operators of opaque automation?"
 origin: another_page
 ---
@@ -33,6 +35,8 @@ Copilots, agents, conversational interfaces, predictive interfaces, and heads-up
 - The human-in-the-loop evidence warns that nominal oversight can reduce control and moral agency: [[ai-s-human-in-the-loop-isn-t-evi-734825a3f56e#Claim 1|AI's “human in the loop” isn't — claim 1]].
 - [[cultural-and-social-technology|Cultural and social technology]] broadens agency beyond task control: an interface can transmit norms and form goals as well as execute instructions.
 - [[your-ai-is-not-a-tool-evi-f725ec6bd434#Claim 1|Your AI Is Not a Tool — claim 1]] argues that sufficiently enveloping AI behaves more like an environment than an external implement.
+- [[agent-experience|Agent experience]] adds machine operability and human oversight as a coupled interface problem; [[automating-software-engineering-evi-7ef15bf9b270#Claim 1|Automating software engineering — claim 1]] requires people to inspect, redirect, and debug agent action.
+- [[thoughts-about-the-future-of-ui-evi-b5dfd230286e#Claim 1|Thoughts about the future of UI — claim 1]] forecasts personal agents displacing dedicated app agents, which may relocate interface control into a dominant agent layer.
 
 ## Missing or discriminating evidence
 
@@ -55,3 +59,4 @@ _Open. The collection supplies design positions and failure modes, not comparati
 
 - Raised by the [[automation-posture-matrix|Automation posture matrix]].
 - Also raised by [[cultural-and-social-technology|cultural and social technology]], where preserving agency includes influence over formative environments.
+- Raised by [[agent-experience|Agent experience]], which is incomplete if a machine can act but its human cannot inspect or redirect it.

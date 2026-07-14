@@ -14,6 +14,10 @@ relationships:
     target: "[[co-acting-group]]"
   - type: qualified_by
     target: "[[does-cheap-intelligence-reduce-the-need-for-human-collaboration]]"
+  - type: exemplified_by
+    target: "[[youtube-bullpen-absorbed-cross-cutting-coordination]]"
+  - type: raises_question
+    target: "[[how-can-private-exploration-coexist-with-collective-accountability]]"
 description: "A decision sequence for choosing focused individual work, asynchronous coordination, co-acting groups, or stable teams based on interdependence and social needs."
 evidence:
   - "[[remote-first-async-second-evi-9c97d8fdffa7#Claim 2]]"
@@ -21,6 +25,8 @@ evidence:
   - "[[do-we-still-need-teams-evi-6f0561576c1e#Claim 1]]"
   - "[[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 2]]"
   - "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2]]"
+  - "[[rituals-for-hypergrowth-an-inside-look-at-how-youtube-scaled-evi-af83b3796356#Claim 1]]"
+  - "[[figma-is-a-panopticon-evi-3744ae7a5e6e#Claim 1]]"
 ---
 
 # Collaboration architecture choice
@@ -72,8 +78,11 @@ Name who integrates outputs, resolves conflict, verifies AI assistance, and can 
 - [[do-we-still-need-teams-evi-6f0561576c1e#Claim 1|Do We Still Need Teams? — claim 1]] defines co-acting groups.
 - [[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 2|The Programmer Identity Crisis — claim 2]] identifies apprenticeship and social-learning risk.
 - [[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2|Collaboration After Cheap Intelligence — claim 2]] identifies commitment as a possible post-generation constraint.
+- [[rituals-for-hypergrowth-an-inside-look-at-how-youtube-scaled-evi-af83b3796356#Claim 1|Rituals for hypergrowth — claim 1]] supplies a shared-presence ritual for unexpected dependencies.
+- [[figma-is-a-panopticon-evi-3744ae7a5e6e#Claim 1|Figma is a Panopticon — claim 1]] supplies the counter-risk of performative visibility.
 
 ## Relationships
 
 - Operationalizes [[co-acting-group|the Co-acting group Concept]].
 - Qualified by [[does-cheap-intelligence-reduce-the-need-for-human-collaboration|the cheap-intelligence collaboration Debate]].
+- Illustrated by [[youtube-bullpen-absorbed-cross-cutting-coordination|the YouTube bullpen case]] and raises [[how-can-private-exploration-coexist-with-collective-accountability|the private-exploration Question]].

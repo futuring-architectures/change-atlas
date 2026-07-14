@@ -11,6 +11,8 @@ tags:
   - ai-agents
 relationships:
   - type: raised_by
+    target: "[[does-cheap-code-retire-technical-debt-or-amplify-architectural-debt]]"
+  - type: raised_by
     target: "[[software-work-is-shifting-from-code-production-to-orchestration-and-assurance]]"
   - type: raised_by
     target: "[[ai-native-organizational-trust-stack]]"

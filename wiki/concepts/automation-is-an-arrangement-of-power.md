@@ -13,6 +13,8 @@ relationships:
     target: "[[ai-agency-audit]]"
   - type: qualifies
     target: "[[does-cheap-software-distribute-agency-or-relocate-control]]"
+  - type: exemplified_by
+    target: "[[database-reality-inversion]]"
 description: "Automation outcomes follow from how people, capital, tasks, ownership, and decision rights are arranged—not from technical capability alone."
 evidence:
   - "[[dont-be-fooled-much-ai-is-just-outsourcing-redux-evi-8c4fcebe798a#Claim 1]]"
@@ -46,4 +48,4 @@ This concept does not deny technical change. It prevents capability from being t
 - Supported by [[gig-platforms-enabled-remote-work-while-capturing-worker-value|the gig-platform Signal]].
 - Operationalized by the [[ai-agency-audit|AI agency audit]].
 - Qualifies [[does-cheap-software-distribute-agency-or-relocate-control|the cheap-software agency Debate]].
-
+- Exemplified by [[database-reality-inversion|Database-reality inversion]], where system legibility disciplines lived practice.

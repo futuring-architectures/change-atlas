@@ -9,6 +9,8 @@ tags: ["agents", "end-user-programming", "control"]
 relationships:
   - type: operationalized_by
     target: "[[ai-agency-audit]]"
+  - type: refined_by
+    target: "[[design-for-emergence]]"
 description: "Agents whose persistent behavior, context, tools, and boundaries can be inspected and shaped by the people on whose behalf they act."
 evidence:
   - "[[ai-horseless-carriages-evi-fc941dc02559#Claim 1]]"
@@ -39,4 +41,4 @@ An editable prompt is not sufficient. Meaningful programmability requires legibl
 ## Relationships
 
 - Operationalized by the [[ai-agency-audit|AI agency audit]].
-
+- Complements [[design-for-emergence|Design for emergence]], the wider posture of giving users control over context-specific outcomes.

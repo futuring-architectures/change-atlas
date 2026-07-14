@@ -2,6 +2,63 @@
   "files": {
     "raw/thoughtforming-on-digital-transformation-2026-07-10.md": {
       "collections": {
+        "👩🏻‍🎓 How We Learn → 🏛 Architectures": {
+          "completed_at": "2026-07-14",
+          "entry_end": 624,
+          "entry_start": 575,
+          "evidence_ids": [
+            "evi-d863fd4d0ce4",
+            "evi-1524a6428247",
+            "evi-f8c3107e3e60",
+            "evi-87fd4211ede2",
+            "evi-af83b3796356",
+            "evi-a0d0468a507e",
+            "evi-ea65e65dc5ad",
+            "evi-56b3e433fc51",
+            "evi-3e2c157eb3bd",
+            "evi-623e53c05fee",
+            "evi-db85ab2c41a0",
+            "evi-b6b637f42c96",
+            "evi-4dc822acf424",
+            "evi-3129c407c5a6",
+            "evi-092f5a720a69",
+            "evi-8db2514a439c",
+            "evi-10cd06e05d10",
+            "evi-5cf643c0f542",
+            "evi-7ef15bf9b270",
+            "evi-bea5aa341ca9",
+            "evi-57198127edb7",
+            "evi-5edc80c03033",
+            "evi-b1e3e5042c19",
+            "evi-fdd40b995788",
+            "evi-effc684d312e",
+            "evi-4fe2d0bc66b3",
+            "evi-1e2013081ae6",
+            "evi-3c99488fb578",
+            "evi-b5dfd230286e",
+            "evi-8e022bdca853",
+            "evi-e3031c7c6432",
+            "evi-f496e3f9d74e",
+            "evi-08371ea1fa15",
+            "evi-1f2292e54e62",
+            "evi-5a2a7354a725",
+            "evi-cc6e7a684039",
+            "evi-dcef283c7978",
+            "evi-5c0ade01553f",
+            "evi-6bc4abe83e11",
+            "evi-de2981d8e0b9",
+            "evi-72a467db0abd",
+            "evi-3744ae7a5e6e",
+            "evi-2fd4337901fe",
+            "evi-94227778339a",
+            "evi-cff98d147c7d",
+            "evi-49c858fbc20b",
+            "evi-e058bb26186a",
+            "evi-565ef45469bf",
+            "evi-e5c4870ba6b1",
+            "evi-dadce4b3f82c"
+          ]
+        },
         "👩🏻‍🎓 How We Learn → 🔮 Futuring": {
           "completed_at": "2026-07-14",
           "entry_end": 574,
@@ -591,7 +648,7 @@
           ]
         }
       },
-      "completed_entries": 504,
+      "completed_entries": 554,
       "evidence": {
         "1": {
           "file": "evidence/sources/more-kuaishou-less-tiktok-evi-9880fc632368.md",
@@ -2425,13 +2482,113 @@
           "file": "evidence/sources/dont-dethrone-consciousness-evi-e4d54c473435.md",
           "id": "evi-e4d54c473435"
         },
+        "575": {
+          "file": "evidence/sources/productive-uncertainty-evi-d863fd4d0ce4.md",
+          "id": "evi-d863fd4d0ce4"
+        },
+        "576": {
+          "file": "evidence/sources/world-building-evi-1524a6428247.md",
+          "id": "evi-1524a6428247"
+        },
+        "577": {
+          "file": "evidence/sources/to-create-real-change-that-lasts-start-with-a-majority-evi-f8c3107e3e60.md",
+          "id": "evi-f8c3107e3e60"
+        },
+        "578": {
+          "file": "evidence/sources/the-fabric-of-the-org-is-links-not-bricks-evi-87fd4211ede2.md",
+          "id": "evi-87fd4211ede2"
+        },
+        "579": {
+          "file": "evidence/sources/rituals-for-hypergrowth-an-inside-look-at-how-youtube-scaled-evi-af83b3796356.md",
+          "id": "evi-af83b3796356"
+        },
         "58": {
           "file": "evidence/sources/the-atom-the-bit-and-the-gene-silicon-valleys-innovators-dilemma-evi-35a1947c7777.md",
           "id": "evi-35a1947c7777"
         },
+        "580": {
+          "file": "evidence/sources/lets-redefine-productivity-for-the-hybrid-era-evi-a0d0468a507e.md",
+          "id": "evi-a0d0468a507e"
+        },
+        "581": {
+          "file": "evidence/sources/common-beliefs-not-common-behaviors-evi-ea65e65dc5ad.md",
+          "id": "evi-ea65e65dc5ad"
+        },
+        "582": {
+          "file": "evidence/sources/leadership-in-an-ecosystem-age-secrets-for-success-evi-56b3e433fc51.md",
+          "id": "evi-56b3e433fc51"
+        },
+        "583": {
+          "file": "evidence/sources/when-terrible-things-happen-to-good-innovation-projects-evi-3e2c157eb3bd.md",
+          "id": "evi-3e2c157eb3bd"
+        },
+        "584": {
+          "file": "evidence/sources/asad-madni-and-the-life-saving-sensor-evi-623e53c05fee.md",
+          "id": "evi-623e53c05fee"
+        },
+        "585": {
+          "file": "evidence/sources/if-were-all-so-busy-why-isnt-anything-getting-done-evi-db85ab2c41a0.md",
+          "id": "evi-db85ab2c41a0"
+        },
+        "586": {
+          "file": "evidence/sources/when-to-design-for-emergence-evi-b6b637f42c96.md",
+          "id": "evi-b6b637f42c96"
+        },
+        "587": {
+          "file": "evidence/sources/organizational-transformation-is-an-emotional-journey-evi-4dc822acf424.md",
+          "id": "evi-4dc822acf424"
+        },
+        "588": {
+          "file": "evidence/sources/dont-let-hierarchy-stifle-innovation-evi-3129c407c5a6.md",
+          "id": "evi-3129c407c5a6"
+        },
+        "589": {
+          "file": "evidence/sources/the-end-of-excel-evi-092f5a720a69.md",
+          "id": "evi-092f5a720a69"
+        },
         "59": {
           "file": "evidence/sources/false-positivism-evi-90118f5064b2.md",
           "id": "evi-90118f5064b2"
+        },
+        "590": {
+          "file": "evidence/sources/in-defense-of-strategy-evi-8db2514a439c.md",
+          "id": "evi-8db2514a439c"
+        },
+        "591": {
+          "file": "evidence/sources/vertebrate-technology-evi-10cd06e05d10.md",
+          "id": "evi-10cd06e05d10"
+        },
+        "592": {
+          "file": "evidence/sources/google-had-a-very-bad-week-evi-5cf643c0f542.md",
+          "id": "evi-5cf643c0f542"
+        },
+        "593": {
+          "file": "evidence/sources/automating-software-engineering-evi-7ef15bf9b270.md",
+          "id": "evi-7ef15bf9b270"
+        },
+        "594": {
+          "file": "evidence/sources/we-need-to-rewild-the-internet-evi-bea5aa341ca9.md",
+          "id": "evi-bea5aa341ca9"
+        },
+        "595": {
+          "file": "evidence/sources/how-to-raise-your-artificial-intelligence-evi-57198127edb7.md",
+          "id": "evi-57198127edb7"
+        },
+        "596": {
+          "file": "evidence/sources/back-to-text-how-ai-might-reverse-web-design-evi-5edc80c03033.md",
+          "id": "evi-5edc80c03033"
+        },
+        "597": {
+          "file": "evidence/sources/will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19.md",
+          "id": "evi-b1e3e5042c19"
+        },
+        "598": {
+          "file": "evidence/sources/bad-shape-evi-fdd40b995788.md",
+          "id": "evi-fdd40b995788"
+        },
+        "599": {
+          "file": "evidence/sources/introducing-ax-why-agent-experience-matters-evi-effc684d312e.md",
+          "id": "evi-effc684d312e"
         },
         "6": {
           "file": "evidence/sources/american-idle-evi-612f3d76b303.md",
@@ -2441,13 +2598,113 @@
           "file": "evidence/sources/drip-is-the-new-drop-evi-96aa5daf9d84.md",
           "id": "evi-96aa5daf9d84"
         },
+        "600": {
+          "file": "evidence/sources/energy-suck-evi-4fe2d0bc66b3.md",
+          "id": "evi-4fe2d0bc66b3"
+        },
+        "601": {
+          "file": "evidence/sources/what-to-do-when-the-ai-blackmails-you-evi-1e2013081ae6.md",
+          "id": "evi-1e2013081ae6"
+        },
+        "602": {
+          "file": "evidence/sources/extending-minds-with-generative-ai-evi-3c99488fb578.md",
+          "id": "evi-3c99488fb578"
+        },
+        "603": {
+          "file": "evidence/sources/thoughts-about-the-future-of-ui-evi-b5dfd230286e.md",
+          "id": "evi-b5dfd230286e"
+        },
+        "604": {
+          "file": "evidence/sources/idle-thoughts-on-programming-and-ai-evi-8e022bdca853.md",
+          "id": "evi-8e022bdca853"
+        },
+        "605": {
+          "file": "evidence/sources/what-is-an-ai-first-software-company-evi-e3031c7c6432.md",
+          "id": "evi-e3031c7c6432"
+        },
+        "606": {
+          "file": "evidence/sources/chasing-freedom-species-mismatch-in-room-203-evi-f496e3f9d74e.md",
+          "id": "evi-f496e3f9d74e"
+        },
+        "607": {
+          "file": "evidence/sources/entering-technical-debt-s-zirp-era-evi-08371ea1fa15.md",
+          "id": "evi-08371ea1fa15"
+        },
+        "608": {
+          "file": "evidence/sources/tectoai-is-building-a-feature-not-a-future-evi-1f2292e54e62.md",
+          "id": "evi-1f2292e54e62"
+        },
+        "609": {
+          "file": "evidence/sources/the-model-t-comes-to-silicon-valley-evi-5a2a7354a725.md",
+          "id": "evi-5a2a7354a725"
+        },
         "61": {
           "file": "evidence/sources/this-can-t-go-on-evi-b4df4acb801c.md",
           "id": "evi-b4df4acb801c"
         },
+        "610": {
+          "file": "evidence/sources/easier-to-build-easier-to-replace-evi-cc6e7a684039.md",
+          "id": "evi-cc6e7a684039"
+        },
+        "611": {
+          "file": "evidence/sources/in-defense-of-saas-evi-dcef283c7978.md",
+          "id": "evi-dcef283c7978"
+        },
+        "612": {
+          "file": "evidence/sources/stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f.md",
+          "id": "evi-5c0ade01553f"
+        },
+        "613": {
+          "file": "evidence/sources/the-vibe-coding-trap-evi-6bc4abe83e11.md",
+          "id": "evi-6bc4abe83e11"
+        },
+        "614": {
+          "file": "evidence/sources/the-software-development-lifecycle-is-dead-evi-de2981d8e0b9.md",
+          "id": "evi-de2981d8e0b9"
+        },
+        "615": {
+          "file": "evidence/sources/ai-is-about-to-solve-a-problem-no-engineering-leader-expected-evi-72a467db0abd.md",
+          "id": "evi-72a467db0abd"
+        },
+        "616": {
+          "file": "evidence/sources/figma-is-a-panopticon-evi-3744ae7a5e6e.md",
+          "id": "evi-3744ae7a5e6e"
+        },
+        "617": {
+          "file": "evidence/sources/productive-individuals-dont-make-productive-firms-evi-2fd4337901fe.md",
+          "id": "evi-2fd4337901fe"
+        },
+        "618": {
+          "file": "evidence/sources/the-core-silicon-valley-fallacy-evi-94227778339a.md",
+          "id": "evi-94227778339a"
+        },
+        "619": {
+          "file": "evidence/sources/dont-go-ai-native-evi-cff98d147c7d.md",
+          "id": "evi-cff98d147c7d"
+        },
         "62": {
           "file": "evidence/sources/at-sxsw-a-pathetic-tech-future-struggles-to-be-born-evi-25bee96f5c1e.md",
           "id": "evi-25bee96f5c1e"
+        },
+        "620": {
+          "file": "evidence/sources/the-people-do-not-yearn-for-automation-evi-49c858fbc20b.md",
+          "id": "evi-49c858fbc20b"
+        },
+        "621": {
+          "file": "evidence/sources/the-vibes-dont-scale-evi-e058bb26186a.md",
+          "id": "evi-e058bb26186a"
+        },
+        "622": {
+          "file": "evidence/sources/return-on-tokens-rot-evi-565ef45469bf.md",
+          "id": "evi-565ef45469bf"
+        },
+        "623": {
+          "file": "evidence/sources/the-two-clocks-evi-e5c4870ba6b1.md",
+          "id": "evi-e5c4870ba6b1"
+        },
+        "624": {
+          "file": "evidence/sources/activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c.md",
+          "id": "evi-dadce4b3f82c"
         },
         "63": {
           "file": "evidence/sources/disruption-is-a-two-way-street-evi-c385a5902a20.md",
