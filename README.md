@@ -26,6 +26,7 @@ tools/wiki doctor
 tools/wiki status
 tools/wiki validate
 tools/wiki index
+tools/wiki dashboard
 tools/wiki bootstrap-audit raw/anthology.md
 python3 -m unittest discover -s tests -v
 ```
@@ -87,5 +88,21 @@ tools/wiki bootstrap-register \
 ```
 
 The anthology remains `partial` until all 686 entries are registered; `status` reports partial raw-file progress separately from completed files.
+
+Track all 16 editorial collections in the generated Obsidian-readable dashboard:
+
+```bash
+tools/wiki dashboard
+```
+
+After synthesizing a collection, generate its Wiki-level editorial review package:
+
+```bash
+tools/wiki review-report --collection nature-of-the-firm-governance
+```
+
+Metadata checking and atomic-claim extraction are pipeline stages. The human editorial gate applies to the synthesized Wiki delta shown in the review report.
+
+Emerging propositions that are not ready for Wiki promotion are tracked in `system/synthesis-backlog.json`. Each has a stable identity, evidence, status, relevant future collections, and an assessment history. The validator prevents a relevant collection from reaching synthesis without recording what that batch did—or did not do—to the proposition.
 
 See [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [AGENTS.md](AGENTS.md), and [system/schema.md](system/schema.md) for the complete design.

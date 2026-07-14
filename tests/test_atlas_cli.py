@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import sys
 import shutil
@@ -166,7 +167,80 @@ class CommandTests(unittest.TestCase):
     def test_status_counts_heading_anchored_claims(self):
         result = self.run_wiki("status", "--json")
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        self.assertEqual(json.loads(result.stdout)["atomic_claims"], 30)
+        expected = sum(
+            len(re.findall(r"(?m)^### Claim [1-9][0-9]*$", path.read_text(encoding="utf-8")))
+            for path in (ROOT / "evidence/sources").glob("*.md")
+        )
+        self.assertEqual(json.loads(result.stdout)["atomic_claims"], expected)
+
+    def test_dashboard_is_current(self):
+        result = self.run_wiki("dashboard", "--check")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn("CURRENT system/dashboard.md", result.stdout)
+
+
+class CollectionWorkflowTests(unittest.TestCase):
+    def test_tracker_matches_bootstrap_plan(self):
+        tracker = atlas_cli.load_collection_tracker(ROOT)
+        self.assertEqual(len(tracker["collections"]), 16)
+        self.assertEqual(sum(record["entries"] for record in tracker["collections"]), 686)
+        governance = next(
+            record for record in tracker["collections"]
+            if record["id"] == "nature-of-the-firm-governance"
+        )
+        self.assertEqual(governance["signoff_mode"], "completed")
+        self.assertEqual(governance["stage"], "signed_off")
+        self.assertEqual(governance["signed_off_at"], "2026-07-14")
+        self.assertEqual(governance["baseline"], "07b8701")
+
+    def test_dashboard_separates_pipeline_from_editorial_signoff(self):
+        tracker = atlas_cli.load_collection_tracker(ROOT)
+        governance = next(
+            record for record in tracker["collections"]
+            if record["id"] == "nature-of-the-firm-governance"
+        )
+        governance["stage"] = "awaiting_editorial_signoff"
+        governance["signoff_mode"] = "required"
+        pages, issues = atlas_cli.validate_content(ROOT, atlas_cli.load_schema(ROOT))
+        self.assertEqual(issues, [])
+        rendered = atlas_cli.render_collection_dashboard(ROOT, pages, tracker)
+        self.assertIn("Nature of the Firm / 👩‍⚖️ Governance", rendered)
+        self.assertIn("Only **awaiting editorial sign-off** requires the editor", rendered)
+        governance_line = next(
+            line for line in rendered.splitlines()
+            if "Nature of the Firm / 👩‍⚖️ Governance" in line
+        )
+        self.assertIn("| Awaiting Editorial Signoff | Required |", governance_line)
+        self.assertIn("- Tracked propositions: 4", rendered)
+        self.assertIn("- Unresolved propositions: 4", rendered)
+
+    def test_synthesis_backlog_tracks_governance_propositions(self):
+        tracker = atlas_cli.load_collection_tracker(ROOT)
+        backlog = atlas_cli.load_synthesis_backlog(ROOT)
+        pages, content_issues = atlas_cli.validate_content(ROOT, atlas_cli.load_schema(ROOT))
+        self.assertEqual(content_issues, [])
+        self.assertEqual(len(backlog["propositions"]), 4)
+        self.assertEqual(
+            len({proposition["id"] for proposition in backlog["propositions"]}),
+            4,
+        )
+        self.assertEqual(
+            atlas_cli.validate_synthesis_backlog(ROOT, pages, tracker, backlog),
+            [],
+        )
+
+    def test_relevant_collection_requires_backlog_assessment_before_synthesis(self):
+        tracker = json.loads(json.dumps(atlas_cli.load_collection_tracker(ROOT)))
+        backlog = atlas_cli.load_synthesis_backlog(ROOT)
+        pages, content_issues = atlas_cli.validate_content(ROOT, atlas_cli.load_schema(ROOT))
+        self.assertEqual(content_issues, [])
+        ecosystems = next(
+            record for record in tracker["collections"]
+            if record["id"] == "nature-of-the-firm-ecosystems"
+        )
+        ecosystems["stage"] = "synthesis_ready"
+        issues = atlas_cli.validate_synthesis_backlog(ROOT, pages, tracker, backlog)
+        self.assertIn("backlog.relevant_unassessed", {issue.code for issue in issues})
 
 
 class BootstrapAuditTests(unittest.TestCase):

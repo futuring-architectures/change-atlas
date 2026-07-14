@@ -21,9 +21,29 @@
             "evi-8e47b847a90f",
             "evi-0c30a7f66a56"
           ]
+        },
+        "🧰 Nature of the Firm → 👩‍⚖️ Governance": {
+          "completed_at": "2026-07-14",
+          "entry_end": 332,
+          "entry_start": 320,
+          "evidence_ids": [
+            "evi-11a5c4229b7e",
+            "evi-46304a0ed935",
+            "evi-0034eca755fc",
+            "evi-752d26ea7bbd",
+            "evi-5c15b17da2d9",
+            "evi-7b7e963d4cf1",
+            "evi-3d32f7b192f8",
+            "evi-c72f2bef72f1",
+            "evi-f3ed589d9de7",
+            "evi-6f21eb38aa3b",
+            "evi-bc1b8533b647",
+            "evi-6ce1d0622be3",
+            "evi-ce49c35011a3"
+          ]
         }
       },
-      "completed_entries": 13,
+      "completed_entries": 26,
       "evidence": {
         "228": {
           "file": "evidence/sources/anti-monopoly-vs-antitrust-evi-2f5b61db4f37.md",
@@ -76,6 +96,58 @@
         "240": {
           "file": "evidence/sources/the-structure-of-engineering-revolutions-evi-0c30a7f66a56.md",
           "id": "evi-0c30a7f66a56"
+        },
+        "320": {
+          "file": "evidence/sources/every-company-needs-a-narrative-evi-11a5c4229b7e.md",
+          "id": "evi-11a5c4229b7e"
+        },
+        "321": {
+          "file": "evidence/sources/in-this-era-openness-wins-evi-46304a0ed935.md",
+          "id": "evi-46304a0ed935"
+        },
+        "322": {
+          "file": "evidence/sources/how-maximizing-shareholder-value-re-emerged-as-value-creation-evi-0034eca755fc.md",
+          "id": "evi-0034eca755fc"
+        },
+        "323": {
+          "file": "evidence/sources/make-megaprojects-more-modular-evi-752d26ea7bbd.md",
+          "id": "evi-752d26ea7bbd"
+        },
+        "324": {
+          "file": "evidence/sources/a-long-delayed-golden-age-or-why-has-the-ict-installation-period-lasted-so-long-evi-5c15b17da2d9.md",
+          "id": "evi-5c15b17da2d9"
+        },
+        "325": {
+          "file": "evidence/sources/what-it-really-means-to-hold-big-tech-accountable-evi-7b7e963d4cf1.md",
+          "id": "evi-7b7e963d4cf1"
+        },
+        "326": {
+          "file": "evidence/sources/designing-for-the-last-earth-evi-3d32f7b192f8.md",
+          "id": "evi-3d32f7b192f8"
+        },
+        "327": {
+          "file": "evidence/sources/open-ai-isn-t-evi-c72f2bef72f1.md",
+          "id": "evi-c72f2bef72f1"
+        },
+        "328": {
+          "file": "evidence/sources/generative-ai-and-intellectual-property-evi-f3ed589d9de7.md",
+          "id": "evi-f3ed589d9de7"
+        },
+        "329": {
+          "file": "evidence/sources/ai-and-trust-evi-6f21eb38aa3b.md",
+          "id": "evi-6f21eb38aa3b"
+        },
+        "330": {
+          "file": "evidence/sources/seeing-like-a-ceo-evi-bc1b8533b647.md",
+          "id": "evi-bc1b8533b647"
+        },
+        "331": {
+          "file": "evidence/sources/ai-mistakes-are-very-different-from-human-mistakes-evi-6ce1d0622be3.md",
+          "id": "evi-6ce1d0622be3"
+        },
+        "332": {
+          "file": "evidence/sources/the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3.md",
+          "id": "evi-ce49c35011a3"
         }
       },
       "mode": "bootstrap_anthology",

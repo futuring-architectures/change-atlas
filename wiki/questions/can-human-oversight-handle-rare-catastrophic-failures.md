@@ -28,6 +28,9 @@ Governance often assigns a human to monitor or approve automated output. That sa
 - The same source argues that adversarial incentives make machine-learning failures especially consequential: [[undetectable-undefendable-back-doors-for-machine-learning-evi-21ae271cc148#Claim 2|adversarial incentives and model failure]].
 - Advanced AI capability is described as difficult to enumerate and therefore difficult to govern: [[how-do-you-govern-something-that-s-part-software-and-part-people-evi-da73ef066f1e#Claim 1|unknown capabilities as a governance problem]] and [[how-do-you-govern-something-that-s-part-software-and-part-people-evi-da73ef066f1e#Claim 2|the absence of an adequate theory of AI]].
 - [[agent-workflow-displaces-review-and-planning|An agent workflow displaces human review and planning]] reports a workflow in which human code review is absent rather than merely weakened.
+- LLM confidence is described as an unreliable guide to truth, while inconsistent errors make complex multi-step reasoning difficult to trust: [[ai-mistakes-are-very-different-from-human-mistakes-evi-6ce1d0622be3#Claim 1|confidence without calibration]] and [[ai-mistakes-are-very-different-from-human-mistakes-evi-6ce1d0622be3#Claim 2|inconsistent multi-step failure]].
+- Demonstrated knowledge of business factors is therefore insufficient evidence of dependable performance in consequential use: [[ai-mistakes-are-very-different-from-human-mistakes-evi-6ce1d0622be3#Claim 3|the gap between apparent understanding and reliability]].
+- Automation can increase dependence and, over time, risk eroding the human skills, judgment, and adaptability needed for recovery: [[the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3#Claim 1|efficiency coupled to dependence]], [[the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3#Claim 2|dependence eroding resilience]], and [[the-hidden-cost-of-ai-trading-long-term-resilience-for-short-term-efficiency-evi-ce49c35011a3#Claim 3|capability loss through offloading]].
 
 These sources identify the problem; they do not compare oversight mechanisms or establish failure rates.
 
@@ -37,12 +40,16 @@ These sources identify the problem; they do not compare oversight mechanisms or 
 - Failure frequency and severity under normal and adversarial conditions.
 - Evidence about attention decay, escalation thresholds, and whether humans retain meaningful authority.
 - Cases where hybrid review outperforms either full automation or continuous manual review.
+- Calibration evidence that separates fluent confidence from task reliability.
+- Designs that preserve human practice, diagnostic skill, override authority, and recovery capacity during long periods of automation.
+- Evidence distinguishing dependence that creates unacceptable brittleness from ordinary reliance on reliable infrastructure.
 
 ## Suggested next sources or actions
 
 - Look for human-factors research on vigilance and automation bias.
 - Collect documented AI incidents with a reconstructable oversight path.
 - Separate oversight of individual outputs from governance of system deployment, incentives, and access.
+- Test capability-retention mechanisms such as deliberate manual practice, fallback drills, and graduated automation.
 
 ## Resolution
 

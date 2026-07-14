@@ -186,6 +186,14 @@ Use the same principle for Wiki-to-Wiki links whenever a raw filename slug would
 
 Create a new page when the object is sufficiently distinct that other pages would meaningfully link to it. Update an existing page when new evidence adds an attribute, example, qualification, counterpoint, or status change to the same object.
 
+## Synthesis backlog
+
+An emerging proposition is a cross-batch hypothesis that is too meaningful to discard but not yet supported or structured enough for Wiki promotion. It is workflow memory, not an additional Wiki page type.
+
+`system/synthesis-backlog.json` gives each proposition a stable `prp-` identity, current status, originating Hub and collection, Evidence claims, relevant future collections, assessment history, and optional resolution target. Later wording changes must retain the identity.
+
+Statuses are `open`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. Every relevant collection records one of `opened`, `no_change`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. A relevant collection may not reach `synthesis_ready` without an assessment unless the proposition was already promoted or retired.
+
 ## Human review boundaries
 
 Require human review before:

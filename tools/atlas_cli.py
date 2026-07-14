@@ -10,6 +10,7 @@ import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -41,6 +42,7 @@ REQUIRED_DIRECTORIES = (
     "system/templates",
     "system/bootstrap",
     "system/lint-reports",
+    "system/reviews",
     "tools",
     "tests/fixtures",
 )
@@ -51,6 +53,9 @@ REQUIRED_FILES = (
     "system/schema.yaml",
     "system/schema.md",
     "system/manifest.json",
+    "system/collections.json",
+    "system/synthesis-backlog.json",
+    "system/dashboard.md",
     "system/index.md",
     "system/log.md",
     "evidence/index.md",
@@ -63,6 +68,34 @@ CLAIM_HEADING_RE = re.compile(r"(?m)^### Claim ([1-9][0-9]*)\s*$")
 ID_RE = re.compile(r"^[a-z]{3}-[a-z0-9]{6,}$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+COLLECTION_STAGES = (
+    "planned",
+    "evidence_ingested",
+    "metadata_checked",
+    "claims_extracted",
+    "synthesis_ready",
+    "awaiting_editorial_signoff",
+    "signed_off",
+    "committed",
+)
+SIGNOFF_MODES = ("required", "autonomous", "completed")
+PROPOSITION_STATUSES = ("open", "strengthened", "qualified", "contested", "promoted", "retired")
+PROPOSITION_OUTCOMES = (
+    "opened",
+    "no_change",
+    "strengthened",
+    "qualified",
+    "contested",
+    "promoted",
+    "retired",
+)
+SYNTHESIS_COMPLETE_STAGES = (
+    "synthesis_ready",
+    "awaiting_editorial_signoff",
+    "signed_off",
+    "committed",
+)
+PROPOSITION_ID_RE = re.compile(r"^prp-[a-z0-9]{6,}$")
 
 
 class YamlSubsetError(ValueError):
@@ -262,12 +295,8 @@ class Page:
         return value if isinstance(value, str) and value else self.stem
 
 
-def parse_markdown(path: Path) -> Tuple[Optional[Page], List[Issue]]:
+def parse_markdown_text(path: Path, text: str) -> Tuple[Optional[Page], List[Issue]]:
     issues: List[Issue] = []
-    try:
-        text = path.read_text(encoding="utf-8")
-    except (OSError, UnicodeError) as exc:
-        return None, [Issue("file.read", path, str(exc))]
     lines = text.splitlines(keepends=True)
     if not lines or lines[0].strip() != "---":
         return None, [Issue("frontmatter.missing", path, "file must begin with YAML frontmatter")]
@@ -287,6 +316,14 @@ def parse_markdown(path: Path) -> Tuple[Optional[Page], List[Issue]]:
     anchors = ANCHOR_RE.findall(body) + HEADING_RE.findall(body)
     links = WIKILINK_RE.findall(body)
     return Page(path, metadata, body, anchors, links), issues
+
+
+def parse_markdown(path: Path) -> Tuple[Optional[Page], List[Issue]]:
+    try:
+        text = path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exc:
+        return None, [Issue("file.read", path, str(exc))]
+    return parse_markdown_text(path, text)
 
 
 def load_schema(root: Path) -> Dict[str, Any]:
@@ -913,6 +950,283 @@ def render_evidence_index(pages: Sequence[Page], root: Path) -> str:
     return "\n".join(lines)
 
 
+def load_collection_tracker(root: Path) -> Dict[str, Any]:
+    path = root / "system/collections.json"
+    tracker = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(tracker, dict) or tracker.get("schema_version") != 1:
+        raise ValueError("collection tracker must use schema_version 1")
+    raw_file = tracker.get("raw_file")
+    chunk_size = tracker.get("processing_chunk_size")
+    collections = tracker.get("collections")
+    if not isinstance(raw_file, str) or not raw_file.startswith("raw/"):
+        raise ValueError("collection tracker raw_file must point beneath raw/")
+    if not isinstance(chunk_size, int) or isinstance(chunk_size, bool) or chunk_size < 1:
+        raise ValueError("processing_chunk_size must be a positive integer")
+    if not isinstance(collections, list) or not collections:
+        raise ValueError("collection tracker must contain collections")
+
+    plan = json.loads((root / "system/bootstrap/ingestion-plan.json").read_text(encoding="utf-8"))
+    plan_entries = plan.get("entries") if isinstance(plan, dict) else None
+    if not isinstance(plan_entries, list):
+        raise ValueError("bootstrap ingestion plan has no entries")
+    expected: Dict[Tuple[str, str], List[int]] = {}
+    expected_order: List[Tuple[str, str]] = []
+    for entry in plan_entries:
+        if not isinstance(entry, dict):
+            raise ValueError("bootstrap ingestion plan contains a malformed entry")
+        curated_path = entry.get("curated_path")
+        position = entry.get("global_position")
+        if (
+            not isinstance(curated_path, list)
+            or len(curated_path) != 2
+            or not all(isinstance(value, str) for value in curated_path)
+            or not isinstance(position, int)
+        ):
+            raise ValueError("bootstrap ingestion plan contains invalid collection data")
+        key = (curated_path[0], curated_path[1])
+        if key not in expected:
+            expected[key] = []
+            expected_order.append(key)
+        expected[key].append(position)
+
+    seen_ids = set()
+    actual_order: List[Tuple[str, str]] = []
+    for record in collections:
+        if not isinstance(record, dict):
+            raise ValueError("collection tracker records must be mappings")
+        collection_id = record.get("id")
+        h1 = record.get("h1")
+        h2 = record.get("h2")
+        key = (h1, h2)
+        if not isinstance(collection_id, str) or not SLUG_RE.fullmatch(collection_id):
+            raise ValueError(f"invalid collection id {collection_id!r}")
+        if collection_id in seen_ids:
+            raise ValueError(f"duplicate collection id {collection_id!r}")
+        seen_ids.add(collection_id)
+        if key not in expected:
+            raise ValueError(f"unknown tracked collection {h1!r} → {h2!r}")
+        positions = expected[key]
+        if (
+            record.get("entries") != len(positions)
+            or record.get("entry_start") != positions[0]
+            or record.get("entry_end") != positions[-1]
+        ):
+            raise ValueError(f"tracked range differs from ingestion plan for {collection_id}")
+        if record.get("stage") not in COLLECTION_STAGES:
+            raise ValueError(f"invalid stage for {collection_id}: {record.get('stage')!r}")
+        if record.get("signoff_mode") not in SIGNOFF_MODES:
+            raise ValueError(f"invalid signoff_mode for {collection_id}: {record.get('signoff_mode')!r}")
+        if record.get("stage") == "committed" and not isinstance(record.get("checkpoint"), str):
+            raise ValueError(f"committed collection {collection_id} requires a checkpoint")
+        actual_order.append(key)
+    if actual_order != expected_order:
+        raise ValueError("collection tracker order differs from the ingestion plan")
+    return tracker
+
+
+def load_synthesis_backlog(root: Path) -> Dict[str, Any]:
+    path = root / "system/synthesis-backlog.json"
+    backlog = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(backlog, dict) or backlog.get("schema_version") != 1:
+        raise ValueError("synthesis backlog must use schema_version 1")
+    propositions = backlog.get("propositions")
+    if not isinstance(propositions, list):
+        raise ValueError("synthesis backlog propositions must be a list")
+    return backlog
+
+
+def validate_synthesis_backlog(
+    root: Path,
+    pages: Iterable[Page],
+    tracker: Dict[str, Any],
+    backlog: Optional[Dict[str, Any]] = None,
+) -> List[Issue]:
+    path = root / "system/synthesis-backlog.json"
+    issues: List[Issue] = []
+    if backlog is None:
+        try:
+            backlog = load_synthesis_backlog(root)
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            return [Issue("backlog.invalid", path, str(exc))]
+
+    collection_by_id = {record["id"]: record for record in tracker["collections"]}
+    page_by_stem = {page.stem: page for page in pages}
+    seen_ids = set()
+    for index, proposition in enumerate(backlog["propositions"], 1):
+        label = f"proposition {index}"
+        if not isinstance(proposition, dict):
+            issues.append(Issue("backlog.record_invalid", path, f"{label} must be a mapping"))
+            continue
+        proposition_id = proposition.get("id")
+        if not isinstance(proposition_id, str) or not PROPOSITION_ID_RE.fullmatch(proposition_id):
+            issues.append(Issue("backlog.id_invalid", path, f"{label} has invalid id {proposition_id!r}"))
+        elif proposition_id in seen_ids:
+            issues.append(Issue("backlog.id_duplicate", path, f"duplicate proposition id {proposition_id!r}"))
+        else:
+            seen_ids.add(proposition_id)
+            label = proposition_id
+
+        statement = proposition.get("statement")
+        if not isinstance(statement, str) or not statement.strip():
+            issues.append(Issue("backlog.statement_missing", path, f"{label} requires a statement"))
+        status = proposition.get("status")
+        if status not in PROPOSITION_STATUSES:
+            issues.append(Issue("backlog.status_invalid", path, f"{label} has invalid status {status!r}"))
+
+        origin = proposition.get("origin_collection")
+        if origin not in collection_by_id:
+            issues.append(Issue("backlog.collection_unknown", path, f"{label} has unknown origin {origin!r}"))
+        surfaced_in = proposition.get("surfaced_in")
+        if not isinstance(surfaced_in, str) or not surfaced_in.startswith("wiki/"):
+            issues.append(Issue("backlog.surface_invalid", path, f"{label} must point surfaced_in beneath wiki/"))
+        elif not (root / f"{surfaced_in}.md").is_file():
+            issues.append(Issue("backlog.surface_missing", path, f"{label} surfaced_in page does not exist"))
+
+        evidence = proposition.get("evidence")
+        if not isinstance(evidence, list) or not evidence:
+            issues.append(Issue("backlog.evidence_missing", path, f"{label} requires Evidence claims"))
+        else:
+            for reference in evidence:
+                target, anchor = split_wikilink(reference)
+                target_page = page_by_stem.get(target) if target else None
+                if target_page is None or target_page.page_type != "evidence":
+                    issues.append(Issue("backlog.evidence_broken", path, f"{label} has invalid Evidence link {reference!r}"))
+                elif not anchor or anchor not in target_page.anchors:
+                    issues.append(Issue("backlog.evidence_anchor", path, f"{label} link {reference!r} must target a claim"))
+                elif target_page.metadata.get("status") != "active":
+                    issues.append(Issue("backlog.evidence_inactive", path, f"{label} cites inactive Evidence {reference!r}"))
+
+        relevant = proposition.get("relevant_collections")
+        if not isinstance(relevant, list) or not relevant:
+            issues.append(Issue("backlog.relevance_missing", path, f"{label} requires relevant_collections"))
+            relevant = []
+        elif len(relevant) != len(set(value for value in relevant if isinstance(value, str))):
+            issues.append(Issue("backlog.relevance_duplicate", path, f"{label} repeats a relevant collection"))
+        for collection_id in relevant:
+            if collection_id not in collection_by_id:
+                issues.append(Issue("backlog.collection_unknown", path, f"{label} has unknown relevant collection {collection_id!r}"))
+
+        assessments = proposition.get("assessments")
+        if not isinstance(assessments, list) or not assessments:
+            issues.append(Issue("backlog.assessment_missing", path, f"{label} requires an assessment history"))
+            assessments = []
+        assessed_collections = set()
+        for assessment in assessments:
+            if not isinstance(assessment, dict):
+                issues.append(Issue("backlog.assessment_invalid", path, f"{label} has a malformed assessment"))
+                continue
+            collection_id = assessment.get("collection")
+            if collection_id not in collection_by_id:
+                issues.append(Issue("backlog.collection_unknown", path, f"{label} assessment has unknown collection {collection_id!r}"))
+            elif collection_id in assessed_collections:
+                issues.append(Issue("backlog.assessment_duplicate", path, f"{label} has multiple assessments for {collection_id}"))
+            else:
+                assessed_collections.add(collection_id)
+            date = assessment.get("date")
+            try:
+                valid_date = isinstance(date, str) and bool(ISO_DATE_RE.fullmatch(date))
+                if valid_date:
+                    dt.date.fromisoformat(date)
+            except ValueError:
+                valid_date = False
+            if not valid_date:
+                issues.append(Issue("backlog.assessment_date", path, f"{label} assessment requires a valid ISO date"))
+            if assessment.get("outcome") not in PROPOSITION_OUTCOMES:
+                issues.append(Issue("backlog.assessment_outcome", path, f"{label} assessment has invalid outcome"))
+            if not isinstance(assessment.get("note"), str) or not assessment["note"].strip():
+                issues.append(Issue("backlog.assessment_note", path, f"{label} assessment requires a note"))
+        if origin in collection_by_id and origin not in assessed_collections:
+            issues.append(Issue("backlog.origin_unassessed", path, f"{label} requires an assessment from its origin collection"))
+
+        resolution_target = proposition.get("resolution_target")
+        if status == "promoted":
+            target, anchor = split_wikilink(resolution_target)
+            target_page = page_by_stem.get(target) if target else None
+            if target_page is None or target_page.page_type == "evidence" or anchor:
+                issues.append(Issue("backlog.resolution_missing", path, f"promoted {label} requires a Wiki resolution_target"))
+        elif resolution_target is not None:
+            issues.append(Issue("backlog.resolution_conflict", path, f"unpromoted {label} must have null resolution_target"))
+
+        if status not in {"promoted", "retired"}:
+            for collection_id in relevant:
+                record = collection_by_id.get(collection_id)
+                if record and record.get("stage") in SYNTHESIS_COMPLETE_STAGES and collection_id not in assessed_collections:
+                    issues.append(
+                        Issue(
+                            "backlog.relevant_unassessed",
+                            path,
+                            f"{label} requires an assessment before {collection_id} reaches {record['stage']}",
+                        )
+                    )
+    return issues
+
+
+def _collection_evidence_pages(pages: Iterable[Page], record: Dict[str, Any]) -> List[Page]:
+    expected_path = [record["h1"], record["h2"]]
+    return [
+        page
+        for page in pages
+        if page.page_type == "evidence" and page.metadata.get("curated_path") == expected_path
+    ]
+
+
+def render_collection_dashboard(root: Path, pages: Iterable[Page], tracker: Dict[str, Any]) -> str:
+    pages = list(pages)
+    backlog = load_synthesis_backlog(root)
+    lines = [
+        "# Collection workflow",
+        "",
+        "This dashboard is generated from `system/collections.json` and repository content. Pipeline stages are handled by the Atlas workflow. Only **awaiting editorial sign-off** requires the editor.",
+        "",
+        "| Collection | Entries | Evidence | Claims | Pipeline stage | Sign-off | Review | Checkpoint |",
+        "|---|---:|---:|---:|---|---|---|---|",
+    ]
+    for record in tracker["collections"]:
+        evidence = _collection_evidence_pages(pages, record)
+        claims = sum(len(CLAIM_HEADING_RE.findall(page.body)) for page in evidence)
+        review_path = root / "system/reviews" / f"{record['id']}.md"
+        review = f"[[system/reviews/{record['id']}|Open report]]" if review_path.exists() else "—"
+        checkpoint = f"`{record['checkpoint']}`" if record.get("checkpoint") else "—"
+        signoff_labels = {"required": "Required", "autonomous": "Autonomous", "completed": "Completed"}
+        stage = str(record["stage"]).replace("_", " ").title()
+        collection = f"{record['h1']} / {record['h2']}"
+        lines.append(
+            f"| {collection} | {record['entries']} | {len(evidence)} | {claims} | {stage} | "
+            f"{signoff_labels[record['signoff_mode']]} | {review} | {checkpoint} |"
+        )
+    completed = sum(record["stage"] == "committed" for record in tracker["collections"])
+    total_entries = sum(record["entries"] for record in tracker["collections"])
+    proposition_counts = Counter(record["status"] for record in backlog["propositions"])
+    unresolved_propositions = sum(
+        proposition_counts[status]
+        for status in ("open", "strengthened", "qualified", "contested")
+    )
+    lines.extend([
+        "",
+        "## Progress",
+        "",
+        f"- Collection checkpoints committed: {completed}/{len(tracker['collections'])}",
+        f"- Planned source entries: {total_entries}",
+        f"- Preferred processing chunk: up to {tracker['processing_chunk_size']} entries",
+        "",
+        "## Synthesis backlog",
+        "",
+        f"- Tracked propositions: {len(backlog['propositions'])}",
+        f"- Unresolved propositions: {unresolved_propositions}",
+        f"- Promoted propositions: {proposition_counts['promoted']}",
+        f"- Retired propositions: {proposition_counts['retired']}",
+        "- Pipeline source of truth: `system/synthesis-backlog.json`",
+        "",
+        "## Stage meanings",
+        "",
+        "`planned → evidence ingested → metadata checked → claims extracted → synthesis ready` are pipeline stages.",
+        "",
+        "`awaiting editorial sign-off` is the sole human gate. After the designated sign-off collection, later collections use autonomous validated checkpoints.",
+        "",
+    ])
+    return "\n".join(lines)
+
+
 def _write_or_check(path: Path, content: str, check: bool) -> bool:
     existing = path.read_text(encoding="utf-8") if path.exists() else None
     if existing == content:
@@ -923,6 +1237,249 @@ def _write_or_check(path: Path, content: str, check: bool) -> bool:
         temporary.write_text(content, encoding="utf-8")
         os.replace(temporary, path)
     return True
+
+
+def command_dashboard(root: Path, check: bool = False) -> int:
+    tracker = load_collection_tracker(root)
+    schema = load_schema(root)
+    pages, issues = validate_content(root, schema)
+    issues.extend(validate_synthesis_backlog(root, pages, tracker))
+    if issues:
+        print("Cannot generate the dashboard until validation succeeds.", file=sys.stderr)
+        return 1
+    path = root / "system/dashboard.md"
+    changed = _write_or_check(path, render_collection_dashboard(root, pages, tracker), check)
+    if check and changed:
+        print(f"STALE {path.relative_to(root)}")
+        return 1
+    print(f"{'UPDATED' if changed else 'CURRENT'} {path.relative_to(root)}")
+    return 0
+
+
+def _git_output(root: Path, arguments: Sequence[str], allow_failure: bool = False) -> str:
+    result = subprocess.run(
+        ["git", *arguments],
+        cwd=root,
+        check=False,
+        text=True,
+        capture_output=True,
+    )
+    if result.returncode and not allow_failure:
+        raise ValueError(result.stderr.strip() or f"git {' '.join(arguments)} failed")
+    return result.stdout
+
+
+def _git_page_at(root: Path, revision: str, relative: str) -> Optional[Page]:
+    text = _git_output(root, ["show", f"{revision}:{relative}"], allow_failure=True)
+    if not text:
+        return None
+    page, issues = parse_markdown_text(root / relative, text)
+    return page if page is not None and not issues else None
+
+
+def _wiki_delta(root: Path, baseline: str) -> List[Tuple[str, str]]:
+    changed: Dict[str, str] = {}
+    output = _git_output(root, ["diff", "--name-status", "--find-renames", baseline, "--", "wiki"])
+    for line in output.splitlines():
+        fields = line.split("\t")
+        if len(fields) < 2:
+            continue
+        status = fields[0]
+        path = fields[-1]
+        if path.endswith(".md") and not path.endswith("/index.md"):
+            changed[path] = status
+    untracked = _git_output(root, ["ls-files", "--others", "--exclude-standard", "--", "wiki"])
+    for path in untracked.splitlines():
+        if path.endswith(".md") and not path.endswith("/index.md"):
+            changed[path] = "A"
+    return sorted(changed.items())
+
+
+def _metadata_links(page: Optional[Page], field: str) -> set:
+    if page is None:
+        return set()
+    if field == "relationships":
+        return {
+            (item.get("type"), item.get("target"))
+            for item in _list_value(page.metadata, field)
+            if isinstance(item, dict)
+        }
+    return {item for item in _list_value(page.metadata, field) if isinstance(item, str)}
+
+
+def render_collection_review(root: Path, record: Dict[str, Any], baseline: str) -> str:
+    schema = load_schema(root)
+    pages, validation_issues = validate_content(root, schema)
+    tracker = load_collection_tracker(root)
+    backlog = load_synthesis_backlog(root)
+    validation_issues.extend(validate_synthesis_backlog(root, pages, tracker, backlog))
+    evidence = _collection_evidence_pages(pages, record)
+    unresolved = sum(
+        any(
+            page.metadata.get(field) == "unresolved"
+            for field in ("canonical_url_status", "author_status", "publisher_status", "date_status")
+        )
+        for page in evidence
+    )
+    claims = sum(len(CLAIM_HEADING_RE.findall(page.body)) for page in evidence)
+    rows: List[str] = []
+    candidate_trends: List[str] = []
+    judgment_pages: List[str] = []
+    destructive_changes: List[str] = []
+    for relative, status in _wiki_delta(root, baseline):
+        current_path = root / relative
+        current, current_issues = parse_markdown(current_path) if current_path.exists() else (None, [])
+        before = _git_page_at(root, baseline, relative)
+        page = current or before
+        if page is None:
+            continue
+        current_evidence = _metadata_links(current, "evidence")
+        before_evidence = _metadata_links(before, "evidence")
+        current_relationships = _metadata_links(current, "relationships")
+        before_relationships = _metadata_links(before, "relationships")
+        change = "Added" if status.startswith("A") else "Deleted" if status.startswith("D") else "Updated"
+        rows.append(
+            f"| {change} | {page.page_type or 'unknown'} | [[{relative[:-3]}|{page.title}]] | "
+            f"+{len(current_evidence - before_evidence)}/−{len(before_evidence - current_evidence)} | "
+            f"+{len(current_relationships - before_relationships)}/−{len(before_relationships - current_relationships)} |"
+        )
+        if page.page_type == "trend" and current is not None:
+            candidate_trends.append(f"[[{relative[:-3]}|{page.title}]]")
+        if page.page_type in {"debate", "question"} and current is not None:
+            judgment_pages.append(f"[[{relative[:-3]}|{page.title}]]")
+        if status.startswith(("D", "R")):
+            destructive_changes.append(f"{change}: `{relative}`")
+        validation_issues.extend(current_issues)
+
+    signoff_required = record.get("signoff_mode") == "required"
+    signoff_completed = record.get("signoff_mode") == "completed" or record.get("stage") in {
+        "signed_off",
+        "committed",
+    }
+    signoff_state = "completed" if signoff_completed else "required" if signoff_required else "autonomous"
+    lines = [
+        "---",
+        f"collection_id: {record['id']}",
+        f"baseline: {baseline}",
+        f"generated_at: {dt.date.today().isoformat()}",
+        f"editorial_signoff: {signoff_state}",
+        "---",
+        "",
+        f"# Review — {record['h1']} / {record['h2']}",
+        "",
+        "## Editorial decision",
+        "",
+        (
+            "The editor signed off on this synthesized Wiki delta. Evidence metadata and claim extraction remain pipeline responsibilities."
+            if signoff_completed
+            else
+            "Review and sign off on the synthesized Wiki delta below. Evidence metadata and claim extraction are pipeline responsibilities; drill into them only when an exception materially affects synthesis."
+            if signoff_required
+            else "This collection is eligible for an autonomous checkpoint after validation. Material exceptions remain listed for audit."
+        ),
+        "",
+        "## Pipeline state",
+        "",
+        f"- Source entries planned: {record['entries']}",
+        f"- Evidence records present: {len(evidence)}",
+        f"- Atomic claims extracted: {claims}",
+        f"- Evidence records with unresolved source metadata: {unresolved}",
+        f"- Deterministic validation issues: {len(validation_issues)}",
+        f"- Comparison baseline: `{baseline}`",
+        "",
+        "## Wiki delta",
+        "",
+        "| Change | Type | Page | Evidence links +/− | Relationships +/− |",
+        "|---|---|---|---:|---:|",
+    ]
+    lines.extend(rows or ["| — | — | No Wiki changes detected | — | — |"])
+    opened_propositions = [
+        proposition
+        for proposition in backlog["propositions"]
+        if proposition.get("origin_collection") == record["id"]
+    ]
+    assessed_propositions = [
+        proposition
+        for proposition in backlog["propositions"]
+        if proposition.get("origin_collection") != record["id"]
+        and any(
+            assessment.get("collection") == record["id"]
+            for assessment in proposition.get("assessments", [])
+            if isinstance(assessment, dict)
+        )
+    ]
+    unresolved_propositions = sum(
+        proposition.get("status") in {"open", "strengthened", "qualified", "contested"}
+        for proposition in backlog["propositions"]
+    )
+    lines.extend(["", "## Synthesis backlog", ""])
+    lines.append(f"- Unresolved propositions carried across batches: {unresolved_propositions}")
+    if opened_propositions:
+        lines.append("- Opened by this collection:")
+        for proposition in opened_propositions:
+            lines.append(f"  - `{proposition['id']}` — {proposition['statement']} (`{proposition['status']}`)")
+    else:
+        lines.append("- Opened by this collection: none.")
+    if assessed_propositions:
+        lines.append("- Existing propositions assessed by this collection:")
+        for proposition in assessed_propositions:
+            assessment = next(
+                item
+                for item in proposition["assessments"]
+                if item.get("collection") == record["id"]
+            )
+            lines.append(f"  - `{proposition['id']}` — `{assessment['outcome']}`: {assessment['note']}")
+    else:
+        lines.append("- Existing propositions assessed by this collection: none.")
+    lines.append("- Full pipeline record: `system/synthesis-backlog.json`")
+    lines.extend(["", "## Material review queue", ""])
+    lines.append(
+        "- Candidate Trends: " + ", ".join(candidate_trends)
+        if candidate_trends else "- Candidate Trends: none."
+    )
+    lines.append(
+        "- Changed Debates or Questions: " + ", ".join(judgment_pages)
+        if judgment_pages else "- Changed Debates or Questions: none."
+    )
+    lines.append(
+        "- Deletions or renames: " + "; ".join(destructive_changes)
+        if destructive_changes else "- Deletions or renames: none."
+    )
+    lines.append(
+        f"- Validation exceptions: {len(validation_issues)}; resolve before sign-off."
+        if validation_issues else "- Validation exceptions: none."
+    )
+    if signoff_completed:
+        lines.extend([
+            "",
+            "## Sign-off",
+            "",
+            "- Decision: signed off",
+            f"- Date: {record.get('signed_off_at', dt.date.today().isoformat())}",
+            "- Notes: Governance calibration approved as the standard for the autonomous collection loop.",
+            "",
+        ])
+    else:
+        lines.extend(["", "## Sign-off", "", "- Decision: pending", "- Notes: —", ""])
+    return "\n".join(lines)
+
+
+def command_review_report(root: Path, collection_id: str, check: bool = False) -> int:
+    tracker = load_collection_tracker(root)
+    matches = [record for record in tracker["collections"] if record.get("id") == collection_id]
+    if not matches:
+        raise ValueError(f"unknown collection id {collection_id!r}")
+    record = matches[0]
+    baseline = record.get("baseline")
+    if not isinstance(baseline, str) or not baseline:
+        raise ValueError(f"collection {collection_id} has no comparison baseline")
+    path = root / "system/reviews" / f"{collection_id}.md"
+    changed = _write_or_check(path, render_collection_review(root, record, baseline), check)
+    if check and changed:
+        print(f"STALE {path.relative_to(root)}")
+        return 1
+    print(f"{'UPDATED' if changed else 'CURRENT'} {path.relative_to(root)}")
+    return 0
 
 
 def command_index(root: Path, check: bool = False) -> int:
@@ -957,6 +1514,12 @@ def command_validate(root: Path, target: Optional[str]) -> int:
         print(f"ERROR: validation target does not exist: {content_root}", file=sys.stderr)
         return 2
     pages, issues = validate_content(content_root, schema)
+    if target is None:
+        try:
+            tracker = load_collection_tracker(root)
+            issues.extend(validate_synthesis_backlog(root, pages, tracker))
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            issues.append(Issue("backlog.invalid", root / "system/synthesis-backlog.json", str(exc)))
     if issues:
         for issue in issues:
             print(issue.display(content_root))
@@ -980,6 +1543,13 @@ def _managed_raw_files(root: Path) -> List[Path]:
 def command_status(root: Path, as_json: bool = False) -> int:
     schema = load_schema(root)
     pages, issues = validate_content(root, schema)
+    try:
+        tracker = load_collection_tracker(root)
+        backlog = load_synthesis_backlog(root)
+        issues.extend(validate_synthesis_backlog(root, pages, tracker, backlog))
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        backlog = {"propositions": []}
+        issues.append(Issue("backlog.invalid", root / "system/synthesis-backlog.json", str(exc)))
     raw_files = _managed_raw_files(root)
     try:
         manifest = json.loads((root / "system/manifest.json").read_text(encoding="utf-8"))
@@ -1024,6 +1594,11 @@ def command_status(root: Path, as_json: bool = False) -> int:
         "inferred_publication_dates": sum(page.metadata.get("date_status") == "inferred" for page in evidence),
         "unresolved_publication_dates": sum(page.metadata.get("date_status") == "unresolved" for page in evidence),
         "wiki_pages": sum(count for page_type, count in counts.items() if page_type != "evidence"),
+        "synthesis_propositions": len(backlog["propositions"]),
+        "unresolved_synthesis_propositions": sum(
+            proposition.get("status") in {"open", "strengthened", "qualified", "contested"}
+            for proposition in backlog["propositions"]
+        ),
         "validation_issues": len(issues),
     }
     if as_json:
@@ -1061,8 +1636,21 @@ def command_doctor(root: Path) -> int:
         checks.append((manifest_ok, "manifest version 1 loads"))
     except (OSError, json.JSONDecodeError) as exc:
         checks.append((False, f"manifest loads: {exc}"))
+    tracker = None
+    try:
+        tracker = load_collection_tracker(root)
+        checks.append((len(tracker["collections"]) == 16, "collection tracker matches 16 editorial collections"))
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        checks.append((False, f"collection tracker loads: {exc}"))
     if schema is not None:
-        _, issues = validate_content(root, schema)
+        pages, issues = validate_content(root, schema)
+        if tracker is not None:
+            try:
+                backlog = load_synthesis_backlog(root)
+                backlog_issues = validate_synthesis_backlog(root, pages, tracker, backlog)
+                checks.append((not backlog_issues, f"synthesis backlog validates ({len(backlog_issues)} issue(s))"))
+            except (OSError, ValueError, json.JSONDecodeError) as exc:
+                checks.append((False, f"synthesis backlog loads: {exc}"))
         checks.append((not issues, f"repository content validates ({len(issues)} issue(s))"))
     for passed, label in checks:
         print(f"[{'ok' if passed else 'FAIL'}] {label}")
@@ -1305,6 +1893,14 @@ def build_parser() -> argparse.ArgumentParser:
     )
     index = subparsers.add_parser("index", help="regenerate deterministic indexes")
     index.add_argument("--check", action="store_true", help="fail instead of writing when indexes are stale")
+    dashboard = subparsers.add_parser("dashboard", help="regenerate the collection workflow dashboard")
+    dashboard.add_argument("--check", action="store_true", help="fail instead of writing when the dashboard is stale")
+    review_report = subparsers.add_parser(
+        "review-report",
+        help="summarize the Wiki delta for one tracked collection",
+    )
+    review_report.add_argument("--collection", required=True, help="tracked collection id")
+    review_report.add_argument("--check", action="store_true", help="fail instead of writing when the report is stale")
     bootstrap_audit = subparsers.add_parser(
         "bootstrap-audit",
         help="parse a raw anthology and report structural entries without creating Evidence",
@@ -1359,6 +1955,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             return command_validate(root, args.target)
         if args.command == "index":
             return command_index(root, args.check)
+        if args.command == "dashboard":
+            return command_dashboard(root, args.check)
+        if args.command == "review-report":
+            return command_review_report(root, args.collection, args.check)
         if args.command == "bootstrap-audit":
             return command_bootstrap_audit(root, args.raw_file, args.write)
         if args.command == "bootstrap-plan":

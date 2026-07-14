@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "propositions": [
+    {
+      "id": "prp-7c60b5f08327",
+      "statement": "Distributed stewardship may counteract the concentration of decision power in conventional firms.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-governance",
+      "surfaced_in": "wiki/hubs/governance",
+      "evidence": [
+        "[[in-this-era-openness-wins-evi-46304a0ed935#Claim 1]]",
+        "[[in-this-era-openness-wins-evi-46304a0ed935#Claim 3]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-ecosystems",
+        "nature-of-the-firm-organization",
+        "nature-of-the-firm-culture",
+        "power-to-creators-communities"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-governance",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "Governance evidence supplies a plausible contrast between distributed stewardship and upward-concentrating firm structure, but no observed organizational case."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-7251abae82ae",
+      "statement": "Modular design may make some megaprojects more scalable and governable than monolithic delivery.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-governance",
+      "surfaced_in": "wiki/hubs/governance",
+      "evidence": [
+        "[[make-megaprojects-more-modular-evi-752d26ea7bbd#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-ecosystems",
+        "nature-of-the-firm-organization",
+        "how-we-learn-architectures",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-governance",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The source advocates modularity but the excerpt does not yet provide a reusable structure, boundary conditions, or comparative outcome evidence."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-e5fc4d5c24c3",
+      "statement": "Extended incumbent leadership tenure may create a generational ceiling on technological and institutional innovation.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-governance",
+      "surfaced_in": "wiki/hubs/governance",
+      "evidence": [
+        "[[a-long-delayed-golden-age-or-why-has-the-ict-installation-period-lasted-so-long-evi-5c15b17da2d9#Claim 1]]",
+        "[[a-long-delayed-golden-age-or-why-has-the-ict-installation-period-lasted-so-long-evi-5c15b17da2d9#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-organization",
+        "nature-of-the-firm-culture",
+        "how-we-learn-futuring",
+        "how-we-learn-transitions"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-governance",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The current source offers a broad cohort interpretation without a dated succession case or evidence separating age from institutional position."
+        }
+      ],
+      "resolution_target": null
+    },
+    {
+      "id": "prp-3f7dbd5fcbe7",
+      "statement": "Design stewardship may require imagination and meaning-making beyond the instrumental logic of design as a business tool.",
+      "status": "open",
+      "origin_collection": "nature-of-the-firm-governance",
+      "surfaced_in": "wiki/hubs/governance",
+      "evidence": [
+        "[[designing-for-the-last-earth-evi-3d32f7b192f8#Claim 1]]",
+        "[[designing-for-the-last-earth-evi-3d32f7b192f8#Claim 2]]"
+      ],
+      "relevant_collections": [
+        "nature-of-the-firm-culture",
+        "power-to-creators-vibe",
+        "how-we-learn-futuring",
+        "how-we-learn-architectures",
+        "how-we-learn-sustaining"
+      ],
+      "assessments": [
+        {
+          "collection": "nature-of-the-firm-governance",
+          "date": "2026-07-14",
+          "outcome": "opened",
+          "note": "The proposition is normatively clear but lacks an operational account of stewardship or evidence from a design practice."
+        }
+      ],
+      "resolution_target": null
+    }
+  ]
+}

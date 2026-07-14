@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "raw_file": "raw/thoughtforming-on-digital-transformation-2026-07-10.md",
+  "processing_chunk_size": 25,
+  "collections": [
+    {
+      "id": "after-the-internet-networks",
+      "h1": "🔮 After the Internet",
+      "h2": "🔌 Networks",
+      "entries": 52,
+      "entry_start": 1,
+      "entry_end": 52,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "after-the-internet-paradigms",
+      "h1": "🔮 After the Internet",
+      "h2": "⚡ Paradigms",
+      "entries": 105,
+      "entry_start": 53,
+      "entry_end": 157,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "after-the-internet-culture",
+      "h1": "🔮 After the Internet",
+      "h2": "👯 Culture",
+      "entries": 70,
+      "entry_start": 158,
+      "entry_end": 227,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "after-the-internet-rules",
+      "h1": "🔮 After the Internet",
+      "h2": "👩‍⚖️ Rules",
+      "entries": 13,
+      "entry_start": 228,
+      "entry_end": 240,
+      "stage": "committed",
+      "signoff_mode": "completed",
+      "checkpoint": "07b8701"
+    },
+    {
+      "id": "nature-of-the-firm-ecosystems",
+      "h1": "🧰 Nature of the Firm",
+      "h2": "🌍 Ecosystems",
+      "entries": 16,
+      "entry_start": 241,
+      "entry_end": 256,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "nature-of-the-firm-organization",
+      "h1": "🧰 Nature of the Firm",
+      "h2": "⚡️ Organization",
+      "entries": 33,
+      "entry_start": 257,
+      "entry_end": 289,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "nature-of-the-firm-culture",
+      "h1": "🧰 Nature of the Firm",
+      "h2": "👯 Culture",
+      "entries": 30,
+      "entry_start": 290,
+      "entry_end": 319,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "nature-of-the-firm-governance",
+      "h1": "🧰 Nature of the Firm",
+      "h2": "👩‍⚖️ Governance",
+      "entries": 13,
+      "entry_start": 320,
+      "entry_end": 332,
+      "stage": "signed_off",
+      "signoff_mode": "completed",
+      "baseline": "07b8701",
+      "signed_off_at": "2026-07-14",
+      "checkpoint": null
+    },
+    {
+      "id": "power-to-creators-communities",
+      "h1": "🧑‍🎨 Power to Creators",
+      "h2": "🤝 Communities",
+      "entries": 15,
+      "entry_start": 333,
+      "entry_end": 347,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "power-to-creators-niches",
+      "h1": "🧑‍🎨 Power to Creators",
+      "h2": "⚡️ Niches",
+      "entries": 13,
+      "entry_start": 348,
+      "entry_end": 360,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "power-to-creators-vibe",
+      "h1": "🧑‍🎨 Power to Creators",
+      "h2": "😍 Vibe",
+      "entries": 44,
+      "entry_start": 361,
+      "entry_end": 404,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "power-to-creators-gameplay",
+      "h1": "🧑‍🎨 Power to Creators",
+      "h2": "🕹 Gameplay",
+      "entries": 94,
+      "entry_start": 405,
+      "entry_end": 498,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "how-we-learn-futuring",
+      "h1": "👩🏻‍🎓 How We Learn",
+      "h2": "🔮 Futuring",
+      "entries": 76,
+      "entry_start": 499,
+      "entry_end": 574,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "how-we-learn-architectures",
+      "h1": "👩🏻‍🎓 How We Learn",
+      "h2": "🏛 Architectures",
+      "entries": 50,
+      "entry_start": 575,
+      "entry_end": 624,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "how-we-learn-sustaining",
+      "h1": "👩🏻‍🎓 How We Learn",
+      "h2": "☯️ Sustaining",
+      "entries": 36,
+      "entry_start": 625,
+      "entry_end": 660,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    },
+    {
+      "id": "how-we-learn-transitions",
+      "h1": "👩🏻‍🎓 How We Learn",
+      "h2": "💥 Transitions",
+      "entries": 26,
+      "entry_start": 661,
+      "entry_end": 686,
+      "stage": "planned",
+      "signoff_mode": "autonomous",
+      "checkpoint": null
+    }
+  ]
+}

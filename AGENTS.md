@@ -148,6 +148,20 @@ Reconciliation is separate from ingestion. It should identify:
 
 Propose ambiguous merges or deletions for human review. Do not perform them unilaterally.
 
+## Collection workflow and editorial sign-off
+
+Use `system/collections.json` as the machine-readable source of truth for bootstrap collection progress. Regenerate `system/dashboard.md` with `tools/wiki dashboard` whenever collection state or derived content counts change.
+
+Pipeline stages such as metadata checking and claim extraction are agent responsibilities. They must not be presented as human review tasks. The editor signs off on the synthesized Wiki state through the collection review report, not on every Evidence record.
+
+Before starting a collection, record its comparison baseline. After synthesis, generate `system/reviews/<collection-id>.md` with `tools/wiki review-report --collection <collection-id>`. The report must summarize created, updated, merged, renamed, or deleted Wiki pages; material relationship changes; candidate Trends; changed Debates and Questions; and validation exceptions.
+
+Before synthesizing each collection, load `system/synthesis-backlog.json`. Assess every open, strengthened, qualified, or contested proposition that lists the collection in `relevant_collections`. Record an assessment even when the new batch produces no change. A relevant collection cannot reach `synthesis_ready` until those assessments exist.
+
+Give each new proposition one stable `prp-` identity. Update its evidence and status across batches rather than creating a differently worded duplicate. Allowed outcomes are `opened`, `no_change`, `strengthened`, `qualified`, `contested`, `promoted`, and `retired`. Promotion records the target Wiki page; retirement records why the proposition is no longer useful. Reader-facing Hub prose may summarize the backlog, but the JSON record is the pipeline source of truth.
+
+`🧰 Nature of the Firm → 👩‍⚖️ Governance` is the designated editorial sign-off collection. After its sign-off, remaining bootstrap collections may proceed autonomously in validated collection-level checkpoints. Stop the loop for validation failures, unresolved provenance that materially affects synthesis, or ambiguous destructive changes. Routine metadata and claim processing are not blockers.
+
 ## Lint workflow
 
 Run deterministic validation first:
@@ -155,6 +169,7 @@ Run deterministic validation first:
 ```bash
 tools/wiki validate
 tools/wiki index --check
+tools/wiki dashboard --check
 ```
 
 Semantic lint may then inspect:
