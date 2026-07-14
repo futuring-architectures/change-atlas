@@ -81,10 +81,10 @@
       "entries": 30,
       "entry_start": 290,
       "entry_end": 319,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "9b5bdb1",
-      "checkpoint": null
+      "checkpoint": "a7a8ffd"
     },
     {
       "id": "nature-of-the-firm-governance",
