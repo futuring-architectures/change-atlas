@@ -166,10 +166,10 @@
       "entries": 50,
       "entry_start": 575,
       "entry_end": 624,
-      "stage": "synthesis_ready",
+      "stage": "committed",
       "signoff_mode": "autonomous",
       "baseline": "7a43cd4",
-      "checkpoint": null
+      "checkpoint": "61b6f5d"
     },
     {
       "id": "how-we-learn-sustaining",

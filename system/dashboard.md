@@ -17,13 +17,13 @@ This dashboard is generated from `system/collections.json` and repository conten
 | 🧑‍🎨 Power to Creators / 😍 Vibe | 44 | 44 | 88 | Committed | Autonomous | [[system/reviews/power-to-creators-vibe|Open report]] | `2682978` |
 | 🧑‍🎨 Power to Creators / 🕹 Gameplay | 94 | 94 | 188 | Committed | Autonomous | [[system/reviews/power-to-creators-gameplay|Open report]] | `e7432c7` |
 | 👩🏻‍🎓 How We Learn / 🔮 Futuring | 76 | 76 | 152 | Committed | Autonomous | [[system/reviews/how-we-learn-futuring|Open report]] | `05488f6` |
-| 👩🏻‍🎓 How We Learn / 🏛 Architectures | 50 | 50 | 100 | Synthesis Ready | Autonomous | [[system/reviews/how-we-learn-architectures|Open report]] | — |
+| 👩🏻‍🎓 How We Learn / 🏛 Architectures | 50 | 50 | 100 | Committed | Autonomous | [[system/reviews/how-we-learn-architectures|Open report]] | `61b6f5d` |
 | 👩🏻‍🎓 How We Learn / ☯️ Sustaining | 36 | 0 | 0 | Planned | Autonomous | — | — |
 | 👩🏻‍🎓 How We Learn / 💥 Transitions | 26 | 0 | 0 | Planned | Autonomous | — | — |
 
 ## Progress
 
-- Collection checkpoints committed: 13/16
+- Collection checkpoints committed: 14/16
 - Planned source entries: 686
 - Preferred processing chunk: up to 25 entries
 
