@@ -55,7 +55,7 @@ Second, **technical capability is not an organizational operating model**. Tasks
 
 Third, **information routing is not the whole of management**. AI may compress coordination and widen individual scope, yet hierarchy also supplies interpretation, development, responsibility, and meaning. That is why the collection supports a Debate rather than a simple “flattening” forecast.
 
-## Synthesis notes from this collection
+## Emerging propositions not yet promoted
 
 - Human roles may shift from executing bounded processes toward orchestration, evaluation, judgment, and exception handling. The corpus contains convergent forecasts but not representative adoption evidence.
 - Natural language may become an organizational control surface through which people describe workflows and agent behavior. Reliability, authority, and inspectability remain unresolved.
@@ -70,7 +70,3 @@ This map derives from 33 curated entries and 66 atomic claims published from 202
 ## Relationships
 
 The Hub provides navigation. Typed relationships are maintained on the substantive pages linked above.
-
-## Published Propositions
-
-- [[human-roles-may-shift-toward-orchestration-and-judgment|Human roles may shift toward orchestration and judgment]]

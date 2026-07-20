@@ -108,21 +108,6 @@ types:
       - contested
       - deprecated
       - archived
-  proposition:
-    directory: wiki/propositions
-    id_prefix: prp-
-    required:
-      - description
-      - statement
-      - scope
-      - origin
-      - evidence
-    statuses:
-      - strengthened
-      - qualified
-      - contested
-      - promoted
-      - archived
   debate:
     directory: wiki/debates
     id_prefix: deb-
@@ -151,7 +136,6 @@ evidence_required_for:
   - trend
   - concept
   - framework
-  - proposition
   - debate
 claim_classes:
   - observation

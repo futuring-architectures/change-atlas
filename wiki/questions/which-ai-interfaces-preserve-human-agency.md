@@ -4,7 +4,7 @@ type: question
 title: Which AI interfaces preserve human agency?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags:
   - ai-interfaces
   - human-agency
@@ -16,10 +16,6 @@ relationships:
     target: "[[cultural-and-social-technology]]"
   - type: raised_by
     target: "[[agent-experience]]"
-  - type: raised_by
-    target: "[[inference-first-interfaces-may-reduce-visible-user-agency]]"
-  - type: raised_by
-    target: "[[agent-compatible-infrastructure-may-reduce-human-agency]]"
 description: "Which interface forms let people shape goals, understand state, correct inference, and retain responsibility instead of becoming junior operators of opaque automation?"
 origin: another_page
 ---

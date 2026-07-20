@@ -4,7 +4,7 @@ type: framework
 title: Automation posture matrix
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags:
   - automation
   - augmentation
@@ -20,8 +20,6 @@ relationships:
     target: "[[ai-automation-remains-constrained-by-deployment-economics]]"
   - type: qualified_by
     target: "[[ai-workslop-shifts-cognitive-labor-to-recipients]]"
-  - type: operationalizes
-    target: "[[human-roles-may-shift-toward-orchestration-and-judgment]]"
 description: "A two-axis matrix for choosing between automation, verified delegation, interactive copilot support, and expert augmentation according to task predictability and consequence."
 evidence:
   - "[[enough-ai-copilots-we-need-ai-huds-evi-3c09cc413bb5#Claim 2]]"

@@ -4,7 +4,7 @@ type: question
 title: Who gets to author organizational culture?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags:
   - culture
   - narrative
@@ -12,8 +12,6 @@ tags:
 relationships:
   - type: raised_by
     target: "[[narrative-as-organizational-firmware]]"
-  - type: raised_by
-    target: "[[design-stewardship-requires-imagination-and-meaning-making]]"
 description: "If culture emerges but leaders control consequential levers and narratives, whose interpretation governs and how can participants contest it?"
 origin: synthesis
 ---

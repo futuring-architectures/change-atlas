@@ -4,13 +4,11 @@ type: question
 title: How should firms measure value when software is easy to replace?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags: ["software-economics", "saas", "outcomes"]
 relationships:
   - type: raised_by
     target: "[[will-cheaper-software-commoditize-advantage-or-deepen-scale-moats]]"
-  - type: raised_by
-    target: "[[enterprise-ai-optimization-may-shift-to-useful-intelligence-per-dollar]]"
 description: "Lower switching and building costs weaken access, seats, and renewal as proxies for economic value, but outcome accountability is difficult to attribute."
 origin: lint
 ---

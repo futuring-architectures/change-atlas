@@ -55,7 +55,6 @@ Do not use LLM judgment for bookkeeping that the CLI can perform.
 - `trend`: a directional pattern supported by multiple Signals over time.
 - `concept`: a named idea with definition, provenance, and distinctions.
 - `framework`: a reusable structure with components, steps, axes, or relationships.
-- `proposition`: a strengthened or genuinely qualified claim published for continued testing across individual source ingests.
 - `debate`: a structured comparison of competing positions or interpretations.
 - `question`: a tracked research gap or unresolved issue.
 
@@ -70,20 +69,6 @@ Framework status combines evidence assessment with editorial authority:
 - `active`, `deprecated`, and `archived` are editor-controlled states. An agent may recommend one of these states, but may assign it only when carrying out an explicit editor instruction.
 - Do not change a `deprecated` or `archived` Framework, including changing it to `contested`, without explicit editor instruction.
 - Do not return a `contested` Framework to `candidate`. The editor decides whether it becomes `active`, `deprecated`, or `archived`.
-
-## Proposition publication and maintenance
-
-Keep new and unresolved hypotheses in `system/synthesis-backlog.json` as `open`. Publish a first-class page under `wiki/propositions/` only when later Evidence has strengthened the claim or the statement has been rewritten to incorporate a material qualification. A qualifying assessment alone does not make a Proposition publishable.
-
-When publishing a Proposition:
-
-1. preserve its `prp-` identity;
-2. reconstruct the cumulative stable Evidence claim anchors behind every material assessment;
-3. state scope, confidence, counter-evidence, and what would change the status;
-4. link related Signals, Concepts, Frameworks, Debates, Questions, and Trends without collapsing their distinct roles;
-5. mark the backlog record `promoted` and set `resolution_target` to the Proposition page.
-
-An agent may strengthen, qualify, or contest a published Proposition when new Evidence warrants the change. `qualified` requires revising the statement so the limitation or condition is part of the claim. Keep a published `contested` Proposition accessible with a warning and link it to the relevant Debate. Do not promote a Proposition to a Trend merely because arguments repeat; apply the Trend evidence rule. Archiving a published Proposition remains an editor decision.
 
 ## Evidence classification
 
@@ -170,7 +155,7 @@ Reconciliation is separate from ingestion. It should identify:
 - relationships missing their inverse;
 - claims whose scope has expanded beyond their evidence;
 - superseded synthesis and stale Hubs.
-- internal propositions mature enough for Wiki publication and published Propositions whose citations or statuses no longer reflect their Evidence.
+- private propositions whose statements, cumulative citations, or statuses no longer reflect their Evidence, including propositions that may resolve into an established Wiki object.
 
 Propose ambiguous merges or deletions for human review. Do not perform them unilaterally.
 
@@ -186,7 +171,7 @@ Before synthesizing each bootstrap collection, load `system/synthesis-backlog.js
 
 Give each new proposition one stable `prp-` identity. Update its evidence and status across batches rather than creating a differently worded duplicate. Allowed outcomes are `opened`, `no_change`, `strengthened`, `qualified`, `contested`, `promoted`, and `retired`. Promotion records the target Wiki page; retirement records why the proposition is no longer useful. Reader-facing Hub prose may summarize the backlog, but the JSON record is the pipeline source of truth.
 
-After bootstrap, each individual source ingest replaces the collection trigger: compare its atomic claims with published Propositions and unresolved backlog records, add exact claim anchors, and record whether the source strengthens, qualifies, contests, resolves, or leaves each materially relevant claim unchanged.
+After bootstrap, each individual source ingest replaces the collection trigger: compare its atomic claims with the private proposition backlog, add exact claim anchors, and record whether the source strengthens, qualifies, contests, resolves, or leaves each materially relevant claim unchanged. Keep Propositions private; promote one only when it resolves into an established Wiki object such as a Signal, Concept, Framework, Trend, Debate, or Question.
 
 `🧰 Nature of the Firm → 👩‍⚖️ Governance` is the designated editorial sign-off collection. After its sign-off, remaining bootstrap collections may proceed autonomously in validated collection-level checkpoints. Stop the loop for validation failures, unresolved provenance that materially affects synthesis, or ambiguous destructive changes. Routine metadata and claim processing are not blockers.
 

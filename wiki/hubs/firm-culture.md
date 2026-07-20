@@ -51,7 +51,7 @@ Second, **coordination form should follow interdependence**. Offices, asynchrono
 
 Third, **cheap generation does not make collective life obsolete**. It may reduce the cost of producing options while increasing the importance of selection, commitment, mentoring, recognition, and accountable judgment. The collection therefore opens a Debate and a Question about social infrastructure rather than forecasting the end of teams.
 
-## Synthesis notes from this collection
+## Emerging propositions not yet promoted
 
 - AI-mediated substitution for colleagues may erode apprenticeship, recognition, and shared meaning even when individual task output improves.
 - As competent artifacts become cheaper to generate, collective commitment and judgment may become more binding constraints than ideation.
@@ -65,7 +65,3 @@ This map derives from 30 curated entries and 60 atomic claims published from 201
 ## Relationships
 
 The Hub provides navigation. Typed reciprocal relationships are maintained on the substantive pages linked above.
-
-## Published Propositions
-
-- [[ai-substitution-for-colleagues-may-erode-apprenticeship-and-meaning|AI substitution for colleagues may erode apprenticeship and meaning]]

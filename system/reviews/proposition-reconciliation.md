@@ -2,16 +2,31 @@
 review_id: proposition-reconciliation
 generated_at: 2026-07-20
 scope: mature-synthesis-propositions
-status: implemented
+status: superseded
 ---
 
 # Proposition reconciliation review
 
-## Decision boundary
+## Editorial disposition
 
-This review reconciled the 21 propositions whose status was `strengthened` or `qualified` in `system/synthesis-backlog.json` after bootstrap. Its recommendation has now been implemented: 19 reader-facing Proposition pages were published, two misleadingly qualified records were returned to `open`, and the Atlas is prepared to assess propositions during individual-source ingestion.
+The 19-page publication trial was reversed on 2026-07-20 after editorial review found that the pages read as process-heavy analytical records rather than durable Wiki entries. Propositions remain private synthesis memory. The cumulative Evidence reconstruction, improved qualified wording, stable identities, and assessment histories have been retained in `system/synthesis-backlog.json`.
 
-## Executive recommendation
+Current private disposition:
+
+| Backlog status | Total |
+|---|---:|
+| Strengthened | 14 |
+| Qualified | 5 |
+| Open | 22 |
+| Contested | 2 |
+
+The detailed recommendations below are preserved as the audit record that motivated the trial. They no longer describe current Wiki policy.
+
+## Decision boundary at review time
+
+This review reconciled the 21 propositions whose status was `strengthened` or `qualified` in `system/synthesis-backlog.json` after bootstrap. It recommended a 19-page reader-facing trial and identified two misleadingly qualified records that should return to `open`.
+
+## Original recommendation
 
 | Disposition | Strengthened | Qualified | Total |
 |---|---:|---:|---:|
@@ -20,7 +35,7 @@ This review reconciled the 21 propositions whose status was `strengthened` or `q
 | Merge now | 0 | 0 | 0 |
 | Promote directly to a Trend | 0 | 0 | 0 |
 
-The 19 recommended propositions are now distinct pages under `wiki/propositions/`. Their overlaps are preserved through links and navigation clusters rather than merges: the apparent overlaps generally concern different units of analysis, mechanisms, or outcomes.
+The review recommended 19 distinct Proposition pages and proposed preserving their overlaps through links and navigation clusters rather than merges. The trial showed that this separation did not make the propositions sufficiently reader-friendly, so the pages and links were subsequently removed.
 
 `prp-e5fc4d5c24c3` and `prp-7650797f1cdc` remain internal and are now `open`. Both name useful research directions, but their present wording asserts a relationship that the corpus has not adequately isolated or observed. Their qualifying assessments remain intact as history; those assessments no longer masquerade as the maturity of the propositions themselves.
 
@@ -55,7 +70,7 @@ The strongest existing connections are to Debates and Questions about agency, ex
 
 Several propositions relate to [[wiki/trends/software-work-is-shifting-from-code-production-to-orchestration-and-assurance|Software work is shifting from code production to orchestration and assurance]]. They should not be absorbed into it mechanically. The Trend records a bounded directional pattern in software practice; the related propositions make broader claims about organizational roles, architecture, assurance, product operation, and human capability.
 
-## Recommended public Propositions
+## Original publication recommendations (superseded)
 
 ### Governance, agency, and control
 
@@ -254,27 +269,26 @@ Several propositions relate to [[wiki/trends/software-work-is-shifting-from-code
 - **Reason:** The corpus supports ecosystem learning and experienced-workforce mechanisms, but does not observe a distributed playbook becoming shared infrastructure or demonstrate portability across contexts. No current substantive Wiki page shares its cited Evidence, which is a useful warning that the synthesis has not yet entered the graph.
 - **Better next form:** Preserve it for individual-source testing or formulate a Question about when shared operational playbooks transfer competence rather than suppress contextual variation.
 
-## Publication implementation
+## Publication trial and reversal
 
-Completed on 2026-07-20:
+The trial completed the following preparation work on 2026-07-20; the reusable private synthesis improvements were retained while the public layer was reversed:
 
-1. Add a `proposition` type and `wiki/propositions/` directory to the schema, template set, indexes, validator fixtures, and documentation.
-2. Reconstruct cumulative Evidence anchors for every published proposition from its assessment history.
-3. Preserve each `prp-` identifier on the Wiki page. Mark the corresponding backlog record as `promoted` with the Proposition page as `resolution_target`, so there is one authoritative mature record rather than two.
-4. Add readable links to related Signals, Concepts, Frameworks, Debates, Questions, and the existing Trend. Add reciprocal typed relationships where the relationship vocabulary supports them; propose any missing relationship type before changing the ontology.
-5. Generate a Proposition index that lists `strengthened` and `qualified` pages. Keep published `contested` pages accessible with a clear warning rather than erasing their history.
-6. Replace collection-triggered assessment with source-ingest assessment for published Propositions and remaining internal backlog records.
-7. Run `tools/wiki doctor`, `tools/wiki validate`, `tools/wiki index --check`, and the full unit test suite after implementation.
+1. Cumulative Evidence anchors were reconstructed from assessment history and remain attached to the private records.
+2. Stable `prp-` identities and improved qualified statements were preserved.
+3. Nineteen temporary pages, their reciprocal links, public schema type, template, and index were removed.
+4. The 19 records returned to their private `strengthened` or `qualified` states with null resolution targets; the other two remain `open`.
+5. Individual-source ingestion now assesses the private backlog directly.
+6. Validation, deterministic index checks, and the full test suite were rerun after reversal.
 
 ## Continuing editorial decisions
 
-- The two retained records remain internal research prompts unless the editor later elects to turn them into explicit Questions.
-- A published Proposition that later becomes `contested` remains accessible with a warning, even if omitted from the normal Proposition index.
-- Trend remains a distinct page type rather than a Proposition status.
+- The two `open` records remain internal research prompts unless the editor later elects to turn them into explicit Questions.
+- Propositions remain private even when `strengthened` or genuinely `qualified`.
+- A proposition is promoted only when it resolves into an established Wiki type; Trend remains a distinct type with its own evidence threshold.
 
-## Changes made through implementation
+## Changes retained after reversal
 
-- Added the `proposition` schema, template, directory, index integration, fixture coverage, and operating rules.
-- Published 19 Proposition pages with their original `prp-` identities and cumulative exact Evidence anchors.
-- Marked the 19 corresponding backlog records `promoted` with page resolution targets; reclassified the two retained records as `open`.
-- Added readable graph navigation and reciprocal typed relationships to relevant Signals, Frameworks, and Questions; retained Debate, Concept, Hub, and Trend links as readable contextual links where the current ontology has no more precise typed relation.
+- Retained cumulative exact Evidence anchors and improved qualified wording for the 19 private records.
+- Returned those records to 14 `strengthened` and 5 `qualified` states with null resolution targets.
+- Kept the two weakly justified records `open` and preserved every assessment history.
+- Removed the public Proposition type, pages, navigation, and reciprocal links.

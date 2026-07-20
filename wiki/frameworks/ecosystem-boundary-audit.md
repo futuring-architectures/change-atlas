@@ -4,7 +4,7 @@ type: framework
 title: Ecosystem boundary audit
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags:
   - ecosystems
   - firm-boundaries
@@ -24,8 +24,6 @@ relationships:
     target: "[[what-rights-follow-from-ecosystem-contribution]]"
   - type: raises_question
     target: "[[how-can-firms-distribute-control-without-losing-coordination]]"
-  - type: operationalizes
-    target: "[[distributed-stewardship-may-counter-concentrated-firm-power]]"
 description: "A six-part audit for locating contribution, dependency, coordination, control, capture, and rights when value creation crosses the formal firm boundary."
 evidence:
   - "[[permeable-organizations-exploring-the-boundary-of-the-firm-evi-8bdbc7ca9ce6#Claim 1]]"

@@ -4,15 +4,13 @@ type: question
 title: What institutions can support a career in invention?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags: ["invention", "careers", "institutions"]
 relationships:
   - type: raised_by
     target: "[[invention-lacked-a-professional-career-path]]"
   - type: raised_by
     target: "[[capability-renewal-infrastructure]]"
-  - type: raised_by
-    target: "[[renewal-capacity-measures-may-preserve-capability]]"
 description: "Invention needs entry, practice, funding, recognition, community, and progression without forcing every inventor into research, engineering management, or entrepreneurship."
 origin: lint
 ---

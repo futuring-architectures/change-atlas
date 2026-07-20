@@ -4,7 +4,7 @@
     {
       "id": "prp-7c60b5f08327",
       "statement": "Distributed stewardship may counteract the concentration of decision power in conventional firms.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-governance",
       "surfaced_in": "wiki/hubs/governance",
       "evidence": [
@@ -57,7 +57,7 @@
           "note": "Communities adds active citizenship, local agency, maintainer boundaries, and direct-audience relationships as mechanisms for distributed action. It strengthens the stewardship rationale but still lacks a comparative transfer of formal decision power."
         }
       ],
-      "resolution_target": "[[distributed-stewardship-may-counter-concentrated-firm-power]]"
+      "resolution_target": null
     },
     {
       "id": "prp-7251abae82ae",
@@ -163,7 +163,7 @@
     {
       "id": "prp-3f7dbd5fcbe7",
       "statement": "Design stewardship may require imagination and meaning-making beyond the instrumental logic of design as a business tool.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-governance",
       "surfaced_in": "wiki/hubs/governance",
       "evidence": [
@@ -222,7 +222,7 @@
           "note": "Scenario experimentation, systematic thinking, deliberate horizon expansion, and critical rather than deferential AI strengthen imagination and meaning-making as design capacities. Evaluated stewardship outcomes remain absent."
         }
       ],
-      "resolution_target": "[[design-stewardship-requires-imagination-and-meaning-making]]"
+      "resolution_target": null
     },
     {
       "id": "prp-bce7e40744aa",
@@ -278,7 +278,7 @@
     {
       "id": "prp-b77689287c42",
       "statement": "AI-driven content abundance may concentrate attention on already legible creators, although niche discovery and new creator infrastructure may produce countervailing gains.",
-      "status": "promoted",
+      "status": "qualified",
       "origin_collection": "after-the-internet-networks",
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
@@ -347,7 +347,7 @@
           "note": "Algorithmic monoculture and synthetic information trash strengthen abundance and legibility mechanisms, while signal rewilding and relational access offer counter-mechanisms. No comparative attention distribution identifies who gains reach."
         }
       ],
-      "resolution_target": "[[ai-content-abundance-may-concentrate-attention-on-legible-creators]]"
+      "resolution_target": null
     },
     {
       "id": "prp-1e5c5aab325f",
@@ -438,7 +438,7 @@
     {
       "id": "prp-148e7962f080",
       "statement": "Demand for culturally owned digital spaces may support a future internet wave among younger participants, but prior reform movements have fragmented and no younger-led migration is observed at scale.",
-      "status": "promoted",
+      "status": "qualified",
       "origin_collection": "after-the-internet-networks",
       "surfaced_in": "wiki/hubs/networks",
       "evidence": [
@@ -491,7 +491,7 @@
           "note": "Luddite and AI-resistance accounts strengthen the motive to seek culturally ownable alternatives, while also showing that refusal can target uses and institutions rather than produce a new internet wave."
         }
       ],
-      "resolution_target": "[[culturally-owned-new-internet-wave-may-emerge]]"
+      "resolution_target": null
     },
     {
       "id": "prp-8226f3fdcc0f",
@@ -544,7 +544,7 @@
     {
       "id": "prp-2bb29cadf400",
       "statement": "Inference-first AI interfaces may reduce interaction friction while weakening visible user agency over memory, prediction, and action.",
-      "status": "promoted",
+      "status": "qualified",
       "origin_collection": "after-the-internet-paradigms",
       "surfaced_in": "wiki/hubs/paradigms",
       "evidence": [
@@ -604,12 +604,12 @@
           "note": "The all-purpose deferential chatbot, self-corrupting observability agent, and language-policing risk show how low-friction inference can weaken challenge, legibility, and user control."
         }
       ],
-      "resolution_target": "[[inference-first-interfaces-may-reduce-visible-user-agency]]"
+      "resolution_target": null
     },
     {
       "id": "prp-eb6b438dce8a",
       "statement": "AI-dependent products may require continuous revalidation as upstream model behavior, capability, and cost change.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "after-the-internet-paradigms",
       "surfaced_in": "wiki/hubs/paradigms",
       "evidence": [
@@ -653,12 +653,12 @@
           "note": "Generative-AI red teaming as part of product construction, stochastic-software ambiguity, and changing agent interfaces strengthen the case for continuous revalidation beyond conventional release testing."
         }
       ],
-      "resolution_target": "[[ai-dependent-products-may-require-continuous-revalidation]]"
+      "resolution_target": null
     },
     {
       "id": "prp-de32f067c458",
       "statement": "Enterprise AI optimization may shift from maximizing model capability toward maximizing useful intelligence per dollar.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "after-the-internet-paradigms",
       "surfaced_in": "wiki/hubs/paradigms",
       "evidence": [
@@ -698,7 +698,7 @@
           "note": "The collection discusses duplicated compute investment and falling software-production cost but adds no comparative useful-intelligence-per-dollar measure or optimization case."
         }
       ],
-      "resolution_target": "[[enterprise-ai-optimization-may-shift-to-useful-intelligence-per-dollar]]"
+      "resolution_target": null
     },
     {
       "id": "prp-7c767392aa8a",
@@ -755,7 +755,7 @@
     {
       "id": "prp-6b7b24b95b33",
       "statement": "Legacy expertise may be necessary infrastructure for long technological transitions even when dominant narratives frame old systems as obsolete.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "after-the-internet-culture",
       "surfaced_in": "wiki/hubs/culture",
       "evidence": [
@@ -807,7 +807,7 @@
           "note": "Historical myth correction, unrealized earlier ideas, pace layering, and ambiguous task-boundary work strengthen the case that transition depends on knowledge carried across old and new systems."
         }
       ],
-      "resolution_target": "[[legacy-expertise-may-be-transition-infrastructure]]"
+      "resolution_target": null
     },
     {
       "id": "prp-c97c6954e473",
@@ -914,7 +914,7 @@
     {
       "id": "prp-516df0a73843",
       "statement": "Human organizational roles may shift from executing bounded processes toward orchestration, evaluation, judgment, and exception handling.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-organization",
       "surfaced_in": "wiki/hubs/organization",
       "evidence": [
@@ -975,12 +975,12 @@
           "note": "Prompting as management, human-token complementarity, and design-system ownership further shift roles toward oversight, judgment, context, and exception handling. Role-level outcomes remain predictive."
         }
       ],
-      "resolution_target": "[[human-roles-may-shift-toward-orchestration-and-judgment]]"
+      "resolution_target": null
     },
     {
       "id": "prp-8a332364c8a2",
       "statement": "AI-mediated substitution for colleagues may erode apprenticeship, recognition, and shared meaning even when individual task output improves.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-culture",
       "surfaced_in": "wiki/hubs/firm-culture",
       "evidence": [
@@ -1035,7 +1035,7 @@
           "note": "Epistemic fluency, social disagreement, and task-boundary work strengthen the mechanism by which private AI substitution can remove relational learning and recognition; longitudinal apprenticeship outcomes remain absent."
         }
       ],
-      "resolution_target": "[[ai-substitution-for-colleagues-may-erode-apprenticeship-and-meaning]]"
+      "resolution_target": null
     },
     {
       "id": "prp-1281313cdeb5",
@@ -1421,7 +1421,7 @@
     {
       "id": "prp-1e7cfdce9b4a",
       "statement": "Natural-language creation appears to distribute creation capability faster than reliable evaluation; whether ownership, maintenance capacity, and recourse lag together remains unresolved.",
-      "status": "promoted",
+      "status": "qualified",
       "origin_collection": "power-to-creators-gameplay",
       "surfaced_in": "wiki/hubs/creator-gameplay",
       "evidence": [
@@ -1469,7 +1469,7 @@
           "note": "Cheap app generation and weakened artifact signals show capability distribution outrunning reliable evaluation. Ownership, maintenance capacity, and recourse remain plausible but are not jointly observed."
         }
       ],
-      "resolution_target": "[[natural-language-creation-may-outpace-ownership-maintenance-and-recourse]]"
+      "resolution_target": null
     },
     {
       "id": "prp-f0de8bc17322",
@@ -1511,7 +1511,7 @@
     {
       "id": "prp-cd8e403699a7",
       "statement": "Removing entry-level production work may weaken the future supply of expert judgment, but neither widespread removal nor the delayed supply effect is yet observed.",
-      "status": "promoted",
+      "status": "qualified",
       "origin_collection": "power-to-creators-gameplay",
       "surfaced_in": "wiki/hubs/creator-gameplay",
       "evidence": [
@@ -1558,12 +1558,12 @@
           "note": "Task-boundary work and epistemic fluency identify expert judgment that production metrics omit, but the collection does not observe entry-level work removal or later expert-supply effects."
         }
       ],
-      "resolution_target": "[[removing-entry-level-production-may-weaken-future-expertise]]"
+      "resolution_target": null
     },
     {
       "id": "prp-2d0c19cae51e",
       "statement": "Organizations that practice reversible probes and explicit revision may adapt better than organizations optimized around one forecast.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-futuring",
       "surfaced_in": "wiki/hubs/futuring",
       "evidence": [
@@ -1610,12 +1610,12 @@
           "note": "Beer-mode experimentation, software as petri dish, pace layering, and activity-alignment monitoring add concrete mechanisms for bounded probes and explicit revision. Comparative adaptation outcomes remain absent."
         }
       ],
-      "resolution_target": "[[reversible-probes-may-improve-organizational-adaptation]]"
+      "resolution_target": null
     },
     {
       "id": "prp-6a50ba86b4e2",
       "statement": "As model capability commoditizes, effective governance may shift from controlling access to controlling deployment conditions, interfaces, and institutional use.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-futuring",
       "surfaced_in": "wiki/hubs/futuring",
       "evidence": [
@@ -1665,7 +1665,7 @@
           "note": "Selective AI limits, legitimacy-sensitive resistance, epistemic fluency, pace layers, and continued outcome testing strengthen the shift toward governing deployment conditions rather than capability access alone."
         }
       ],
-      "resolution_target": "[[ai-governance-may-shift-from-access-to-deployment-conditions]]"
+      "resolution_target": null
     },
     {
       "id": "prp-a96b7e122ee3",
@@ -1707,7 +1707,7 @@
     {
       "id": "prp-69e1497e1057",
       "statement": "Organizations that redesign workflows and decision rights around changing capabilities may outperform organizations that insert agents into inherited roles.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-architectures",
       "surfaced_in": "wiki/hubs/architectures",
       "evidence": [
@@ -1746,12 +1746,12 @@
           "note": "Radiology task boundaries, network-and-culture effects, differential institutional speeds, and the transition-integration stack further specify workflow and decision-right redesign. Performance comparison remains absent."
         }
       ],
-      "resolution_target": "[[capability-centered-redesign-may-outperform-role-substitution]]"
+      "resolution_target": null
     },
     {
       "id": "prp-be860f298fbf",
       "statement": "Faster component generation may increase the relative value of architecture, assurance, and institutional absorption rather than eliminate them.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-architectures",
       "surfaced_in": "wiki/hubs/architectures",
       "evidence": [
@@ -1792,12 +1792,12 @@
           "note": "Cheap implementation, collapsing artifact signals, task-boundary work, pace layering, and outcome drift strengthen the case that evaluation, architecture, and institutional absorption become relatively scarcer."
         }
       ],
-      "resolution_target": "[[faster-generation-may-increase-the-value-of-architecture-and-assurance]]"
+      "resolution_target": null
     },
     {
       "id": "prp-34559bf974bb",
       "statement": "Agent-compatible infrastructure may improve machine performance while reducing human agency unless inspection and recourse are designed as first-class interfaces.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-architectures",
       "surfaced_in": "wiki/hubs/architectures",
       "evidence": [
@@ -1837,12 +1837,12 @@
           "note": "Epistemic fluency, selective refusal, and activity-alignment monitoring make human inspection, disagreement, recourse, and purpose revision explicit complements to machine-compatible infrastructure."
         }
       ],
-      "resolution_target": "[[agent-compatible-infrastructure-may-reduce-human-agency]]"
+      "resolution_target": null
     },
     {
       "id": "prp-47dacc22a69f",
       "statement": "Organizations that measure renewal capacity alongside present throughput may preserve capability through technological transitions better than organizations optimized only for current output.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-sustaining",
       "surfaced_in": "wiki/hubs/sustaining",
       "evidence": [
@@ -1872,12 +1872,12 @@
           "note": "Pace layering, legacy expertise, institutional variance, and epistemic inclusion strengthen the mechanism linking present transition design to future renewal capacity; comparative organizational outcomes remain absent."
         }
       ],
-      "resolution_target": "[[renewal-capacity-measures-may-preserve-capability]]"
+      "resolution_target": null
     },
     {
       "id": "prp-661114a04536",
       "statement": "AI assistance that removes practice without preserving challenge, verification, and participation may create delayed capacity loss invisible in short-term productivity metrics.",
-      "status": "promoted",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-sustaining",
       "surfaced_in": "wiki/hubs/sustaining",
       "evidence": [
@@ -1907,7 +1907,7 @@
           "note": "Epistemic fluency, disagreement, and task-boundary work specify capacities that assistance can bypass or preserve. The delayed-loss claim still lacks longitudinal measurement."
         }
       ],
-      "resolution_target": "[[ai-assistance-may-hide-delayed-capacity-loss]]"
+      "resolution_target": null
     },
     {
       "id": "prp-ff4a9b2f562b",

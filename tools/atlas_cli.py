@@ -37,7 +37,6 @@ REQUIRED_DIRECTORIES = (
     "wiki/trends",
     "wiki/concepts",
     "wiki/frameworks",
-    "wiki/propositions",
     "wiki/debates",
     "wiki/questions",
     "system/templates",
@@ -875,14 +874,13 @@ def render_system_index(pages: Sequence[Page], root: Path) -> str:
     grouped: Dict[str, List[Page]] = defaultdict(list)
     for page in pages:
         grouped[page.page_type or "unknown"].append(page)
-    order = ["hub", "signal", "concept", "framework", "proposition", "trend", "debate", "question", "evidence"]
+    order = ["hub", "signal", "trend", "concept", "framework", "debate", "question", "evidence"]
     labels = {
         "hub": "Hubs",
         "signal": "Signals",
         "trend": "Trends",
         "concept": "Concepts",
         "framework": "Frameworks",
-        "proposition": "Propositions",
         "debate": "Debates",
         "question": "Questions",
         "evidence": "Evidence",
@@ -1146,14 +1144,6 @@ def validate_synthesis_backlog(
             target_page = page_by_stem.get(target) if target else None
             if target_page is None or target_page.page_type == "evidence" or anchor:
                 issues.append(Issue("backlog.resolution_missing", path, f"promoted {label} requires a Wiki resolution_target"))
-            elif target_page.page_type == "proposition" and target_page.metadata.get("id") != proposition_id:
-                issues.append(
-                    Issue(
-                        "backlog.resolution_identity",
-                        path,
-                        f"promoted {label} must retain its identity on Proposition page {target!r}",
-                    )
-                )
         elif resolution_target is not None:
             issues.append(Issue("backlog.resolution_conflict", path, f"unpromoted {label} must have null resolution_target"))
 

@@ -4,7 +4,7 @@ type: question
 title: Who controls the path between publication and attention?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags:
   - attention
   - recommendation
@@ -16,8 +16,6 @@ relationships:
     target: "[[attention-is-the-scarce-layer]]"
   - type: raised_by
     target: "[[cultural-selection-stack]]"
-  - type: raised_by
-    target: "[[ai-content-abundance-may-concentrate-attention-on-legible-creators]]"
 description: "When publication is abundant but visibility is scarce, which rights should speakers, recipients, curators, and platforms have over distribution?"
 origin: synthesis
 ---

@@ -4,7 +4,7 @@ type: signal
 title: AI automation remains constrained by deployment economics
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags:
   - automation
   - economics
@@ -12,8 +12,6 @@ tags:
 relationships:
   - type: qualifies
     target: "[[automation-posture-matrix]]"
-  - type: supports
-    target: "[[enterprise-ai-optimization-may-shift-to-useful-intelligence-per-dollar]]"
 description: "A 2024 MIT study found that most wages attached to exposed computer-vision tasks were not yet economically attractive to automate, despite technical feasibility."
 evidence:
   - "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1]]"

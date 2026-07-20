@@ -49,7 +49,7 @@ The collection supports one candidate Trend with dated cases from 2025–2026. I
   - [[which-ai-interfaces-preserve-human-agency|Which AI interfaces preserve human agency?]]
   - [[can-human-oversight-handle-rare-catastrophic-failures|Can human oversight handle rare catastrophic failures?]] (expanded from the Rules synthesis)
 
-## Synthesis notes from this collection
+## Emerging propositions not yet promoted
 
 - AI-driven content abundance clearly increases selection pressure, but this collection does not establish whether audience attention concentrates on incumbent creators.
 - The 2010s “New Internet” reform movement lost momentum while incumbent platforms remained powerful, contesting—but not retiring—the possibility of a later culturally owned internet wave.
@@ -66,9 +66,3 @@ This map derives from 105 curated entries and 210 atomic claims. It preserves fo
 ## Relationships
 
 The Hub provides navigation. Typed relationships are maintained on the substantive pages linked above.
-
-## Published Propositions
-
-- [[inference-first-interfaces-may-reduce-visible-user-agency|Inference-first interfaces may reduce visible user agency]]
-- [[ai-dependent-products-may-require-continuous-revalidation|AI-dependent products may require continuous revalidation]]
-- [[enterprise-ai-optimization-may-shift-to-useful-intelligence-per-dollar|Enterprise AI optimization may shift to useful intelligence per dollar]]

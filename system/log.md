@@ -230,3 +230,11 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Marked the corresponding backlog records `promoted` with exact resolution targets and reclassified the two misleadingly qualified internal records as `open` while preserving their assessment histories.
 - Connected Propositions to relevant Hubs, Signals, Concepts, Frameworks, Debates, Questions, and the existing Trend, using reciprocal typed relationships where the ontology supports them.
 - Kept Trend distinct: no Proposition was promoted directly because the corpus still lacks the repeated dated directional observations required by the Trend rule.
+
+## [2026-07-20] reconciliation | Return Propositions to private synthesis memory
+
+- Reversed the reader-facing Proposition trial after editorial review found that the pages read as process-heavy analytical records rather than durable Wiki entries.
+- Removed the 19 Proposition pages, public type and template, index section, Hub navigation, and reciprocal typed links without changing Signals, Concepts, Frameworks, Trends, Debates, or Questions substantively.
+- Returned the 19 backlog records to 14 `strengthened` and 5 genuinely `qualified` states with null resolution targets; retained their expanded exact Evidence anchors, improved wording, stable identities, and assessment histories.
+- Kept `prp-e5fc4d5c24c3` and `prp-7650797f1cdc` as `open` because their central relationships remain confounded or insufficiently observed.
+- Established Propositions as private synthesis memory assessed during individual-source ingestion and promoted only when they resolve into an established Wiki type.

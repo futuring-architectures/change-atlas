@@ -64,9 +64,3 @@ The map derives from 50 entries and 100 atomic claims published from November 20
 ## Relationships
 
 The Hub provides navigation; substantive pages carry reciprocal typed links.
-
-## Published Propositions
-
-- [[capability-centered-redesign-may-outperform-role-substitution|Capability-centered redesign may outperform role substitution]]
-- [[faster-generation-may-increase-the-value-of-architecture-and-assurance|Faster generation may increase the value of architecture and assurance]]
-- [[agent-compatible-infrastructure-may-reduce-human-agency|Agent-compatible infrastructure may reduce human agency]]

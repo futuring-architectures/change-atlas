@@ -4,7 +4,7 @@ type: question
 title: How can firms distribute control without losing coordination?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-20
+updated_at: 2026-07-14
 tags:
   - distributed-control
   - coordination
@@ -14,8 +14,6 @@ relationships:
     target: "[[ecosystem-advantage]]"
   - type: raised_by
     target: "[[ecosystem-boundary-audit]]"
-  - type: raised_by
-    target: "[[distributed-stewardship-may-counter-concentrated-firm-power]]"
 description: "Which combinations of local autonomy, shared standards, orchestration, identity, and escalation let an ecosystem distribute decision power while remaining coherent and accountable?"
 origin: synthesis
 ---

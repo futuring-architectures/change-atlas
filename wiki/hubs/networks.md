@@ -47,7 +47,7 @@ The 52 entries span 1993–2024, but chronology alone does not establish a Trend
   - [[who-controls-the-path-between-publication-and-attention|Who controls the path between publication and attention?]]
   - [[what-business-model-can-support-a-prosocial-social-network|What business model can support a prosocial social network?]]
 
-## Synthesis notes from this collection
+## Emerging propositions not yet promoted
 
 - Recommendation may be replacing explicit subscription as the dominant allocation mechanism on large content platforms, but the current cases are concentrated in 2022–2023.
 - AI-driven content abundance may concentrate attention on already legible creators rather than democratize reach.
@@ -65,8 +65,3 @@ This map derives from 52 curated entries and 103 atomic claims. It distinguishes
 ## Relationships
 
 The Hub provides navigation. Typed relationships are maintained on the substantive pages linked above.
-
-## Published Propositions
-
-- [[ai-content-abundance-may-concentrate-attention-on-legible-creators|AI content abundance may concentrate attention on legible creators]]
-- [[culturally-owned-new-internet-wave-may-emerge|A culturally owned new internet wave may emerge]]

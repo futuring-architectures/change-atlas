@@ -15,7 +15,7 @@ tools/wiki         Deterministic repository CLI
 tests/             Reference and failure fixtures
 ```
 
-Evidence records what was encountered. The Wiki compiles what the corpus currently supports. Published Propositions make provisional cross-source claims explicit and testable; Trends remain the more demanding type for repeatedly observed directions over time.
+Evidence records what was encountered. The Wiki compiles what the corpus currently supports. Private propositions preserve provisional cross-source hypotheses for continued testing; they are not reader-facing Wiki pages.
 
 ## Quick start
 
@@ -105,8 +105,8 @@ tools/wiki review-report --collection nature-of-the-firm-governance
 
 Metadata checking and atomic-claim extraction are pipeline stages. The human editorial gate applies to the synthesized Wiki delta shown in the review report.
 
-Emerging propositions that are not ready for Wiki publication remain in `system/synthesis-backlog.json` as `open`, `strengthened`, `qualified`, or `contested` workflow memory. Reader-facing claims live in `wiki/propositions/` once they are strengthened or genuinely qualified. Publication preserves the original `prp-` identity, reconstructs cumulative exact Evidence anchors, and changes the backlog record to `promoted` with the page as its resolution target.
+Propositions remain private synthesis memory in `system/synthesis-backlog.json` as `open`, `strengthened`, `qualified`, or `contested` records. Each retains a stable `prp-` identity, cumulative exact Evidence anchors, relevant collections, and an assessment history. `qualified` means that the statement itself expresses the material limitation; a qualifying assessment alone does not justify the status.
 
-During each individual-source ingest, compare the new atomic claims with both published Propositions and unresolved backlog records. Add exact claim anchors and record whether the source strengthens, qualifies, contests, resolves, or leaves each materially relevant proposition unchanged. A qualifying assessment changes a page to `qualified` only when its statement is revised to express the qualification.
+During each individual-source ingest, compare the new atomic claims with the private proposition backlog. Add exact claim anchors and record whether the source strengthens, qualifies, contests, resolves, or leaves each materially relevant proposition unchanged. Promote a proposition only when it resolves into an established public Wiki type, and record that page as its resolution target.
 
 See [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [AGENTS.md](AGENTS.md), and [system/schema.md](system/schema.md) for the complete design.
