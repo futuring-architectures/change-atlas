@@ -4,13 +4,15 @@ type: question
 title: How can AI assistance preserve persistence, verification, and participation?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags: ["ai-assistance", "human-capacity", "evaluation"]
 relationships:
   - type: raised_by
     target: "[[capacity-erosion-through-assistance]]"
   - type: refines
     target: "[[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning]]"
+  - type: raised_by
+    target: "[[ai-assistance-may-hide-delayed-capacity-loss]]"
 description: "Immediate output can rise while the human capacities required to persist, check, contest, and participate decay; interfaces need longitudinal capacity measures."
 origin: lint
 ---

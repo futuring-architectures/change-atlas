@@ -4,7 +4,7 @@ type: framework
 title: Adaptive futuring cycle
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags: ["futuring", "signals", "adaptation"]
 relationships:
   - type: operationalizes
@@ -15,6 +15,8 @@ relationships:
     target: "[[when-does-uncertainty-justify-limiting-scale]]"
   - type: exemplified_by
     target: "[[spreadsheet-users-built-phantom-businesses]]"
+  - type: operationalizes
+    target: "[[reversible-probes-may-improve-organizational-adaptation]]"
 description: "A seven-step cycle for evidence-based foresight under uncertainty: curate, perceive, historicize, pluralize, rehearse, probe, and revise."
 evidence:
   - "[[signal-curation-evi-7667873ac1d4#Claim 2]]"

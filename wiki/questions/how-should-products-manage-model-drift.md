@@ -4,7 +4,7 @@ type: question
 title: How should products manage model drift?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags:
   - model-drift
   - ai-operations
@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raised_by
     target: "[[activity-alignment-gap]]"
+  - type: raised_by
+    target: "[[ai-dependent-products-may-require-continuous-revalidation]]"
 description: "How should AI products be designed, budgeted, and governed when provider models, behavior, price, and performance can change beneath a stable product interface?"
 origin: ingestion
 ---

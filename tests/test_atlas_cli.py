@@ -48,7 +48,7 @@ class ValidationTests(unittest.TestCase):
 
     def test_valid_reference_chain(self):
         pages, issues = atlas_cli.validate_content(ROOT / "tests/fixtures/valid", self.schema)
-        self.assertEqual(len(pages), 5)
+        self.assertEqual(len(pages), 6)
         self.assertEqual(issues, [])
 
     def test_claim_heading_is_a_resolvable_link_target(self):
@@ -104,6 +104,8 @@ class ValidationTests(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertIn("## Trends", first)
         self.assertIn("[[wiki/trends/trend-example|Example trend]]", first)
+        self.assertIn("## Propositions", first)
+        self.assertIn("[[wiki/propositions/proposition-example|Example proposition]]", first)
 
     def test_unsupported_evidence_claim_class_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:

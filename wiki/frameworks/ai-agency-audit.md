@@ -4,7 +4,7 @@ type: framework
 title: AI agency audit
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags: ["agency", "power", "ai"]
 relationships:
   - type: operationalizes
@@ -13,6 +13,10 @@ relationships:
     target: "[[user-programmable-agents]]"
   - type: raises_question
     target: "[[who-governs-user-authored-agents]]"
+  - type: operationalizes
+    target: "[[inference-first-interfaces-may-reduce-visible-user-agency]]"
+  - type: operationalizes
+    target: "[[natural-language-creation-may-outpace-ownership-maintenance-and-recourse]]"
 description: "A six-dimension audit for testing whether an AI system distributes meaningful agency or merely shifts work, risk, and control."
 evidence:
   - "[[were-all-programmers-now-evi-2ebeb42b85a0#Claim 2]]"

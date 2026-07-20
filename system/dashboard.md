@@ -30,8 +30,8 @@ This dashboard is generated from `system/collections.json` and repository conten
 ## Synthesis backlog
 
 - Tracked propositions: 43
-- Unresolved propositions: 43
-- Promoted propositions: 0
+- Unresolved propositions: 24
+- Promoted propositions: 19
 - Retired propositions: 0
 - Pipeline source of truth: `system/synthesis-backlog.json`
 

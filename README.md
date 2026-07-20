@@ -2,7 +2,7 @@
 
 **Futuring Architectures: The Change Atlas** is a living evidence map of technological, organizational, and cultural change.
 
-This repository compiles immutable source material into source-grounded Evidence and a maintained Markdown Wiki. Phase 1 establishes the repository contract, schemas, templates, validation tools, and tests. It deliberately performs no corpus synthesis.
+This repository compiles immutable source material into source-grounded Evidence and a maintained Markdown Wiki. The initial 686-source, 16-collection bootstrap is complete. The Atlas now operates through individual-source ingestion and periodic reconciliation.
 
 ## Architecture
 
@@ -15,7 +15,7 @@ tools/wiki         Deterministic repository CLI
 tests/             Reference and failure fixtures
 ```
 
-Evidence records what was encountered. The Wiki compiles what the corpus currently supports. Frames are deferred until the first two layers are operational.
+Evidence records what was encountered. The Wiki compiles what the corpus currently supports. Published Propositions make provisional cross-source claims explicit and testable; Trends remain the more demanding type for repeatedly observed directions over time.
 
 ## Quick start
 
@@ -45,7 +45,9 @@ tools/wiki validate tests/fixtures/broken
 
 ## Current phase
 
-Phase 1 established the validated foundation. Phase 2 begins with a report-only structural audit of the immutable anthology now stored beneath `raw/`:
+Phase 2 bootstrap is complete. Its audit, planning, Evidence generation, and collection-registration commands remain available for provenance and maintenance, but new material enters the Atlas one source file at a time. Until `tools/wiki ingest <raw-file>` is implemented, follow the deterministic transaction contract in `AGENTS.md`: check identity, create one Evidence page with exact provenance and atomic claims, compare it with the existing Wiki and synthesis backlog, validate, regenerate indexes, and log the operation.
+
+The original anthology was audited with:
 
 ```bash
 tools/wiki bootstrap-audit \
@@ -103,6 +105,8 @@ tools/wiki review-report --collection nature-of-the-firm-governance
 
 Metadata checking and atomic-claim extraction are pipeline stages. The human editorial gate applies to the synthesized Wiki delta shown in the review report.
 
-Emerging propositions that are not ready for Wiki promotion are tracked in `system/synthesis-backlog.json`. Each has a stable identity, evidence, status, relevant future collections, and an assessment history. The validator prevents a relevant collection from reaching synthesis without recording what that batch did—or did not do—to the proposition.
+Emerging propositions that are not ready for Wiki publication remain in `system/synthesis-backlog.json` as `open`, `strengthened`, `qualified`, or `contested` workflow memory. Reader-facing claims live in `wiki/propositions/` once they are strengthened or genuinely qualified. Publication preserves the original `prp-` identity, reconstructs cumulative exact Evidence anchors, and changes the backlog record to `promoted` with the page as its resolution target.
+
+During each individual-source ingest, compare the new atomic claims with both published Propositions and unresolved backlog records. Add exact claim anchors and record whether the source strengthens, qualifies, contests, resolves, or leaves each materially relevant proposition unchanged. A qualifying assessment changes a page to `qualified` only when its statement is revised to express the qualification.
 
 See [PROJECT_BRIEF.md](PROJECT_BRIEF.md), [AGENTS.md](AGENTS.md), and [system/schema.md](system/schema.md) for the complete design.

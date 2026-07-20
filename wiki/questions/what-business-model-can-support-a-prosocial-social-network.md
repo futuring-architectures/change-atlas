@@ -4,7 +4,7 @@ type: question
 title: What business model can support a prosocial social network?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags:
   - business-model
   - social-networks
@@ -14,6 +14,8 @@ relationships:
     target: "[[recommendation-media]]"
   - type: raised_by
     target: "[[network-outcome-design-stack]]"
+  - type: raised_by
+    target: "[[culturally-owned-new-internet-wave-may-emerge]]"
 description: "Which revenue, ownership, and governance arrangements can sustain a social network without making agitation, surveillance, or financialization its dominant incentive?"
 origin: synthesis
 ---

@@ -62,3 +62,8 @@ The map derives from 36 entries and 72 atomic claims published from July 2020 th
 ## Relationships
 
 The Hub provides navigation; substantive pages carry reciprocal typed links.
+
+## Published Propositions
+
+- [[renewal-capacity-measures-may-preserve-capability|Renewal-capacity measures may preserve capability]]
+- [[ai-assistance-may-hide-delayed-capacity-loss|AI assistance may hide delayed capacity loss]]

@@ -46,7 +46,7 @@ The collection does not yet support a Culture Trend. The dated sources document 
   - [[who-controls-the-path-between-publication-and-attention|Who controls the path between publication and attention?]] (expanded from the Networks synthesis)
   - [[which-ai-interfaces-preserve-human-agency|Which AI interfaces preserve human agency?]] (expanded from the Paradigms synthesis)
 
-## Emerging propositions not yet promoted
+## Synthesis notes from this collection
 
 - Cultural selection systems may increasingly reward transmissibility and legibility over truth, depth, or durable usefulness. The collection establishes the mechanism but not a directional cross-market Trend.
 - Legacy expertise may be necessary infrastructure for long technological transitions even when dominant narratives frame old systems as obsolete. The collection supplies an industrial-knowledge warning and a mainframe case, but not comparative transition outcomes.
@@ -60,3 +60,7 @@ This map derives from 70 curated entries and 140 atomic claims. It treats histor
 ## Relationships
 
 The Hub provides navigation. Typed relationships are maintained on the substantive pages linked above.
+
+## Published Propositions
+
+- [[legacy-expertise-may-be-transition-infrastructure|Legacy expertise may be transition infrastructure]]

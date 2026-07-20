@@ -4,7 +4,7 @@ type: framework
 title: Sustaining capacity loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags: ["capabilities", "innovation", "renewal"]
 relationships:
   - type: operationalizes
@@ -13,6 +13,10 @@ relationships:
     target: "[[innovation-ecology]]"
   - type: operationalizes
     target: "[[cognitive-debt]]"
+  - type: operationalizes
+    target: "[[renewal-capacity-measures-may-preserve-capability]]"
+  - type: operationalizes
+    target: "[[ai-assistance-may-hide-delayed-capacity-loss]]"
 description: "A six-part loop for keeping a capability generative, governable, transferable, and renewable after initial adoption."
 evidence:
   - "[[surfing-the-s-curve-evi-04ae89aa50de#Claim 1]]"

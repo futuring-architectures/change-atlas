@@ -215,3 +215,18 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Added the Transition integration stack to connect human outcomes, technical ingredients, task-boundary work, institutional pace layers, epistemic fluency, cultural legitimacy, and continuing activity–alignment monitoring.
 - Promoted no Trend because the collection supplies mechanisms, interpretations, and isolated cases rather than comparable repeated directional outcomes.
 - Assessed all 17 inherited synthesis-backlog propositions and opened three stable propositions on multi-layer transition integration, resistance as legitimacy evidence, and replacement signals after cheap implementation.
+
+## [2026-07-20] reconciliation | Review mature synthesis propositions
+
+- Reviewed all 21 `strengthened` or `qualified` synthesis-backlog propositions for reader value, Evidence character, overlap, related Wiki objects, and Trend readiness.
+- Recommended publishing 19 as distinct Wiki Propositions and retaining two qualified records internally until their confounded or weakly observed claims can be resolved.
+- Recommended no direct Trend promotions: the current top-level Evidence lists contain only nine observations among 111 cited claims, and no proposition adds the required repeated directional cases.
+- Recorded the report in `system/reviews/proposition-reconciliation.md`; changed no Wiki pages, backlog records, schema rules, indexes, or proposition statuses.
+
+## [2026-07-20] synthesis | Publish reader-facing Propositions
+
+- Added Propositions as a first-class Wiki type with schema, template, validator fixture, deterministic index support, and steady-state maintenance rules.
+- Published 19 strengthened or genuinely qualified Proposition pages while preserving their original `prp-` identities; reconstructed their cumulative Evidence arrays with stable claim anchors from later collection assessments.
+- Marked the corresponding backlog records `promoted` with exact resolution targets and reclassified the two misleadingly qualified internal records as `open` while preserving their assessment histories.
+- Connected Propositions to relevant Hubs, Signals, Concepts, Frameworks, Debates, Questions, and the existing Trend, using reciprocal typed relationships where the ontology supports them.
+- Kept Trend distinct: no Proposition was promoted directly because the corpus still lacks the repeated dated directional observations required by the Trend rule.

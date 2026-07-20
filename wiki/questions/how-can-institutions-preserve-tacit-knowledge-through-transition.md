@@ -4,7 +4,7 @@ type: question
 title: How can institutions preserve tacit knowledge through transition?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags:
   - tacit-knowledge
   - transition
@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raised_by
     target: "[[legacy-mainframes-underwrite-digital-services]]"
+  - type: raised_by
+    target: "[[legacy-expertise-may-be-transition-infrastructure]]"
 description: "How can organizations replace or transform legacy systems without losing the people, practices, context, and failure knowledge that keep essential services working?"
 origin: synthesis
 ---

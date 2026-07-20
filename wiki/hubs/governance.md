@@ -40,7 +40,7 @@ The collection contains strong Concepts and one applicable Framework, but few da
   - [[when-does-scale-change-the-governing-principle|When does scale change the governing principle?]]
   - [[can-human-oversight-handle-rare-catastrophic-failures|Can human oversight handle rare catastrophic failures?]] (expanded to include calibration and capability retention)
 
-## Emerging propositions not yet promoted
+## Synthesis notes from this collection
 
 - Distributed stewardship may offer an alternative to firm structures that concentrate decision power at the top: [[in-this-era-openness-wins-evi-46304a0ed935#Claim 1|distributed authority with stewardship]] and [[in-this-era-openness-wins-evi-46304a0ed935#Claim 3|the centralizing tendency of conventional firms]].
 - Modularity may make some megaprojects more scalable, but this excerpt does not establish an application framework or outcome comparison: [[make-megaprojects-more-modular-evi-752d26ea7bbd#Claim 2|modularity as a megaproject design position]].
@@ -56,3 +56,8 @@ This map derives from 13 curated entries and 30 atomic claims published between 
 ## Relationships
 
 The Hub provides navigation. Typed relationships are maintained on the substantive pages linked above.
+
+## Published Propositions
+
+- [[distributed-stewardship-may-counter-concentrated-firm-power|Distributed stewardship may counter concentrated firm power]]
+- [[design-stewardship-requires-imagination-and-meaning-making|Design stewardship requires imagination and meaning-making]]

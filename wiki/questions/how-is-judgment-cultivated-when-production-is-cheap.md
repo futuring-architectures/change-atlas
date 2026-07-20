@@ -4,13 +4,15 @@ type: question
 title: How is judgment cultivated when production is cheap?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags: ["judgment", "learning", "ai"]
 relationships:
   - type: raised_by
     target: "[[responsibility-gap-after-automation]]"
   - type: raised_by
     target: "[[abundance-response-stack]]"
+  - type: raised_by
+    target: "[[natural-language-creation-may-outpace-ownership-maintenance-and-recourse]]"
 description: "If tools perform more execution, which practices develop formulation, taste, verification, restraint, and responsibility rather than merely approving output?"
 origin: synthesis
 ---

@@ -4,7 +4,7 @@ type: framework
 title: Transition integration stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags: ["transitions", "sociotechnical-systems", "change"]
 relationships:
   - type: operationalizes
@@ -17,6 +17,10 @@ relationships:
     target: "[[activity-alignment-gap]]"
   - type: supported_by
     target: "[[network-and-culture-outweighed-facts-in-change]]"
+  - type: operationalizes
+    target: "[[ai-governance-may-shift-from-access-to-deployment-conditions]]"
+  - type: operationalizes
+    target: "[[agent-compatible-infrastructure-may-reduce-human-agency]]"
 description: "A seven-layer method for integrating technical capability with workflows, institutions, knowledge, legitimacy, and continuing outcome alignment."
 evidence:
   - "[[the-ai-debate-were-not-having-evi-709fe1681265#Claim 2]]"

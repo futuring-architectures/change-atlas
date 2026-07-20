@@ -51,3 +51,7 @@ The map derives from 76 entries and 152 atomic claims published from 2020 throug
 
 The Hub provides navigation; substantive pages carry reciprocal typed links.
 
+## Published Propositions
+
+- [[reversible-probes-may-improve-organizational-adaptation|Reversible probes may improve organizational adaptation]]
+- [[ai-governance-may-shift-from-access-to-deployment-conditions|AI governance may shift from access to deployment conditions]]

@@ -49,3 +49,7 @@ The map derives from 94 entries and 188 atomic claims published from 2020 throug
 
 The Hub provides navigation; substantive pages carry reciprocal typed links.
 
+## Published Propositions
+
+- [[natural-language-creation-may-outpace-ownership-maintenance-and-recourse|Natural-language creation may outpace ownership, maintenance, and recourse]]
+- [[removing-entry-level-production-may-weaken-future-expertise|Removing entry-level production may weaken future expertise]]

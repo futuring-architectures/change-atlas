@@ -130,6 +130,34 @@ A Concept page records a named idea, definition, provenance, aliases, distinctio
 
 A Framework is a reusable structure: steps, axes, components, causal relationships, decision rules, or a matrix. It must explain where it applies, how to use it, and its limitations. A memorable idea without applicable structure remains a Concept.
 
+Framework statuses have these semantics:
+
+- `candidate`: a provisional Framework that is sufficiently structured and evidence-linked to publish, use, and test, but has not been accepted by the editor as active;
+- `active`: a Framework the editor accepts as part of the Atlas's current working set;
+- `contested`: a Framework whose support, structure, assumptions, or applicability is materially challenged and requires editorial disposition;
+- `deprecated`: a Framework the editor retains for provenance and existing links but no longer recommends for current use;
+- `archived`: an inactive Framework retained primarily as a historical record.
+
+New Frameworks begin as `candidate`. An agent may independently change a `candidate` or `active` Framework to `contested` when warranted by later evidence or review. Only the editor may decide that a Framework is `active`, `deprecated`, or `archived`; an agent may apply one of those states only under explicit editor instruction. Agents must not alter `deprecated` or `archived` Frameworks without explicit editor instruction, and must not return `contested` Frameworks to `candidate`.
+
+## Proposition
+
+A Proposition is an evidence-linked claim that appears meaningful across sources or synthesis contexts but remains open to strengthening, qualification, contest, or promotion. It states what may be true, emerging, causal, comparative, or conditionally likely. Unlike a Concept, it is truth-apt; unlike a Framework, it is not primarily an application structure; unlike a Trend, it does not by itself assert a repeatedly observed direction over time.
+
+`open` propositions remain in `system/synthesis-backlog.json` as internal workflow memory. Publish a Proposition page only when the record is sufficiently developed to be `strengthened` or genuinely `qualified` and the page adds a claim that existing Signals, Concepts, Frameworks, Debates, or Questions do not already express.
+
+Published Proposition statuses are:
+
+- `strengthened`: later Evidence has increased net support while material limitations remain explicit;
+- `qualified`: the Proposition statement itself has been narrowed, conditioned, or reframed to incorporate a material limitation or counter-mechanism;
+- `contested`: material counter-evidence challenges the published claim; retain the page with a visible warning and link it to the relevant Debate;
+- `promoted`: the claim has been resolved into a more established Wiki object, with the target recorded and the Proposition retained for provenance;
+- `archived`: the editor has removed the Proposition from current use while preserving its history.
+
+A qualifying assessment does not automatically make the current Proposition `qualified`. The statement must express the qualification. If the central relationship remains unresolved or confounded, keep the record `open` and preserve the qualifying assessment in its history.
+
+Every published Proposition preserves its `prp-` identity from the synthesis backlog. Its Evidence list must contain the cumulative stable claim anchors used to strengthen, qualify, or contest it; assessment prose alone is not a citation. When a backlog record becomes a Proposition page, mark the backlog record `promoted` and point `resolution_target` to that page so the mature claim has one authoritative home.
+
 ## Debate
 
 A Debate organizes competing positions without forcing premature resolution. Distinguish genuine contradiction from differences in timeframe, scope, definitions, assumptions, values, and evidential standards.
@@ -188,11 +216,11 @@ Create a new page when the object is sufficiently distinct that other pages woul
 
 ## Synthesis backlog
 
-An emerging proposition is a cross-batch hypothesis that is too meaningful to discard but not yet supported or structured enough for Wiki promotion. It is workflow memory, not an additional Wiki page type.
+An emerging proposition is a hypothesis that is too meaningful to discard but not yet supported or structured enough for Wiki publication. It remains workflow memory until it meets the Proposition publication rule above.
 
-`system/synthesis-backlog.json` gives each proposition a stable `prp-` identity, current status, originating Hub and collection, Evidence claims, relevant future collections, assessment history, and optional resolution target. Later wording changes must retain the identity.
+`system/synthesis-backlog.json` gives each proposition a stable `prp-` identity, current status, originating Hub and collection, Evidence claims, relevant future collections, assessment history, and optional resolution target. Later wording changes must retain the identity. After the bootstrap collection sequence, individual source ingests compare new claims with both internal backlog records and published Proposition pages.
 
-Statuses are `open`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. Every relevant collection records one of `opened`, `no_change`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. A relevant collection may not reach `synthesis_ready` without an assessment unless the proposition was already promoted or retired.
+Backlog statuses are `open`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. Every relevant bootstrap collection records one of `opened`, `no_change`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. A relevant collection may not reach `synthesis_ready` without an assessment unless the proposition was already promoted or retired. In steady-state ingestion, the source transaction records what the new Evidence did or did not change; collection relevance no longer acts as the trigger.
 
 ## Human review boundaries
 

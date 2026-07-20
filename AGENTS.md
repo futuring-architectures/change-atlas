@@ -55,10 +55,35 @@ Do not use LLM judgment for bookkeeping that the CLI can perform.
 - `trend`: a directional pattern supported by multiple Signals over time.
 - `concept`: a named idea with definition, provenance, and distinctions.
 - `framework`: a reusable structure with components, steps, axes, or relationships.
+- `proposition`: a strengthened or genuinely qualified claim published for continued testing across individual source ingests.
 - `debate`: a structured comparison of competing positions or interpretations.
 - `question`: a tracked research gap or unresolved issue.
 
 Follow `system/schema.yaml` for machine requirements and `system/schema.md` for semantic rules.
+
+## Framework status governance
+
+Framework status combines evidence assessment with editorial authority:
+
+- Create every new Framework as `candidate`. An agent may assign this status without separate editor approval.
+- An agent may change a `candidate` or `active` Framework to `contested` when later evidence or review materially challenges its support, structure, assumptions, or applicability. Record the reason in the page and the applicable collection review or operational record.
+- `active`, `deprecated`, and `archived` are editor-controlled states. An agent may recommend one of these states, but may assign it only when carrying out an explicit editor instruction.
+- Do not change a `deprecated` or `archived` Framework, including changing it to `contested`, without explicit editor instruction.
+- Do not return a `contested` Framework to `candidate`. The editor decides whether it becomes `active`, `deprecated`, or `archived`.
+
+## Proposition publication and maintenance
+
+Keep new and unresolved hypotheses in `system/synthesis-backlog.json` as `open`. Publish a first-class page under `wiki/propositions/` only when later Evidence has strengthened the claim or the statement has been rewritten to incorporate a material qualification. A qualifying assessment alone does not make a Proposition publishable.
+
+When publishing a Proposition:
+
+1. preserve its `prp-` identity;
+2. reconstruct the cumulative stable Evidence claim anchors behind every material assessment;
+3. state scope, confidence, counter-evidence, and what would change the status;
+4. link related Signals, Concepts, Frameworks, Debates, Questions, and Trends without collapsing their distinct roles;
+5. mark the backlog record `promoted` and set `resolution_target` to the Proposition page.
+
+An agent may strengthen, qualify, or contest a published Proposition when new Evidence warrants the change. `qualified` requires revising the statement so the limitation or condition is part of the claim. Keep a published `contested` Proposition accessible with a warning and link it to the relevant Debate. Do not promote a Proposition to a Trend merely because arguments repeat; apply the Trend evidence rule. Archiving a published Proposition remains an editor decision.
 
 ## Evidence classification
 
@@ -145,6 +170,7 @@ Reconciliation is separate from ingestion. It should identify:
 - relationships missing their inverse;
 - claims whose scope has expanded beyond their evidence;
 - superseded synthesis and stale Hubs.
+- internal propositions mature enough for Wiki publication and published Propositions whose citations or statuses no longer reflect their Evidence.
 
 Propose ambiguous merges or deletions for human review. Do not perform them unilaterally.
 
@@ -156,9 +182,11 @@ Pipeline stages such as metadata checking and claim extraction are agent respons
 
 Before starting a collection, record its comparison baseline. After synthesis, generate `system/reviews/<collection-id>.md` with `tools/wiki review-report --collection <collection-id>`. The report must summarize created, updated, merged, renamed, or deleted Wiki pages; material relationship changes; candidate Trends; changed Debates and Questions; and validation exceptions.
 
-Before synthesizing each collection, load `system/synthesis-backlog.json`. Assess every open, strengthened, qualified, or contested proposition that lists the collection in `relevant_collections`. Record an assessment even when the new batch produces no change. A relevant collection cannot reach `synthesis_ready` until those assessments exist.
+Before synthesizing each bootstrap collection, load `system/synthesis-backlog.json`. Assess every open, strengthened, qualified, or contested proposition that lists the collection in `relevant_collections`. Record an assessment even when the new batch produces no change. A relevant collection cannot reach `synthesis_ready` until those assessments exist.
 
 Give each new proposition one stable `prp-` identity. Update its evidence and status across batches rather than creating a differently worded duplicate. Allowed outcomes are `opened`, `no_change`, `strengthened`, `qualified`, `contested`, `promoted`, and `retired`. Promotion records the target Wiki page; retirement records why the proposition is no longer useful. Reader-facing Hub prose may summarize the backlog, but the JSON record is the pipeline source of truth.
+
+After bootstrap, each individual source ingest replaces the collection trigger: compare its atomic claims with published Propositions and unresolved backlog records, add exact claim anchors, and record whether the source strengthens, qualifies, contests, resolves, or leaves each materially relevant claim unchanged.
 
 `🧰 Nature of the Firm → 👩‍⚖️ Governance` is the designated editorial sign-off collection. After its sign-off, remaining bootstrap collections may proceed autonomously in validated collection-level checkpoints. Stop the loop for validation failures, unresolved provenance that materially affects synthesis, or ambiguous destructive changes. Routine metadata and claim processing are not blockers.
 

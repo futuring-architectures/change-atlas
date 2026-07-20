@@ -4,7 +4,7 @@ type: framework
 title: Capability-to-architecture loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags: ["organization-design", "ai-adoption", "capabilities"]
 relationships:
   - type: operationalizes
@@ -21,6 +21,10 @@ relationships:
     target: "[[architecture-is-the-scaling-constraint]]"
   - type: supported_by
     target: "[[ai-adoption-failure-exposed-work-system-tensions]]"
+  - type: operationalizes
+    target: "[[capability-centered-redesign-may-outperform-role-substitution]]"
+  - type: operationalizes
+    target: "[[faster-generation-may-increase-the-value-of-architecture-and-assurance]]"
 description: "A recurring six-step method for redesigning work around changing capabilities without freezing AI into inherited roles."
 evidence:
   - "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 1]]"

@@ -4,7 +4,7 @@ type: framework
 title: AI-native organizational trust stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags:
   - ai-agents
   - organizational-trust
@@ -16,6 +16,8 @@ relationships:
     target: "[[ai-workslop-shifts-cognitive-labor-to-recipients]]"
   - type: raises_question
     target: "[[what-replaces-human-review-when-software-exceeds-human-attention]]"
+  - type: operationalizes
+    target: "[[ai-dependent-products-may-require-continuous-revalidation]]"
 description: "A five-layer operating framework for earning trust in AI-mediated organizational work through data, evaluation, governance, learning, and human judgment."
 evidence:
   - "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1]]"

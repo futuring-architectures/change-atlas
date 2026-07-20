@@ -4,7 +4,7 @@ type: signal
 title: Legacy mainframes underwrite digital services
 status: active
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags:
   - legacy-systems
   - mainframes
@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raises_question
     target: "[[how-can-institutions-preserve-tacit-knowledge-through-transition]]"
+  - type: supports
+    target: "[[legacy-expertise-may-be-transition-infrastructure]]"
 description: "Online banking and travel are reported to depend on maintained IBM mainframe infrastructure, making legacy expertise a substrate of apparently newer services."
 observed_at: 2026-02-11
 date_precision: day

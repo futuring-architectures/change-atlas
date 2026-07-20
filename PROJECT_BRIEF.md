@@ -79,6 +79,7 @@ The agreed Wiki page types are:
 - **Trends** — directional patterns supported by multiple independent Signals over time;
 - **Concepts** — named ideas with definitions and provenance;
 - **Frameworks** — applicable Concepts with components, steps, axes, or other usable structure;
+- **Propositions** — strengthened or genuinely qualified cross-source claims published for continued testing;
 - **Tensions & Debates** — structured competing positions, contradictions, or unresolved differences;
 - **Questions** — research gaps produced by ingestion, querying, or linting.
 
@@ -161,6 +162,7 @@ wiki/
   trends/
   concepts/
   frameworks/
+  propositions/
   debates/
   questions/
 system/
@@ -197,7 +199,7 @@ Git records exactly what changed. `system/log.md` records why an ingest or recon
 
 Collection progress is recorded in `system/collections.json` and rendered into `system/dashboard.md`. Collection review reports under `system/reviews/` present Wiki-level synthesis deltas for editorial judgment. Source-metadata checking and claim extraction remain pipeline responsibilities rather than human approval gates.
 
-`system/synthesis-backlog.json` provides cross-batch synthesis memory for propositions that are meaningful but not yet ready to become Wiki objects. Stable proposition identities prevent wording drift and duplication; statuses and assessments record whether later collections strengthen, qualify, contest, promote, retire, or leave each proposition unchanged. Validation requires an assessment before any explicitly relevant collection can reach `synthesis_ready`.
+`system/synthesis-backlog.json` provides synthesis memory for propositions that are meaningful but not yet ready to become reader-facing Wiki objects. Stable proposition identities prevent wording drift and duplication. During bootstrap, collection assessments record whether later collections strengthen, qualify, contest, promote, retire, or leave each proposition unchanged. In steady state, each individual source is the assessment trigger. Published Proposition pages preserve the same `prp-` identity; their backlog records become `promoted` and point to that authoritative page.
 
 **Current handoff note:** at the time this brief was created, `/Users/ronkersic/Projects/change-atlas` contained the source corpus but was not yet initialized as a Git repository.
 

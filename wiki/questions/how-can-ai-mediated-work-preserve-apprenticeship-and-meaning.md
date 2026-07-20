@@ -4,7 +4,7 @@ type: question
 title: How can AI-mediated work preserve apprenticeship and meaning?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-20
 tags:
   - ai
   - apprenticeship
@@ -16,6 +16,10 @@ relationships:
     target: "[[does-ai-expand-expertise-or-hollow-it-out]]"
   - type: refined_by
     target: "[[how-can-ai-assistance-preserve-persistence-verification-and-participation]]"
+  - type: raised_by
+    target: "[[ai-substitution-for-colleagues-may-erode-apprenticeship-and-meaning]]"
+  - type: raised_by
+    target: "[[removing-entry-level-production-may-weaken-future-expertise]]"
 description: "If workers increasingly ask machines instead of colleagues, which practices preserve tacit learning, recognition, judgment, and belonging?"
 origin: synthesis
 ---
