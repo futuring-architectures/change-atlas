@@ -243,3 +243,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-07-22-the-future-worth-building-is-human.md` as `evidence/sources/the-future-worth-building-is-human-evi-d29670f349f2.md` with 6 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 6 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-22] evidence | Ingest Thinking with LLMs: A Reflection
+
+- Captured and finalized `raw/web/2026-07-22-thinking-with-llms-a-reflection.md` as `evidence/sources/thinking-with-llms-a-reflection-evi-faaa31ee0421.md` with 9 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 8 Wiki page(s) cite the resulting Evidence.

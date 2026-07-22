@@ -4,7 +4,7 @@ type: framework
 title: Intent-to-accountability loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags: ["ai-workflow", "verification", "accountability"]
 relationships:
   - type: operationalizes
@@ -13,6 +13,8 @@ relationships:
     target: "[[verification-is-the-scarce-layer]]"
   - type: refines
     target: "[[abundance-response-stack]]"
+  - type: refined_by
+    target: "[[recursive-form-finding-loop]]"
 description: "A seven-stage workflow for turning natural-language intent into accountable action: frame, contextualize, generate, select, verify, integrate, and own."
 evidence:
   - "[[ai-prompts-as-prds-why-prompts-will-become-important-ip-assets-evi-1179997325db#Claim 1]]"
@@ -67,4 +69,4 @@ The output of each cycle becomes context for the next. Discovery during verifica
 
 - Operationalizes [[intent-as-executable-material|Intent as executable material]] and [[verification-is-the-scarce-layer|Verification is the scarce layer]].
 - Refines the [[abundance-response-stack|Abundance response stack]] into a repeatable production loop.
-
+- Refined by the [[recursive-form-finding-loop|Recursive form-finding loop]] for work in which the governing intent emerges through recursive inquiry rather than preceding it.

@@ -24,6 +24,8 @@ evidence:
   - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]"
   - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3]]"
   - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4]]"
+  - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 7]]"
+  - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]"
 ---
 
 # Does cheap intelligence reduce the need for human collaboration?
@@ -58,6 +60,7 @@ When an individual can generate plans, code, analysis, and alternatives with AI,
 - [[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 1|Collaboration After Cheap Intelligence — claim 1]] proposes abundant competent output; [[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2|claim 2]] shifts the constraint to commitment.
 - [[setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6#Claim 2|Setting time on fire — claim 2]] connects machine-to-machine assessment with lost organizational meaning.
 - [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2|The Future Worth Building Is Human — claim 2]] argues for continuous co-adaptation around local knowledge; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3|claim 3]] treats participation as an interface requirement, while [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4|claim 4]] distinguishes autonomous capability from joint outcomes.
+- [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 7|Thinking with LLMs — claim 7]] describes situated capacity developing through repeated exchange; [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9|claim 9]] warns that document acceleration can conceal the disagreements and decisions needed for collective knowing.
 
 ## Current assessment
 

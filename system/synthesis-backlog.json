@@ -942,7 +942,9 @@
         "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 1]]",
         "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 2]]",
         "[[the-software-development-lifecycle-is-dead-evi-de2981d8e0b9#Claim 1]]",
-        "[[prompting-is-managing-evi-76a66b9e9b26#Claim 2]]"
+        "[[prompting-is-managing-evi-76a66b9e9b26#Claim 2]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 6]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -986,6 +988,12 @@
           "date": "2026-07-22",
           "outcome": "no_change",
           "note": "The source argues that human knowledge and judgment should continue shaping AI and that work may change toward what people uniquely bring, but it does not specify role-level transitions or add observed employment outcomes."
+        },
+        {
+          "source": "evi-faaa31ee0421",
+          "date": "2026-07-22",
+          "outcome": "strengthened",
+          "note": "The source relocates authorship from sentence production toward direction, judgment, criteria, and closure, strengthening the proposed role-shift mechanism. It remains a practitioner account without representative role or employment outcomes."
         }
       ],
       "resolution_target": null
@@ -1053,13 +1061,15 @@
     {
       "id": "prp-1281313cdeb5",
       "statement": "As competent artifacts become cheaper to generate, collective commitment and judgment may become more binding constraints than ideation.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "nature-of-the-firm-culture",
       "surfaced_in": "wiki/hubs/firm-culture",
       "evidence": [
         "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 1]]",
         "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2]]",
-        "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
+        "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -1090,6 +1100,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Systematic thinking, human judgment, verification, beneficial-technology choices, and context ownership reinforce judgment and commitment as bottlenecks after generation becomes cheap."
+        },
+        {
+          "source": "evi-faaa31ee0421",
+          "date": "2026-07-22",
+          "outcome": "strengthened",
+          "note": "The source directly contrasts abundant plausible articulation with scarce judgment and warns that document volume can conceal the disagreements and closure decisions required for collective knowing. It supplies no comparative evidence that these are the dominant organizational constraints."
         }
       ],
       "resolution_target": null
@@ -1339,6 +1355,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Invention prestige, human-token complementarity, critical judgment, and beneficial-technology responsibility strengthen the value mechanism, but no status premium is observed."
+        },
+        {
+          "source": "evi-faaa31ee0421",
+          "date": "2026-07-22",
+          "outcome": "no_change",
+          "note": "The source makes distinctive judgment and human responsibility central when articulation is cheap, but it does not address status allocation or observe a premium for work that resists standardized patterns."
         }
       ],
       "resolution_target": null
@@ -1449,7 +1471,8 @@
         "[[cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936#Claim 1]]",
         "[[cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936#Claim 2]]",
         "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 2]]",
-        "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]"
+        "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1480,6 +1503,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Cheap app generation and weakened artifact signals show capability distribution outrunning reliable evaluation. Ownership, maintenance capacity, and recourse remain plausible but are not jointly observed."
+        },
+        {
+          "source": "evi-faaa31ee0421",
+          "date": "2026-07-22",
+          "outcome": "strengthened",
+          "note": "The source independently identifies judgment as scarce when plausible articulation becomes abundant, strengthening the creation-versus-evaluation gap. It adds no evidence about ownership, maintenance capacity, or recourse."
         }
       ],
       "resolution_target": null
@@ -1487,13 +1516,15 @@
     {
       "id": "prp-f0de8bc17322",
       "statement": "Verification capacity may become the rate-limiting resource for AI-enabled organizations even as generation and implementation costs fall.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "power-to-creators-gameplay",
       "surfaced_in": "wiki/hubs/creator-gameplay",
       "evidence": [
         "[[what-can-be-done-in-59-seconds-an-opportunity-and-a-crisis-evi-1404781d687d#Claim 2]]",
         "[[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 1]]",
-        "[[how-propublica-uses-ai-responsibly-in-its-investigations-evi-4d69c164f06d#Claim 2]]"
+        "[[how-propublica-uses-ai-responsibly-in-its-investigations-evi-4d69c164f06d#Claim 2]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 3]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1517,6 +1548,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Persistence and verification erosion, read-only observability constraints, cognitive debt, and design-system propagation all strengthen verification capacity as an organizational rate limit."
+        },
+        {
+          "source": "evi-faaa31ee0421",
+          "date": "2026-07-22",
+          "outcome": "strengthened",
+          "note": "Reciprocal audit and resistance to fluent completion strengthen verification and judgment as post-generation constraints. The source is a personal method and does not measure organization-level verification throughput or rate limits."
         }
       ],
       "resolution_target": null
@@ -1948,6 +1985,12 @@
           "date": "2026-07-22",
           "outcome": "no_change",
           "note": "The source advocates preserving participation and cites Toyota's return of craftspeople, but it does not observe delayed capacity loss from removed practice or supply longitudinal productivity evidence."
+        },
+        {
+          "source": "evi-faaa31ee0421",
+          "date": "2026-07-22",
+          "outcome": "no_change",
+          "note": "The recursive method preserves challenge, resistance, and participation and may develop pair-level capacity, but it does not observe delayed capacity loss from removed practice or demonstrate durable human learning."
         }
       ],
       "resolution_target": null
@@ -1963,7 +2006,8 @@
         "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 1]]",
         "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 2]]",
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 1]]",
-        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]"
+        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]",
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -1986,6 +2030,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source directly contrasts dynamic local knowledge cultivated through owned, customizable AI with static extraction into a standard offering. It strengthens context ownership as an asset mechanism, while still providing no comparison with documentation volume or measured organizational advantage."
+        },
+        {
+          "source": "evi-faaa31ee0421",
+          "date": "2026-07-22",
+          "outcome": "strengthened",
+          "note": "The source directly warns that accelerated document production can increase articulated knowledge without collective knowing when assumptions, disagreements, and closure decisions remain hidden. It strengthens the documentation-volume contrast but does not address ownership or measure asset value."
         }
       ],
       "resolution_target": null

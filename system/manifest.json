@@ -3571,6 +3571,27 @@
       "raw_sha256": "0c1e03271cc4416b799ed2058a4cfb090ecc17c4dd3b5058ea40548e2153ef57",
       "source_url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
       "status": "complete"
+    },
+    "raw/web/2026-07-22-thinking-with-llms-a-reflection.md": {
+      "affected_wiki": [
+        "wiki/concepts/abundance-relocates-bottlenecks.md",
+        "wiki/concepts/extended-mind.md",
+        "wiki/concepts/verification-is-the-scarce-layer.md",
+        "wiki/concepts/vibe-as-contextual-judgment.md",
+        "wiki/frameworks/recursive-form-finding-loop.md",
+        "wiki/debates/does-ai-expand-expertise-or-hollow-it-out.md",
+        "wiki/debates/does-cheap-intelligence-reduce-the-need-for-human-collaboration.md",
+        "wiki/questions/how-is-judgment-cultivated-when-production-is-cheap.md"
+      ],
+      "canonical_url": "https://indyjohar.substack.com/p/thinking-with-llms-a-reflection",
+      "claim_count": 9,
+      "completed_at": "2026-07-22",
+      "evidence_file": "evidence/sources/thinking-with-llms-a-reflection-evi-faaa31ee0421.md",
+      "evidence_id": "evi-faaa31ee0421",
+      "mode": "steady_state_url",
+      "raw_sha256": "33924e2f108ac0060b99f5d693442421bf2f89b21d4114a697cc1d23e72eddbe",
+      "source_url": "https://indyjohar.substack.com/p/thinking-with-llms-a-reflection",
+      "status": "complete"
     }
   },
   "schema_version": 1

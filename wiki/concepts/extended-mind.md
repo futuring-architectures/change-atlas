@@ -4,17 +4,21 @@ type: concept
 title: Extended mind
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags: ["cognition", "generative-ai", "human-agency"]
 relationships:
   - type: refines
     target: "[[does-ai-expand-expertise-or-hollow-it-out]]"
   - type: qualifies
     target: "[[capability-is-not-competence]]"
+  - type: operationalized_by
+    target: "[[recursive-form-finding-loop]]"
 description: "The view that cognition is enacted through a hybrid system of brain, body, tools, people, representations, and institutions."
 evidence:
   - "[[extending-minds-with-generative-ai-evi-3c99488fb578#Claim 1]]"
   - "[[extending-minds-with-generative-ai-evi-3c99488fb578#Claim 2]]"
+  - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 2]]"
+  - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 7]]"
 ---
 
 # Extended mind
@@ -45,8 +49,10 @@ Andy Clark applies the extended-mind tradition to generative AI and argues that 
 
 - [[extending-minds-with-generative-ai-evi-3c99488fb578#Claim 1|Extending Minds with Generative AI — claim 1]] defines cognition as a hybrid system.
 - [[extending-minds-with-generative-ai-evi-3c99488fb578#Claim 2|Extending Minds with Generative AI — claim 2]] applies that frame to generative AI.
+- [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 2|Thinking with LLMs — claim 2]] describes asymmetric co-discovery; [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 7|claim 7]] identifies a situated capacity developing across repeated exchanges.
 
 ## Relationships
 
 - Reframes [[does-ai-expand-expertise-or-hollow-it-out|Does AI expand expertise or hollow it out?]] around the performance of a human-tool system.
 - Related to [[capability-is-not-competence|Capability is not competence]]: extended performance and internalized skill remain distinct.
+- Operationalized by the [[recursive-form-finding-loop|Recursive form-finding loop]] as a concrete hybrid thinking practice.

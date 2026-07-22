@@ -4,7 +4,7 @@ type: question
 title: How is judgment cultivated when production is cheap?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags: ["judgment", "learning", "ai"]
 relationships:
   - type: raised_by
@@ -27,6 +27,9 @@ Judgment develops through making, feedback, failure, apprenticeship, and respons
 - [[abundance-response-stack|The Abundance response stack]] identifies formulation, verification, selection, trust, slowness, subtraction, and responsibility.
 - [[writes-and-write-nots-evi-bbb3e7a0bd86#Claim 2|Writes and Write-Nots — claim 2]] treats practice as thinking.
 - [[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning|The apprenticeship Question]] links judgment to social infrastructure.
+- [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 1|Thinking with LLMs — claim 1]] proposes recognition before specification; [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 3|claim 3]] adds reciprocal resistance to model and human narratives.
+- [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 6|Thinking with LLMs — claim 6]] relocates authorship toward judgment and closure, while [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8|claim 8]] identifies judgment as scarce under abundant articulation.
+- The [[recursive-form-finding-loop|Recursive form-finding loop]] makes these practices explicit as a candidate learning architecture.
 
 ## Missing evidence
 
@@ -37,7 +40,7 @@ Judgment develops through making, feedback, failure, apprenticeship, and respons
 
 ## Resolution
 
-_Open. The corpus names the capabilities and risks but supplies no evaluated learning architecture._
+_Open. The corpus now includes a candidate recursive practice for cultivating judgment, but still supplies no comparative or longitudinal evaluation of learning and transfer._
 
 ## Relationships
 

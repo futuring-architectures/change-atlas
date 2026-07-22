@@ -4,7 +4,7 @@ type: concept
 title: Abundance relocates bottlenecks
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags:
   - abundance
   - bottlenecks
@@ -22,6 +22,7 @@ evidence:
   - "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1]]"
   - "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2]]"
   - "[[the-people-who-ruined-the-internet-evi-1e977c2dadae#Claim 1]]"
+  - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
 ---
 
 # Abundance relocates bottlenecks
@@ -55,6 +56,7 @@ Byrne Hobart supplies the general economic rule that radically cheaper products 
 - [[vibe-coding-menugen-evi-0ce549d72b42#Claim 2|Vibe coding MenuGen — claim 2]] locates post-code friction in application infrastructure.
 - [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1|The AI Economy: The Next Chapter — claim 1]] and [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2|claim 2]] identify cost as a growing enterprise constraint.
 - [[the-people-who-ruined-the-internet-evi-1e977c2dadae#Claim 1|The people who ruined the internet — claim 1]] shows abundant publishing optimizing for allocator legibility while usefulness becomes scarce.
+- [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8|Thinking with LLMs — claim 8]] moves the constraint from plausible articulation toward situated judgment and responsible closure.
 
 ## Relationships
 
