@@ -4,7 +4,7 @@ type: question
 title: Which AI interfaces preserve human agency?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags:
   - ai-interfaces
   - human-agency
@@ -37,6 +37,7 @@ Copilots, agents, conversational interfaces, predictive interfaces, and heads-up
 - [[your-ai-is-not-a-tool-evi-f725ec6bd434#Claim 1|Your AI Is Not a Tool — claim 1]] argues that sufficiently enveloping AI behaves more like an environment than an external implement.
 - [[agent-experience|Agent experience]] adds machine operability and human oversight as a coupled interface problem; [[automating-software-engineering-evi-7ef15bf9b270#Claim 1|Automating software engineering — claim 1]] requires people to inspect, redirect, and debug agent action.
 - [[thoughts-about-the-future-of-ui-evi-b5dfd230286e#Claim 1|Thoughts about the future of UI — claim 1]] forecasts personal agents displacing dedicated app agents, which may relocate interface control into a dominant agent layer.
+- [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3|The Future Worth Building Is Human — claim 3]] proposes live interaction that invites correction and feedback; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4|claim 4]] argues that machine-alone task horizons omit joint human–AI outcomes.
 
 ## Missing or discriminating evidence
 

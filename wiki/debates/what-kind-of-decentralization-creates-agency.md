@@ -4,7 +4,7 @@ type: debate
 title: What kind of decentralization creates agency?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags:
   - decentralization
   - agency
@@ -25,6 +25,7 @@ evidence:
   - "[[money-go-round-evi-c58d3061f651#Claim 1]]"
   - "[[money-go-round-evi-c58d3061f651#Claim 2]]"
   - "[[positive-sum-worlds-remaking-public-goods-evi-d897611b49cd#Claim 2]]"
+  - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5]]"
 ---
 
 # What kind of decentralization creates agency?
@@ -49,6 +50,10 @@ Token or participant ownership may transform a protocol from a transaction venue
 
 Web3 systems can remain embedded in Web2’s virality, mass markets, celebrity promotion, and commercial platforms. Financial participation can add risk and exclusion rather than agency. Technical openness or token ownership may leave practical control concentrated in infrastructure, wealth, or governance intermediaries.
 
+## Position E: locally shaped AI can distribute alignment power
+
+An ecosystem of differently owned and locally shaped models may distribute the power to encode knowledge, preferences, and values. This extends decentralization from infrastructure and governance into model behavior, while leaving unresolved how safety, affected publics, and coordination across divergent models should work.
+
 ## Sources of disagreement
 
 - Definition: distribution of machines, resistance to censorship, ownership, local decision rights, and public benefit are different variables.
@@ -64,10 +69,11 @@ Web3 systems can remain embedded in Web2’s virality, mass markets, celebrity p
 - [[the-web3-decentralization-debate-is-focused-on-the-wrong-question-evi-d74613031eb5#Claim 1|The Web3 Decentralization Debate — claim 1]] and [[the-web3-decentralization-debate-is-focused-on-the-wrong-question-evi-d74613031eb5#Claim 2|claim 2]] support contextual agency.
 - [[money-go-round-evi-c58d3061f651#Claim 1|Money-Go-Round — claim 1]] and [[money-go-round-evi-c58d3061f651#Claim 2|claim 2]] emphasize continuity with incumbent platforms.
 - [[positive-sum-worlds-remaking-public-goods-evi-d897611b49cd#Claim 2|Positive Sum Worlds — claim 2]] extends accountability beyond token holders and known participants.
+- [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5|The Future Worth Building Is Human — claim 5]] applies the distribution argument to ownership and value alignment of AI models.
 
 ## Current assessment
 
-The positions are not direct logical contradictions because they measure different dimensions. The strongest synthesis is a multidimensional test: technical reachability and forkability can enable agency, but they are insufficient without usable decision rights, viable alternatives, governance, and an account of people outside the protocol. No current Evidence demonstrates a system that satisfies all dimensions.
+The positions are not direct logical contradictions because they measure different dimensions. The strongest synthesis is a multidimensional test: technical reachability, model customizability, and forkability can enable agency, but they are insufficient without usable decision rights, viable alternatives, governance, safety, and an account of people outside the system. No current Evidence demonstrates a system that satisfies all dimensions.
 
 ## Open questions
 

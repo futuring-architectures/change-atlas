@@ -4,7 +4,7 @@ type: framework
 title: Capability-to-architecture loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags: ["organization-design", "ai-adoption", "capabilities"]
 relationships:
   - type: operationalizes
@@ -29,6 +29,8 @@ evidence:
   - "[[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 2]]"
   - "[[introducing-ax-why-agent-experience-matters-evi-effc684d312e#Claim 1]]"
   - "[[the-vibes-dont-scale-evi-e058bb26186a#Claim 2]]"
+  - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]"
+  - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4]]"
 ---
 
 # Capability-to-architecture loop
@@ -90,6 +92,7 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - [[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 1|Activity Theory as a system-level explanation — claim 1]] treats adoption failure as a system signal; [[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 2|claim 2]] calls for redesign.
 - [[introducing-ax-why-agent-experience-matters-evi-effc684d312e#Claim 1|Introducing AX — claim 1]] locates agent compatibility in the interface.
 - [[the-vibes-dont-scale-evi-e058bb26186a#Claim 2|The Vibes Don’t Scale — claim 2]] makes coherence constraints more important as production accelerates.
+- [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2|The Future Worth Building Is Human — claim 2]] adds continuous customization with practitioners; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4|claim 4]] requires evaluation of joint organizational outcomes rather than machine-alone capability.
 
 ## Relationships
 

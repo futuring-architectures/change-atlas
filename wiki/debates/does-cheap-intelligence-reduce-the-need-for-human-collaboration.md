@@ -4,7 +4,7 @@ type: debate
 title: Does cheap intelligence reduce the need for human collaboration?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags:
   - ai
   - collaboration
@@ -21,6 +21,9 @@ evidence:
   - "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 1]]"
   - "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2]]"
   - "[[setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6#Claim 2]]"
+  - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]"
+  - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3]]"
+  - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4]]"
 ---
 
 # Does cheap intelligence reduce the need for human collaboration?
@@ -54,10 +57,11 @@ When an individual can generate plans, code, analysis, and alternatives with AI,
 - [[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 1|The Programmer Identity Crisis — claim 1]] forecasts substituting LLMs for colleagues; [[the-programmer-identity-crisis-evi-122ddfa90b55#Claim 2|claim 2]] names the developmental risk.
 - [[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 1|Collaboration After Cheap Intelligence — claim 1]] proposes abundant competent output; [[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2|claim 2]] shifts the constraint to commitment.
 - [[setting-time-on-fire-and-the-temptation-of-the-button-evi-e24400dc15b6#Claim 2|Setting time on fire — claim 2]] connects machine-to-machine assessment with lost organizational meaning.
+- [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2|The Future Worth Building Is Human — claim 2]] argues for continuous co-adaptation around local knowledge; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3|claim 3]] treats participation as an interface requirement, while [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4|claim 4]] distinguishes autonomous capability from joint outcomes.
 
 ## Current assessment
 
-The evidence defines mechanisms and forecasts, not observed prevalence or outcomes. Collaboration should be decomposed into production, coordination, evaluation, development, care, and commitment before any claim that AI reduces it.
+The evidence defines mechanisms and forecasts, not observed prevalence or outcomes. The Thinking Machines source strengthens the co-adaptation position but is a lab mission statement rather than comparative deployment evidence. Collaboration should be decomposed into production, coordination, evaluation, development, care, and commitment before any claim that AI reduces it.
 
 ## Relationships
 

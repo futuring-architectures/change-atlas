@@ -4,7 +4,7 @@ type: question
 title: How can institutions preserve tacit knowledge through transition?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags:
   - tacit-knowledge
   - transition
@@ -27,6 +27,8 @@ Technical replacement plans often model code, infrastructure, and cost while tre
 - [[legacy-mainframes-underwrite-digital-services|Legacy mainframes underwrite digital services]] records the continuing dependence of modern services on old systems and shrinking specialist cohorts.
 - [[1979-evi-d9574be8c003#Claim 1|1979 — claim 1]] describes mainframe software, specialist expertise, and organizational underinvestment as a combined transition risk.
 - [[the-end-of-industrial-society-evi-b3abf21e4826#Claim 2|The End of Industrial Society — claim 2]] argues more broadly that transitions change institutional forms and skill demands rather than simply swapping one technology for another.
+- [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 1|The Future Worth Building Is Human — claim 1]] characterizes productive knowledge as local and continuously revised; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2|claim 2]] proposes ongoing model adaptation with practitioners rather than one-time extraction.
+- [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 6|The Future Worth Building Is Human — claim 6]] reports Toyota returning expert craftspeople to an automated line to grow the knowledge needed to teach machines, but supplies no comparative outcome.
 
 ## Missing or discriminating evidence
 
@@ -44,7 +46,7 @@ Technical replacement plans often model code, infrastructure, and cost while tre
 
 ## Resolution
 
-_Open. The collection identifies the dependency and demographic risk but does not compare preservation strategies._
+_Open. The corpus now adds continuous co-adaptation and the Toyota craftspeople case as candidate preservation mechanisms, but still does not compare strategies or establish long-term outcomes._
 
 ## Relationships
 

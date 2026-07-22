@@ -238,3 +238,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 - Returned the 19 backlog records to 14 `strengthened` and 5 genuinely `qualified` states with null resolution targets; retained their expanded exact Evidence anchors, improved wording, stable identities, and assessment histories.
 - Kept `prp-e5fc4d5c24c3` and `prp-7650797f1cdc` as `open` because their central relationships remain confounded or insufficiently observed.
 - Established Propositions as private synthesis memory assessed during individual-source ingestion and promoted only when they resolve into an established Wiki type.
+
+## [2026-07-22] evidence | Ingest The Future Worth Building Is Human
+
+- Captured and finalized `raw/web/2026-07-22-the-future-worth-building-is-human.md` as `evidence/sources/the-future-worth-building-is-human-evi-d29670f349f2.md` with 6 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 6 Wiki page(s) cite the resulting Evidence.

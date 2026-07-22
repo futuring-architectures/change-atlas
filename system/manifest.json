@@ -3552,6 +3552,25 @@
       "raw_sha256": "42794efb22e69cef120d7cf5812b79e06dfbeca9904fde60916de94fe2bd036a",
       "status": "complete",
       "total_entries": 686
+    },
+    "raw/web/2026-07-22-the-future-worth-building-is-human.md": {
+      "affected_wiki": [
+        "wiki/concepts/contextual-defensibility.md",
+        "wiki/frameworks/capability-to-architecture-loop.md",
+        "wiki/debates/does-cheap-intelligence-reduce-the-need-for-human-collaboration.md",
+        "wiki/debates/what-kind-of-decentralization-creates-agency.md",
+        "wiki/questions/how-can-institutions-preserve-tacit-knowledge-through-transition.md",
+        "wiki/questions/which-ai-interfaces-preserve-human-agency.md"
+      ],
+      "canonical_url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
+      "claim_count": 6,
+      "completed_at": "2026-07-22",
+      "evidence_file": "evidence/sources/the-future-worth-building-is-human-evi-d29670f349f2.md",
+      "evidence_id": "evi-d29670f349f2",
+      "mode": "steady_state_url",
+      "raw_sha256": "0c1e03271cc4416b799ed2058a4cfb090ecc17c4dd3b5058ea40548e2153ef57",
+      "source_url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
+      "status": "complete"
     }
   },
   "schema_version": 1
