@@ -382,10 +382,46 @@ class CollectionWorkflowTests(unittest.TestCase):
             if "nature-of-the-firm-ecosystems" in proposition["relevant_collections"]:
                 proposition["assessments"] = [
                     assessment for assessment in proposition["assessments"]
-                    if assessment["collection"] != "nature-of-the-firm-ecosystems"
+                    if assessment.get("collection") != "nature-of-the-firm-ecosystems"
                 ]
         issues = atlas_cli.validate_synthesis_backlog(ROOT, pages, tracker, backlog)
         self.assertIn("backlog.relevant_unassessed", {issue.code for issue in issues})
+
+    def test_steady_state_source_can_trigger_backlog_assessment(self):
+        tracker = atlas_cli.load_collection_tracker(ROOT)
+        backlog = atlas_cli.load_synthesis_backlog(ROOT)
+        pages, content_issues = atlas_cli.validate_content(ROOT, atlas_cli.load_schema(ROOT))
+        self.assertEqual(content_issues, [])
+        proposition = backlog["propositions"][0]
+        source = next(page for page in pages if page.page_type == "evidence")
+        proposition["assessments"].append(
+            {
+                "source": source.metadata["id"],
+                "date": "2026-07-22",
+                "outcome": "no_change",
+                "note": "A steady-state source assessment records its Evidence identity without impersonating a bootstrap collection.",
+            }
+        )
+        self.assertEqual(
+            atlas_cli.validate_synthesis_backlog(ROOT, pages, tracker, backlog),
+            [],
+        )
+
+    def test_backlog_assessment_requires_exactly_one_trigger(self):
+        tracker = atlas_cli.load_collection_tracker(ROOT)
+        backlog = atlas_cli.load_synthesis_backlog(ROOT)
+        pages, content_issues = atlas_cli.validate_content(ROOT, atlas_cli.load_schema(ROOT))
+        self.assertEqual(content_issues, [])
+        proposition = backlog["propositions"][0]
+        proposition["assessments"].append(
+            {
+                "date": "2026-07-22",
+                "outcome": "no_change",
+                "note": "This malformed assessment has no trigger.",
+            }
+        )
+        issues = atlas_cli.validate_synthesis_backlog(ROOT, pages, tracker, backlog)
+        self.assertIn("backlog.assessment_trigger", {issue.code for issue in issues})
 
 
 class BootstrapAuditTests(unittest.TestCase):

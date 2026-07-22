@@ -206,6 +206,8 @@ An emerging proposition is a hypothesis that is too meaningful to discard but no
 
 `system/synthesis-backlog.json` gives each proposition a stable `prp-` identity, current status, originating Hub and collection, cumulative Evidence claims, relevant future collections, assessment history, and optional resolution target. Later wording changes must retain the identity. After the bootstrap collection sequence, individual source ingests compare new claims with these private records.
 
+Each assessment has exactly one trigger. Bootstrap assessments use `collection: <collection-id>`; steady-state assessments use the immutable Evidence identity `source: evi-...`. Both forms record an ISO `date`, an allowed `outcome`, and a substantive `note`. A source trigger must identify active Evidence, and one proposition may contain at most one assessment for the same source.
+
 Backlog statuses are `open`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. `qualified` requires the statement itself to express its material limitation; a qualifying assessment alone does not justify the status. `promoted` means the proposition has resolved into an established public Wiki type and `resolution_target` identifies that page. Every relevant bootstrap collection records one of `opened`, `no_change`, `strengthened`, `qualified`, `contested`, `promoted`, or `retired`. A relevant collection may not reach `synthesis_ready` without an assessment unless the proposition was already promoted or retired. In steady-state ingestion, the source transaction records what the new Evidence did or did not change; collection relevance no longer acts as the trigger.
 
 ## Human review boundaries

@@ -1064,6 +1064,11 @@ def validate_synthesis_backlog(
 
     collection_by_id = {record["id"]: record for record in tracker["collections"]}
     page_by_stem = {page.stem: page for page in pages}
+    page_by_id = {
+        page.metadata.get("id"): page
+        for page in pages
+        if isinstance(page.metadata.get("id"), str)
+    }
     seen_ids = set()
     for index, proposition in enumerate(backlog["propositions"], 1):
         label = f"proposition {index}"
@@ -1124,17 +1129,38 @@ def validate_synthesis_backlog(
             issues.append(Issue("backlog.assessment_missing", path, f"{label} requires an assessment history"))
             assessments = []
         assessed_collections = set()
+        assessed_sources = set()
         for assessment in assessments:
             if not isinstance(assessment, dict):
                 issues.append(Issue("backlog.assessment_invalid", path, f"{label} has a malformed assessment"))
                 continue
             collection_id = assessment.get("collection")
-            if collection_id not in collection_by_id:
-                issues.append(Issue("backlog.collection_unknown", path, f"{label} assessment has unknown collection {collection_id!r}"))
-            elif collection_id in assessed_collections:
-                issues.append(Issue("backlog.assessment_duplicate", path, f"{label} has multiple assessments for {collection_id}"))
+            source_id = assessment.get("source")
+            if (collection_id is None) == (source_id is None):
+                issues.append(
+                    Issue(
+                        "backlog.assessment_trigger",
+                        path,
+                        f"{label} assessment requires exactly one collection or source trigger",
+                    )
+                )
+            elif collection_id is not None:
+                if collection_id not in collection_by_id:
+                    issues.append(Issue("backlog.collection_unknown", path, f"{label} assessment has unknown collection {collection_id!r}"))
+                elif collection_id in assessed_collections:
+                    issues.append(Issue("backlog.assessment_duplicate", path, f"{label} has multiple assessments for {collection_id}"))
+                else:
+                    assessed_collections.add(collection_id)
             else:
-                assessed_collections.add(collection_id)
+                source_page = page_by_id.get(source_id)
+                if source_page is None or source_page.page_type != "evidence":
+                    issues.append(Issue("backlog.assessment_source", path, f"{label} assessment has unknown Evidence source {source_id!r}"))
+                elif source_page.metadata.get("status") != "active":
+                    issues.append(Issue("backlog.assessment_source", path, f"{label} assessment source {source_id!r} is not active"))
+                elif source_id in assessed_sources:
+                    issues.append(Issue("backlog.assessment_duplicate", path, f"{label} has multiple assessments for {source_id}"))
+                else:
+                    assessed_sources.add(source_id)
             date = assessment.get("date")
             try:
                 valid_date = isinstance(date, str) and bool(ISO_DATE_RE.fullmatch(date))
