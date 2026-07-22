@@ -147,6 +147,9 @@ evidence_claim_extraction_statuses:
   - pending
   - complete_with_claims
   - complete_no_claims
+evidence_curator_pin_statuses:
+  - user_supplied
+  - not_supplied
 evidence_source_metadata_statuses:
   - verified
   - inferred

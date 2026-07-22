@@ -16,6 +16,114 @@ sys.path.insert(0, str(TOOLS))
 import atlas_cli  # noqa: E402
 import bootstrap_audit  # noqa: E402
 import bootstrap_ingest  # noqa: E402
+import steady_ingest  # noqa: E402
+
+
+class SteadyIngestTests(unittest.TestCase):
+    def test_html_capture_prefers_article_and_recovers_metadata(self):
+        parser = steady_ingest.ArticleHTMLParser()
+        parser.feed(
+            """
+            <html><head>
+            <title>Fallback title</title>
+            <meta property="og:title" content="A source title">
+            <meta name="author" content="Ada Author">
+            <meta property="og:site_name" content="Example Review">
+            <meta property="article:published_time" content="2026-07-20T09:00:00Z">
+            <link rel="canonical" href="https://example.com/canonical">
+            </head><body><nav>Navigation noise</nav><article>
+            <h1>A source title</h1><p>This is the first substantive paragraph with enough text.</p>
+            <p>This is the second substantive paragraph.</p></article><footer>Footer noise</footer></body></html>
+            """
+        )
+        self.assertEqual(parser.meta["author"], "Ada Author")
+        self.assertEqual(parser.canonical_url, "https://example.com/canonical")
+        self.assertIn("first substantive paragraph", parser.text())
+        self.assertNotIn("Navigation noise", parser.text())
+        self.assertNotIn("Footer noise", parser.text())
+
+    def test_url_capture_draft_preserves_optional_pin_and_validates(self):
+        article = steady_ingest.CapturedArticle(
+            requested_url="https://example.com/story?ref=newsletter",
+            final_url="https://example.com/story",
+            canonical_url="https://example.com/story",
+            title="A useful story",
+            author="Ada Author",
+            publisher="Example Review",
+            published_at="2026-07-20",
+            date_precision="day",
+            body="First article paragraph.\n\nSecond article paragraph.",
+        )
+        pin = "The deliberately selected sentence."
+        first = steady_ingest.build_capture_draft(article, "2026-07-21", pin)
+        second = steady_ingest.build_capture_draft(article, "2026-07-21", pin)
+        self.assertEqual(first, second)
+        self.assertIn("## Curator pin\n\n" + pin, first.raw_content)
+        self.assertIn("> " + pin, first.evidence_content)
+        self.assertIn("claim_extraction_status: pending", first.evidence_content)
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / first.raw_relative).parent.mkdir(parents=True)
+            (root / first.evidence_relative).parent.mkdir(parents=True)
+            (root / first.raw_relative).write_text(first.raw_content, encoding="utf-8")
+            (root / first.evidence_relative).write_text(first.evidence_content, encoding="utf-8")
+            pages, issues = atlas_cli.validate_content(root, atlas_cli.load_schema(ROOT))
+            self.assertEqual(len(pages), 1)
+            self.assertEqual(issues, [])
+
+    def test_url_normalization_drops_fragments_but_keeps_query_identity(self):
+        self.assertEqual(
+            steady_ingest.normalize_url("HTTPS://Example.COM/story?q=1#section"),
+            "https://example.com/story?q=1",
+        )
+        with self.assertRaises(ValueError):
+            steady_ingest.normalize_url("file:///tmp/story.html")
+
+    def test_finalize_registers_valid_active_evidence_and_is_idempotent(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "atlas"
+            shutil.copytree(ROOT / "tests/fixtures/valid", root)
+            (root / "system/bootstrap").mkdir(parents=True)
+            shutil.copy2(ROOT / "system/schema.yaml", root / "system/schema.yaml")
+            shutil.copy2(ROOT / "system/collections.json", root / "system/collections.json")
+            shutil.copy2(
+                ROOT / "system/bootstrap/ingestion-plan.json",
+                root / "system/bootstrap/ingestion-plan.json",
+            )
+            (root / "system/synthesis-backlog.json").write_text(
+                '{"schema_version": 1, "propositions": []}\n', encoding="utf-8"
+            )
+            (root / "system/manifest.json").write_text(
+                '{"schema_version": 1, "files": {}}\n', encoding="utf-8"
+            )
+            (root / "system/log.md").write_text("# Log\n", encoding="utf-8")
+            pages, issues = atlas_cli.validate_content(root, atlas_cli.load_schema(root))
+            self.assertEqual(issues, [])
+            (root / "system/index.md").write_text(
+                atlas_cli.render_system_index(pages, root), encoding="utf-8"
+            )
+            (root / "evidence/index.md").write_text(
+                atlas_cli.render_evidence_index(pages, root), encoding="utf-8"
+            )
+
+            result = atlas_cli.command_ingest_finalize(
+                root, "raw/example.md", "2026-07-21", write=True
+            )
+            self.assertEqual(result, 0)
+            manifest = json.loads((root / "system/manifest.json").read_text(encoding="utf-8"))
+            record = manifest["files"]["raw/example.md"]
+            self.assertEqual(record["status"], "complete")
+            self.assertEqual(record["evidence_id"], "evi-a1b2c3")
+            self.assertEqual(record["claim_count"], 1)
+            first_log = (root / "system/log.md").read_text(encoding="utf-8")
+            self.assertEqual(
+                atlas_cli.command_ingest_finalize(
+                    root, "raw/example.md", "2026-07-21", write=True
+                ),
+                0,
+            )
+            self.assertEqual(first_log, (root / "system/log.md").read_text(encoding="utf-8"))
 
 
 class YamlSubsetTests(unittest.TestCase):

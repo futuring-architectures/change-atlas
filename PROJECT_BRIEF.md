@@ -104,10 +104,12 @@ Relationships should be readable in page bodies and machine-checkable in YAML fr
 
 ## Steady-State Workflow
 
-After the initial bulk bootstrap, new sources will be added manually, one Markdown file at a time:
+After the initial bulk bootstrap, new sources enter through a URL-first editorial workflow. The system captures each accessible article as immutable local Markdown before interpretation:
 
 ```text
-raw/ source
+source URL + optional curator pin
+    ↓
+immutable raw/web/ capture
     ↓
 normalized evidence and atomic claims
     ↓
@@ -118,7 +120,9 @@ validate relationships and provenance
 update manifest, indexes, and log
 ```
 
-A new source does not necessarily create a new Wiki page. It may strengthen, qualify, contradict, or leave unchanged an existing synthesis.
+A curator pin preserves the deliberately selected newsletter quotation and the editor's reason for saving a source. It remains distinct from article-wide Evidence Claims: it is optional, is not automatically a claim, and does not restrict claim extraction to the pinned passage.
+
+A new source does not necessarily create a new Wiki page. It may strengthen, qualify, contradict, or leave unchanged an existing synthesis. URL intake must fail visibly when the article cannot be captured faithfully because of authentication, client-side rendering, or access restrictions.
 
 Ingestion must be idempotent: processing the same unchanged raw file twice must not duplicate evidence or Wiki content.
 
@@ -297,7 +301,9 @@ Phase 1 is complete when:
 
 ### Phase 3 — Steady-state ingestion
 
-- Add `tools/wiki ingest <raw-file>`.
+- Add URL-first `tools/wiki ingest <url>` preparation that creates an immutable raw capture and draft Evidence.
+- Preserve an optional curator pin separately from article-wide claim extraction.
+- Add reviewed-source finalization with `tools/wiki ingest <raw-file> --finalize`.
 - Enforce hash-based idempotence.
 - Extract Evidence and maintain the Wiki incrementally.
 - Validate and log each ingest transaction.

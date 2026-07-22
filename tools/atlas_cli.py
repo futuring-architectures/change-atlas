@@ -25,6 +25,7 @@ from bootstrap_ingest import (
     select_collection,
     write_evidence_drafts,
 )
+from steady_ingest import build_capture_draft, fetch_article, normalize_url, write_capture_draft
 
 
 MIN_PYTHON = (3, 9)
@@ -707,6 +708,18 @@ def validate_content(content_root: Path, schema: Dict[str, Any]) -> Tuple[List[P
         if page_type == "evidence":
             issues.extend(_validate_evidence_provenance(page, content_root, raw_cache))
             issues.extend(_validate_evidence_source_metadata(page, schema))
+            pin_status = metadata.get("curator_pin_status")
+            if pin_status is not None:
+                allowed_pin_statuses = schema.get("evidence_curator_pin_statuses", [])
+                if pin_status not in allowed_pin_statuses:
+                    issues.append(
+                        Issue("evidence.curator_pin_status_invalid", page.path, f"curator_pin_status {pin_status!r} is invalid")
+                    )
+                has_pin_range = metadata.get("raw_quote_line_start") is not None or metadata.get("raw_quote_line_end") is not None
+                if (pin_status == "user_supplied") != has_pin_range:
+                    issues.append(
+                        Issue("evidence.curator_pin_status_conflict", page.path, "user-supplied pins require raw quote coordinates; unpinned sources must omit them")
+                    )
             claim_heading_numbers = CLAIM_HEADING_RE.findall(page.body)
             claim_heading_lines = re.findall(r"(?m)^### (Claim(?:\s+.*)?)\s*$", page.body)
             claim_anchors = [f"Claim {number}" for number in claim_heading_numbers]
@@ -1670,6 +1683,192 @@ def command_doctor(root: Path) -> int:
     return 1 if failures else 0
 
 
+def _evidence_for_raw(root: Path, raw_relative: str) -> List[Page]:
+    matches: List[Page] = []
+    for path in sorted((root / "evidence/sources").glob("*.md")):
+        page, issues = parse_markdown(path)
+        if issues or page is None:
+            continue
+        if page.metadata.get("raw_file") == raw_relative:
+            matches.append(page)
+    return matches
+
+
+def _existing_source_urls(root: Path) -> Dict[str, Path]:
+    urls: Dict[str, Path] = {}
+    for path in sorted((root / "evidence/sources").glob("*.md")):
+        page, issues = parse_markdown(path)
+        if issues or page is None:
+            continue
+        for field in ("source_url", "canonical_url"):
+            value = page.metadata.get(field)
+            if isinstance(value, str):
+                try:
+                    urls[normalize_url(value)] = path
+                except ValueError:
+                    pass
+    return urls
+
+
+def _referencing_wiki_files(root: Path, evidence_stem: str) -> List[str]:
+    references: List[str] = []
+    needle = re.compile(r"\[\[" + re.escape(evidence_stem) + r"(?:#|\||\]\])")
+    for directory in (
+        "wiki/hubs", "wiki/signals", "wiki/trends", "wiki/concepts",
+        "wiki/frameworks", "wiki/debates", "wiki/questions",
+    ):
+        for path in sorted((root / directory).glob("*.md")):
+            if needle.search(path.read_text(encoding="utf-8")):
+                references.append(path.relative_to(root).as_posix())
+    return references
+
+
+def _atomic_write(path: Path, content: str) -> None:
+    temporary = path.with_name(path.name + ".tmp")
+    temporary.write_text(content, encoding="utf-8")
+    os.replace(temporary, path)
+
+
+def command_ingest_prepare(root: Path, url: str, ingest_date: str, quote: Optional[str], write: bool) -> int:
+    root = root.resolve()
+    dt.date.fromisoformat(ingest_date)
+    requested = normalize_url(url)
+    existing = _existing_source_urls(root)
+    if requested in existing:
+        print(f"ALREADY CAPTURED {existing[requested].relative_to(root)}")
+        return 0
+    article = fetch_article(requested)
+    for candidate in (article.final_url, article.canonical_url):
+        if normalize_url(candidate) in existing:
+            print(f"ALREADY CAPTURED {existing[normalize_url(candidate)].relative_to(root)}")
+            return 0
+    draft = build_capture_draft(article, ingest_date, quote)
+    for relative in (draft.raw_relative, draft.evidence_relative):
+        if (root / relative).exists():
+            raise ValueError(f"ingest destination already exists: {relative}")
+    print(f"Source: {article.title}")
+    print(f"Canonical URL: {article.canonical_url}")
+    print(f"Raw capture: {draft.raw_relative}")
+    print(f"Evidence draft: {draft.evidence_relative}")
+    print(f"Evidence ID: {draft.evidence_id}")
+    print(f"Raw SHA-256: {draft.raw_sha256}")
+    if not write:
+        print("Dry run only; pass --write to create the capture and Evidence draft.")
+        return 0
+    raw_path, evidence_path = write_capture_draft(root, draft)
+    print(f"WROTE {raw_path.relative_to(root)}")
+    print(f"WROTE {evidence_path.relative_to(root)}")
+    print("NEXT review metadata, extract atomic claims, assess Wiki and proposition effects, then finalize.")
+    return 0
+
+
+def command_ingest_finalize(root: Path, raw_file: str, completion_date: str, write: bool) -> int:
+    root = root.resolve()
+    dt.date.fromisoformat(completion_date)
+    supplied = Path(raw_file)
+    if supplied.is_absolute() or ".." in supplied.parts or not supplied.parts or supplied.parts[0] != "raw":
+        raise ValueError("finalize input must be a repository-relative file beneath raw/")
+    raw_path = (root / supplied).resolve()
+    try:
+        raw_path.relative_to((root / "raw").resolve())
+    except ValueError as exc:
+        raise ValueError("finalize input escapes raw/") from exc
+    if not raw_path.is_file():
+        raise ValueError(f"raw source does not exist: {raw_file}")
+    raw_relative = raw_path.relative_to(root).as_posix()
+
+    manifest_path = root / "system/manifest.json"
+    original_manifest_content = manifest_path.read_text(encoding="utf-8")
+    manifest = json.loads(original_manifest_content)
+    files = manifest.get("files")
+    if not isinstance(files, dict):
+        raise ValueError("manifest files must be a mapping")
+    existing = files.get(raw_relative)
+    if isinstance(existing, dict) and existing.get("status") == "complete":
+        print(f"ALREADY FINALIZED {raw_relative}")
+        return 0
+
+    matches = _evidence_for_raw(root, raw_relative)
+    if len(matches) != 1:
+        raise ValueError(f"finalize requires exactly one Evidence page for {raw_relative}; found {len(matches)}")
+    evidence = matches[0]
+    if evidence.metadata.get("status") != "active":
+        raise ValueError("Evidence must be active before finalization")
+    claim_status = evidence.metadata.get("claim_extraction_status")
+    if claim_status not in {"complete_with_claims", "complete_no_claims"}:
+        raise ValueError("Evidence claim extraction must be complete before finalization")
+
+    schema = load_schema(root)
+    pages, issues = validate_content(root, schema)
+    try:
+        tracker = load_collection_tracker(root)
+        issues.extend(validate_synthesis_backlog(root, pages, tracker))
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        raise ValueError(f"synthesis backlog does not validate: {exc}") from exc
+    if issues:
+        for issue in issues:
+            print(issue.display(root), file=sys.stderr)
+        raise ValueError(f"repository validation failed with {len(issues)} issue(s)")
+    expected_indexes = {
+        root / "system/index.md": render_system_index(pages, root),
+        root / "evidence/index.md": render_evidence_index(pages, root),
+    }
+    stale_indexes = [
+        path.relative_to(root).as_posix()
+        for path, expected in expected_indexes.items()
+        if path.read_text(encoding="utf-8") != expected
+    ]
+    if stale_indexes:
+        raise ValueError(f"indexes are stale ({', '.join(stale_indexes)}); run tools/wiki index before finalizing")
+
+    raw_hash = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+    if evidence.metadata.get("raw_sha256") != raw_hash:
+        raise ValueError("Evidence raw SHA-256 differs from the finalization source")
+    affected_wiki = _referencing_wiki_files(root, evidence.stem)
+    record = {
+        "status": "complete",
+        "mode": "steady_state_url" if evidence.metadata.get("source_url") else "steady_state_file",
+        "raw_sha256": raw_hash,
+        "completed_at": completion_date,
+        "evidence_id": evidence.metadata.get("id"),
+        "evidence_file": evidence.path.relative_to(root).as_posix(),
+        "source_url": evidence.metadata.get("source_url"),
+        "canonical_url": evidence.metadata.get("canonical_url"),
+        "claim_count": len(CLAIM_HEADING_RE.findall(evidence.body)),
+        "affected_wiki": affected_wiki,
+    }
+    print(f"Raw source: {raw_relative}")
+    print(f"Evidence: {record['evidence_file']}")
+    print(f"Claims: {record['claim_count']}")
+    print(f"Affected Wiki pages: {len(affected_wiki)}")
+    if not write:
+        print("Dry run only; pass --write to update the manifest and operational log.")
+        return 0
+
+    files[raw_relative] = record
+    manifest_content = json.dumps(manifest, indent=2, ensure_ascii=False, sort_keys=True) + "\n"
+    log_path = root / "system/log.md"
+    original_log = log_path.read_text(encoding="utf-8")
+    title = evidence.metadata.get("title") or evidence.stem
+    log_entry = (
+        f"\n## [{completion_date}] evidence | Ingest {title}\n\n"
+        f"- Captured and finalized `{raw_relative}` as `{record['evidence_file']}` with "
+        f"{record['claim_count']} atomic claim(s).\n"
+        f"- Assessed the source against the maintained Wiki and private proposition backlog; "
+        f"{len(affected_wiki)} Wiki page(s) cite the resulting Evidence.\n"
+    )
+    _atomic_write(manifest_path, manifest_content)
+    try:
+        _atomic_write(log_path, original_log.rstrip() + "\n" + log_entry)
+    except Exception:
+        # Restore the manifest if the second half of the transaction cannot be written.
+        _atomic_write(manifest_path, original_manifest_content)
+        raise
+    print(f"WROTE {manifest_path.relative_to(root)}")
+    print(f"APPENDED {log_path.relative_to(root)}")
+    return 0
+
+
 def command_bootstrap_audit(root: Path, raw_file: str, write: bool = False) -> int:
     supplied = Path(raw_file)
     candidate = (root / supplied).resolve() if not supplied.is_absolute() else supplied.resolve()
@@ -1912,6 +2111,15 @@ def build_parser() -> argparse.ArgumentParser:
     )
     review_report.add_argument("--collection", required=True, help="tracked collection id")
     review_report.add_argument("--check", action="store_true", help="fail instead of writing when the report is stale")
+    ingest = subparsers.add_parser(
+        "ingest",
+        help="capture a URL as draft Evidence, or finalize one reviewed raw source",
+    )
+    ingest.add_argument("source", help="HTTP(S) URL to capture, or repository-relative raw file to finalize")
+    ingest.add_argument("--date", required=True, help="capture or completion date in ISO YYYY-MM-DD form")
+    ingest.add_argument("--quote", help="optional verbatim curator pin retained separately from article claims")
+    ingest.add_argument("--finalize", action="store_true", help="register a reviewed raw source in the manifest and log")
+    ingest.add_argument("--write", action="store_true", help="write capture artifacts or final transaction records")
     bootstrap_audit = subparsers.add_parser(
         "bootstrap-audit",
         help="parse a raw anthology and report structural entries without creating Evidence",
@@ -1970,6 +2178,14 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             return command_dashboard(root, args.check)
         if args.command == "review-report":
             return command_review_report(root, args.collection, args.check)
+        if args.command == "ingest":
+            if args.finalize:
+                if args.quote is not None:
+                    raise ValueError("--quote applies only when capturing a URL")
+                return command_ingest_finalize(root, args.source, args.date, args.write)
+            if not re.match(r"^https?://", args.source, re.I):
+                raise ValueError("ingest preparation requires an HTTP(S) URL; use --finalize for a raw file")
+            return command_ingest_prepare(root, args.source, args.date, args.quote, args.write)
         if args.command == "bootstrap-audit":
             return command_bootstrap_audit(root, args.raw_file, args.write)
         if args.command == "bootstrap-plan":

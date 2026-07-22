@@ -48,6 +48,10 @@ Relationships are machine-checkable edges. Page bodies should also explain impor
 
 Evidence pages represent sources or curated source entries. They preserve the original quotation, metadata, editorial placement, and atomic claim anchors.
 
+For steady-state URL ingestion, the URL is only the intake locator. Preparation stores the accessible article as an immutable Markdown capture beneath `raw/web/`; Evidence provenance points to that capture and its hash. This prevents a changed or vanished live page from silently changing what the Atlas claims to have reviewed.
+
+The optional `curator_pin_status` field is `user_supplied` or `not_supplied`. A user-supplied pin has exact `raw_quote_line_start` and `raw_quote_line_end` coordinates and is rendered verbatim under `Curated excerpt`. It records editorial salience, not evidential classification: claims are extracted from the complete captured article, and a pin may yield zero, one, or several claims.
+
 Evidence begins as `draft` with `claim_extraction_status: pending` when deterministic bookkeeping is complete but interpretive claim extraction has not been reviewed. Draft Evidence may preserve excerpts and provenance without claim anchors and must not be cited from the Wiki.
 
 After review, set `claim_extraction_status` to `complete_with_claims` or `complete_no_claims`. The latter is a meaningful outcome: an excerpt may consist only of questions, context, or rhetoric that should not be normalized into a claim. Active Evidence cannot remain `pending`; `complete_with_claims` requires at least one stable `claim-N` anchor, while `complete_no_claims` requires none.

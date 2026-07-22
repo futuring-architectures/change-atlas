@@ -45,7 +45,27 @@ tools/wiki validate tests/fixtures/broken
 
 ## Current phase
 
-Phase 2 bootstrap is complete. Its audit, planning, Evidence generation, and collection-registration commands remain available for provenance and maintenance, but new material enters the Atlas one source file at a time. Until `tools/wiki ingest <raw-file>` is implemented, follow the deterministic transaction contract in `AGENTS.md`: check identity, create one Evidence page with exact provenance and atomic claims, compare it with the existing Wiki and synthesis backlog, validate, regenerate indexes, and log the operation.
+Phase 2 bootstrap is complete. New material now enters through Phase 3 URL-first ingestion. Give the Atlas an article URL and, optionally, the single quote you pinned for newsletter curation:
+
+```bash
+tools/wiki ingest https://example.com/article \
+  --date 2026-07-21 \
+  --quote "Optional verbatim curator pin" \
+  --write
+```
+
+Preparation captures the accessible article beneath `raw/web/`, hashes it, and creates draft Evidence. The pin preserves why the source caught your attention; atomic claims are extracted separately from the complete article. Pages that require login or client-side rendering fail visibly instead of producing a misleading partial capture.
+
+After metadata and claim review, incremental Wiki maintenance, and proposition assessment, activate the Evidence page and finalize the transaction:
+
+```bash
+tools/wiki ingest raw/web/2026-07-21-example-article.md \
+  --date 2026-07-21 \
+  --finalize \
+  --write
+```
+
+Finalization requires a valid active Evidence record with completed claim extraction, then records the source, claims, affected Wiki pages, hash, and completion date in the manifest and operational log. Repeating capture or finalization does not duplicate content.
 
 The original anthology was audited with:
 

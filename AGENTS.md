@@ -97,9 +97,27 @@ When adding a relationship:
 
 An apparent contradiction may instead be a difference in timeframe, scope, definition, values, or evidential standard. Record those distinctions before applying `contradicts`.
 
-## Ingest workflow — later phases
+## Steady-state ingest workflow
 
-Phase 1 contains no ingest command. When ingestion is implemented, each transaction must:
+The editor-facing intake is URL-first. A URL is a locator, not durable Evidence: preparation must capture the accessible article as an immutable UTF-8 Markdown file beneath `raw/web/`, then hash that capture and create one draft Evidence page. Never treat a later live version of the page as if it were the captured version.
+
+An optional curator pin records why the editor saved the source and preserves newsletter curation continuity. Keep it verbatim and distinct from the article-wide atomic claims. A pin is not required, is not automatically a claim, and does not limit claim extraction to the selected passage.
+
+Run preparation with:
+
+```bash
+tools/wiki ingest <url> --date YYYY-MM-DD [--quote "verbatim pin"] --write
+```
+
+The command performs deterministic capture and bookkeeping only. If the page requires authentication, client-side rendering, or yields too little readable content, stop and report the capture problem rather than registering incomplete Evidence.
+
+After reviewing metadata, extracting claims from the complete capture, assessing the Wiki and private proposition backlog, and activating the Evidence page, finalize with:
+
+```bash
+tools/wiki ingest raw/web/<capture>.md --date YYYY-MM-DD --finalize --write
+```
+
+Each completed transaction must:
 
 1. hash the raw file and check `system/manifest.json`;
 2. parse without modifying the raw source;
