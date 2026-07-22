@@ -1682,7 +1682,8 @@
         "[[open-source-ai-has-been-vital-for-alignment-evi-e8407fc75eab#Claim 2]]",
         "[[are-ai-expectations-too-high-or-misplaced-evi-6e07e50b7b3d#Claim 1]]",
         "[[red-lining-ai-evi-946f46f44c16#Claim 1]]",
-        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]"
+        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]",
+        "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 6]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1713,6 +1714,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Selective AI limits, legitimacy-sensitive resistance, epistemic fluency, pace layers, and continued outcome testing strengthen the shift toward governing deployment conditions rather than capability access alone."
+        },
+        {
+          "source": "evi-207599420750",
+          "date": "2026-07-22",
+          "outcome": "strengthened",
+          "note": "The source explicitly prefers applying harm-specific rules for cheating, theft, injury, discrimination, and related misconduct over categorical AI bans. This strengthens the deployment-conditions direction but does not show that existing rules cover AI-specific risks or provide effective enforcement and recourse."
         }
       ],
       "resolution_target": null
@@ -2073,7 +2080,8 @@
       "evidence": [
         "[[the-new-luddites-arent-backing-down-evi-8b5c99287abc#Claim 1]]",
         "[[the-new-luddites-arent-backing-down-evi-8b5c99287abc#Claim 2]]",
-        "[[red-lining-ai-evi-946f46f44c16#Claim 2]]"
+        "[[red-lining-ai-evi-946f46f44c16#Claim 2]]",
+        "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 2]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2084,6 +2092,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Persistent objection and selective red lines support the legitimacy-conflict interpretation, but cases showing how governance changes resolve or preserve the conflict are missing."
+        },
+        {
+          "source": "evi-207599420750",
+          "date": "2026-07-22",
+          "outcome": "qualified",
+          "note": "The source contests treating moral concern as sufficient evidence for restriction and interprets presumptive negatives as an incumbent adoption brake. It sharpens the proposition by requiring a specified harm mechanism and evidence threshold, while offering no rule for high-stakes or irreversible uncertainty."
         }
       ],
       "resolution_target": null

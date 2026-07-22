@@ -248,3 +248,13 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-07-22-thinking-with-llms-a-reflection.md` as `evidence/sources/thinking-with-llms-a-reflection-evi-faaa31ee0421.md` with 9 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 8 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-22] evidence | Ingest X post wrapper for Banning AI in Law School
+
+- Captured and finalized `raw/web/2026-07-22-steven-sinofsky-stevesi-on-x.md` as `evidence/sources/steven-sinofsky-stevesi-on-x-evi-1400cea4f110.md` with 0 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 0 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-22] evidence | Ingest Banning AI in Law School: We've Seen This Before
+
+- Captured and finalized `raw/web/2026-07-22-banning-ai-in-law-school-weve-seen-this-before.md` as `evidence/sources/banning-ai-in-law-school-weve-seen-this-before-evi-207599420750.md` with 6 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.

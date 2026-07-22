@@ -4,7 +4,7 @@ type: debate
 title: Is technology resistance an obstacle or design input?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-22
 tags: ["resistance", "legitimacy", "technology"]
 relationships:
   - type: raises_question
@@ -17,6 +17,9 @@ evidence:
   - "[[dispatch-from-the-trenches-of-the-butlerian-jihad-evi-5b801932134f#Claim 2]]"
   - "[[red-lining-ai-evi-946f46f44c16#Claim 1]]"
   - "[[red-lining-ai-evi-946f46f44c16#Claim 2]]"
+  - "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 2]]"
+  - "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 3]]"
+  - "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 6]]"
 ---
 
 # Is technology resistance an obstacle or design input?
@@ -28,6 +31,8 @@ When people resist a technology, should transition leaders treat that resistance
 ## Position A
 
 Categorical resistance can protect familiar routines and prevent people from learning enough to shape a consequential technology. Blanket bans may cede influence to actors willing to experiment and can confuse correctable factual beliefs with durable value conflicts.
+
+Sinofsky sharpens this position by arguing that incumbents can mobilize fear or moral concern as a presumptive negative, while adoption by “native” users outruns institutional attempts at containment. On this view, concern should identify a demonstrable harm and a rule for that harm rather than justify a category ban.
 
 ## Position B
 
@@ -51,10 +56,11 @@ Resistance can express legitimate disagreement about autonomy, labor, exploitati
 - [[the-new-luddites-arent-backing-down-evi-8b5c99287abc#Claim 1|The New Luddites Aren't Backing Down — claim 1]] reports durable objection after factual corrections; [[the-new-luddites-arent-backing-down-evi-8b5c99287abc#Claim 2|claim 2]] interprets it as a conflict over commonality.
 - [[dispatch-from-the-trenches-of-the-butlerian-jihad-evi-5b801932134f#Claim 1|Dispatch from the Trenches — claim 1]] criticizes retreat into comfort; [[dispatch-from-the-trenches-of-the-butlerian-jihad-evi-5b801932134f#Claim 2|claim 2]] argues that participation preserves shaping power.
 - [[red-lining-ai-evi-946f46f44c16#Claim 1|Red-lining AI — claim 1]] rejects exploitative uses; [[red-lining-ai-evi-946f46f44c16#Claim 2|claim 2]] distinguishes selective limits from category bans.
+- [[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 2|Banning AI in Law School — claim 2]] interprets presumptive negatives as an incumbent adoption brake; [[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 3|claim 3]] predicts categorical restrictions will fail under AI-native adoption; [[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 6|claim 6]] prefers rules against harms to technology bans.
 
 ## Current assessment
 
-The evidence rejects a single diagnosis of resistance. Persistent objection can reveal a legitimacy or value conflict, while categorical disengagement can reduce the ability to shape systems already entering institutions. The practical requirement is to classify the objection, preserve refusal and recourse, and test whether changing governance or design changes the conflict.
+The evidence rejects a single diagnosis of resistance. Persistent objection can reveal a legitimacy or value conflict, while categorical disengagement can reduce the ability to shape systems already entering institutions. The new source adds a burden-of-proof challenge: moral concern alone should not be allowed to stand in for a harm mechanism. The practical requirement is therefore to classify the objection, specify the alleged harm and evidence threshold, preserve refusal and recourse, and test whether a proportionate rule or design change addresses the conflict without defaulting to a category ban.
 
 ## Relationships
 

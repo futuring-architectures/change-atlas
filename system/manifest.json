@@ -3553,6 +3553,34 @@
       "status": "complete",
       "total_entries": 686
     },
+    "raw/web/2026-07-22-banning-ai-in-law-school-weve-seen-this-before.md": {
+      "affected_wiki": [
+        "wiki/concepts/anticipatory-friction.md",
+        "wiki/debates/is-technology-resistance-an-obstacle-or-design-input.md",
+        "wiki/questions/when-should-resistance-change-or-stop-a-technology-transition.md"
+      ],
+      "canonical_url": "https://x.com/stevesi/status/2075994207508922406",
+      "claim_count": 6,
+      "completed_at": "2026-07-22",
+      "evidence_file": "evidence/sources/banning-ai-in-law-school-weve-seen-this-before-evi-207599420750.md",
+      "evidence_id": "evi-207599420750",
+      "mode": "steady_state_url",
+      "raw_sha256": "404af93065cbb4621d1966425c51f3770b6b7a0a3114bb81f7008d72006f35e9",
+      "source_url": "https://x.com/stevesi/status/2075994207508922406",
+      "status": "complete"
+    },
+    "raw/web/2026-07-22-steven-sinofsky-stevesi-on-x.md": {
+      "affected_wiki": [],
+      "canonical_url": "https://x.com/stevesi/status/2075994207508922406",
+      "claim_count": 0,
+      "completed_at": "2026-07-22",
+      "evidence_file": "evidence/sources/steven-sinofsky-stevesi-on-x-evi-1400cea4f110.md",
+      "evidence_id": "evi-1400cea4f110",
+      "mode": "steady_state_url",
+      "raw_sha256": "3bd3b42b79b5697f2a7baef4ef10c7fba274010588c1136755cebf873ad81aec",
+      "source_url": "https://x.com/stevesi/status/2075994207508922406",
+      "status": "complete"
+    },
     "raw/web/2026-07-22-the-future-worth-building-is-human.md": {
       "affected_wiki": [
         "wiki/concepts/contextual-defensibility.md",
