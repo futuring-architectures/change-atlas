@@ -4,7 +4,7 @@ type: concept
 title: Programmable organization
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-24
 tags:
   - ai-agents
   - organization-design
@@ -20,6 +20,8 @@ evidence:
   - "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]"
   - "[[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 1]]"
   - "[[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 2]]"
+  - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2]]"
+  - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6]]"
 ---
 
 # Programmable organization
@@ -28,11 +30,11 @@ evidence:
 
 A programmable organization is a prospective organizational form in which people describe goals, constraints, workflows, and coordination in software- or AI-readable form, and executable systems carry out significant portions of the resulting operations.
 
-The term names a design direction, not an observed mature category. Natural-language control may lower the distance between intent and execution, but the organization remains dependent on data, evaluation, governance, learning, and human authority.
+The term names a design direction, not an observed mature category. Natural-language control may lower the distance between intent and execution, but the organization remains dependent on data, evaluation, governance, learning, and human authority. The direction is reciprocal: software can make operations executable, while every harness also encodes and can harden the operating model it inherits.
 
 ## Provenance
 
-Lee Bryant proposes natural language as an abstraction layer capable of spinning up organizational operations from description. Jan Bosch adds the operational condition that AI-native organizations require durable infrastructure and cannot safely flatten around untrusted agents.
+Lee Bryant proposes natural language as an abstraction layer capable of spinning up organizational operations from description. Jan Bosch adds the operational condition that AI-native organizations require durable infrastructure and cannot safely flatten around untrusted agents. Stuart Winter-Tear supplies the inverse view: the harness is where an existing operating model becomes software, joining intelligent-system design to organization design.
 
 ## Aliases and related terms
 
@@ -47,6 +49,7 @@ Lee Bryant proposes natural language as an abstraction layer capable of spinning
 - Describing a workflow is not the same as authorizing it; permissions, affected parties, and accountability remain governance questions.
 - Abstraction removes visible detail from the operator but can relocate complexity into testing, monitoring, integration, and exception handling.
 - The concept should not imply that culture, trust, tacit knowledge, or meaning are reducible to code.
+- Encoding an inherited operating model can reproduce unclear authority, broken information flows, or poor exception handling at software speed.
 
 ## Evidence
 
@@ -55,6 +58,7 @@ Lee Bryant proposes natural language as an abstraction layer capable of spinning
 - [[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1|The AI-native organization — claim 1]] identifies the required supporting infrastructure.
 - [[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2|The AI-native organization — claim 2]] makes earned trust a precondition for structural flattening.
 - [[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 1|Will We See the First Programmable Organisations In 2025? — claim 1]] forecasts back-end automation paired with more human front-end work; [[will-we-see-the-first-programmable-organisations-in-2025-evi-b1e3e5042c19#Claim 2|claim 2]] forecasts unbundled and recombined roles.
+- [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2|The Operating Model Is the Real AI Harness — claim 2]] identifies coordination, knowledge, decisions, exceptions, and governance as organizational inputs to the harness; [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6|claim 6]] makes intelligent-system and organization design interdependent.
 
 ## Relationships
 

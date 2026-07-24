@@ -4,7 +4,7 @@ type: framework
 title: AI-native organizational trust stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-24
 tags:
   - ai-agents
   - organizational-trust
@@ -23,13 +23,15 @@ evidence:
   - "[[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 1]]"
   - "[[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 2]]"
   - "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
+  - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2]]"
+  - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4]]"
 ---
 
 # AI-native organizational trust stack
 
 ## Purpose
 
-Use this Framework before flattening roles or granting agents broader autonomy. It treats trust as an operating capability earned through evidence and correction, not as confidence in a model or a successful demonstration.
+Use this Framework before flattening roles or granting agents broader autonomy. It treats trust as an operating capability earned through evidence and correction, not as confidence in a model or a successful demonstration. The stack is also an operating-model specification: a harness inherits these conditions whether they are designed explicitly or left ambiguous.
 
 ## The five layers
 
@@ -78,6 +80,7 @@ An agent drafting internal research may appear successful at the artifact layer.
 - [[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1|The AI-native organization — claim 1]] names data, evaluation, governance, and learning infrastructure; [[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2|claim 2]] makes evaluation, monitoring, and correction prerequisites for trust.
 - [[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 1|The Cognition Stack — claim 1]] defines the orchestration role; [[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 2|claim 2]] retains human taste and final selection.
 - [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2|AI-Generated “Workslop” — claim 2]] shows why evaluation must follow cognitive labor across the workflow.
+- [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2|The Operating Model Is the Real AI Harness — claim 2]] grounds harness responsibilities in organizational coordination, knowledge, authority, exception handling, and governance; [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4|claim 4]] makes the operating model an upper constraint on harness capability.
 
 ## Relationships
 

@@ -1002,6 +1002,12 @@
           "date": "2026-07-24",
           "outcome": "strengthened",
           "note": "The source models agentic software work as a human-owned outer loop of attention, verification, approval, and consequence, and predicts durable value in problem choice and judgment. It remains a practitioner interpretation and career forecast rather than representative role-transition evidence."
+        },
+        {
+          "source": "evi-47b5a20b1162",
+          "date": "2026-07-24",
+          "outcome": "no_change",
+          "note": "The source specifies how a harness inherits organizational coordination, decision, escalation, and accountability structures, but it does not claim that human roles are moving toward orchestration or supply role-transition outcomes."
         }
       ],
       "resolution_target": null
@@ -1167,6 +1173,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The lowest-common-denominator system prompt shows that natural language can control broad behavior while failing across heterogeneous contexts; control surfaces require task-specific challenge and governance."
+        },
+        {
+          "source": "evi-47b5a20b1162",
+          "date": "2026-07-24",
+          "outcome": "no_change",
+          "note": "The source describes the harness as a software expression of organizational workflows and authority, but it does not identify natural language as the control surface or observe reliable execution from natural-language descriptions."
         }
       ],
       "resolution_target": null
@@ -1722,7 +1734,9 @@
         "[[are-ai-expectations-too-high-or-misplaced-evi-6e07e50b7b3d#Claim 1]]",
         "[[red-lining-ai-evi-946f46f44c16#Claim 1]]",
         "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]",
-        "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 6]]"
+        "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 6]]",
+        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2]]",
+        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1759,6 +1773,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source explicitly prefers applying harm-specific rules for cheating, theft, injury, discrimination, and related misconduct over categorical AI bans. This strengthens the deployment-conditions direction but does not show that existing rules cover AI-specific risks or provide effective enforcement and recourse."
+        },
+        {
+          "source": "evi-47b5a20b1162",
+          "date": "2026-07-24",
+          "outcome": "strengthened",
+          "note": "The source relocates capability and governance from model choice toward the harness and the operating model that supplies workflow, authority, exceptions, and institutional constraints. It does not compare governance regimes or establish that model access has commoditized."
         }
       ],
       "resolution_target": null
@@ -1818,7 +1838,10 @@
         "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
         "[[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 1]]",
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]",
-        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3]]"
+        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3]]",
+        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3]]",
+        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5]]",
+        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -1848,6 +1871,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "Continuous customization with practitioners and conditional invitations for oversight strengthen the workflow-and-decision-right redesign mechanism. The source supplies no comparative organizational performance outcome."
+        },
+        {
+          "source": "evi-47b5a20b1162",
+          "date": "2026-07-24",
+          "outcome": "strengthened",
+          "note": "The source makes the operating model—actual workflows, decision movement, accountability, information flow, coordination, and human-machine responsibility—the upper design layer inherited by AI harnesses. It strengthens the redesign mechanism but supplies no paired organizations or performance comparison."
         }
       ],
       "resolution_target": null
@@ -1894,6 +1923,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Cheap implementation, collapsing artifact signals, task-boundary work, pace layering, and outcome drift strengthen the case that evaluation, architecture, and institutional absorption become relatively scarcer."
+        },
+        {
+          "source": "evi-47b5a20b1162",
+          "date": "2026-07-24",
+          "outcome": "no_change",
+          "note": "The source treats organizational architecture as an upper constraint on AI harness capability, but it does not connect that constraint to faster component generation or provide evidence about relative value."
         }
       ],
       "resolution_target": null

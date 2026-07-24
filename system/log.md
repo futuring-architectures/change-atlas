@@ -263,3 +263,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-07-24-earning-judgment.md` as `evidence/sources/earning-judgment-evi-207760005515.md` with 7 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 8 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-24] evidence | Ingest The Operating Model Is the Real AI Harness
+
+- Captured and finalized `raw/web/2026-07-24-the-operating-model-is-the-real-ai-harness.md` as `evidence/sources/the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162.md` with 6 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.

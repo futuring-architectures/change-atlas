@@ -3641,6 +3641,23 @@
       "raw_sha256": "90bb44d6654197c5f94bce589f790bf17906564951433a9e8b4a903ee2ed344d",
       "source_url": "https://x.com/addyosmani/status/2077600055159357548",
       "status": "complete"
+    },
+    "raw/web/2026-07-24-the-operating-model-is-the-real-ai-harness.md": {
+      "affected_wiki": [
+        "wiki/concepts/programmable-organization.md",
+        "wiki/frameworks/ai-native-organizational-trust-stack.md",
+        "wiki/frameworks/capability-to-architecture-loop.md",
+        "wiki/frameworks/organizational-transformation-test.md"
+      ],
+      "canonical_url": "https://unhypedai.substack.com/p/the-operating-model-is-the-real-ai",
+      "claim_count": 6,
+      "completed_at": "2026-07-24",
+      "evidence_file": "evidence/sources/the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162.md",
+      "evidence_id": "evi-47b5a20b1162",
+      "mode": "steady_state_url",
+      "raw_sha256": "0ac29b4f015e79d94a4a29033e658bf6635c13ba81bd39504025f19ec15a73d4",
+      "source_url": "https://unhypedai.substack.com/p/the-operating-model-is-the-real-ai",
+      "status": "complete"
     }
   },
   "schema_version": 1
