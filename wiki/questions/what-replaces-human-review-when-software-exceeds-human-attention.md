@@ -4,7 +4,7 @@ type: question
 title: What replaces human review when software exceeds human attention?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-24
 tags:
   - software-assurance
   - code-review
@@ -36,6 +36,8 @@ The candidate software-work Trend moves people from writing and reading implemen
 - MenuGen shows that integration failures and outdated service knowledge can remain outside the code-writing bottleneck: [[vibe-coding-menugen-evi-0ce549d72b42#Claim 2|Vibe coding MenuGen — claim 2]].
 - The [[ai-native-organizational-trust-stack|AI-native organizational trust stack]] proposes data, evaluation, governance, learning, and human-judgment layers, but does not establish which assurance techniques are sufficient for generated software.
 - [[ai-workslop-shifts-cognitive-labor-to-recipients|The workslop Signal]] shows that nominal review removal can reappear as unplanned downstream verification and repair.
+- [[earning-judgment-evi-207760005515#Claim 4|Earning Judgment — claim 4]] proposes an evidence-bearing outer loop: humans decide what deserves attention, inspect diffs, tests, logs, and rationale, approve or block, and carry the consequence.
+- [[earning-judgment-evi-207760005515#Claim 5|Earning Judgment — claim 5]] adds wrong logs, explicit eval rubrics, separate specification and verification, and autonomy calibrated to reversibility and consequence.
 
 ## Missing or discriminating evidence
 
@@ -52,7 +54,7 @@ The candidate software-work Trend moves people from writing and reading implemen
 
 ## Resolution
 
-_Open. The collection identifies the impending bottleneck but does not establish a replacement assurance architecture._
+_Open. The corpus now supplies a concrete outer-loop pattern and several calibration practices, but it does not establish that these controls scale, remain independent, or provide sufficient assurance for consequential generated systems._
 
 ## Relationships
 

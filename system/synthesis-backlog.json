@@ -944,7 +944,9 @@
         "[[the-software-development-lifecycle-is-dead-evi-de2981d8e0b9#Claim 1]]",
         "[[prompting-is-managing-evi-76a66b9e9b26#Claim 2]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 6]]",
-        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
+        "[[earning-judgment-evi-207760005515#Claim 4]]",
+        "[[earning-judgment-evi-207760005515#Claim 7]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -994,6 +996,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source relocates authorship from sentence production toward direction, judgment, criteria, and closure, strengthening the proposed role-shift mechanism. It remains a practitioner account without representative role or employment outcomes."
+        },
+        {
+          "source": "evi-207760005515",
+          "date": "2026-07-24",
+          "outcome": "strengthened",
+          "note": "The source models agentic software work as a human-owned outer loop of attention, verification, approval, and consequence, and predicts durable value in problem choice and judgment. It remains a practitioner interpretation and career forecast rather than representative role-transition evidence."
         }
       ],
       "resolution_target": null
@@ -1069,7 +1077,9 @@
         "[[collaboration-after-cheap-intelligence-evi-89b78bd3fa91#Claim 2]]",
         "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
-        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]"
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]",
+        "[[earning-judgment-evi-207760005515#Claim 6]]",
+        "[[earning-judgment-evi-207760005515#Claim 7]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -1106,6 +1116,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source directly contrasts abundant plausible articulation with scarce judgment and warns that document volume can conceal the disagreements and closure decisions required for collective knowing. It supplies no comparative evidence that these are the dominant organizational constraints."
+        },
+        {
+          "source": "evi-207760005515",
+          "date": "2026-07-24",
+          "outcome": "strengthened",
+          "note": "The source independently relocates scarcity from cheap first drafts and routine implementation toward finite attention, verification, finishing, and accountable judgment. It supplies no comparative organizational evidence that commitment or judgment dominates other complements."
         }
       ],
       "resolution_target": null
@@ -1361,6 +1377,12 @@
           "date": "2026-07-22",
           "outcome": "no_change",
           "note": "The source makes distinctive judgment and human responsibility central when articulation is cheap, but it does not address status allocation or observe a premium for work that resists standardized patterns."
+        },
+        {
+          "source": "evi-207760005515",
+          "date": "2026-07-24",
+          "outcome": "no_change",
+          "note": "The source predicts that public work, distinctive judgment, finishing, and responsibility will carry durable career value, but it does not observe a status or market premium for those qualities."
         }
       ],
       "resolution_target": null
@@ -1524,7 +1546,9 @@
         "[[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 1]]",
         "[[how-propublica-uses-ai-responsibly-in-its-investigations-evi-4d69c164f06d#Claim 2]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 3]]",
-        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
+        "[[earning-judgment-evi-207760005515#Claim 4]]",
+        "[[earning-judgment-evi-207760005515#Claim 6]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1554,6 +1578,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "Reciprocal audit and resistance to fluent completion strengthen verification and judgment as post-generation constraints. The source is a personal method and does not measure organization-level verification throughput or rate limits."
+        },
+        {
+          "source": "evi-207760005515",
+          "date": "2026-07-24",
+          "outcome": "strengthened",
+          "note": "The source makes evidence-bearing verification the human outer-loop boundary and argues that finite attention cannot scale with agent output. It remains a practitioner model without organization-level throughput comparisons or evidence that verification is the single rate-limiting resource."
         }
       ],
       "resolution_target": null
@@ -1575,7 +1605,10 @@
         "[[the-case-for-opsimaths-evi-2a5a50d7380a#Claim 1]]",
         "[[the-humanai-trifecta-eroding-persistence-verification-and-participation-at-scale-evi-d5748fe4b872#Claim 1]]",
         "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]",
-        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 2]]"
+        "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 2]]",
+        "[[earning-judgment-evi-207760005515#Claim 1]]",
+        "[[earning-judgment-evi-207760005515#Claim 2]]",
+        "[[earning-judgment-evi-207760005515#Claim 3]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1606,6 +1639,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Task-boundary work and epistemic fluency identify expert judgment that production metrics omit, but the collection does not observe entry-level work removal or later expert-supply effects."
+        },
+        {
+          "source": "evi-207760005515",
+          "date": "2026-07-24",
+          "outcome": "qualified",
+          "note": "The source identifies routine junior work as training infrastructure and assembles recent indicators consistent with a weakening entry level, strengthening the mechanism. It also notes hiring-cycle confounds and supplies no longitudinal observation that agent-driven removal reduces the future supply of expert judgment."
         }
       ],
       "resolution_target": null
@@ -1969,7 +2008,10 @@
         "[[why-disagreement-is-vital-to-advancing-human-understanding-evi-7a6c2dd00aeb#Claim 2]]",
         "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 1]]",
         "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 2]]",
-        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]"
+        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]",
+        "[[earning-judgment-evi-207760005515#Claim 1]]",
+        "[[earning-judgment-evi-207760005515#Claim 2]]",
+        "[[earning-judgment-evi-207760005515#Claim 5]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -1998,6 +2040,12 @@
           "date": "2026-07-22",
           "outcome": "no_change",
           "note": "The recursive method preserves challenge, resistance, and participation and may develop pair-level capacity, but it does not observe delayed capacity loss from removed practice or demonstrate durable human learning."
+        },
+        {
+          "source": "evi-207760005515",
+          "date": "2026-07-24",
+          "outcome": "strengthened",
+          "note": "The source directly frames routine work as capacity-building practice, predicts delayed expertise-pipeline loss when agents remove it, and proposes deliberate counter-practices. It still provides no longitudinal comparison between short-term productivity and later independent capability."
         }
       ],
       "resolution_target": null
@@ -2105,14 +2153,16 @@
     {
       "id": "prp-ab2741452bcb",
       "statement": "As implementation becomes cheap, evaluators may need to replace artifact-based proxies with evidence of understanding, judgment, retention, and system outcomes.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-transitions",
       "surfaced_in": "wiki/hubs/transitions",
       "evidence": [
         "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 1]]",
         "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 2]]",
         "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]",
-        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]"
+        "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]",
+        "[[earning-judgment-evi-207760005515#Claim 4]]",
+        "[[earning-judgment-evi-207760005515#Claim 5]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2123,6 +2173,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "The collection documents weakening product and revenue signals and relocates scarcity toward understanding, taste, and outcomes; replacement signals remain unevaluated."
+        },
+        {
+          "source": "evi-207760005515",
+          "date": "2026-07-24",
+          "outcome": "strengthened",
+          "note": "The source replaces output completion with an outer-loop evidence bundle—diffs, tests, logs, rationale, approval, and consequence—and proposes explicit eval rubrics. These are concrete candidate signals, but their ability to demonstrate understanding, retention, or system outcomes remains unevaluated."
         }
       ],
       "resolution_target": null

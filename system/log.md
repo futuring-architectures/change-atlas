@@ -258,3 +258,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-07-22-banning-ai-in-law-school-weve-seen-this-before.md` as `evidence/sources/banning-ai-in-law-school-weve-seen-this-before-evi-207599420750.md` with 6 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-24] evidence | Ingest Earning Judgment
+
+- Captured and finalized `raw/web/2026-07-24-earning-judgment.md` as `evidence/sources/earning-judgment-evi-207760005515.md` with 7 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 8 Wiki page(s) cite the resulting Evidence.

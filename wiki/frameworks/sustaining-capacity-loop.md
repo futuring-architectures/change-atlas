@@ -4,7 +4,7 @@ type: framework
 title: Sustaining capacity loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-24
 tags: ["capabilities", "innovation", "renewal"]
 relationships:
   - type: operationalizes
@@ -21,6 +21,8 @@ evidence:
   - "[[we-need-a-career-path-for-invention-evi-0d32e8977be4#Claim 2]]"
   - "[[cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936#Claim 2]]"
   - "[[the-humanai-trifecta-eroding-persistence-verification-and-participation-at-scale-evi-d5748fe4b872#Claim 1]]"
+  - "[[earning-judgment-evi-207760005515#Claim 2]]"
+  - "[[earning-judgment-evi-207760005515#Claim 5]]"
 ---
 
 # Sustaining capacity loop
@@ -84,6 +86,7 @@ An organization adopts AI-assisted interface generation. Variation and throughpu
 - [[we-need-a-career-path-for-invention-evi-0d32e8977be4#Claim 2|We need a career path for invention — claim 2]] identifies community, prestige, and progression.
 - [[cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936#Claim 2|Cognitive Debt Is Nothing New — claim 2]] supplies context preservation.
 - [[the-humanai-trifecta-eroding-persistence-verification-and-participation-at-scale-evi-d5748fe4b872#Claim 1|The Human–AI Trifecta — claim 1]] supplies the human-capacity test.
+- [[earning-judgment-evi-207760005515#Claim 2|Earning Judgment — claim 2]] applies that test to the junior-to-senior software pipeline; [[earning-judgment-evi-207760005515#Claim 5|claim 5]] proposes deliberate replacement practices when routine repetitions are automated.
 
 ## Relationships
 

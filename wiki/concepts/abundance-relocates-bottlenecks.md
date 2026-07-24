@@ -4,7 +4,7 @@ type: concept
 title: Abundance relocates bottlenecks
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-22
+updated_at: 2026-07-24
 tags:
   - abundance
   - bottlenecks
@@ -23,6 +23,7 @@ evidence:
   - "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2]]"
   - "[[the-people-who-ruined-the-internet-evi-1e977c2dadae#Claim 1]]"
   - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
+  - "[[earning-judgment-evi-207760005515#Claim 6]]"
 ---
 
 # Abundance relocates bottlenecks
@@ -57,6 +58,7 @@ Byrne Hobart supplies the general economic rule that radically cheaper products 
 - [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1|The AI Economy: The Next Chapter — claim 1]] and [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2|claim 2]] identify cost as a growing enterprise constraint.
 - [[the-people-who-ruined-the-internet-evi-1e977c2dadae#Claim 1|The people who ruined the internet — claim 1]] shows abundant publishing optimizing for allocator legibility while usefulness becomes scarce.
 - [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8|Thinking with LLMs — claim 8]] moves the constraint from plausible articulation toward situated judgment and responsible closure.
+- [[earning-judgment-evi-207760005515#Claim 6|Earning Judgment — claim 6]] applies the same relocation to agentic software: cheap first drafts increase the salience of finite attention, verification, architecture, edge cases, and responsible finish.
 
 ## Relationships
 

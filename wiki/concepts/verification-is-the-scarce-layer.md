@@ -4,7 +4,7 @@ type: concept
 title: Verification is the scarce layer
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-22
+updated_at: 2026-07-24
 tags: ["verification", "abundance", "ai"]
 relationships:
   - type: supported_by
@@ -21,6 +21,8 @@ evidence:
   - "[[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 1]]"
   - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 3]]"
   - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
+  - "[[earning-judgment-evi-207760005515#Claim 4]]"
+  - "[[earning-judgment-evi-207760005515#Claim 6]]"
 ---
 
 # Verification is the scarce layer
@@ -44,6 +46,7 @@ Verification is not a single final check. It can include formal tests, source tr
 - [[abundant-intelligence-evi-1a1520adbcda#Claim 2|Abundant Intelligence — claim 2]].
 - [[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 1|AI Prompting → AI Verifying — claim 1]].
 - [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 3|Thinking with LLMs — claim 3]] adds resistance to fluent but domesticated ideas; [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8|claim 8]] identifies judgment as a complementary scarcity under abundant articulation.
+- [[earning-judgment-evi-207760005515#Claim 4|Earning Judgment — claim 4]] locates human responsibility in an evidence-bearing outer loop of attention, verification, approval, and consequence; [[earning-judgment-evi-207760005515#Claim 6|claim 6]] qualifies verification as one of several possible post-generation bottlenecks.
 
 ## Relationships
 

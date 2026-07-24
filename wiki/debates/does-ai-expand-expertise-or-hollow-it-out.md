@@ -4,7 +4,7 @@ type: debate
 title: Does AI expand expertise or hollow it out?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-22
+updated_at: 2026-07-24
 tags: ["expertise", "deskilling", "augmentation"]
 relationships:
   - type: raises_question
@@ -25,6 +25,9 @@ evidence:
   - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 2]]"
   - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 6]]"
   - "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 7]]"
+  - "[[earning-judgment-evi-207760005515#Claim 1]]"
+  - "[[earning-judgment-evi-207760005515#Claim 2]]"
+  - "[[earning-judgment-evi-207760005515#Claim 5]]"
 ---
 
 # Does AI expand expertise or hollow it out?
@@ -42,19 +45,22 @@ evidence:
 - Model output can become a new minimum without supplying the practice needed to exceed it.
 - Consensus-seeking models may be actively unhelpful in research that depends on challenging accepted views.
 - Novices can use AI as a crutch while entry-level production—the path through which judgment was learned—contracts.
+- Routine implementation may be both output and training infrastructure; removing it without a replacement can narrow the future reviewer and senior-practitioner pipeline.
 
 ## Synthesis
 
-The contradiction is conditional rather than rhetorical. Prior competence, task feedback, interface design, incentives, authority, and whether the user must verify consequences determine whether abstraction becomes leverage or dependency. Johar's reflective account adds a plausible expertise-expansion practice—reciprocal resistance and recursive form-finding—but no evidence of durable transfer beyond the pair. Output improvement is not sufficient evidence of expertise growth.
+The contradiction is conditional rather than rhetorical. Prior competence, task feedback, interface design, incentives, authority, and whether the user must verify consequences determine whether abstraction becomes leverage or dependency. Johar's reflective account adds reciprocal resistance and recursive form-finding; Osmani adds deliberate practice, wrong logs, deep system work, explicit evals, and autonomy calibration as possible substitutes for disappearing repetitions. Neither source establishes durable transfer or a scalable apprenticeship design. Output improvement is not sufficient evidence of expertise growth.
 
 ## Evidence needed
 
 - Longitudinal novice-to-expert learning with and without AI assistance.
 - Measures of transfer to unaided or novel tasks, not only immediate output.
 - Role-level evidence about autonomy, task breadth, wages, error ownership, and apprenticeship.
+- Comparisons between preserved routine practice and deliberate replacement exercises in novice-to-expert development.
 
 ## Relationships
 
 - Raises [[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning|the Question of preserving apprenticeship and shared meaning]].
 - Reframed by [[extended-mind|Extended mind]], which evaluates the human-tool system while preserving the distinction between performance and learned competence.
 - Refined by [[capacity-erosion-through-assistance|Capacity erosion through assistance]], with [[prompting-is-managing-evi-76a66b9e9b26#Claim 2|Prompting is Managing — claim 2]] supplying the managerial-attention counter-reading.
+- [[earning-judgment-evi-207760005515#Claim 1|Earning Judgment — claim 1]] identifies the training function at risk, [[earning-judgment-evi-207760005515#Claim 2|claim 2]] states the delayed pipeline prediction, and [[earning-judgment-evi-207760005515#Claim 5|claim 5]] proposes intentional counter-practices.

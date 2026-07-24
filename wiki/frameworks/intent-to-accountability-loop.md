@@ -4,7 +4,7 @@ type: framework
 title: Intent-to-accountability loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-22
+updated_at: 2026-07-24
 tags: ["ai-workflow", "verification", "accountability"]
 relationships:
   - type: operationalizes
@@ -22,6 +22,8 @@ evidence:
   - "[[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 2]]"
   - "[[context-engineering-why-hayeks-knowledge-problem-survives-ai-evi-7ceee8d0914c#Claim 1]]"
   - "[[living-strategy-evi-a0acc386fff8#Claim 2]]"
+  - "[[earning-judgment-evi-207760005515#Claim 4]]"
+  - "[[earning-judgment-evi-207760005515#Claim 5]]"
 ---
 
 # Intent-to-accountability loop
@@ -64,6 +66,7 @@ The output of each cycle becomes context for the next. Discovery during verifica
 - [[ai-prompting-ai-verifying-evi-ecd475da868b#Claim 2|AI Prompting → AI Verifying — claim 2]] supplies first-class verification.
 - [[context-engineering-why-hayeks-knowledge-problem-survives-ai-evi-7ceee8d0914c#Claim 1|Context Engineering — claim 1]] supplies problem framing and context assembly.
 - [[living-strategy-evi-a0acc386fff8#Claim 2|Living Strategy — claim 2]] supplies responsible commitment.
+- [[earning-judgment-evi-207760005515#Claim 4|Earning Judgment — claim 4]] independently models the human as owner of the evidence-bearing outer loop; [[earning-judgment-evi-207760005515#Claim 5|claim 5]] adds explicit evals and task-level autonomy calibration.
 
 ## Relationships
 

@@ -3620,6 +3620,27 @@
       "raw_sha256": "33924e2f108ac0060b99f5d693442421bf2f89b21d4114a697cc1d23e72eddbe",
       "source_url": "https://indyjohar.substack.com/p/thinking-with-llms-a-reflection",
       "status": "complete"
+    },
+    "raw/web/2026-07-24-earning-judgment.md": {
+      "affected_wiki": [
+        "wiki/concepts/abundance-relocates-bottlenecks.md",
+        "wiki/concepts/capacity-erosion-through-assistance.md",
+        "wiki/concepts/verification-is-the-scarce-layer.md",
+        "wiki/frameworks/intent-to-accountability-loop.md",
+        "wiki/frameworks/sustaining-capacity-loop.md",
+        "wiki/debates/does-ai-expand-expertise-or-hollow-it-out.md",
+        "wiki/questions/how-is-judgment-cultivated-when-production-is-cheap.md",
+        "wiki/questions/what-replaces-human-review-when-software-exceeds-human-attention.md"
+      ],
+      "canonical_url": "https://x.com/addyosmani/status/2077600055159357548",
+      "claim_count": 7,
+      "completed_at": "2026-07-24",
+      "evidence_file": "evidence/sources/earning-judgment-evi-207760005515.md",
+      "evidence_id": "evi-207760005515",
+      "mode": "steady_state_url",
+      "raw_sha256": "90bb44d6654197c5f94bce589f790bf17906564951433a9e8b4a903ee2ed344d",
+      "source_url": "https://x.com/addyosmani/status/2077600055159357548",
+      "status": "complete"
     }
   },
   "schema_version": 1
