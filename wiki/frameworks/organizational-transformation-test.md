@@ -4,7 +4,7 @@ type: framework
 title: Organizational transformation test
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-24
+updated_at: 2026-07-31
 tags:
   - transformation
   - organization-design
@@ -28,6 +28,8 @@ evidence:
   - "[[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 1]]"
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3]]"
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 6]]"
 ---
 
 # Organizational transformation test
@@ -90,6 +92,7 @@ A conglomerate breakup passes a legal-boundary test but may fail the Framework i
 - [[organizational-transformation-is-an-emotional-journey-evi-4dc822acf424#Claim 1|Organizational Transformation Is an Emotional Journey — claim 1]] and [[organizational-transformation-is-an-emotional-journey-evi-4dc822acf424#Claim 2|claim 2]] add psychological safety, voice, listening, and coaching as enabling conditions.
 - [[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 1|Activity Theory as a system-level explanation — claim 1]] treats adoption failure as system evidence rather than a communication deficit.
 - [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3|The Operating Model Is the Real AI Harness — claim 3]] distinguishes the operating model from the organization chart; [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5|claim 5]] argues that inherited operating design can explain different outcomes from similar AI technology choices.
+- [[0-50-or-200-evi-704a6910d89c#Claim 4|0%, 50%, or 200% — claim 4]] makes expanded ambition an alternative operating logic to cost reduction; [[0-50-or-200-evi-704a6910d89c#Claim 6|claim 6]] shows why that choice must be legible to workers rather than inferred from technology adoption alone.
 
 ## Relationships
 

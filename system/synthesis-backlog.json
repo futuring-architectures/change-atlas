@@ -1751,7 +1751,9 @@
         "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2]]",
         "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4]]",
         "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 1]]",
-        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]"
+        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]",
+        "[[0-50-or-200-evi-704a6910d89c#Claim 3]]",
+        "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1800,6 +1802,12 @@
           "date": "2026-07-31",
           "outcome": "strengthened",
           "note": "The source treats capable open models as increasingly available and relocates control toward community-owned compute, private data, open protocols, pricing, and continued operation. It supplies no operating case or comparison showing these deployment conditions produce effective governance."
+        },
+        {
+          "source": "evi-704a6910d89c",
+          "date": "2026-07-31",
+          "outcome": "strengthened",
+          "note": "The source treats productivity capability as a premise and relocates the consequential choice into institutional use: no coordinated adoption, workforce-cost reduction, or reinvestment in broader output and quality. It supplies no observed deployment outcome or governance comparison."
         }
       ],
       "resolution_target": null
@@ -1898,6 +1906,12 @@
           "date": "2026-07-24",
           "outcome": "strengthened",
           "note": "The source makes the operating model—actual workflows, decision movement, accountability, information flow, coordination, and human-machine responsibility—the upper design layer inherited by AI harnesses. It strengthens the redesign mechanism but supplies no paired organizations or performance comparison."
+        },
+        {
+          "source": "evi-704a6910d89c",
+          "date": "2026-07-31",
+          "outcome": "no_change",
+          "note": "The source predicts that a growth-oriented adopter may outperform a cost-cutting adopter, but it does not describe workflow or decision-right redesign, inherited-role insertion, or a comparative performance case."
         }
       ],
       "resolution_target": null
@@ -2046,6 +2060,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "Continuous cultivation with practitioners and the cited Toyota return of craftspeople strengthen knowledge renewal as a complement to automation. The source provides neither a throughput-versus-renewal comparison nor long-term capability measures."
+        },
+        {
+          "source": "evi-704a6910d89c",
+          "date": "2026-07-31",
+          "outcome": "no_change",
+          "note": "The source advocates reinvesting productivity in greater present output and quality rather than headcount reduction, but it does not measure renewal capacity or compare present throughput with future capability preservation."
         }
       ],
       "resolution_target": null

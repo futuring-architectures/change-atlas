@@ -4,7 +4,7 @@ type: debate
 title: Who captures the gains from automation?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-31
 tags:
   - automation
   - distribution
@@ -14,6 +14,8 @@ relationships:
     target: "[[automation-posture-matrix]]"
   - type: refined_by
     target: "[[should-ai-creators-be-paid-for-inputs-or-outputs]]"
+  - type: refined_by
+    target: "[[0-50-200-productivity-allocation]]"
 description: "Automation can expand productive capability while distributing ownership, income, agency, deskilling, and hidden labor very unevenly."
 evidence:
   - "[[science-fiction-is-a-luddite-literature-evi-6af64e37687a#Claim 1]]"
@@ -27,6 +29,9 @@ evidence:
   - "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 1]]"
   - "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
   - "[[horseless-intelligence-evi-0bc67b22c4ff#Claim 1]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 3]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 6]]"
 ---
 
 # Who captures the gains from automation?
@@ -47,6 +52,10 @@ When automation increases capability or reduces labor, what determines whether t
 
 **Some apparent automation gains are not yet real at the firm or workflow level.** Technical exposure can remain uneconomic to deploy, while low-cost generation can shift verification, context reconstruction, and repair to colleagues. Workers may still bear displacement risk when decision-makers overestimate capability.
 
+## Position D
+
+**Organizations can reinvest realized gains in greater ambition rather than primarily in headcount reduction.** Retaining and equipping workers may support more products, quality, service, and market growth. This preserves employment only if demand, revenue, working conditions, and leadership commitments make the allocation real rather than rhetorical.
+
 ## Sources of disagreement
 
 - Whether productivity gains are measured at the task, firm, worker, consumer, or societal level.
@@ -66,10 +75,11 @@ When automation increases capability or reduces labor, what determines whether t
 - [[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1|AI won’t steal as many jobs as expected — claim 1]] reports that most studied visual tasks were not yet economical to automate.
 - [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 1|AI-Generated “Workslop” — claim 1]] and [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2|claim 2]] document cognitive work shifted to recipients.
 - [[horseless-intelligence-evi-0bc67b22c4ff#Claim 1|Horseless intelligence — claim 1]] identifies displacement driven by managerial overestimation as a distinct mechanism.
+- [[0-50-or-200-evi-704a6910d89c#Claim 3|0%, 50%, or 200% — claim 3]] models cost-oriented capture; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] supplies the growth-reinvestment alternative; and [[0-50-or-200-evi-704a6910d89c#Claim 6|claim 6]] connects unstated allocation choices to employee expectations.
 
 ## Current assessment
 
-Automation posture, realized productivity, and distribution are three separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine who owns the capability, who is paid, or who can refuse. Claims about automation gains should therefore state the workflow boundary, deployment economics, ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
+Automation posture, realized productivity, allocation, and distribution are separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine whether gains become lower cost, greater output, shorter hours, higher pay, employment preservation, or owner returns. Claims about automation gains should therefore state the workflow boundary, deployment economics, ambition, demand, ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
 
 ## Open questions
 
@@ -81,3 +91,4 @@ Automation posture, realized productivity, and distribution are three separate q
 
 - The Debate qualifies [[automation-posture-matrix|the Automation posture matrix]]: choosing how a system acts does not settle who captures its gains.
 - Refined by [[should-ai-creators-be-paid-for-inputs-or-outputs|Should AI creators be paid for inputs or outputs?]].
+- Refined by the [[0-50-200-productivity-allocation|0–50–200 productivity allocation]], which separates unchanged operations, cost capture, and growth reinvestment.

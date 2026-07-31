@@ -4,7 +4,7 @@ type: concept
 title: Automation is an arrangement of power
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-31
 tags: ["automation", "labor", "power"]
 relationships:
   - type: supported_by
@@ -15,12 +15,16 @@ relationships:
     target: "[[does-cheap-software-distribute-agency-or-relocate-control]]"
   - type: exemplified_by
     target: "[[database-reality-inversion]]"
+  - type: operationalized_by
+    target: "[[0-50-200-productivity-allocation]]"
 description: "Automation outcomes follow from how people, capital, tasks, ownership, and decision rights are arranged—not from technical capability alone."
 evidence:
   - "[[dont-be-fooled-much-ai-is-just-outsourcing-redux-evi-8c4fcebe798a#Claim 1]]"
   - "[[the-problem-with-ai-is-about-power-not-technology-evi-77b9405b7791#Claim 1]]"
   - "[[the-problem-with-ai-is-about-power-not-technology-evi-77b9405b7791#Claim 2]]"
   - "[[when-we-become-cogs-evi-c1da269b7217#Claim 2]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 3]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
 ---
 
 # Automation is an arrangement of power
@@ -42,6 +46,7 @@ This concept does not deny technical change. It prevents capability from being t
 - [[dont-be-fooled-much-ai-is-just-outsourcing-redux-evi-8c4fcebe798a#Claim 1|Don’t Be Fooled — claim 1]].
 - [[the-problem-with-ai-is-about-power-not-technology-evi-77b9405b7791#Claim 1|The Problem With AI Is About Power — claim 1]] and [[the-problem-with-ai-is-about-power-not-technology-evi-77b9405b7791#Claim 2|claim 2]].
 - [[when-we-become-cogs-evi-c1da269b7217#Claim 2|When We Become Cogs — claim 2]].
+- [[0-50-or-200-evi-704a6910d89c#Claim 3|0%, 50%, or 200% — claim 3]] makes cost-oriented workforce reduction one allocation choice; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] contrasts growth-oriented reinvestment without treating either as technically inevitable.
 
 ## Relationships
 
@@ -49,3 +54,4 @@ This concept does not deny technical change. It prevents capability from being t
 - Operationalized by the [[ai-agency-audit|AI agency audit]].
 - Qualifies [[does-cheap-software-distribute-agency-or-relocate-control|the cheap-software agency Debate]].
 - Exemplified by [[database-reality-inversion|Database-reality inversion]], where system legibility disciplines lived practice.
+- Operationalized by the [[0-50-200-productivity-allocation|0–50–200 productivity allocation]], which makes the post-capability choice inspectable.

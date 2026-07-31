@@ -273,3 +273,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-07-31-shared-compute-and-community-owned-ai.md` as `evidence/sources/shared-compute-and-community-owned-ai-evi-208108815579.md` with 7 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-31] evidence | Ingest 0%, 50%, or 200%
+
+- Captured and finalized `raw/web/2026-07-31-0-50-or-200.md` as `evidence/sources/0-50-or-200-evi-704a6910d89c.md` with 6 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.

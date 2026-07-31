@@ -4,7 +4,7 @@ type: framework
 title: Capability-to-architecture loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-24
+updated_at: 2026-07-31
 tags: ["organization-design", "ai-adoption", "capabilities"]
 relationships:
   - type: operationalizes
@@ -34,6 +34,8 @@ evidence:
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3]]"
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5]]"
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 1]]"
+  - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
 ---
 
 # Capability-to-architecture loop
@@ -97,6 +99,7 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - [[the-vibes-dont-scale-evi-e058bb26186a#Claim 2|The Vibes Don’t Scale — claim 2]] makes coherence constraints more important as production accelerates.
 - [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2|The Future Worth Building Is Human — claim 2]] adds continuous customization with practitioners; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4|claim 4]] requires evaluation of joint organizational outcomes rather than machine-alone capability.
 - [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3|The Operating Model Is the Real AI Harness — claim 3]] defines the operating system to be redesigned; [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5|claim 5]] makes organization design primary rather than downstream; and [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6|claim 6]] joins harness and organizational architecture.
+- [[0-50-or-200-evi-704a6910d89c#Claim 1|0%, 50%, or 200% — claim 1]] separates the capability premise from the organizational response; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] supplies growth-oriented reinvestment as one purpose-and-allocation choice.
 
 ## Relationships
 
