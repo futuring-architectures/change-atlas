@@ -544,6 +544,12 @@
           "date": "2026-07-14",
           "outcome": "contested",
           "note": "Proof of Passion supplies both an ownership-adjacent upside thesis and an explicit backlash against financializing creativity. Ownership may support agency, but tradability can privilege speculation over contribution; no longitudinal community outcome resolves the tension."
+        },
+        {
+          "source": "evi-208108815579",
+          "date": "2026-07-31",
+          "outcome": "no_change",
+          "note": "The source predicts that members could own equity in a shared AI asset and receive marketplace revenue, but it does not observe a protocol becoming a durable community or resolve the tension between meaningful ownership and financialized participation."
         }
       ],
       "resolution_target": null
@@ -824,7 +830,8 @@
       "surfaced_in": "wiki/hubs/ecosystems",
       "evidence": [
         "[[open-source-ai-is-the-path-forward-evi-1eb62fe74eb7#Claim 1]]",
-        "[[open-source-ai-is-the-path-forward-evi-1eb62fe74eb7#Claim 2]]"
+        "[[open-source-ai-is-the-path-forward-evi-1eb62fe74eb7#Claim 2]]",
+        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-organization",
@@ -862,6 +869,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection discusses participation, control, and AI transition legitimacy but adds no sponsor-controlled platform case or complement-mobilization evidence."
+        },
+        {
+          "source": "evi-208108815579",
+          "date": "2026-07-31",
+          "outcome": "qualified",
+          "note": "The source proposes a community-controlled complement stack around an open base model, locally owned compute, private data, and open protocols. This qualifies sponsor control as the only open-model strategy, while remaining a forecast that still depends on upstream model, chip, energy, and software providers."
         }
       ],
       "resolution_target": null
@@ -1736,7 +1749,9 @@
         "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]",
         "[[banning-ai-in-law-school-weve-seen-this-before-evi-207599420750#Claim 6]]",
         "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2]]",
-        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4]]"
+        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4]]",
+        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 1]]",
+        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1779,6 +1794,12 @@
           "date": "2026-07-24",
           "outcome": "strengthened",
           "note": "The source relocates capability and governance from model choice toward the harness and the operating model that supplies workflow, authority, exceptions, and institutional constraints. It does not compare governance regimes or establish that model access has commoditized."
+        },
+        {
+          "source": "evi-208108815579",
+          "date": "2026-07-31",
+          "outcome": "strengthened",
+          "note": "The source treats capable open models as increasingly available and relocates control toward community-owned compute, private data, open protocols, pricing, and continued operation. It supplies no operating case or comparison showing these deployment conditions produce effective governance."
         }
       ],
       "resolution_target": null
@@ -2097,7 +2118,9 @@
         "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 2]]",
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 1]]",
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]",
-        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]"
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]",
+        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 2]]",
+        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 3]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2126,6 +2149,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source directly warns that accelerated document production can increase articulated knowledge without collective knowing when assumptions, disagreements, and closure decisions remain hidden. It strengthens the documentation-volume contrast but does not address ownership or measure asset value."
+        },
+        {
+          "source": "evi-208108815579",
+          "date": "2026-07-31",
+          "outcome": "strengthened",
+          "note": "The source explicitly treats locally retained group data and accumulating domain context as the defensible asset after capable base models become broadly available. It does not compare that asset with documentation volume or demonstrate durable performance or economic advantage."
         }
       ],
       "resolution_target": null

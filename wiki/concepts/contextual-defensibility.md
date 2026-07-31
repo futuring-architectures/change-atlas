@@ -4,7 +4,7 @@ type: concept
 title: Contextual defensibility
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-22
+updated_at: 2026-07-31
 tags: ["context", "strategy", "defensibility"]
 relationships:
   - type: supported_by
@@ -17,6 +17,9 @@ evidence:
   - "[[context-engineering-why-hayeks-knowledge-problem-survives-ai-evi-7ceee8d0914c#Claim 1]]"
   - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 1]]"
   - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 2]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 3]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 7]]"
 ---
 
 # Contextual defensibility
@@ -40,6 +43,7 @@ Context is not automatically proprietary or correct. Insiders can inherit stale 
 - [[the-last-moat-standing-evi-3cd99a494454#Claim 1|The Last Moat Standing — claim 1]].
 - [[context-engineering-why-hayeks-knowledge-problem-survives-ai-evi-7ceee8d0914c#Claim 1|Context Engineering — claim 1]].
 - [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 1|The Future Worth Building Is Human — claim 1]] distinguishes continuously revised local knowledge from a static aggregate; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2|claim 2]] argues that organizational AI should cultivate that situated advantage with practitioners.
+- [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 2|Shared Compute and Community-Owned AI — claim 2]] predicts domain capability from locally controlled group context; [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 3|claim 3]] relocates defensibility toward that context; and [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 7|claim 7]] proposes a vertical service and expertise marketplace without demonstrating the resulting moat.
 
 ## Relationships
 

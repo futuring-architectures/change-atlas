@@ -268,3 +268,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-07-24-the-operating-model-is-the-real-ai-harness.md` as `evidence/sources/the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162.md` with 6 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-31] evidence | Ingest Shared Compute and Community-Owned AI
+
+- Captured and finalized `raw/web/2026-07-31-shared-compute-and-community-owned-ai.md` as `evidence/sources/shared-compute-and-community-owned-ai-evi-208108815579.md` with 7 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.

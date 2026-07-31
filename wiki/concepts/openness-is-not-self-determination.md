@@ -4,7 +4,7 @@ type: concept
 title: Openness is not self-determination
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-31
 tags:
   - openness
   - power
@@ -19,6 +19,7 @@ evidence:
   - "[[open-ai-isn-t-evi-c72f2bef72f1#Claim 1]]"
   - "[[open-ai-isn-t-evi-c72f2bef72f1#Claim 2]]"
   - "[[open-ai-isn-t-evi-c72f2bef72f1#Claim 3]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]"
 ---
 
 # Openness is not self-determination
@@ -48,12 +49,14 @@ The distinction comes from Cory Doctorow's critique of “open AI.” This page 
 - Self-determination may require collective governance or viable exit, not merely individual access to artifacts.
 - Concentration can limit practical autonomy even when formal reuse rights exist; conversely, concentrated stewardship does not prove that an artifact is technically closed.
 - The current Evidence offers a critique, not an operational test for adequate self-determination.
+- Community ownership can combine openness with stronger practical control, but “the community” may still hide concentrated administration, unequal voice, coerced data contribution, or costly exit.
 
 ## Evidence
 
 - [[open-ai-isn-t-evi-c72f2bef72f1#Claim 1|Open AI Isn't — claim 1]]
 - [[open-ai-isn-t-evi-c72f2bef72f1#Claim 2|Open AI Isn't — claim 2]]
 - [[open-ai-isn-t-evi-c72f2bef72f1#Claim 3|Open AI Isn't — claim 3]]
+- [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6|Shared Compute and Community-Owned AI — claim 6]] proposes open protocols plus locally owned infrastructure as a stronger control bundle, while explicitly leaving internal governance and upstream dependencies unresolved.
 
 ## Relationships
 

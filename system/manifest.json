@@ -3658,6 +3658,24 @@
       "raw_sha256": "0ac29b4f015e79d94a4a29033e658bf6635c13ba81bd39504025f19ec15a73d4",
       "source_url": "https://unhypedai.substack.com/p/the-operating-model-is-the-real-ai",
       "status": "complete"
+    },
+    "raw/web/2026-07-31-shared-compute-and-community-owned-ai.md": {
+      "affected_wiki": [
+        "wiki/concepts/contextual-decentralization.md",
+        "wiki/concepts/contextual-defensibility.md",
+        "wiki/concepts/openness-is-not-self-determination.md",
+        "wiki/debates/what-kind-of-decentralization-creates-agency.md",
+        "wiki/questions/how-should-firms-measure-value-when-software-is-easy-to-replace.md"
+      ],
+      "canonical_url": "https://x.com/gregisenberg/status/2081088155793465783",
+      "claim_count": 7,
+      "completed_at": "2026-07-31",
+      "evidence_file": "evidence/sources/shared-compute-and-community-owned-ai-evi-208108815579.md",
+      "evidence_id": "evi-208108815579",
+      "mode": "steady_state_url",
+      "raw_sha256": "0178f332ad0725be6bff5c7eccce2f0998aea601bbc3ab2aba0589c2e6ce4285",
+      "source_url": "https://x.com/gregisenberg/status/2081088155793465783?s=61&t=Z1LQ3FldfkzVnJc_7M-GQw",
+      "status": "complete"
     }
   },
   "schema_version": 1

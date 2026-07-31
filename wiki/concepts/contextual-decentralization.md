@@ -4,7 +4,7 @@ type: concept
 title: Contextual decentralization
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-31
 tags:
   - decentralization
   - agency
@@ -22,6 +22,9 @@ evidence:
   - "[[the-web3-decentralization-debate-is-focused-on-the-wrong-question-evi-d74613031eb5#Claim 2]]"
   - "[[sufficient-decentralization-for-social-networks-evi-7d067bde8a5b#Claim 1]]"
   - "[[internet-3-0-and-the-beginning-of-tech-history-evi-535e9deff6a8#Claim 2]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 1]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 5]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]"
 ---
 
 # Contextual decentralization
@@ -54,6 +57,7 @@ Divya Siddarth, Danielle Allen, and E. Glen Weyl define decentralization’s val
 - [[the-web3-decentralization-debate-is-focused-on-the-wrong-question-evi-d74613031eb5#Claim 2|The Web3 Decentralization Debate — claim 2]] identifies the cost of distant decision authority.
 - [[sufficient-decentralization-for-social-networks-evi-7d067bde8a5b#Claim 1|Sufficient Decentralization — claim 1]] supplies a technical threshold for bilateral communication.
 - [[internet-3-0-and-the-beginning-of-tech-history-evi-535e9deff6a8#Claim 2|Internet 3.0 — claim 2]] connects forking to sovereignty and self-determination.
+- [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 1|Shared Compute and Community-Owned AI — claim 1]] proposes pooled, locally owned compute; [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 5|claim 5]] adds member ownership of a shared AI asset; and [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6|claim 6]] links open protocols and local infrastructure to practical control while qualifying their dependence on real governance rights.
 
 ## Relationships
 

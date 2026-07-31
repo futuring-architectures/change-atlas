@@ -4,7 +4,7 @@ type: debate
 title: What kind of decentralization creates agency?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-22
+updated_at: 2026-07-31
 tags:
   - decentralization
   - agency
@@ -26,6 +26,8 @@ evidence:
   - "[[money-go-round-evi-c58d3061f651#Claim 2]]"
   - "[[positive-sum-worlds-remaking-public-goods-evi-d897611b49cd#Claim 2]]"
   - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 5]]"
+  - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]"
 ---
 
 # What kind of decentralization creates agency?
@@ -52,7 +54,7 @@ Web3 systems can remain embedded in Web2’s virality, mass markets, celebrity p
 
 ## Position E: locally shaped AI can distribute alignment power
 
-An ecosystem of differently owned and locally shaped models may distribute the power to encode knowledge, preferences, and values. This extends decentralization from infrastructure and governance into model behavior, while leaving unresolved how safety, affected publics, and coordination across divergent models should work.
+An ecosystem of differently owned and locally shaped models may distribute the power to encode knowledge, preferences, and values. Community-owned compute adds a proposed institutional unit in which members pool infrastructure and data and hold an interest in the resulting AI asset. This extends decentralization from infrastructure and governance into model behavior and economic ownership, while leaving unresolved how internal authority, contribution rights, safety, affected publics, and coordination across divergent models should work.
 
 ## Sources of disagreement
 
@@ -70,10 +72,11 @@ An ecosystem of differently owned and locally shaped models may distribute the p
 - [[money-go-round-evi-c58d3061f651#Claim 1|Money-Go-Round — claim 1]] and [[money-go-round-evi-c58d3061f651#Claim 2|claim 2]] emphasize continuity with incumbent platforms.
 - [[positive-sum-worlds-remaking-public-goods-evi-d897611b49cd#Claim 2|Positive Sum Worlds — claim 2]] extends accountability beyond token holders and known participants.
 - [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5|The Future Worth Building Is Human — claim 5]] applies the distribution argument to ownership and value alignment of AI models.
+- [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 5|Shared Compute and Community-Owned AI — claim 5]] predicts member ownership in a shared intelligence asset; [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6|claim 6]] combines open protocols with locally owned compute, models, and data while preserving the distinction between technical openness and actual decision rights.
 
 ## Current assessment
 
-The positions are not direct logical contradictions because they measure different dimensions. The strongest synthesis is a multidimensional test: technical reachability, model customizability, and forkability can enable agency, but they are insufficient without usable decision rights, viable alternatives, governance, safety, and an account of people outside the system. No current Evidence demonstrates a system that satisfies all dimensions.
+The positions are not direct logical contradictions because they measure different dimensions. The strongest synthesis is a multidimensional test: technical reachability, model customizability, local compute, shared ownership, and forkability can enable agency, but they are insufficient without usable decision rights, viable alternatives, governance, safety, and an account of people outside the system. No current Evidence demonstrates a system that satisfies all dimensions.
 
 ## Open questions
 

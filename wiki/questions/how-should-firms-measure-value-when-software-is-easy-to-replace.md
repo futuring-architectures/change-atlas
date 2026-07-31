@@ -4,7 +4,7 @@ type: question
 title: How should firms measure value when software is easy to replace?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-31
 tags: ["software-economics", "saas", "outcomes"]
 relationships:
   - type: raised_by
@@ -24,6 +24,7 @@ If alternatives become cheap to build and switching becomes easier, renewal can 
 - [[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 1|Easier to build, Easier to replace? — claim 1]] predicts pressure to demonstrate measurable economic change.
 - [[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 2|Easier to build, Easier to replace? — claim 2]] predicts movement from access toward accountability.
 - [[the-vibe-coding-trap-evi-6bc4abe83e11#Claim 1|The vibe coding trap — claim 1]] narrows the threat to poorly differentiated SaaS.
+- [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 3|Shared Compute and Community-Owned AI — claim 3]] predicts that private data and accumulated context become stronger moats than model access; [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 7|claim 7]] proposes monetizing that advantage as field-specific expertise, but supplies no observed value or switching outcome.
 
 ## Missing or discriminating evidence
 
