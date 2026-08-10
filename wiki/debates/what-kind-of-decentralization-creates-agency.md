@@ -28,6 +28,8 @@ evidence:
   - "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5]]"
   - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 5]]"
   - "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]"
+  - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8]]"
+  - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 9]]"
 ---
 
 # What kind of decentralization creates agency?
@@ -54,7 +56,7 @@ Web3 systems can remain embedded in Web2’s virality, mass markets, celebrity p
 
 ## Position E: locally shaped AI can distribute alignment power
 
-An ecosystem of differently owned and locally shaped models may distribute the power to encode knowledge, preferences, and values. Community-owned compute adds a proposed institutional unit in which members pool infrastructure and data and hold an interest in the resulting AI asset. This extends decentralization from infrastructure and governance into model behavior and economic ownership, while leaving unresolved how internal authority, contribution rights, safety, affected publics, and coordination across divergent models should work.
+An ecosystem of differently owned and locally shaped models may distribute the power to encode knowledge, preferences, and values. Community-owned compute adds a proposed institutional unit in which members pool infrastructure and data and hold an interest in the resulting AI asset. A separate rebuild proposal argues for distributing local models, compute, tools, and equity before the productive layer reconcentrates. This extends decentralization from infrastructure and governance into model behavior and economic ownership, while leaving unresolved how internal authority, contribution rights, safety, affected publics, and coordination across divergent models should work.
 
 ## Sources of disagreement
 
@@ -73,10 +75,11 @@ An ecosystem of differently owned and locally shaped models may distribute the p
 - [[positive-sum-worlds-remaking-public-goods-evi-d897611b49cd#Claim 2|Positive Sum Worlds — claim 2]] extends accountability beyond token holders and known participants.
 - [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5|The Future Worth Building Is Human — claim 5]] applies the distribution argument to ownership and value alignment of AI models.
 - [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 5|Shared Compute and Community-Owned AI — claim 5]] predicts member ownership in a shared intelligence asset; [[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6|claim 6]] combines open protocols with locally owned compute, models, and data while preserving the distinction between technical openness and actual decision rights.
+- [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8|Let It Crash — claim 8]] advocates distributing productive AI means; [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 9|claim 9]] assigns government, firms, and civil society distinct roles in keeping access, exit, protection, purpose, and ownership available.
 
 ## Current assessment
 
-The positions are not direct logical contradictions because they measure different dimensions. The strongest synthesis is a multidimensional test: technical reachability, model customizability, local compute, shared ownership, and forkability can enable agency, but they are insufficient without usable decision rights, viable alternatives, governance, safety, and an account of people outside the system. No current Evidence demonstrates a system that satisfies all dimensions.
+The positions are not direct logical contradictions because they measure different dimensions. The strongest synthesis is a multidimensional test: technical reachability, model customizability, local compute, shared ownership, and forkability can enable agency, but they are insufficient without usable decision rights, viable alternatives, governance, safety, and an account of people outside the system. The new rebuild proposal independently strengthens the normative case for distributing productive means, but remains a forecast and institutional design position. No current Evidence demonstrates a system that satisfies all dimensions.
 
 ## Open questions
 

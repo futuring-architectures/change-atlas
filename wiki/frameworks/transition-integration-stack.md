@@ -4,7 +4,7 @@ type: framework
 title: Transition integration stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-07-31
 tags: ["transitions", "sociotechnical-systems", "change"]
 relationships:
   - type: operationalizes
@@ -17,6 +17,8 @@ relationships:
     target: "[[activity-alignment-gap]]"
   - type: supported_by
     target: "[[network-and-culture-outweighed-facts-in-change]]"
+  - type: refined_by
+    target: "[[bubble-crash-rebuild-map]]"
 description: "A seven-layer method for integrating technical capability with workflows, institutions, knowledge, legitimacy, and continuing outcome alignment."
 evidence:
   - "[[the-ai-debate-were-not-having-evi-709fe1681265#Claim 2]]"
@@ -26,6 +28,10 @@ evidence:
   - "[[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 2]]"
   - "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]"
   - "[[red-lining-ai-evi-946f46f44c16#Claim 2]]"
+  - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 3]]"
+  - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 6]]"
+  - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7]]"
+  - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10]]"
 ---
 
 # Transition integration stack
@@ -42,7 +48,7 @@ State whose flourishing, agency, safety, and public value the transition should 
 
 ### 2. Technical capability and ingredient
 
-Describe what the technology can and cannot do, under which conditions, and what complementary data, infrastructure, interfaces, and expertise it requires. Separate a demonstration from a deployable system.
+Describe what the technology can and cannot do, under which conditions, and what complementary data, infrastructure, interfaces, and expertise it requires. Separate a demonstration from a deployable system. During a boom or replacement cycle, distinguish durable substrate and learned practice from depreciating components, stranded capacity, and dependencies that may not survive repricing.
 
 ### 3. Workflow and task boundaries
 
@@ -50,7 +56,7 @@ Map the whole practice, including interpretation, coordination, exceptions, spec
 
 ### 4. Institutional pace layers
 
-Identify the layers that can experiment quickly and those that change slowly because they stabilize standards, rights, trust, infrastructure, or identity. Design interfaces and reversible probes between them instead of demanding one transition speed.
+Identify the layers that can experiment quickly and those that change slowly because they stabilize standards, rights, trust, infrastructure, or identity. Design interfaces and reversible probes between them instead of demanding one transition speed. Name safeguards, alternatives, and cultural capacities that must exist before a shock because they cannot be improvised inside a narrow crisis window.
 
 ### 5. Epistemic fluency and inclusion
 
@@ -94,8 +100,10 @@ For AI-assisted radiology, the capability layer measures bounded image tasks. Th
 - [[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 2|Stop Trying to Educate People Into Changing — claim 2]] adds network and culture.
 - [[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2|When Correct Systems Produce the Wrong Outcomes — claim 2]] requires continued purpose testing.
 - [[red-lining-ai-evi-946f46f44c16#Claim 2|Red-lining AI — claim 2]] distinguishes selective opposition from categorical rejection.
+- [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 3|Let It Crash — claim 3]] distinguishes predicted durable AI substrate from depreciating hardware; [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 6|claim 6]], [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7|claim 7]], and [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10|claim 10]] add rebuild capacity, slow-built purpose institutions, and pre-crisis readiness.
 
 ## Relationships
 
 - Operationalizes [[pace-layering|Pace layering]], [[epistemic-fluency|Epistemic fluency]], [[task-boundary-work|Task-boundary work]], and the [[activity-alignment-gap|Activity-alignment gap]].
 - Supported by [[network-and-culture-outweighed-facts-in-change|Network and culture outweighed facts in change]].
+- Refined by the [[bubble-crash-rebuild-map|Bubble–crash–rebuild map]], which adds installed residue, financial discontinuity, advance readiness, distribution, and a harm counterfactual.

@@ -257,7 +257,7 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 ## [2026-07-22] evidence | Ingest Banning AI in Law School: We've Seen This Before
 
 - Captured and finalized `raw/web/2026-07-22-banning-ai-in-law-school-weve-seen-this-before.md` as `evidence/sources/banning-ai-in-law-school-weve-seen-this-before-evi-207599420750.md` with 6 atomic claim(s).
-- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+- Assessed the source against the maintained Wiki and private proposition backlog; 6 Wiki page(s) cite the resulting Evidence.
 
 ## [2026-07-24] evidence | Ingest Earning Judgment
 
@@ -278,3 +278,13 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-07-31-0-50-or-200.md` as `evidence/sources/0-50-or-200-evi-704a6910d89c.md` with 6 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-07-31] evidence | Ingest Let It Crash: How to Steer What Comes After
+
+- Captured and finalized `raw/web/2026-07-31-let-it-crash-how-to-steer-what-comes-after.md` as `evidence/sources/let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d.md` with 11 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-08-10] evidence | Ingest Dan Shipper (@danshipper) on X
+
+- Captured and finalized `raw/web/2026-08-10-dan-shipper-danshipper-on-x.md` as `evidence/sources/dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df.md` with 8 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.

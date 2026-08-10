@@ -16,6 +16,8 @@ relationships:
     target: "[[should-ai-creators-be-paid-for-inputs-or-outputs]]"
   - type: refined_by
     target: "[[0-50-200-productivity-allocation]]"
+  - type: refined_by
+    target: "[[bubble-crash-rebuild-map]]"
 description: "Automation can expand productive capability while distributing ownership, income, agency, deskilling, and hidden labor very unevenly."
 evidence:
   - "[[science-fiction-is-a-luddite-literature-evi-6af64e37687a#Claim 1]]"
@@ -32,6 +34,7 @@ evidence:
   - "[[0-50-or-200-evi-704a6910d89c#Claim 3]]"
   - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
   - "[[0-50-or-200-evi-704a6910d89c#Claim 6]]"
+  - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8]]"
 ---
 
 # Who captures the gains from automation?
@@ -42,7 +45,7 @@ When automation increases capability or reduces labor, what determines whether t
 
 ## Position A
 
-**Automation can democratize productive capacity and free people from unwanted work.** Cheap tools can let individuals and small groups create, learn, and operate at a scale previously reserved for organizations. The relevant opportunity is not merely substitution but expanded agency and access.
+**Automation can democratize productive capacity and free people from unwanted work.** Cheap tools can let individuals and small groups create, learn, and operate at a scale previously reserved for organizations. The relevant opportunity is not merely substitution but expanded agency and access. A stronger version argues for distributing productive means—models, compute, tools, and ownership stakes—rather than compensating people only after concentrated owners capture the proceeds.
 
 ## Position B
 
@@ -60,6 +63,7 @@ When automation increases capability or reduces labor, what determines whether t
 
 - Whether productivity gains are measured at the task, firm, worker, consumer, or societal level.
 - Whether ownership of capital and distribution is treated as fixed or designed.
+- Whether access, ownership of productive means, redistribution of proceeds, and usable decision rights are treated as substitutes or complementary levers.
 - Whether displaced labor, hidden labor, and cultural inputs are counted as automation costs.
 - Whether lower prices compensate for losses of income, agency, skill, or bargaining power.
 - Whether future abundance is evidence or a normative scenario.
@@ -76,10 +80,11 @@ When automation increases capability or reduces labor, what determines whether t
 - [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 1|AI-Generated “Workslop” — claim 1]] and [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2|claim 2]] document cognitive work shifted to recipients.
 - [[horseless-intelligence-evi-0bc67b22c4ff#Claim 1|Horseless intelligence — claim 1]] identifies displacement driven by managerial overestimation as a distinct mechanism.
 - [[0-50-or-200-evi-704a6910d89c#Claim 3|0%, 50%, or 200% — claim 3]] models cost-oriented capture; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] supplies the growth-reinvestment alternative; and [[0-50-or-200-evi-704a6910d89c#Claim 6|claim 6]] connects unstated allocation choices to employee expectations.
+- [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8|Let It Crash — claim 8]] advocates spreading ownership of and inexpensive access to the productive AI layer rather than relying primarily on redistribution after value has concentrated.
 
 ## Current assessment
 
-Automation posture, realized productivity, allocation, and distribution are separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine whether gains become lower cost, greater output, shorter hours, higher pay, employment preservation, or owner returns. Claims about automation gains should therefore state the workflow boundary, deployment economics, ambition, demand, ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
+Automation posture, realized productivity, allocation, and distribution are separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine whether gains become lower cost, greater output, shorter hours, higher pay, employment preservation, or owner returns. Ownership of productive means and redistribution of proceeds are also separate and potentially complementary: access to a model or compute is not the same as an enforceable stake, decision power, operating capacity, or income protection. Claims about automation gains should therefore state the workflow boundary, deployment economics, ambition, demand, ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
 
 ## Open questions
 
@@ -92,3 +97,4 @@ Automation posture, realized productivity, allocation, and distribution are sepa
 - The Debate qualifies [[automation-posture-matrix|the Automation posture matrix]]: choosing how a system acts does not settle who captures its gains.
 - Refined by [[should-ai-creators-be-paid-for-inputs-or-outputs|Should AI creators be paid for inputs or outputs?]].
 - Refined by the [[0-50-200-productivity-allocation|0–50–200 productivity allocation]], which separates unchanged operations, cost capture, and growth reinvestment.
+- Refined by the [[bubble-crash-rebuild-map|Bubble–crash–rebuild map]], which separates ownership of productive means, redistribution of proceeds, and the distribution of losses during financial correction.

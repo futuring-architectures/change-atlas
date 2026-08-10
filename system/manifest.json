@@ -3677,6 +3677,24 @@
       "source_url": "https://www.danshapiro.com/blog/2026/07/0-50-or-200/",
       "status": "complete"
     },
+    "raw/web/2026-07-31-let-it-crash-how-to-steer-what-comes-after.md": {
+      "affected_wiki": [
+        "wiki/concepts/future-narratives-allocate-permission.md",
+        "wiki/frameworks/bubble-crash-rebuild-map.md",
+        "wiki/frameworks/transition-integration-stack.md",
+        "wiki/debates/what-kind-of-decentralization-creates-agency.md",
+        "wiki/debates/who-captures-the-gains-from-automation.md"
+      ],
+      "canonical_url": "https://vijaypande.substack.com/p/let-it-crash-how-to-steer-what-comes",
+      "claim_count": 11,
+      "completed_at": "2026-07-31",
+      "evidence_file": "evidence/sources/let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d.md",
+      "evidence_id": "evi-46e9cb77dc3d",
+      "mode": "steady_state_url",
+      "raw_sha256": "8df9e3b8fae6c1657bdd950508db3b0ae829cf6c740569f74782fef77beeaa8d",
+      "source_url": "https://vijaypande.substack.com/p/let-it-crash-how-to-steer-what-comes",
+      "status": "complete"
+    },
     "raw/web/2026-07-31-shared-compute-and-community-owned-ai.md": {
       "affected_wiki": [
         "wiki/concepts/contextual-decentralization.md",
@@ -3693,6 +3711,25 @@
       "mode": "steady_state_url",
       "raw_sha256": "0178f332ad0725be6bff5c7eccce2f0998aea601bbc3ab2aba0589c2e6ce4285",
       "source_url": "https://x.com/gregisenberg/status/2081088155793465783?s=61&t=Z1LQ3FldfkzVnJc_7M-GQw",
+      "status": "complete"
+    },
+    "raw/web/2026-08-10-dan-shipper-danshipper-on-x.md": {
+      "affected_wiki": [
+        "wiki/concepts/responsibility-gap-after-automation.md",
+        "wiki/frameworks/agency-rupture-cycle.md",
+        "wiki/frameworks/ai-agency-audit.md",
+        "wiki/debates/does-ai-expand-expertise-or-hollow-it-out.md",
+        "wiki/debates/is-ai-a-tool-mind-organism-or-infrastructure.md",
+        "wiki/questions/how-can-ai-mediated-work-preserve-apprenticeship-and-meaning.md"
+      ],
+      "canonical_url": "https://x.com/danshipper/status/2084038453831020916",
+      "claim_count": 8,
+      "completed_at": "2026-08-10",
+      "evidence_file": "evidence/sources/dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df.md",
+      "evidence_id": "evi-4d6fc0f5e1df",
+      "mode": "steady_state_url",
+      "raw_sha256": "15fc2a33e9c82c0767395585779965546d62f83da807e80fa8d52b4abfef1f00",
+      "source_url": "https://x.com/danshipper/status/2084038453831020916",
       "status": "complete"
     }
   },

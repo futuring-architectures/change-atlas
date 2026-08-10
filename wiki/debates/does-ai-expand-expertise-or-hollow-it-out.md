@@ -4,7 +4,7 @@ type: debate
 title: Does AI expand expertise or hollow it out?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-24
+updated_at: 2026-08-10
 tags: ["expertise", "deskilling", "augmentation"]
 relationships:
   - type: raises_question
@@ -13,6 +13,8 @@ relationships:
     target: "[[extended-mind]]"
   - type: refined_by
     target: "[[capacity-erosion-through-assistance]]"
+  - type: refined_by
+    target: "[[agency-rupture-cycle]]"
 description: "The same abstraction that expands individual reach can remove the practice, feedback, and responsibility through which expertise develops."
 evidence:
   - "[[everyone-is-above-average-evi-81d2db9acff6#Claim 1]]"
@@ -28,6 +30,7 @@ evidence:
   - "[[earning-judgment-evi-207760005515#Claim 1]]"
   - "[[earning-judgment-evi-207760005515#Claim 2]]"
   - "[[earning-judgment-evi-207760005515#Claim 5]]"
+  - "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 5]]"
 ---
 
 # Does AI expand expertise or hollow it out?
@@ -38,6 +41,7 @@ evidence:
 - End-user programming and cheap exploration let individuals attempt work once reserved for coordinated specialist teams.
 - Experts can chunk work at a higher level and use models as sounding boards, generators, and managed junior collaborators.
 - Recursive dialogue may develop a situated capacity in the human–machine pair and shift authorship toward judgment, criteria, and closure.
+- With repeated use, people may reconstruct agency around direction, evaluation, integration, and other scaffolding even when the model performs more of the direct production.
 
 ## Position: AI hollows expertise out
 
@@ -49,7 +53,7 @@ evidence:
 
 ## Synthesis
 
-The contradiction is conditional rather than rhetorical. Prior competence, task feedback, interface design, incentives, authority, and whether the user must verify consequences determine whether abstraction becomes leverage or dependency. Johar's reflective account adds reciprocal resistance and recursive form-finding; Osmani adds deliberate practice, wrong logs, deep system work, explicit evals, and autonomy calibration as possible substitutes for disappearing repetitions. Neither source establishes durable transfer or a scalable apprenticeship design. Output improvement is not sufficient evidence of expertise growth.
+The contradiction is conditional rather than rhetorical. Prior competence, task feedback, interface design, incentives, authority, and whether the user must verify consequences determine whether abstraction becomes leverage or dependency. Johar's reflective account adds reciprocal resistance and recursive form-finding; Osmani adds deliberate practice, wrong logs, deep system work, explicit evals, and autonomy calibration as possible substitutes for disappearing repetitions. The [[agency-rupture-cycle|Agency rupture cycle]] adds a distinction between initial displacement, recognition of human scaffolding, and later subjective reconstruction around judgment and direction. None of these accounts establishes durable transfer or a scalable apprenticeship design. Output improvement and reconstructed authorship are not sufficient evidence of expertise growth.
 
 ## Evidence needed
 
@@ -63,4 +67,5 @@ The contradiction is conditional rather than rhetorical. Prior competence, task 
 - Raises [[how-can-ai-mediated-work-preserve-apprenticeship-and-meaning|the Question of preserving apprenticeship and shared meaning]].
 - Reframed by [[extended-mind|Extended mind]], which evaluates the human-tool system while preserving the distinction between performance and learned competence.
 - Refined by [[capacity-erosion-through-assistance|Capacity erosion through assistance]], with [[prompting-is-managing-evi-76a66b9e9b26#Claim 2|Prompting is Managing — claim 2]] supplying the managerial-attention counter-reading.
+- Refined by the [[agency-rupture-cycle|Agency rupture cycle]], which separates perceived displacement from later re-centering without treating subjective agency as proof of retained skill.
 - [[earning-judgment-evi-207760005515#Claim 1|Earning Judgment — claim 1]] identifies the training function at risk, [[earning-judgment-evi-207760005515#Claim 2|claim 2]] states the delayed pipeline prediction, and [[earning-judgment-evi-207760005515#Claim 5|claim 5]] proposes intentional counter-practices.

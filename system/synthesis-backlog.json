@@ -62,6 +62,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source extends the concentration problem into AI alignment and model ownership, proposing locally shaped models as a distribution mechanism. It remains a lab governance position without comparative evidence of transferred decision power or affected-public outcomes."
+        },
+        {
+          "source": "evi-46e9cb77dc3d",
+          "date": "2026-07-31",
+          "outcome": "no_change",
+          "note": "The source advocates distributing models, compute, tools, and equity, but does not specify transferred decision rights, a stewardship practice, or an observed distributed-governance outcome."
         }
       ],
       "resolution_target": null
@@ -182,7 +188,9 @@
         "[[ai-prompt-engineering-isnt-the-future-evi-550eefad7f54#Claim 1]]",
         "[[how-generative-ai-helped-me-imagine-a-better-robot-evi-8b6ba04bc675#Claim 2]]",
         "[[when-to-design-for-emergence-evi-b6b637f42c96#Claim 1]]",
-        "[[when-to-design-for-emergence-evi-b6b637f42c96#Claim 2]]"
+        "[[when-to-design-for-emergence-evi-b6b637f42c96#Claim 2]]",
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7]]",
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -227,6 +235,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Scenario experimentation, systematic thinking, deliberate horizon expansion, and critical rather than deferential AI strengthen imagination and meaning-making as design capacities. Evaluated stewardship outcomes remain absent."
+        },
+        {
+          "source": "evi-46e9cb77dc3d",
+          "date": "2026-07-31",
+          "outcome": "strengthened",
+          "note": "The source makes slow-built, plural accounts of human purpose part of advance transition stewardship and argues that they can guide institutional rebuilding under pressure. It remains a normative historical analogy without participatory practice or evaluated outcomes."
         }
       ],
       "resolution_target": null
@@ -615,6 +629,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The all-purpose deferential chatbot, self-corrupting observability agent, and language-policing risk show how low-friction inference can weaken challenge, legibility, and user control."
+        },
+        {
+          "source": "evi-4d6fc0f5e1df",
+          "date": "2026-08-10",
+          "outcome": "no_change",
+          "note": "The source proposes that users may eventually recenter subjective agency even as the model becomes less visible in the workflow, but it does not compare interface forms or assess control over memory, prediction, and action."
         }
       ],
       "resolution_target": null
@@ -959,7 +979,10 @@
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 6]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
         "[[earning-judgment-evi-207760005515#Claim 4]]",
-        "[[earning-judgment-evi-207760005515#Claim 7]]"
+        "[[earning-judgment-evi-207760005515#Claim 7]]",
+        "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 4]]",
+        "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 5]]",
+        "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 6]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1021,6 +1044,12 @@
           "date": "2026-07-24",
           "outcome": "no_change",
           "note": "The source specifies how a harness inherits organizational coordination, decision, escalation, and accountability structures, but it does not claim that human roles are moving toward orchestration or supply role-transition outcomes."
+        },
+        {
+          "source": "evi-4d6fc0f5e1df",
+          "date": "2026-08-10",
+          "outcome": "strengthened",
+          "note": "The source independently recasts human work around mature model use as scaffolding, direction, judgment, evaluation, and quality control, strengthening the proposed role-shift mechanism. It remains a practitioner hypothesis without representative organizational or employment outcomes."
         }
       ],
       "resolution_target": null
@@ -1081,6 +1110,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Epistemic fluency, social disagreement, and task-boundary work strengthen the mechanism by which private AI substitution can remove relational learning and recognition; longitudinal apprenticeship outcomes remain absent."
+        },
+        {
+          "source": "evi-4d6fc0f5e1df",
+          "date": "2026-08-10",
+          "outcome": "no_change",
+          "note": "The source describes identity rupture followed by possible individual agency reconstruction, but it does not address substitution for colleagues, apprenticeship, recognition, shared meaning, or longitudinal outcomes."
         }
       ],
       "resolution_target": null
@@ -1728,8 +1763,8 @@
     },
     {
       "id": "prp-6a50ba86b4e2",
-      "statement": "As model capability commoditizes, effective governance may shift from controlling access to controlling deployment conditions, interfaces, and institutional use.",
-      "status": "strengthened",
+      "statement": "As model capability commoditizes, effective governance may shift toward deployment conditions, interfaces, and institutional use, while access, ownership, and viable exit remain consequential.",
+      "status": "qualified",
       "origin_collection": "how-we-learn-futuring",
       "surfaced_in": "wiki/hubs/futuring",
       "evidence": [
@@ -1753,7 +1788,9 @@
         "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 1]]",
         "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 6]]",
         "[[0-50-or-200-evi-704a6910d89c#Claim 3]]",
-        "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
+        "[[0-50-or-200-evi-704a6910d89c#Claim 4]]",
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8]]",
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1808,6 +1845,12 @@
           "date": "2026-07-31",
           "outcome": "strengthened",
           "note": "The source treats productivity capability as a premise and relocates the consequential choice into institutional use: no coordinated adoption, workforce-cost reduction, or reinvestment in broader output and quality. It supplies no observed deployment outcome or governance comparison."
+        },
+        {
+          "source": "evi-46e9cb77dc3d",
+          "date": "2026-07-31",
+          "outcome": "qualified",
+          "note": "The source places guardrails, social protection, institutional use, and cheap exit around the productive layer, but also treats open access, local operation, compute, and ownership as continuing governance levers. The proposition now preserves both sides; the source offers no comparative regime outcome."
         }
       ],
       "resolution_target": null
@@ -2066,6 +2109,12 @@
           "date": "2026-07-31",
           "outcome": "no_change",
           "note": "The source advocates reinvesting productivity in greater present output and quality rather than headcount reduction, but it does not measure renewal capacity or compare present throughput with future capability preservation."
+        },
+        {
+          "source": "evi-46e9cb77dc3d",
+          "date": "2026-07-31",
+          "outcome": "no_change",
+          "note": "The source predicts that learned human practice can outlast depreciating AI hardware and advocates advance preparation, but it neither measures renewal capacity nor compares organizations optimized for present throughput with those preserving future capability."
         }
       ],
       "resolution_target": null
@@ -2122,6 +2171,12 @@
           "date": "2026-07-24",
           "outcome": "strengthened",
           "note": "The source directly frames routine work as capacity-building practice, predicts delayed expertise-pipeline loss when agents remove it, and proposes deliberate counter-practices. It still provides no longitudinal comparison between short-term productivity and later independent capability."
+        },
+        {
+          "source": "evi-4d6fc0f5e1df",
+          "date": "2026-08-10",
+          "outcome": "no_change",
+          "note": "The source says mature users can recognize nuanced scaffolding and raise quality expectations, but it does not measure independent skill, challenge, verification, participation, or delayed capacity loss."
         }
       ],
       "resolution_target": null
@@ -2182,13 +2237,16 @@
     {
       "id": "prp-9c1cfe4448bf",
       "statement": "Transitions that coordinate technical, institutional, social, and cultural pace layers may integrate capability more effectively than transitions governed as a single rollout.",
-      "status": "open",
+      "status": "strengthened",
       "origin_collection": "how-we-learn-transitions",
       "surfaced_in": "wiki/hubs/transitions",
       "evidence": [
         "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
         "[[why-i-think-ai-take-off-is-relatively-slow-evi-39d89f833cb2#Claim 2]]",
-        "[[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 2]]"
+        "[[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 2]]",
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 6]]",
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7]]",
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2199,6 +2257,12 @@
           "date": "2026-07-14",
           "outcome": "opened",
           "note": "Pace layering, slow institutional integration, and network-and-culture mechanisms support a multi-layer transition model, but no comparative rollout outcome warrants promotion."
+        },
+        {
+          "source": "evi-46e9cb77dc3d",
+          "date": "2026-07-31",
+          "outcome": "strengthened",
+          "note": "The source adds a discontinuous timing mechanism: technical installation can precede a correction, while state capacity, institutions, and shared purpose operate on different clocks and must be prepared before the response window. The claim remains a historical analogy without comparative transition outcomes."
         }
       ],
       "resolution_target": null
