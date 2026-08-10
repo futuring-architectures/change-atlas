@@ -3731,6 +3731,24 @@
       "raw_sha256": "15fc2a33e9c82c0767395585779965546d62f83da807e80fa8d52b4abfef1f00",
       "source_url": "https://x.com/danshipper/status/2084038453831020916",
       "status": "complete"
+    },
+    "raw/web/2026-08-10-what-will-more-intelligence-actually-do-for-us.md": {
+      "affected_wiki": [
+        "wiki/concepts/abundance-relocates-bottlenecks.md",
+        "wiki/concepts/capability-deployment-gap.md",
+        "wiki/frameworks/intelligence-to-productivity-pathways.md",
+        "wiki/debates/is-ai-a-tool-mind-organism-or-infrastructure.md",
+        "wiki/questions/how-can-institutions-preserve-tacit-knowledge-through-transition.md"
+      ],
+      "canonical_url": "https://www.noahpinion.blog/p/what-will-more-intelligence-actually",
+      "claim_count": 12,
+      "completed_at": "2026-08-10",
+      "evidence_file": "evidence/sources/what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d.md",
+      "evidence_id": "evi-6d1521adbc8d",
+      "mode": "steady_state_url",
+      "raw_sha256": "987241c889560337837b0b195bf62bda6a216428e61c7daaaa944dac09afe0ca",
+      "source_url": "https://www.noahpinion.blog/p/what-will-more-intelligence-actually?hide_intro_popup=true",
+      "status": "complete"
     }
   },
   "schema_version": 1

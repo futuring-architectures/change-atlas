@@ -288,3 +288,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-08-10-dan-shipper-danshipper-on-x.md` as `evidence/sources/dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df.md` with 8 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-08-10] evidence | Ingest What will more intelligence actually do for us?
+
+- Captured and finalized `raw/web/2026-08-10-what-will-more-intelligence-actually-do-for-us.md` as `evidence/sources/what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d.md` with 12 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.

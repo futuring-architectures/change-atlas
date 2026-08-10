@@ -698,7 +698,10 @@
         "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1]]",
         "[[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2]]",
         "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1]]",
-        "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 2]]"
+        "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 2]]",
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3]]",
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 5]]",
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -729,6 +732,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "The collection discusses duplicated compute investment and falling software-production cost but adds no comparative useful-intelligence-per-dollar measure or optimization case."
+        },
+        {
+          "source": "evi-6d1521adbc8d",
+          "date": "2026-08-10",
+          "outcome": "strengthened",
+          "note": "The source argues that returns to raw model intelligence may diminish while useful value comes from replicability, speed, memory, sensing, and pattern scale. This strengthens optimization around useful system output rather than maximum model capability, but supplies no enterprise cost comparison or per-dollar measure."
         }
       ],
       "resolution_target": null
@@ -787,8 +796,8 @@
     },
     {
       "id": "prp-6b7b24b95b33",
-      "statement": "Legacy expertise may be necessary infrastructure for long technological transitions even when dominant narratives frame old systems as obsolete.",
-      "status": "strengthened",
+      "statement": "Legacy expertise may be necessary infrastructure for long technological transitions even when dominant narratives frame old systems as obsolete, although instrumentation and AI-guided experimentation may make some distributed tacit knowledge more transferable.",
+      "status": "qualified",
       "origin_collection": "after-the-internet-culture",
       "surfaced_in": "wiki/hubs/culture",
       "evidence": [
@@ -800,7 +809,9 @@
         "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 1]]",
         "[[the-silicon-and-industrial-revolutions-evi-6a3a0212c5f6#Claim 2]]",
         "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
-        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]"
+        "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]",
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 7]]",
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-organization",
@@ -838,6 +849,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Historical myth correction, unrealized earlier ideas, pace layering, and ambiguous task-boundary work strengthen the case that transition depends on knowledge carried across old and new systems."
+        },
+        {
+          "source": "evi-6d1521adbc8d",
+          "date": "2026-08-10",
+          "outcome": "qualified",
+          "note": "The source reinforces that advanced production knowledge is tacit and distributed, then predicts that dense sensing and AI-guided experiments may make parts of it easier to capture and diffuse. The proposition now reflects that possible transfer mechanism; no deployed comparison shows which expertise becomes portable or what remains embodied and relational."
         }
       ],
       "resolution_target": null
@@ -2115,6 +2132,12 @@
           "date": "2026-07-31",
           "outcome": "no_change",
           "note": "The source predicts that learned human practice can outlast depreciating AI hardware and advocates advance preparation, but it neither measures renewal capacity nor compares organizations optimized for present throughput with those preserving future capability."
+        },
+        {
+          "source": "evi-6d1521adbc8d",
+          "date": "2026-08-10",
+          "outcome": "strengthened",
+          "note": "The source proposes sensor-rich observation, rapid experimentation, and repeated process improvement as mechanisms for accumulating and diffusing production capability. It strengthens the renewal mechanism but does not measure renewal capacity or compare it with present-throughput optimization."
         }
       ],
       "resolution_target": null
@@ -2195,7 +2218,9 @@
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]",
         "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 2]]",
-        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 3]]"
+        "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 3]]",
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 7]]",
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2230,6 +2255,12 @@
           "date": "2026-07-31",
           "outcome": "strengthened",
           "note": "The source explicitly treats locally retained group data and accumulating domain context as the defensible asset after capable base models become broadly available. It does not compare that asset with documentation volume or demonstrate durable performance or economic advantage."
+        },
+        {
+          "source": "evi-6d1521adbc8d",
+          "date": "2026-08-10",
+          "outcome": "strengthened",
+          "note": "The source identifies distributed tacit practice plus instrumented process data as a potentially valuable input to AI-guided improvement. It strengthens testable local context as an asset mechanism, while leaving ownership, the documentation-volume comparison, and measured organizational advantage unresolved."
         }
       ],
       "resolution_target": null
@@ -2263,6 +2294,12 @@
           "date": "2026-07-31",
           "outcome": "strengthened",
           "note": "The source adds a discontinuous timing mechanism: technical installation can precede a correction, while state capacity, institutions, and shared purpose operate on different clocks and must be prepared before the response window. The claim remains a historical analogy without comparative transition outcomes."
+        },
+        {
+          "source": "evi-6d1521adbc8d",
+          "date": "2026-08-10",
+          "outcome": "no_change",
+          "note": "The source observes a gap between rapid AI capability gains and broad economic transformation and names governance friction as one explanation, but it neither specifies coordination across pace layers nor compares integrated and single-rollout transitions."
         }
       ],
       "resolution_target": null

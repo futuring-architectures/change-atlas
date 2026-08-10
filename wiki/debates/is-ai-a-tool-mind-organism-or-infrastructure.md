@@ -16,6 +16,8 @@ relationships:
     target: "[[cultural-and-social-technology]]"
   - type: refined_by
     target: "[[agency-rupture-cycle]]"
+  - type: refined_by
+    target: "[[intelligence-to-productivity-pathways]]"
 description: "Competing AI metaphors assign different units of analysis, evaluation methods, expectations, and locations of responsibility."
 evidence:
   - "[[there-is-no-a-i-evi-1c96a7cb0ea3#Claim 1]]"
@@ -28,6 +30,8 @@ evidence:
   - "[[large-ai-models-are-cultural-and-social-technologies-evi-dbc99fb58457#Claim 1]]"
   - "[[your-ai-is-not-a-tool-evi-f725ec6bd434#Claim 1]]"
   - "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 5]]"
+  - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 10]]"
+  - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12]]"
 ---
 
 # Is AI a tool, mind, organism, or infrastructure?
@@ -49,6 +53,7 @@ Which metaphor provides the most useful and least misleading account of AI for a
 - **AI is an organism-like object of study.** Simple training rules produce complex learned mechanisms that researchers must probe experimentally, much as biology investigates evolved structures.
 - **AI is a discovery instrument.** Models and compute reveal latent structure in data rather than acting primarily as engines of production.
 - **AI is infrastructure or a general-purpose platform.** The important unit is not the model as an entity but the economy-wide systems, complements, and second-order effects built around it.
+- **AI is scalable capital and a large-pattern instrument.** Its distinctive value may come from replication, speed, memory, sensing, and patterns too diffuse for person-to-person explanation rather than from a single mind-like intelligence score.
 - **AI is a cultural and social technology.** The system reorganizes accumulated human information and participates in cultural transmission and social coordination.
 - **AI is an environment.** The system does not remain external to a user but can envelop attention, form habits, and shape goals.
 
@@ -71,10 +76,11 @@ Which metaphor provides the most useful and least misleading account of AI for a
 - [[chatgpt-is-an-engine-of-cultural-transmission-evi-65ca2d2a9fbc#Claim 2|ChatGPT Is an Engine of Cultural Transmission — claim 2]] and [[large-ai-models-are-cultural-and-social-technologies-evi-dbc99fb58457#Claim 1|Large AI Models Are Cultural and Social Technologies — claim 1]] add the cultural-and-social-technology position.
 - [[your-ai-is-not-a-tool-evi-f725ec6bd434#Claim 1|Your AI Is Not a Tool — claim 1]] advances the stronger environment position.
 - [[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 5|Dan Shipper on agency rupture — claim 5]] describes the tool metaphor and first-person authorship emerging after acclimation.
+- [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 10|What will more intelligence do? — claim 10]] proposes AI as an instrument for complex “cloud laws”; [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12|claim 12]] locates value in computer-specific replication, speed, memory, sensing, and pattern scale.
 
 ## Current assessment
 
-No single metaphor spans all levels. The strongest practice is conditional: name the decision, select a metaphor for that level, state what the metaphor hides, and record whether it describes the system or the user's current relationship to it. Governance should not move responsibility into the system merely because scientific inquiry uses mind or organism language, nor infer objective agency from a user's recovered sense of authorship.
+No single metaphor spans all levels. The strongest practice is conditional: name the decision, select a metaphor for that level, state what the metaphor hides, and record whether it describes the system or the user's current relationship to it. Head-to-head intelligence comparisons can obscure machine-specific scale and infrastructure, just as infrastructure language can obscure model limits and human responsibility. Governance should not move responsibility into the system merely because scientific inquiry uses mind or organism language, nor infer objective agency from a user's recovered sense of authorship.
 
 ## Open questions
 
@@ -87,3 +93,4 @@ No single metaphor spans all levels. The strongest practice is conditional: name
 - The Debate refines [[metaphors-steer-ai-inquiry|the Concept that metaphors steer AI inquiry]].
 - [[cultural-and-social-technology|Cultural and social technology]] refines the Debate by adding cultural transmission, coordination, and formative environment as units of analysis.
 - The [[agency-rupture-cycle|Agency rupture cycle]] refines the Debate by treating metaphor as something that can change through familiarity and integration.
+- [[intelligence-to-productivity-pathways|Intelligence-to-productivity pathways]] refines the Debate by separating individual-like intelligence from replicable capital, instrumented organizational knowledge, and large-pattern discovery.
