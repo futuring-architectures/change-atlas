@@ -23,6 +23,8 @@ relationships:
     target: "[[ai-adoption-failure-exposed-work-system-tensions]]"
   - type: refined_by
     target: "[[ai-native-services-adaptation-tests]]"
+  - type: supported_by
+    target: "[[enterprise-ai-rollouts-formed-a-power-user-barbell]]"
 description: "A recurring six-step method for redesigning work around changing capabilities without freezing AI into inherited roles."
 evidence:
   - "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 1]]"
@@ -42,6 +44,10 @@ evidence:
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]"
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]"
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]"
+  - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1]]"
+  - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2]]"
+  - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]"
+  - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]"
 ---
 
 # Capability-to-architecture loop
@@ -74,7 +80,7 @@ Build both agent experience and human control: permissions, inspectable state, e
 
 ### 6. Sense, learn, and reallocate
 
-Measure system outcomes, not only tool usage or individual speed. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. For model-dependent businesses, include market scope, UX assumptions, customer adoption, and human cognitive load in the reallocation decision. Repeat the loop as capability and context change.
+Measure system outcomes, not only seats, logins, prompts, or individual speed. Map the distribution of proficiency and distinguish work that remains manual, becomes hybrid, or becomes fully automated. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. For model-dependent businesses, include market scope, UX assumptions, customer adoption, and human cognitive load in the reallocation decision. Repeat the loop as capability and context change.
 
 ## How to apply it
 
@@ -107,6 +113,7 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3|The Operating Model Is the Real AI Harness — claim 3]] defines the operating system to be redesigned; [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5|claim 5]] makes organization design primary rather than downstream; and [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6|claim 6]] joins harness and organizational architecture.
 - [[0-50-or-200-evi-704a6910d89c#Claim 1|0%, 50%, or 200% — claim 1]] separates the capability premise from the organizational response; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] supplies growth-oriented reinvestment as one purpose-and-allocation choice.
 - [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4|When the Models Get Better — claim 4]] makes revision recurring operating work; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5|claim 5]] identifies UX assumptions as a capability-sensitive architecture; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8|claim 8]] adds customer adoption; and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9|claim 9]] adds cognitive-load segmentation.
+- [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1|AI Adoption is a Myth — claim 1]] reports a concentrated enterprise usage distribution and adoption without team-speed improvement; [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2|claim 2]] rejects binary adoption as an outcome measure; and [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8|claim 8]] and [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9|claim 9]] propose segmented workflow architecture and work-mode reporting.
 
 ## Relationships
 
@@ -115,3 +122,4 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - Complements the [[organizational-transformation-test|Organizational transformation test]], which evaluates whether the resulting change is structural.
 - Informed by [[design-for-emergence|Design for emergence]] and applies [[architecture-is-the-scaling-constraint|Architecture is the scaling constraint]] to organization design.
 - Refined by the [[ai-native-services-adaptation-tests|AI-native services adaptation tests]], which add market, UX, adoption, cognitive-load, business-fitness, and talent checks for a narrow service context.
+- Supported by [[enterprise-ai-rollouts-formed-a-power-user-barbell|Enterprise AI rollouts formed a power-user barbell]], which makes usage concentration and outcome measurement explicit.

@@ -3750,6 +3750,23 @@
       "source_url": "https://www.noahpinion.blog/p/what-will-more-intelligence-actually?hide_intro_popup=true",
       "status": "complete"
     },
+    "raw/web/2026-08-14-ai-adoption-is-a-myth.md": {
+      "affected_wiki": [
+        "wiki/signals/enterprise-ai-rollouts-formed-a-power-user-barbell.md",
+        "wiki/concepts/capability-deployment-gap.md",
+        "wiki/concepts/epistemic-fluency.md",
+        "wiki/frameworks/capability-to-architecture-loop.md"
+      ],
+      "canonical_url": "https://x.com/vasuman/status/2085806422072418632",
+      "claim_count": 9,
+      "completed_at": "2026-08-14",
+      "evidence_file": "evidence/sources/ai-adoption-is-a-myth-evi-112f1f52da2b.md",
+      "evidence_id": "evi-112f1f52da2b",
+      "mode": "steady_state_url",
+      "raw_sha256": "5a5dba46ad06433abc8423c5c4ae54d8bcf5248361382a4caf62d7c32688e331",
+      "source_url": "https://x.com/vasuman/status/2085806422072418632",
+      "status": "complete"
+    },
     "raw/web/2026-08-14-when-the-models-get-better-your-tam-should-go-up.md": {
       "affected_wiki": [
         "wiki/concepts/abundance-relocates-bottlenecks.md",

@@ -298,3 +298,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-08-14-when-the-models-get-better-your-tam-should-go-up.md` as `evidence/sources/when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096.md` with 13 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.
+
+## [2026-08-14] evidence | Ingest AI Adoption is a Myth
+
+- Captured and finalized `raw/web/2026-08-14-ai-adoption-is-a-myth.md` as `evidence/sources/ai-adoption-is-a-myth-evi-112f1f52da2b.md` with 9 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.

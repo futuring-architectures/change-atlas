@@ -1016,7 +1016,9 @@
         "[[earning-judgment-evi-207760005515#Claim 7]]",
         "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 4]]",
         "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 5]]",
-        "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 6]]"
+        "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 6]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1084,6 +1086,12 @@
           "date": "2026-08-10",
           "outcome": "strengthened",
           "note": "The source independently recasts human work around mature model use as scaffolding, direction, judgment, evaluation, and quality control, strengthening the proposed role-shift mechanism. It remains a practitioner hypothesis without representative organizational or employment outcomes."
+        },
+        {
+          "source": "evi-112f1f52da2b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source specifies proficient interactive work as context management, workflow routing, and output inspection, then proposes approval, rejection, editing, and exception handling for workers around background agents. It strengthens the role-shift mechanism but recommends rather than observes durable role or employment outcomes."
         }
       ],
       "resolution_target": null
@@ -1594,7 +1602,8 @@
         "[[cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936#Claim 2]]",
         "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 2]]",
         "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]",
-        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]"
+        "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1631,6 +1640,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source independently identifies judgment as scarce when plausible articulation becomes abundant, strengthening the creation-versus-evaluation gap. It adds no evidence about ownership, maintenance capacity, or recourse."
+        },
+        {
+          "source": "evi-112f1f52da2b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The paired-engineer example shows identical natural-language access producing divergent results depending on context, reusable constraints, and diff inspection, strengthening the creation-versus-evaluation gap. It supplies no evidence about ownership, maintenance capacity, or recourse."
         }
       ],
       "resolution_target": null
@@ -1648,7 +1663,8 @@
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 3]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
         "[[earning-judgment-evi-207760005515#Claim 4]]",
-        "[[earning-judgment-evi-207760005515#Claim 6]]"
+        "[[earning-judgment-evi-207760005515#Claim 6]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1684,6 +1700,12 @@
           "date": "2026-07-24",
           "outcome": "strengthened",
           "note": "The source makes evidence-bearing verification the human outer-loop boundary and argues that finite attention cannot scale with agent output. It remains a practitioner model without organization-level throughput comparisons or evidence that verification is the single rate-limiting resource."
+        },
+        {
+          "source": "evi-112f1f52da2b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source contrasts low-friction generation with the learned craft of scoping, constraining, and reading diffs before acceptance, strengthening verification as a post-generation constraint. It does not measure organization-level verification capacity or establish the rate limit."
         }
       ],
       "resolution_target": null
@@ -1966,7 +1988,10 @@
         "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
-        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]"
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2014,6 +2039,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source makes recurring capability change a trigger for revising strategy, UX, workflow, and customer adoption, strengthening the redesign mechanism. It does not address decision rights or compare organizational performance against inherited-role insertion."
+        },
+        {
+          "source": "evi-112f1f52da2b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source reports access without team-speed improvement and recommends recomposing work into interactive power-user and background-agent paths while measuring manual, hybrid, and automated work. It strengthens workflow redesign but supplies no comparison against inherited-role insertion and does not fully specify decision rights."
         }
       ],
       "resolution_target": null
@@ -2272,6 +2303,12 @@
           "date": "2026-08-10",
           "outcome": "no_change",
           "note": "The source says mature users can recognize nuanced scaffolding and raise quality expectations, but it does not measure independent skill, challenge, verification, participation, or delayed capacity loss."
+        },
+        {
+          "source": "evi-112f1f52da2b",
+          "date": "2026-08-14",
+          "outcome": "no_change",
+          "note": "The source argues that weak users can perform worse and treats proficient use as an iterative craft, but it does not show assistance removing practice, delayed capacity loss, or longitudinal change in independent verification and participation."
         }
       ],
       "resolution_target": null
@@ -2419,7 +2456,9 @@
         "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]",
         "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2]]",
         "[[earning-judgment-evi-207760005515#Claim 4]]",
-        "[[earning-judgment-evi-207760005515#Claim 5]]"
+        "[[earning-judgment-evi-207760005515#Claim 5]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2]]",
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2436,6 +2475,12 @@
           "date": "2026-07-24",
           "outcome": "strengthened",
           "note": "The source replaces output completion with an outer-loop evidence bundle—diffs, tests, logs, rationale, approval, and consequence—and proposes explicit eval rubrics. These are concrete candidate signals, but their ability to demonstrate understanding, retention, or system outcomes remains unevaluated."
+        },
+        {
+          "source": "evi-112f1f52da2b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source shows binary adoption dashboards coexisting with unchanged team speed and proposes replacing them with manual, hybrid, and automated work shares. It strengthens the need to replace cheap usage proxies, while the proposed work-mode measure still needs quality, judgment, retention, and system-outcome validation."
         }
       ],
       "resolution_target": null

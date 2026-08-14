@@ -21,6 +21,8 @@ relationships:
     target: "[[pace-layering]]"
   - type: qualified_by
     target: "[[intelligence-to-productivity-pathways]]"
+  - type: supported_by
+    target: "[[enterprise-ai-rollouts-formed-a-power-user-barbell]]"
 description: "The distance between what a model can demonstrate and what a sociotechnical system can deploy usefully, safely, legitimately, and at scale."
 evidence:
   - "[[lessons-from-historys-greatest-r-and-d-labs-evi-a9bfefd1c558#Claim 2]]"
@@ -33,6 +35,8 @@ evidence:
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 2]]"
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3]]"
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 4]]"
+  - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1]]"
+  - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2]]"
 ---
 
 # Capability-deployment gap
@@ -55,6 +59,7 @@ The gap should not become a residual explanation for every missing impact. Slow 
 - [[the-two-clocks-evi-e5c4870ba6b1#Claim 1|The Two Clocks — claim 1]] names the different rates of technical and institutional change; [[the-two-clocks-evi-e5c4870ba6b1#Claim 2|claim 2]] identifies their gap as a business constraint.
 - [[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 1|Activity Theory as a system-level explanation — claim 1]] shows that the gap can contain work-system contradictions rather than passive delay.
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 2|What will more intelligence do? — claim 2]] records the mid-2026 capability-to-impact puzzle; [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3|claim 3]] and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 4|claim 4]] supply information and irreducible-error alternatives to a deployment-only explanation.
+- [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1|AI Adoption is a Myth — claim 1]] reports nominal enterprise adoption without team-speed improvement and a concentrated user distribution; [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2|claim 2]] identifies binary adoption measurement as part of the gap.
 
 ## Relationships
 
@@ -64,3 +69,4 @@ The gap should not become a residual explanation for every missing impact. Slow 
 - Refined by [[ingredient-technology|Ingredient technology]], which locates domain and scenario architecture around the model capability.
 - Refined by [[pace-layering|Pace layering]], which interprets part of the gap as coordination among system layers with different rates and stabilizing functions.
 - Qualified by [[intelligence-to-productivity-pathways|Intelligence-to-productivity pathways]], which separates conversion bottlenecks from possible measurement and prediction limits.
+- Supported by [[enterprise-ai-rollouts-formed-a-power-user-barbell|Enterprise AI rollouts formed a power-user barbell]].
