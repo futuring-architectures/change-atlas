@@ -25,6 +25,8 @@ relationships:
     target: "[[ai-native-services-adaptation-tests]]"
   - type: supported_by
     target: "[[enterprise-ai-rollouts-formed-a-power-user-barbell]]"
+  - type: supported_by
+    target: "[[decagon-automated-two-thirds-of-deployment-work-after-productizing-field-learning]]"
 description: "A recurring six-step method for redesigning work around changing capabilities without freezing AI into inherited roles."
 evidence:
   - "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 1]]"
@@ -48,6 +50,9 @@ evidence:
   - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2]]"
   - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]"
   - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]"
+  - "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 3]]"
+  - "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 4]]"
+  - "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
 ---
 
 # Capability-to-architecture loop
@@ -80,7 +85,7 @@ Build both agent experience and human control: permissions, inspectable state, e
 
 ### 6. Sense, learn, and reallocate
 
-Measure system outcomes, not only seats, logins, prompts, or individual speed. Map the distribution of proficiency and distinguish work that remains manual, becomes hybrid, or becomes fully automated. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. For model-dependent businesses, include market scope, UX assumptions, customer adoption, and human cognitive load in the reallocation decision. Repeat the loop as capability and context change.
+Measure system outcomes, not only seats, logins, prompts, or individual speed. Map the distribution of proficiency and distinguish work that remains manual, becomes hybrid, or becomes fully automated. When field specialists discover an unknown workflow, record which learning becomes a reusable product primitive and whether each deployment reduces the next one's bespoke burden. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. For model-dependent businesses, include market scope, UX assumptions, customer adoption, and human cognitive load in the reallocation decision. Repeat the loop as capability and context change.
 
 ## How to apply it
 
@@ -114,6 +119,7 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - [[0-50-or-200-evi-704a6910d89c#Claim 1|0%, 50%, or 200% — claim 1]] separates the capability premise from the organizational response; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] supplies growth-oriented reinvestment as one purpose-and-allocation choice.
 - [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4|When the Models Get Better — claim 4]] makes revision recurring operating work; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5|claim 5]] identifies UX assumptions as a capability-sensitive architecture; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8|claim 8]] adds customer adoption; and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9|claim 9]] adds cognitive-load segmentation.
 - [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1|AI Adoption is a Myth — claim 1]] reports a concentrated enterprise usage distribution and adoption without team-speed improvement; [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2|claim 2]] rejects binary adoption as an outcome measure; and [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8|claim 8]] and [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9|claim 9]] propose segmented workflow architecture and work-mode reporting.
+- [[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 3|To FDE, or not to FDE? — claim 3]] treats field deployment as discovery when a new workflow has no settled shape; [[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 4|claim 4]] requires an exit after learning; and [[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8|claim 8]] reports Decagon moving customer-specific deployment work into its product.
 
 ## Relationships
 
@@ -123,3 +129,4 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - Informed by [[design-for-emergence|Design for emergence]] and applies [[architecture-is-the-scaling-constraint|Architecture is the scaling constraint]] to organization design.
 - Refined by the [[ai-native-services-adaptation-tests|AI-native services adaptation tests]], which add market, UX, adoption, cognitive-load, business-fitness, and talent checks for a narrow service context.
 - Supported by [[enterprise-ai-rollouts-formed-a-power-user-barbell|Enterprise AI rollouts formed a power-user barbell]], which makes usage concentration and outcome measurement explicit.
+- Supported by [[decagon-automated-two-thirds-of-deployment-work-after-productizing-field-learning|Decagon automated two-thirds of deployment work after productizing field learning]], which adds a field-discovery-to-reusable-product learning loop.

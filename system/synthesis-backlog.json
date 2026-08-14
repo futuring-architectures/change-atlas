@@ -693,6 +693,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source treats recurring pivots and UX migration as operating responses to upstream capability change and supplies one retrospective case in which GPT-4o reportedly obsoleted four months of diff work. It strengthens the lifecycle problem but does not provide regression, versioning, rollback, portability, or a longitudinal revalidation record."
+        },
+        {
+          "source": "evi-efcf1dd5486b",
+          "date": "2026-08-14",
+          "outcome": "no_change",
+          "note": "The source says deployed agents require continuous tuning and predicts further automation of implementation work, but it does not connect that need to upstream model behavior, capability, or cost change or provide a revalidation case."
         }
       ],
       "resolution_target": null
@@ -1018,7 +1024,9 @@
         "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 5]]",
         "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 6]]",
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]",
-        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]"
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 6]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1092,6 +1100,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source specifies proficient interactive work as context management, workflow routing, and output inspection, then proposes approval, rejection, editing, and exception handling for workers around background agents. It strengthens the role-shift mechanism but recommends rather than observes durable role or employment outcomes."
+        },
+        {
+          "source": "evi-efcf1dd5486b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source distinguishes known-spec implementation from unknown-workflow discovery and reports Decagon moving two-thirds of deployment work into its product. It strengthens a shift away from bounded execution toward discovery and product judgment, but supplies one self-reported company case rather than representative role or employment outcomes."
         }
       ],
       "resolution_target": null
@@ -1991,7 +2005,10 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]",
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1]]",
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]",
-        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]"
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 3]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 4]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2045,6 +2062,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source reports access without team-speed improvement and recommends recomposing work into interactive power-user and background-agent paths while measuring manual, hybrid, and automated work. It strengthens workflow redesign but supplies no comparison against inherited-role insertion and does not fully specify decision rights."
+        },
+        {
+          "source": "evi-efcf1dd5486b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source treats field deployment as temporary workflow discovery, recommends encoding repeated learning into product, and reports Decagon reducing customer-specific engineering through a product-driven design. It strengthens capability-centered workflow redesign but does not compare inherited-role insertion or establish broader organizational performance."
         }
       ],
       "resolution_target": null
@@ -2072,7 +2095,9 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
-        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 5]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2108,6 +2133,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source argues that better models widen viable work while shifting constraint toward UX, customer adoption, cognitive load, judgment, and execution discipline. It strengthens bottleneck relocation but remains one scoped practitioner account without comparative measures of relative value."
+        },
+        {
+          "source": "evi-efcf1dd5486b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source argues that continuing bespoke field fixes defer product-boundary and architectural decisions, then reports deployment automation after Decagon converted escalations into requirements. It strengthens architecture and absorption as scaling constraints, but remains a self-reported case without comparative relative-value measures."
         }
       ],
       "resolution_target": null
@@ -2194,7 +2225,9 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 7]]",
-        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 12]]"
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 12]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 2]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2241,6 +2274,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source makes recurring pivots, UX re-engineerability, paid learning, and extraction of compounding assets part of operating through capability change. It strengthens renewal mechanisms but does not measure renewal capacity or compare them with present-throughput optimization."
+        },
+        {
+          "source": "evi-efcf1dd5486b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source treats field pain as input that must become reusable product primitives and asks whether each deployment makes the next easier. It strengthens a measurable renewal mechanism, while supplying no throughput-versus-renewal comparison or long-term capability measure."
         }
       ],
       "resolution_target": null
@@ -2329,7 +2368,9 @@
         "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 2]]",
         "[[shared-compute-and-community-owned-ai-evi-208108815579#Claim 3]]",
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 7]]",
-        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]"
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 2]]",
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2370,6 +2411,12 @@
           "date": "2026-08-10",
           "outcome": "strengthened",
           "note": "The source identifies distributed tacit practice plus instrumented process data as a potentially valuable input to AI-guided improvement. It strengthens testable local context as an asset mechanism, while leaving ownership, the documentation-volume comparison, and measured organizational advantage unresolved."
+        },
+        {
+          "source": "evi-efcf1dd5486b",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The Palantir interpretation and proposed FDE test turn situated field problems into reusable product primitives and ask what compounding asset returned from each engagement. They strengthen contextual learning as an organizational asset, while leaving ownership, testability, documentation-volume comparison, and measured advantage unresolved."
         }
       ],
       "resolution_target": null
