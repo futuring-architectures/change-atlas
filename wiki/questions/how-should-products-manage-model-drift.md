@@ -4,7 +4,7 @@ type: question
 title: How should products manage model drift?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-08-14
 tags:
   - model-drift
   - ai-operations
@@ -12,6 +12,8 @@ tags:
 relationships:
   - type: raised_by
     target: "[[activity-alignment-gap]]"
+  - type: raised_by
+    target: "[[ai-native-services-adaptation-tests]]"
 description: "How should AI products be designed, budgeted, and governed when provider models, behavior, price, and performance can change beneath a stable product interface?"
 origin: ingestion
 ---
@@ -29,6 +31,7 @@ Traditional project governance often treats software as a durable artifact after
 - The MenuGen case reports outdated API and model knowledge creating integration failures: [[vibe-coding-menugen-evi-0ce549d72b42#Claim 2|Vibe coding MenuGen — claim 2]].
 - Enterprise optimization may shift toward intelligence per dollar as deployment cost grows: [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1|The AI Economy — claim 1]] and [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2|claim 2]].
 - [[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2|When Correct Systems Produce the Wrong Outcomes — claim 2]] broadens drift from model behavior to continued alignment between activity and purpose.
+- [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4|When the Models Get Better — claim 4]] proposes recurring strategic pivots after capability step changes; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5|claim 5]] argues that UX and workflow assumptions can be more fragile than architecture; and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6|claim 6]] reports four months of diff work becoming obsolete after GPT-4o.
 
 ## Missing or discriminating evidence
 
@@ -36,6 +39,7 @@ Traditional project governance often treats software as a durable artifact after
 - Effective regression suites for probabilistic workflows and open-ended outputs.
 - Contractual or technical controls for version pinning, rollback, portability, and disclosure.
 - Budget models that include continuous evaluation, prompt migration, human retraining, and switching costs.
+- Comparative records that distinguish productive recurring adaptation from pivot churn, team exhaustion, and destroyed customer continuity.
 
 ## Suggested next sources or actions
 
@@ -45,8 +49,9 @@ Traditional project governance often treats software as a durable artifact after
 
 ## Resolution
 
-_Open. The current Evidence establishes the lifecycle problem but not a durable operating model._
+_Open. The current Evidence establishes the lifecycle problem and one scoped recurring-pivot heuristic, but not durable versioning, regression, rollback, migration, or switching controls._
 
 ## Relationships
 
 - Raised by the [[activity-alignment-gap|Activity-alignment gap]], which makes continued purpose testing part of product operations.
+- Raised by the [[ai-native-services-adaptation-tests|AI-native services adaptation tests]], whose recurring-pivot and UX-migration tests leave technical and governance controls unresolved.

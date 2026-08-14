@@ -4,7 +4,7 @@ type: concept
 title: Abundance relocates bottlenecks
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-08-10
+updated_at: 2026-08-14
 tags:
   - abundance
   - bottlenecks
@@ -16,6 +16,8 @@ relationships:
     target: "[[seo-optimization-degraded-search-usefulness]]"
   - type: operationalized_by
     target: "[[intelligence-to-productivity-pathways]]"
+  - type: operationalized_by
+    target: "[[ai-native-services-adaptation-tests]]"
 description: "When technology makes one input radically cheaper, constraint does not disappear; it moves toward complementary resources such as attention, trust, integration, oversight, energy, or capital."
 evidence:
   - "[[is-the-business-of-ai-more-like-steel-or-vba-evi-c06cc1dd8220#Claim 2]]"
@@ -31,6 +33,9 @@ evidence:
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 5]]"
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]"
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12]]"
+  - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3]]"
+  - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]"
+  - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
 ---
 
 # Abundance relocates bottlenecks
@@ -41,7 +46,7 @@ Radically cheaper production expands possible use cases, but it rarely makes an 
 
 ## Provenance
 
-Byrne Hobart supplies the general economic rule that radically cheaper products generate unexpectedly abundant uses. James Vincent describes machine-scale content challenging human curation. The MenuGen case shows code production becoming easier while deployment integration remains difficult. Ricky Ho’s enterprise claim shifts optimization from maximum intelligence toward intelligence per dollar.
+Byrne Hobart supplies the general economic rule that radically cheaper products generate unexpectedly abundant uses. James Vincent describes machine-scale content challenging human curation. The MenuGen case shows code production becoming easier while deployment integration remains difficult. Ricky Ho’s enterprise claim shifts optimization from maximum intelligence toward intelligence per dollar. Sidu Ponnappa applies the mechanism to AI-native services: improved models can widen the economically viable work frontier while shifting constraint toward UX, adoption, cognitive load, and human judgment.
 
 ## Aliases and related terms
 
@@ -67,9 +72,11 @@ Byrne Hobart supplies the general economic rule that radically cheaper products 
 - [[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8|Thinking with LLMs — claim 8]] moves the constraint from plausible articulation toward situated judgment and responsible closure.
 - [[earning-judgment-evi-207760005515#Claim 6|Earning Judgment — claim 6]] applies the same relocation to agentic software: cheap first drafts increase the salience of finite attention, verification, architecture, edge cases, and responsible finish.
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3|What will more intelligence do? — claim 3]] and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 4|claim 4]] add measurement and irreducible error; [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 5|claim 5]], [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8|claim 8]], and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12|claim 12]] relocate value toward replication, sensing, process experimentation, and computer-specific scale.
+- [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3|When the Models Get Better — claim 3]] expands the economically viable work frontier; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9|claim 9]] and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10|claim 10]] relocate constraint toward user attention, taste, judgment, and execution discipline.
 
 ## Relationships
 
 - [[attention-is-the-scarce-layer|Attention is the scarce layer]] exemplifies bottleneck relocation in content and information systems.
 - [[seo-optimization-degraded-search-usefulness|The SEO degradation Signal]] exemplifies selection quality becoming the bottleneck.
 - Operationalized by [[intelligence-to-productivity-pathways|Intelligence-to-productivity pathways]], which maps measurement, replication, tacit knowledge, complex patterns, and the conversion layer separately.
+- Operationalized in a narrow enterprise-services context by the [[ai-native-services-adaptation-tests|AI-native services adaptation tests]].

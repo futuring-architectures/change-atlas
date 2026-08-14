@@ -293,3 +293,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-08-10-what-will-more-intelligence-actually-do-for-us.md` as `evidence/sources/what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d.md` with 12 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-08-14] evidence | Ingest When the Models Get Better, Your TAM Should Go Up
+
+- Captured and finalized `raw/web/2026-08-14-when-the-models-get-better-your-tam-should-go-up.md` as `evidence/sources/when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096.md` with 13 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.

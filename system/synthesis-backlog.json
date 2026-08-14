@@ -653,7 +653,10 @@
         "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]",
         "[[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 1]]",
         "[[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 2]]",
-        "[[google-had-a-very-bad-week-evi-5cf643c0f542#Claim 1]]"
+        "[[google-had-a-very-bad-week-evi-5cf643c0f542#Claim 1]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -684,6 +687,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Generative-AI red teaming as part of product construction, stochastic-software ambiguity, and changing agent interfaces strengthen the case for continuous revalidation beyond conventional release testing."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source treats recurring pivots and UX migration as operating responses to upstream capability change and supplies one retrospective case in which GPT-4o reportedly obsoleted four months of diff work. It strengthens the lifecycle problem but does not provide regression, versioning, rollback, portability, or a longitudinal revalidation record."
         }
       ],
       "resolution_target": null
@@ -701,7 +710,9 @@
         "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 2]]",
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3]]",
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 5]]",
-        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12]]"
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 12]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -738,6 +749,12 @@
           "date": "2026-08-10",
           "outcome": "strengthened",
           "note": "The source argues that returns to raw model intelligence may diminish while useful value comes from replicability, speed, memory, sensing, and pattern scale. This strengthens optimization around useful system output rather than maximum model capability, but supplies no enterprise cost comparison or per-dollar measure."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source links better models to lower human effort and a wider frontier of economically viable work, then makes revenue and margin its search fitness function. This strengthens economic optimization around useful delivered work but supplies no model-choice comparison or intelligence-per-dollar measure."
         }
       ],
       "resolution_target": null
@@ -1460,6 +1477,12 @@
           "date": "2026-07-24",
           "outcome": "no_change",
           "note": "The source predicts that public work, distinctive judgment, finishing, and responsibility will carry durable career value, but it does not observe a status or market premium for those qualities."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "no_change",
+          "note": "The source calls human taste, judgment, and execution discipline strategic assets and a proposed services moat, but it does not observe a status premium or market reward for demonstrably human work."
         }
       ],
       "resolution_target": null
@@ -1807,7 +1830,11 @@
         "[[0-50-or-200-evi-704a6910d89c#Claim 3]]",
         "[[0-50-or-200-evi-704a6910d89c#Claim 4]]",
         "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8]]",
-        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 9]]"
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 9]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1868,6 +1895,12 @@
           "date": "2026-07-31",
           "outcome": "qualified",
           "note": "The source places guardrails, social protection, institutional use, and cheap exit around the productive layer, but also treats open access, local operation, compute, and ownership as continuing governance levers. The proposition now preserves both sides; the source offers no comparative regime outcome."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source relocates value and risk from model capability toward UX assumptions, customer adoption, user cognitive load, and human judgment as models improve. It strengthens the deployment-and-interface direction but does not address access, ownership, exit, public governance, or comparative institutional outcomes."
         }
       ],
       "resolution_target": null
@@ -1930,7 +1963,10 @@
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3]]",
         "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3]]",
         "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5]]",
-        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6]]"
+        "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -1972,6 +2008,12 @@
           "date": "2026-07-31",
           "outcome": "no_change",
           "note": "The source predicts that a growth-oriented adopter may outperform a cost-cutting adopter, but it does not describe workflow or decision-right redesign, inherited-role insertion, or a comparative performance case."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source makes recurring capability change a trigger for revising strategy, UX, workflow, and customer adoption, strengthening the redesign mechanism. It does not address decision rights or compare organizational performance against inherited-role insertion."
         }
       ],
       "resolution_target": null
@@ -1994,7 +2036,12 @@
         "[[cognitive-debt-is-nothing-new-ai-just-stopped-hiding-it-evi-d47db0c3b936#Claim 2]]",
         "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 2]]",
         "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 1]]",
-        "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]"
+        "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2024,6 +2071,12 @@
           "date": "2026-07-24",
           "outcome": "no_change",
           "note": "The source treats organizational architecture as an upper constraint on AI harness capability, but it does not connect that constraint to faster component generation or provide evidence about relative value."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source argues that better models widen viable work while shifting constraint toward UX, customer adoption, cognitive load, judgment, and execution discipline. It strengthens bottleneck relocation but remains one scoped practitioner account without comparative measures of relative value."
         }
       ],
       "resolution_target": null
@@ -2047,7 +2100,10 @@
         "[[why-disagreement-is-vital-to-advancing-human-understanding-evi-7a6c2dd00aeb#Claim 2]]",
         "[[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 1]]",
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3]]",
-        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4]]"
+        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2077,6 +2133,12 @@
           "date": "2026-07-22",
           "outcome": "strengthened",
           "note": "The source specifies live correction, feedback, and joint-outcome evaluation as interface requirements that machine-alone capability metrics omit. It offers a design position, not comparative evidence that these interfaces preserve agency in deployment."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source treats bad diffs and durable-output review as cognitive burdens shifted to users and makes human taste, judgment, and execution discipline explicit interface complements. It strengthens the human-interface requirement but does not address inspection rights, recourse, or comparative agency outcomes."
         }
       ],
       "resolution_target": null
@@ -2097,7 +2159,11 @@
         "[[how-im-preparing-my-parentsand-myselfto-be-fluent-in-ai-evi-49b353f8c559#Claim 1]]",
         "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 1]]",
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2]]",
-        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 6]]"
+        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 6]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 7]]",
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 12]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2138,6 +2204,12 @@
           "date": "2026-08-10",
           "outcome": "strengthened",
           "note": "The source proposes sensor-rich observation, rapid experimentation, and repeated process improvement as mechanisms for accumulating and diffusing production capability. It strengthens the renewal mechanism but does not measure renewal capacity or compare it with present-throughput optimization."
+        },
+        {
+          "source": "evi-29342fde9096",
+          "date": "2026-08-14",
+          "outcome": "strengthened",
+          "note": "The source makes recurring pivots, UX re-engineerability, paid learning, and extraction of compounding assets part of operating through capability change. It strengthens renewal mechanisms but does not measure renewal capacity or compare them with present-throughput optimization."
         }
       ],
       "resolution_target": null

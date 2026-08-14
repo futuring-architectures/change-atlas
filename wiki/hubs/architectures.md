@@ -4,7 +4,7 @@ type: hub
 title: Architectures
 status: draft
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-08-14
 tags: ["learning", "architecture", "organization-design", "ai"]
 relationships: []
 description: "A map of the structures that convert new capability into durable collective performance—or make people conform to yesterday's system."
@@ -22,7 +22,7 @@ Its central warning is that faster components do not repair a badly arranged sys
 
 - Signals: [[youtube-bullpen-absorbed-cross-cutting-coordination|YouTube bullpen absorbed cross-cutting coordination]], [[a-minimal-sensor-design-cost-senior-engineers|A minimal sensor design cost senior engineers]], [[agentic-development-folded-requirements-into-iteration|Agentic development folded requirements into iteration]], [[ai-adoption-failure-exposed-work-system-tensions|AI adoption failure exposed work-system tensions]]
 - Concepts: [[design-for-emergence|Design for emergence]], [[agent-experience|Agent experience]], [[extended-mind|Extended mind]], [[capability-not-role-as-unit-of-organization-design|Capability, not role, as the unit of organization design]], [[architecture-is-the-scaling-constraint|Architecture is the scaling constraint]], [[database-reality-inversion|Database-reality inversion]]
-- Framework: [[capability-to-architecture-loop|Capability-to-architecture loop]]
+- Frameworks: [[capability-to-architecture-loop|Capability-to-architecture loop]], [[ai-native-services-adaptation-tests|AI-native services adaptation tests]]
 - Debates: [[does-cheap-code-retire-technical-debt-or-amplify-architectural-debt|Does cheap code retire technical debt or amplify architectural debt?]], [[should-ai-agents-be-designed-as-workers-or-capabilities|Should AI agents be designed as workers or capabilities?]], [[will-cheaper-software-commoditize-advantage-or-deepen-scale-moats|Will cheaper software commoditize advantage or deepen scale moats?]]
 - Questions: [[how-should-firms-measure-value-when-software-is-easy-to-replace|How should firms measure value when software is easy to replace?]], [[how-can-private-exploration-coexist-with-collective-accountability|How can private exploration coexist with collective accountability?]], [[which-ai-interfaces-preserve-human-agency|Which AI interfaces preserve human agency?]]
 - Trend: [[software-work-is-shifting-from-code-production-to-orchestration-and-assurance|Software work is shifting from code production to orchestration and assurance]] is strengthened but remains `candidate`; this collection adds newer practice accounts and counterclaims, not representative industry measurement.
@@ -49,6 +49,10 @@ The collection forecasts a web and software layer increasingly addressed by agen
 
 The distance between fast technology and slow institutions is not empty delay. It contains rules, incentives, identities, tacit knowledge, and legitimate resistance. [[ai-adoption-failure-exposed-work-system-tensions|AI adoption failure exposed work-system tensions]] turns low adoption into diagnostic evidence. The organization should first ask what contradiction the capability surfaced, not assume that more training or pressure will solve it.
 
+### Model improvement can invalidate the product boundary
+
+A later enterprise-services account adds a faster architectural clock: a model release can remove application scaffolding, widen the economically viable work frontier, and invalidate UX assumptions even when core architecture survives. The [[ai-native-services-adaptation-tests|AI-native services adaptation tests]] connect recurring capability mapping to market scope, re-engineerable workflows, customer adoption, cognitive load, and talent. This is a scoped practitioner framework, not evidence that every AI business should pivot at the same cadence.
+
 ## Emerging propositions
 
 - Organizations that redesign workflows and decision rights around changing capabilities may outperform organizations that insert agents into inherited roles.
@@ -59,7 +63,7 @@ These propositions remain in the synthesis backlog. The collection is rich in me
 
 ## Synthesis boundary
 
-The map derives from 50 entries and 100 atomic claims published from November 2020 through July 2026, with four publication dates unresolved or only partially recovered. Many late entries are forecasts or practitioner interpretations. No new Trend is promoted: the collection strengthens and qualifies an existing software-work Trend but does not establish prevalence across organizations or sectors.
+The original collection map derives from 50 entries and 100 atomic claims published from November 2020 through July 2026, with four publication dates unresolved or only partially recovered. A later August 2026 steady-state source adds the candidate AI-native services adaptation tests without changing those collection counts. Many late entries are forecasts or practitioner interpretations. No new Trend is promoted: the collection strengthens and qualifies an existing software-work Trend but does not establish prevalence across organizations or sectors.
 
 ## Relationships
 

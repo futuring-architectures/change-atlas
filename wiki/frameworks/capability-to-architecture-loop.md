@@ -4,7 +4,7 @@ type: framework
 title: Capability-to-architecture loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-31
+updated_at: 2026-08-14
 tags: ["organization-design", "ai-adoption", "capabilities"]
 relationships:
   - type: operationalizes
@@ -21,6 +21,8 @@ relationships:
     target: "[[architecture-is-the-scaling-constraint]]"
   - type: supported_by
     target: "[[ai-adoption-failure-exposed-work-system-tensions]]"
+  - type: refined_by
+    target: "[[ai-native-services-adaptation-tests]]"
 description: "A recurring six-step method for redesigning work around changing capabilities without freezing AI into inherited roles."
 evidence:
   - "[[stop-managing-your-ai-workforce-start-allocating-ai-capabilities-evi-5c0ade01553f#Claim 1]]"
@@ -36,6 +38,10 @@ evidence:
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6]]"
   - "[[0-50-or-200-evi-704a6910d89c#Claim 1]]"
   - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
+  - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]"
+  - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]"
+  - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]"
+  - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]"
 ---
 
 # Capability-to-architecture loop
@@ -68,7 +74,7 @@ Build both agent experience and human control: permissions, inspectable state, e
 
 ### 6. Sense, learn, and reallocate
 
-Measure system outcomes, not only tool usage or individual speed. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. Repeat the loop as capability and context change.
+Measure system outcomes, not only tool usage or individual speed. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. For model-dependent businesses, include market scope, UX assumptions, customer adoption, and human cognitive load in the reallocation decision. Repeat the loop as capability and context change.
 
 ## How to apply it
 
@@ -100,6 +106,7 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 2|The Future Worth Building Is Human — claim 2]] adds continuous customization with practitioners; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4|claim 4]] requires evaluation of joint organizational outcomes rather than machine-alone capability.
 - [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 3|The Operating Model Is the Real AI Harness — claim 3]] defines the operating system to be redesigned; [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 5|claim 5]] makes organization design primary rather than downstream; and [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 6|claim 6]] joins harness and organizational architecture.
 - [[0-50-or-200-evi-704a6910d89c#Claim 1|0%, 50%, or 200% — claim 1]] separates the capability premise from the organizational response; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] supplies growth-oriented reinvestment as one purpose-and-allocation choice.
+- [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4|When the Models Get Better — claim 4]] makes revision recurring operating work; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5|claim 5]] identifies UX assumptions as a capability-sensitive architecture; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8|claim 8]] adds customer adoption; and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9|claim 9]] adds cognitive-load segmentation.
 
 ## Relationships
 
@@ -107,3 +114,4 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - Incorporates [[agent-experience|Agent experience]] into human-governed deployment.
 - Complements the [[organizational-transformation-test|Organizational transformation test]], which evaluates whether the resulting change is structural.
 - Informed by [[design-for-emergence|Design for emergence]] and applies [[architecture-is-the-scaling-constraint|Architecture is the scaling constraint]] to organization design.
+- Refined by the [[ai-native-services-adaptation-tests|AI-native services adaptation tests]], which add market, UX, adoption, cognitive-load, business-fitness, and talent checks for a narrow service context.
