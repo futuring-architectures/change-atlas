@@ -3831,6 +3831,22 @@
       "raw_sha256": "8569fd1ea720d2152af53f8b6ccd127bda8061cff297122194e631c7a33a3b3f",
       "source_url": "https://tomtunguz.com/previously-unmanufacturable/",
       "status": "complete"
+    },
+    "raw/web/2026-08-24-what-changed-the-mental-models-we-carry-part-2-of-3.md": {
+      "affected_wiki": [
+        "wiki/concepts/epistemic-fluency.md",
+        "wiki/concepts/metaphors-steer-ai-inquiry.md",
+        "wiki/frameworks/ai-native-organizational-trust-stack.md"
+      ],
+      "canonical_url": "https://machalliance.org/insights-hub/what-changed-part-2",
+      "claim_count": 10,
+      "completed_at": "2026-08-24",
+      "evidence_file": "evidence/sources/what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099.md",
+      "evidence_id": "evi-aca4450c0099",
+      "mode": "steady_state_url",
+      "raw_sha256": "4caa04f67bd10ff45134fd92262c2406fd7d728ddfed404f02224fd30dbda27a",
+      "source_url": "https://machalliance.org/insights-hub/what-changed-part-2",
+      "status": "complete"
     }
   },
   "schema_version": 1

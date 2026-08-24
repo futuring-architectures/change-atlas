@@ -587,7 +587,10 @@
         "[[gyms-for-them-mirrors-for-us-evi-0980798a6ad7#Claim 2]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 2]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
-        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]"
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 2]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 3]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 4]]"
       ],
       "relevant_collections": [
         "after-the-internet-culture",
@@ -644,6 +647,12 @@
           "date": "2026-08-24",
           "outcome": "qualified",
           "note": "The CAD case and universal-interface forecast strengthen the low-friction side of the proposition, while the product-design inversion shows complexity moving into the agent-facing harness. The source does not assess user control over memory, prediction, action, inspection, or recourse, so simpler interaction cannot be treated as evidence of preserved or weakened agency."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "qualified",
+          "note": "The source describes an inference-first shift in problem framing but couples it with continuous human direction, evaluation, clearer error awareness, supervision, and limits on agent authority. It qualifies any simple link from reduced interaction friction to weakened agency while providing no interface comparison or evidence about control over memory, prediction, and action."
         }
       ],
       "resolution_target": null
@@ -1037,7 +1046,10 @@
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 6]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
-        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]"
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 3]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1123,6 +1135,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source shifts product work from screen design toward harness construction and agent evaluation, and software expertise from syntax editing toward systems architecture. It strengthens the role-shift mechanism but remains a practitioner interpretation without representative role, employment, or exception-handling outcomes."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source explicitly recasts people as orchestrators and evaluators in a continuous human-agent loop and assigns organizational roles for agent ownership, monitoring, and shutdown. It strengthens the role-shift mechanism but offers no representative role-transition, employment, or performance evidence."
         }
       ],
       "resolution_target": null
@@ -1189,6 +1207,12 @@
           "date": "2026-08-10",
           "outcome": "no_change",
           "note": "The source describes identity rupture followed by possible individual agency reconstruction, but it does not address substitution for colleagues, apprenticeship, recognition, shared meaning, or longitudinal outcomes."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source describes individual work shifting toward continuous direction and evaluation with agents, but it does not address substitution for colleagues, apprenticeship, recognition, shared meaning, or relational learning outcomes."
         }
       ],
       "resolution_target": null
@@ -1258,6 +1282,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source contrasts frontier-scale access to lessons with the human work of commitment, consequence, and judgment, then identifies better AI-assisted choices that can bypass judgment formation. It strengthens the scarcity-shift mechanism but supplies no comparative evidence that commitment or judgment is the dominant organizational constraint."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source relocates human work toward direction and evaluation, but it does not compare ideation with commitment or judgment as organizational constraints and supplies no scarcity or bottleneck evidence."
         }
       ],
       "resolution_target": null
@@ -1730,6 +1760,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The reported CAD case shows natural-language access distributing a specialist creation capability, while the proposed move from usability labs to agent evaluations acknowledges a new evaluation burden. It strengthens the capability-versus-evaluation gap but supplies no comparative reliability evidence or ownership, maintenance, and recourse outcomes."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source identifies enterprise capability spreading ahead of accountability and makes evaluation important, but it does not concern natural-language creation or compare reliable evaluation, ownership, maintenance capacity, and recourse."
         }
       ],
       "resolution_target": null
@@ -1796,6 +1832,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source predicts that agent evaluations will become part of product design, but it neither describes verification capacity as a bottleneck nor measures whether evaluation limits organizational generation or implementation throughput."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source assigns people continuous evaluation and supervision work and recommends monitoring, but it does not describe verification capacity as rate-limiting or compare it with falling generation and implementation costs."
         }
       ],
       "resolution_target": null
@@ -1966,7 +2008,11 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]",
-        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]"
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2039,6 +2085,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source relocates product-design work toward agent-facing schemas, documentation, safe harnesses, and evaluations. It strengthens the deployment-and-interface direction but does not establish model commoditization or address access, ownership, viable exit, public governance, or comparative outcomes."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source explicitly relocates governance into pre-deployment readiness, named ownership, monitoring, shutdown authority, observability, incident response, and agent-specific accountability. It strengthens the deployment-and-institutional-use direction but does not establish model commoditization or address access, ownership of infrastructure, viable exit, or comparative governance outcomes."
         }
       ],
       "resolution_target": null
@@ -2110,7 +2162,10 @@
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 3]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 4]]",
-        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2170,6 +2225,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source treats field deployment as temporary workflow discovery, recommends encoding repeated learning into product, and reports Decagon reducing customer-specific engineering through a product-driven design. It strengthens capability-centered workflow redesign but does not compare inherited-role insertion or establish broader organizational performance."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source describes enterprise agent capability spreading into structures, roles, governance, and operating models built for a pre-agentic world, then specifies ownership and oversight redesign while warning against inherited governance categories. It strengthens the redesign mechanism but supplies no comparative organizational performance outcome."
         }
       ],
       "resolution_target": null
@@ -2249,6 +2310,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source says lower-level syntax work is giving way to systems architecture and makes documentation plus agent evaluation part of product design. It strengthens the architecture-and-assurance mechanism but supplies no comparative measure of relative value or evidence about institutional absorption."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source argues for agent-specific accountability and institutional operating capability, but it does not connect those requirements to faster component generation or measure the relative value of architecture, assurance, and absorption."
         }
       ],
       "resolution_target": null
@@ -2278,7 +2345,11 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]",
-        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]"
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 4]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 7]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2320,6 +2391,12 @@
           "date": "2026-08-24",
           "outcome": "qualified",
           "note": "The source strengthens the machine-operability side by proposing richer schemas, documentation, safe harnesses, and agent evaluations behind a simple natural-language interface. It does not make human inspection or recourse first-class, so the claimed agency effect remains unresolved rather than demonstrated."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source makes supervision, limits on authority, named ownership, monitoring, shutdown authority, observability, and incident response explicit complements to agent capability. It strengthens inspection and recourse requirements but offers no comparative evidence that these interfaces preserve human agency in deployment."
         }
       ],
       "resolution_target": null
@@ -2577,7 +2654,9 @@
         "[[stop-trying-to-educate-people-into-changing-science-proves-it-doesnt-work-evi-733a74727c05#Claim 2]]",
         "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 6]]",
         "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7]]",
-        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10]]"
+        "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2600,6 +2679,12 @@
           "date": "2026-08-10",
           "outcome": "no_change",
           "note": "The source observes a gap between rapid AI capability gains and broad economic transformation and names governance friction as one explanation, but it neither specifies coordination across pace layers nor compares integrated and single-rollout transitions."
+        },
+        {
+          "source": "evi-aca4450c0099",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source identifies individual capability adoption moving ahead of organizational roles, governance, and operating models, and shows why inherited deterministic controls can misfit agentic systems. It strengthens the asynchronous-layer mechanism but does not cover technical, social, and cultural pace layers comprehensively or compare transition outcomes."
         }
       ],
       "resolution_target": null

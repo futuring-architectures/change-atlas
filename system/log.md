@@ -318,3 +318,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-08-24-previously-unmanufacturable.md` as `evidence/sources/previously-unmanufacturable-evi-4d49249b45d7.md` with 6 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-08-24] evidence | Ingest What changed: The mental models we carry (Part 2 of 3)
+
+- Captured and finalized `raw/web/2026-08-24-what-changed-the-mental-models-we-carry-part-2-of-3.md` as `evidence/sources/what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099.md` with 10 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.

@@ -4,7 +4,7 @@ type: framework
 title: AI-native organizational trust stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-24
+updated_at: 2026-08-24
 tags:
   - ai-agents
   - organizational-trust
@@ -25,13 +25,18 @@ evidence:
   - "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2]]"
   - "[[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4]]"
+  - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]"
+  - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]"
+  - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 7]]"
+  - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
+  - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10]]"
 ---
 
 # AI-native organizational trust stack
 
 ## Purpose
 
-Use this Framework before flattening roles or granting agents broader autonomy. It treats trust as an operating capability earned through evidence and correction, not as confidence in a model or a successful demonstration. The stack is also an operating-model specification: a harness inherits these conditions whether they are designed explicitly or left ambiguous.
+Use this Framework before flattening roles or granting agents broader autonomy. It treats trust as an operating capability earned through evidence and correction, not as confidence in a model or a successful demonstration. The stack is also an operating-model specification: a harness inherits these conditions whether they are designed explicitly or left ambiguous. Readiness is a pre-deployment question, not a status inferred after an agent has already begun acting.
 
 ## The five layers
 
@@ -45,11 +50,11 @@ Specify task-level success, workflow-level value, failure modes, and independent
 
 ### 3. Governance and authority
 
-State who can set goals, change rules, grant permissions, inspect actions, stop execution, and accept consequences. Keep recourse and accountability legible when many agents and services interact.
+State who can set goals, change rules, grant permissions, inspect actions, stop execution, and accept consequences. Name who owns each production agent, who monitors its behavior, and who has shutdown authority. Keep recourse and accountability legible when many agents and services interact.
 
 ### 4. Learning and correction
 
-Monitor drift, incidents, exceptions, and changes in models or work. Feed outcomes back into data, evaluation, workflow, and policy rather than treating deployment as completion.
+Monitor drift, incidents, exceptions, and changes in models or work. Maintain observability and incident response so unexpected action can be reconstructed, contained, and used for correction. Feed outcomes back into data, evaluation, workflow, and policy rather than treating deployment as completion.
 
 ### 5. Human judgment and meaning
 
@@ -63,6 +68,7 @@ Identify decisions requiring taste, interpretation, responsibility, development,
 4. Measure total system effort, including recipient verification and repair.
 5. Increase autonomy only when evidence shows that monitoring and correction remain effective at the proposed scale.
 6. Revalidate after model, data, objective, workflow, or consequence changes.
+7. Before launch, ask whether the organization is ready to operate the agent: shared vocabulary, named ownership, monitoring, shutdown authority, and incident response must all have operational answers.
 
 ## Worked example
 
@@ -81,6 +87,9 @@ An agent drafting internal research may appear successful at the artifact layer.
 - [[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 1|The Cognition Stack — claim 1]] defines the orchestration role; [[the-cognition-stack-for-ai-native-companies-evi-137042c99711#Claim 2|claim 2]] retains human taste and final selection.
 - [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2|AI-Generated “Workslop” — claim 2]] shows why evaluation must follow cognitive labor across the workflow.
 - [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 2|The Operating Model Is the Real AI Harness — claim 2]] grounds harness responsibilities in organizational coordination, knowledge, authority, exception handling, and governance; [[the-operating-model-is-the-real-ai-harness-evi-47b5a20b1162#Claim 4|claim 4]] makes the operating model an upper constraint on harness capability.
+- [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5|What changed: The mental models we carry — claim 5]] names the organizational lag as “capability without accountability”; [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6|claim 6]] specifies shared vocabulary, pre-deployment governance, ownership, monitoring, and shutdown authority.
+- [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 7|What changed: The mental models we carry — claim 7]] identifies absent observability and incident response as an enthusiasm-led failure mode; [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8|claim 8]] identifies false confidence or paralysis from unmodified legacy governance.
+- [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10|What changed: The mental models we carry — claim 10]] argues for an accountability architecture tailored to agentic systems while remaining an interpretation of broader AI-governance instruments.
 
 ## Relationships
 

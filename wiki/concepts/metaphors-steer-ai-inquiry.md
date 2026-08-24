@@ -4,7 +4,7 @@ type: concept
 title: Metaphors steer AI inquiry
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-08-24
 tags:
   - ai-metaphors
   - evaluation
@@ -23,6 +23,7 @@ evidence:
   - "[[there-is-no-a-i-evi-1c96a7cb0ea3#Claim 1]]"
   - "[[a-camera-not-an-engine-evi-064318484984#Claim 1]]"
   - "[[on-the-biology-of-a-large-language-model-evi-c3db139e9d1d#Claim 1]]"
+  - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 1]]"
 ---
 
 # Metaphors steer AI inquiry
@@ -31,9 +32,11 @@ evidence:
 
 An AI metaphor is not merely explanatory decoration. It selects a unit of analysis and imports assumptions about capability, causality, responsibility, and appropriate evidence. If an LLM is treated as an individual mind, IQ tests and questions about intent appear natural. If it is treated as a library, infrastructure layer, or tool, retrieval quality, access, control, and workflow outcomes become more salient. If it is treated as an organism, researchers look for internal mechanisms through experimental intervention.
 
+Agentic behavior exposes another category error. Tool, search-engine, and traditional-software frames can hide action, persistent context, delegated authority, and probabilistic failure when they are carried over unchanged from passive or deterministic systems.
+
 ## Provenance
 
-Melanie Mitchell explicitly argues that the individual-mind metaphor directs scientists toward human standardized tests and that alternative database or library metaphors would redirect inquiry. Jaron Lanier recommends the tool framing to prevent mythologization. Venkatesh Rao proposes AI as discovery instrument, while Anthropic’s interpretability work adopts a biological analogy to investigate learned mechanisms.
+Melanie Mitchell explicitly argues that the individual-mind metaphor directs scientists toward human standardized tests and that alternative database or library metaphors would redirect inquiry. Jaron Lanier recommends the tool framing to prevent mythologization. Venkatesh Rao proposes AI as discovery instrument, while Anthropic’s interpretability work adopts a biological analogy to investigate learned mechanisms. The MACH Alliance working group adds an operational test: a metaphor fails when it suppresses the questions needed to govern systems that retain context or act.
 
 ## Aliases and related terms
 
@@ -46,6 +49,7 @@ Melanie Mitchell explicitly argues that the individual-mind metaphor directs sci
 
 - A metaphor can be productive without being literally true.
 - Multiple metaphors may be necessary at different system levels: model, product, organization, market, and institution.
+- A tool or software frame can remain useful for bounded components while failing as a complete model of an agentic system.
 - Anthropomorphism can reveal interaction effects while still misplacing legal or moral responsibility.
 - Avoiding metaphor entirely is unlikely; the practical task is to expose what each metaphor foregrounds and hides.
 
@@ -56,6 +60,7 @@ Melanie Mitchell explicitly argues that the individual-mind metaphor directs sci
 - [[there-is-no-a-i-evi-1c96a7cb0ea3#Claim 1|There Is No A.I. — claim 1]] advocates governing AI as a tool rather than a creature.
 - [[a-camera-not-an-engine-evi-064318484984#Claim 1|A Camera, Not an Engine — claim 1]] reframes modern AI as discovery.
 - [[on-the-biology-of-a-large-language-model-evi-c3db139e9d1d#Claim 1|On the Biology of a Large Language Model — claim 1]] uses biology to motivate mechanistic inquiry.
+- [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 1|What changed: The mental models we carry — claim 1]] argues that inherited tool, search, and deterministic-software models hide agent-specific questions about action, context, authority, and failure.
 
 ## Relationships
 
