@@ -3799,6 +3799,22 @@
       "raw_sha256": "d3169547677e5812de9be4575351f28ac125c122d332c469d27eecb900ee8219",
       "source_url": "https://x.com/ponnappa/status/2086092033647927533",
       "status": "complete"
+    },
+    "raw/web/2026-08-24-being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong.md": {
+      "affected_wiki": [
+        "wiki/concepts/capacity-erosion-through-assistance.md",
+        "wiki/frameworks/intent-to-accountability-loop.md",
+        "wiki/questions/how-is-judgment-cultivated-when-production-is-cheap.md"
+      ],
+      "canonical_url": "https://www.linkedin.com/pulse/being-wrong-still-one-best-mechanisms-which-you-less-greg-ceccarelli-7cpne/",
+      "claim_count": 6,
+      "completed_at": "2026-08-24",
+      "evidence_file": "evidence/sources/being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8.md",
+      "evidence_id": "evi-48605f3d89a8",
+      "mode": "steady_state_url",
+      "raw_sha256": "88f7ac07c1f6d8018e8ee48c5079104c7b5a57e38ee25edd96682571fcc6e233",
+      "source_url": "https://www.linkedin.com/pulse/being-wrong-still-one-best-mechanisms-which-you-less-greg-ceccarelli-7cpne/",
+      "status": "complete"
     }
   },
   "schema_version": 1

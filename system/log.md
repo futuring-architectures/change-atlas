@@ -308,3 +308,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-08-14-to-fde-or-not-to-fde.md` as `evidence/sources/to-fde-or-not-to-fde-evi-efcf1dd5486b.md` with 10 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-08-24] evidence | Ingest Being wrong is still one of the best mechanisms by which you become less wrong
+
+- Captured and finalized `raw/web/2026-08-24-being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong.md` as `evidence/sources/being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8.md` with 6 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.

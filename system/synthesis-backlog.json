@@ -1189,7 +1189,10 @@
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 9]]",
         "[[earning-judgment-evi-207760005515#Claim 6]]",
-        "[[earning-judgment-evi-207760005515#Claim 7]]"
+        "[[earning-judgment-evi-207760005515#Claim 7]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 1]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 2]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -1232,6 +1235,12 @@
           "date": "2026-07-24",
           "outcome": "strengthened",
           "note": "The source independently relocates scarcity from cheap first drafts and routine implementation toward finite attention, verification, finishing, and accountable judgment. It supplies no comparative organizational evidence that commitment or judgment dominates other complements."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source contrasts frontier-scale access to lessons with the human work of commitment, consequence, and judgment, then identifies better AI-assisted choices that can bypass judgment formation. It strengthens the scarcity-shift mechanism but supplies no comparative evidence that commitment or judgment is the dominant organizational constraint."
         }
       ],
       "resolution_target": null
@@ -1505,6 +1514,12 @@
           "date": "2026-08-14",
           "outcome": "no_change",
           "note": "The source calls human taste, judgment, and execution discipline strategic assets and a proposed services moat, but it does not observe a status premium or market reward for demonstrably human work."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source makes responsible commitment and consequence central to judgment, but it does not address status allocation or observe a premium for human responsibility, distinctive judgment, or non-standardized work."
         }
       ],
       "resolution_target": null
@@ -1518,7 +1533,9 @@
       "evidence": [
         "[[are-we-too-impatient-to-be-intelligent-evi-3d43722d5c40#Claim 1]]",
         "[[are-we-too-impatient-to-be-intelligent-evi-3d43722d5c40#Claim 2]]",
-        "[[simplification-takes-courage-evi-cff8810d556a#Claim 2]]"
+        "[[simplification-takes-courage-evi-cff8810d556a#Claim 2]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 4]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -1549,6 +1566,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Acclimation and critical-chatbot arguments concern cognitive posture, not evaluated slow or subtractive interface design under abundance."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source proposes a deliberate pause to record a prior, prediction, and disconfirmation condition before accepting AI assistance. It strengthens the productive-slowdown mechanism but does not design or evaluate an interface, address subtraction broadly, or measure judgment outcomes."
         }
       ],
       "resolution_target": null
@@ -1781,6 +1804,12 @@
           "date": "2026-07-24",
           "outcome": "qualified",
           "note": "The source identifies routine junior work as training infrastructure and assembles recent indicators consistent with a weakening entry level, strengthening the mechanism. It also notes hiring-cycle confounds and supplies no longitudinal observation that agent-driven removal reduces the future supply of expert judgment."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source uses a student receiving a proof before wrestling with a false idea to illustrate bypassed learning, but it neither observes removal of entry-level production nor addresses the delayed supply of expert judgment."
         }
       ],
       "resolution_target": null
@@ -1833,6 +1862,12 @@
           "date": "2026-07-14",
           "outcome": "strengthened",
           "note": "Beer-mode experimentation, software as petri dish, pace layering, and activity-alignment monitoring add concrete mechanisms for bounded probes and explicit revision. Comparative adaptation outcomes remain absent."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source recommends explicit predictions, disconfirmation conditions, and revision after observed results, but it does not require reversible probes or compare organizational adaptation against one-forecast optimization."
         }
       ],
       "resolution_target": null
@@ -2227,7 +2262,10 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 7]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 12]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 2]]",
-        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 10]]"
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 10]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 4]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 5]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2280,6 +2318,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source treats field pain as input that must become reusable product primitives and asks whether each deployment makes the next easier. It strengthens a measurable renewal mechanism, while supplying no throughput-versus-renewal comparison or long-term capability measure."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source explicitly separates improved immediate work from unchanged human judgment and proposes preserving prediction, consequence, and reconciliation as renewal practice. It strengthens the throughput-versus-capacity distinction but supplies no longitudinal capacity measure or organizational comparison."
         }
       ],
       "resolution_target": null
@@ -2301,7 +2345,11 @@
         "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]",
         "[[earning-judgment-evi-207760005515#Claim 1]]",
         "[[earning-judgment-evi-207760005515#Claim 2]]",
-        "[[earning-judgment-evi-207760005515#Claim 5]]"
+        "[[earning-judgment-evi-207760005515#Claim 5]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 4]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 5]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2348,6 +2396,12 @@
           "date": "2026-08-14",
           "outcome": "no_change",
           "note": "The source argues that weak users can perform worse and treats proficient use as an iterative craft, but it does not show assistance removing practice, delayed capacity loss, or longitudinal change in independent verification and participation."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source identifies a precise bypass mechanism—AI answers arriving before a user exposes a belief to consequence—and proposes prior, prediction, disconfirmation, and reconciliation as counter-practice. It directly strengthens the capacity-loss mechanism while remaining conceptual and without longitudinal evidence of delayed loss."
         }
       ],
       "resolution_target": null
@@ -2505,7 +2559,10 @@
         "[[earning-judgment-evi-207760005515#Claim 4]]",
         "[[earning-judgment-evi-207760005515#Claim 5]]",
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2]]",
-        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]"
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 4]]",
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2528,6 +2585,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source shows binary adoption dashboards coexisting with unchanged team speed and proposes replacing them with manual, hybrid, and automated work shares. It strengthens the need to replace cheap usage proxies, while the proposed work-mode measure still needs quality, judgment, retention, and system-outcome validation."
+        },
+        {
+          "source": "evi-48605f3d89a8",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source explicitly warns that better output can leave the person unchanged and proposes prior-versus-outcome reconciliation as evidence of judgment formation. It strengthens replacement of artifact proxies with learning and system-outcome evidence, while the method remains unevaluated for understanding, retention, calibration, or transfer."
         }
       ],
       "resolution_target": null
