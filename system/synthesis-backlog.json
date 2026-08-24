@@ -584,7 +584,10 @@
         "[[were-all-programmers-now-evi-2ebeb42b85a0#Claim 2]]",
         "[[ai-horseless-carriages-evi-fc941dc02559#Claim 2]]",
         "[[introducing-ax-why-agent-experience-matters-evi-effc684d312e#Claim 1]]",
-        "[[gyms-for-them-mirrors-for-us-evi-0980798a6ad7#Claim 2]]"
+        "[[gyms-for-them-mirrors-for-us-evi-0980798a6ad7#Claim 2]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 2]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]"
       ],
       "relevant_collections": [
         "after-the-internet-culture",
@@ -635,6 +638,12 @@
           "date": "2026-08-10",
           "outcome": "no_change",
           "note": "The source proposes that users may eventually recenter subjective agency even as the model becomes less visible in the workflow, but it does not compare interface forms or assess control over memory, prediction, and action."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "qualified",
+          "note": "The CAD case and universal-interface forecast strengthen the low-friction side of the proposition, while the product-design inversion shows complexity moving into the agent-facing harness. The source does not assess user control over memory, prediction, action, inspection, or recourse, so simpler interaction cannot be treated as evidence of preserved or weakened agency."
         }
       ],
       "resolution_target": null
@@ -1026,7 +1035,9 @@
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]",
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 6]]",
-        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1106,6 +1117,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source distinguishes known-spec implementation from unknown-workflow discovery and reports Decagon moving two-thirds of deployment work into its product. It strengthens a shift away from bounded execution toward discovery and product judgment, but supplies one self-reported company case rather than representative role or employment outcomes."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source shifts product work from screen design toward harness construction and agent evaluation, and software expertise from syntax editing toward systems architecture. It strengthens the role-shift mechanism but remains a practitioner interpretation without representative role, employment, or exception-handling outcomes."
         }
       ],
       "resolution_target": null
@@ -1255,7 +1272,10 @@
         "[[dont-fear-the-coming-trough-of-ai-disillusionment-evi-e2eb10c8d25e#Claim 1]]",
         "[[dont-fear-the-coming-trough-of-ai-disillusionment-evi-e2eb10c8d25e#Claim 2]]",
         "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 1]]",
-        "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]"
+        "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 2]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -1292,6 +1312,12 @@
           "date": "2026-07-24",
           "outcome": "no_change",
           "note": "The source describes the harness as a software expression of organizational workflows and authority, but it does not identify natural language as the control surface or observe reliable execution from natural-language descriptions."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source reports one natural-language-to-CAD case and forecasts English as a universal intent layer over application grammars, with a harness translating outcomes into action. It strengthens the control-surface mechanism at the application level but does not establish reliable execution of organizational workflows or consequential authority."
         }
       ],
       "resolution_target": null
@@ -1452,6 +1478,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Personal-agent and agent-experience forecasts support agent-mediated discovery and operation, but no occasional-use niche-tool economics are observed; control may relocate into the personal-agent layer."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source illustrates agent-mediated operation of specialist CAD software, but it does not address software discovery, occasional-use economics, niche-tool adoption, or concentration of control in the agent layer."
         }
       ],
       "resolution_target": null
@@ -1572,6 +1604,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source proposes a deliberate pause to record a prior, prediction, and disconfirmation condition before accepting AI assistance. It strengthens the productive-slowdown mechanism but does not design or evaluate an interface, address subtraction broadly, or measure judgment outcomes."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The Rams analogy values removal of nonessential human-facing interface detail, but the source does not propose deliberate slowness, preserve productive friction, or assess effects on judgment under abundance."
         }
       ],
       "resolution_target": null
@@ -1640,7 +1678,10 @@
         "[[design-systems-are-no-longer-optional-evi-f79608079d95#Claim 2]]",
         "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]",
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
-        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]"
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 2]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1683,6 +1724,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The paired-engineer example shows identical natural-language access producing divergent results depending on context, reusable constraints, and diff inspection, strengthening the creation-versus-evaluation gap. It supplies no evidence about ownership, maintenance capacity, or recourse."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The reported CAD case shows natural-language access distributing a specialist creation capability, while the proposed move from usability labs to agent evaluations acknowledges a new evaluation burden. It strengthens the capability-versus-evaluation gap but supplies no comparative reliability evidence or ownership, maintenance, and recourse outcomes."
         }
       ],
       "resolution_target": null
@@ -1743,6 +1790,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source contrasts low-friction generation with the learned craft of scoping, constraining, and reading diffs before acceptance, strengthening verification as a post-generation constraint. It does not measure organization-level verification capacity or establish the rate limit."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source predicts that agent evaluations will become part of product design, but it neither describes verification capacity as a bottleneck nor measures whether evaluation limits organizational generation or implementation throughput."
         }
       ],
       "resolution_target": null
@@ -1810,6 +1863,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source uses a student receiving a proof before wrestling with a false idea to illustrate bypassed learning, but it neither observes removal of entry-level production nor addresses the delayed supply of expert judgment."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source argues that experts remain necessary and may move from low-level operation toward systems architecture, but it does not address entry-level work removal, novice learning pathways, or the delayed supply of expert judgment."
         }
       ],
       "resolution_target": null
@@ -1905,7 +1964,9 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
-        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1972,6 +2033,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source relocates value and risk from model capability toward UX assumptions, customer adoption, user cognitive load, and human judgment as models improve. It strengthens the deployment-and-interface direction but does not address access, ownership, exit, public governance, or comparative institutional outcomes."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source relocates product-design work toward agent-facing schemas, documentation, safe harnesses, and evaluations. It strengthens the deployment-and-interface direction but does not establish model commoditization or address access, ownership, viable exit, public governance, or comparative outcomes."
         }
       ],
       "resolution_target": null
@@ -2132,7 +2199,9 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 5]]",
-        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2174,6 +2243,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source argues that continuing bespoke field fixes defer product-boundary and architectural decisions, then reports deployment automation after Decagon converted escalations into requirements. It strengthens architecture and absorption as scaling constraints, but remains a self-reported case without comparative relative-value measures."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "strengthened",
+          "note": "The source says lower-level syntax work is giving way to systems architecture and makes documentation plus agent evaluation part of product design. It strengthens the architecture-and-assurance mechanism but supplies no comparative measure of relative value or evidence about institutional absorption."
         }
       ],
       "resolution_target": null
@@ -2200,7 +2275,10 @@
         "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]",
-        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]",
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2236,6 +2314,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source treats bad diffs and durable-output review as cognitive burdens shifted to users and makes human taste, judgment, and execution discipline explicit interface complements. It strengthens the human-interface requirement but does not address inspection rights, recourse, or comparative agency outcomes."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "qualified",
+          "note": "The source strengthens the machine-operability side by proposing richer schemas, documentation, safe harnesses, and agent evaluations behind a simple natural-language interface. It does not make human inspection or recourse first-class, so the claimed agency effect remains unresolved rather than demonstrated."
         }
       ],
       "resolution_target": null
@@ -2471,6 +2555,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The Palantir interpretation and proposed FDE test turn situated field problems into reusable product primitives and ask what compounding asset returned from each engagement. They strengthen contextual learning as an organizational asset, while leaving ownership, testability, documentation-volume comparison, and measured advantage unresolved."
+        },
+        {
+          "source": "evi-4d49249b45d7",
+          "date": "2026-08-24",
+          "outcome": "no_change",
+          "note": "The source argues that structured application documentation and agent evaluations become more important, but it does not contrast owned, testable context with documentation volume or address context ownership and organizational asset value."
         }
       ],
       "resolution_target": null

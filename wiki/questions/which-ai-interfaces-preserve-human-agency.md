@@ -4,7 +4,7 @@ type: question
 title: Which AI interfaces preserve human agency?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-22
+updated_at: 2026-08-24
 tags:
   - ai-interfaces
   - human-agency
@@ -38,12 +38,14 @@ Copilots, agents, conversational interfaces, predictive interfaces, and heads-up
 - [[agent-experience|Agent experience]] adds machine operability and human oversight as a coupled interface problem; [[automating-software-engineering-evi-7ef15bf9b270#Claim 1|Automating software engineering — claim 1]] requires people to inspect, redirect, and debug agent action.
 - [[thoughts-about-the-future-of-ui-evi-b5dfd230286e#Claim 1|Thoughts about the future of UI — claim 1]] forecasts personal agents displacing dedicated app agents, which may relocate interface control into a dominant agent layer.
 - [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 3|The Future Worth Building Is Human — claim 3]] proposes live interaction that invites correction and feedback; [[the-future-worth-building-is-human-evi-d29670f349f2#Claim 4|claim 4]] argues that machine-alone task horizons omit joint human–AI outcomes.
+- [[previously-unmanufacturable-evi-4d49249b45d7#Claim 2|Previously Unmanufacturable — claim 2]] reports a non-technical founder using an agent to operate CAD, while [[previously-unmanufacturable-evi-4d49249b45d7#Claim 4|claim 4]] shows the accompanying interface inversion: complexity moves from the user's menus into the agent-facing harness. Lower interaction effort therefore does not by itself establish legibility, control, or recourse.
 
 ## Missing or discriminating evidence
 
 - Comparative user outcomes across agent, copilot, HUD, direct-manipulation, and invisible automation forms.
 - Measures of goal influence, error detection, correction cost, learned dependence, and retained skill.
 - Designs that make memory and inference inspectable, editable, portable, and revocable.
+- Comparisons of natural-language intent interfaces with direct manipulation when goals are ambiguous, spatial, exploratory, or consequential, including whether users can detect translation errors between intent and application grammar.
 - Evidence from affected users rather than only designers and product strategists.
 
 ## Suggested next sources or actions

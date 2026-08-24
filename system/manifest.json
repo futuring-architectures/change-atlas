@@ -3815,6 +3815,22 @@
       "raw_sha256": "88f7ac07c1f6d8018e8ee48c5079104c7b5a57e38ee25edd96682571fcc6e233",
       "source_url": "https://www.linkedin.com/pulse/being-wrong-still-one-best-mechanisms-which-you-less-greg-ceccarelli-7cpne/",
       "status": "complete"
+    },
+    "raw/web/2026-08-24-previously-unmanufacturable.md": {
+      "affected_wiki": [
+        "wiki/concepts/agent-experience.md",
+        "wiki/debates/does-cheap-software-distribute-agency-or-relocate-control.md",
+        "wiki/questions/which-ai-interfaces-preserve-human-agency.md"
+      ],
+      "canonical_url": "https://tomtunguz.com/previously-unmanufacturable/",
+      "claim_count": 6,
+      "completed_at": "2026-08-24",
+      "evidence_file": "evidence/sources/previously-unmanufacturable-evi-4d49249b45d7.md",
+      "evidence_id": "evi-4d49249b45d7",
+      "mode": "steady_state_url",
+      "raw_sha256": "8569fd1ea720d2152af53f8b6ccd127bda8061cff297122194e631c7a33a3b3f",
+      "source_url": "https://tomtunguz.com/previously-unmanufacturable/",
+      "status": "complete"
     }
   },
   "schema_version": 1

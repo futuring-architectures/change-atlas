@@ -4,7 +4,7 @@ type: debate
 title: Does cheap software distribute agency or relocate control?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-08-24
 tags: ["software", "agency", "platform-power"]
 relationships:
   - type: supported_by
@@ -22,6 +22,9 @@ evidence:
   - "[[softwares-economics-evi-c4d85201c1f3#Claim 2]]"
   - "[[ai-horseless-carriages-evi-fc941dc02559#Claim 2]]"
   - "[[build-startups-for-agents-evi-4d5ba41ba852#Claim 2]]"
+  - "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 2]]"
+  - "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]"
+  - "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]"
 ---
 
 # Does cheap software distribute agency or relocate control?
@@ -30,6 +33,8 @@ evidence:
 
 Natural language reduces the translation barrier between domain intent and executable behavior. Employees can build their own tools, users can shape persistent agent instructions, and bespoke software can replace fixed bundles designed for an imagined average user.
 
+The reported CAD case supplies a concrete version of that distribution: a person who could not operate the specialist tool directed an agent through natural language to produce a design. The broader claim that this can extend to any software remains a forecast rather than a comparative adoption result.
+
 ## Position: control relocates
 
 The interpreter is still owned. Model providers, agent platforms, tool permissions, distribution systems, and data schemas can become stronger control points than the application layer they displace. Users may inherit responsibility for systems they cannot inspect, export, or repair.
@@ -37,6 +42,8 @@ The interpreter is still owned. Model providers, agent platforms, tool permissio
 ## Synthesis
 
 Cheap production distributes capability more readily than it distributes institutional agency. The outcome depends on portability, editable state, permission design, skill formation, value capture, and recourse—the dimensions in the [[ai-agency-audit|AI agency audit]].
+
+Agent mediation also redistributes interface complexity. [[previously-unmanufacturable-evi-4d49249b45d7#Claim 4|Previously Unmanufacturable — claim 4]] places schemas, documentation, and safe action in the agent-facing harness; that can simplify the human surface without settling who can inspect, authorize, repair, or exit the resulting system.
 
 ## Evidence needed
 
@@ -49,4 +56,3 @@ Cheap production distributes capability more readily than it distributes institu
 - Supported from opposite sides by [[creator-monetization-recreated-gatekeepers|recreated creator gatekeepers]] and [[citizen-development-moved-employees-from-users-to-builders|citizen development]].
 - Qualified by [[automation-is-an-arrangement-of-power|Automation is an arrangement of power]].
 - Raises [[who-governs-user-authored-agents|the governance Question for user-authored agents]].
-
