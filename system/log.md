@@ -323,3 +323,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-08-24-what-changed-the-mental-models-we-carry-part-2-of-3.md` as `evidence/sources/what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099.md` with 10 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-08-31] evidence | Ingest The Network Always Beats the Castle
+
+- Captured and finalized `raw/web/2026-08-31-the-network-always-beats-the-castle.md` as `evidence/sources/the-network-always-beats-the-castle-evi-1a4b91886b9a.md` with 13 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.

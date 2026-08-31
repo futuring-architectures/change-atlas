@@ -3847,6 +3847,22 @@
       "raw_sha256": "4caa04f67bd10ff45134fd92262c2406fd7d728ddfed404f02224fd30dbda27a",
       "source_url": "https://machalliance.org/insights-hub/what-changed-part-2",
       "status": "complete"
+    },
+    "raw/web/2026-08-31-the-network-always-beats-the-castle.md": {
+      "affected_wiki": [
+        "wiki/frameworks/packet-switched-organization-protocol-stack.md",
+        "wiki/debates/does-ai-flatten-hierarchy-or-intensify-management.md",
+        "wiki/questions/how-can-firms-distribute-control-without-losing-coordination.md"
+      ],
+      "canonical_url": "https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle",
+      "claim_count": 13,
+      "completed_at": "2026-08-31",
+      "evidence_file": "evidence/sources/the-network-always-beats-the-castle-evi-1a4b91886b9a.md",
+      "evidence_id": "evi-1a4b91886b9a",
+      "mode": "steady_state_url",
+      "raw_sha256": "25da9d4b7f9fa55e5700818ebbca6e68b253591880ba837943850cd626176cfc",
+      "source_url": "https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle?r=1tkru9",
+      "status": "complete"
     }
   },
   "schema_version": 1

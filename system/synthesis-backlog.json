@@ -18,7 +18,9 @@
         "[[could-ai-be-a-catalyst-for-wider-organisational-change-evi-bd4309463e65#Claim 1]]",
         "[[the-ai-native-organization-what-comes-after-agile-evi-8f8155afb8a1#Claim 2]]",
         "[[entrepreneurship-is-contagious-evi-bccb2f813363#Claim 1]]",
-        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5]]"
+        "[[the-future-worth-building-is-human-evi-d29670f349f2#Claim 5]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 5]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -68,6 +70,12 @@
           "date": "2026-07-31",
           "outcome": "no_change",
           "note": "The source advocates distributing models, compute, tools, and equity, but does not specify transferred decision rights, a stewardship practice, or an observed distributed-governance outcome."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "qualified",
+          "note": "The source proposes local capability routing, nested trust domains, and peer protocols as mechanisms for distributing execution and coordination. It also leaves objective-setting, rule ownership, affected-party voice, and control of the routing layer unresolved, so it qualifies rather than demonstrates distributed stewardship or transferred decision power."
         }
       ],
       "resolution_target": null
@@ -1049,7 +1057,11 @@
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 3]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
-        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]"
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 6]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 7]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 8]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 9]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1141,6 +1153,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source explicitly recasts people as orchestrators and evaluators in a continuous human-agent loop and assigns organizational roles for agent ownership, monitoring, and shutdown. It strengthens the role-shift mechanism but offers no representative role-transition, employment, or performance evidence."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "strengthened",
+          "note": "The source decomposes managerial work into AI-mediated capability routing, translation, monitoring, recovery, and protocol negotiation, strengthening the mechanism by which human roles could move away from bounded routing work. It offers a design forecast and unspecified early experimentation, not representative role-transition, employment, or performance evidence."
         }
       ],
       "resolution_target": null
@@ -1213,6 +1231,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source describes individual work shifting toward continuous direction and evaluation with agents, but it does not address substitution for colleagues, apprenticeship, recognition, shared meaning, or relational learning outcomes."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "no_change",
+          "note": "The source predicts changes to training and removes some managers from routing and translation, but it does not examine colleague substitution, apprenticeship, recognition, shared meaning, or relational learning outcomes."
         }
       ],
       "resolution_target": null
@@ -1348,6 +1372,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source reports one natural-language-to-CAD case and forecasts English as a universal intent layer over application grammars, with a harness translating outcomes into action. It strengthens the control-surface mechanism at the application level but does not establish reliable execution of organizational workflows or consequential authority."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "no_change",
+          "note": "The source proposes AI-mediated routing and protocol negotiation, but its extracted mechanisms do not establish natural language as the organizational control surface or show reliable workflow execution from natural-language descriptions."
         }
       ],
       "resolution_target": null
@@ -1653,7 +1683,10 @@
       "evidence": [
         "[[why-doesn-t-software-show-up-in-productivity-evi-fb0ef33c9cbd#Claim 2]]",
         "[[from-firms-to-networks-how-coordination-technology-will-reorganise-everything-evi-1f3bfb709db5#Claim 1]]",
-        "[[from-firms-to-networks-how-coordination-technology-will-reorganise-everything-evi-1f3bfb709db5#Claim 2]]"
+        "[[from-firms-to-networks-how-coordination-technology-will-reorganise-everything-evi-1f3bfb709db5#Claim 2]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 5]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 13]]"
       ],
       "relevant_collections": [
         "power-to-creators-communities",
@@ -1684,6 +1717,12 @@
           "date": "2026-07-14",
           "outcome": "no_change",
           "note": "Networks shape durable change in this collection, but no observed economic activity moves from firms to machine-coordinated networks."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "strengthened",
+          "note": "The source supplies a detailed machine-scale coordination mechanism—capability routing, reliability classes, trust domains, and peer protocols—and explicitly forecasts new network organizational forms. It strengthens the mechanism and forecast but provides no observed movement of economic activity from firms to networks or comparative outcome."
         }
       ],
       "resolution_target": null
@@ -1838,6 +1877,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source assigns people continuous evaluation and supervision work and recommends monitoring, but it does not describe verification capacity as rate-limiting or compare it with falling generation and implementation costs."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "no_change",
+          "note": "The source makes monitoring, acknowledgment, and error correction part of the proposed organization protocol stack, but it does not identify verification capacity as the rate-limiting resource or compare verification throughput with falling generation and implementation costs."
         }
       ],
       "resolution_target": null
@@ -2012,7 +2057,9 @@
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]",
-        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10]]"
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2091,6 +2138,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source explicitly relocates governance into pre-deployment readiness, named ownership, monitoring, shutdown authority, observability, incident response, and agent-specific accountability. It strengthens the deployment-and-institutional-use direction but does not establish model commoditization or address access, ownership of infrastructure, viable exit, or comparative governance outcomes."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "strengthened",
+          "note": "The source relocates organizational governance into reliability classes, interfaces, permissions, trust boundaries, accountability domains, and peer protocols, strengthening the deployment-and-institutional-use direction. It neither establishes model commoditization nor addresses ownership of the routing infrastructure, viable exit, public governance, or comparative outcomes."
         }
       ],
       "resolution_target": null
@@ -2165,7 +2218,11 @@
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]",
-        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 2]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 5]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2231,6 +2288,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source describes enterprise agent capability spreading into structures, roles, governance, and operating models built for a pre-agentic world, then specifies ownership and oversight redesign while warning against inherited governance categories. It strengthens the redesign mechanism but supplies no comparative organizational performance outcome."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "strengthened",
+          "note": "The source explicitly replaces fixed managerial routing with capability-centered work packets, reliability classes, trust domains, and recovery loops, strengthening the redesign mechanism. Its claim that such organizations will outperform centrally planned ones remains a forecast without paired organizations or comparative performance evidence."
         }
       ],
       "resolution_target": null
@@ -2262,7 +2325,10 @@
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 5]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
-        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]"
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 5]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2316,6 +2382,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source argues for agent-specific accountability and institutional operating capability, but it does not connect those requirements to faster component generation or measure the relative value of architecture, assurance, and absorption."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "strengthened",
+          "note": "The source pairs inexpensive ubiquitous AI with a need for routing architecture, reliability guarantees, trust boundaries, accountability, and mature protocols. It strengthens architecture and assurance as complements to cheap capability, but supplies no comparative measure of relative value or evidence about institutional absorption."
         }
       ],
       "resolution_target": null
@@ -2349,7 +2421,10 @@
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 4]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 7]]",
-        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 6]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 10]]",
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2397,6 +2472,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source makes supervision, limits on authority, named ownership, monitoring, shutdown authority, observability, and incident response explicit complements to agent capability. It strengthens inspection and recourse requirements but offers no comparative evidence that these interfaces preserve human agency in deployment."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "qualified",
+          "note": "The source strengthens machine-operable infrastructure through capability addresses, continuous legibility, permissions, and explicit protocols. It names accountability boundaries but does not make human inspection, correction, contestability, or recourse first-class interfaces, leaving the agency effect unresolved."
         }
       ],
       "resolution_target": null
@@ -2638,6 +2719,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source argues that structured application documentation and agent evaluations become more important, but it does not contrast owned, testable context with documentation volume or address context ownership and organizational asset value."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "no_change",
+          "note": "The source reports context as one missing condition in early capability-routing experiments and proposes making edge work legible, but it does not compare owned, testable context with documentation volume or establish context as an organizational asset."
         }
       ],
       "resolution_target": null
@@ -2685,6 +2772,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source identifies individual capability adoption moving ahead of organizational roles, governance, and operating models, and shows why inherited deterministic controls can misfit agentic systems. It strengthens the asynchronous-layer mechanism but does not cover technical, social, and cultural pace layers comprehensively or compare transition outcomes."
+        },
+        {
+          "source": "evi-1a4b91886b9a",
+          "date": "2026-08-31",
+          "outcome": "no_change",
+          "note": "The source says organizational protocols lag emerging AI capability, but it does not coordinate technical, institutional, social, and cultural pace layers or compare an integrated transition with a single rollout."
         }
       ],
       "resolution_target": null
