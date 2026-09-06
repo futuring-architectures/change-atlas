@@ -4,7 +4,7 @@ type: debate
 title: Who captures the gains from automation?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-31
+updated_at: 2026-09-06
 tags:
   - automation
   - distribution
@@ -35,6 +35,11 @@ evidence:
   - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
   - "[[0-50-or-200-evi-704a6910d89c#Claim 6]]"
   - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 6]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 11]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 12]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 13]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 20]]"
 ---
 
 # Who captures the gains from automation?
@@ -57,7 +62,7 @@ When automation increases capability or reduces labor, what determines whether t
 
 ## Position D
 
-**Organizations can reinvest realized gains in greater ambition rather than primarily in headcount reduction.** Retaining and equipping workers may support more products, quality, service, and market growth. This preserves employment only if demand, revenue, working conditions, and leadership commitments make the allocation real rather than rhetorical.
+**Organizations can reinvest realized gains in greater ambition rather than primarily in headcount reduction.** Retaining and equipping workers may support more products, quality, service, and market growth. A Jevons-style case predicts that cheaper cognition will unlock enough latent demand to create new tasks and occupations. This preserves employment only if demand, revenue, working conditions, adaptation capacity, and leadership commitments make the allocation real rather than rhetorical.
 
 ## Sources of disagreement
 
@@ -69,6 +74,8 @@ When automation increases capability or reduces labor, what determines whether t
 - Whether future abundance is evidence or a normative scenario.
 - Whether costs are measured at the producing task or across deployment, maintenance, handoffs, and recovery.
 - Whether managerial belief can cause displacement before a system demonstrates economic or operational competence.
+- Whether later aggregate gains compensate people who absorb displacement, wage pressure, or retraining costs during the transition.
+- Whether education, safety nets, bargaining institutions, and new-job formation can adjust on the same clock as technical capability.
 
 ## Evidence
 
@@ -81,10 +88,11 @@ When automation increases capability or reduces labor, what determines whether t
 - [[horseless-intelligence-evi-0bc67b22c4ff#Claim 1|Horseless intelligence — claim 1]] identifies displacement driven by managerial overestimation as a distinct mechanism.
 - [[0-50-or-200-evi-704a6910d89c#Claim 3|0%, 50%, or 200% — claim 3]] models cost-oriented capture; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] supplies the growth-reinvestment alternative; and [[0-50-or-200-evi-704a6910d89c#Claim 6|claim 6]] connects unstated allocation choices to employee expectations.
 - [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8|Let It Crash — claim 8]] advocates spreading ownership of and inexpensive access to the productive AI layer rather than relying primarily on redistribution after value has concentrated.
+- [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 6|The Cognitive Revolution — claim 6]] supplies the Jevons-style demand-expansion forecast; [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 11|claim 11]] predicts role and occupation creation; [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 12|claim 12]] uses Engels' pause to show that aggregate success and generational individual loss can coexist; [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 13|claim 13]] assigns adaptation work to education and safety-net redesign; and [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 20|claim 20]] states shared prosperity as an aspiration without specifying enforceable distribution mechanisms.
 
 ## Current assessment
 
-Automation posture, realized productivity, allocation, and distribution are separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine whether gains become lower cost, greater output, shorter hours, higher pay, employment preservation, or owner returns. Ownership of productive means and redistribution of proceeds are also separate and potentially complementary: access to a model or compute is not the same as an enforceable stake, decision power, operating capacity, or income protection. Claims about automation gains should therefore state the workflow boundary, deployment economics, ambition, demand, ownership, bargaining, compensation, and recourse arrangements that make the distribution plausible.
+Automation posture, realized productivity, allocation, transition timing, and distribution are separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine whether gains become lower cost, greater output, shorter hours, higher pay, employment preservation, or owner returns. An aggregate abundance forecast can be true while the displaced cohort still loses; benefits arriving to later workers do not compensate earlier losses automatically. Ownership of productive means and redistribution of proceeds are also separate and potentially complementary: access to a model or compute is not the same as an enforceable stake, decision power, operating capacity, or income protection. Claims about automation gains should therefore state the workflow boundary, deployment economics, ambition, demand, transition horizon, ownership, bargaining, compensation, adaptation capacity, and recourse arrangements that make the distribution plausible.
 
 ## Open questions
 

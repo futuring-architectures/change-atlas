@@ -4,7 +4,7 @@ type: concept
 title: Abundance relocates bottlenecks
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-08-14
+updated_at: 2026-09-06
 tags:
   - abundance
   - bottlenecks
@@ -36,6 +36,7 @@ evidence:
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3]]"
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]"
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 6]]"
 ---
 
 # Abundance relocates bottlenecks
@@ -46,7 +47,7 @@ Radically cheaper production expands possible use cases, but it rarely makes an 
 
 ## Provenance
 
-Byrne Hobart supplies the general economic rule that radically cheaper products generate unexpectedly abundant uses. James Vincent describes machine-scale content challenging human curation. The MenuGen case shows code production becoming easier while deployment integration remains difficult. Ricky Ho’s enterprise claim shifts optimization from maximum intelligence toward intelligence per dollar. Sidu Ponnappa applies the mechanism to AI-native services: improved models can widen the economically viable work frontier while shifting constraint toward UX, adoption, cognitive load, and human judgment.
+Byrne Hobart supplies the general economic rule that radically cheaper products generate unexpectedly abundant uses. James Vincent describes machine-scale content challenging human curation. The MenuGen case shows code production becoming easier while deployment integration remains difficult. Ricky Ho’s enterprise claim shifts optimization from maximum intelligence toward intelligence per dollar. Sidu Ponnappa applies the mechanism to AI-native services: improved models can widen the economically viable work frontier while shifting constraint toward UX, adoption, cognitive load, and human judgment. Konstantine Buhler adds an explicitly Jevons-style forecast for machine cognition: lower prices may unlock large latent demand, but the claim forecasts demand for thinking rather than demonstrated useful outcomes.
 
 ## Aliases and related terms
 
@@ -73,6 +74,7 @@ Byrne Hobart supplies the general economic rule that radically cheaper products 
 - [[earning-judgment-evi-207760005515#Claim 6|Earning Judgment — claim 6]] applies the same relocation to agentic software: cheap first drafts increase the salience of finite attention, verification, architecture, edge cases, and responsible finish.
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3|What will more intelligence do? — claim 3]] and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 4|claim 4]] add measurement and irreducible error; [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 5|claim 5]], [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8|claim 8]], and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12|claim 12]] relocate value toward replication, sensing, process experimentation, and computer-specific scale.
 - [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3|When the Models Get Better — claim 3]] expands the economically viable work frontier; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9|claim 9]] and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10|claim 10]] relocate constraint toward user attention, taste, judgment, and execution discipline.
+- [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 6|The Cognitive Revolution — claim 6]] predicts a Jevons-style expansion of machine cognition while leaving adoption, verification, trust, actuation, purchasing power, and the value of the resulting decisions as complementary constraints.
 
 ## Relationships
 

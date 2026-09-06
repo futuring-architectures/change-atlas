@@ -1079,7 +1079,9 @@
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 9]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 12]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 12]]",
+        "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 7]]",
+        "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 11]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1183,6 +1185,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source assigns routine rules to software, bounded judgment to agents, and prepared exceptions to humans, then reports one reconciliation redesign and predicts coordination work giving way to higher-judgment work. It strengthens the role-shift mechanism but provides no representative role transition, employment effect, worker experience, or longitudinal outcome."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source treats AI coding as an early case in which people move from direct production toward direction, review, and correction, then predicts analysts directing many models and new occupations emerging. It strengthens the role-shift forecast but supplies no representative adoption, role-transition, employment, worker-experience, or longitudinal outcome evidence."
         }
       ],
       "resolution_target": null
@@ -1342,6 +1350,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source relocates human work toward direction and evaluation, but it does not compare ideation with commitment or judgment as organizational constraints and supplies no scarcity or bottleneck evidence."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source predicts cheap cognition and calls wanting, choosing, accountability, and trust durable human roles, but it does not compare ideation with commitment or judgment as organizational constraints or observe a binding post-generation bottleneck."
         }
       ],
       "resolution_target": null
@@ -1642,6 +1656,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source makes responsible commitment and consequence central to judgment, but it does not address status allocation or observe a premium for human responsibility, distinctive judgment, or non-standardized work."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source predicts that wanting, choosing, accountability, and interpersonal trust will remain economically human longer than task cognition, but it does not observe a status or market premium for demonstrably human responsibility, distinctive judgment, or non-standardized work."
         }
       ],
       "resolution_target": null
@@ -1921,6 +1941,12 @@
           "date": "2026-09-06",
           "outcome": "qualified",
           "note": "The source makes verification burden a criterion for hybridization and describes evaluation reruns during model substitution as painstaking, strengthening verification as an architectural constraint. It does not show that verification capacity is rate-limiting at organization level or compare it with falling generation and implementation costs."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source assigns engineers direction, review, and correction after machine code production, but it does not identify verification capacity as a rate-limiting resource or compare verification throughput with falling generation and implementation costs."
         }
       ],
       "resolution_target": null
@@ -2000,6 +2026,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source predicts that coordination work will be removed while high-judgment work remains, but it does not identify entry-level production, novice learning pathways, widespread removal, or the delayed supply of expert judgment."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source compares skilled textile displacement with AI coding and predicts junior analysts directing many models, but it does not examine whether entry-level production is being removed, how expert judgment develops, or whether a delayed expertise-pipeline effect occurs."
         }
       ],
       "resolution_target": null
@@ -2363,6 +2395,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source contrasts point-solution insertion with an end-to-end redesign of process coherence, discovery, automation posture, baselines, handoffs, authority, and operator participation, then supplies one detailed case and aggregated vendor outcomes. It strongly reinforces the mechanism, but comparative performance remains vendor-selected and independently unverified."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source predicts broad task and institutional change through an Industrial Revolution analogy, but it does not compare organizations that redesign workflows and decision rights with organizations that insert agents into inherited roles."
         }
       ],
       "resolution_target": null
@@ -2653,6 +2691,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source explicitly separates improved immediate work from unchanged human judgment and proposes preserving prediction, consequence, and reconciliation as renewal practice. It strengthens the throughput-versus-capacity distinction but supplies no longitudinal capacity measure or organizational comparison."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source argues that education, retraining, and safety nets may need to adapt faster, but it neither proposes measuring renewal capacity alongside throughput nor compares organizations on long-run capability preservation."
         }
       ],
       "resolution_target": null
@@ -2731,6 +2775,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source identifies a precise bypass mechanism—AI answers arriving before a user exposes a belief to consequence—and proposes prior, prediction, disconfirmation, and reconciliation as counter-practice. It directly strengthens the capacity-loss mechanism while remaining conceptual and without longitudinal evidence of delayed loss."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source predicts that human work will shift toward directing and reviewing models and that education must change, but it does not trace removed practice to delayed capacity loss or preserve challenge, verification, and participation through a tested learning design."
         }
       ],
       "resolution_target": null
@@ -2838,7 +2888,9 @@
         "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7]]",
         "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5]]",
-        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
+        "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]",
+        "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 12]]",
+        "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 13]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2873,6 +2925,12 @@
           "date": "2026-08-31",
           "outcome": "no_change",
           "note": "The source says organizational protocols lag emerging AI capability, but it does not coordinate technical, institutional, social, and cultural pace layers or compare an integrated transition with a single rollout."
+        },
+        {
+          "source": "evi-45a1a23ce86b",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source uses Engels' pause to separate aggregate gains from first-cohort losses and argues that faster AI-era role change may outrun education, retraining, and safety nets. It strengthens the asynchronous institutional-layer mechanism but remains a historical analogy without comparative integrated-transition outcomes."
         }
       ],
       "resolution_target": null

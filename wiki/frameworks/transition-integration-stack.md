@@ -4,7 +4,7 @@ type: framework
 title: Transition integration stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-31
+updated_at: 2026-09-06
 tags: ["transitions", "sociotechnical-systems", "change"]
 relationships:
   - type: operationalizes
@@ -32,6 +32,8 @@ evidence:
   - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 6]]"
   - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7]]"
   - "[[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 12]]"
+  - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 13]]"
 ---
 
 # Transition integration stack
@@ -56,7 +58,7 @@ Map the whole practice, including interpretation, coordination, exceptions, spec
 
 ### 4. Institutional pace layers
 
-Identify the layers that can experiment quickly and those that change slowly because they stabilize standards, rights, trust, infrastructure, or identity. Design interfaces and reversible probes between them instead of demanding one transition speed. Name safeguards, alternatives, and cultural capacities that must exist before a shock because they cannot be improvised inside a narrow crisis window.
+Identify the layers that can experiment quickly and those that change slowly because they stabilize standards, rights, trust, infrastructure, or identity. Design interfaces and reversible probes between them instead of demanding one transition speed. Name safeguards, alternatives, education, retraining capacity, and cultural capacities that must exist before a shock because they cannot be improvised inside a narrow crisis window. Treat later aggregate prosperity as distinct from the losses borne by the first displaced cohort.
 
 ### 5. Epistemic fluency and inclusion
 
@@ -89,6 +91,7 @@ For AI-assisted radiology, the capability layer measures bounded image tasks. Th
 - Slow integration can be prudent or obstructionist; the Framework does not assume either.
 - Participation does not eliminate power differences or value conflict.
 - A local pilot may miss long-run capacity loss and system-wide redistribution.
+- Historical analogies can reveal transition mechanisms without establishing that the timing, institutions, or outcomes will repeat.
 - The stack makes tensions inspectable; it cannot calculate one objectively correct transition.
 
 ## Evidence
@@ -101,6 +104,7 @@ For AI-assisted radiology, the capability layer measures bounded image tasks. Th
 - [[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2|When Correct Systems Produce the Wrong Outcomes — claim 2]] requires continued purpose testing.
 - [[red-lining-ai-evi-946f46f44c16#Claim 2|Red-lining AI — claim 2]] distinguishes selective opposition from categorical rejection.
 - [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 3|Let It Crash — claim 3]] distinguishes predicted durable AI substrate from depreciating hardware; [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 6|claim 6]], [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 7|claim 7]], and [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 10|claim 10]] add rebuild capacity, slow-built purpose institutions, and pre-crisis readiness.
+- [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 12|The Cognitive Revolution — claim 12]] uses Engels' pause to separate aggregate gains from first-cohort losses; [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 13|claim 13]] argues that faster AI-era role change may outrun education, retraining, and safety nets, while leaving its illustrative transition times unsupported.
 
 ## Relationships
 

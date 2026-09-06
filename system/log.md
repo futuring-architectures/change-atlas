@@ -333,3 +333,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-09-06-applied-ai-doesnt-work.md` as `evidence/sources/applied-ai-doesnt-work-evi-f6f3996faaab.md` with 15 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-09-06] evidence | Ingest The Cognitive Revolution (When Machines Do The Thinking)
+
+- Captured and finalized `raw/web/2026-09-06-the-cognitive-revolution-when-machines-do-the-thinking.md` as `evidence/sources/the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b.md` with 20 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
