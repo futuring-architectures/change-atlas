@@ -4,7 +4,7 @@ type: framework
 title: Automation posture matrix
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-09-06
 tags:
   - automation
   - augmentation
@@ -29,6 +29,7 @@ evidence:
   - "[[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1]]"
   - "[[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2]]"
   - "[[a-vision-for-product-teams-evi-cbb1d8ab9fed#Claim 2]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]"
 ---
 
 # Automation posture matrix
@@ -40,6 +41,8 @@ Use this Framework before choosing a default “copilot” or autonomous-agent i
 ## Structure
 
 The horizontal axis is **task predictability**: from stable inputs, rules, and success criteria to ambiguous, changing, context-dependent work. The vertical axis is **consequence and reversibility**: from low-cost, easily detected and reversible errors to high-impact, delayed, or difficult-to-reverse failures.
+
+Before selecting a quadrant, choose the least complex implementation substrate that fits the step. Stable rules belong in deterministic software. Bounded judgments may fit an agent when representative outcome-labeled examples, measurement, and recovery exist. Human-gated work should present the decision-maker with relevant evidence and real authority, not merely place a person after opaque generation.
 
 ### Predictable + low consequence: automate
 
@@ -90,6 +93,7 @@ Summarizing an internal meeting for the participants may fit interactive copilot
 - [[ai-wont-steal-as-many-jobs-as-expected-evi-1db89aca324b#Claim 1|AI won’t steal as many jobs as expected — claim 1]] adds the economic-feasibility gate.
 - [[ai-generated-workslop-is-destroying-productivity-evi-58ee7347e6af#Claim 2|AI-Generated “Workslop” — claim 2]] shows cognitive labor moving downstream rather than disappearing.
 - [[a-vision-for-product-teams-evi-cbb1d8ab9fed#Claim 2|A Vision For Product Teams — claim 2]] distinguishes process-heavy work from contextual judgment while leaving their boundary open to reassessment.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8|Applied AI Doesn't Work — claim 8]] adds a deterministic-software, agentic-judgment, and human-gated substrate test based on examples, consequence, evaluability, and verification burden.
 
 ## Relationships
 

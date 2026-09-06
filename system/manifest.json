@@ -3863,6 +3863,24 @@
       "raw_sha256": "25da9d4b7f9fa55e5700818ebbca6e68b253591880ba837943850cd626176cfc",
       "source_url": "https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle?r=1tkru9",
       "status": "complete"
+    },
+    "raw/web/2026-09-06-applied-ai-doesnt-work.md": {
+      "affected_wiki": [
+        "wiki/signals/ai-adoption-failure-exposed-work-system-tensions.md",
+        "wiki/concepts/capability-deployment-gap.md",
+        "wiki/frameworks/ai-native-organizational-trust-stack.md",
+        "wiki/frameworks/automation-posture-matrix.md",
+        "wiki/frameworks/capability-to-architecture-loop.md"
+      ],
+      "canonical_url": "https://x.com/vasuman/status/2095999742031675738",
+      "claim_count": 15,
+      "completed_at": "2026-09-06",
+      "evidence_file": "evidence/sources/applied-ai-doesnt-work-evi-f6f3996faaab.md",
+      "evidence_id": "evi-f6f3996faaab",
+      "mode": "steady_state_url",
+      "raw_sha256": "593b958ae1714b9ad0b79425acd18dac6d301edf193cc9422102607a30e9aa8f",
+      "source_url": "https://x.com/vasuman/status/2095999742031675738?s=61&t=Z1LQ3FldfkzVnJc_7M-GQw",
+      "status": "complete"
     }
   },
   "schema_version": 1

@@ -4,7 +4,7 @@ type: framework
 title: AI-native organizational trust stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-08-24
+updated_at: 2026-09-06
 tags:
   - ai-agents
   - organizational-trust
@@ -30,6 +30,11 @@ evidence:
   - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 7]]"
   - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]"
   - "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
 ---
 
 # AI-native organizational trust stack
@@ -46,11 +51,11 @@ Define which information the system may use, how it remains current, whose knowl
 
 ### 2. Evaluation
 
-Specify task-level success, workflow-level value, failure modes, and independent checks. Evaluate handoffs and downstream repair work, not only the speed or quality of generated artifacts.
+Specify task-level success, workflow-level value, failure modes, and independent checks. Establish the baseline before building and retain the method, denominator, and accountable owner for each measure. Evaluate handoffs and downstream repair work, not only the speed or quality of generated artifacts. Re-run evaluations when models, prompts, tools, routing, or thinking levels change.
 
 ### 3. Governance and authority
 
-State who can set goals, change rules, grant permissions, inspect actions, stop execution, and accept consequences. Name who owns each production agent, who monitors its behavior, and who has shutdown authority. Keep recourse and accountability legible when many agents and services interact.
+State who can set goals, change rules, grant permissions, inspect actions, stop execution, and accept consequences. Name who owns each production agent, who monitors its behavior, and who has shutdown authority. Cross-boundary redesign may require executive authority, but operators and affected parties must have more than nominal participation: specify how tacit knowledge, objections, employment consequences, and refusal or appeal enter decisions. Keep recourse and accountability legible when many agents and services interact.
 
 ### 4. Learning and correction
 
@@ -80,6 +85,7 @@ An agent drafting internal research may appear successful at the artifact layer.
 - Evaluation can be gamed or become stale, especially when the same model generates and judges.
 - Human judgment can protect quality or become a bottleneck and liability sink.
 - The Framework does not determine whether automation gains are distributed fairly.
+- Self-reported vendor outcomes can seed evaluation hypotheses but should not define success criteria or verify the vendor's own causal impact.
 
 ## Evidence
 
@@ -90,6 +96,9 @@ An agent drafting internal research may appear successful at the artifact layer.
 - [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 5|What changed: The mental models we carry — claim 5]] names the organizational lag as “capability without accountability”; [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 6|claim 6]] specifies shared vocabulary, pre-deployment governance, ownership, monitoring, and shutdown authority.
 - [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 7|What changed: The mental models we carry — claim 7]] identifies absent observability and incident response as an enthusiasm-led failure mode; [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8|claim 8]] identifies false confidence or paralysis from unmodified legacy governance.
 - [[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10|What changed: The mental models we carry — claim 10]] argues for an accountability architecture tailored to agentic systems while remaining an interpretation of broader AI-governance instruments.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8|Applied AI Doesn't Work — claim 8]] ties automation posture to judgment, evidence, consequence, and verification burden; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9|claim 9]] requires baselined workflow measures.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11|Applied AI Doesn't Work — claim 11]] joins executive authority with operator participation while leaving actual decision power open; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13|claim 13]] adds re-evaluation after model substitution.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15|Applied AI Doesn't Work — claim 15]] reports vendor-selected cost, time, revenue, and risk outcomes whose attribution and generalizability remain unverified.
 
 ## Relationships
 

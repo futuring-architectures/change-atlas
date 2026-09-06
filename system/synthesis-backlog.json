@@ -682,7 +682,8 @@
         "[[google-had-a-very-bad-week-evi-5cf643c0f542#Claim 1]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
-        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6]]"
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -725,6 +726,12 @@
           "date": "2026-08-14",
           "outcome": "no_change",
           "note": "The source says deployed agents require continuous tuning and predicts further automation of implementation work, but it does not connect that need to upstream model behavior, capability, or cost change or provide a revalidation case."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source says provider pricing, rate limits, quantization, retirement, and model behavior make substitution costly because evaluations and model-call settings must be rerun. It strengthens continuous revalidation as an operating requirement but provides no migration case, longitudinal record, or comparative portability evidence."
         }
       ],
       "resolution_target": null
@@ -744,7 +751,9 @@
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 5]]",
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3]]",
-        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 12]]"
+        "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 12]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -787,6 +796,12 @@
           "date": "2026-08-14",
           "outcome": "strengthened",
           "note": "The source links better models to lower human effort and a wider frontier of economically viable work, then makes revenue and margin its search fitness function. This strengthens economic optimization around useful delivered work but supplies no model-choice comparison or intelligence-per-dollar measure."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source makes model cost, task-specific model choice, evaluation expense, and delivered cost, time, revenue, and risk outcomes part of one optimization problem. It strengthens the move toward useful system value but supplies no model-choice comparison or intelligence-per-dollar measure, and its outcome figures are vendor-selected."
         }
       ],
       "resolution_target": null
@@ -1061,7 +1076,10 @@
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 6]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 7]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 8]]",
-        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 9]]"
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 9]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 12]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1159,6 +1177,12 @@
           "date": "2026-08-31",
           "outcome": "strengthened",
           "note": "The source decomposes managerial work into AI-mediated capability routing, translation, monitoring, recovery, and protocol negotiation, strengthening the mechanism by which human roles could move away from bounded routing work. It offers a design forecast and unspecified early experimentation, not representative role-transition, employment, or performance evidence."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source assigns routine rules to software, bounded judgment to agents, and prepared exceptions to humans, then reports one reconciliation redesign and predicts coordination work giving way to higher-judgment work. It strengthens the role-shift mechanism but provides no representative role transition, employment effect, worker experience, or longitudinal outcome."
         }
       ],
       "resolution_target": null
@@ -1237,6 +1261,12 @@
           "date": "2026-08-31",
           "outcome": "no_change",
           "note": "The source predicts changes to training and removes some managers from routing and translation, but it does not examine colleague substitution, apprenticeship, recognition, shared meaning, or relational learning outcomes."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source proposes replacing coordination work with agents and deterministic systems, but it does not examine colleague substitution, apprenticeship, recognition, shared meaning, or relational learning outcomes."
         }
       ],
       "resolution_target": null
@@ -1823,7 +1853,9 @@
         "[[thinking-with-llms-a-reflection-evi-faaa31ee0421#Claim 8]]",
         "[[earning-judgment-evi-207760005515#Claim 4]]",
         "[[earning-judgment-evi-207760005515#Claim 6]]",
-        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]"
+        "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1883,6 +1915,12 @@
           "date": "2026-08-31",
           "outcome": "no_change",
           "note": "The source makes monitoring, acknowledgment, and error correction part of the proposed organization protocol stack, but it does not identify verification capacity as the rate-limiting resource or compare verification throughput with falling generation and implementation costs."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "qualified",
+          "note": "The source makes verification burden a criterion for hybridization and describes evaluation reruns during model substitution as painstaking, strengthening verification as an architectural constraint. It does not show that verification capacity is rate-limiting at organization level or compare it with falling generation and implementation costs."
         }
       ],
       "resolution_target": null
@@ -1956,6 +1994,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source argues that experts remain necessary and may move from low-level operation toward systems architecture, but it does not address entry-level work removal, novice learning pathways, or the delayed supply of expert judgment."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "no_change",
+          "note": "The source predicts that coordination work will be removed while high-judgment work remains, but it does not identify entry-level production, novice learning pathways, widespread removal, or the delayed supply of expert judgment."
         }
       ],
       "resolution_target": null
@@ -2059,7 +2103,12 @@
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]",
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 10]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
-        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]"
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2144,6 +2193,12 @@
           "date": "2026-08-31",
           "outcome": "strengthened",
           "note": "The source relocates organizational governance into reliability classes, interfaces, permissions, trust boundaries, accountability domains, and peer protocols, strengthening the deployment-and-institutional-use direction. It neither establishes model commoditization nor addresses ownership of the routing infrastructure, viable exit, public governance, or comparative outcomes."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source relocates governance into workflow baselines, automation posture, executive process authority, operator participation, evaluation, model substitution, and multidisciplinary deployment capability. It strengthens the deployment-and-institutional-use direction while also emphasizing provider lock-in; it does not establish model commoditization or comparative governance outcomes."
         }
       ],
       "resolution_target": null
@@ -2222,7 +2277,15 @@
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 2]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 5]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
-        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]"
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 2]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 6]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 7]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2294,6 +2357,12 @@
           "date": "2026-08-31",
           "outcome": "strengthened",
           "note": "The source explicitly replaces fixed managerial routing with capability-centered work packets, reliability classes, trust domains, and recovery loops, strengthening the redesign mechanism. Its claim that such organizations will outperform centrally planned ones remains a forecast without paired organizations or comparative performance evidence."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source contrasts point-solution insertion with an end-to-end redesign of process coherence, discovery, automation posture, baselines, handoffs, authority, and operator participation, then supplies one detailed case and aggregated vendor outcomes. It strongly reinforces the mechanism, but comparative performance remains vendor-selected and independently unverified."
         }
       ],
       "resolution_target": null
@@ -2328,7 +2397,11 @@
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 6]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 5]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
-        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]"
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 12]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 6]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2388,6 +2461,12 @@
           "date": "2026-08-31",
           "outcome": "strengthened",
           "note": "The source pairs inexpensive ubiquitous AI with a need for routing architecture, reliability guarantees, trust boundaries, accountability, and mature protocols. It strengthens architecture and assurance as complements to cheap capability, but supplies no comparative measure of relative value or evidence about institutional absorption."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source argues that agent value depends on process architecture, automation posture, evaluation, model portability, governance, and combined institutional expertise rather than model calls alone. It strengthens architecture, assurance, and absorption as complements to cheap capability but offers no comparative measure of their relative value."
         }
       ],
       "resolution_target": null
@@ -2424,7 +2503,9 @@
         "[[what-changed-the-mental-models-we-carry-part-2-of-3-evi-aca4450c0099#Claim 8]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 6]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 10]]",
-        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]"
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2478,6 +2559,12 @@
           "date": "2026-08-31",
           "outcome": "qualified",
           "note": "The source strengthens machine-operable infrastructure through capability addresses, continuous legibility, permissions, and explicit protocols. It names accountability boundaries but does not make human inspection, correction, contestability, or recourse first-class interfaces, leaving the agency effect unresolved."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "qualified",
+          "note": "The source gives human decision-makers assembled evidence and final action in higher-risk cases and requires operator participation in redesign. It does not specify independent inspection, meaningful refusal, appeal, benefit sharing, or recourse, so nominal inclusion may still coexist with reduced agency."
         }
       ],
       "resolution_target": null
@@ -2666,7 +2753,9 @@
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 7]]",
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]",
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 2]]",
-        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 10]]"
+        "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 10]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 7]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2725,6 +2814,12 @@
           "date": "2026-08-31",
           "outcome": "no_change",
           "note": "The source reports context as one missing condition in early capability-routing experiments and proposes making edge work legible, but it does not compare owned, testable context with documentation volume or establish context as an organizational asset."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "qualified",
+          "note": "The source contrasts documented process with process-mining traces and operator-held tacit knowledge, and uses assembled contextual evidence in its reconciliation case. It strengthens context beyond documentation but does not establish ownership, testability, compounding asset value, or a machine-speed comparison."
         }
       ],
       "resolution_target": null
@@ -2830,7 +2925,10 @@
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 4]]",
-        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]"
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 3]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]",
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2859,6 +2957,12 @@
           "date": "2026-08-24",
           "outcome": "strengthened",
           "note": "The source explicitly warns that better output can leave the person unchanged and proposes prior-versus-outcome reconciliation as evidence of judgment formation. It strengthens replacement of artifact proxies with learning and system-outcome evidence, while the method remains unevaluated for understanding, retention, calibration, or transfer."
+        },
+        {
+          "source": "evi-f6f3996faaab",
+          "date": "2026-09-06",
+          "outcome": "strengthened",
+          "note": "The source contrasts satisfaction and local task-speed measures with organizational productivity, requires pre-build workflow baselines, and organizes reported outcomes across cost, time, revenue, and risk. It strengthens system-outcome evaluation, while understanding, judgment, retention, worker effects, and causal attribution remain missing."
         }
       ],
       "resolution_target": null

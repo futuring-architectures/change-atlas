@@ -4,7 +4,7 @@ type: concept
 title: Capability-deployment gap
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-08-10
+updated_at: 2026-09-06
 tags: ["capability", "deployment", "institutions"]
 relationships:
   - type: supported_by
@@ -37,6 +37,11 @@ evidence:
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 4]]"
   - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1]]"
   - "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 1]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 2]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 3]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 4]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
 ---
 
 # Capability-deployment gap
@@ -60,6 +65,9 @@ The gap should not become a residual explanation for every missing impact. Slow 
 - [[activity-theory-as-a-system-level-explanation-for-why-ai-adoption-is-hard-evi-dadce4b3f82c#Claim 1|Activity Theory as a system-level explanation — claim 1]] shows that the gap can contain work-system contradictions rather than passive delay.
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 2|What will more intelligence do? — claim 2]] records the mid-2026 capability-to-impact puzzle; [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3|claim 3]] and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 4|claim 4]] supply information and irreducible-error alternatives to a deployment-only explanation.
 - [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1|AI Adoption is a Myth — claim 1]] reports nominal enterprise adoption without team-speed improvement and a concentrated user distribution; [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2|claim 2]] identifies binary adoption measurement as part of the gap.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 1|Applied AI Doesn't Work — claim 1]] reports enterprise tool deployment without material organizational change; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 2|claim 2]] locates part of the gap in inherited process design.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 3|Applied AI Doesn't Work — claim 3]] adds a reported government trial where satisfaction and task-level effects did not become robust productivity evidence; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 4|claim 4]] makes queue time and handoffs concrete conversion constraints.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15|Applied AI Doesn't Work — claim 15]] reports vendor-selected deployments with large outcome improvements, illustrating a possible narrowing of the gap while requiring independent verification.
 
 ## Relationships
 

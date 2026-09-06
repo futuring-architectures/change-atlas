@@ -4,7 +4,7 @@ type: framework
 title: Capability-to-architecture loop
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-08-14
+updated_at: 2026-09-06
 tags: ["organization-design", "ai-adoption", "capabilities"]
 relationships:
   - type: operationalizes
@@ -53,6 +53,15 @@ evidence:
   - "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 3]]"
   - "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 4]]"
   - "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 6]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 7]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]"
+  - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
 ---
 
 # Capability-to-architecture loop
@@ -73,11 +82,11 @@ List what people, agents, deterministic software, partners, and customers can no
 
 ### 3. Diagnose the activity system
 
-Map goals, workflows, rules, incentives, tools, roles, and decision rights. Treat resistance, workarounds, and low adoption as possible evidence of contradiction. Do not assume the person or the technology is the sole problem.
+Map goals, workflows, rules, incentives, tools, roles, and decision rights. Distinguish the happy path from exceptions; record upstream and downstream dependencies, systems-of-record authority, organizational variation, and touch time versus elapsed time. Combine process-mining traces with operator interviews so documented procedure, actual activity, and tacit knowledge can disagree visibly. Treat resistance, workarounds, and low adoption as possible evidence of contradiction. Do not assume the person or the technology is the sole problem.
 
 ### 4. Recompose work and boundaries
 
-Redesign the workflow around the new capability. Decide which tasks combine, disappear, or move; where human judgment is distinctive; and which decisions require human authority. Prefer adaptable structures where users possess relevant local knowledge.
+Redesign the workflow around the new capability. Decide which tasks combine, disappear, or move; where deterministic software is sufficient; where an agent has adequate examples, evaluability, and bounded consequence; and which decisions require human authority with assembled evidence. Prefer adaptable structures where users possess relevant local knowledge.
 
 ### 5. Design interfaces and assurance
 
@@ -85,7 +94,7 @@ Build both agent experience and human control: permissions, inspectable state, e
 
 ### 6. Sense, learn, and reallocate
 
-Measure system outcomes, not only seats, logins, prompts, or individual speed. Map the distribution of proficiency and distinguish work that remains manual, becomes hybrid, or becomes fully automated. When field specialists discover an unknown workflow, record which learning becomes a reusable product primitive and whether each deployment reduces the next one's bespoke burden. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. For model-dependent businesses, include market scope, UX assumptions, customer adoption, and human cognitive load in the reallocation decision. Repeat the loop as capability and context change.
+Measure system outcomes, not only seats, logins, prompts, or individual speed. Baseline workflow-level cost, time, revenue, risk, quality, and distribution before implementation; prioritize consequential queues and handoffs rather than assuming transaction volume identifies the best target. Map the distribution of proficiency and distinguish work that remains manual, becomes hybrid, or becomes fully automated. When field specialists discover an unknown workflow, record which learning becomes a reusable product primitive and whether each deployment reduces the next one's bespoke burden. Watch which capabilities become bottlenecks, lose value, or become strategically sensitive. For model-dependent businesses, include market scope, UX assumptions, customer adoption, human cognitive load, model substitution, and evaluation reruns in the reallocation decision. Repeat the loop as capability and context change.
 
 ## How to apply it
 
@@ -95,6 +104,7 @@ Measure system outcomes, not only seats, logins, prompts, or individual speed. M
 4. Run a bounded, reversible implementation with explicit stop conditions.
 5. Compare local productivity with system throughput, quality, coordination load, autonomy, and distributional effects.
 6. Reallocate capabilities or redesign the architecture before scaling.
+7. Re-run the comparison when a model, vendor, interface, process owner, or system of record changes.
 
 ## Worked example
 
@@ -107,6 +117,7 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - Capability maps can underrepresent tacit knowledge and political interests.
 - A workflow pilot cannot reveal every network or long-term effect.
 - Continuous redesign can exhaust people; cadence and stability are design constraints too.
+- Before-and-after improvement without a control, complete cost record, or independently specified metric can over-attribute gains to the new system.
 
 ## Evidence
 
@@ -120,6 +131,11 @@ A support agent can resolve routine tickets. A role-first approach calls it a di
 - [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4|When the Models Get Better — claim 4]] makes revision recurring operating work; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5|claim 5]] identifies UX assumptions as a capability-sensitive architecture; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 8|claim 8]] adds customer adoption; and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9|claim 9]] adds cognitive-load segmentation.
 - [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 1|AI Adoption is a Myth — claim 1]] reports a concentrated enterprise usage distribution and adoption without team-speed improvement; [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 2|claim 2]] rejects binary adoption as an outcome measure; and [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 8|claim 8]] and [[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 9|claim 9]] propose segmented workflow architecture and work-mode reporting.
 - [[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 3|To FDE, or not to FDE? — claim 3]] treats field deployment as discovery when a new workflow has no settled shape; [[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 4|claim 4]] requires an exit after learning; and [[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 8|claim 8]] reports Decagon moving customer-specific deployment work into its product.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 6|Applied AI Doesn't Work — claim 6]] separates process coherence from wholesale system consolidation; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 7|claim 7]] supplies the department-level mapping and discovery method.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8|Applied AI Doesn't Work — claim 8]] supplies the deterministic, agentic, and human-gated allocation test; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9|claim 9]] adds baselines and handoff-sensitive prioritization.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10|Applied AI Doesn't Work — claim 10]] describes one reconciliation redesign; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11|claim 11]] adds executive authority, operator knowledge, and incentives.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13|Applied AI Doesn't Work — claim 13]] adds model-substitution and evaluation costs; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14|claim 14]] argues for combined domain, software, AI, process, and governance capability.
+- [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15|Applied AI Doesn't Work — claim 15]] reports large vendor-selected outcome changes that warrant independent verification before generalization.
 
 ## Relationships
 

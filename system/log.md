@@ -328,3 +328,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-08-31-the-network-always-beats-the-castle.md` as `evidence/sources/the-network-always-beats-the-castle-evi-1a4b91886b9a.md` with 13 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-09-06] evidence | Ingest Applied AI Doesn't Work
+
+- Captured and finalized `raw/web/2026-09-06-applied-ai-doesnt-work.md` as `evidence/sources/applied-ai-doesnt-work-evi-f6f3996faaab.md` with 15 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
