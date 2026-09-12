@@ -338,3 +338,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-09-06-the-cognitive-revolution-when-machines-do-the-thinking.md` as `evidence/sources/the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b.md` with 20 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-09-12] evidence | Ingest Fire, Ready, Aim
+
+- Captured and finalized `raw/web/2026-09-12-fire-ready-aim.md` as `evidence/sources/fire-ready-aim-evi-070971abc1c7.md` with 13 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.

@@ -4,7 +4,7 @@ type: concept
 title: Abundance relocates bottlenecks
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-09-06
+updated_at: 2026-09-12
 tags:
   - abundance
   - bottlenecks
@@ -37,6 +37,8 @@ evidence:
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9]]"
   - "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10]]"
   - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 6]]"
+  - "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]"
+  - "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
 ---
 
 # Abundance relocates bottlenecks
@@ -47,7 +49,7 @@ Radically cheaper production expands possible use cases, but it rarely makes an 
 
 ## Provenance
 
-Byrne Hobart supplies the general economic rule that radically cheaper products generate unexpectedly abundant uses. James Vincent describes machine-scale content challenging human curation. The MenuGen case shows code production becoming easier while deployment integration remains difficult. Ricky Ho’s enterprise claim shifts optimization from maximum intelligence toward intelligence per dollar. Sidu Ponnappa applies the mechanism to AI-native services: improved models can widen the economically viable work frontier while shifting constraint toward UX, adoption, cognitive load, and human judgment. Konstantine Buhler adds an explicitly Jevons-style forecast for machine cognition: lower prices may unlock large latent demand, but the claim forecasts demand for thinking rather than demonstrated useful outcomes.
+Byrne Hobart supplies the general economic rule that radically cheaper products generate unexpectedly abundant uses. James Vincent describes machine-scale content challenging human curation. The MenuGen case shows code production becoming easier while deployment integration remains difficult. Ricky Ho’s enterprise claim shifts optimization from maximum intelligence toward intelligence per dollar. Sidu Ponnappa applies the mechanism to AI-native services: improved models can widen the economically viable work frontier while shifting constraint toward UX, adoption, cognitive load, and human judgment. Konstantine Buhler adds an explicitly Jevons-style forecast for machine cognition: lower prices may unlock large latent demand, but the claim forecasts demand for thinking rather than demonstrated useful outcomes. Hiten Shah identifies a related validation and selection shift: hypotheses, code, and research can arrive faster than physical tests, organizational confidence, and human absorption.
 
 ## Aliases and related terms
 
@@ -75,6 +77,7 @@ Byrne Hobart supplies the general economic rule that radically cheaper products 
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 3|What will more intelligence do? — claim 3]] and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 4|claim 4]] add measurement and irreducible error; [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 5|claim 5]], [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8|claim 8]], and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12|claim 12]] relocate value toward replication, sensing, process experimentation, and computer-specific scale.
 - [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 3|When the Models Get Better — claim 3]] expands the economically viable work frontier; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 9|claim 9]] and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 10|claim 10]] relocate constraint toward user attention, taste, judgment, and execution discipline.
 - [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 6|The Cognitive Revolution — claim 6]] predicts a Jevons-style expansion of machine cognition while leaving adoption, verification, trust, actuation, purchasing power, and the value of the resulting decisions as complementary constraints.
+- [[fire-ready-aim-evi-070971abc1c7#Claim 8|Fire, Ready, Aim — claim 8]] identifies validation and confidence as constraints when scientific hypotheses, code, and research become abundant; [[fire-ready-aim-evi-070971abc1c7#Claim 9|claim 9]] relocates work toward selection, measurement, and expertise while leaving the bottleneck's prevalence unmeasured.
 
 ## Relationships
 

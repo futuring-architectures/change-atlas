@@ -3897,6 +3897,23 @@
       "raw_sha256": "0ccd5520f960ac15c9990a224a588ed56edd50f2a4956cbb3c4bfa425619e763",
       "source_url": "https://x.com/konstantine/status/2095166660223397963?s=12&t=Z1LQ3FldfkzVnJc_7M-GQw",
       "status": "complete"
+    },
+    "raw/web/2026-09-12-fire-ready-aim.md": {
+      "affected_wiki": [
+        "wiki/concepts/abundance-relocates-bottlenecks.md",
+        "wiki/frameworks/adaptive-futuring-cycle.md",
+        "wiki/frameworks/uncertainty-to-action-matrix.md",
+        "wiki/debates/does-cheap-implementation-improve-innovation-or-obscure-understanding.md"
+      ],
+      "canonical_url": "https://x.com/hnshah/status/2094784370066456590",
+      "claim_count": 13,
+      "completed_at": "2026-09-12",
+      "evidence_file": "evidence/sources/fire-ready-aim-evi-070971abc1c7.md",
+      "evidence_id": "evi-070971abc1c7",
+      "mode": "steady_state_url",
+      "raw_sha256": "33e485a6ddea2543082afa3a39ebed091aa8fbfe5eef96e0e1377ac52f4627cd",
+      "source_url": "https://x.com/hnshah/status/2094784370066456590",
+      "status": "complete"
     }
   },
   "schema_version": 1

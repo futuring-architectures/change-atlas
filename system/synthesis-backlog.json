@@ -1081,7 +1081,9 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 12]]",
         "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 7]]",
-        "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 11]]"
+        "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 11]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1191,6 +1193,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source treats AI coding as an early case in which people move from direct production toward direction, review, and correction, then predicts analysts directing many models and new occupations emerging. It strengthens the role-shift forecast but supplies no representative adoption, role-transition, employment, worker-experience, or longitudinal outcome evidence."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "strengthened",
+          "note": "The source argues that cheaper first attempts move human work toward selecting, evaluating, measuring, and applying expertise rather than producing an initial artifact. It strengthens the proposed role shift but supplies no representative role-transition, employment, worker-experience, or longitudinal outcome evidence."
         }
       ],
       "resolution_target": null
@@ -1295,7 +1303,9 @@
         "[[earning-judgment-evi-207760005515#Claim 7]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 1]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 2]]",
-        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]"
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -1356,6 +1366,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source predicts cheap cognition and calls wanting, choosing, accountability, and trust durable human roles, but it does not compare ideation with commitment or judgment as organizational constraints or observe a binding post-generation bottleneck."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "strengthened",
+          "note": "The source says cheap attempts make selection, evaluation, measurement, and expertise a larger share of the work, and warns that planning can shelter beliefs from falsification. It strengthens judgment as a post-generation constraint but does not establish that collective commitment is binding or show how prevalent the shift is."
         }
       ],
       "resolution_target": null
@@ -1662,6 +1678,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source predicts that wanting, choosing, accountability, and interpersonal trust will remain economically human longer than task cognition, but it does not observe a status or market premium for demonstrably human responsibility, distinctive judgment, or non-standardized work."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "no_change",
+          "note": "The source makes judgment and expertise more important when drafts are cheap, but it provides no evidence of a status or market premium for demonstrably human responsibility, distinctive judgment, or non-standardized work."
         }
       ],
       "resolution_target": null
@@ -1800,7 +1822,9 @@
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 2]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
-        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]"
+        "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1855,6 +1879,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source identifies enterprise capability spreading ahead of accountability and makes evaluation important, but it does not concern natural-language creation or compare reliable evaluation, ownership, maintenance capacity, and recourse."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "strengthened",
+          "note": "The source argues that a generated artifact can become cheaper than the knowledge needed to specify it and that selection and evaluation then absorb more of the work. It strengthens the creation-versus-evaluation mechanism but does not address ownership, maintenance capacity, or recourse."
         }
       ],
       "resolution_target": null
@@ -1875,7 +1905,9 @@
         "[[earning-judgment-evi-207760005515#Claim 6]]",
         "[[ai-adoption-is-a-myth-evi-112f1f52da2b#Claim 3]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1947,6 +1979,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source assigns engineers direction, review, and correction after machine code production, but it does not identify verification capacity as a rate-limiting resource or compare verification throughput with falling generation and implementation costs."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "strengthened",
+          "note": "The source explicitly identifies validation as the bottleneck when code becomes faster than confidence and research faster than institutional absorption. This strengthens the rate-limit mechanism, though it provides no measured organizational throughput or prevalence evidence."
         }
       ],
       "resolution_target": null
@@ -2053,7 +2091,11 @@
         "[[the-software-development-lifecycle-is-dead-evi-de2981d8e0b9#Claim 2]]",
         "[[when-to-design-for-emergence-evi-b6b637f42c96#Claim 1]]",
         "[[a-spreadsheet-way-of-knowledge-evi-c3f92fec7f9c#Claim 1]]",
-        "[[surfing-the-s-curve-evi-04ae89aa50de#Claim 1]]"
+        "[[surfing-the-s-curve-evi-04ae89aa50de#Claim 1]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 5]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 12]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 13]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2090,6 +2132,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source recommends explicit predictions, disconfirmation conditions, and revision after observed results, but it does not require reversible probes or compare organizational adaptation against one-forecast optimization."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "strengthened",
+          "note": "The source supplies a concrete probe rule: act earlier when an attempt is cheap, reversible, bounded, observable, and informative; record belief change; then commit when evidence earns conviction. It strengthens the mechanism but offers no comparative organizational adaptation outcome."
         }
       ],
       "resolution_target": null
@@ -2401,6 +2449,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source predicts broad task and institutional change through an Industrial Revolution analogy, but it does not compare organizations that redesign workflows and decision rights with organizations that insert agents into inherited roles."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "no_change",
+          "note": "The source argues that inherited planning and approval habits can lag a lower cost of execution, but it does not specify a decision-right redesign or compare redesigned organizations with organizations that insert agents into inherited roles."
         }
       ],
       "resolution_target": null
@@ -2439,7 +2493,9 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 6]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2505,6 +2561,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source argues that agent value depends on process architecture, automation posture, evaluation, model portability, governance, and combined institutional expertise rather than model calls alone. It strengthens architecture, assurance, and absorption as complements to cheap capability but offers no comparative measure of their relative value."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "strengthened",
+          "note": "The source argues that faster artifact and code generation makes selection, evaluation, validation, measurement, and institutional absorption relatively more consequential. It strengthens the assurance and absorption mechanism but does not compare architectures or quantify their relative value."
         }
       ],
       "resolution_target": null
@@ -2781,6 +2843,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source predicts that human work will shift toward directing and reviewing models and that education must change, but it does not trace removed practice to delayed capacity loss or preserve challenge, verification, and participation through a tested learning design."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "no_change",
+          "note": "The source says expertise becomes more valuable as initial attempts get cheaper, but it does not trace removed practice to delayed capacity loss or test a design that preserves challenge, verification, and participation."
         }
       ],
       "resolution_target": null
@@ -2931,6 +2999,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source uses Engels' pause to separate aggregate gains from first-cohort losses and argues that faster AI-era role change may outrun education, retraining, and safety nets. It strengthens the asynchronous institutional-layer mechanism but remains a historical analogy without comparative integrated-transition outcomes."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "no_change",
+          "note": "The source notes a mismatch between cheaper execution and inherited planning or approval habits, but it does not examine coordinated change across technology, workflow, role, learning, and governance layers or compare transition outcomes."
         }
       ],
       "resolution_target": null
@@ -2986,7 +3060,10 @@
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 3]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 7]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -3021,6 +3098,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source contrasts satisfaction and local task-speed measures with organizational productivity, requires pre-build workflow baselines, and organizes reported outcomes across cost, time, revenue, and risk. It strengthens system-outcome evaluation, while understanding, judgment, retention, worker effects, and causal attribution remain missing."
+        },
+        {
+          "source": "evi-070971abc1c7",
+          "date": "2026-09-12",
+          "outcome": "strengthened",
+          "note": "The source replaces mere artifact production with records of uncertainty reduced, evidence gained, belief changed, and judgment applied. It strengthens candidate evaluation signals, while their validity for understanding, retention, worker effects, and system outcomes remains untested."
         }
       ],
       "resolution_target": null
