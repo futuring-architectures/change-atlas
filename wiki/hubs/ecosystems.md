@@ -4,7 +4,7 @@ type: hub
 title: Ecosystems
 status: draft
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-10-09
 tags:
   - nature-of-the-firm
   - ecosystems
@@ -20,6 +20,8 @@ This Hub synthesizes **Nature of the Firm → Ecosystems**. Its 16 entries descr
 
 The collection also contains a warning against romanticizing ecosystems. Quibi had external audience signals but leadership could discount them. Platform participants can produce value without receiving voice or ownership. An open artifact can mobilize a sponsor-serving complement network. Modular supply can redistribute dependency rather than eliminate concentrated bottlenecks. Ecosystem language therefore describes an organizational field; it does not prove mutuality, openness, or equitable governance.
 
+Agent-mediated exchange adds a distinction between where demand enters a market and how an offer is formed. [[agents-and-their-better-half-evi-f032128a8cc6#Claim 12|Choudary's definition]] separates agents choosing within an existing market from represented counterparties constructing an offer through their objectives and trade-offs. The candidate Concept [[agentic-participants-and-agentic-markets|Agentic participants and agentic markets]] brings that distinction into the coordination map of the Ecosystem boundary audit.
+
 No Trend is promoted. The collection offers strong mechanisms and several bounded cases, but the cases are heterogeneous and do not measure a common directional change in firm boundaries over time.
 
 ## Key maps
@@ -34,6 +36,7 @@ No Trend is promoted. The collection offers strong mechanisms and several bounde
   - [[participation-is-infrastructure|Participation is infrastructure]] (expanded from Networks)
   - [[the-technium|The technium]]
   - [[non-coercive-marketing|Non-coercive marketing]]
+  - [[agentic-participants-and-agentic-markets|Agentic participants and agentic markets]]
 - Framework:
   - [[ecosystem-boundary-audit|Ecosystem boundary audit]]
 - Debate:
@@ -52,6 +55,8 @@ These propositions have stable identities in `system/synthesis-backlog.json` and
 ## Synthesis boundary
 
 The map derives from 16 curated entries and 32 atomic claims. It preserves prescriptions for community ownership, non-coercive marketing, decentralization, embedded finance, and open-source AI as prescriptions or forecasts. A single detailed fantasy-miniature supply chain is treated as a case, not a universal organizational form. Secondary metadata recovery for two migrated sources and one unresolved publication date are recorded in Evidence and do not support temporal claims.
+
+The October 2026 agentic-market addition is a conceptual distinction with reported participant examples and hypothetical bilateral negotiations. It does not establish that markets have reorganized or that the proposed coordination mechanism distributes control or rewards.
 
 ## Relationships
 

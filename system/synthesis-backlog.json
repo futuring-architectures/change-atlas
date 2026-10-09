@@ -76,6 +76,12 @@
           "date": "2026-08-31",
           "outcome": "qualified",
           "note": "The source proposes local capability routing, nested trust domains, and peer protocols as mechanisms for distributing execution and coordination. It also leaves objective-setting, rule ownership, affected-party voice, and control of the routing layer unresolved, so it qualifies rather than demonstrates distributed stewardship or transferred decision power."
+        },
+        {
+          "source": "evi-f032128a8cc6",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source proposes represented counterparties constructing offers through negotiation, but supplies no distributed stewardship practice, transfer of decision power, or comparison with conventional firms. Bilateral representation does not settle control of the agent or market infrastructure."
         }
       ],
       "resolution_target": null
@@ -661,6 +667,12 @@
           "date": "2026-08-24",
           "outcome": "qualified",
           "note": "The source describes an inference-first shift in problem framing but couples it with continuous human direction, evaluation, clearer error awareness, supervision, and limits on agent authority. It qualifies any simple link from reduced interaction friction to weakened agency while providing no interface comparison or evidence about control over memory, prediction, and action."
+        },
+        {
+          "source": "evi-f032128a8cc6",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source describes agents representing richer objectives and trade-offs, but does not distinguish inferred from explicitly supplied intent or examine visible control over memory, prediction, and action. It therefore does not test the claimed interface-friction and agency relationship."
         }
       ],
       "resolution_target": null
@@ -1604,6 +1616,12 @@
           "date": "2026-08-24",
           "outcome": "no_change",
           "note": "The source illustrates agent-mediated operation of specialist CAD software, but it does not address software discovery, occasional-use economics, niche-tool adoption, or concentration of control in the agent layer."
+        },
+        {
+          "source": "evi-f032128a8cc6",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source distinguishes a consumer-agent aggregation layer from bilateral market coordination, but does not examine occasional-use software, niche-tool discovery economics, adoption, or concentration of control. The market distinction cannot establish the proposition's software-specific effects."
         }
       ],
       "resolution_target": null
@@ -1758,7 +1776,10 @@
         "[[from-firms-to-networks-how-coordination-technology-will-reorganise-everything-evi-1f3bfb709db5#Claim 2]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 5]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
-        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 13]]"
+        "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 13]]",
+        "[[agents-and-their-better-half-evi-f032128a8cc6#Claim 2]]",
+        "[[agents-and-their-better-half-evi-f032128a8cc6#Claim 9]]",
+        "[[agents-and-their-better-half-evi-f032128a8cc6#Claim 12]]"
       ],
       "relevant_collections": [
         "power-to-creators-communities",
@@ -1795,6 +1816,12 @@
           "date": "2026-08-31",
           "outcome": "strengthened",
           "note": "The source supplies a detailed machine-scale coordination mechanism—capability routing, reliability classes, trust domains, and peer protocols—and explicitly forecasts new network organizational forms. It strengthens the mechanism and forecast but provides no observed movement of economic activity from firms to networks or comparative outcome."
+        },
+        {
+          "source": "evi-f032128a8cc6",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "The source adds a mechanism through which represented buyers and suppliers could jointly construct offers from objectives and constraints, extending machine coordination beyond access to fixed catalogues. It strengthens the coordination mechanism but neither observes activity moving out of firms nor compares network and firm outcomes; its procurement observatory reports participants rather than agentic markets."
         }
       ],
       "resolution_target": null
@@ -2455,6 +2482,12 @@
           "date": "2026-09-12",
           "outcome": "no_change",
           "note": "The source argues that inherited planning and approval habits can lag a lower cost of execution, but it does not specify a decision-right redesign or compare redesigned organizations with organizations that insert agents into inherited roles."
+        },
+        {
+          "source": "evi-f032128a8cc6",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source contrasts static transaction mechanisms with adaptive counterparties and reports one application-mode pause, but does not specify an implemented organizational workflow and decision-right redesign or compare organizational performance with inherited-role insertion."
         }
       ],
       "resolution_target": null
@@ -2665,6 +2698,12 @@
           "date": "2026-09-06",
           "outcome": "qualified",
           "note": "The source gives human decision-makers assembled evidence and final action in higher-risk cases and requires operator participation in redesign. It does not specify independent inspection, meaningful refusal, appeal, benefit sharing, or recourse, so nominal inclusion may still coexist with reduced agency."
+        },
+        {
+          "source": "evi-f032128a8cc6",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source makes adaptive counterparty participation distinct from catalogue and API access, but does not evaluate human inspection, refusal, recourse, or agency loss. Its proposed transaction-level evaluation does not establish the proposition's claimed agency effects."
         }
       ],
       "resolution_target": null

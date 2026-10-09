@@ -4,13 +4,15 @@ type: concept
 title: Agent experience
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-08-24
+updated_at: 2026-10-09
 tags: ["ai-agents", "interfaces", "software-design"]
 relationships:
   - type: raises_question
     target: "[[which-ai-interfaces-preserve-human-agency]]"
   - type: supports
     target: "[[capability-to-architecture-loop]]"
+  - type: qualified_by
+    target: "[[agentic-participants-and-agentic-markets]]"
 description: "The usability of a tool, platform, or protocol from the perspective of an AI agent acting under human authority."
 evidence:
   - "[[introducing-ax-why-agent-experience-matters-evi-effc684d312e#Claim 1]]"
@@ -19,6 +21,8 @@ evidence:
   - "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]"
   - "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 4]]"
   - "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]"
+  - "[[agents-and-their-better-half-evi-f032128a8cc6#Claim 3]]"
+  - "[[agents-and-their-better-half-evi-f032128a8cc6#Claim 12]]"
 ---
 
 # Agent experience
@@ -47,6 +51,7 @@ Mathias Biilmann names “AX” as an analogue to developer and user experience.
 - Human-facing simplicity can require greater agent-facing complexity; hiding that complexity from the person does not make its consequences disappear.
 - A tool can be easy for an agent and unsafe for the person represented by that agent.
 - Agent compatibility may concentrate power in dominant personal-agent layers even as it opens individual services.
+- Agent access and adaptive negotiation are different capabilities. A seller can expose a usable catalogue or API while still limiting a buyer agent to predetermined offers. [[agentic-participants-and-agentic-markets|Agentic participants and agentic markets]] distinguishes that participation from an interaction that changes what can be offered.
 
 ## Evidence
 
@@ -56,8 +61,10 @@ Mathias Biilmann names “AX” as an analogue to developer and user experience.
 - [[previously-unmanufacturable-evi-4d49249b45d7#Claim 3|Previously Unmanufacturable — claim 3]] forecasts natural language as an intent layer over application-specific grammars.
 - [[previously-unmanufacturable-evi-4d49249b45d7#Claim 4|Previously Unmanufacturable — claim 4]] identifies the paired design inversion: a simple human surface depends on a richer, safer agent harness.
 - [[previously-unmanufacturable-evi-4d49249b45d7#Claim 5|Previously Unmanufacturable — claim 5]] moves documentation and agent evaluation into application product design.
+- [[agents-and-their-better-half-evi-f032128a8cc6#Claim 3|Agents and their better half — claim 3]] describes richer buyer intent meeting static supply; [[agents-and-their-better-half-evi-f032128a8cc6#Claim 12|claim 12]] makes mutually constructed offers a separate coordination mechanism.
 
 ## Relationships
 
 - Raises [[which-ai-interfaces-preserve-human-agency|Which AI interfaces preserve human agency?]].
 - Informs the interface-and-assurance step of the [[capability-to-architecture-loop|Capability-to-architecture loop]].
+- Qualified by [[agentic-participants-and-agentic-markets|the distinction between agentic participants and markets]], which separates operability from adaptive offer formation.

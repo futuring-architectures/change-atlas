@@ -343,3 +343,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-09-12-fire-ready-aim.md` as `evidence/sources/fire-ready-aim-evi-070971abc1c7.md` with 13 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.
+
+## [2026-10-09] evidence | Ingest Agents - and their better half
+
+- Captured and finalized `raw/web/2026-10-09-agents-and-their-better-half.md` as `evidence/sources/agents-and-their-better-half-evi-f032128a8cc6.md` with 12 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.

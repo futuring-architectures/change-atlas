@@ -3914,6 +3914,23 @@
       "raw_sha256": "33e485a6ddea2543082afa3a39ebed091aa8fbfe5eef96e0e1377ac52f4627cd",
       "source_url": "https://x.com/hnshah/status/2094784370066456590",
       "status": "complete"
+    },
+    "raw/web/2026-10-09-agents-and-their-better-half.md": {
+      "affected_wiki": [
+        "wiki/hubs/ecosystems.md",
+        "wiki/concepts/agent-experience.md",
+        "wiki/concepts/agentic-participants-and-agentic-markets.md",
+        "wiki/frameworks/ecosystem-boundary-audit.md"
+      ],
+      "canonical_url": "https://platforms.substack.com/p/agents-and-their-better-half",
+      "claim_count": 12,
+      "completed_at": "2026-10-09",
+      "evidence_file": "evidence/sources/agents-and-their-better-half-evi-f032128a8cc6.md",
+      "evidence_id": "evi-f032128a8cc6",
+      "mode": "steady_state_url",
+      "raw_sha256": "1c350d8defbc1239e2dd895e62f01db2d449cb26cac923943226bdbdd4b4fdf3",
+      "source_url": "https://platforms.substack.com/p/agents-and-their-better-half",
+      "status": "complete"
     }
   },
   "schema_version": 1
