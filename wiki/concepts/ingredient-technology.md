@@ -4,7 +4,7 @@ type: concept
 title: Ingredient technology
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-10-09
 tags: ["ai-products", "technology-adoption", "integration"]
 relationships:
   - type: refines
@@ -13,6 +13,7 @@ description: "A general capability that becomes valuable only when surrounded by
 evidence:
   - "[[are-ai-expectations-too-high-or-misplaced-evi-6e07e50b7b3d#Claim 1]]"
   - "[[are-ai-expectations-too-high-or-misplaced-evi-6e07e50b7b3d#Claim 2]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15]]"
 ---
 
 # Ingredient technology
@@ -24,6 +25,8 @@ An ingredient technology supplies a reusable capability but does not define the 
 ## Provenance
 
 Steven Sinofsky proposes that generative-AI functions such as summarization, rewriting, templates, and draft creation may disappear into products as ordinary features, with AI acting as an ingredient rather than a standalone category.
+
+Daron Acemoglu extends the complementarity argument beyond product integration: infrastructure needs suitable applications, a route to consumers, and user feedback that changes the applications. A technically improving ingredient can remain disconnected from useful consumer outcomes when distribution or the feedback loop is neglected: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15|applications, distribution, and consumer learning]].
 
 ## Aliases and related terms
 
@@ -43,6 +46,7 @@ Steven Sinofsky proposes that generative-AI functions such as summarization, rew
 
 - [[are-ai-expectations-too-high-or-misplaced-evi-6e07e50b7b3d#Claim 1|Are AI Expectations Too High or Misplaced? — claim 1]] predicts AI-labeled functions becoming ordinary features.
 - [[are-ai-expectations-too-high-or-misplaced-evi-6e07e50b7b3d#Claim 2|Are AI Expectations Too High or Misplaced? — claim 2]] supplies the ingredient-technology hypothesis.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15|Will AI Replace Workers? — claim 15]] adds distribution and continuing consumer feedback to the complements around infrastructure.
 
 ## Relationships
 

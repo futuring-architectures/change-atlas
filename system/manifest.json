@@ -3949,6 +3949,24 @@
       "raw_sha256": "487b8a334222e39214f2785523ad19646684dfb8cc83a4ba369cafffcc45b8ba",
       "source_url": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/",
       "status": "complete"
+    },
+    "raw/web/2026-10-09-will-ai-replace-workers-not-if-we-build-it-right.md": {
+      "affected_wiki": [
+        "wiki/concepts/automation-is-an-arrangement-of-power.md",
+        "wiki/concepts/capability-deployment-gap.md",
+        "wiki/concepts/ingredient-technology.md",
+        "wiki/frameworks/intelligence-to-productivity-pathways.md",
+        "wiki/debates/who-captures-the-gains-from-automation.md"
+      ],
+      "canonical_url": "https://humanistreview.ai/issue-1/acemoglu-ai-replace-workers/",
+      "claim_count": 39,
+      "completed_at": "2026-10-09",
+      "evidence_file": "evidence/sources/will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391.md",
+      "evidence_id": "evi-d97c890f5391",
+      "mode": "steady_state_url",
+      "raw_sha256": "18d028aad030f289f86114f4837360f6526a7bcf2febb592f2452a3db0ff5318",
+      "source_url": "https://humanistreview.ai/issue-1/acemoglu-ai-replace-workers/",
+      "status": "complete"
     }
   },
   "schema_version": 1

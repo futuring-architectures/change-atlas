@@ -4,7 +4,7 @@ type: debate
 title: Who captures the gains from automation?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-09-06
+updated_at: 2026-10-09
 tags:
   - automation
   - distribution
@@ -40,6 +40,13 @@ evidence:
   - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 12]]"
   - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 13]]"
   - "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 20]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 22]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 23]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 28]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38]]"
 ---
 
 # Who captures the gains from automation?
@@ -66,6 +73,14 @@ When automation increases capability or reduces labor, what determines whether t
 
 ## Sources of disagreement
 
+### Designing new worker capabilities
+
+Acemoglu's pro-worker alternative concerns what systems are built, not only how realized savings are allocated. It supplies new information and creates skills or tasks that workers could not previously perform. His teacher example uses diagnostics to support targeted human instruction rather than replacing the teacher. This differs from retaining headcount while automating the same work: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21|pro-worker AI]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24|new information for teachers]].
+
+He predicts better productivity and distributional outcomes, but capability expansion does not itself settle wages, bargaining power, workload, or ownership. His policy agenda addresses demand, demonstrations, competition, and expert-data rights because a complementary technical design can still sit inside an extractive economic arrangement: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 22|predicted benefits]], [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31|coupled market conditions]], and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38|creator control and compensation]].
+
+### Disputed conditions
+
 - Whether productivity gains are measured at the task, firm, worker, consumer, or societal level.
 - Whether ownership of capital and distribution is treated as fixed or designed.
 - Whether access, ownership of productive means, redistribution of proceeds, and usable decision rights are treated as substitutes or complementary levers.
@@ -76,6 +91,9 @@ When automation increases capability or reduces labor, what determines whether t
 - Whether managerial belief can cause displacement before a system demonstrates economic or operational competence.
 - Whether later aggregate gains compensate people who absorb displacement, wage pressure, or retraining costs during the transition.
 - Whether education, safety nets, bargaining institutions, and new-job formation can adjust on the same clock as technical capability.
+- Whether a tool expands worker expertise or only accelerates output with unchanged authority and dependence.
+- Whether mutually reinforcing buyer and developer expectations restrict which complementary tools reach the market.
+- Whether expert-data markets distribute control and compensation or create another incumbent-controlled bottleneck.
 
 ## Evidence
 
@@ -90,7 +108,12 @@ When automation increases capability or reduces labor, what determines whether t
 - [[let-it-crash-how-to-steer-what-comes-after-evi-46e9cb77dc3d#Claim 8|Let It Crash — claim 8]] advocates spreading ownership of and inexpensive access to the productive AI layer rather than relying primarily on redistribution after value has concentrated.
 - [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 6|The Cognitive Revolution — claim 6]] supplies the Jevons-style demand-expansion forecast; [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 11|claim 11]] predicts role and occupation creation; [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 12|claim 12]] uses Engels' pause to show that aggregate success and generational individual loss can coexist; [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 13|claim 13]] assigns adaptation work to education and safety-net redesign; and [[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 20|claim 20]] states shared prosperity as an aspiration without specifying enforceable distribution mechanisms.
 
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21|Will AI Replace Workers? — claim 21]] defines expanded worker capability; [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 22|claim 22]] predicts comparative benefits, while [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 23|claim 23]] reports prototype evaluation without results and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24|claim 24]] describes the teacher-support design.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 28|Will AI Replace Workers? — claim 28]] proposes supplier–buyer expectation lock-in; [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31|claim 31]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38|claim 38]] advocate coupled market conditions and expert-data rights.
+
 ## Current assessment
+
+Acemoglu distinguishes a worker-complementary development path from both full replacement and output expansion after automation. Its comparative productivity and employment advantages remain forecasts; the teacher-support prototype report supplies no evaluation results. Treat new worker capabilities, realized system productivity, and distribution of gains as separate tests, not interchangeable meanings of pro-worker: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21|definition]], [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 22|comparative forecast]], and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 23|prototype activity]].
 
 Automation posture, realized productivity, allocation, transition timing, and distribution are separate questions. A technically appropriate level of delegation does not prove that total work falls, and realized savings do not determine whether gains become lower cost, greater output, shorter hours, higher pay, employment preservation, or owner returns. An aggregate abundance forecast can be true while the displaced cohort still loses; benefits arriving to later workers do not compensate earlier losses automatically. Ownership of productive means and redistribution of proceeds are also separate and potentially complementary: access to a model or compute is not the same as an enforceable stake, decision power, operating capacity, or income protection. Claims about automation gains should therefore state the workflow boundary, deployment economics, ambition, demand, transition horizon, ownership, bargaining, compensation, adaptation capacity, and recourse arrangements that make the distribution plausible.
 
@@ -99,6 +122,7 @@ Automation posture, realized productivity, allocation, transition timing, and di
 - Which ownership and compensation structures distribute automation gains beyond model and platform owners?
 - How should hidden labor and cultural inputs be recorded and rewarded?
 - Which measures capture retained agency and skill alongside productivity and price?
+- Which purchasing commitments, demonstration programs, and data rights would shift demand from substitution toward new worker capabilities without merely subsidizing existing incumbents?
 
 ## Relationships
 

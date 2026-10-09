@@ -4,7 +4,7 @@ type: concept
 title: Capability-deployment gap
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-09-06
+updated_at: 2026-10-09
 tags: ["capability", "deployment", "institutions"]
 relationships:
   - type: supported_by
@@ -42,6 +42,11 @@ evidence:
   - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 3]]"
   - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 4]]"
   - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 6]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 11]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 14]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 18]]"
 ---
 
 # Capability-deployment gap
@@ -56,6 +61,12 @@ Forecasts that move directly from benchmark capability to jobs, markets, or soci
 
 The gap should not become a residual explanation for every missing impact. Slow conversion can coexist with a ceiling on useful inference: finite measurement, irreducible error, or weak demand may limit the value available to deploy even when benchmark capability and compute continue to rise.
 
+## Product development and consequential errors
+
+The gap can persist through product priorities as well as technical limits. Acemoglu's long-term consumer speech-recognition account attributes disappointing PC applications to corporate disruption and a shift toward enterprise and medical markets despite underlying progress. This is a personal, historically framed explanation, not a standardized comparison of all voice products: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 14|consumer application priorities]].
+
+Average accuracy also differs from usable reliability. An occasional meaning-changing recognition error may force a person to inspect every output, while incompatibilities add repair work that a benchmark omits. Assess error severity, detectability, recovery, and total review time, not just the average success rate: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17|speech-recognition review burden]]. Whole-job replacement adds a separate requirement: coverage of judgment, social interaction, and the tasks connecting bounded demonstrations into a complete practice: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 18|task coverage versus occupational replacement]].
+
 ## Evidence
 
 - [[lessons-from-historys-greatest-r-and-d-labs-evi-a9bfefd1c558#Claim 2|Lessons From History’s Greatest R&D Labs — claim 2]].
@@ -68,6 +79,8 @@ The gap should not become a residual explanation for every missing impact. Slow 
 - [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 1|Applied AI Doesn't Work — claim 1]] reports enterprise tool deployment without material organizational change; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 2|claim 2]] locates part of the gap in inherited process design.
 - [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 3|Applied AI Doesn't Work — claim 3]] adds a reported government trial where satisfaction and task-level effects did not become robust productivity evidence; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 4|claim 4]] makes queue time and handoffs concrete conversion constraints.
 - [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15|Applied AI Doesn't Work — claim 15]] reports vendor-selected deployments with large outcome improvements, illustrating a possible narrowing of the gap while requiring independent verification.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 6|Will AI Replace Workers? — claim 6]] argues for task reallocation and organizational learning; [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 11|claim 11]] records Acemoglu's July 2026 assessment that applications have lagged faster-than-expected models.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 14|Will AI Replace Workers? — claim 14]], [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17|claim 17]], and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 18|claim 18]] distinguish product priorities, consequential errors, and complete occupational task coverage.
 
 ## Relationships
 

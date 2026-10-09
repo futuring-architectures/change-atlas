@@ -4,7 +4,7 @@ type: concept
 title: Automation is an arrangement of power
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-31
+updated_at: 2026-10-09
 tags: ["automation", "labor", "power"]
 relationships:
   - type: supported_by
@@ -25,6 +25,11 @@ evidence:
   - "[[when-we-become-cogs-evi-c1da269b7217#Claim 2]]"
   - "[[0-50-or-200-evi-704a6910d89c#Claim 3]]"
   - "[[0-50-or-200-evi-704a6910d89c#Claim 4]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 26]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 27]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 28]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38]]"
 ---
 
 # Automation is an arrangement of power
@@ -37,6 +42,10 @@ Automation is an arrangement of power when the consequential question is not onl
 
 The label “AI” can bundle machine inference with outsourcing, work decomposition, surveillance, and role redesign. A productivity gain for one actor may appear as intensified review, lower-paid exception work, or lost learning for another.
 
+The arrangement can begin before a product exists. Acemoglu proposes that buyers expecting automation and developers expecting demand for automation reinforce each other's investment choices, leaving worker-complementary alternatives underdeveloped. Incumbent business models and control of capital, data, and talent can stabilize that direction: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 26|business-model incentives]], [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 27|concentration]], and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 28|supplier–buyer coordination failure]]. These are proposed mechanisms, not a measured market-wide equilibrium.
+
+His alternative couples corporate demand, demonstration programs, competing business models, and domain-data infrastructure. It also gives data creators permission, control, and compensation rather than treating expertise as an unpriced input. Changing the arrangement therefore involves institutions upstream of deployment as well as the final division of tasks: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31|four coupled steering objectives]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38|expert-data rights and compensation]].
+
 ## Boundary
 
 This concept does not deny technical change. It prevents capability from being treated as an inevitable organizational design. Material limits and institutional choices must be analyzed together.
@@ -47,6 +56,8 @@ This concept does not deny technical change. It prevents capability from being t
 - [[the-problem-with-ai-is-about-power-not-technology-evi-77b9405b7791#Claim 1|The Problem With AI Is About Power — claim 1]] and [[the-problem-with-ai-is-about-power-not-technology-evi-77b9405b7791#Claim 2|claim 2]].
 - [[when-we-become-cogs-evi-c1da269b7217#Claim 2|When We Become Cogs — claim 2]].
 - [[0-50-or-200-evi-704a6910d89c#Claim 3|0%, 50%, or 200% — claim 3]] makes cost-oriented workforce reduction one allocation choice; [[0-50-or-200-evi-704a6910d89c#Claim 4|claim 4]] contrasts growth-oriented reinvestment without treating either as technically inevitable.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 26|Will AI Replace Workers? — claim 26]], [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 27|claim 27]], and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 28|claim 28]] propose business-model, concentration, and reciprocal-expectation mechanisms shaping automation demand and supply.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31|Will AI Replace Workers? — claim 31]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38|claim 38]] advocate coupled market-design objectives and creator control over expert data.
 
 ## Relationships
 

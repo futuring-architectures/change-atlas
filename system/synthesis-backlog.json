@@ -887,7 +887,9 @@
         "[[tech-pace-layering-evi-ef5c67976e08#Claim 1]]",
         "[[i-find-the-story-of-ai-and-radiology-fascinating-evi-7cd541fba7ef#Claim 2]]",
         "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 7]]",
-        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]"
+        "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 37]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-organization",
@@ -931,6 +933,12 @@
           "date": "2026-08-10",
           "outcome": "qualified",
           "note": "The source reinforces that advanced production knowledge is tacit and distributed, then predicts that dense sensing and AI-guided experiments may make parts of it easier to capture and diffuse. The proposition now reflects that possible transfer mechanism; no deployed comparison shows which expertise becomes portable or what remains embodied and relational."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "Claims 37–38 make expert handling of complex cases an input to worker-complementary applications and advocate permission, control, and compensation for deliberately producing that data. This strengthens expertise as infrastructure and a proposed transfer mechanism, but does not test legacy-system retention, fidelity of tacit capture, or comparative transition outcomes. The cumulative qualified status remains appropriate."
         }
       ],
       "resolution_target": null
@@ -1217,6 +1225,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source makes customer and strategic judgment more consequential in entrepreneurship, but does not observe organizational roles moving from process execution into orchestration, evaluation, or exception handling. The classroom case is not representative role-transition evidence."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 6]] calls for task reallocation and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24]] proposes new information for teachers, but neither observes roles moving toward orchestration, evaluation, or exception handling. Pro-worker capability expansion is not equivalent to this particular role trajectory."
         }
       ],
       "resolution_target": null
@@ -1959,7 +1973,8 @@
         "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 5]]",
-        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 15]]"
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 15]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2043,6 +2058,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "The source reports fast construction outpacing validation of customer need, with compliments replacing disconfirming evidence, and identifies judgment as the startup bottleneck. It strengthens the market-validation side of verification scarcity but does not measure verification capacity, organizational throughput, or prevalence beyond this cohort."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "Claim 17 identifies an inspection burden hidden by high average speech-recognition accuracy: rare consequential errors can require proofreading every output. It strengthens a mechanism by which verification can absorb nominal production gains, but provides no measured time cost, organizational throughput, or proof that verification is the dominant constraint across AI-enabled firms."
         }
       ],
       "resolution_target": null
@@ -2134,6 +2155,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source reports student learning gaps after AI-assisted building and summarization, but does not examine removal of entry-level employment or observe a delayed change in the supply of expert judgment. A classroom case cannot establish the proposed labor-pipeline effect."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 7]] reports occupational persistence and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]] defines worker capability expansion. Neither examines entry-level work removal or a delayed change in the future supply of expert judgment; broad displacement forecasts do not establish that pipeline mechanism."
         }
       ],
       "resolution_target": null
@@ -2261,7 +2288,9 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2352,6 +2381,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source relocates governance into workflow baselines, automation posture, executive process authority, operator participation, evaluation, model substitution, and multidisciplinary deployment capability. It strengthens the deployment-and-institutional-use direction while also emphasizing provider lock-in; it does not establish model commoditization or comparative governance outcomes."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "Claims 31 and 38 place application direction inside demand, demonstration, competition, and data-rights institutions, while retaining creator control and compensation as consequential. This strengthens governance of development and institutional use beyond model performance. It does not establish commoditization, viable exit, a shift over time in governance effectiveness, or tested policy outcomes; cumulative qualified status is unchanged."
         }
       ],
       "resolution_target": null
@@ -2438,7 +2473,9 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 10]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 6]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2540,6 +2577,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source diagnoses a course's inherited pedagogy and reports plans for further redesign, but this installment does not describe a completed replacement workflow, changed decision rights, or comparative organizational performance."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "Claim 6 argues for task reallocation and organizational learning; claim 24 makes that concrete through a proposed information-to-targeted-teaching workflow rather than whole-role substitution. This strengthens the redesign mechanism, but the source offers no completed efficacy result, decision-right comparison, or organizational performance test."
         }
       ],
       "resolution_target": null
@@ -2580,7 +2623,10 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
-        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 11]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15]]",
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2658,6 +2704,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source concerns validation of customer need and retained student understanding, rather than component architecture, assurance systems, or institutional absorption. Its call for course redesign does not establish a change in the relative value of those complements."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "Claims 11, 15, and 17 pair faster-than-expected model advances with lagging applications, missing distribution and feedback complements, and costly last-mile inspection. They strengthen complements and assurance as constraints beyond technical capability, but do not measure component-generation speed, relative architectural value, or comparative institutional absorption."
         }
       ],
       "resolution_target": null
@@ -2862,6 +2914,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source exposes a gap between visible product output and learning, but does not propose or test renewal-capacity measurement or compare long-run organizational capability preservation. Its replacement pedagogy is not evaluated here."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]] values new skills and expertise and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 22]] predicts better outcomes. Neither proposes measuring renewal capacity alongside throughput or tests whether that measurement improves long-run organizational capability."
         }
       ],
       "resolution_target": null
@@ -2960,6 +3018,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "The source reports substituted customer validation, less nuanced understanding, and difficulty defending assumptions after interview summarization despite polished outputs. It strengthens the bypassed-practice and hidden-learning-gap mechanism, but the current-cohort account does not demonstrate delayed capacity loss, causal attribution, or a tested preservation design."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 19]] characterizes human learning and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]] advocates skill creation, but the source does not observe removed practice, test preservation of challenge and participation, or trace delayed capacity loss hidden by short-term output."
         }
       ],
       "resolution_target": null
@@ -3122,6 +3186,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source reports faster construction outpacing an inherited learning model, but does not examine coordinated technical, institutional, social, and cultural pace layers or compare integrated transition outcomes. The replacement course is deferred to later installments."
+        },
+        {
+          "source": "evi-d97c890f5391",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15]] names technical and commercial complements and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31]] advocates simultaneous market-design objectives. These do not specify coordination among different pace layers or compare an integrated transition with a single rollout. The coupling argument alone does not test the proposition's timing mechanism."
         }
       ],
       "resolution_target": null

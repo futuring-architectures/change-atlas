@@ -4,7 +4,7 @@ type: framework
 title: Intelligence-to-productivity pathways
 status: candidate
 created_at: 2026-08-10
-updated_at: 2026-08-10
+updated_at: 2026-10-09
 tags:
   - ai
   - intelligence
@@ -33,6 +33,12 @@ evidence:
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 10]]"
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 11]]"
   - "[[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 23]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 37]]"
+  - "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38]]"
 ---
 
 # Intelligence-to-productivity pathways
@@ -42,6 +48,8 @@ evidence:
 Use this Framework when a capability forecast moves directly from “more intelligent” models to economic or scientific transformation. It asks what information is measurable, which machine-specific advantage is doing the work, what complementary system converts it into outcomes, and where the next constraint appears.
 
 The Framework turns one author's three-part forecast into an auditable map. It does not establish that intelligence has reached a ceiling or that any pathway will deliver the predicted gains.
+
+Acemoglu's pro-worker design orientation adds a cross-pathway test: does the application supply information or expertise that lets people do something newly useful, rather than only reproduce or accelerate existing work? This extends the outcome audit without changing the three technical pathways: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21|expanded worker capability]].
 
 ## Boundary: the measurable-information frontier
 
@@ -82,6 +90,8 @@ Trace:
 5. whether diffusion preserves learning and agency or converts workers into extractive data sources;
 6. whether faster diffusion improves competition or strengthens the actor controlling the instrumentation layer.
 
+For expert examples, distinguish data that happens to be captured from data deliberately created to explain difficult cases. Record who can permit its use, control access, and receive compensation. Acemoglu treats such expert data as application infrastructure, not a free by-product of worker activity: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 37|complex cases and expert data]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38|creator rights and incentives]].
+
 [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 7|Claim 7]] supplies distributed tacit knowledge; [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8|claim 8]] and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 9|claim 9]] supply the instrumentation, diffusion, and excludability hypotheses.
 
 ## Pathway 3: exploit complex regularities
@@ -109,6 +119,8 @@ For every pathway, map the complementary work between technical performance and 
 - environmental and distributional consequences;
 - the time between capability availability, adoption, learning, and aggregate measurement.
 
+Include a route to users and a feedback process that can change the application, not just a distribution launch. Acemoglu's infrastructure argument places these complements alongside the technical breakthrough: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15|application, distribution, and feedback complementarity]].
+
 The source's own opening observation—rapid capability gains with limited broad transformation by mid-2026—shows why this conversion layer cannot be skipped: [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 2|claim 2]].
 
 ## Decision record
@@ -124,6 +136,8 @@ For a forecast or investment, record:
 7. owners of data, models, instruments, capital, decisions, and surplus;
 8. verification, explanation, recourse, and failure conditions;
 9. evidence and date at which the forecast should be revised.
+
+Record separately whether workers gain new information, skills, task options, and decision power, and whether those gains improve customer or public outcomes. For teacher assistance, detecting curricular difficulties and proposing teaching groups are intermediate capabilities; improved learning and sustainable teaching work require their own tests. Acemoglu reports prototypes under evaluation, not completed efficacy results: [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 23|prototype evaluation]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24|teacher-support design]].
 
 ## Applicability and limitations
 
@@ -143,6 +157,9 @@ For a forecast or investment, record:
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 7|Claim 7]], [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 8|claim 8]], and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 9|claim 9]] supply the distributed-knowledge pathway and its competition trade-off.
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 10|Claim 10]] and [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 11|claim 11]] supply the cloud-law pathway and scientific forecast.
 - [[what-will-more-intelligence-actually-do-for-us-evi-6d1521adbc8d#Claim 12|Claim 12]] supplies the cross-pathway synthesis.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15|Will AI Replace Workers? — claim 15]] supplies distribution and feedback complements; [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21|claim 21]] supplies the worker-capability objective.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 23|Will AI Replace Workers? — claim 23]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24|claim 24]] distinguish a reported prototype from the proposed education outcome mechanism.
+- [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 37|Will AI Replace Workers? — claim 37]] and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38|claim 38]] add expert-case data quality and creator control as complements to capturing tacit practice.
 
 ## Relationships
 

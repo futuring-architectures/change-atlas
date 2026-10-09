@@ -353,3 +353,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-10-09-steve-blank-the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the.md` as `evidence/sources/the-year-ai-came-for-us-evi-15cd0e183003.md` with 18 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-10-09] evidence | Ingest Will AI Replace Workers? Not If We Build It Right.
+
+- Captured and finalized `raw/web/2026-10-09-will-ai-replace-workers-not-if-we-build-it-right.md` as `evidence/sources/will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391.md` with 39 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
