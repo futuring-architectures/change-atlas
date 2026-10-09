@@ -4,7 +4,7 @@ type: framework
 title: Adaptive futuring cycle
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-09-12
+updated_at: 2026-10-09
 tags: ["futuring", "signals", "adaptation"]
 relationships:
   - type: operationalizes
@@ -15,6 +15,8 @@ relationships:
     target: "[[when-does-uncertainty-justify-limiting-scale]]"
   - type: exemplified_by
     target: "[[spreadsheet-users-built-phantom-businesses]]"
+  - type: qualified_by
+    target: "[[ai-prototypes-hardened-untested-startup-ideas]]"
 description: "A seven-step cycle for evidence-based foresight under uncertainty: curate, perceive, historicize, pluralize, rehearse, probe, and revise."
 evidence:
   - "[[signal-curation-evi-7667873ac1d4#Claim 2]]"
@@ -25,6 +27,9 @@ evidence:
   - "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]"
   - "[[fire-ready-aim-evi-070971abc1c7#Claim 12]]"
   - "[[fire-ready-aim-evi-070971abc1c7#Claim 13]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 7]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]"
 ---
 
 # Adaptive futuring cycle
@@ -47,6 +52,8 @@ Use this cycle when uncertainty is structural and a single prediction would crea
 
 Each cycle should produce a decision record: signals used, assumptions challenged, scenarios considered, probe boundaries, expected information, observed effects, resulting belief change, the threshold for commitment, and the next revision date.
 
+For prototype-based probes, record what evidence would justify discarding the current version and ask the team to explain the changed assumptions in its own words. Technical editability is insufficient if participants remain attached to the idea or cannot retain the evidence needed to revise it. These checks are Atlas applications of the [[ai-prototypes-hardened-untested-startup-ideas|entrepreneurship-class case]], rather than a tested intervention from that source.
+
 ## Limitations
 
 - Scenario plurality can become avoidance of commitment.
@@ -54,15 +61,18 @@ Each cycle should produce a decision record: signals used, assumptions challenge
 - Experiments can externalize risk to people who did not consent.
 - Signal curation can reproduce the curator’s worldview.
 - Cheap generation can prolong exploration without improving belief or decision quality.
+- A technically cheap pivot can remain psychologically difficult. Conversely, frequent new versions can erase the continuity needed for cumulative learning.
 
 ## Evidence
 
 - [[fire-ready-aim-evi-070971abc1c7#Claim 11|Fire, Ready, Aim — claim 11]] defines useful speed as movement from important uncertainty to trustworthy belief change rather than artifact volume.
 - [[fire-ready-aim-evi-070971abc1c7#Claim 12|Fire, Ready, Aim — claim 12]] supplies the small-blast-radius, large-information-radius probe criterion.
 - [[fire-ready-aim-evi-070971abc1c7#Claim 13|Fire, Ready, Aim — claim 13]] adds a stopping condition: exploration should yield to commitment when evidence has earned conviction.
+- [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 7|The Year AI Came For Us — claim 7]] records resistance to technically cheap pivots; [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12|claim 12]] records retained-understanding gaps; [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14|claim 14]] records repeated changes without accumulated learning.
 
 ## Relationships
 
 - Operationalizes [[action-without-prediction|Action without prediction]] and [[present-blindness|Present blindness]].
 - Raises [[when-does-uncertainty-justify-limiting-scale|the Question of when uncertainty should limit scale]].
 - Exemplified by [[spreadsheet-users-built-phantom-businesses|spreadsheet users experimenting with phantom businesses]].
+- Qualified by [[ai-prototypes-hardened-untested-startup-ideas|the entrepreneurship-class case]], which distinguishes technical reversibility from belief revision.

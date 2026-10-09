@@ -348,3 +348,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-10-09-agents-and-their-better-half.md` as `evidence/sources/agents-and-their-better-half-evi-f032128a8cc6.md` with 12 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.
+
+## [2026-10-09] evidence | Ingest The Year AI Came For Us: Teaching Entrepreneurship Will Never Be The Same
+
+- Captured and finalized `raw/web/2026-10-09-steve-blank-the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the.md` as `evidence/sources/the-year-ai-came-for-us-evi-15cd0e183003.md` with 18 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.

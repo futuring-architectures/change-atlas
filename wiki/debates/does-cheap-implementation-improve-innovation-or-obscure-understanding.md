@@ -4,13 +4,15 @@ type: debate
 title: Does cheap implementation improve innovation or obscure understanding?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-09-12
+updated_at: 2026-10-09
 tags: ["ai-coding", "innovation", "evaluation"]
 relationships:
   - type: supported_by
     target: "[[ai-weakened-early-product-and-revenue-signals]]"
   - type: supported_by
     target: "[[signal-collapse-after-cheap-production]]"
+  - type: supported_by
+    target: "[[ai-prototypes-hardened-untested-startup-ideas]]"
   - type: qualifies
     target: "[[software-work-is-shifting-from-code-production-to-orchestration-and-assurance]]"
 description: "Cheap implementation enables more experiments, but can hide whether builders understand users, systems, and consequences while weakening familiar evaluation signals."
@@ -24,6 +26,11 @@ evidence:
   - "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]"
   - "[[fire-ready-aim-evi-070971abc1c7#Claim 12]]"
   - "[[fire-ready-aim-evi-070971abc1c7#Claim 13]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 5]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 7]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 8]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]"
 ---
 
 # Does cheap implementation improve innovation or obscure understanding?
@@ -36,9 +43,13 @@ When AI makes plausible products and implementations cheap, does abundant experi
 
 Lower implementation cost expands the number and diversity of experiments. Builders can use software as a petri dish: probe assumptions, expose user reactions, discard weak variants, and learn without factory-scale commitment. A concrete artifact can make disagreement specific and reveal requirements that abstract discussion could not settle.
 
+Blank's classroom review also reports faster hypothesis testing when AI helped teams choose better questions and relevant people to ask. Assistance can strengthen customer contact when it prepares and supports the encounter.
+
 ## Position B
 
 Cheap output can substitute production activity for problem understanding. A working artifact and initial revenue no longer demonstrate the same knowledge or commitment, while plausible generated systems can accumulate dependencies and consequences faster than people can evaluate them.
+
+The [[ai-prototypes-hardened-untested-startup-ideas|Spring 2026 classroom case]] adds a behavioral failure: polished products became pitches that attracted compliments, and students resisted contrary evidence even though changing the product was technically cheap. Another team changed products every week without accumulating learning. Neither attachment to one version nor a high revision count establishes understanding.
 
 ## Additional positions
 
@@ -52,6 +63,7 @@ Cheap output can substitute production activity for problem understanding. A wor
 - Whether experiments are designed to discriminate between beliefs.
 - Whether learning and retention remain observable after production becomes cheap.
 - Whether generated systems are bounded and reversible or embedded and coupled.
+- Whether technical reversibility is accompanied by willingness to abandon an idea and retained understanding of why it failed.
 - Whether an experiment has a small blast radius but enough information radius to change the next decision.
 - Whether the team records belief change and a commitment threshold instead of treating artifact volume as learning.
 - Who controls the replacement signals used to allocate capital and status.
@@ -62,12 +74,16 @@ Cheap output can substitute production activity for problem understanding. A wor
 - [[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1|Petri Dishes, Not Factories — claim 1]] relocates the scarce work to understanding and taste; [[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 2|claim 2]] reframes software as a medium for cheap experiments.
 - [[five-new-thinking-styles-for-working-with-thinking-machines-evi-cc63afa5809d#Claim 2|Five New Thinking Styles — claim 2]] warns that fluent output can conceal weak understanding.
 - [[fire-ready-aim-evi-070971abc1c7#Claim 7|Fire, Ready, Aim — claim 7]] treats the artifact as an instrument for discovering requirements; [[fire-ready-aim-evi-070971abc1c7#Claim 11|claim 11]] distinguishes learning from cheap waste; [[fire-ready-aim-evi-070971abc1c7#Claim 12|claim 12]] proposes small-blast-radius, large-information-radius probes; and [[fire-ready-aim-evi-070971abc1c7#Claim 13|claim 13]] makes evidence-earned commitment the stopping condition.
+- [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 5|The Year AI Came For Us — claim 5]], [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 7|claim 7]], and [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12|claim 12]] record pitch-led discovery, resistance to pivots, and retained-understanding gaps in one cohort. [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 8|Claim 8]] records benefits; [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14|claim 14]] records rapid changes without cumulative learning.
 
 ## Current assessment
 
 Cheap implementation is an exploration advantage only when selection and learning improve with production. It otherwise collapses familiar proxies and can reward visible activity over understanding. A useful evaluation record should state the uncertainty, containment boundary, expected information, observed belief change, and threshold for commitment. The evidence is interpretive and case-based; comparative innovation outcomes remain open.
 
+The classroom case qualifies the assumption that a cheap first version is easy to discard psychologically. A useful probe needs disconfirming customer evidence, a team capable of explaining what it learned, and willingness to act on that evidence. Blank's account is a firsthand retrospective of one cohort, not a controlled estimate of AI's effect on innovation.
+
 ## Relationships
 
 - Supported by [[ai-weakened-early-product-and-revenue-signals|AI weakened early product and revenue signals]] and [[signal-collapse-after-cheap-production|Signal collapse after cheap production]].
+- Also supported by [[ai-prototypes-hardened-untested-startup-ideas|the entrepreneurship-class prototype case]].
 - Qualifies the candidate Trend [[software-work-is-shifting-from-code-production-to-orchestration-and-assurance|Software work is shifting from code production to orchestration and assurance]]: movement away from coding does not establish better judgment.

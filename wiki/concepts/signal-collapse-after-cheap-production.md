@@ -4,11 +4,13 @@ type: concept
 title: Signal collapse after cheap production
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-10-09
 tags: ["signals", "abundance", "evaluation"]
 relationships:
   - type: exemplified_by
     target: "[[ai-weakened-early-product-and-revenue-signals]]"
+  - type: exemplified_by
+    target: "[[ai-prototypes-hardened-untested-startup-ideas]]"
   - type: supports
     target: "[[does-cheap-implementation-improve-innovation-or-obscure-understanding]]"
 description: "When an artifact becomes cheap to produce, its existence stops reliably signaling the knowledge, commitment, judgment, or capability previously required to make it."
@@ -16,6 +18,10 @@ evidence:
   - "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 1]]"
   - "[[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 2]]"
   - "[[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 3]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 10]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]"
+  - "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]"
 ---
 
 # Signal collapse after cheap production
@@ -27,6 +33,8 @@ Signal collapse occurs when a once-costly artifact becomes cheap enough that its
 ## Provenance
 
 Sam Lessin applies the mechanism to seed investment: plausible product and early revenue become weaker founder signals. Ben Follington relocates the hard work toward problem understanding, user discovery, and taste when implementation becomes cheap.
+
+Steve Blank's Spring 2026 classroom account extends the mechanism to learning assessment. Instructors initially treated complete-looking day-one products as progress, then reported that teams could not adequately defend business assumptions or explain edge cases. His term Initial Untested Product separates the artifact's presence from customer validation; it does not show that every rapidly built product lacks insight.
 
 ## Aliases and related terms
 
@@ -40,6 +48,7 @@ Sam Lessin applies the mechanism to seed investment: plausible product and early
 - Cheap artifacts can still contain genuine insight; the proxy weakens, not the possible value.
 - New signals may emerge in retention, learning speed, accountability, or system coherence.
 - Evaluators can mistake polish for understanding even before AI.
+- Replacing a weak proxy requires inspecting learning and revision behavior, not simply counting pivots or generated variants.
 - Signal redesign can disadvantage newcomers if incumbents control the new scarce proofs.
 
 ## Evidence
@@ -47,8 +56,11 @@ Sam Lessin applies the mechanism to seed investment: plausible product and early
 - [[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 1|AI destroys seed investors' ability to analyze product — claim 1]] identifies product-signal decay.
 - [[ai-destroys-seed-investors-ability-to-analyze-product-evi-3a9c8c5b925a#Claim 2|AI destroys seed investors' ability to analyze product — claim 2]] identifies early-revenue signal decay.
 - [[petri-dishes-not-factories-evi-aa9a966c7b1b#Claim 1|Petri Dishes, Not Factories — claim 1]] relocates scarcity toward understanding and taste.
+- [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 3|The Year AI Came For Us — claim 3]] records instructors mistaking output for progress; [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 10|claim 10]] interprets the weakened product proxy; [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12|claim 12]] records a gap in retained understanding.
+- [[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14|Claim 14]] shows that frequent product changes can also fail as a learning proxy.
 
 ## Relationships
 
 - Exemplified by [[ai-weakened-early-product-and-revenue-signals|AI weakened early product and revenue signals]].
+- Also exemplified by [[ai-prototypes-hardened-untested-startup-ideas|the entrepreneurship-class prototype case]].
 - Supports [[does-cheap-implementation-improve-innovation-or-obscure-understanding|Does cheap implementation improve innovation or obscure understanding?]].

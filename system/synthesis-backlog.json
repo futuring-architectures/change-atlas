@@ -1211,6 +1211,12 @@
           "date": "2026-09-12",
           "outcome": "strengthened",
           "note": "The source argues that cheaper first attempts move human work toward selecting, evaluating, measuring, and applying expertise rather than producing an initial artifact. It strengthens the proposed role shift but supplies no representative role-transition, employment, worker-experience, or longitudinal outcome evidence."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source makes customer and strategic judgment more consequential in entrepreneurship, but does not observe organizational roles moving from process execution into orchestration, evaluation, or exception handling. The classroom case is not representative role-transition evidence."
         }
       ],
       "resolution_target": null
@@ -1317,7 +1323,9 @@
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 2]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
-        "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]"
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 7]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 15]]"
       ],
       "relevant_collections": [
         "power-to-creators-gameplay",
@@ -1384,6 +1392,12 @@
           "date": "2026-09-12",
           "outcome": "strengthened",
           "note": "The source says cheap attempts make selection, evaluation, measurement, and expertise a larger share of the work, and warns that planning can shelter beliefs from falsification. It strengthens judgment as a post-generation constraint but does not establish that collective commitment is binding or show how prevalent the shift is."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "The source reports technically cheap products coexisting with resistance to contrary evidence and identifies judgment about customers and problems as the startup bottleneck. It strengthens the judgment mechanism in one classroom cohort, while distinguishing attachment to an idea from warranted collective commitment and providing no representative organizational constraint comparison."
         }
       ],
       "resolution_target": null
@@ -1851,7 +1865,9 @@
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 3]]",
         "[[previously-unmanufacturable-evi-4d49249b45d7#Claim 5]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
-        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 10]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1912,6 +1928,12 @@
           "date": "2026-09-12",
           "outcome": "strengthened",
           "note": "The source argues that a generated artifact can become cheaper than the knowledge needed to specify it and that selection and evaluation then absorb more of the work. It strengthens the creation-versus-evaluation mechanism but does not address ownership, maintenance capacity, or recourse."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "The source reports AI-built products arriving before customer validation and interprets artifact completeness as a weakened learning proxy. It strengthens the creation-versus-evaluation mechanism in one cohort, but does not isolate natural-language interaction or address ownership, maintenance capacity, and recourse."
         }
       ],
       "resolution_target": null
@@ -1934,7 +1956,10 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
-        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 5]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 15]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2012,6 +2037,12 @@
           "date": "2026-09-12",
           "outcome": "strengthened",
           "note": "The source explicitly identifies validation as the bottleneck when code becomes faster than confidence and research faster than institutional absorption. This strengthens the rate-limit mechanism, though it provides no measured organizational throughput or prevalence evidence."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "The source reports fast construction outpacing validation of customer need, with compliments replacing disconfirming evidence, and identifies judgment as the startup bottleneck. It strengthens the market-validation side of verification scarcity but does not measure verification capacity, organizational throughput, or prevalence beyond this cohort."
         }
       ],
       "resolution_target": null
@@ -2097,6 +2128,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source compares skilled textile displacement with AI coding and predicts junior analysts directing many models, but it does not examine whether entry-level production is being removed, how expert judgment develops, or whether a delayed expertise-pipeline effect occurs."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source reports student learning gaps after AI-assisted building and summarization, but does not examine removal of entry-level employment or observe a delayed change in the supply of expert judgment. A classroom case cannot establish the proposed labor-pipeline effect."
         }
       ],
       "resolution_target": null
@@ -2122,7 +2159,10 @@
         "[[fire-ready-aim-evi-070971abc1c7#Claim 5]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 12]]",
-        "[[fire-ready-aim-evi-070971abc1c7#Claim 13]]"
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 13]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 7]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 13]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2165,6 +2205,12 @@
           "date": "2026-09-12",
           "outcome": "strengthened",
           "note": "The source supplies a concrete probe rule: act earlier when an attempt is cheap, reversible, bounded, observable, and informative; record belief change; then commit when evidence earns conviction. It strengthens the mechanism but offers no comparative organizational adaptation outcome."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "qualified",
+          "note": "The source distinguishes technical reversibility from psychological willingness to abandon an idea, and reports a team producing weekly variants without cumulative learning. It qualifies implementation-cost and iteration-count proxies for reversible probing and explicit revision, while supplying no comparative organizational adaptation outcome."
         }
       ],
       "resolution_target": null
@@ -2488,6 +2534,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source contrasts static transaction mechanisms with adaptive counterparties and reports one application-mode pause, but does not specify an implemented organizational workflow and decision-right redesign or compare organizational performance with inherited-role insertion."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source diagnoses a course's inherited pedagogy and reports plans for further redesign, but this installment does not describe a completed replacement workflow, changed decision rights, or comparative organizational performance."
         }
       ],
       "resolution_target": null
@@ -2600,6 +2652,12 @@
           "date": "2026-09-12",
           "outcome": "strengthened",
           "note": "The source argues that faster artifact and code generation makes selection, evaluation, validation, measurement, and institutional absorption relatively more consequential. It strengthens the assurance and absorption mechanism but does not compare architectures or quantify their relative value."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source concerns validation of customer need and retained student understanding, rather than component architecture, assurance systems, or institutional absorption. Its call for course redesign does not establish a change in the relative value of those complements."
         }
       ],
       "resolution_target": null
@@ -2798,6 +2856,12 @@
           "date": "2026-09-06",
           "outcome": "no_change",
           "note": "The source argues that education, retraining, and safety nets may need to adapt faster, but it neither proposes measuring renewal capacity alongside throughput nor compares organizations on long-run capability preservation."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source exposes a gap between visible product output and learning, but does not propose or test renewal-capacity measurement or compare long-run organizational capability preservation. Its replacement pedagogy is not evaluated here."
         }
       ],
       "resolution_target": null
@@ -2823,7 +2887,9 @@
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 4]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 5]]",
-        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]"
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -2888,6 +2954,12 @@
           "date": "2026-09-12",
           "outcome": "no_change",
           "note": "The source says expertise becomes more valuable as initial attempts get cheaper, but it does not trace removed practice to delayed capacity loss or test a design that preserves challenge, verification, and participation."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "The source reports substituted customer validation, less nuanced understanding, and difficulty defending assumptions after interview summarization despite polished outputs. It strengthens the bypassed-practice and hidden-learning-gap mechanism, but the current-cohort account does not demonstrate delayed capacity loss, causal attribution, or a tested preservation design."
         }
       ],
       "resolution_target": null
@@ -3044,6 +3116,12 @@
           "date": "2026-09-12",
           "outcome": "no_change",
           "note": "The source notes a mismatch between cheaper execution and inherited planning or approval habits, but it does not examine coordinated change across technology, workflow, role, learning, and governance layers or compare transition outcomes."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "no_change",
+          "note": "The source reports faster construction outpacing an inherited learning model, but does not examine coordinated technical, institutional, social, and cultural pace layers or compare integrated transition outcomes. The replacement course is deferred to later installments."
         }
       ],
       "resolution_target": null
@@ -3102,7 +3180,10 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 7]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
-        "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]"
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 10]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]",
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -3143,6 +3224,12 @@
           "date": "2026-09-12",
           "outcome": "strengthened",
           "note": "The source replaces mere artifact production with records of uncertainty reduced, evidence gained, belief changed, and judgment applied. It strengthens candidate evaluation signals, while their validity for understanding, retention, worker effects, and system outcomes remains untested."
+        },
+        {
+          "source": "evi-15cd0e183003",
+          "date": "2026-10-09",
+          "outcome": "strengthened",
+          "note": "The source reports polished products failing as learning proxies and identifies inability to defend assumptions, explain edge cases, or accumulate evidence across variants. It strengthens the need for understanding and revision measures, while supplying no validated rubric, longitudinal retention test, or system-outcome comparison."
         }
       ],
       "resolution_target": null

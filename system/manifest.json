@@ -3931,6 +3931,24 @@
       "raw_sha256": "1c350d8defbc1239e2dd895e62f01db2d449cb26cac923943226bdbdd4b4fdf3",
       "source_url": "https://platforms.substack.com/p/agents-and-their-better-half",
       "status": "complete"
+    },
+    "raw/web/2026-10-09-steve-blank-the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the.md": {
+      "affected_wiki": [
+        "wiki/signals/ai-prototypes-hardened-untested-startup-ideas.md",
+        "wiki/concepts/signal-collapse-after-cheap-production.md",
+        "wiki/frameworks/adaptive-futuring-cycle.md",
+        "wiki/debates/does-cheap-implementation-improve-innovation-or-obscure-understanding.md",
+        "wiki/questions/how-is-judgment-cultivated-when-production-is-cheap.md"
+      ],
+      "canonical_url": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/",
+      "claim_count": 18,
+      "completed_at": "2026-10-09",
+      "evidence_file": "evidence/sources/the-year-ai-came-for-us-evi-15cd0e183003.md",
+      "evidence_id": "evi-15cd0e183003",
+      "mode": "steady_state_url",
+      "raw_sha256": "487b8a334222e39214f2785523ad19646684dfb8cc83a4ba369cafffcc45b8ba",
+      "source_url": "https://steveblank.com/2026/09/23/the-year-ai-came-for-us-teaching-entrepreneurship-will-never-be-the-same/",
+      "status": "complete"
     }
   },
   "schema_version": 1
