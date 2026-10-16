@@ -3967,6 +3967,24 @@
       "raw_sha256": "18d028aad030f289f86114f4837360f6526a7bcf2febb592f2452a3db0ff5318",
       "source_url": "https://humanistreview.ai/issue-1/acemoglu-ai-replace-workers/",
       "status": "complete"
+    },
+    "raw/web/2026-10-16-ask-for-what-you-want-is-a-key-skill-for-the-21st-century.md": {
+      "affected_wiki": [
+        "wiki/concepts/intent-as-executable-material.md",
+        "wiki/concepts/user-programmable-agents.md",
+        "wiki/debates/does-ai-expand-expertise-or-hollow-it-out.md",
+        "wiki/debates/does-cheap-software-distribute-agency-or-relocate-control.md",
+        "wiki/questions/how-should-products-manage-model-drift.md"
+      ],
+      "canonical_url": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
+      "claim_count": 26,
+      "completed_at": "2026-10-16",
+      "evidence_file": "evidence/sources/ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c.md",
+      "evidence_id": "evi-1ec76f5e388c",
+      "mode": "steady_state_url",
+      "raw_sha256": "e2b6d3185452dd49c662c70f960b73a762a73aa9cda751076ecb1a7ef61e4905",
+      "source_url": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
+      "status": "complete"
     }
   },
   "schema_version": 1

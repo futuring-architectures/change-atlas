@@ -4,7 +4,7 @@ type: question
 title: How should products manage model drift?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-08-14
+updated_at: 2026-10-16
 tags:
   - model-drift
   - ai-operations
@@ -32,6 +32,7 @@ Traditional project governance often treats software as a durable artifact after
 - Enterprise optimization may shift toward intelligence per dollar as deployment cost grows: [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 1|The AI Economy — claim 1]] and [[the-ai-economy-the-next-chapter-evi-855e88c44057#Claim 2|claim 2]].
 - [[when-correct-systems-produce-the-wrong-outcomes-evi-7be149645e41#Claim 2|When Correct Systems Produce the Wrong Outcomes — claim 2]] broadens drift from model behavior to continued alignment between activity and purpose.
 - [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4|When the Models Get Better — claim 4]] proposes recurring strategic pivots after capability step changes; [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5|claim 5]] argues that UX and workflow assumptions can be more fragile than architecture; and [[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6|claim 6]] reports four months of diff work becoming obsolete after GPT-4o.
+- Sloan proposes avoiding a runtime model dependency where a finished conventional tool will do: use the agent to build, then run the tool without it. This addresses prospective AI API outages, price changes, and response drift rather than continually adapting an AI-dependent feature: [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 4|construction without permanent runtime AI]] and [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 17|dependency risks]]. His Gmail client illustrates why model independence is narrower than independence from external services: [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 6|a tailored email client]].
 
 ## Missing or discriminating evidence
 
@@ -40,12 +41,15 @@ Traditional project governance often treats software as a durable artifact after
 - Contractual or technical controls for version pinning, rollback, portability, and disclosure.
 - Budget models that include continuous evaluation, prompt migration, human retraining, and switching costs.
 - Comparative records that distinguish productive recurring adaptation from pivot churn, team exhaustion, and destroyed customer continuity.
+- Which capabilities can become conventional standalone tools, and which genuinely require inference during use.
+- Maintenance and recovery outcomes for generated tools when the original building agent is no longer available.
 
 ## Suggested next sources or actions
 
 - Collect product postmortems triggered by upstream model change.
 - Compare managed APIs, open-weight models, and multi-model routing for operational control.
 - Separate ordinary data drift from supplier-driven model drift and changing product requirements.
+- Compare eliminating runtime inference with retaining it under version, evaluation, and fallback controls.
 
 ## Resolution
 

@@ -358,3 +358,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-10-09-will-ai-replace-workers-not-if-we-build-it-right.md` as `evidence/sources/will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391.md` with 39 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-10-16] evidence | Ingest 'Ask for what you want' is a key skill for the 21st century
+
+- Captured and finalized `raw/web/2026-10-16-ask-for-what-you-want-is-a-key-skill-for-the-21st-century.md` as `evidence/sources/ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c.md` with 26 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.

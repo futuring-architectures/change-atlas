@@ -695,7 +695,9 @@
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 4]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 5]]",
         "[[when-the-models-get-better-your-tam-should-go-up-evi-29342fde9096#Claim 6]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 4]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 17]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-ecosystems",
@@ -744,6 +746,12 @@
           "date": "2026-09-06",
           "outcome": "strengthened",
           "note": "The source says provider pricing, rate limits, quantization, retirement, and model behavior make substitution costly because evaluations and model-call settings must be rerun. It strengthens continuous revalidation as an operating requirement but provides no migration case, longitudinal record, or comparative portability evidence."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "qualified",
+          "note": "Claims 4 and 17 propose removing runtime AI dependence from generated conventional tools to avoid prospective outages, price changes, and response drift. This sharpens the boundary between AI-assisted construction and AI-dependent operation; it does not refute revalidation for products that retain inference or eliminate other services and maintenance dependencies. No dependency audit or comparative recovery test is supplied."
         }
       ],
       "resolution_target": null
@@ -1231,6 +1239,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 6]] calls for task reallocation and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24]] proposes new information for teachers, but neither observes roles moving toward orchestration, evaluation, or exception handling. Pro-worker capability expansion is not equivalent to this particular role trajectory."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 14]] describes use-driven refinement and [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 16]] reports an experienced programmer directing changes without inspecting code. This personal hobby account does not observe organizational roles, decision rights, or a representative shift toward orchestration and exception handling."
         }
       ],
       "resolution_target": null
@@ -1478,6 +1492,12 @@
           "date": "2026-08-31",
           "outcome": "no_change",
           "note": "The source proposes AI-mediated routing and protocol negotiation, but its extracted mechanisms do not establish natural language as the organizational control surface or show reliable workflow execution from natural-language descriptions."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 10]] specifies a personal app and [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 22]] recommends requesting changes to tools and agents. Neither establishes natural language as a control surface for organizational workflow execution. Personal code generation is narrower than the proposition."
         }
       ],
       "resolution_target": null
@@ -1881,7 +1901,11 @@
         "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
-        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 10]]"
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 10]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 4]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 14]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 16]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 21]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -1948,6 +1972,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "The source reports AI-built products arriving before customer validation and interprets artifact completeness as a weakened learning proxy. It strengthens the creation-versus-evaluation mechanism in one cohort, but does not isolate natural-language interaction or address ownership, maintenance capacity, and recourse."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "qualified",
+          "note": "Claims 4, 14, 16, and 21 distinguish personally judged fit and intended runtime independence from code inspection and independent repair. The source describes continuous evaluation through use and control over desired changes, qualifying any assumption that all forms of agency necessarily lag generation together. It does not compare rates of creation and evaluation, establish novice capability, or demonstrate durable maintenance and recourse; cumulative qualified status remains appropriate."
         }
       ],
       "resolution_target": null
@@ -2161,6 +2191,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 7]] reports occupational persistence and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]] defines worker capability expansion. Neither examines entry-level work removal or a delayed change in the future supply of expert judgment; broad displacement forecasts do not establish that pipeline mechanism."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 18]] reports one experienced programmer's perceived weakening and aversion to unaided coding. It supplies no entry-level employment removal, apprenticeship comparison, or delayed expert-supply effect, so it cannot establish the labor-pipeline proposition."
         }
       ],
       "resolution_target": null
@@ -2189,7 +2225,8 @@
         "[[fire-ready-aim-evi-070971abc1c7#Claim 13]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 7]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 13]]",
-        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]"
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 14]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2238,6 +2275,12 @@
           "date": "2026-10-09",
           "outcome": "qualified",
           "note": "The source distinguishes technical reversibility from psychological willingness to abandon an idea, and reports a team producing weekly variants without cumulative learning. It qualifies implementation-cost and iteration-count proxies for reversible probing and explicit revision, while supplying no comparative organizational adaptation outcome."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claim 14 supplies a concrete personal practice of beginning with a minimal tool, learning through use, and deleting features after disconfirming experience. It strengthens the explicit-revision mechanism while acknowledging substantial human effort; it does not compare organizational adaptation or establish a general performance advantage."
         }
       ],
       "resolution_target": null
@@ -2814,6 +2857,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source makes adaptive counterparty participation distinct from catalogue and API access, but does not evaluate human inspection, refusal, recourse, or agency loss. Its proposed transaction-level evaluation does not establish the proposition's claimed agency effects."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 22]] invites users to reshape agent interactions, but does not study agent-compatible infrastructure, machine-performance gains, inspection rights, recourse, or comparative agency effects. Editable presentation alone does not test the proposition."
         }
       ],
       "resolution_target": null
@@ -2947,7 +2996,8 @@
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 5]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
-        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]"
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 18]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -3024,6 +3074,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 19]] characterizes human learning and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]] advocates skill creation, but the source does not observe removed practice, test preservation of challenge and participation, or trace delayed capacity loss hidden by short-term output."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claim 18 reports felt programming erosion and growing aversion to unaided coding alongside useful agent-built tools. This strengthens a reflective warning that output success can coexist with reduced practice or willingness, but does not establish measured competence loss, delayed causal effects, or a tested preservation strategy."
         }
       ],
       "resolution_target": null
@@ -3113,6 +3169,12 @@
           "date": "2026-09-06",
           "outcome": "qualified",
           "note": "The source contrasts documented process with process-mining traces and operator-held tacit knowledge, and uses assembled contextual evidence in its reconciliation case. It strengthens context beyond documentation but does not establish ownership, testability, compounding asset value, or a machine-speed comparison."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 8]] describes prewriting preferences and [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 10]] bounds a specification. This personal guidance document does not establish owned, testable organizational context, its relative asset value, or a comparison with documentation volume."
         }
       ],
       "resolution_target": null
@@ -3253,7 +3315,9 @@
         "[[fire-ready-aim-evi-070971abc1c7#Claim 11]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 10]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]",
-        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]"
+        "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 14]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 23]]",
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 24]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -3300,6 +3364,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "The source reports polished products failing as learning proxies and identifies inability to defend assumptions, explain edge cases, or accumulate evidence across variants. It strengthens the need for understanding and revision measures, while supplying no validated rubric, longitudinal retention test, or system-outcome comparison."
+        },
+        {
+          "source": "evi-1ec76f5e388c",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 23–24 separate the reward of obtaining a tool from achieving its purpose and recommend sustained actual use before public display. This strengthens an outcome-over-artifact evaluation principle, but the two-month rule is a personal heuristic, not a validated retention measure, learning rubric, or comparative system-outcome test."
         }
       ],
       "resolution_target": null

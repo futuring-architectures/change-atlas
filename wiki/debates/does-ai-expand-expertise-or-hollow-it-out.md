@@ -4,7 +4,7 @@ type: debate
 title: Does AI expand expertise or hollow it out?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-08-10
+updated_at: 2026-10-16
 tags: ["expertise", "deskilling", "augmentation"]
 relationships:
   - type: raises_question
@@ -31,6 +31,8 @@ evidence:
   - "[[earning-judgment-evi-207760005515#Claim 2]]"
   - "[[earning-judgment-evi-207760005515#Claim 5]]"
   - "[[dan-shipper-danshipper-on-x-evi-4d6fc0f5e1df#Claim 5]]"
+  - "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 16]]"
+  - "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 18]]"
 ---
 
 # Does AI expand expertise or hollow it out?
@@ -52,6 +54,8 @@ evidence:
 - Routine implementation may be both output and training infrastructure; removing it without a replacement can narrow the future reviewer and senior-practitioner pipeline.
 
 ## Synthesis
+
+Sloan reports both sides in the same practice: agent assistance makes modifying personal software feel inviting, while writing code by hand feels increasingly aversive. He already knows how to build apps, so the account concerns a change in an experienced programmer's practice, not novice competence. Perceived agency and reduced willingness to code can coexist; his reported weakening is not a measured loss of unaided skill: [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 16|easier experimentation]] and [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 18|perceived programming erosion]].
 
 The contradiction is conditional rather than rhetorical. Prior competence, task feedback, interface design, incentives, authority, and whether the user must verify consequences determine whether abstraction becomes leverage or dependency. Johar's reflective account adds reciprocal resistance and recursive form-finding; Osmani adds deliberate practice, wrong logs, deep system work, explicit evals, and autonomy calibration as possible substitutes for disappearing repetitions. The [[agency-rupture-cycle|Agency rupture cycle]] adds a distinction between initial displacement, recognition of human scaffolding, and later subjective reconstruction around judgment and direction. None of these accounts establishes durable transfer or a scalable apprenticeship design. Output improvement and reconstructed authorship are not sufficient evidence of expertise growth.
 
