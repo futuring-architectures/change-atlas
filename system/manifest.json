@@ -3985,6 +3985,22 @@
       "raw_sha256": "e2b6d3185452dd49c662c70f960b73a762a73aa9cda751076ecb1a7ef61e4905",
       "source_url": "https://www.robinsloan.com/lab/ask-for-what-you-want/",
       "status": "complete"
+    },
+    "raw/web/2026-10-16-patrick-collison-patrickc-on-x.md": {
+      "affected_wiki": [
+        "wiki/concepts/agentic-participants-and-agentic-markets.md",
+        "wiki/concepts/high-resolution-taste-markets.md",
+        "wiki/debates/will-cheaper-software-commoditize-advantage-or-deepen-scale-moats.md"
+      ],
+      "canonical_url": "https://x.com/patrickc/status/2108706907859116280",
+      "claim_count": 12,
+      "completed_at": "2026-10-16",
+      "evidence_file": "evidence/sources/patrick-collison-patrickc-on-x-evi-278f30fb5682.md",
+      "evidence_id": "evi-278f30fb5682",
+      "mode": "steady_state_url",
+      "raw_sha256": "6580a7d847e2c29a0eb237fc2cf5d0ce14a7da8404ec21821d1ce01aa3e12e91",
+      "source_url": "https://x.com/patrickc/status/2108706907859116280",
+      "status": "complete"
     }
   },
   "schema_version": 1

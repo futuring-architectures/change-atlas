@@ -4,7 +4,7 @@ type: concept
 title: High-resolution taste markets
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-10-16
 tags: ["taste", "discovery", "niches"]
 relationships:
   - type: exemplified_by
@@ -17,6 +17,7 @@ description: "Plural discovery systems can allocate attention across many taste 
 evidence:
   - "[[from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4#Claim 1]]"
   - "[[why-we-need-more-omakase-creators-evi-39d183552a36#Claim 1]]"
+  - "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 7]]"
 ---
 
 # High-resolution taste markets
@@ -24,6 +25,8 @@ evidence:
 ## Definition
 
 High-resolution taste markets replace a single broad ranking with many differentiated preference vectors. They can create multiple category leaders and let supply reshape demand rather than merely optimize for an inherited dominant aesthetic.
+
+Collison leaves two agent-mediated outcomes open: shared evaluation could drive buyers toward the same product, while eliciting genuinely different preferences could disperse demand. More capable matching does not determine which outcome prevails. His question concerns consumer products generally, not demonstrated gains for creators: [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 7|superstar effects versus preference dispersion]].
 
 ## Distinctions and contested meanings
 
@@ -36,6 +39,7 @@ High-resolution taste markets replace a single broad ranking with many different
 
 - [[from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4#Claim 1|From Winner Take All — claim 1]] supplies the plural-vector forecast.
 - [[why-we-need-more-omakase-creators-evi-39d183552a36#Claim 1|Omakase Creators — claim 1]] supplies reflexive demand formation.
+- [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 7|Collison on agents in the economy — claim 7]] identifies convergence and dispersion as competing possibilities rather than treating personalization as proof of plural winners.
 
 ## Relationships
 

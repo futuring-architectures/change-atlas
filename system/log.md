@@ -363,3 +363,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-10-16-ask-for-what-you-want-is-a-key-skill-for-the-21st-century.md` as `evidence/sources/ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c.md` with 26 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 5 Wiki page(s) cite the resulting Evidence.
+
+## [2026-10-16] evidence | Ingest Patrick Collison (@patrickc) on X
+
+- Captured and finalized `raw/web/2026-10-16-patrick-collison-patrickc-on-x.md` as `evidence/sources/patrick-collison-patrickc-on-x-evi-278f30fb5682.md` with 12 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.

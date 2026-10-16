@@ -4,7 +4,7 @@ type: debate
 title: Will cheaper software commoditize advantage or deepen scale moats?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-10-16
 tags:
   - software-economics
   - moats
@@ -24,6 +24,11 @@ evidence:
   - "[[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 1]]"
   - "[[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 2]]"
   - "[[the-vibe-coding-trap-evi-6bc4abe83e11#Claim 1]]"
+  - "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 5]]"
+  - "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 6]]"
+  - "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 8]]"
+  - "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 9]]"
+  - "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10]]"
 ---
 
 # Will cheaper software commoditize advantage or deepen scale moats?
@@ -49,11 +54,22 @@ When AI makes software and model output cheaper, does value disperse through com
 
 ## Sources of disagreement
 
+### Cheaper buyer research versus cheaper production
+
+Collison adds a demand-side mechanism: if personal agents make thorough comparison cheap, improving product quality may pay better relative to distribution and habitual brand choice. Information about quality then becomes a complement to cheap intelligence during purchasing, not only data for training models. This is a forecast about consumer markets generally, not evidence that software production costs or SaaS defensibility have already changed: [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 5|the product-quality forecast]] and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 6|quality information as a complement]].
+
+The forecast does not settle who controls discovery. Collison expects demand routing to change but leaves its direction unresolved, acknowledges that paid placement can convey useful willingness-to-pay information, and conditions his optimism on agents serving consumers. Better products being easier to identify is distinct from competition among routing intermediaries: [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 8|routing economics]], [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 9|unresolved routing effects]], and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10|whose interests the agent serves]].
+
+### Disputed conditions
+
 - Which layer is being priced: model, application, workflow, or distribution.
 - Whether model scaling continues to yield proportional utility.
 - Availability of open models, compute, capital, and interoperable infrastructure.
 - The difference between falling production cost and falling customer switching cost.
 - Timeframe: temporary boom rents versus mature industry structure.
+- Whether cheaper production and cheaper buyer evaluation affect advantage through different mechanisms.
+- Whether trustworthy quality evidence remains accessible to competing agents or becomes a controlled complement.
+- Whether buyer agents represent consumer preferences or reproduce paid-placement and affiliate incentives.
 
 ## Evidence
 
@@ -64,16 +80,21 @@ When AI makes software and model output cheaper, does value disperse through com
 - [[the-model-t-comes-to-silicon-valley-evi-5a2a7354a725#Claim 2|The Model T Comes to Silicon Valley — claim 2]] forecasts market expansion and new firms as production gets cheaper.
 - [[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 1|Easier to build, Easier to replace? — claim 1]] predicts pressure to prove outcomes; [[easier-to-build-easier-to-replace-evi-cc6e7a684039#Claim 2|claim 2]] predicts a shift from access to accountability.
 - [[the-vibe-coding-trap-evi-6bc4abe83e11#Claim 1|The vibe coding trap — claim 1]] narrows near-term vulnerability to poorly differentiated SaaS.
+- [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 5|Collison on agents in the economy — claim 5]] predicts stronger rewards for quality; [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 6|claim 6]] predicts greater value for quality information as an inference-time complement.
+- [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 8|Collison on agents in the economy — claim 8]], [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 9|claim 9]], and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10|claim 10]] preserve the routing, allocation, and alignment uncertainties.
 
 ## Current assessment
 
 The dispute is not resolved at one level. Software production can commoditize while compute, distribution, proprietary context, or organizational integration concentrate. The key empirical task is to identify where the bottleneck—and therefore the rent—moves.
+
+Lower-cost buyer research could improve the payoff from genuine quality without making that advantage durable or distributing control over discovery. Test quality improvement, consumer matching, producer returns, and intermediary concentration separately rather than infer all four from better agent recommendations.
 
 ## Open questions
 
 - Which complements remain scarce after code generation becomes abundant?
 - Do open models reduce concentration or primarily lower application-layer entry costs?
 - How quickly do cost reductions translate into lower prices rather than higher margins?
+- Do agents redirect company investment from placement toward measurable quality, and who controls the evidence and ranking criteria they use?
 
 ## Relationships
 

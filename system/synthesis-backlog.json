@@ -380,6 +380,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "Algorithmic monoculture and synthetic information trash strengthen abundance and legibility mechanisms, while signal rewilding and relational access offer counter-mechanisms. No comparative attention distribution identifies who gains reach."
+        },
+        {
+          "source": "evi-278f30fb5682",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 7]] leaves product-demand convergence and dispersion unresolved. The source does not examine AI content abundance, creator legibility, or measured attention allocation, so its general consumer-market alternatives do not establish who gains reach in creator markets."
         }
       ],
       "resolution_target": null
@@ -673,6 +679,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source describes agents representing richer objectives and trade-offs, but does not distinguish inferred from explicitly supplied intent or examine visible control over memory, prediction, and action. It therefore does not test the claimed interface-friction and agency relationship."
+        },
+        {
+          "source": "evi-278f30fb5682",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 2]] predicts better consumer decisions and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10]] conditions the argument on consumer-oriented agents. Neither specifies inference-first interface behavior or tests visible control over memory, prediction, and action."
         }
       ],
       "resolution_target": null
@@ -1598,7 +1610,8 @@
       "surfaced_in": "wiki/hubs/creator-niches",
       "evidence": [
         "[[from-winner-take-all-to-win-and-help-win-the-original-vision-of-the-internet-is-making-a-comeback-evi-99ff71c7a9a4#Claim 1]]",
-        "[[the-economics-of-creativity-who-gets-paid-and-why-evi-faded797b9a5#Claim 1]]"
+        "[[the-economics-of-creativity-who-gets-paid-and-why-evi-faded797b9a5#Claim 1]]",
+        "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 7]]"
       ],
       "relevant_collections": [
         "power-to-creators-vibe",
@@ -1622,6 +1635,12 @@
           "date": "2026-07-14",
           "outcome": "qualified",
           "note": "The long-tail account strengthens aggregate intermediary capture, while contextual taste and distinctive viewpoints offer niche differentiation. No observed distribution across taste categories resolves category leadership or within-niche inequality."
+        },
+        {
+          "source": "evi-278f30fb5682",
+          "date": "2026-10-16",
+          "outcome": "qualified",
+          "note": "Claim 7 makes agent-mediated allocation explicitly two-sided: shared evaluations can amplify superstar effects, while eliciting distinct tastes can disperse demand. This qualifies any automatic inference from better matching to more category leaders. The source concerns products generally and supplies no category-leadership or within-niche reward distribution; the proposition remains open."
         }
       ],
       "resolution_target": null
@@ -1670,6 +1689,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source distinguishes a consumer-agent aggregation layer from bilateral market coordination, but does not examine occasional-use software, niche-tool discovery economics, adoption, or concentration of control. The market distinction cannot establish the proposition's software-specific effects."
+        },
+        {
+          "source": "evi-278f30fb5682",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 5]] predicts stronger rewards for product quality and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 9]] leaves demand-routing effects unresolved. Neither addresses occasional-use software economics, niche-tool adoption, or demonstrated concentration of agent-layer control. The broad purchasing forecast does not test the software-specific proposition."
         }
       ],
       "resolution_target": null
@@ -1870,6 +1895,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "The source adds a mechanism through which represented buyers and suppliers could jointly construct offers from objectives and constraints, extending machine coordination beyond access to fixed catalogues. It strengthens the coordination mechanism but neither observes activity moving out of firms nor compares network and firm outcomes; its procurement observatory reports participants rather than agentic markets."
+        },
+        {
+          "source": "evi-278f30fb5682",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 2]] and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 5]] concern better buyer decisions and changed rewards among firms. They do not describe bilateral offer formation, organizational boundary change, or economic activity moving from firms to networks."
         }
       ],
       "resolution_target": null
@@ -2430,6 +2461,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "Claims 31 and 38 place application direction inside demand, demonstration, competition, and data-rights institutions, while retaining creator control and compensation as consequential. This strengthens governance of development and institutional use beyond model performance. It does not establish commoditization, viable exit, a shift over time in governance effectiveness, or tested policy outcomes; cumulative qualified status is unchanged."
+        },
+        {
+          "source": "evi-278f30fb5682",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10]] treats consumer alignment as a condition and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 11]] expects it to be commercially successful. The source does not specify governance controls, establish commoditization, compare governance effectiveness, or resolve access, ownership, and exit."
         }
       ],
       "resolution_target": null
@@ -2863,6 +2900,12 @@
           "date": "2026-10-16",
           "outcome": "no_change",
           "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 22]] invites users to reshape agent interactions, but does not study agent-compatible infrastructure, machine-performance gains, inspection rights, recourse, or comparative agency effects. Editable presentation alone does not test the proposition."
+        },
+        {
+          "source": "evi-278f30fb5682",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 6]] predicts greater demand for quality information and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10]] requires consumer-oriented agents. Neither evaluates agent-compatible infrastructure, performance trade-offs, human inspection, or recourse, so the source does not test the proposition's claimed agency mechanism."
         }
       ],
       "resolution_target": null
