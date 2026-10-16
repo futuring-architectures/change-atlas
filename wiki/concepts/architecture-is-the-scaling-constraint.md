@@ -4,7 +4,7 @@ type: concept
 title: Architecture is the scaling constraint
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-07-14
+updated_at: 2026-10-16
 tags: ["architecture", "software-engineering", "scaling"]
 relationships:
   - type: supported_by
@@ -19,6 +19,10 @@ evidence:
   - "[[the-vibes-dont-scale-evi-e058bb26186a#Claim 2]]"
   - "[[ai-is-about-to-solve-a-problem-no-engineering-leader-expected-evi-72a467db0abd#Claim 1]]"
   - "[[asad-madni-and-the-life-saving-sensor-evi-623e53c05fee#Claim 2]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 2]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 6]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 8]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 21]]"
 ---
 
 # Architecture is the scaling constraint
@@ -30,6 +34,12 @@ When AI makes components, code, or variants abundant, the system's performance i
 ## Provenance
 
 Paul Stack argues that architecture matters more when teams can ship hundreds of commits. Matthew Denman's account moves the bottleneck from execution toward ideation. The Madni sensor case supplies an older analogue: subtractive constraints can demand more expertise than adding complexity.
+
+## Reuse as a test of scaling capability
+
+Stewart Gloster extends the constraint from code to decentralized agents and workflows. Locally sensible integrations can accumulate incompatible credential schemes, duplicated infrastructure, fragmented logs, and unowned dependencies. The proposed response is to make sound decisions reusable through common access, identity, logging, and approval capabilities: [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 2|creation and coordination]], [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 6|local choices and aggregate complexity]], and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 8|governance through reuse]].
+
+Her deployment N+1 test asks whether prior deployments make the next one easier, safer, more observable, and more efficient. Counting agents or integrations is therefore different from demonstrating cumulative capability. Compare similar workloads and consequences when applying the test; later deployments can be harder because their purposes differ: [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 21|the cumulative-deployment test]].
 
 ## Aliases and related terms
 
@@ -51,6 +61,7 @@ Paul Stack argues that architecture matters more when teams can ship hundreds of
 - [[the-vibes-dont-scale-evi-e058bb26186a#Claim 2|The Vibes Don’t Scale — claim 2]] argues that architectural constraints matter more at higher generation rates.
 - [[ai-is-about-to-solve-a-problem-no-engineering-leader-expected-evi-72a467db0abd#Claim 1|AI is about to solve a problem — claim 1]] forecasts ideation becoming scarce after execution accelerates.
 - [[asad-madni-and-the-life-saving-sensor-evi-623e53c05fee#Claim 2|Asad Madni and the Life-Saving Sensor — claim 2]] shows difficult judgment inside apparent simplicity.
+- [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 2|AI Is Making Systems Thinking More Valuable — claim 2]], [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 6|claim 6]], and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 8|claim 8]] connect easier local creation to coordination and reusable controls; [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 21|claim 21]] proposes testing cumulative leverage rather than deployment volume.
 
 ## Relationships
 

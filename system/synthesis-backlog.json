@@ -82,6 +82,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "The source proposes represented counterparties constructing offers through negotiation, but supplies no distributed stewardship practice, transfer of decision power, or comparison with conventional firms. Bilateral representation does not settle control of the agent or market infrastructure."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 5]] reports nontechnical departments building agents and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 7]] proposes inherited controls. Neither shows stewardship or decision power becoming distributed; a shared platform may enable local execution while retaining centralized rule-setting."
         }
       ],
       "resolution_target": null
@@ -1123,7 +1129,9 @@
         "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 7]]",
         "[[the-cognitive-revolution-when-machines-do-the-thinking-evi-45a1a23ce86b#Claim 11]]",
         "[[fire-ready-aim-evi-070971abc1c7#Claim 8]]",
-        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]"
+        "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 25]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 27]]"
       ],
       "relevant_collections": [
         "nature-of-the-firm-culture",
@@ -1257,6 +1265,12 @@
           "date": "2026-10-16",
           "outcome": "no_change",
           "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 14]] describes use-driven refinement and [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 16]] reports an experienced programmer directing changes without inspecting code. This personal hobby account does not observe organizational roles, decision rights, or a representative shift toward orchestration and exception handling."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 25 and 27 predict value moving toward systems-level design, context, authority, intervention, and accountability as AI performs more tasks. This strengthens the proposed direction of human work while retaining deep domain expertise; it supplies no measured role transition, employment, wage, or worker-experience comparison."
         }
       ],
       "resolution_target": null
@@ -2035,7 +2049,9 @@
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 5]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 15]]",
-        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17]]"
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 8]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 9]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2125,6 +2141,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "Claim 17 identifies an inspection burden hidden by high average speech-recognition accuracy: rare consequential errors can require proofreading every output. It strengthens a mechanism by which verification can absorb nominal production gains, but provides no measured time cost, organizational throughput, or proof that verification is the dominant constraint across AI-enabled firms."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 8 and 9 argue that case-by-case authority and access reviews may be outpaced by decentralized AI activity, motivating reusable controls. This strengthens a governance-review capacity mechanism, not a measured bottleneck in factual verification, source-code review, or organizational throughput. No review-rate or staffing comparison is supplied."
         }
       ],
       "resolution_target": null
@@ -2228,6 +2250,12 @@
           "date": "2026-10-16",
           "outcome": "no_change",
           "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 18]] reports one experienced programmer's perceived weakening and aversion to unaided coding. It supplies no entry-level employment removal, apprenticeship comparison, or delayed expert-supply effect, so it cannot establish the labor-pipeline proposition."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 22]] asks how expertise will be renewed when AI takes on work through which it was acquired. It does not identify removed entry-level jobs or measure a delayed expert-supply effect, so the labor-pipeline proposition remains unchanged."
         }
       ],
       "resolution_target": null
@@ -2364,7 +2392,11 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 14]]",
         "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 31]]",
-        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38]]"
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 38]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 12]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 13]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 23]]"
       ],
       "relevant_collections": [
         "how-we-learn-architectures",
@@ -2467,6 +2499,12 @@
           "date": "2026-10-16",
           "outcome": "no_change",
           "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10]] treats consumer alignment as a condition and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 11]] expects it to be commercially successful. The source does not specify governance controls, establish commoditization, compare governance effectiveness, or resolve access, ownership, and exit."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 12, 13, 19, and 23 connect delegated authority to execution-time controls, accountable owners, intervention, and context-dependent organizational decisions. This strengthens deployment and institutional governance as distinct from model capability, but establishes neither commoditization nor comparative governance outcomes, viable exit, or distributed ownership. Cumulative qualified status is retained."
         }
       ],
       "resolution_target": null
@@ -2555,7 +2593,10 @@
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]",
         "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 6]]",
-        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24]]"
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 24]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 23]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 25]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2663,6 +2704,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "Claim 6 argues for task reallocation and organizational learning; claim 24 makes that concrete through a proposed information-to-targeted-teaching workflow rather than whole-role substitution. This strengthens the redesign mechanism, but the source offers no completed efficacy result, decision-right comparison, or organizational performance test."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 19, 23, and 25 explicitly move design from task automation toward dependencies, decision rights, authority, and multidisciplinary workflow redesign. This strengthens the redesign mechanism but supplies no implemented comparison with inherited-role insertion or measured organizational performance advantage."
         }
       ],
       "resolution_target": null
@@ -2706,7 +2753,11 @@
         "[[fire-ready-aim-evi-070971abc1c7#Claim 9]]",
         "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 11]]",
         "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 15]]",
-        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17]]"
+        "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 17]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 2]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 6]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 8]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 21]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2790,6 +2841,12 @@
           "date": "2026-10-09",
           "outcome": "strengthened",
           "note": "Claims 11, 15, and 17 pair faster-than-expected model advances with lagging applications, missing distribution and feedback complements, and costly last-mile inspection. They strengthen complements and assurance as constraints beyond technical capability, but do not measure component-generation speed, relative architectural value, or comparative institutional absorption."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 2, 6, 8, and 21 connect easier capability creation to multiplying dependencies and make reusable controls and cumulative deployment leverage architectural responses. This strengthens the architecture, assurance, and absorption mechanism beyond component production, but provides no comparative relative-value or deployment-series measurement."
         }
       ],
       "resolution_target": null
@@ -2828,7 +2885,10 @@
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 10]]",
         "[[the-network-always-beats-the-castle-evi-1a4b91886b9a#Claim 11]]",
         "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8]]",
-        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]"
+        "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 13]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 20]]"
       ],
       "relevant_collections": [
         "how-we-learn-sustaining",
@@ -2906,6 +2966,12 @@
           "date": "2026-10-16",
           "outcome": "no_change",
           "note": "[[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 6]] predicts greater demand for quality information and [[patrick-collison-patrickc-on-x-evi-278f30fb5682#Claim 10]] requires consumer-oriented agents. Neither evaluates agent-compatible infrastructure, performance trade-offs, human inspection, or recourse, so the source does not test the proposition's claimed agency mechanism."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 13, 19, and 20 require observability, revocation, stopping power, and responsibility matched to information and effective control. This strengthens inspection and intervention as part of agent infrastructure rather than an optional human overlay. The source does not measure agency loss, affected-party recourse, or comparative machine-performance trade-offs."
         }
       ],
       "resolution_target": null
@@ -2935,7 +3001,9 @@
         "[[to-fde-or-not-to-fde-evi-efcf1dd5486b#Claim 10]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 3]]",
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 4]]",
-        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 5]]"
+        "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 5]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 21]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 22]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -3012,6 +3080,12 @@
           "date": "2026-10-09",
           "outcome": "no_change",
           "note": "[[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 21]] values new skills and expertise and [[will-ai-replace-workers-not-if-we-build-it-right-evi-d97c890f5391#Claim 22]] predicts better outcomes. Neither proposes measuring renewal capacity alongside throughput or tests whether that measurement improves long-run organizational capability."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claims 21 and 22 pair a cumulative deployment test with the requirement to maintain human capabilities that can weaken behind good current performance. This strengthens renewal and reusable capacity as distinct from deployment volume, but supplies no validated renewal measure or comparative long-run organizational outcome."
         }
       ],
       "resolution_target": null
@@ -3040,7 +3114,8 @@
         "[[being-wrong-is-still-one-of-the-best-mechanisms-by-which-you-become-less-wrong-evi-48605f3d89a8#Claim 6]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 4]]",
         "[[the-year-ai-came-for-us-evi-15cd0e183003#Claim 12]]",
-        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 18]]"
+        "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 18]]",
+        "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 22]]"
       ],
       "relevant_collections": [
         "how-we-learn-transitions"
@@ -3123,6 +3198,12 @@
           "date": "2026-10-16",
           "outcome": "strengthened",
           "note": "Claim 18 reports felt programming erosion and growing aversion to unaided coding alongside useful agent-built tools. This strengthens a reflective warning that output success can coexist with reduced practice or willingness, but does not establish measured competence loss, delayed causal effects, or a tested preservation strategy."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "strengthened",
+          "note": "Claim 22 explicitly separates good present performance from gradual erosion of capabilities the system will need later and asks how expertise is replenished when AI takes over practice. This strengthens the hidden-capacity-loss mechanism conceptually, but does not observe delayed loss, isolate its cause, or test preserved challenge, verification, and participation."
         }
       ],
       "resolution_target": null
@@ -3218,6 +3299,12 @@
           "date": "2026-10-16",
           "outcome": "no_change",
           "note": "[[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 8]] describes prewriting preferences and [[ask-for-what-you-want-is-a-key-skill-for-the-21st-century-evi-1ec76f5e388c#Claim 10]] bounds a specification. This personal guidance document does not establish owned, testable organizational context, its relative asset value, or a comparison with documentation volume."
+        },
+        {
+          "source": "evi-d698feaae662",
+          "date": "2026-10-16",
+          "outcome": "no_change",
+          "note": "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19]] maps owners and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 23]] requires domain context for authority decisions. The source does not compare owned and testable context with documentation volume or demonstrate its compounding organizational asset value under machine-speed production."
         }
       ],
       "resolution_target": null

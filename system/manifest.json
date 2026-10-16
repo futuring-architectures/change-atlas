@@ -3968,6 +3968,23 @@
       "source_url": "https://humanistreview.ai/issue-1/acemoglu-ai-replace-workers/",
       "status": "complete"
     },
+    "raw/web/2026-10-16-ai-is-making-systems-thinking-more-valuable.md": {
+      "affected_wiki": [
+        "wiki/concepts/architecture-is-the-scaling-constraint.md",
+        "wiki/frameworks/ai-native-organizational-trust-stack.md",
+        "wiki/frameworks/sustaining-capacity-loop.md",
+        "wiki/questions/what-replaces-human-review-when-software-exceeds-human-attention.md"
+      ],
+      "canonical_url": "https://camilleesq.substack.com/p/ai-is-making-systems-thinking-more",
+      "claim_count": 27,
+      "completed_at": "2026-10-16",
+      "evidence_file": "evidence/sources/ai-is-making-systems-thinking-more-valuable-evi-d698feaae662.md",
+      "evidence_id": "evi-d698feaae662",
+      "mode": "steady_state_url",
+      "raw_sha256": "032851aef16a5f2fb55d15c9fa18cf699633872a651dcf7fd1d91af932a52c3a",
+      "source_url": "https://camilleesq.substack.com/p/ai-is-making-systems-thinking-more",
+      "status": "complete"
+    },
     "raw/web/2026-10-16-ask-for-what-you-want-is-a-key-skill-for-the-21st-century.md": {
       "affected_wiki": [
         "wiki/concepts/intent-as-executable-material.md",

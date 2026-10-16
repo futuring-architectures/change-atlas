@@ -368,3 +368,8 @@ Append-only record of ingestion, reconciliation, linting, and system operations.
 
 - Captured and finalized `raw/web/2026-10-16-patrick-collison-patrickc-on-x.md` as `evidence/sources/patrick-collison-patrickc-on-x-evi-278f30fb5682.md` with 12 atomic claim(s).
 - Assessed the source against the maintained Wiki and private proposition backlog; 3 Wiki page(s) cite the resulting Evidence.
+
+## [2026-10-16] evidence | Ingest AI Is Making Systems Thinking More Valuable
+
+- Captured and finalized `raw/web/2026-10-16-ai-is-making-systems-thinking-more-valuable.md` as `evidence/sources/ai-is-making-systems-thinking-more-valuable-evi-d698feaae662.md` with 27 atomic claim(s).
+- Assessed the source against the maintained Wiki and private proposition backlog; 4 Wiki page(s) cite the resulting Evidence.

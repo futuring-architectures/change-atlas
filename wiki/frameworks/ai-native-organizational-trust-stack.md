@@ -4,7 +4,7 @@ type: framework
 title: AI-native organizational trust stack
 status: candidate
 created_at: 2026-07-14
-updated_at: 2026-09-06
+updated_at: 2026-10-16
 tags:
   - ai-agents
   - organizational-trust
@@ -35,6 +35,13 @@ evidence:
   - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11]]"
   - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13]]"
   - "[[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 7]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 12]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 13]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 14]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 20]]"
+  - "[[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 23]]"
 ---
 
 # AI-native organizational trust stack
@@ -57,6 +64,10 @@ Specify task-level success, workflow-level value, failure modes, and independent
 
 State who can set goals, change rules, grant permissions, inspect actions, stop execution, and accept consequences. Name who owns each production agent, who monitors its behavior, and who has shutdown authority. Cross-boundary redesign may require executive authority, but operators and affected parties must have more than nominal participation: specify how tacit knowledge, objections, employment consequences, and refusal or appeal enter decisions. Keep recourse and accountability legible when many agents and services interact.
 
+Carry each authority decision into the execution environment. Stewart Gloster calls this Authority-Centered Enforcement: identity identifies the actor, permissions constrain access and action, runtime controls bound behavior, and observability and revocation support intervention. Distinguish retrieval, recommendation, and independent action when granting authority; permission to read is not permission to write or spend: [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 12|Authority-Centered Enforcement]], [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 13|the enforcement chain]], and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 14|calibrating action classes]].
+
+Make tested controls reusable instead of asking every team to recreate identity, credentials, logging, and approvals. Before an incident, distinguish outcome ownership, authority grants, data ownership, monitoring, stopping power, and responsibility for correction. Each responsibility needs matching information and effective control: [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 7|shared operating patterns]], [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19|mapping responsibilities]], and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 20|responsibility and control]].
+
 ### 4. Learning and correction
 
 Monitor drift, incidents, exceptions, and changes in models or work. Maintain observability and incident response so unexpected action can be reconstructed, contained, and used for correction. Feed outcomes back into data, evaluation, workflow, and policy rather than treating deployment as completion.
@@ -74,6 +85,7 @@ Identify decisions requiring taste, interpretation, responsibility, development,
 5. Increase autonomy only when evidence shows that monitoring and correction remain effective at the proposed scale.
 6. Revalidate after model, data, objective, workflow, or consequence changes.
 7. Before launch, ask whether the organization is ready to operate the agent: shared vocabulary, named ownership, monitoring, shutdown authority, and incident response must all have operational answers.
+8. For every consequential authority grant, identify the enforcing control, its owner, and how it can be tested and revoked. Shared infrastructure does not decide the appropriate authority: combine practitioner context with business, technical, security, risk, and legal judgment: [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 23|context-dependent authority decisions]].
 
 ## Worked example
 
@@ -86,6 +98,7 @@ An agent drafting internal research may appear successful at the artifact layer.
 - Human judgment can protect quality or become a bottleneck and liability sink.
 - The Framework does not determine whether automation gains are distributed fairly.
 - Self-reported vendor outcomes can seed evaluation hypotheses but should not define success criteria or verify the vendor's own causal impact.
+- Reusable controls can propagate excessive permissions or stale assumptions across deployments; inheritance needs testing and correction, not just standardization.
 
 ## Evidence
 
@@ -99,6 +112,8 @@ An agent drafting internal research may appear successful at the artifact layer.
 - [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 8|Applied AI Doesn't Work — claim 8]] ties automation posture to judgment, evidence, consequence, and verification burden; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 9|claim 9]] requires baselined workflow measures.
 - [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 11|Applied AI Doesn't Work — claim 11]] joins executive authority with operator participation while leaving actual decision power open; [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 13|claim 13]] adds re-evaluation after model substitution.
 - [[applied-ai-doesnt-work-evi-f6f3996faaab#Claim 15|Applied AI Doesn't Work — claim 15]] reports vendor-selected cost, time, revenue, and risk outcomes whose attribution and generalizability remain unverified.
+- [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 12|AI Is Making Systems Thinking More Valuable — claim 12]], [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 13|claim 13]], and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 14|claim 14]] connect deliberate authority with identity, permissions, runtime constraints, observability, and revocation.
+- [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 7|AI Is Making Systems Thinking More Valuable — claim 7]], [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19|claim 19]], and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 20|claim 20]] add inherited controls and responsibility matched to effective control; [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 23|claim 23]] keeps organizational purpose and multidisciplinary judgment distinct from platform provision.
 
 ## Relationships
 

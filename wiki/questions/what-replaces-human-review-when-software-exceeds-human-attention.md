@@ -4,7 +4,7 @@ type: question
 title: What replaces human review when software exceeds human attention?
 status: open
 created_at: 2026-07-14
-updated_at: 2026-07-24
+updated_at: 2026-10-16
 tags:
   - software-assurance
   - code-review
@@ -38,6 +38,8 @@ The candidate software-work Trend moves people from writing and reading implemen
 - [[ai-workslop-shifts-cognitive-labor-to-recipients|The workslop Signal]] shows that nominal review removal can reappear as unplanned downstream verification and repair.
 - [[earning-judgment-evi-207760005515#Claim 4|Earning Judgment — claim 4]] proposes an evidence-bearing outer loop: humans decide what deserves attention, inspect diffs, tests, logs, and rationale, approve or block, and carry the consequence.
 - [[earning-judgment-evi-207760005515#Claim 5|Earning Judgment — claim 5]] adds wrong logs, explicit eval rubrics, separate specification and verification, and autonomy calibrated to reversibility and consequence.
+- Stewart Gloster poses a related capacity problem at the governance layer: decisions about access, automation, and authority may outgrow centralized case-by-case review. She proposes inherited operating controls, with identity, scoped permissions, runtime constraints, observability, and revocation enforcing decisions where action occurs: [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 9|the review-capacity forecast]], [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 7|reusable controls]], and [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 13|enforceable authority]]. This concerns operational authority, not proof that generated code can safely bypass comprehension or independent evaluation.
+- [[ai-is-making-systems-thinking-more-valuable-evi-d698feaae662#Claim 19|AI Is Making Systems Thinking More Valuable — claim 19]] separates outcome ownership, authority grants, data ownership, monitoring, stopping power, and responsibility for correction before an incident.
 
 ## Missing or discriminating evidence
 
@@ -45,12 +47,14 @@ The candidate software-work Trend moves people from writing and reading implemen
 - Assurance primitives that test behavior, invariants, provenance, dependencies, and blast radius independently of the generator.
 - Evidence about which systems remain too consequential or novel to ship without human comprehension.
 - Accountability mechanisms when no person can explain the implementation line by line.
+- Evidence that inherited controls enforce intended limits across workflows, including revocation, exception paths, and common failures in shared infrastructure.
 
 ## Suggested next sources or actions
 
 - Collect production incident reports from agent-generated systems.
 - Compare property testing, formal methods, sandboxing, staged rollout, observability, and independent-agent review.
 - Track both code-reading coverage and outcome measures so lower review does not become a self-validating efficiency target.
+- Compare case-by-case approval with tested reusable constraints and risk-based escalation, while measuring bypasses, intervention effectiveness, and downstream work.
 
 ## Resolution
 
